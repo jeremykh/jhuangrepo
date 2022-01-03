@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 38,
+    "category" : "Security",
+    "comment" : "User conditions for stream access",
+    "createdDate" : "2021-06-24T13:41:13.096Z",
+    "disabled" : false,
+    "id" : "b2e07a49-8f85-4376-b910-160fb00d1806",
+    "name" : "Security rule for access to \"Testing\"",
+    "resourceFilter" : "Stream_ef778d4d-1044-426a-8db0-047e12500afb",
+    "rule" : "((user.userId=\"sa_repository\"))",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "00000000-0000-0000-0000-000000000000",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Custom",
+    "version" : 0
+  },
+  "hidden" : false,
+  "identity" : "b2e07a49-8f85-4376-b910-160fb00d1806,SecurityRule;",
+  "key" : {
+    "id" : 152
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/Security rule for access to \"Testing\"",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "Security rule for access to \"Testing\"",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 152 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}
