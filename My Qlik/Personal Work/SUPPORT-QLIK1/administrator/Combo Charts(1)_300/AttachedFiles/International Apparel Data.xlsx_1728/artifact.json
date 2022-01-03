@@ -1,0 +1,44 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "fdb563d1c84e0e45e15c64f55e3497e26736295f",
+      "contentName" : "content",
+      "contentOid" : 19086,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "path" : "International Apparel Data.xlsx"
+  },
+  "hidden" : false,
+  "identity" : "International Apparel Data.xlsx,AttachedFile;083c61a6-d8ba-41a9-b953-1d53a19f313b,App;",
+  "key" : {
+    "id" : 1728
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Combo Charts(1)/AttachedFiles/International Apparel Data.xlsx",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikAttachedFile/QlikAttachedFile",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "International Apparel Data.xlsx",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 414
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 300, 414, 1728 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "AttachedFile",
+  "shouldVersion" : true,
+  "subtype" : "QlikAttachedFile",
+  "type" : "QlikArtifact"
+}

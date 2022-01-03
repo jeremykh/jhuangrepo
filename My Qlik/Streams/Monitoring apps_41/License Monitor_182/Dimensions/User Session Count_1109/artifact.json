@@ -1,0 +1,55 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qDim" : {
+        "coloring" : {
+          "changeHash" : "0.4552457013633102",
+          "colorMapRef" : "LaDPW"
+        },
+        "qFieldDefs" : [ "=Num(aggr(count(Distinct proxy_session_id_app_id),UserId),'#,##0')" ],
+        "qFieldLabels" : [ "User Session Count" ],
+        "qGrouping" : "N",
+        "title" : "User Session Count"
+      },
+      "qInfo" : {
+        "qId" : "LaDPW",
+        "qType" : "dimension"
+      },
+      "qMetaDef" : {
+        "description" : "Count of sessions (defined by licensed sessions) per user.",
+        "tags" : [ ],
+        "title" : "User Session Count"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "LaDPW,Dimension;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1109
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Dimensions/User Session Count",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikDimension/QlikDimension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "User Session Count",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 263
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 263, 1109 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Dimension",
+  "shouldVersion" : true,
+  "subtype" : "QlikDimension",
+  "type" : "QlikArtifact"
+}

@@ -1,0 +1,44 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "63c2fbb10d0e8738aa1327a31f2eab7fa2979b8a",
+      "contentName" : "content",
+      "contentOid" : 19090,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "path" : "cityAliases.qvd"
+  },
+  "hidden" : false,
+  "identity" : "cityAliases.qvd,AttachedFile;083c61a6-d8ba-41a9-b953-1d53a19f313b,App;",
+  "key" : {
+    "id" : 1732
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Combo Charts(1)/AttachedFiles/cityAliases.qvd",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikAttachedFile/QlikAttachedFile",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "cityAliases.qvd",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 414
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 300, 414, 1732 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "AttachedFile",
+  "shouldVersion" : true,
+  "subtype" : "QlikAttachedFile",
+  "type" : "QlikArtifact"
+}

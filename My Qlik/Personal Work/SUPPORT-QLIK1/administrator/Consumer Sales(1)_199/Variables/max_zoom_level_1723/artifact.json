@@ -1,0 +1,48 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qDefinition" : "9",
+      "qInfo" : {
+        "qId" : "737cdd37-efc9-4b42-bcf0-3a640c9f1936",
+        "qType" : "variable"
+      },
+      "qMetaDef" : { },
+      "qName" : "max_zoom_level",
+      "qNumberPresentation" : {
+        "qType" : "U",
+        "qUseThou" : 0,
+        "qnDec" : 10
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "737cdd37-efc9-4b42-bcf0-3a640c9f1936,Variable;baf3d4d4-e230-4461-819d-9f1e3f4985e0,App;",
+  "key" : {
+    "id" : 1723
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Consumer Sales(1)/Variables/max_zoom_level",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikVariable/QlikVariable",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "max_zoom_level",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 345
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 199, 345, 1723 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Variable",
+  "shouldVersion" : true,
+  "subtype" : "QlikVariable",
+  "type" : "QlikArtifact"
+}

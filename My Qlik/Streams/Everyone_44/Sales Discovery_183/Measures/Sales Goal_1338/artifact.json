@@ -1,0 +1,57 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qInfo" : {
+        "qId" : "kpNAF",
+        "qType" : "measure"
+      },
+      "qMeasure" : {
+        "qActiveExpression" : 0,
+        "qDef" : "Sum ([YTD Budget Amount])",
+        "qExpressions" : [ ],
+        "qGrouping" : "N",
+        "qLabel" : "Sales Goal",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qUseThou" : 0,
+          "qnDec" : 10
+        }
+      },
+      "qMetaDef" : {
+        "description" : "Sales amount last year YTD (Year-to-date is a period, starting from the beginning of the current year and continuing up to the present day).",
+        "tags" : [ "Sales" ],
+        "title" : "Sales Goal"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "kpNAF,Measure;3a4cdc64-c7f3-4555-b4b1-10a41056730a,App;",
+  "key" : {
+    "id" : 1338
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Sales Discovery/Measures/Sales Goal",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikMeasure/QlikMeasure",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Sales Goal",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 274
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 183, 274, 1338 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Measure",
+  "shouldVersion" : true,
+  "subtype" : "QlikMeasure",
+  "type" : "QlikArtifact"
+}

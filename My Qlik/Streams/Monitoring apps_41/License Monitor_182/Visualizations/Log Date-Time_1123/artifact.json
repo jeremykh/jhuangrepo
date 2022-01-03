@@ -1,0 +1,210 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qChildren" : [ {
+        "qChildren" : [ ],
+        "qProperty" : {
+          "footnote" : "",
+          "qInfo" : {
+            "qId" : "3c7a0992-91ac-44ab-8d05-2a527e4d67c0",
+            "qType" : "listbox"
+          },
+          "qListObjectDef" : {
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "pCePT",
+              "qActiveField" : 0,
+              "qFieldDefs" : [ ],
+              "qFieldLabels" : [ ],
+              "qGrouping" : "N",
+              "qNumberPresentations" : [ ],
+              "qSortCriterias" : [ {
+                "qExpression" : { },
+                "qSortByAscii" : 1,
+                "qSortByLoadOrder" : 1,
+                "qSortByNumeric" : 1,
+                "qSortByState" : 1
+              } ]
+            },
+            "qExpressions" : [ ],
+            "qFrequencyMode" : "N",
+            "qInitialDataFetch" : [ ],
+            "qLibraryId" : "vcPdd",
+            "qOtherTotalSpec" : { },
+            "qShowAlternatives" : true
+          },
+          "qMetaDef" : { },
+          "showDetails" : false,
+          "showTitles" : true,
+          "subtitle" : "",
+          "title" : "Timeframe",
+          "visualization" : "listbox"
+        }
+      }, {
+        "qChildren" : [ ],
+        "qProperty" : {
+          "footnote" : "",
+          "qInfo" : {
+            "qId" : "411efc63-c7b6-4778-8cab-761e04ddae67",
+            "qType" : "listbox"
+          },
+          "qListObjectDef" : {
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "tAmK",
+              "qActiveField" : 0,
+              "qFieldDefs" : [ "Month" ],
+              "qFieldLabels" : [ "Month" ],
+              "qGrouping" : "N",
+              "qNumberPresentations" : [ ],
+              "qSortCriterias" : [ {
+                "qExpression" : { },
+                "qSortByAscii" : 1,
+                "qSortByLoadOrder" : 1,
+                "qSortByNumeric" : 1,
+                "qSortByState" : 1
+              } ]
+            },
+            "qExpressions" : [ ],
+            "qFrequencyMode" : "N",
+            "qInitialDataFetch" : [ ],
+            "qOtherTotalSpec" : { },
+            "qShowAlternatives" : true
+          },
+          "qMetaDef" : { },
+          "showTitles" : true,
+          "subtitle" : "",
+          "title" : "Month",
+          "visualization" : "listbox"
+        }
+      }, {
+        "qChildren" : [ ],
+        "qProperty" : {
+          "footnote" : "",
+          "qInfo" : {
+            "qId" : "rpkYXqJ",
+            "qType" : "listbox"
+          },
+          "qListObjectDef" : {
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "KdkYj",
+              "qActiveField" : 0,
+              "qFieldDefs" : [ "Week Beginning" ],
+              "qFieldLabels" : [ "Week Beginning" ],
+              "qGrouping" : "N",
+              "qNumberPresentations" : [ ],
+              "qSortCriterias" : [ {
+                "qExpression" : { },
+                "qSortByAscii" : 1,
+                "qSortByLoadOrder" : 1,
+                "qSortByNumeric" : 1,
+                "qSortByState" : 1
+              } ]
+            },
+            "qExpressions" : [ ],
+            "qFrequencyMode" : "N",
+            "qInitialDataFetch" : [ ],
+            "qOtherTotalSpec" : { },
+            "qShowAlternatives" : true
+          },
+          "qMetaDef" : { },
+          "showTitles" : true,
+          "subtitle" : "",
+          "title" : "Week Beginning",
+          "visualization" : "listbox"
+        }
+      }, {
+        "qChildren" : [ ],
+        "qProperty" : {
+          "footnote" : "",
+          "qInfo" : {
+            "qId" : "34a0ac52-b0b3-430a-a262-815542953946",
+            "qType" : "listbox"
+          },
+          "qListObjectDef" : {
+            "qDef" : {
+              "autoSort" : false,
+              "cId" : "VXjmz",
+              "qActiveField" : 0,
+              "qFieldDefs" : [ "Date" ],
+              "qFieldLabels" : [ "Date" ],
+              "qGrouping" : "N",
+              "qNumberPresentations" : [ ],
+              "qSortCriterias" : [ {
+                "qExpression" : { },
+                "qSortByAscii" : -1,
+                "qSortByLoadOrder" : 1,
+                "qSortByNumeric" : -1,
+                "qSortByState" : 1
+              } ]
+            },
+            "qExpressions" : [ ],
+            "qFrequencyMode" : "N",
+            "qInitialDataFetch" : [ ],
+            "qOtherTotalSpec" : { },
+            "qShowAlternatives" : true
+          },
+          "qMetaDef" : { },
+          "showTitles" : true,
+          "subtitle" : "",
+          "title" : "Date",
+          "visualization" : "listbox"
+        }
+      } ],
+      "qProperty" : {
+        "dimensions" : [ ],
+        "footnote" : "",
+        "metadata" : { },
+        "qChildListDef" : {
+          "qData" : {
+            "info" : "/qInfo"
+          }
+        },
+        "qInfo" : {
+          "qId" : "PdfSmr",
+          "qType" : "masterobject"
+        },
+        "qMetaDef" : {
+          "tags" : [ ],
+          "title" : "Log Date-Time"
+        },
+        "showTitles" : false,
+        "subtitle" : "",
+        "title" : "Log Date-Time",
+        "visualization" : "filterpane",
+        "visualizationType" : "filterpane"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "PdfSmr,Visualization;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1123
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Visualizations/Log Date-Time",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikVisualization/QlikVisualization",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Log Date-Time",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 269
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 269, 1123 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Visualization",
+  "shouldVersion" : true,
+  "subtype" : "QlikVisualization",
+  "type" : "QlikArtifact"
+}

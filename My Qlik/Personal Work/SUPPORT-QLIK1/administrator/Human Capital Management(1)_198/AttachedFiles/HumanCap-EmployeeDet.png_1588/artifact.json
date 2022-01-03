@@ -1,0 +1,44 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "f4e981829598d02125e654f17f0cb7edf390ff84",
+      "contentName" : "content",
+      "contentOid" : 18666,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "path" : "HumanCap-EmployeeDet.png"
+  },
+  "hidden" : false,
+  "identity" : "HumanCap-EmployeeDet.png,AttachedFile;d5856b5e-46b8-4254-86dd-0e2e1ef086a8,App;",
+  "key" : {
+    "id" : 1588
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Human Capital Management(1)/AttachedFiles/HumanCap-EmployeeDet.png",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikAttachedFile/QlikAttachedFile",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "HumanCap-EmployeeDet.png",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 328
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 198, 328, 1588 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "AttachedFile",
+  "shouldVersion" : true,
+  "subtype" : "QlikAttachedFile",
+  "type" : "QlikArtifact"
+}

@@ -1,0 +1,386 @@
+{
+  "qProp" : {
+    "qInfo" : {
+      "qId" : "ppFzLp",
+      "qType" : "snapshot"
+    },
+    "qMetaDef" : {
+      "title" : "Average Sales Amount per Product Category",
+      "description" : "",
+      "annotation" : ""
+    },
+    "sheetId" : "cHKQt",
+    "creationDate" : "2016-10-31T18:00:31.510Z",
+    "qSelectionInfo" : { },
+    "qHyperCube" : {
+      "qSize" : {
+        "qcx" : 2,
+        "qcy" : 8
+      },
+      "qDimensionInfo" : [ {
+        "qFallbackTitle" : "Product Category",
+        "qApprMaxGlyphCount" : 15,
+        "qCardinal" : 8,
+        "qSortIndicator" : "A",
+        "qGroupFallbackTitles" : [ "Product Category" ],
+        "qGroupPos" : 0,
+        "qStateCounts" : {
+          "qLocked" : 0,
+          "qSelected" : 0,
+          "qOption" : 8,
+          "qDeselected" : 0,
+          "qAlternative" : 0,
+          "qExcluded" : 0,
+          "qSelectedExcluded" : 0,
+          "qLockedExcluded" : 0
+        },
+        "qTags" : [ "$ascii", "$text" ],
+        "qDimensionType" : "D",
+        "qGrouping" : "N",
+        "qNumFormat" : {
+          "qType" : "R",
+          "qnDec" : 14,
+          "qUseThou" : 1,
+          "qFmt" : "##############",
+          "qDec" : "."
+        },
+        "qIsAutoFormat" : true,
+        "qGroupFieldDefs" : [ "CategoryName" ],
+        "qMin" : "NaN",
+        "qMax" : "NaN",
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qCardinalities" : {
+          "qCardinal" : 0,
+          "qHypercubeCardinal" : 0,
+          "qAllValuesCardinal" : -1
+        },
+        "autoSort" : true,
+        "cId" : "PkSpYNa",
+        "othersLabel" : "Others"
+      } ],
+      "qMeasureInfo" : [ {
+        "qFallbackTitle" : "Average Sales",
+        "qApprMaxGlyphCount" : 6,
+        "qCardinal" : 0,
+        "qSortIndicator" : "A",
+        "qNumFormat" : {
+          "qType" : "M",
+          "qnDec" : 2,
+          "qUseThou" : 0,
+          "qFmt" : "$#,##0;($#,##0)",
+          "qDec" : ".",
+          "qThou" : ","
+        },
+        "qMin" : 248.01741293532328,
+        "qMax" : 2148.036656151419,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qTrendLines" : [ ],
+        "autoSort" : false,
+        "cId" : "LpCxPam",
+        "numFormatFromTemplate" : true
+      } ],
+      "qEffectiveInterColumnSortOrder" : [ 1, 0 ],
+      "qGrandTotalRow" : [ {
+        "qText" : "$821",
+        "qNum" : 820.9706215469618,
+        "qElemNumber" : -1,
+        "qState" : "X",
+        "qIsTotalCell" : true
+      } ],
+      "qDataPages" : [ {
+        "qMatrix" : [ [ {
+          "qText" : "Bath Clothes",
+          "qNum" : "NaN",
+          "qElemNumber" : 3,
+          "qState" : "O"
+        }, {
+          "qText" : "$248",
+          "qNum" : 248.01741293532328,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Babywear",
+          "qNum" : "NaN",
+          "qElemNumber" : 7,
+          "qState" : "O"
+        }, {
+          "qText" : "$433",
+          "qNum" : 432.8674528301887,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Men´s Clothes",
+          "qNum" : "NaN",
+          "qElemNumber" : 0,
+          "qState" : "O"
+        }, {
+          "qText" : "$447",
+          "qNum" : 447.42829581993584,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Sportwear",
+          "qNum" : "NaN",
+          "qElemNumber" : 2,
+          "qState" : "O"
+        }, {
+          "qText" : "$511",
+          "qNum" : 511.4148511383536,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Ladies´Footwear",
+          "qNum" : "NaN",
+          "qElemNumber" : 4,
+          "qState" : "O"
+        }, {
+          "qText" : "$742",
+          "qNum" : 741.5518090452262,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Children´s wear",
+          "qNum" : "NaN",
+          "qElemNumber" : 6,
+          "qState" : "O"
+        }, {
+          "qText" : "$866",
+          "qNum" : 865.5225510204081,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Men´s Footwear",
+          "qNum" : "NaN",
+          "qElemNumber" : 5,
+          "qState" : "O"
+        }, {
+          "qText" : "$1,600",
+          "qNum" : 1599.7396178343947,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Womens wear",
+          "qNum" : "NaN",
+          "qElemNumber" : 1,
+          "qState" : "O"
+        }, {
+          "qText" : "$2,148",
+          "qNum" : 2148.036656151419,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ] ],
+        "qTails" : [ {
+          "qUp" : 0,
+          "qDown" : 0
+        } ],
+        "qArea" : {
+          "qLeft" : 0,
+          "qTop" : 0,
+          "qWidth" : 2,
+          "qHeight" : 8
+        }
+      } ],
+      "qPivotDataPages" : [ ],
+      "qStackedDataPages" : [ ],
+      "qMode" : "S",
+      "qNoOfLeftDims" : -1,
+      "qTreeNodesOnDim" : [ ],
+      "qColumnOrder" : [ ],
+      "customErrorMessage" : {
+        "calcCond" : ""
+      }
+    },
+    "refLine" : {
+      "refLines" : [ {
+        "show" : true,
+        "label" : "Overall Average",
+        "color" : 7,
+        "refLineExpr" : {
+          "value" : 820.9706215,
+          "label" : "820.97062"
+        },
+        "cId" : "fPLjtks"
+      } ]
+    },
+    "showTitles" : true,
+    "title" : "Average Sales Amount per Product Category",
+    "subtitle" : "Number of products: 8",
+    "footnote" : "Chart created 15-Oct-2015",
+    "barGrouping" : {
+      "grouping" : "grouped"
+    },
+    "orientation" : "horizontal",
+    "gridLine" : {
+      "auto" : false,
+      "spacing" : 0
+    },
+    "dataPoint" : {
+      "showLabels" : true
+    },
+    "color" : {
+      "auto" : false,
+      "mode" : "primary",
+      "singleColor" : 6,
+      "persistent" : false,
+      "expressionIsColor" : true,
+      "expressionLabel" : "",
+      "measureScheme" : "sg",
+      "reverseScheme" : false,
+      "dimensionScheme" : "12",
+      "autoMinMax" : true,
+      "measureMin" : 0,
+      "measureMax" : 10,
+      "dimensionId" : ""
+    },
+    "legend" : {
+      "show" : true,
+      "dock" : "auto",
+      "showTitle" : true
+    },
+    "dimensionAxis" : {
+      "show" : "all",
+      "label" : "auto",
+      "dock" : "near"
+    },
+    "measureAxis" : {
+      "show" : "all",
+      "dock" : "far",
+      "spacing" : 0.5,
+      "autoMinMax" : true,
+      "minMax" : "min",
+      "min" : 0,
+      "max" : 10
+    },
+    "visualization" : "barchart",
+    "qHasSoftPatches" : true,
+    "snapshotData" : {
+      "object" : {
+        "size" : {
+          "w" : 1705,
+          "h" : 689
+        }
+      },
+      "rtl" : false,
+      "content" : {
+        "chartData" : {
+          "legendScrollOffset" : 0,
+          "scrollOffset" : 0,
+          "discreteSpacing" : 64.125,
+          "axisInnerOffset" : 0,
+          "hasMiniChart" : false,
+          "viewRange" : 8
+        },
+        "size" : {
+          "w" : 1685,
+          "h" : 610
+        },
+        "components" : {
+          "grid" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 1491,
+              "h" : 513
+            }
+          },
+          "colorLegend" : {
+            "visible" : false,
+            "dock" : "right",
+            "size" : {
+              "w" : 0,
+              "h" : 513
+            }
+          },
+          "miniChart" : {
+            "visible" : false,
+            "dock" : "right",
+            "size" : {
+              "w" : 0,
+              "h" : 513
+            }
+          },
+          "refLineLabels" : {
+            "visible" : true,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 1491,
+              "h" : 34
+            }
+          },
+          "scrollArea" : {
+            "visible" : false,
+            "dock" : "right",
+            "size" : {
+              "w" : 0,
+              "h" : 513
+            }
+          },
+          "refLines" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 1491,
+              "h" : 513
+            }
+          },
+          "dataArea" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 1491,
+              "h" : 513
+            }
+          },
+          "measureAxis" : {
+            "visible" : true,
+            "dock" : "top",
+            "size" : {
+              "w" : 1491,
+              "h" : 38
+            }
+          },
+          "dimensionAxis" : {
+            "visible" : true,
+            "dock" : "left",
+            "size" : {
+              "w" : 169,
+              "h" : 513
+            }
+          },
+          "dimensionAxisTitle" : {
+            "visible" : true,
+            "dock" : "left",
+            "size" : {
+              "w" : 21,
+              "h" : 513
+            }
+          },
+          "measureAxisTitle" : {
+            "visible" : true,
+            "dock" : "top",
+            "size" : {
+              "w" : 1491,
+              "h" : 21
+            }
+          }
+        },
+        "v" : 0.96
+      },
+      "parent" : {
+        "h" : 736,
+        "w" : 1707
+      }
+    },
+    "visualizationType" : "barchart",
+    "sourceObjectId" : "jyGNam",
+    "timestamp" : 1477936831500,
+    "isClone" : false
+  },
+  "qStateData" : [ {
+    "qStateName" : "$",
+    "qFieldItems" : [ ]
+  } ],
+  "qPatches" : [ ]
+}

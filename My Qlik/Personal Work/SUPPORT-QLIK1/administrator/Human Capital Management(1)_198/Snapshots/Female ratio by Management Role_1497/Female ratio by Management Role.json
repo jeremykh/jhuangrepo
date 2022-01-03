@@ -1,0 +1,478 @@
+{
+  "qProp" : {
+    "qInfo" : {
+      "qId" : "zkWCbWq",
+      "qType" : "snapshot"
+    },
+    "qMetaDef" : {
+      "title" : "Female ratio by Management Role"
+    },
+    "title" : "Female ratio by Management Role",
+    "description" : "",
+    "sheetId" : "erd",
+    "creationDate" : "2014-09-11",
+    "qMeta" : { },
+    "qSelectionInfo" : { },
+    "qHyperCube" : {
+      "qSize" : {
+        "qcx" : 2,
+        "qcy" : 4
+      },
+      "qDimensionInfo" : [ {
+        "qFallbackTitle" : "Management role",
+        "qApprMaxGlyphCount" : 18,
+        "qCardinal" : 4,
+        "qSortIndicator" : "A",
+        "qGroupFallbackTitles" : [ "Management role" ],
+        "qGroupPos" : 0,
+        "qStateCounts" : {
+          "qLocked" : 0,
+          "qSelected" : 0,
+          "qOption" : 4,
+          "qDeselected" : 0,
+          "qAlternative" : 0,
+          "qExcluded" : 0,
+          "qSelectedExcluded" : 0,
+          "qLockedExcluded" : 0
+        },
+        "qTags" : [ "$ascii", "$text" ],
+        "qDimensionType" : "D",
+        "qGrouping" : "N",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qnDec" : 0,
+          "qUseThou" : 0
+        },
+        "qIsAutoFormat" : true,
+        "qGroupFieldDefs" : [ "Position1" ],
+        "qMin" : 0,
+        "qMax" : 0,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qCardinalities" : {
+          "qCardinal" : 0,
+          "qHypercubeCardinal" : 0,
+          "qAllValuesCardinal" : -1
+        },
+        "title" : "Management role",
+        "autoSort" : true,
+        "cId" : "TUtJM",
+        "othersLabel" : "Others"
+      } ],
+      "qMeasureInfo" : [ {
+        "qFallbackTitle" : "Women Employees Ratio",
+        "qApprMaxGlyphCount" : 5,
+        "qCardinal" : 5,
+        "qSortIndicator" : "D",
+        "qNumFormat" : {
+          "qType" : "F",
+          "qnDec" : 2,
+          "qUseThou" : 0,
+          "qFmt" : "0.0%",
+          "qDec" : ".",
+          "qThou" : ","
+        },
+        "qMin" : 0.28378378378378377,
+        "qMax" : 0.4,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qTrendLines" : [ ],
+        "autoSort" : true,
+        "cId" : "qAAVPpJ",
+        "numFormatFromTemplate" : true
+      } ],
+      "qEffectiveInterColumnSortOrder" : [ 0, 1 ],
+      "qGrandTotalRow" : [ {
+        "qText" : "33.3%",
+        "qNum" : 0.3331890019484737,
+        "qElemNumber" : -1,
+        "qState" : "X",
+        "qIsTotalCell" : true
+      } ],
+      "qDataPages" : [ {
+        "qMatrix" : [ [ {
+          "qText" : "Contributor",
+          "qNum" : "NaN",
+          "qElemNumber" : 1,
+          "qState" : "O"
+        }, {
+          "qText" : "33.5%",
+          "qNum" : 0.33522324592487596,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 4292725879
+            } ]
+          }
+        } ], [ {
+          "qText" : "First Line Manager",
+          "qNum" : "NaN",
+          "qElemNumber" : 2,
+          "qState" : "O"
+        }, {
+          "qText" : "28.4%",
+          "qNum" : 0.28378378378378377,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 4292725879
+            } ]
+          }
+        } ], [ {
+          "qText" : "Middle Manager",
+          "qNum" : "NaN",
+          "qElemNumber" : 0,
+          "qState" : "O"
+        }, {
+          "qText" : "31.6%",
+          "qNum" : 0.31596091205211724,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 4292725879
+            } ]
+          }
+        } ], [ {
+          "qText" : "Senior Manager",
+          "qNum" : "NaN",
+          "qElemNumber" : 3,
+          "qState" : "O"
+        }, {
+          "qText" : "40.0%",
+          "qNum" : 0.4,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 4292725879
+            } ]
+          }
+        } ] ],
+        "qTails" : [ {
+          "qUp" : 0,
+          "qDown" : 0
+        } ],
+        "qArea" : {
+          "qLeft" : 0,
+          "qTop" : 0,
+          "qWidth" : 2,
+          "qHeight" : 4
+        }
+      } ],
+      "qPivotDataPages" : [ ],
+      "qStackedDataPages" : [ ],
+      "qMode" : "S",
+      "qNoOfLeftDims" : 0,
+      "qTreeNodesOnDim" : [ ],
+      "qColumnOrder" : [ ]
+    },
+    "refLine" : {
+      "refLines" : [ ]
+    },
+    "showTitles" : true,
+    "subtitle" : "",
+    "footnote" : "",
+    "barGrouping" : {
+      "grouping" : "grouped"
+    },
+    "orientation" : "vertical",
+    "gridLine" : {
+      "auto" : true,
+      "spacing" : 2
+    },
+    "dataPoint" : {
+      "showLabels" : true
+    },
+    "color" : {
+      "auto" : false,
+      "mode" : "byExpression",
+      "singleColor" : 3,
+      "persistent" : false,
+      "expressionIsColor" : true,
+      "measureScheme" : "sg",
+      "reverseScheme" : false,
+      "dimensionScheme" : "12",
+      "dimensionId" : ""
+    },
+    "legend" : {
+      "show" : false,
+      "dock" : "auto",
+      "showTitle" : true
+    },
+    "dimensionAxis" : {
+      "show" : "all",
+      "label" : "auto",
+      "dock" : "near"
+    },
+    "measureAxis" : {
+      "show" : "all",
+      "label" : "horizontal",
+      "dock" : "near",
+      "spacing" : 1,
+      "autoMinMax" : true,
+      "minMax" : "min",
+      "min" : 0,
+      "max" : 10
+    },
+    "visualization" : "barchart",
+    "reducedHyperCube" : {
+      "qDataPages" : [ {
+        "qMatrix" : [ [ {
+          "qText" : "Contributor",
+          "qNum" : "NaN",
+          "qElemNumber" : 1,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "33.5%",
+          "qNum" : 0.33522324592487596,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 4292725879
+            } ]
+          },
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "First Line Manager",
+          "qNum" : "NaN",
+          "qElemNumber" : 2,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "28.4%",
+          "qNum" : 0.28378378378378377,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 4292725879
+            } ]
+          },
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Middle Manager",
+          "qNum" : "NaN",
+          "qElemNumber" : 0,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "31.6%",
+          "qNum" : 0.31596091205211724,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 4292725879
+            } ]
+          },
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Senior Manager",
+          "qNum" : "NaN",
+          "qElemNumber" : 3,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "40.0%",
+          "qNum" : 0.4,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 4292725879
+            } ]
+          },
+          "qGreyValue" : 0
+        } ] ],
+        "qTails" : [ {
+          "qUp" : 0,
+          "qDown" : 0
+        } ],
+        "qArea" : {
+          "qLeft" : 0,
+          "qTop" : 0,
+          "qWidth" : 2,
+          "qHeight" : 4
+        }
+      } ],
+      "qDimensionInfo" : [ {
+        "qFallbackTitle" : "Management role",
+        "qApprMaxGlyphCount" : 18,
+        "qCardinal" : 4,
+        "qSortIndicator" : "A",
+        "qGroupFallbackTitles" : [ "Management role" ],
+        "qGroupPos" : 0,
+        "qStateCounts" : {
+          "qLocked" : 0,
+          "qSelected" : 0,
+          "qOption" : 4,
+          "qDeselected" : 0,
+          "qAlternative" : 0,
+          "qExcluded" : 0,
+          "qSelectedExcluded" : 0
+        },
+        "qTags" : [ "$ascii", "$text" ],
+        "qDimensionType" : "D",
+        "qGrouping" : "N",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qnDec" : 0,
+          "qUseThou" : 0
+        },
+        "qIsAutoFormat" : true,
+        "qGroupFieldDefs" : [ "Position1" ],
+        "title" : "Management role",
+        "autoSort" : true,
+        "cId" : "TUtJM",
+        "othersLabel" : "Others"
+      } ],
+      "qMeasureInfo" : [ {
+        "qFallbackTitle" : "Women Employees Ratio",
+        "qApprMaxGlyphCount" : 5,
+        "qCardinal" : 5,
+        "qSortIndicator" : "D",
+        "qNumFormat" : {
+          "qType" : "F",
+          "qnDec" : 2,
+          "qUseThou" : 0,
+          "qFmt" : "0.0%",
+          "qDec" : ".",
+          "qThou" : ","
+        },
+        "qMin" : 0.28378378378378377,
+        "qMax" : 0.4,
+        "autoSort" : true,
+        "cId" : "qAAVPpJ",
+        "numFormatFromTemplate" : true
+      } ],
+      "qStackedDataPages" : [ ],
+      "qMode" : "S",
+      "qSize" : {
+        "qcx" : 2,
+        "qcy" : 0
+      }
+    },
+    "visualizationType" : "barchart",
+    "timestamp" : 1410463554696,
+    "sourceObjectId" : "cQkvsBW",
+    "isClone" : false,
+    "snapshotData" : {
+      "object" : {
+        "size" : {
+          "w" : 545,
+          "h" : 411
+        }
+      },
+      "parent" : {
+        "h" : 879,
+        "w" : 1910
+      },
+      "content" : {
+        "chartData" : {
+          "legendScrollOffset" : 0,
+          "scrollOffset" : 0,
+          "discreteSpacing" : 96,
+          "axisInnerOffset" : 0,
+          "hasMiniChart" : false
+        },
+        "size" : {
+          "w" : 545,
+          "h" : 384
+        },
+        "components" : {
+          "miniChart" : {
+            "visible" : false,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 463,
+              "h" : 0
+            }
+          },
+          "refLineLabels" : {
+            "visible" : false,
+            "dock" : "right",
+            "size" : {
+              "w" : 0,
+              "h" : 255.78999919891356
+            }
+          },
+          "grid" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 463,
+              "h" : 255.78999919891356
+            }
+          },
+          "legend" : {
+            "visible" : false,
+            "dock" : "right",
+            "size" : {
+              "w" : 0,
+              "h" : 255.78999919891356
+            }
+          },
+          "scrollArea" : {
+            "visible" : false,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 463,
+              "h" : 0
+            }
+          },
+          "refLines" : {
+            "visible" : false,
+            "dock" : "center",
+            "size" : {
+              "w" : 463,
+              "h" : 255.78999919891356
+            }
+          },
+          "dataArea" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 463,
+              "h" : 255.78999919891356
+            }
+          },
+          "measureAxis" : {
+            "visible" : true,
+            "dock" : "left",
+            "size" : {
+              "w" : 78,
+              "h" : 255.78999919891356
+            }
+          },
+          "dimensionAxis" : {
+            "visible" : true,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 463,
+              "h" : 100
+            }
+          },
+          "dimensionAxisTitle" : {
+            "visible" : true,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 463,
+              "h" : 24.210000801086423
+            }
+          }
+        },
+        "v" : 0.96
+      }
+    }
+  },
+  "qStateData" : [ {
+    "qStateName" : "$",
+    "qFieldItems" : [ ]
+  } ],
+  "qPatches" : [ ]
+}

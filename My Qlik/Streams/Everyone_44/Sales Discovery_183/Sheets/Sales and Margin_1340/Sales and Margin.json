@@ -1,0 +1,106 @@
+{
+  "qProperty" : {
+    "qInfo" : {
+      "qId" : "hxzkf",
+      "qType" : "sheet"
+    },
+    "qMetaDef" : {
+      "title" : "Sales and Margin",
+      "description" : "See the overall percentage of sales for each of the product groups in the sales portfolio of each sales rep."
+    },
+    "rank" : 3,
+    "columns" : 24,
+    "rows" : 12,
+    "cells" : [ {
+      "name" : "xvZYRNK",
+      "type" : "scatterplot",
+      "col" : 7,
+      "row" : 0,
+      "colspan" : 14,
+      "rowspan" : 6
+    }, {
+      "name" : "UkushK",
+      "type" : "barchart",
+      "col" : 5,
+      "row" : 6,
+      "colspan" : 18,
+      "rowspan" : 5
+    }, {
+      "name" : "HnGSP",
+      "type" : "text-image",
+      "col" : 1,
+      "row" : 1,
+      "colspan" : 3,
+      "rowspan" : 11
+    } ],
+    "thumbnail" : {
+      "qStaticContentUrlDef" : {
+        "qUrl" : "/appcontent/3a4cdc64-c7f3-4555-b4b1-10a41056730a/Sales Discovery1 - Sales and Margin _ Sheets - Qlik Sense.png"
+      }
+    }
+  },
+  "qChildren" : [ {
+    "qProperty" : {
+      "qInfo" : {
+        "qId" : "xvZYRNK",
+        "qType" : "scatterplot"
+      },
+      "qExtendsId" : "WLSpF",
+      "qMetaDef" : { }
+    },
+    "qChildren" : [ ]
+  }, {
+    "qProperty" : {
+      "qInfo" : {
+        "qId" : "UkushK",
+        "qType" : "barchart"
+      },
+      "qExtendsId" : "PtJP",
+      "qMetaDef" : { }
+    },
+    "qChildren" : [ ]
+  }, {
+    "qProperty" : {
+      "qInfo" : {
+        "qId" : "HnGSP",
+        "qType" : "text-image"
+      },
+      "qMetaDef" : { },
+      "qHyperCubeDef" : {
+        "qDimensions" : [ ],
+        "qMeasures" : [ ],
+        "qInterColumnSortOrder" : [ ],
+        "qInitialDataFetch" : [ ],
+        "qReductionMode" : "N",
+        "qMode" : "S",
+        "qPseudoDimPos" : -1,
+        "qNoOfLeftDims" : -1,
+        "qMaxStackedCells" : 5000,
+        "qCalcCond" : { },
+        "qTitle" : { },
+        "qCalcCondition" : {
+          "qCond" : { },
+          "qMsg" : { }
+        },
+        "qColumnOrder" : [ ],
+        "qExpansionState" : [ ],
+        "qLayoutExclude" : { }
+      },
+      "showTitles" : false,
+      "title" : "",
+      "subtitle" : "",
+      "footnote" : "",
+      "responsive" : "all",
+      "markdown" : "These two charts will help you to understand who sells what.\n\nBy selecting one or several product groups in the top chart you will highlight the sales of that particular product group by each one of the Sales Rep.\n\nThis will allow you to see the overall percentage of sales for each of the product groups in the sales portfolio of each Sales Rep.\n\nAlternatively, you could select one Sales Rep and visualize which products he/she is selling as well as  the margins associated with those sales.\n",
+      "background" : {
+        "url" : {
+          "qStaticContentUrlDef" : { }
+        },
+        "size" : "auto"
+      },
+      "visualization" : "text-image",
+      "images" : [ ]
+    },
+    "qChildren" : [ ]
+  } ]
+}

@@ -1,0 +1,103 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "964a6e36a0bdc4ff483dc9424d5293a36014abb5",
+      "contentName" : "content",
+      "contentOid" : 19050,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "col" : 14,
+          "colspan" : 9,
+          "name" : "kQPzCm",
+          "row" : 2,
+          "rowspan" : 4,
+          "type" : "map"
+        }, {
+          "col" : 14,
+          "colspan" : 9,
+          "name" : "YPhqut",
+          "row" : 7,
+          "rowspan" : 4,
+          "type" : "map"
+        }, {
+          "col" : 0,
+          "colspan" : 24,
+          "name" : "VQFJxg",
+          "row" : 0,
+          "rowspan" : 1,
+          "type" : "filterpane"
+        }, {
+          "col" : 1,
+          "colspan" : 12,
+          "name" : "tVJVu",
+          "row" : 2,
+          "rowspan" : 9,
+          "type" : "map"
+        } ],
+        "columns" : 24,
+        "qInfo" : {
+          "qId" : "aphzPL",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "See the breakdown of sales, customers, and shipments by state.",
+          "title" : "US Regional Analysis"
+        },
+        "rank" : 4,
+        "rows" : 12,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/3a4cdc64-c7f3-4555-b4b1-10a41056730a/Sales Discovery1 - US Regional Analysis _ Sheets - Qlik Sense.png"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "aphzPL,Sheet;3a4cdc64-c7f3-4555-b4b1-10a41056730a,App;",
+  "key" : {
+    "id" : 1361
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Sales Discovery/Sheets/US Regional Analysis",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "US Regional Analysis",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 275
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 183, 275, 1361 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

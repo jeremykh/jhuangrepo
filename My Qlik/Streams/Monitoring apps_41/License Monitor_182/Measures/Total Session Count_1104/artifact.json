@@ -1,0 +1,58 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qInfo" : {
+        "qId" : "fatQPsh",
+        "qType" : "measure"
+      },
+      "qMeasure" : {
+        "coloring" : { },
+        "qActiveExpression" : 0,
+        "qDef" : "Num(\ncount({<UserId={\"*\"}>} Distinct proxy_session_id_app_id)\n,'#,##0')",
+        "qExpressions" : [ ],
+        "qGrouping" : "N",
+        "qLabel" : "Total Session Count",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qUseThou" : 0,
+          "qnDec" : 10
+        }
+      },
+      "qMetaDef" : {
+        "description" : "Count of all unique user sessions.\nNOTE: This session count may differ from Sessions listed in the Operations Monitor and Sessions Monitor apps because this counts unique session Ids related to licensing, rather than counting all user-app sessions.",
+        "tags" : [ ],
+        "title" : "Total Session Count"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "fatQPsh,Measure;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1104
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Measures/Total Session Count",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikMeasure/QlikMeasure",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Total Session Count",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 264
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 264, 1104 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Measure",
+  "shouldVersion" : true,
+  "subtype" : "QlikMeasure",
+  "type" : "QlikArtifact"
+}

@@ -1,0 +1,117 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "1fd026c9865e4b704f34cbec8d333d4117b1cd42",
+      "contentName" : "content",
+      "contentOid" : 18497,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "col" : 8,
+          "colspan" : 15,
+          "name" : "SqDbku",
+          "row" : 0,
+          "rowspan" : 7,
+          "type" : "barchart"
+        }, {
+          "col" : 1,
+          "colspan" : 2,
+          "name" : "LZgFjmq",
+          "row" : 0,
+          "rowspan" : 11,
+          "type" : "filterpane"
+        }, {
+          "col" : 4,
+          "colspan" : 19,
+          "name" : "yVWmD",
+          "row" : 7,
+          "rowspan" : 4,
+          "type" : "linechart"
+        }, {
+          "col" : 4,
+          "colspan" : 4,
+          "name" : "mTjVeM",
+          "row" : 0,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "col" : 4,
+          "colspan" : 4,
+          "name" : "NXfLpP",
+          "row" : 2,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "col" : 4,
+          "colspan" : 4,
+          "name" : "jhTmTRy",
+          "row" : 4,
+          "rowspan" : 2,
+          "type" : "kpi"
+        } ],
+        "columns" : 24,
+        "qInfo" : {
+          "qId" : "XuWLHFK",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "View sales performance and variance year over year. Analyze actual sales vs budget.",
+          "title" : "Performance Dashboard"
+        },
+        "rank" : 0,
+        "rows" : 12,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/f84cf3b8-f44c-4e73-99aa-37fb20121969/salesdiscovery.JPG"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : false,
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "published" : false,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "XuWLHFK,Sheet;f84cf3b8-f44c-4e73-99aa-37fb20121969,App;",
+  "key" : {
+    "id" : 1410
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Sales Discovery(1)/Sheets/Performance Dashboard",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Performance Dashboard",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 306
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 186, 306, 1410 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

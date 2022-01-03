@@ -1,0 +1,57 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qInfo" : {
+        "qId" : "QuHqJS",
+        "qType" : "measure"
+      },
+      "qMeasure" : {
+        "qActiveExpression" : 0,
+        "qDef" : "if(Sum([Sales Margin Amount])/Sum([Sales Amount]) < 0,0,Sum([Sales Margin Amount])/Sum([Sales Amount]))",
+        "qExpressions" : [ ],
+        "qGrouping" : "N",
+        "qLabel" : "GP%",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qUseThou" : 0,
+          "qnDec" : 10
+        }
+      },
+      "qMetaDef" : {
+        "description" : "",
+        "tags" : [ ],
+        "title" : "GP%"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "QuHqJS,Measure;baf3d4d4-e230-4461-819d-9f1e3f4985e0,App;",
+  "key" : {
+    "id" : 1608
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Consumer Sales(1)/Measures/GP%",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikMeasure/QlikMeasure",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "GP%",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 341
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 199, 341, 1608 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Measure",
+  "shouldVersion" : true,
+  "subtype" : "QlikMeasure",
+  "type" : "QlikArtifact"
+}

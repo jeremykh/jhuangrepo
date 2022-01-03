@@ -1,0 +1,478 @@
+{
+  "qProp" : {
+    "qInfo" : {
+      "qId" : "ftDhrT",
+      "qType" : "snapshot"
+    },
+    "qMetaDef" : {
+      "title" : "Sales vs Margin"
+    },
+    "title" : "Sales vs Margin",
+    "description" : "",
+    "sheetId" : "xjXHDyD",
+    "creationDate" : "2014-07-06",
+    "qMeta" : { },
+    "qSelectionInfo" : { },
+    "qHyperCube" : {
+      "qSize" : {
+        "qcx" : 3,
+        "qcy" : 5
+      },
+      "qDimensionInfo" : [ {
+        "qFallbackTitle" : "Product Sub Group",
+        "qApprMaxGlyphCount" : 17,
+        "qCardinal" : 70,
+        "qSortIndicator" : "A",
+        "qGroupFallbackTitles" : [ "Product Sub Group" ],
+        "qGroupPos" : 0,
+        "qStateCounts" : {
+          "qLocked" : 0,
+          "qSelected" : 5,
+          "qOption" : 0,
+          "qDeselected" : 0,
+          "qAlternative" : 65,
+          "qExcluded" : 0,
+          "qSelectedExcluded" : 0,
+          "qLockedExcluded" : 0
+        },
+        "qTags" : [ "$ascii", "$text" ],
+        "qDimensionType" : "D",
+        "qGrouping" : "N",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qnDec" : 0,
+          "qUseThou" : 0
+        },
+        "qIsAutoFormat" : true,
+        "qGroupFieldDefs" : [ "Product Sub Group Desc" ],
+        "qMin" : 0,
+        "qMax" : 0,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qCardinalities" : {
+          "qCardinal" : 0,
+          "qHypercubeCardinal" : 0,
+          "qAllValuesCardinal" : -1
+        },
+        "title" : "Product Sub Group",
+        "autoSort" : true,
+        "cId" : "ESZSE",
+        "othersLabel" : "Others"
+      } ],
+      "qMeasureInfo" : [ {
+        "qFallbackTitle" : "Margin %",
+        "qApprMaxGlyphCount" : 3,
+        "qCardinal" : 6,
+        "qSortIndicator" : "D",
+        "qNumFormat" : {
+          "qType" : "F",
+          "qnDec" : 2,
+          "qUseThou" : 0,
+          "qFmt" : "0%",
+          "qDec" : ".",
+          "qThou" : ","
+        },
+        "qMin" : 0.45170027183987344,
+        "qMax" : 0.5001622393223332,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qTrendLines" : [ ],
+        "autoSort" : true,
+        "cId" : "HLqhU",
+        "numFormatFromTemplate" : true
+      }, {
+        "qFallbackTitle" : "TY Sales",
+        "qApprMaxGlyphCount" : 11,
+        "qCardinal" : 6,
+        "qSortIndicator" : "D",
+        "qNumFormat" : {
+          "qType" : "R",
+          "qnDec" : 0,
+          "qUseThou" : 1,
+          "qFmt" : "##############",
+          "qDec" : ".",
+          "qThou" : ","
+        },
+        "qMin" : 1669015.7400000014,
+        "qMax" : 6379842.930000004,
+        "qIsAutoFormat" : true,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qTrendLines" : [ ],
+        "autoSort" : true,
+        "cId" : "YDAPjth",
+        "numFormatFromTemplate" : true
+      } ],
+      "qEffectiveInterColumnSortOrder" : [ 2, 1, 0 ],
+      "qGrandTotalRow" : [ {
+        "qText" : "47%",
+        "qNum" : 0.4719214987274855,
+        "qElemNumber" : -1,
+        "qState" : "X",
+        "qIsTotalCell" : true
+      }, {
+        "qText" : "16081060.27",
+        "qNum" : 1.6081060269999959E7,
+        "qElemNumber" : -1,
+        "qState" : "X",
+        "qIsTotalCell" : true
+      } ],
+      "qDataPages" : [ {
+        "qMatrix" : [ [ {
+          "qText" : "Fresh Vegetables",
+          "qNum" : "NaN",
+          "qElemNumber" : 12,
+          "qState" : "S"
+        }, {
+          "qText" : "45%",
+          "qNum" : 0.45170027183987344,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 33
+            } ]
+          }
+        }, {
+          "qText" : "6379842.93",
+          "qNum" : 6379842.930000004,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Hot Dogs",
+          "qNum" : "NaN",
+          "qElemNumber" : 55,
+          "qState" : "S"
+        }, {
+          "qText" : "50%",
+          "qNum" : 0.5001622393223332,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 15
+            } ]
+          }
+        }, {
+          "qText" : "3612785.17",
+          "qNum" : 3612785.170000005,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Frozen Vegetables",
+          "qNum" : "NaN",
+          "qElemNumber" : 46,
+          "qState" : "S"
+        }, {
+          "qText" : "46%",
+          "qNum" : 0.4553016764313308,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 10
+            } ]
+          }
+        }, {
+          "qText" : "2491476.46",
+          "qNum" : 2491476.460000001,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Sugar",
+          "qNum" : "NaN",
+          "qElemNumber" : 39,
+          "qState" : "S"
+        }, {
+          "qText" : "50%",
+          "qNum" : 0.4991383731757417,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 2
+            } ]
+          }
+        }, {
+          "qText" : "1927939.97",
+          "qNum" : 1927939.9700000007,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Coffee",
+          "qNum" : "NaN",
+          "qElemNumber" : 6,
+          "qState" : "S"
+        }, {
+          "qText" : "48%",
+          "qNum" : 0.4797273690415765,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 8
+            } ]
+          }
+        }, {
+          "qText" : "1669015.74",
+          "qNum" : 1669015.7400000014,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ] ],
+        "qTails" : [ {
+          "qUp" : 0,
+          "qDown" : 0
+        } ],
+        "qArea" : {
+          "qLeft" : 0,
+          "qTop" : 0,
+          "qWidth" : 3,
+          "qHeight" : 5
+        }
+      } ],
+      "qPivotDataPages" : [ ],
+      "qStackedDataPages" : [ ],
+      "qMode" : "S",
+      "qNoOfLeftDims" : 0,
+      "qTreeNodesOnDim" : [ ],
+      "qColumnOrder" : [ ]
+    },
+    "refLine" : {
+      "refLinesX" : [ ],
+      "refLinesY" : [ ]
+    },
+    "showTitles" : true,
+    "subtitle" : "*colored by # of lost customers",
+    "footnote" : "",
+    "dataPoint" : {
+      "bubbleSizes" : 10,
+      "rangeBubbleSizes" : [ 2, 8 ]
+    },
+    "labels" : {
+      "mode" : 1
+    },
+    "gridLine" : {
+      "auto" : false,
+      "spacing" : 3
+    },
+    "color" : {
+      "auto" : false,
+      "mode" : "byExpression",
+      "singleColor" : "#4477aa",
+      "persistent" : false,
+      "measureScheme" : "dg",
+      "reverseScheme" : true,
+      "dimensionScheme" : "12",
+      "expressionIsColor" : false
+    },
+    "legend" : {
+      "show" : false,
+      "dock" : "auto",
+      "showTitle" : true
+    },
+    "xAxis" : {
+      "show" : "all",
+      "label" : "auto",
+      "dock" : "near",
+      "spacing" : 0.5,
+      "autoMinMax" : false,
+      "minMax" : "minMax",
+      "min" : 0,
+      "max" : 1
+    },
+    "yAxis" : {
+      "show" : "all",
+      "label" : "auto",
+      "dock" : "near",
+      "spacing" : 0.5,
+      "autoMinMax" : false,
+      "minMax" : "min",
+      "min" : 0,
+      "max" : 10
+    },
+    "visualization" : "scatterplot",
+    "masterVersion" : 0.96,
+    "visualizationType" : "scatterplot",
+    "timestamp" : 1404673910339,
+    "sourceObjectId" : "yCUgsJ",
+    "isClone" : false,
+    "snapshotData" : {
+      "object" : {
+        "size" : {
+          "w" : 1244,
+          "h" : 602
+        }
+      },
+      "parent" : {
+        "h" : 654,
+        "w" : 1270
+      },
+      "content" : {
+        "chartData" : {
+          "legendScrollOffset" : 0,
+          "xAxisMin" : 0.19321124412133853,
+          "xAxisMax" : 0.7610043089684525,
+          "yAxisMin" : 1133628.2778386592,
+          "yAxisMax" : 7343864.9246039735
+        },
+        "size" : {
+          "w" : 1244,
+          "h" : 553
+        },
+        "components" : {
+          "grid" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 1146,
+              "h" : 466
+            }
+          },
+          "xAxis" : {
+            "visible" : true,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 1146,
+              "h" : 63
+            }
+          },
+          "yAxis" : {
+            "visible" : true,
+            "dock" : "left",
+            "size" : {
+              "w" : 84,
+              "h" : 466
+            }
+          },
+          "xAxisTitle" : {
+            "visible" : false,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 1146,
+              "h" : 0
+            }
+          },
+          "refLineLabelsX" : {
+            "visible" : false,
+            "dock" : "top",
+            "size" : {
+              "w" : 1146,
+              "h" : 0
+            }
+          },
+          "refLineLabelsY" : {
+            "visible" : false,
+            "dock" : "right",
+            "size" : {
+              "w" : 0,
+              "h" : 466
+            }
+          },
+          "legend" : {
+            "visible" : false,
+            "dock" : "right",
+            "size" : {
+              "w" : 0,
+              "h" : 466
+            }
+          },
+          "refLines" : {
+            "visible" : false,
+            "dock" : "center",
+            "size" : {
+              "w" : 1146,
+              "h" : 466
+            }
+          },
+          "dataArea" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 1146,
+              "h" : 466
+            }
+          }
+        },
+        "v" : 0.96
+      }
+    },
+    "compressionResolution" : 5
+  },
+  "qStateData" : [ {
+    "qStateName" : "$",
+    "qFieldItems" : [ {
+      "qDef" : {
+        "qName" : "Metric",
+        "qType" : "PRESENT"
+      },
+      "qSelectInfo" : {
+        "qRangeLo" : "NaN",
+        "qRangeHi" : "NaN",
+        "qNumberFormat" : {
+          "qType" : "U",
+          "qnDec" : 10,
+          "qUseThou" : 0
+        },
+        "qRangeInfo" : [ ],
+        "qContinuousRangeInfo" : [ ]
+      },
+      "qValues" : [ {
+        "qText" : "Number of Lost Customers",
+        "qNumber" : "NaN"
+      } ],
+      "qExcludedValues" : [ ]
+    }, {
+      "qDef" : {
+        "qName" : "Product Sub Group Desc",
+        "qType" : "PRESENT"
+      },
+      "qSelectInfo" : {
+        "qRangeLo" : "NaN",
+        "qRangeHi" : "NaN",
+        "qNumberFormat" : {
+          "qType" : "U",
+          "qnDec" : 10,
+          "qUseThou" : 0
+        },
+        "qRangeInfo" : [ ],
+        "qContinuousRangeInfo" : [ ]
+      },
+      "qValues" : [ {
+        "qText" : "Coffee",
+        "qNumber" : "NaN"
+      }, {
+        "qText" : "Fresh Vegetables",
+        "qNumber" : "NaN"
+      }, {
+        "qText" : "Sugar",
+        "qNumber" : "NaN"
+      }, {
+        "qText" : "Frozen Vegetables",
+        "qNumber" : "NaN"
+      }, {
+        "qText" : "Hot Dogs",
+        "qNumber" : "NaN"
+      } ],
+      "qExcludedValues" : [ ]
+    } ]
+  }, {
+    "qStateName" : "Group1",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group2",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group3",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group4",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group 1",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group 2",
+    "qFieldItems" : [ ]
+  } ],
+  "qPatches" : [ ]
+}

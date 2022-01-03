@@ -1,0 +1,218 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qChildren" : [ {
+        "qChildren" : [ ],
+        "qProperty" : {
+          "footnote" : "",
+          "qInfo" : {
+            "qId" : "1c48080a-26cb-4706-adf4-3de4b49b5417",
+            "qType" : "listbox"
+          },
+          "qListObjectDef" : {
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "XDmpB",
+              "qActiveField" : 0,
+              "qFieldDefs" : [ ],
+              "qFieldLabels" : [ ],
+              "qGrouping" : "N",
+              "qLabel" : "Division",
+              "qNumberPresentations" : [ ],
+              "qSortCriterias" : [ {
+                "qExpression" : { },
+                "qSortByAscii" : 1,
+                "qSortByLoadOrder" : 1,
+                "qSortByNumeric" : 1,
+                "qSortByState" : 1
+              } ]
+            },
+            "qExpressions" : [ ],
+            "qFrequencyMode" : "N",
+            "qInitialDataFetch" : [ ],
+            "qLibraryId" : "wrBEt",
+            "qOtherTotalSpec" : { },
+            "qShowAlternatives" : true
+          },
+          "qMetaDef" : { },
+          "showTitles" : true,
+          "subtitle" : "",
+          "title" : "Division",
+          "visualization" : "listbox"
+        }
+      }, {
+        "qChildren" : [ ],
+        "qProperty" : {
+          "footnote" : "",
+          "qInfo" : {
+            "qId" : "86993bd1-4e38-4281-8088-8d1c300c7146",
+            "qType" : "listbox"
+          },
+          "qListObjectDef" : {
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "gjSaPCe",
+              "qActiveField" : 0,
+              "qFieldDefs" : [ ],
+              "qFieldLabels" : [ ],
+              "qGrouping" : "N",
+              "qLabel" : "Region",
+              "qNumberPresentations" : [ ],
+              "qSortCriterias" : [ {
+                "qExpression" : { },
+                "qSortByAscii" : 1,
+                "qSortByLoadOrder" : 1,
+                "qSortByNumeric" : 1,
+                "qSortByState" : 1
+              } ]
+            },
+            "qExpressions" : [ ],
+            "qFrequencyMode" : "N",
+            "qInitialDataFetch" : [ ],
+            "qLibraryId" : "XXVFDX",
+            "qOtherTotalSpec" : { },
+            "qShowAlternatives" : true
+          },
+          "qMetaDef" : { },
+          "showTitles" : true,
+          "subtitle" : "",
+          "title" : "Region",
+          "visualization" : "listbox"
+        }
+      }, {
+        "qChildren" : [ ],
+        "qProperty" : {
+          "footnote" : "",
+          "qInfo" : {
+            "qId" : "8249b2af-41f2-49f2-a831-8355c5abc664",
+            "qType" : "listbox"
+          },
+          "qListObjectDef" : {
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "kAnRQ",
+              "qActiveField" : 0,
+              "qFieldDefs" : [ ],
+              "qFieldLabels" : [ ],
+              "qGrouping" : "N",
+              "qLabel" : "State",
+              "qNumberPresentations" : [ ],
+              "qSortCriterias" : [ {
+                "qExpression" : { },
+                "qSortByAscii" : 1,
+                "qSortByLoadOrder" : 1,
+                "qSortByNumeric" : 1,
+                "qSortByState" : 1
+              } ]
+            },
+            "qExpressions" : [ ],
+            "qFrequencyMode" : "N",
+            "qInitialDataFetch" : [ ],
+            "qLibraryId" : "xyjwAr",
+            "qOtherTotalSpec" : { },
+            "qShowAlternatives" : true
+          },
+          "qMetaDef" : { },
+          "showTitles" : true,
+          "subtitle" : "",
+          "title" : "State",
+          "visualization" : "listbox"
+        }
+      }, {
+        "qChildren" : [ ],
+        "qProperty" : {
+          "footnote" : "",
+          "qInfo" : {
+            "qId" : "5e3239ee-1a72-4941-8c30-f99321a52248",
+            "qType" : "listbox"
+          },
+          "qListObjectDef" : {
+            "qDef" : {
+              "autoSort" : false,
+              "cId" : "KbLzT",
+              "qActiveField" : 0,
+              "qFieldDefs" : [ ],
+              "qFieldLabels" : [ ],
+              "qGrouping" : "N",
+              "qLabel" : "Sales Rep",
+              "qNumberPresentations" : [ ],
+              "qSortCriterias" : [ {
+                "qExpression" : {
+                  "qv" : "=Sum([Sales Amount])"
+                },
+                "qSortByAscii" : 1,
+                "qSortByExpression" : -1,
+                "qSortByLoadOrder" : 1,
+                "qSortByNumeric" : 1,
+                "qSortByState" : 1
+              } ]
+            },
+            "qExpressions" : [ ],
+            "qFrequencyMode" : "N",
+            "qInitialDataFetch" : [ ],
+            "qLibraryId" : "wJSVej",
+            "qOtherTotalSpec" : { },
+            "qShowAlternatives" : true
+          },
+          "qMetaDef" : { },
+          "showTitles" : true,
+          "subtitle" : "",
+          "title" : "Sales Rep",
+          "visualization" : "listbox"
+        }
+      } ],
+      "qProperty" : {
+        "footnote" : "",
+        "masterVersion" : 0.96,
+        "metadata" : { },
+        "qChildListDef" : {
+          "qData" : {
+            "info" : "/qInfo"
+          }
+        },
+        "qInfo" : {
+          "qId" : "RmuRp",
+          "qType" : "masterobject"
+        },
+        "qMetaDef" : {
+          "tags" : [ ],
+          "title" : "Filter Pane"
+        },
+        "showTitles" : false,
+        "subtitle" : "",
+        "title" : "",
+        "visualization" : "filterpane"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "RmuRp,Visualization;3a4cdc64-c7f3-4555-b4b1-10a41056730a,App;",
+  "key" : {
+    "id" : 1374
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Sales Discovery/Visualizations/Filter Pane",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikVisualization/QlikVisualization",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Filter Pane",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 279
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 183, 279, 1374 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Visualization",
+  "shouldVersion" : true,
+  "subtype" : "QlikVisualization",
+  "type" : "QlikArtifact"
+}

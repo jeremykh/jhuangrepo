@@ -1,0 +1,48 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qDefinition" : "303",
+      "qInfo" : {
+        "qId" : "63f22593-f17d-4c63-86a5-342bd2c561a9",
+        "qType" : "variable"
+      },
+      "qMetaDef" : { },
+      "qName" : "rows_Sessions_final",
+      "qNumberPresentation" : {
+        "qType" : "U",
+        "qUseThou" : 0,
+        "qnDec" : 10
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "63f22593-f17d-4c63-86a5-342bd2c561a9,Variable;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1248
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Variables/rows_Sessions_final",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikVariable/QlikVariable",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "rows_Sessions_final",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 268
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 268, 1248 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Variable",
+  "shouldVersion" : true,
+  "subtype" : "QlikVariable",
+  "type" : "QlikArtifact"
+}

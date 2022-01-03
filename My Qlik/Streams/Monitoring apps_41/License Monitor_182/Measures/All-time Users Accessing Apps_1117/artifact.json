@@ -1,0 +1,58 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qInfo" : {
+        "qId" : "rNkUVc",
+        "qType" : "measure"
+      },
+      "qMeasure" : {
+        "coloring" : { },
+        "qActiveExpression" : 0,
+        "qDef" : "count({1<[Access Type] = {\"*\"}>} DISTINCT UserId)",
+        "qExpressions" : [ ],
+        "qGrouping" : "N",
+        "qLabel" : "All-time Users Accessing Apps",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qUseThou" : 0,
+          "qnDec" : 10
+        }
+      },
+      "qMetaDef" : {
+        "description" : "Count of Users who accessed an app over all time.",
+        "tags" : [ ],
+        "title" : "All-time Users Accessing Apps"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "rNkUVc,Measure;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1117
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Measures/All-time Users Accessing Apps",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikMeasure/QlikMeasure",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "All-time Users Accessing Apps",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 264
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 264, 1117 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Measure",
+  "shouldVersion" : true,
+  "subtype" : "QlikMeasure",
+  "type" : "QlikArtifact"
+}

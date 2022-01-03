@@ -1,0 +1,48 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qDefinition" : "=256*pow(2,(=max(aggr(if(max( round(256*pow(2,(_zoom_level -1)))+( longitude  *((256*pow(2,_zoom_level ))/360)) )-min( round(256*pow(2,(_zoom_level -1)))+( longitude  *((256*pow(2,_zoom_level ))/360)) ) <map_size_x AND max((256*pow(2,(_zoom_level-1)))+((0.5*log((1+(sin((latitude)*pi()/180)))/(1-(sin((latitude)*pi()/180)))))*((-256*pow(2,_zoom_level))/(2*pi()))))-min((256*pow(2,(_zoom_level-1)))+((0.5*log((1+(sin((latitude)*pi()/180)))/(1-(sin((latitude)*pi()/180)))))*((-256*pow(2,_zoom_level))/(2*pi()))))<map_size_y,_zoom_level,1),_zoom_level))-1))",
+      "qInfo" : {
+        "qId" : "d440971d-61b9-4433-b438-c02c1ee1b4c1",
+        "qType" : "variable"
+      },
+      "qMetaDef" : { },
+      "qName" : "var_mc1",
+      "qNumberPresentation" : {
+        "qType" : "U",
+        "qUseThou" : 0,
+        "qnDec" : 10
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "d440971d-61b9-4433-b438-c02c1ee1b4c1,Variable;baf3d4d4-e230-4461-819d-9f1e3f4985e0,App;",
+  "key" : {
+    "id" : 1719
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Consumer Sales(1)/Variables/var_mc1",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikVariable/QlikVariable",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "var_mc1",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 345
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 199, 345, 1719 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Variable",
+  "shouldVersion" : true,
+  "subtype" : "QlikVariable",
+  "type" : "QlikArtifact"
+}

@@ -1,0 +1,784 @@
+{
+  "qProperty" : {
+    "qInfo" : {
+      "qId" : "czmGm",
+      "qType" : "story"
+    },
+    "qMetaDef" : {
+      "title" : "Shipment delays impact",
+      "description" : ""
+    },
+    "rank" : 0,
+    "qChildListDef" : {
+      "qData" : {
+        "title" : "/title",
+        "rank" : "/rank"
+      }
+    },
+    "thumbnail" : {
+      "qStaticContentUrlDef" : {
+        "qUrl" : "/appcontent/f84cf3b8-f44c-4e73-99aa-37fb20121969/storytelling-salesdiscovery_1.jpg"
+      }
+    }
+  },
+  "qChildren" : [ {
+    "qProperty" : {
+      "qInfo" : {
+        "qId" : "QxMwnhu",
+        "qType" : "slide"
+      },
+      "qMetaDef" : { },
+      "rank" : 1,
+      "qChildListDef" : {
+        "qData" : {
+          "title" : "/title",
+          "sheetId" : "/sheetId",
+          "ratio" : "/ratio",
+          "position" : "/position",
+          "dataPath" : "/dataPath",
+          "visualization" : "/visualization",
+          "visualizationType" : "/visualizationType",
+          "style" : "/style",
+          "srcPath" : "/srcPath"
+        }
+      }
+    },
+    "qChildren" : [ {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "fbNtE",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "12.24985%",
+          "left" : "17.15810%",
+          "width" : "64.83958%",
+          "height" : "21.90490%",
+          "z-index" : 4,
+          "right" : "auto"
+        },
+        "visualization" : "text",
+        "visualizationType" : "paragraph",
+        "style" : {
+          "color" : "#6E6E6E",
+          "text" : "^[**%[Understanding the impact of late shipments](5)**](center)"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "jFXcUx",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "33.33147%",
+          "left" : "33.32913%",
+          "width" : "31.58394%",
+          "height" : "35.00227%",
+          "z-index" : 5,
+          "right" : "auto"
+        },
+        "srcPath" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/f84cf3b8-f44c-4e73-99aa-37fb20121969/Qlik_default_qlikCircles.png"
+          }
+        },
+        "visualization" : "image"
+      },
+      "qChildren" : [ ]
+    } ]
+  }, {
+    "qProperty" : {
+      "qInfo" : {
+        "qId" : "DRpsaEQ",
+        "qType" : "slide"
+      },
+      "qMetaDef" : { },
+      "rank" : 2,
+      "qChildListDef" : {
+        "qData" : {
+          "title" : "/title",
+          "sheetId" : "/sheetId",
+          "ratio" : "/ratio",
+          "position" : "/position",
+          "dataPath" : "/dataPath",
+          "visualization" : "/visualization",
+          "visualizationType" : "/visualizationType",
+          "style" : "/style",
+          "srcPath" : "/srcPath"
+        }
+      }
+    },
+    "qChildren" : [ {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "pZvQyPj",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "title" : "",
+        "sheetId" : "UmZp",
+        "ratio" : false,
+        "position" : {
+          "top" : "-0.6%",
+          "left" : "1%",
+          "width" : "75.5%",
+          "height" : "98%",
+          "z-index" : 4
+        },
+        "visualization" : "sheet",
+        "qChildListDef" : {
+          "qData" : {
+            "title" : "/title"
+          }
+        },
+        "selectionState" : null
+      },
+      "qChildren" : [ ],
+      "qEmbeddedSnapshotRef" : {
+        "qProperties" : {
+          "qInfo" : {
+            "qType" : "embeddedsnapshot"
+          },
+          "qMetaDef" : { },
+          "version" : 0.96,
+          "title" : "",
+          "description" : "",
+          "sheetId" : "UmZp",
+          "selectionFields" : [ ],
+          "creationDate" : "2014-09-12T20:19:21.817Z"
+        },
+        "qBookmark" : {
+          "qStateData" : [ {
+            "qStateName" : "$",
+            "qFieldItems" : [ ]
+          } ],
+          "qVariableItems" : [ ],
+          "qPatches" : [ ]
+        }
+      }
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "EPpam",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "1.63%",
+          "left" : "76.10%",
+          "width" : "23.52%",
+          "height" : "99.23%",
+          "z-index" : 5
+        },
+        "visualization" : "text",
+        "visualizationType" : "paragraph",
+        "style" : {
+          "color" : "#6E6E6E",
+          "text" : "**%[Shipment performance](4)**\n\nTo understand how our company delivers goods to the customers we can observe the charts on the left. \n\nThe first chart represents the percentage of on time shipments and the second chart represents the relation between On Time and Late deliveries.\n\nLooking at the top chart it's clear that from May to Nov 2013, our On Time Shipment ratio was below our acceptable level of 85%. We need to understand what caused these late shipments as each late shipment results in an unsatisfied customer.\n\nThe yellow line in the  bottom chart represents the total number of shipments. We can see that the number of shipments was significantly higher during the months where our on\\-time deliveries suffered.\n"
+        }
+      },
+      "qChildren" : [ ]
+    } ]
+  }, {
+    "qProperty" : {
+      "qInfo" : {
+        "qId" : "XBzszY",
+        "qType" : "slide"
+      },
+      "qMetaDef" : { },
+      "rank" : 3.5,
+      "qChildListDef" : {
+        "qData" : {
+          "title" : "/title",
+          "sheetId" : "/sheetId",
+          "ratio" : "/ratio",
+          "position" : "/position",
+          "dataPath" : "/dataPath",
+          "visualization" : "/visualization",
+          "visualizationType" : "/visualizationType",
+          "style" : "/style",
+          "srcPath" : "/srcPath"
+        }
+      }
+    },
+    "qChildren" : [ {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "QdhxNp",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "0.82%",
+          "left" : "12.96%",
+          "width" : "76.19%",
+          "height" : "13.07%",
+          "z-index" : 5
+        },
+        "visualization" : "text",
+        "visualizationType" : "title",
+        "style" : {
+          "color" : "#6E6E6E",
+          "text" : "What happened during these months? \n"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "JXcJxH",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "23.74%",
+          "left" : "1.42%",
+          "width" : "25.71%",
+          "height" : "65.66%",
+          "z-index" : 10
+        },
+        "visualization" : "text",
+        "visualizationType" : "paragraph",
+        "style" : {
+          "color" : "#6E6E6E",
+          "text" : "We should be able to understand who was affected by the late shipping.\n\nDue to Qlik Sense sticky filters feature I can move across screens keeping the filters active, that will help me to discover new insights into my data. \n\nFirst I will select the months with late shipping as in the line chart above.\n\nThen I can move along the app and explore how my company was doing back at that time. \n\nAlso I can see what customers were more affected by this issue, these customers with high sales\n\n"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "nTzpmj",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "83.72909%",
+          "left" : "35.41667%",
+          "width" : "7.93011%",
+          "height" : "5.13740%",
+          "z-index" : 6,
+          "right" : "auto"
+        },
+        "dataPath" : "../resources/img/storytelling/shapes/2lines_h.svg",
+        "visualization" : "shape",
+        "visualizationType" : "2lines_h",
+        "style" : {
+          "color" : "#46c646"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "nZXJQXT",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "81.72043%",
+          "left" : "22.65940%",
+          "width" : "10.68441%",
+          "height" : "7.16846%",
+          "z-index" : 7,
+          "right" : "auto"
+        },
+        "dataPath" : "../resources/img/storytelling/shapes/2lines_h.svg",
+        "visualization" : "shape",
+        "visualizationType" : "2lines_h",
+        "style" : {
+          "color" : "#7b7a78"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "DpWCfa",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "87.00343%",
+          "left" : "33.23988%",
+          "width" : "1.62866%",
+          "height" : "2.77778%",
+          "z-index" : 8,
+          "right" : "auto"
+        },
+        "dataPath" : "../resources/img/storytelling/shapes/arrow_r.svg",
+        "visualization" : "shape",
+        "visualizationType" : "arrow_r",
+        "style" : {
+          "color" : "#7b7a78"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "duRUd",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "19.82%",
+          "left" : "28.98%",
+          "width" : "69.18%",
+          "height" : "26.14%",
+          "z-index" : 9
+        },
+        "visualization" : "snapshot",
+        "visualizationType" : "linechart",
+        "style" : {
+          "id" : "9831d9de-aafa-491b-a0a0-17fe65f84179"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "ZBJQL",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "55.55556%",
+          "left" : "29.16667%",
+          "width" : "68.75000%",
+          "height" : "40.74074%",
+          "z-index" : 4,
+          "right" : "auto"
+        },
+        "visualization" : "snapshot",
+        "visualizationType" : "combochart",
+        "style" : {
+          "id" : "d59a2026-02be-4d1f-9800-4004c4e4c7fe"
+        }
+      },
+      "qChildren" : [ ]
+    } ]
+  }, {
+    "qProperty" : {
+      "qInfo" : {
+        "qId" : "ApQJT",
+        "qType" : "slide"
+      },
+      "qMetaDef" : { },
+      "rank" : 3,
+      "qChildListDef" : {
+        "qData" : {
+          "title" : "/title",
+          "sheetId" : "/sheetId",
+          "ratio" : "/ratio",
+          "position" : "/position",
+          "dataPath" : "/dataPath",
+          "visualization" : "/visualization",
+          "visualizationType" : "/visualizationType",
+          "style" : "/style",
+          "srcPath" : "/srcPath"
+        }
+      }
+    },
+    "qChildren" : [ {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "PDhXCj",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "JTxTF",
+        "ratio" : false,
+        "position" : {
+          "top" : "1%",
+          "left" : "1.5%",
+          "width" : "75.5%",
+          "height" : "98%",
+          "z-index" : 4
+        },
+        "visualization" : "sheet",
+        "selectionState" : null
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "ccQEu",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "1.63%",
+          "left" : "76.10%",
+          "width" : "23.53%",
+          "height" : "99.18%",
+          "z-index" : 5
+        },
+        "visualization" : "text",
+        "visualizationType" : "paragraph",
+        "style" : {
+          "color" : "#6E6E6E",
+          "text" : "**%[Top Customers](4)**\n\nThis piece helps us to visualize our top customers over the years, it's also telling me the sales evolution over the months and I can compare the total sales during the last years.\n\n\n"
+        },
+        "id" : "EPpam",
+        "copiedFromSlide" : "DRpsaEQ",
+        "action" : "copy"
+      },
+      "qChildren" : [ ]
+    } ]
+  }, {
+    "qProperty" : {
+      "qInfo" : {
+        "qId" : "pweyj",
+        "qType" : "slide"
+      },
+      "qMetaDef" : { },
+      "rank" : 3.75,
+      "qChildListDef" : {
+        "qData" : {
+          "title" : "/title",
+          "sheetId" : "/sheetId",
+          "ratio" : "/ratio",
+          "position" : "/position",
+          "dataPath" : "/dataPath",
+          "visualization" : "/visualization",
+          "visualizationType" : "/visualizationType",
+          "style" : "/style",
+          "srcPath" : "/srcPath"
+        }
+      }
+    },
+    "qChildren" : [ {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "WLxJwd",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "14.14%",
+          "left" : "51.56%",
+          "width" : "45.03%",
+          "height" : "48.99%",
+          "z-index" : 6
+        },
+        "visualization" : "snapshot",
+        "visualizationType" : "barchart",
+        "style" : {
+          "id" : "CPTHzw"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "EndUE",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "8.71%",
+          "left" : "4.62%",
+          "width" : "43.32%",
+          "height" : "46.45%",
+          "z-index" : 4
+        },
+        "visualization" : "text",
+        "visualizationType" : "paragraph",
+        "style" : {
+          "color" : "#6E6E6E",
+          "text" : "After identifying and selecting the top 3 customers during the late shipment period we are able to see the sales evolution for that period. \n\nBased on the sales evolution represented by the area chart, I see that the sales amount remained constant along that period of time.\n\nMy follow up question will be, **what happened after Nov 13?** Did we have to give these customers higher discounts? Did they continue to buy from us?\n\nTo address these questions, I will **deselect** my time filter so I can see the entire sales amount evolution for those 3 customers.\n"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "PVNEkn",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "62.96110%",
+          "left" : "4.16667%",
+          "width" : "93.75000%",
+          "height" : "29.62963%",
+          "z-index" : 5,
+          "right" : "auto"
+        },
+        "visualization" : "snapshot",
+        "visualizationType" : "linechart",
+        "style" : {
+          "id" : "c0f8153b-da8a-4a5a-ad8f-06b0f02fbc88"
+        }
+      },
+      "qChildren" : [ ]
+    } ]
+  }, {
+    "qProperty" : {
+      "qInfo" : {
+        "qId" : "BzLASB",
+        "qType" : "slide"
+      },
+      "qMetaDef" : { },
+      "rank" : 5,
+      "qChildListDef" : {
+        "qData" : {
+          "title" : "/title",
+          "sheetId" : "/sheetId",
+          "ratio" : "/ratio",
+          "position" : "/position",
+          "dataPath" : "/dataPath",
+          "visualization" : "/visualization",
+          "visualizationType" : "/visualizationType",
+          "style" : "/style",
+          "srcPath" : "/srcPath"
+        }
+      }
+    },
+    "qChildren" : [ {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "bfdJBY",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "7.95%",
+          "left" : "4.76%",
+          "width" : "33.74%",
+          "height" : "11.24%",
+          "z-index" : 4
+        },
+        "visualization" : "text",
+        "visualizationType" : "paragraph",
+        "style" : {
+          "color" : "#6E6E6E",
+          "text" : "#[%[**Parcel, Talarian, Target**](5)](3)\n"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "BuTLAG",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "6.08572%",
+          "left" : "50.00000%",
+          "width" : "18.75000%",
+          "height" : "14.80741%",
+          "z-index" : 8,
+          "right" : "auto"
+        },
+        "visualization" : "snapshot",
+        "visualizationType" : "kpi",
+        "style" : {
+          "id" : "bbf3adfb-c7df-4366-b2bf-21e5ffb549a3"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "TLJbj",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "44.44%",
+          "left" : "50.00%",
+          "width" : "18.75%",
+          "height" : "14.81%",
+          "z-index" : 9
+        },
+        "visualization" : "snapshot",
+        "visualizationType" : "kpi",
+        "style" : {
+          "id" : "eaaefd2e-a300-4777-aa5d-897da25b2662"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "eHnaGRu",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "24.60797%",
+          "left" : "50.00000%",
+          "width" : "18.75000%",
+          "height" : "14.80741%",
+          "z-index" : 7,
+          "right" : "auto"
+        },
+        "visualization" : "snapshot",
+        "visualizationType" : "kpi",
+        "style" : {
+          "id" : "d9248720-26bd-4dd2-bba0-2d919fbe25aa"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "QRJnJ",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "21.09%",
+          "left" : "4.97%",
+          "width" : "33.31%",
+          "height" : "30.30%",
+          "z-index" : 5
+        },
+        "visualization" : "text",
+        "visualizationType" : "paragraph",
+        "style" : {
+          "color" : "#6E6E6E",
+          "text" : "When we see how the numbers looks like after Nov 13 we discover that our **best 3 customers** \\(May\\-Nov\\) **stopped buying from us in 2014!**\n"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "ctWkjP",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "10.97857%",
+          "left" : "74.56422%",
+          "width" : "29.82823%",
+          "height" : "38.63692%",
+          "z-index" : 6,
+          "right" : "auto"
+        },
+        "visualization" : "snapshot",
+        "visualizationType" : "barchart",
+        "style" : {
+          "id" : "31f9ed9f-39b2-4166-899c-3825031e17a3"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "nffarLp",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "62.24238%",
+          "left" : "1.13512%",
+          "width" : "97.92003%",
+          "height" : "33.32963%",
+          "z-index" : 10,
+          "right" : "auto"
+        },
+        "visualization" : "snapshot",
+        "visualizationType" : "linechart",
+        "style" : {
+          "id" : "676b2f1a-cdee-4a57-8642-275b6a8c82d3"
+        }
+      },
+      "qChildren" : [ ]
+    } ]
+  } ]
+}

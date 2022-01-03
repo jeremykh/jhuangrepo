@@ -1,0 +1,47 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "66354b75490d39c9153b613f241e6feffc71a0df",
+      "contentName" : "content",
+      "contentOid" : 18595,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "creationDate" : "2014-09-11",
+    "qMetaDef" : {
+      "title" : "Female ratio by Management Role"
+    }
+  },
+  "hidden" : false,
+  "identity" : "zkWCbWq,Snapshot;d5856b5e-46b8-4254-86dd-0e2e1ef086a8,App;",
+  "key" : {
+    "id" : 1497
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Human Capital Management(1)/Snapshots/Female ratio by Management Role",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikSnapshot/QlikSnapshot",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Female ratio by Management Role",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 333
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 198, 333, 1497 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Snapshot",
+  "shouldVersion" : true,
+  "subtype" : "QlikSnapshot",
+  "type" : "QlikArtifact"
+}

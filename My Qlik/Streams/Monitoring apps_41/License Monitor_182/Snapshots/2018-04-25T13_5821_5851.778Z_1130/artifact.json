@@ -1,0 +1,49 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "031e4251ba6aa8b418989128e63054bedbb1a088",
+      "contentName" : "content",
+      "contentOid" : 18959,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "creationDate" : "2018-04-25T13:21:51.778Z",
+    "qMetaDef" : {
+      "annotation" : "",
+      "description" : "",
+      "title" : ""
+    }
+  },
+  "hidden" : false,
+  "identity" : "41f84856-c131-4128-b5c8-f33383a3a4f9,Snapshot;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1130
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Snapshots/2018-04-25T13:21:51.778Z",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSnapshot/QlikSnapshot",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "2018-04-25T13:21:51.778Z",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 266
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 266, 1130 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Snapshot",
+  "shouldVersion" : true,
+  "subtype" : "QlikSnapshot",
+  "type" : "QlikArtifact"
+}

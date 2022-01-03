@@ -1,0 +1,167 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "d8d47501fb475fbddf3be481290f68069fbf7949",
+      "contentName" : "content",
+      "contentOid" : 18703,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "bounds" : {
+            "height" : 58.333333333333336,
+            "width" : 41.66666666666667,
+            "x" : 58.333333333333336,
+            "y" : 0
+          },
+          "col" : 14,
+          "colspan" : 10,
+          "name" : "XNTGgf",
+          "row" : 0,
+          "rowspan" : 7,
+          "type" : "barchart"
+        }, {
+          "bounds" : {
+            "height" : 41.66666666666667,
+            "width" : 41.66666666666667,
+            "x" : 58.333333333333336,
+            "y" : 58.333333333333336
+          },
+          "col" : 14,
+          "colspan" : 10,
+          "name" : "ferLVj",
+          "row" : 7,
+          "rowspan" : 5,
+          "type" : "table"
+        }, {
+          "bounds" : {
+            "height" : 25,
+            "width" : 29.166666666666668,
+            "x" : 0,
+            "y" : 50
+          },
+          "col" : 0,
+          "colspan" : 7,
+          "name" : "jujzX",
+          "row" : 6,
+          "rowspan" : 3,
+          "type" : "scatterplot"
+        }, {
+          "bounds" : {
+            "height" : 25,
+            "width" : 29.166666666666668,
+            "x" : 29.166666666666668,
+            "y" : 50
+          },
+          "col" : 7,
+          "colspan" : 7,
+          "name" : "mkQXr",
+          "row" : 6,
+          "rowspan" : 3,
+          "type" : "scatterplot"
+        }, {
+          "bounds" : {
+            "height" : 25,
+            "width" : 29.166666666666668,
+            "x" : 0,
+            "y" : 75
+          },
+          "col" : 0,
+          "colspan" : 7,
+          "name" : "ycEcd",
+          "row" : 9,
+          "rowspan" : 3,
+          "type" : "scatterplot"
+        }, {
+          "bounds" : {
+            "height" : 25,
+            "width" : 29.166666666666668,
+            "x" : 29.166666666666668,
+            "y" : 75
+          },
+          "col" : 7,
+          "colspan" : 7,
+          "name" : "PbCMeyM",
+          "row" : 9,
+          "rowspan" : 3,
+          "type" : "scatterplot"
+        }, {
+          "bounds" : {
+            "height" : 50,
+            "width" : 58.333333333333336,
+            "x" : 0,
+            "y" : 0
+          },
+          "col" : 0,
+          "colspan" : 14,
+          "name" : "YzxGRem",
+          "row" : 0,
+          "rowspan" : 6,
+          "type" : "map"
+        } ],
+        "columns" : 24,
+        "gridResolution" : "small",
+        "qInfo" : {
+          "qId" : "bLZwBC",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "",
+          "title" : "Sales & Margin Performance"
+        },
+        "rank" : -0.9375,
+        "rows" : 12,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/baf3d4d4-e230-4461-819d-9f1e3f4985e0/CGS_Sales_and_Budget.png"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : false,
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "published" : false,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "bLZwBC,Sheet;baf3d4d4-e230-4461-819d-9f1e3f4985e0,App;",
+  "key" : {
+    "id" : 1624
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Consumer Sales(1)/Sheets/Sales & Margin Performance",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Sales & Margin Performance",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 342
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 199, 342, 1624 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

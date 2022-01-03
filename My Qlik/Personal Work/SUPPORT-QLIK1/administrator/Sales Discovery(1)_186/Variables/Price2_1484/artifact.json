@@ -1,0 +1,51 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qDefinition" : "0.00",
+      "qInfo" : {
+        "qId" : "751c5ac7-3bc9-4b30-b039-c4528a1ffb91",
+        "qType" : "variable"
+      },
+      "qMetaDef" : { },
+      "qName" : "Price2",
+      "qNumberPresentation" : {
+        "qDec" : ".",
+        "qFmt" : "#,##0.00",
+        "qThou" : ",",
+        "qType" : "F",
+        "qUseThou" : 0,
+        "qnDec" : 2
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "751c5ac7-3bc9-4b30-b039-c4528a1ffb91,Variable;f84cf3b8-f44c-4e73-99aa-37fb20121969,App;",
+  "key" : {
+    "id" : 1484
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Sales Discovery(1)/Variables/Price2",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikVariable/QlikVariable",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Price2",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 309
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 186, 309, 1484 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Variable",
+  "shouldVersion" : true,
+  "subtype" : "QlikVariable",
+  "type" : "QlikArtifact"
+}

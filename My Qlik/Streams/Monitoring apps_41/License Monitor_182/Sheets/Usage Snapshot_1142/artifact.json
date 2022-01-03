@@ -1,0 +1,120 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "5bb6578d3b8c780f68d0f9917e026fbf30ea9c6c",
+      "contentName" : "content",
+      "contentOid" : 19004,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "bounds" : {
+            "height" : 38.88888888888889,
+            "width" : 52.77777777777778,
+            "x" : 0,
+            "y" : 0
+          },
+          "col" : 0,
+          "colspan" : 19,
+          "name" : "PsLAd",
+          "row" : 0,
+          "rowspan" : 7,
+          "type" : "text-image"
+        }, {
+          "bounds" : {
+            "height" : 55.55555555555556,
+            "width" : 52.77777777777778,
+            "x" : 0,
+            "y" : 44.44444444444444
+          },
+          "col" : 0,
+          "colspan" : 19,
+          "name" : "AQrDxP",
+          "row" : 8,
+          "rowspan" : 10,
+          "type" : "table"
+        }, {
+          "bounds" : {
+            "height" : 100,
+            "width" : 44.44444444444444,
+            "x" : 55.55555555555556,
+            "y" : 0
+          },
+          "col" : 20,
+          "colspan" : 16,
+          "name" : "hZXaVd",
+          "row" : 0,
+          "rowspan" : 18,
+          "type" : "table"
+        } ],
+        "columns" : 36,
+        "gridResolution" : "large",
+        "qChildListDef" : {
+          "qData" : {
+            "title" : "/title"
+          }
+        },
+        "qInfo" : {
+          "qId" : "a42947a9-ed9e-4f31-b4c6-2add1b09f116",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "Overview sheet providing a \"snapshot\" view of license usage.",
+          "title" : "Usage Snapshot"
+        },
+        "rank" : 4.28125,
+        "rows" : 18,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/4ba9b5c8-4a4e-4a86-a54d-049935fe11ab/Icon_Sheet_grey.png"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+        "name" : "sa_repository",
+        "userDirectory" : "INTERNAL",
+        "userId" : "sa_repository"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "a42947a9-ed9e-4f31-b4c6-2add1b09f116,Sheet;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1142
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Sheets/Usage Snapshot",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Usage Snapshot",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 265
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 265, 1142 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

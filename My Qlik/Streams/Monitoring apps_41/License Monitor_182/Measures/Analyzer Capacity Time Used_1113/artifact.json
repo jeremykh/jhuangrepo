@@ -1,0 +1,68 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qInfo" : {
+        "qId" : "KTVm",
+        "qType" : "measure"
+      },
+      "qMeasure" : {
+        "coloring" : {
+          "baseColor" : {
+            "color" : "#578b60",
+            "index" : 10
+          }
+        },
+        "descriptionExpression" : {
+          "qStringExpression" : {
+            "qExpr" : "analyzer_capacity_message\r\n//If(vs_analyzer_capacity_Allocated>5,va_analyzer_capacity_message,'') & 'See: https://help.qlik.com/en-US/search/?q=analyzer+capacity+license'"
+          }
+        },
+        "qActiveExpression" : 0,
+        "qDef" : "If(vs_analyzer_capacity_Allocated>5,Num([License Used Analyzer Capacity (Minutes)],'#,##0'),'N/A')",
+        "qExpressions" : [ ],
+        "qGrouping" : "N",
+        "qLabel" : "Analyzer Capacity Time Used",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qUseThou" : 0,
+          "qnDec" : 10
+        }
+      },
+      "qMetaDef" : {
+        "description" : "",
+        "tags" : [ ],
+        "title" : "Analyzer Capacity Time Used"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "KTVm,Measure;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1113
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Measures/Analyzer Capacity Time Used",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikMeasure/QlikMeasure",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Analyzer Capacity Time Used",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 264
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 264, 1113 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Measure",
+  "shouldVersion" : true,
+  "subtype" : "QlikMeasure",
+  "type" : "QlikArtifact"
+}

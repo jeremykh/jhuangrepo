@@ -1,0 +1,44 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "958cf9171f1512f7850255eb27cc1e6b6ef0d6a0",
+      "contentName" : "content",
+      "contentOid" : 18719,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "path" : "CGS_Sales_Rep_Performance.png"
+  },
+  "hidden" : false,
+  "identity" : "CGS_Sales_Rep_Performance.png,AttachedFile;baf3d4d4-e230-4461-819d-9f1e3f4985e0,App;",
+  "key" : {
+    "id" : 1688
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Consumer Sales(1)/AttachedFiles/CGS_Sales_Rep_Performance.png",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikAttachedFile/QlikAttachedFile",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "CGS_Sales_Rep_Performance.png",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 338
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 199, 338, 1688 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "AttachedFile",
+  "shouldVersion" : true,
+  "subtype" : "QlikAttachedFile",
+  "type" : "QlikArtifact"
+}

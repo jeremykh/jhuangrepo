@@ -1,0 +1,44 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "9eccd9d68237c31c994844e3ad7e1cba7b90e6dd",
+      "contentName" : "content",
+      "contentOid" : 18729,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "path" : "Consumer_Goods_Sales_Margin_Analysis.png"
+  },
+  "hidden" : false,
+  "identity" : "Consumer_Goods_Sales_Margin_Analysis.png,AttachedFile;baf3d4d4-e230-4461-819d-9f1e3f4985e0,App;",
+  "key" : {
+    "id" : 1697
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Consumer Sales(1)/AttachedFiles/Consumer_Goods_Sales_Margin_Analysis.png",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikAttachedFile/QlikAttachedFile",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Consumer_Goods_Sales_Margin_Analysis.png",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 338
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 199, 338, 1697 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "AttachedFile",
+  "shouldVersion" : true,
+  "subtype" : "QlikAttachedFile",
+  "type" : "QlikArtifact"
+}

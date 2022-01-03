@@ -1,0 +1,47 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qInfo" : {
+        "qId" : "8537c508-b42c-4b8e-ac37-9d7d99836c1e",
+        "qType" : "variable"
+      },
+      "qMetaDef" : { },
+      "qName" : "fldr",
+      "qNumberPresentation" : {
+        "qType" : "U",
+        "qUseThou" : 0,
+        "qnDec" : 10
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "8537c508-b42c-4b8e-ac37-9d7d99836c1e,Variable;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1237
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Variables/fldr",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikVariable/QlikVariable",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "fldr",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 268
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 268, 1237 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Variable",
+  "shouldVersion" : true,
+  "subtype" : "QlikVariable",
+  "type" : "QlikArtifact"
+}

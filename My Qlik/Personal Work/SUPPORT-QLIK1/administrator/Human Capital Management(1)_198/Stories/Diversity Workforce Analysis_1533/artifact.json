@@ -1,0 +1,76 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "be62f9480ba97300aa5a704fc3feaf18ece03657",
+      "contentName" : "content",
+      "contentOid" : 18606,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "qChildListDef" : {
+          "qData" : {
+            "rank" : "/rank",
+            "title" : "/title"
+          }
+        },
+        "qInfo" : {
+          "qId" : "08a1162b-2e82-41d7-bd53-ad43ec758878",
+          "qType" : "story"
+        },
+        "qMetaDef" : {
+          "description" : "A recent Gallup study have found that gender-diverse business units are highly engaged, and financial performance improves dramatically.",
+          "title" : "Diversity Workforce Analysis"
+        },
+        "rank" : 1,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : { }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : false,
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "published" : false,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "08a1162b-2e82-41d7-bd53-ad43ec758878,Story;d5856b5e-46b8-4254-86dd-0e2e1ef086a8,App;",
+  "key" : {
+    "id" : 1533
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Human Capital Management(1)/Stories/Diversity Workforce Analysis",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikStory/QlikStory",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Diversity Workforce Analysis",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 334
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 198, 334, 1533 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Story",
+  "shouldVersion" : true,
+  "subtype" : "QlikStory",
+  "type" : "QlikArtifact"
+}

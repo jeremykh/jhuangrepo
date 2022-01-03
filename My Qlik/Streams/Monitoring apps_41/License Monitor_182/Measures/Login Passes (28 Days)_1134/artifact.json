@@ -1,0 +1,58 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qInfo" : {
+        "qId" : "TJjfsjt",
+        "qType" : "measure"
+      },
+      "qMeasure" : {
+        "coloring" : { },
+        "qActiveExpression" : 0,
+        "qDef" : "count({<[Access Type]={'Login Access'},LogTimeStamp= {\">=$(=timestamp(ReloadTime()-28))\"}>} distinct UsageId)",
+        "qExpressions" : [ ],
+        "qGrouping" : "N",
+        "qLabel" : "Login Passes (28 Days)",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qUseThou" : 0,
+          "qnDec" : 10
+        }
+      },
+      "qMetaDef" : {
+        "description" : "Login Access Passes used during the most recent 28 days based on date selections.  \nIf no selections are made, this displays usage for the most recent 28 days.\nIf month \"Jan 2014\" were selected, this measure would report the usage for the last 28 days of January 2014. \nRefer to the Documentation for more details on how Login Access Passes are measured.",
+        "tags" : [ "last_28_days" ],
+        "title" : "Login Passes (28 Days)"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "TJjfsjt,Measure;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1134
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Measures/Login Passes (28 Days)",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikMeasure/QlikMeasure",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Login Passes (28 Days)",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 264
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 264, 1134 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Measure",
+  "shouldVersion" : true,
+  "subtype" : "QlikMeasure",
+  "type" : "QlikArtifact"
+}

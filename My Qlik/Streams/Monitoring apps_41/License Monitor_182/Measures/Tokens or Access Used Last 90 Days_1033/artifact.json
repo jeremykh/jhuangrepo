@@ -1,0 +1,64 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qInfo" : {
+        "qId" : "e922d655-a13c-4e1f-9198-374e4369d0a9",
+        "qType" : "measure"
+      },
+      "qMeasure" : {
+        "coloring" : { },
+        "descriptionExpression" : {
+          "qStringExpression" : {
+            "qExpr" : "'Total ' & IF(license_type_enabled='Token-based','tokens','access') & ' used in last 90 days.'\r\n& IF((license_type_enabled)='Token-based','NOTE: Login Access token usage is based on Login Access pass usage for the last 28 days only.')"
+          }
+        },
+        "qActiveExpression" : 0,
+        "qDef" : "num(ceil(count({<[Access Type]={'Login'},LogTimeStamp= {\">=$(=timestamp(ReloadTime()-28))\"}>} distinct UsageId)/10)\r\n+count({<[Access Type]-={'Login'},LogTimeStamp= {\">=$(=timestamp(ReloadTime()-90))\"}>} distinct UserId)\n,'#,##0')",
+        "qExpressions" : [ ],
+        "qGrouping" : "N",
+        "qLabel" : "Tokens or Access Used Last 90 Days",
+        "qLabelExpression" : "=IF((license_type_enabled)='Token-based','Tokens','Access') & ' Used Last 90 Days'",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qUseThou" : 0,
+          "qnDec" : 10
+        }
+      },
+      "qMetaDef" : {
+        "description" : "",
+        "tags" : [ ],
+        "title" : "Tokens or Access Used Last 90 Days"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "e922d655-a13c-4e1f-9198-374e4369d0a9,Measure;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1033
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Measures/Tokens or Access Used Last 90 Days",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikMeasure/QlikMeasure",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Tokens or Access Used Last 90 Days",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 264
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 264, 1033 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Measure",
+  "shouldVersion" : true,
+  "subtype" : "QlikMeasure",
+  "type" : "QlikArtifact"
+}

@@ -1,0 +1,229 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "9f896c29d3f2710669ef6f251088bb9ca13db097",
+      "contentName" : "content",
+      "contentOid" : 18992,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "bounds" : {
+            "height" : 13.333333333333334,
+            "width" : 23.333333333333332,
+            "x" : 0,
+            "y" : 0
+          },
+          "col" : 0,
+          "colspan" : 7,
+          "name" : "Dmnjv",
+          "row" : 0,
+          "rowspan" : 2,
+          "type" : "auto-chart"
+        }, {
+          "bounds" : {
+            "height" : 13.333333333333334,
+            "width" : 26.666666666666668,
+            "x" : 23.333333333333332,
+            "y" : 0
+          },
+          "col" : 7,
+          "colspan" : 8,
+          "name" : "vjNaBJ",
+          "row" : 0,
+          "rowspan" : 2,
+          "type" : "auto-chart"
+        }, {
+          "bounds" : {
+            "height" : 13.333333333333334,
+            "width" : 23.333333333333332,
+            "x" : 0,
+            "y" : 26.666666666666668
+          },
+          "col" : 0,
+          "colspan" : 7,
+          "name" : "CBXnKZp",
+          "row" : 4,
+          "rowspan" : 2,
+          "type" : "auto-chart"
+        }, {
+          "bounds" : {
+            "height" : 13.333333333333334,
+            "width" : 23.333333333333332,
+            "x" : 0,
+            "y" : 40
+          },
+          "col" : 0,
+          "colspan" : 7,
+          "name" : "pSqju",
+          "row" : 6,
+          "rowspan" : 2,
+          "type" : "auto-chart"
+        }, {
+          "bounds" : {
+            "height" : 13.333333333333334,
+            "width" : 23.333333333333332,
+            "x" : 0,
+            "y" : 13.333333333333334
+          },
+          "col" : 0,
+          "colspan" : 7,
+          "name" : "QXnBVGN",
+          "row" : 2,
+          "rowspan" : 2,
+          "type" : "auto-chart"
+        }, {
+          "bounds" : {
+            "height" : 13.333333333333334,
+            "width" : 26.666666666666668,
+            "x" : 23.333333333333332,
+            "y" : 13.333333333333334
+          },
+          "col" : 7,
+          "colspan" : 8,
+          "name" : "GPzRcu",
+          "row" : 2,
+          "rowspan" : 2,
+          "type" : "auto-chart"
+        }, {
+          "bounds" : {
+            "height" : 13.333333333333334,
+            "width" : 26.666666666666668,
+            "x" : 23.333333333333332,
+            "y" : 26.666666666666668
+          },
+          "col" : 7,
+          "colspan" : 8,
+          "name" : "BuRnCM",
+          "row" : 4,
+          "rowspan" : 2,
+          "type" : "auto-chart"
+        }, {
+          "bounds" : {
+            "height" : 13.333333333333334,
+            "width" : 26.666666666666668,
+            "x" : 23.333333333333332,
+            "y" : 40
+          },
+          "col" : 7,
+          "colspan" : 8,
+          "name" : "sdys",
+          "row" : 6,
+          "rowspan" : 2,
+          "type" : "auto-chart"
+        }, {
+          "bounds" : {
+            "height" : 46.666666666666664,
+            "width" : 50,
+            "x" : 0,
+            "y" : 53.333333333333336
+          },
+          "col" : 0,
+          "colspan" : 15,
+          "name" : "WxACGjz",
+          "row" : 8,
+          "rowspan" : 7,
+          "type" : "table"
+        }, {
+          "bounds" : {
+            "height" : 46.666666666666664,
+            "width" : 50,
+            "x" : 50,
+            "y" : 53.333333333333336
+          },
+          "col" : 15,
+          "colspan" : 15,
+          "name" : "fYNqP",
+          "row" : 8,
+          "rowspan" : 7,
+          "type" : "linechart"
+        }, {
+          "bounds" : {
+            "height" : 53.333333333333336,
+            "width" : 50,
+            "x" : 50,
+            "y" : 0
+          },
+          "col" : 15,
+          "colspan" : 15,
+          "name" : "jDwNjkJ",
+          "row" : 0,
+          "rowspan" : 8,
+          "type" : "pivot-table"
+        } ],
+        "columns" : 30,
+        "gridResolution" : "medium",
+        "labelExpression" : {
+          "qStringExpression" : {
+            "qExpr" : "'Overview: ' & license_type_enabled & ' License'"
+          }
+        },
+        "qChildListDef" : {
+          "qData" : {
+            "title" : "/title"
+          }
+        },
+        "qInfo" : {
+          "qId" : "9f96f5e3-aabf-4baa-8132-0397dccaefdc",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "",
+          "title" : "Overview"
+        },
+        "rank" : -2,
+        "rows" : 15,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/4ba9b5c8-4a4e-4a86-a54d-049935fe11ab/Icon_License_grey(1).png"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+        "name" : "sa_repository",
+        "userDirectory" : "INTERNAL",
+        "userId" : "sa_repository"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "9f96f5e3-aabf-4baa-8132-0397dccaefdc,Sheet;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1112
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Sheets/Overview",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Overview",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 265
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 265, 1112 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

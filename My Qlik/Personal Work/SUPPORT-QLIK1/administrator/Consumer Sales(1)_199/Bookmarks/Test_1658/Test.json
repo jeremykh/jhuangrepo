@@ -1,0 +1,38 @@
+{
+  "qProp" : {
+    "qInfo" : {
+      "qId" : "f32d7cea-31d7-4d71-8c84-2faf8b24ba63",
+      "qType" : "bookmark"
+    },
+    "qMetaDef" : {
+      "title" : "Test",
+      "description" : ""
+    },
+    "creationDate" : "2021-08-31T13:58:01.623Z",
+    "sheetId" : "xjXHDyD",
+    "selectionFields" : ""
+  },
+  "qStateData" : [ {
+    "qStateName" : "$",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group1",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group2",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group3",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group4",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group 1",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group 2",
+    "qFieldItems" : [ ]
+  } ],
+  "qPatches" : [ ]
+}

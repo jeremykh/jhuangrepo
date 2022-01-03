@@ -1,0 +1,48 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qDefinition" : "= MakeDate(2010,11,9)+ 0.493055556\n//39441.093055556",
+      "qInfo" : {
+        "qId" : "33ee1171-e832-47af-8a3e-5efd17d6ce4c",
+        "qType" : "variable"
+      },
+      "qMetaDef" : { },
+      "qName" : "vReloadTime",
+      "qNumberPresentation" : {
+        "qType" : "U",
+        "qUseThou" : 0,
+        "qnDec" : 10
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "33ee1171-e832-47af-8a3e-5efd17d6ce4c,Variable;f84cf3b8-f44c-4e73-99aa-37fb20121969,App;",
+  "key" : {
+    "id" : 1472
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Sales Discovery(1)/Variables/vReloadTime",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikVariable/QlikVariable",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "vReloadTime",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 309
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 186, 309, 1472 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Variable",
+  "shouldVersion" : true,
+  "subtype" : "QlikVariable",
+  "type" : "QlikArtifact"
+}

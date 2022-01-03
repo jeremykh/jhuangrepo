@@ -1,0 +1,89 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "0601c1b0ec93a658b6a60830ad51a6a7865adde8",
+      "contentName" : "content",
+      "contentOid" : 19056,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "col" : 4,
+          "colspan" : 19,
+          "name" : "vLBzTah",
+          "row" : 0,
+          "rowspan" : 11,
+          "type" : "table"
+        }, {
+          "col" : 1,
+          "colspan" : 2,
+          "name" : "gkctau",
+          "row" : 0,
+          "rowspan" : 11,
+          "type" : "filterpane"
+        } ],
+        "columns" : 24,
+        "qInfo" : {
+          "qId" : "zBAFH",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "See an overview of customer invoices.",
+          "title" : "Transactions"
+        },
+        "rank" : 5,
+        "rows" : 12,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/3a4cdc64-c7f3-4555-b4b1-10a41056730a/Sales Discovery1 - Transactions _ Sheets - Qlik Sense.png"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "zBAFH,Sheet;3a4cdc64-c7f3-4555-b4b1-10a41056730a,App;",
+  "key" : {
+    "id" : 1369
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Sales Discovery/Sheets/Transactions",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Transactions",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 275
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 183, 275, 1369 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

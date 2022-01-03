@@ -1,0 +1,45 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "b67a3adf01b85471bd1e369e2225a40f5e80b02f",
+      "contentName" : "content",
+      "contentOid" : 18656,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "creationDate" : "2014-07-06",
+    "qMetaDef" : { }
+  },
+  "hidden" : false,
+  "identity" : "nWUPG,Snapshot;baf3d4d4-e230-4461-819d-9f1e3f4985e0,App;",
+  "key" : {
+    "id" : 1593
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Consumer Sales(1)/Snapshots/2014-07-06",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikSnapshot/QlikSnapshot",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "2014-07-06",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 343
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 199, 343, 1593 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Snapshot",
+  "shouldVersion" : true,
+  "subtype" : "QlikSnapshot",
+  "type" : "QlikArtifact"
+}

@@ -1,0 +1,49 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "fbd4edad71f3c73070255b5ecff8d36cdb5fdb2d",
+      "contentName" : "content",
+      "contentOid" : 19069,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "creationDate" : "2016-10-31T18:00:31.510Z",
+    "qMetaDef" : {
+      "annotation" : "",
+      "description" : "",
+      "title" : "Average Sales Amount per Product Category"
+    }
+  },
+  "hidden" : false,
+  "identity" : "ppFzLp,Snapshot;1bcebd6c-fef3-43bc-8a2c-a96073c1d4f3,App;",
+  "key" : {
+    "id" : 1402
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Combo Charts/Snapshots/Average Sales Amount per Product Category",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSnapshot/QlikSnapshot",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Average Sales Amount per Product Category",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 286
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 184, 286, 1402 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Snapshot",
+  "shouldVersion" : true,
+  "subtype" : "QlikSnapshot",
+  "type" : "QlikArtifact"
+}

@@ -1,0 +1,138 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "e022bc43d116cb616cdfdc94850f453edc6e0c6d",
+      "contentName" : "content",
+      "contentOid" : 18989,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "bounds" : {
+            "height" : 44.44444444444444,
+            "width" : 50,
+            "x" : 50,
+            "y" : 55.55555555555556
+          },
+          "col" : 18,
+          "colspan" : 18,
+          "name" : "qbvJj",
+          "row" : 10,
+          "rowspan" : 8,
+          "type" : "table"
+        }, {
+          "bounds" : {
+            "height" : 61.111111111111114,
+            "width" : 47.22222222222222,
+            "x" : 0,
+            "y" : 38.88888888888889
+          },
+          "col" : 0,
+          "colspan" : 17,
+          "name" : "ykDUR",
+          "row" : 7,
+          "rowspan" : 11,
+          "type" : "pivot-table"
+        }, {
+          "bounds" : {
+            "height" : 55.55555555555556,
+            "width" : 50,
+            "x" : 50,
+            "y" : 0
+          },
+          "col" : 18,
+          "colspan" : 18,
+          "name" : "kmdDAe",
+          "row" : 0,
+          "rowspan" : 10,
+          "type" : "pivot-table"
+        }, {
+          "bounds" : {
+            "height" : 38.88888888888889,
+            "width" : 47.22222222222222,
+            "x" : 0,
+            "y" : 0
+          },
+          "col" : 0,
+          "colspan" : 17,
+          "name" : "XNYMY",
+          "row" : 0,
+          "rowspan" : 7,
+          "type" : "text-image"
+        } ],
+        "columns" : 36,
+        "gridResolution" : "large",
+        "labelExpression" : {
+          "qStringExpression" : {
+            "qExpr" : "='Unified Licensing History' & If(qlikview_license_logs_present<>1,': Not Applicable')"
+          }
+        },
+        "qChildListDef" : {
+          "qData" : {
+            "title" : "/title"
+          }
+        },
+        "qInfo" : {
+          "qId" : "8d8f3f07-602f-4907-ae4f-362bc6d47e5e",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "For analyzing Professional, Analyzer, and Analyzer Capacity usage across multiple Qlik environments - both Qlik Sense and QlikView.",
+          "title" : "Unified Licensing History"
+        },
+        "rank" : 4.6875,
+        "rows" : 18,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/4ba9b5c8-4a4e-4a86-a54d-049935fe11ab/Unified_Licensing_QV_Sense.png"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+        "name" : "sa_repository",
+        "userDirectory" : "INTERNAL",
+        "userId" : "sa_repository"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "8d8f3f07-602f-4907-ae4f-362bc6d47e5e,Sheet;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1105
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Sheets/Unified Licensing History",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Unified Licensing History",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 265
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 265, 1105 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

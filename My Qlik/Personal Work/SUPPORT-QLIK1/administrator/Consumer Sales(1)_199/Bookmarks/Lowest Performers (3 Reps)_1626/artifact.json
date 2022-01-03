@@ -1,0 +1,60 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "dcf7114405114623c793281203b752b4e8ac1f0c",
+      "contentName" : "content",
+      "contentOid" : 18687,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "creationDate" : "2014-09-17T02:44:10.354Z",
+    "qMetaDef" : {
+      "description" : "",
+      "title" : "Lowest Performers (3 Reps)"
+    },
+    "qrsProp" : {
+      "approved" : false,
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "published" : false
+    },
+    "selectionFields" : "Metric, Sales Rep Name, Sales Rep Performance",
+    "sheetId" : "df21fc25-128f-43ed-a658-867675af7031"
+  },
+  "hidden" : false,
+  "identity" : "QjGmge,Bookmark;baf3d4d4-e230-4461-819d-9f1e3f4985e0,App;",
+  "key" : {
+    "id" : 1626
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Consumer Sales(1)/Bookmarks/Lowest Performers (3 Reps)",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikBookmark/QlikBookmark",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Lowest Performers (3 Reps)",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 339
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 199, 339, 1626 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Bookmark",
+  "shouldVersion" : true,
+  "subtype" : "QlikBookmark",
+  "type" : "QlikArtifact"
+}

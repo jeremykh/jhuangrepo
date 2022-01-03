@@ -1,0 +1,52 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "isEditMode" : true,
+      "qDim" : {
+        "qFieldDefs" : [ "Job Family", "Job" ],
+        "qFieldLabels" : [ "Job Family" ],
+        "qGrouping" : "H",
+        "title" : "Job Family > Job"
+      },
+      "qInfo" : {
+        "qId" : "bsXmJy",
+        "qType" : "dimension"
+      },
+      "qMetaDef" : {
+        "description" : "Job exploration",
+        "tags" : [ "drill", "Job" ],
+        "title" : "Job Family > Job"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "bsXmJy,Dimension;d5856b5e-46b8-4254-86dd-0e2e1ef086a8,App;",
+  "key" : {
+    "id" : 1517
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Human Capital Management(1)/Dimensions/Job Family > Job",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikDimension/QlikDimension",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Job Family > Job",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 330
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 198, 330, 1517 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Dimension",
+  "shouldVersion" : true,
+  "subtype" : "QlikDimension",
+  "type" : "QlikArtifact"
+}

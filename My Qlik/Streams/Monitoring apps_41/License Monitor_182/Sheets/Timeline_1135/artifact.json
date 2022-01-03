@@ -1,0 +1,115 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "b0e8272d958f18b72059cecea172078a8524d8dd",
+      "contentName" : "content",
+      "contentOid" : 19000,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "col" : 0,
+          "colspan" : 18,
+          "name" : "63363682-cd08-4fb4-8d73-86164333c353",
+          "row" : 0,
+          "rowspan" : 1,
+          "type" : "filterpane"
+        }, {
+          "col" : 18,
+          "colspan" : 12,
+          "name" : "d9d5658b-a39f-4aba-9942-d70e3f5a45e7",
+          "row" : 0,
+          "rowspan" : 1,
+          "type" : "filterpane"
+        }, {
+          "col" : 0,
+          "colspan" : 16,
+          "name" : "721667ae-4d3a-4d6e-8324-d4b6a62d4366",
+          "row" : 8,
+          "rowspan" : 7,
+          "type" : "pivot-table"
+        }, {
+          "col" : 16,
+          "colspan" : 14,
+          "name" : "746fb6d1-92da-4bba-8778-13218827f61f",
+          "row" : 8,
+          "rowspan" : 7,
+          "type" : "linechart"
+        }, {
+          "col" : 0,
+          "colspan" : 30,
+          "name" : "bgWjtaw",
+          "row" : 1,
+          "rowspan" : 7,
+          "type" : "linechart"
+        } ],
+        "columns" : 30,
+        "qChildListDef" : {
+          "qData" : {
+            "title" : "/title"
+          }
+        },
+        "qInfo" : {
+          "qId" : "9193657c-727f-4239-8ba9-989b18ad2edf",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "",
+          "title" : "Timeline"
+        },
+        "rank" : -0.59375,
+        "rows" : 15,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/4ba9b5c8-4a4e-4a86-a54d-049935fe11ab/Icon_Analytics_Search_grey.png"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+        "name" : "sa_repository",
+        "userDirectory" : "INTERNAL",
+        "userId" : "sa_repository"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "9193657c-727f-4239-8ba9-989b18ad2edf,Sheet;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1135
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Sheets/Timeline",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Timeline",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 265
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 265, 1135 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

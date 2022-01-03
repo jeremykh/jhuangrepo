@@ -1,0 +1,185 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "b956cd6f4de04118c1dc41f195d4f4d0fde0b357",
+      "contentName" : "content",
+      "contentOid" : 18979,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "bounds" : {
+            "height" : 55.55555555555556,
+            "width" : 11.11111111111111,
+            "x" : 0,
+            "y" : 44.44444444444444
+          },
+          "col" : 0,
+          "colspan" : 4,
+          "name" : "AYapmA",
+          "row" : 8,
+          "rowspan" : 10,
+          "type" : "filterpane"
+        }, {
+          "bounds" : {
+            "height" : 44.44444444444444,
+            "width" : 11.11111111111111,
+            "x" : 0,
+            "y" : 0
+          },
+          "col" : 0,
+          "colspan" : 4,
+          "name" : "RfQth",
+          "row" : 0,
+          "rowspan" : 8,
+          "type" : "filterpane"
+        }, {
+          "bounds" : {
+            "height" : 55.55555555555556,
+            "width" : 88.88888888888889,
+            "x" : 11.11111111111111,
+            "y" : 44.44444444444444
+          },
+          "col" : 4,
+          "colspan" : 32,
+          "name" : "LSPjF",
+          "row" : 8,
+          "rowspan" : 10,
+          "type" : "table"
+        }, {
+          "bounds" : {
+            "height" : 44.44444444444444,
+            "width" : 41.66666666666667,
+            "x" : 58.333333333333336,
+            "y" : 0
+          },
+          "col" : 21,
+          "colspan" : 15,
+          "name" : "KenPLJN",
+          "row" : 0,
+          "rowspan" : 8,
+          "type" : "table"
+        }, {
+          "bounds" : {
+            "height" : 33.33333333333333,
+            "width" : 47.22222222222222,
+            "x" : 11.11111111111111,
+            "y" : 11.11111111111111
+          },
+          "col" : 4,
+          "colspan" : 17,
+          "name" : "kVUwaA",
+          "row" : 2,
+          "rowspan" : 6,
+          "type" : "pivot-table"
+        }, {
+          "bounds" : {
+            "height" : 11.11111111111111,
+            "width" : 16.666666666666664,
+            "x" : 11.11111111111111,
+            "y" : 0
+          },
+          "col" : 4,
+          "colspan" : 6,
+          "name" : "Vjd",
+          "row" : 0,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "bounds" : {
+            "height" : 11.11111111111111,
+            "width" : 16.666666666666664,
+            "x" : 27.77777777777778,
+            "y" : 0
+          },
+          "col" : 10,
+          "colspan" : 6,
+          "name" : "pkkWBpv",
+          "row" : 0,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "bounds" : {
+            "height" : 11.11111111111111,
+            "width" : 13.88888888888889,
+            "x" : 44.44444444444444,
+            "y" : 0
+          },
+          "col" : 16,
+          "colspan" : 5,
+          "name" : "jmPYj",
+          "row" : 0,
+          "rowspan" : 2,
+          "type" : "kpi"
+        } ],
+        "columns" : 36,
+        "gridResolution" : "large",
+        "qChildListDef" : {
+          "qData" : {
+            "title" : "/title"
+          }
+        },
+        "qInfo" : {
+          "qId" : "67375059-2b6f-4f0f-bd5c-16e85b0b926f",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "",
+          "title" : "Allocation History"
+        },
+        "rank" : 3.875,
+        "rows" : 18,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/4ba9b5c8-4a4e-4a86-a54d-049935fe11ab/Icon_Rules_Engine_grey.png"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+        "name" : "sa_repository",
+        "userDirectory" : "INTERNAL",
+        "userId" : "sa_repository"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "67375059-2b6f-4f0f-bd5c-16e85b0b926f,Sheet;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1080
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Sheets/Allocation History",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Allocation History",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 265
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 265, 1080 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

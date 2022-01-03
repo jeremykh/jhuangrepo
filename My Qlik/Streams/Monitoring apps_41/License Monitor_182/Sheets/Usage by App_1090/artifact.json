@@ -1,0 +1,159 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "fb973de8cadb2c0ff247695b559d8cf932b8bd66",
+      "contentName" : "content",
+      "contentOid" : 18986,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "bounds" : {
+            "height" : 5.555555555555555,
+            "width" : 55.55555555555556,
+            "x" : 0,
+            "y" : 0
+          },
+          "col" : 0,
+          "colspan" : 20,
+          "name" : "Cfgcajf",
+          "row" : 0,
+          "rowspan" : 1,
+          "type" : "filterpane"
+        }, {
+          "bounds" : {
+            "height" : 5.555555555555555,
+            "width" : 44.44444444444444,
+            "x" : 55.55555555555556,
+            "y" : 0
+          },
+          "col" : 20,
+          "colspan" : 16,
+          "name" : "HD",
+          "row" : 0,
+          "rowspan" : 1,
+          "type" : "filterpane"
+        }, {
+          "bounds" : {
+            "height" : 50,
+            "width" : 55.55555555555556,
+            "x" : 0,
+            "y" : 5.555555555555555
+          },
+          "col" : 0,
+          "colspan" : 20,
+          "name" : "NQkKLs",
+          "row" : 1,
+          "rowspan" : 9,
+          "type" : "pivot-table"
+        }, {
+          "bounds" : {
+            "height" : 44.44444444444444,
+            "width" : 55.55555555555556,
+            "x" : 0,
+            "y" : 55.55555555555556
+          },
+          "col" : 0,
+          "colspan" : 20,
+          "name" : "SKjL",
+          "row" : 10,
+          "rowspan" : 8,
+          "type" : "table"
+        }, {
+          "bounds" : {
+            "height" : 44.44444444444444,
+            "width" : 44.44444444444444,
+            "x" : 55.55555555555556,
+            "y" : 5.555555555555555
+          },
+          "col" : 20,
+          "colspan" : 16,
+          "name" : "GuNuJN",
+          "row" : 1,
+          "rowspan" : 8,
+          "type" : "barchart"
+        }, {
+          "bounds" : {
+            "height" : 50,
+            "width" : 44.44444444444444,
+            "x" : 55.55555555555556,
+            "y" : 50
+          },
+          "col" : 20,
+          "colspan" : 16,
+          "name" : "JFCvWM",
+          "row" : 9,
+          "rowspan" : 9,
+          "type" : "barchart"
+        } ],
+        "columns" : 36,
+        "gridResolution" : "large",
+        "qChildListDef" : {
+          "qData" : {
+            "title" : "/title"
+          }
+        },
+        "qInfo" : {
+          "qId" : "8403326a-ea15-49ac-aedd-02ee6899a2ec",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "",
+          "title" : "Usage by App"
+        },
+        "rank" : -0.640625,
+        "rows" : 18,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/4ba9b5c8-4a4e-4a86-a54d-049935fe11ab/Icon_Apps_grey.png"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+        "name" : "sa_repository",
+        "userDirectory" : "INTERNAL",
+        "userId" : "sa_repository"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "8403326a-ea15-49ac-aedd-02ee6899a2ec,Sheet;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1090
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Sheets/Usage by App",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Usage by App",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 265
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 265, 1090 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

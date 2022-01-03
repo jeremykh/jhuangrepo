@@ -1,0 +1,57 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qInfo" : {
+        "qId" : "scmPmK",
+        "qType" : "measure"
+      },
+      "qMeasure" : {
+        "qActiveExpression" : 0,
+        "qDef" : "(sum([YTD Sales Amount])-sum([LY YTD Sales Amount]))/sum([LY YTD Sales Amount])",
+        "qExpressions" : [ ],
+        "qGrouping" : "N",
+        "qLabel" : "Sales Variation",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qUseThou" : 0,
+          "qnDec" : 10
+        }
+      },
+      "qMetaDef" : {
+        "description" : "Sales variation year over year.",
+        "tags" : [ ],
+        "title" : "Sales Variation"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "scmPmK,Measure;f84cf3b8-f44c-4e73-99aa-37fb20121969,App;",
+  "key" : {
+    "id" : 1438
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Sales Discovery(1)/Measures/Sales Variation",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikMeasure/QlikMeasure",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Sales Variation",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 305
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 186, 305, 1438 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Measure",
+  "shouldVersion" : true,
+  "subtype" : "QlikMeasure",
+  "type" : "QlikArtifact"
+}

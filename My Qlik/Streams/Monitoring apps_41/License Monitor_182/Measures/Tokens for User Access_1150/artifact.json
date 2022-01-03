@@ -1,0 +1,58 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qInfo" : {
+        "qId" : "qyTgxb",
+        "qType" : "measure"
+      },
+      "qMeasure" : {
+        "coloring" : { },
+        "qActiveExpression" : 0,
+        "qDef" : "count({<[Access Type]={'User'},LogTimeStamp= {\">=$(=daystart(today()-27))\"}>} distinct UserId)",
+        "qExpressions" : [ ],
+        "qGrouping" : "N",
+        "qLabel" : "Tokens for User Access",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qUseThou" : 0,
+          "qnDec" : 10
+        }
+      },
+      "qMetaDef" : {
+        "description" : "Equivalent count of tokens consumed on User Access Passes during the past 28 days.\nNote: This does not count the tokens allocated to User Access Passes. Rather, it counts User Access Passes that were used during the selected timeframe.\nRefer to the Documentation for more details on User Access Passes.",
+        "tags" : [ "last_28_days" ],
+        "title" : "Tokens for User Access"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "qyTgxb,Measure;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1150
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Measures/Tokens for User Access",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikMeasure/QlikMeasure",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Tokens for User Access",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 264
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 264, 1150 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Measure",
+  "shouldVersion" : true,
+  "subtype" : "QlikMeasure",
+  "type" : "QlikArtifact"
+}

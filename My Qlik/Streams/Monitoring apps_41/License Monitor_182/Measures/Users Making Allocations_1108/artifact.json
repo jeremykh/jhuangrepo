@@ -1,0 +1,58 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qInfo" : {
+        "qId" : "36b2ce5c-746a-4f1d-83cd-66b59249f08c",
+        "qType" : "measure"
+      },
+      "qMeasure" : {
+        "coloring" : { },
+        "qActiveExpression" : 0,
+        "qDef" : "Count({<[License Allocation]={\"*\"}>} Distinct UserId)",
+        "qExpressions" : [ ],
+        "qGrouping" : "N",
+        "qLabel" : "Users Making Allocations",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qUseThou" : 0,
+          "qnDec" : 10
+        }
+      },
+      "qMetaDef" : {
+        "description" : "",
+        "tags" : [ ],
+        "title" : "Users Making Allocations"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "36b2ce5c-746a-4f1d-83cd-66b59249f08c,Measure;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1108
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Measures/Users Making Allocations",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikMeasure/QlikMeasure",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Users Making Allocations",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 264
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 264, 1108 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Measure",
+  "shouldVersion" : true,
+  "subtype" : "QlikMeasure",
+  "type" : "QlikArtifact"
+}

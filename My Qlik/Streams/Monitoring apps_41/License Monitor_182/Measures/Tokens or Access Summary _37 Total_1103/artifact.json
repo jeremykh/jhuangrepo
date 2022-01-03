@@ -1,0 +1,64 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qInfo" : {
+        "qId" : "79a93952-c48b-40e0-b9fd-50521aa6d987",
+        "qType" : "measure"
+      },
+      "qMeasure" : {
+        "coloring" : { },
+        "descriptionExpression" : {
+          "qStringExpression" : {
+            "qExpr" : "IF((license_type_enabled)='Token-based','% Total Tokens Used. NOTE: Login Access token usage is based on Login Access pass usage for the last 28 days only.'\n,'% Total Access used over time.')"
+          }
+        },
+        "qActiveExpression" : 0,
+        "qDef" : "num(\r\n  (\n  \tceil(count({<[Access Type]={'Login'},LogTimeStamp= {\">=$(=timestamp(ReloadTime()-28))\"}>} distinct UsageId)/10)\n  \t+count({<[Access Type]-={'Login'}>} distinct UserId)\n  )/(\n  \tceil(count({<[Access Type]={'Login'},LogTimeStamp= {\">=$(=timestamp(ReloadTime()-28))\"}>} distinct TOTAL UsageId)/10)\n  \t+count({<[Access Type]-={'Login'}>} distinct TOTAL UserId)\n  )\n,'0.0%')",
+        "qExpressions" : [ ],
+        "qGrouping" : "N",
+        "qLabel" : "Tokens or Access Summary % Total",
+        "qLabelExpression" : "IF((license_type_enabled)='Token-based','% Total Tokens','% Total Access')",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qUseThou" : 0,
+          "qnDec" : 10
+        }
+      },
+      "qMetaDef" : {
+        "description" : "",
+        "tags" : [ ],
+        "title" : "Tokens or Access Summary % Total"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "79a93952-c48b-40e0-b9fd-50521aa6d987,Measure;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1103
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Measures/Tokens or Access Summary % Total",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikMeasure/QlikMeasure",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Tokens or Access Summary % Total",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 264
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 264, 1103 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Measure",
+  "shouldVersion" : true,
+  "subtype" : "QlikMeasure",
+  "type" : "QlikArtifact"
+}

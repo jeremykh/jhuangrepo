@@ -1,0 +1,96 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "3355b4511a030531ebe0ac52d72c2054ef91ceaf",
+      "contentName" : "content",
+      "contentOid" : 19054,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "col" : 1,
+          "colspan" : 22,
+          "name" : "PvgapdM",
+          "row" : 6,
+          "rowspan" : 5,
+          "type" : "linechart"
+        }, {
+          "col" : 1,
+          "colspan" : 22,
+          "name" : "PPVbPr",
+          "row" : 2,
+          "rowspan" : 4,
+          "type" : "combochart"
+        }, {
+          "col" : 0,
+          "colspan" : 24,
+          "name" : "zGjyS",
+          "row" : 0,
+          "rowspan" : 2,
+          "type" : "text-image"
+        } ],
+        "columns" : 24,
+        "qInfo" : {
+          "qId" : "UmZp",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "Analyze shipment history over the last year.",
+          "title" : "Shipments"
+        },
+        "rank" : 2,
+        "rows" : 12,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/3a4cdc64-c7f3-4555-b4b1-10a41056730a/Sales Discovery1 - Shipments _ Sheets - Qlik Sense.png"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "UmZp,Sheet;3a4cdc64-c7f3-4555-b4b1-10a41056730a,App;",
+  "key" : {
+    "id" : 1368
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Sales Discovery/Sheets/Shipments",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Shipments",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 275
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 183, 275, 1368 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

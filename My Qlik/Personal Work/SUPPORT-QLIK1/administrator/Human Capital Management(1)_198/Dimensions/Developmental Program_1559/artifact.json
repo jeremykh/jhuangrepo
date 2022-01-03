@@ -1,0 +1,51 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qDim" : {
+        "qFieldDefs" : [ "Developmental Program" ],
+        "qFieldLabels" : [ "Developmental Program" ],
+        "qGrouping" : "N",
+        "title" : "Developmental Program"
+      },
+      "qInfo" : {
+        "qId" : "5a49bb40-ced4-4ba8-8a3c-04c5f0074e3b",
+        "qType" : "dimension"
+      },
+      "qMetaDef" : {
+        "description" : "",
+        "tags" : [ "Training" ],
+        "title" : "Developmental Program"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "5a49bb40-ced4-4ba8-8a3c-04c5f0074e3b,Dimension;d5856b5e-46b8-4254-86dd-0e2e1ef086a8,App;",
+  "key" : {
+    "id" : 1559
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Human Capital Management(1)/Dimensions/Developmental Program",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikDimension/QlikDimension",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Developmental Program",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 330
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 198, 330, 1559 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Dimension",
+  "shouldVersion" : true,
+  "subtype" : "QlikDimension",
+  "type" : "QlikArtifact"
+}

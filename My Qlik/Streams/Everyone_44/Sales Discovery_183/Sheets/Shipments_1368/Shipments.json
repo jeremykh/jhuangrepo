@@ -1,0 +1,106 @@
+{
+  "qProperty" : {
+    "qInfo" : {
+      "qId" : "UmZp",
+      "qType" : "sheet"
+    },
+    "qMetaDef" : {
+      "title" : "Shipments",
+      "description" : "Analyze shipment history over the last year."
+    },
+    "rank" : 2,
+    "columns" : 24,
+    "rows" : 12,
+    "cells" : [ {
+      "name" : "PvgapdM",
+      "type" : "linechart",
+      "col" : 1,
+      "row" : 6,
+      "colspan" : 22,
+      "rowspan" : 5
+    }, {
+      "name" : "PPVbPr",
+      "type" : "combochart",
+      "col" : 1,
+      "row" : 2,
+      "colspan" : 22,
+      "rowspan" : 4
+    }, {
+      "name" : "zGjyS",
+      "type" : "text-image",
+      "col" : 0,
+      "row" : 0,
+      "colspan" : 24,
+      "rowspan" : 2
+    } ],
+    "thumbnail" : {
+      "qStaticContentUrlDef" : {
+        "qUrl" : "/appcontent/3a4cdc64-c7f3-4555-b4b1-10a41056730a/Sales Discovery1 - Shipments _ Sheets - Qlik Sense.png"
+      }
+    }
+  },
+  "qChildren" : [ {
+    "qProperty" : {
+      "qInfo" : {
+        "qId" : "PvgapdM",
+        "qType" : "linechart"
+      },
+      "qExtendsId" : "CQgDDy",
+      "qMetaDef" : { }
+    },
+    "qChildren" : [ ]
+  }, {
+    "qProperty" : {
+      "qInfo" : {
+        "qId" : "PPVbPr",
+        "qType" : "linechart"
+      },
+      "qExtendsId" : "AjzmQZV",
+      "qMetaDef" : { }
+    },
+    "qChildren" : [ ]
+  }, {
+    "qProperty" : {
+      "qInfo" : {
+        "qId" : "zGjyS",
+        "qType" : "text-image"
+      },
+      "qMetaDef" : { },
+      "qHyperCubeDef" : {
+        "qDimensions" : [ ],
+        "qMeasures" : [ ],
+        "qInterColumnSortOrder" : [ ],
+        "qInitialDataFetch" : [ ],
+        "qReductionMode" : "N",
+        "qMode" : "S",
+        "qPseudoDimPos" : -1,
+        "qNoOfLeftDims" : -1,
+        "qMaxStackedCells" : 5000,
+        "qCalcCond" : { },
+        "qTitle" : { },
+        "qCalcCondition" : {
+          "qCond" : { },
+          "qMsg" : { }
+        },
+        "qColumnOrder" : [ ],
+        "qExpansionState" : [ ],
+        "qLayoutExclude" : { }
+      },
+      "showTitles" : false,
+      "title" : "",
+      "subtitle" : "",
+      "footnote" : "",
+      "responsive" : "all",
+      "markdown" : "^[%[The % on time shipments and the Number of shipments late vs on time charts  allow you to  analyze shipping trends over time.](4)](center)\n\n",
+      "background" : {
+        "url" : {
+          "qStaticContentUrlDef" : { }
+        },
+        "size" : "auto"
+      },
+      "visualization" : "text-image",
+      "images" : [ ]
+    },
+    "qChildren" : [ ]
+  } ]
+}

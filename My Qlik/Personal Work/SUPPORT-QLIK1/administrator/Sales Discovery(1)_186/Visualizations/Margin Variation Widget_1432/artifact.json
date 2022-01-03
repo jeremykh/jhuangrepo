@@ -1,0 +1,233 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qChildren" : [ ],
+      "qProperty" : {
+        "background" : {
+          "size" : "auto",
+          "url" : {
+            "qStaticContentUrlDef" : { }
+          }
+        },
+        "footnote" : "",
+        "images" : [ ],
+        "markdown" : "^[**Margin Variation**](center)^[**%[=[](bgDbxSF)](5)**#[ \nYTD: =[](TJkjS)\n%[LYTD: =[](jqJRUz)](2)](2)](center)",
+        "masterVersion" : 0.96,
+        "metadata" : { },
+        "qHyperCubeDef" : {
+          "qCalcCond" : { },
+          "qCalcCondition" : {
+            "qCond" : { },
+            "qMsg" : { }
+          },
+          "qColumnOrder" : [ ],
+          "qDimensions" : [ ],
+          "qExpansionState" : [ ],
+          "qInitialDataFetch" : [ ],
+          "qInterColumnSortOrder" : [ 0, 1, 2 ],
+          "qLayoutExclude" : { },
+          "qMaxStackedCells" : 5000,
+          "qMeasures" : [ {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "bgDbxSF",
+              "numFormatFromTemplate" : true,
+              "qAccumulate" : 0,
+              "qActiveExpression" : 0,
+              "qExpressions" : [ ],
+              "qGrouping" : "N",
+              "qNumFormat" : {
+                "qDec" : ".",
+                "qFmt" : "0.00%",
+                "qThou" : ",",
+                "qType" : "F",
+                "qUseThou" : 0,
+                "qnDec" : 2
+              },
+              "qTags" : [ ]
+            },
+            "qLibraryId" : "ZtJbV",
+            "qMiniChartDef" : {
+              "qAttributeExpressions" : [ ],
+              "qMaxNumberPoints" : -1,
+              "qOtherTotalSpec" : {
+                "qApplyEvenWhenPossiblyWrongResult" : true,
+                "qForceBadValueKeeping" : true,
+                "qOtherCounted" : { },
+                "qOtherLimit" : { },
+                "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                "qOtherMode" : "OTHER_OFF",
+                "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                "qReferencedExpression" : { },
+                "qTotalMode" : "TOTAL_OFF"
+              },
+              "qSortBy" : {
+                "qExpression" : { }
+              }
+            },
+            "qSortBy" : {
+              "qExpression" : { },
+              "qSortByLoadOrder" : 1,
+              "qSortByNumeric" : -1
+            },
+            "qTrendLines" : [ ]
+          }, {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "TJkjS",
+              "numFormatFromTemplate" : true,
+              "qAccumulate" : 0,
+              "qActiveExpression" : 0,
+              "qDef" : "Sum([YTD Sales Margin Amount])",
+              "qExpressions" : [ ],
+              "qGrouping" : "N",
+              "qLabel" : "Sales Margin YTD",
+              "qNumFormat" : {
+                "qType" : "U",
+                "qUseThou" : 0,
+                "qnDec" : 10
+              },
+              "qTags" : [ ]
+            },
+            "qMiniChartDef" : {
+              "qAttributeExpressions" : [ ],
+              "qMaxNumberPoints" : -1,
+              "qOtherTotalSpec" : {
+                "qApplyEvenWhenPossiblyWrongResult" : true,
+                "qForceBadValueKeeping" : true,
+                "qOtherCounted" : { },
+                "qOtherLimit" : { },
+                "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                "qOtherMode" : "OTHER_OFF",
+                "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                "qReferencedExpression" : { },
+                "qTotalMode" : "TOTAL_OFF"
+              },
+              "qSortBy" : {
+                "qExpression" : { }
+              }
+            },
+            "qSortBy" : {
+              "qExpression" : { },
+              "qSortByLoadOrder" : 1,
+              "qSortByNumeric" : -1
+            },
+            "qTrendLines" : [ ]
+          }, {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "jqJRUz",
+              "numFormatFromTemplate" : true,
+              "qAccumulate" : 0,
+              "qActiveExpression" : 0,
+              "qDef" : "Sum([LY YTD Sales Margin Amount])",
+              "qExpressions" : [ ],
+              "qGrouping" : "N",
+              "qLabel" : "Sales Margin LYTD",
+              "qNumFormat" : {
+                "qType" : "U",
+                "qUseThou" : 0,
+                "qnDec" : 10
+              },
+              "qTags" : [ ]
+            },
+            "qMiniChartDef" : {
+              "qAttributeExpressions" : [ ],
+              "qMaxNumberPoints" : -1,
+              "qOtherTotalSpec" : {
+                "qApplyEvenWhenPossiblyWrongResult" : true,
+                "qForceBadValueKeeping" : true,
+                "qOtherCounted" : { },
+                "qOtherLimit" : { },
+                "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                "qOtherMode" : "OTHER_OFF",
+                "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                "qReferencedExpression" : { },
+                "qTotalMode" : "TOTAL_OFF"
+              },
+              "qSortBy" : {
+                "qExpression" : { }
+              }
+            },
+            "qSortBy" : {
+              "qExpression" : { },
+              "qSortByLoadOrder" : 1,
+              "qSortByNumeric" : -1
+            },
+            "qTrendLines" : [ ]
+          } ],
+          "qMode" : "S",
+          "qNoOfLeftDims" : -1,
+          "qPseudoDimPos" : -1,
+          "qReductionMode" : "N",
+          "qTitle" : { }
+        },
+        "qInfo" : {
+          "qId" : "ahcKhCW",
+          "qType" : "masterobject"
+        },
+        "qMetaDef" : {
+          "description" : "Including YTD Margin and LYTD Margin",
+          "tags" : [ "Margin" ],
+          "title" : "Margin Variation Widget"
+        },
+        "responsive" : "all",
+        "showTitles" : false,
+        "subtitle" : "",
+        "title" : "",
+        "visualization" : "text-image"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "ahcKhCW,Visualization;f84cf3b8-f44c-4e73-99aa-37fb20121969,App;",
+  "key" : {
+    "id" : 1432
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Sales Discovery(1)/Visualizations/Margin Variation Widget",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikVisualization/QlikVisualization",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Margin Variation Widget",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 310
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 186, 310, 1432 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Visualization",
+  "shouldVersion" : true,
+  "subtype" : "QlikVisualization",
+  "type" : "QlikArtifact"
+}

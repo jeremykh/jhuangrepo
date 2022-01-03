@@ -1,0 +1,981 @@
+{
+  "qProperty" : {
+    "qInfo" : {
+      "qId" : "aphzPL",
+      "qType" : "sheet"
+    },
+    "qMetaDef" : {
+      "title" : "US Regional Analysis",
+      "description" : "See the breakdown of sales, customers, and shipments by state."
+    },
+    "rank" : 4,
+    "columns" : 24,
+    "rows" : 12,
+    "cells" : [ {
+      "name" : "kQPzCm",
+      "type" : "map",
+      "col" : 14,
+      "row" : 2,
+      "colspan" : 9,
+      "rowspan" : 4
+    }, {
+      "name" : "YPhqut",
+      "type" : "map",
+      "col" : 14,
+      "row" : 7,
+      "colspan" : 9,
+      "rowspan" : 4
+    }, {
+      "name" : "VQFJxg",
+      "type" : "filterpane",
+      "col" : 0,
+      "row" : 0,
+      "colspan" : 24,
+      "rowspan" : 1
+    }, {
+      "name" : "tVJVu",
+      "type" : "map",
+      "col" : 1,
+      "row" : 2,
+      "colspan" : 12,
+      "rowspan" : 9
+    } ],
+    "thumbnail" : {
+      "qStaticContentUrlDef" : {
+        "qUrl" : "/appcontent/f84cf3b8-f44c-4e73-99aa-37fb20121969/Sales Discovery1 - US Regional Analysis _ Sheets - Qlik Sense.png"
+      }
+    }
+  },
+  "qChildren" : [ {
+    "qProperty" : {
+      "qInfo" : {
+        "qId" : "kQPzCm",
+        "qType" : "map"
+      },
+      "qMetaDef" : { },
+      "layers" : [ {
+        "type" : "polygon",
+        "version" : "3",
+        "cId" : "msDvXJ",
+        "show" : true,
+        "qHyperCubeDef" : {
+          "qDimensions" : [ {
+            "qLibraryId" : "xyjwAr",
+            "qDef" : {
+              "qGrouping" : "N",
+              "qFieldDefs" : [ ],
+              "qFieldLabels" : [ ],
+              "qSortCriterias" : [ {
+                "qSortByLoadOrder" : 1,
+                "qExpression" : { }
+              } ],
+              "qNumberPresentations" : [ ],
+              "qActiveField" : 0,
+              "autoSort" : true,
+              "cId" : "jVfAKJ"
+            },
+            "qOtherTotalSpec" : {
+              "qOtherMode" : "OTHER_OFF",
+              "qOtherCounted" : { },
+              "qOtherLimit" : { },
+              "qOtherLimitMode" : "OTHER_GT_LIMIT",
+              "qForceBadValueKeeping" : true,
+              "qApplyEvenWhenPossiblyWrongResult" : true,
+              "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+              "qTotalMode" : "TOTAL_OFF",
+              "qReferencedExpression" : { }
+            },
+            "qOtherLabel" : { },
+            "qTotalLabel" : { },
+            "qCalcCond" : { },
+            "qAttributeExpressions" : [ ],
+            "qAttributeDimensions" : [ ],
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "$$state" : {
+              "status" : 1,
+              "value" : {
+                "qDef" : {
+                  "qFieldDefs" : [ ],
+                  "qFieldLabels" : [ ],
+                  "qSortCriterias" : [ {
+                    "qSortByState" : 1,
+                    "qSortByAscii" : 1,
+                    "qSortByNumeric" : 1,
+                    "qSortByLoadOrder" : 1
+                  } ]
+                }
+              }
+            }
+          } ],
+          "qMeasures" : [ {
+            "qLibraryId" : "jHUbAhv",
+            "qDef" : {
+              "qTags" : [ ],
+              "qGrouping" : "N",
+              "qNumFormat" : {
+                "qType" : "U",
+                "qnDec" : 10,
+                "qUseThou" : 0
+              },
+              "qAggrFunc" : "None",
+              "qAccumulate" : 0,
+              "qActiveExpression" : 0,
+              "qExpressions" : [ ],
+              "autoSort" : true
+            },
+            "qSortBy" : {
+              "qSortByNumeric" : -1,
+              "qSortByLoadOrder" : 1,
+              "qExpression" : { }
+            },
+            "qAttributeExpressions" : [ ],
+            "qAttributeDimensions" : [ ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qTrendLines" : [ ],
+            "qMiniChartDef" : {
+              "qSortBy" : {
+                "qExpression" : { }
+              },
+              "qOtherTotalSpec" : {
+                "qOtherMode" : "OTHER_OFF",
+                "qOtherCounted" : { },
+                "qOtherLimit" : { },
+                "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                "qForceBadValueKeeping" : true,
+                "qApplyEvenWhenPossiblyWrongResult" : true,
+                "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                "qTotalMode" : "TOTAL_OFF",
+                "qReferencedExpression" : { }
+              },
+              "qMaxNumberPoints" : -1,
+              "qAttributeExpressions" : [ ]
+            }
+          } ],
+          "qInterColumnSortOrder" : [ 0 ],
+          "qInitialDataFetch" : [ {
+            "qLeft" : 0,
+            "qTop" : 0,
+            "qWidth" : 2,
+            "qHeight" : 3333
+          } ],
+          "qReductionMode" : "N",
+          "qMode" : "S",
+          "qPseudoDimPos" : -1,
+          "qNoOfLeftDims" : -1,
+          "qMaxStackedCells" : 5000,
+          "qCalcCond" : { },
+          "qTitle" : { },
+          "qCalcCondition" : {
+            "qCond" : { },
+            "qMsg" : { }
+          },
+          "qColumnOrder" : [ ],
+          "qExpansionState" : [ ]
+        },
+        "geodata" : {
+          "qHyperCubeDef" : {
+            "qDimensions" : [ {
+              "qLibraryId" : "xyjwAr",
+              "qDef" : {
+                "qGrouping" : "N",
+                "qFieldDefs" : [ ],
+                "qFieldLabels" : [ ],
+                "qSortCriterias" : [ {
+                  "qSortByLoadOrder" : 1,
+                  "qExpression" : { }
+                } ],
+                "qNumberPresentations" : [ ],
+                "qActiveField" : 0,
+                "autoSort" : true,
+                "cId" : "RCWXDaf"
+              },
+              "qOtherTotalSpec" : {
+                "qOtherMode" : "OTHER_OFF",
+                "qOtherCounted" : { },
+                "qOtherLimit" : { },
+                "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                "qForceBadValueKeeping" : true,
+                "qApplyEvenWhenPossiblyWrongResult" : true,
+                "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                "qTotalMode" : "TOTAL_OFF",
+                "qReferencedExpression" : { }
+              },
+              "qOtherLabel" : { },
+              "qTotalLabel" : { },
+              "qCalcCond" : { },
+              "qAttributeExpressions" : [ ],
+              "qAttributeDimensions" : [ ],
+              "qCalcCondition" : {
+                "qCond" : { },
+                "qMsg" : { }
+              },
+              "$$state" : {
+                "status" : 1,
+                "value" : {
+                  "qDef" : {
+                    "qFieldDefs" : [ ],
+                    "qFieldLabels" : [ ],
+                    "qSortCriterias" : [ {
+                      "qSortByState" : 1,
+                      "qSortByAscii" : 1,
+                      "qSortByNumeric" : 1,
+                      "qSortByLoadOrder" : 1
+                    } ]
+                  }
+                },
+                "processScheduled" : false
+              }
+            } ],
+            "qMeasures" : [ {
+              "qDef" : {
+                "qLabel" : "GeoReduceGeometry({1}[USStates.Area])",
+                "qTags" : [ ],
+                "qGrouping" : "N",
+                "qDef" : "GeoReduceGeometry({1}[USStates.Area])",
+                "qNumFormat" : {
+                  "qType" : "U",
+                  "qnDec" : 10,
+                  "qUseThou" : 0
+                },
+                "qAggrFunc" : "None",
+                "qAccumulate" : 0,
+                "qActiveExpression" : 0,
+                "qExpressions" : [ ],
+                "autoSort" : true,
+                "projection" : ""
+              },
+              "qSortBy" : {
+                "qSortByNumeric" : -1,
+                "qSortByLoadOrder" : 1,
+                "qExpression" : { }
+              },
+              "qAttributeExpressions" : [ ],
+              "qAttributeDimensions" : [ ],
+              "qCalcCond" : { },
+              "qCalcCondition" : {
+                "qCond" : { },
+                "qMsg" : { }
+              },
+              "qTrendLines" : [ ],
+              "qMiniChartDef" : {
+                "qSortBy" : {
+                  "qExpression" : { }
+                },
+                "qOtherTotalSpec" : {
+                  "qOtherMode" : "OTHER_OFF",
+                  "qOtherCounted" : { },
+                  "qOtherLimit" : { },
+                  "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping" : true,
+                  "qApplyEvenWhenPossiblyWrongResult" : true,
+                  "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                  "qTotalMode" : "TOTAL_OFF",
+                  "qReferencedExpression" : { }
+                },
+                "qMaxNumberPoints" : -1,
+                "qAttributeExpressions" : [ ]
+              }
+            } ],
+            "qInterColumnSortOrder" : [ ],
+            "qInitialDataFetch" : [ ],
+            "qReductionMode" : "N",
+            "qMode" : "S",
+            "qPseudoDimPos" : -1,
+            "qNoOfLeftDims" : -1,
+            "qMaxStackedCells" : 5000,
+            "qCalcCond" : { },
+            "qTitle" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qColumnOrder" : [ ],
+            "qExpansionState" : [ ]
+          }
+        }
+      } ],
+      "showTitles" : true,
+      "title" : "# of Customers",
+      "subtitle" : "",
+      "footnote" : "",
+      "color" : {
+        "auto" : false,
+        "mode" : "byMeasure",
+        "singleColor" : 3,
+        "persistent" : false,
+        "expressionIsColor" : true,
+        "measureScheme" : "sc",
+        "reverseScheme" : false,
+        "dimensionScheme" : "12"
+      },
+      "legend" : {
+        "show" : true,
+        "dock" : "auto",
+        "showTitle" : false
+      },
+      "visualization" : "map",
+      "segments" : [ {
+        "label" : "default segment",
+        "value" : 1,
+        "color" : "#ff6600"
+      } ],
+      "background" : {
+        "show" : true,
+        "defaultMapService" : true,
+        "layers" : [ {
+          "type" : "XYZ",
+          "urls" : [ "http://tile.openstreetmap.org/${z}/${x}/${y}.png" ],
+          "attribution" : "© OpenStreetMap @[http://www.openstreetmap.org/copyright](License)"
+        } ]
+      },
+      "masterVersion" : 0.96,
+      "autoZoomOnSelection" : true
+    },
+    "qChildren" : [ ]
+  }, {
+    "qProperty" : {
+      "qInfo" : {
+        "qId" : "YPhqut",
+        "qType" : "map"
+      },
+      "qMetaDef" : { },
+      "layers" : [ {
+        "type" : "polygon",
+        "version" : "3",
+        "cId" : "LFpHpL",
+        "show" : true,
+        "qHyperCubeDef" : {
+          "qDimensions" : [ {
+            "qLibraryId" : "xyjwAr",
+            "qDef" : {
+              "qGrouping" : "N",
+              "qFieldDefs" : [ ],
+              "qFieldLabels" : [ ],
+              "qSortCriterias" : [ {
+                "qSortByLoadOrder" : 1,
+                "qExpression" : { }
+              } ],
+              "qNumberPresentations" : [ ],
+              "qActiveField" : 0,
+              "autoSort" : true,
+              "cId" : "HBPbYaH"
+            },
+            "qOtherTotalSpec" : {
+              "qOtherMode" : "OTHER_OFF",
+              "qOtherCounted" : { },
+              "qOtherLimit" : { },
+              "qOtherLimitMode" : "OTHER_GT_LIMIT",
+              "qForceBadValueKeeping" : true,
+              "qApplyEvenWhenPossiblyWrongResult" : true,
+              "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+              "qTotalMode" : "TOTAL_OFF",
+              "qReferencedExpression" : { }
+            },
+            "qOtherLabel" : { },
+            "qTotalLabel" : { },
+            "qCalcCond" : { },
+            "qAttributeExpressions" : [ ],
+            "qAttributeDimensions" : [ ],
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "$$state" : {
+              "status" : 1,
+              "value" : {
+                "qDef" : {
+                  "qFieldDefs" : [ ],
+                  "qFieldLabels" : [ ],
+                  "qSortCriterias" : [ {
+                    "qSortByState" : 1,
+                    "qSortByAscii" : 1,
+                    "qSortByNumeric" : 1,
+                    "qSortByLoadOrder" : 1
+                  } ]
+                }
+              }
+            }
+          } ],
+          "qMeasures" : [ {
+            "qLibraryId" : "LDYkKJs",
+            "qDef" : {
+              "qTags" : [ ],
+              "qGrouping" : "N",
+              "qNumFormat" : {
+                "qType" : "U",
+                "qnDec" : 10,
+                "qUseThou" : 0
+              },
+              "qAggrFunc" : "None",
+              "qAccumulate" : 0,
+              "qActiveExpression" : 0,
+              "qExpressions" : [ ],
+              "autoSort" : true
+            },
+            "qSortBy" : {
+              "qSortByNumeric" : -1,
+              "qSortByLoadOrder" : 1,
+              "qExpression" : { }
+            },
+            "qAttributeExpressions" : [ ],
+            "qAttributeDimensions" : [ ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qTrendLines" : [ ],
+            "qMiniChartDef" : {
+              "qSortBy" : {
+                "qExpression" : { }
+              },
+              "qOtherTotalSpec" : {
+                "qOtherMode" : "OTHER_OFF",
+                "qOtherCounted" : { },
+                "qOtherLimit" : { },
+                "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                "qForceBadValueKeeping" : true,
+                "qApplyEvenWhenPossiblyWrongResult" : true,
+                "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                "qTotalMode" : "TOTAL_OFF",
+                "qReferencedExpression" : { }
+              },
+              "qMaxNumberPoints" : -1,
+              "qAttributeExpressions" : [ ]
+            }
+          } ],
+          "qInterColumnSortOrder" : [ 0 ],
+          "qInitialDataFetch" : [ {
+            "qLeft" : 0,
+            "qTop" : 0,
+            "qWidth" : 2,
+            "qHeight" : 3333
+          } ],
+          "qReductionMode" : "N",
+          "qMode" : "S",
+          "qPseudoDimPos" : -1,
+          "qNoOfLeftDims" : -1,
+          "qMaxStackedCells" : 5000,
+          "qCalcCond" : { },
+          "qTitle" : { },
+          "qCalcCondition" : {
+            "qCond" : { },
+            "qMsg" : { }
+          },
+          "qColumnOrder" : [ ],
+          "qExpansionState" : [ ]
+        },
+        "geodata" : {
+          "qHyperCubeDef" : {
+            "qDimensions" : [ {
+              "qLibraryId" : "xyjwAr",
+              "qDef" : {
+                "qGrouping" : "N",
+                "qFieldDefs" : [ ],
+                "qFieldLabels" : [ ],
+                "qSortCriterias" : [ {
+                  "qSortByLoadOrder" : 1,
+                  "qExpression" : { }
+                } ],
+                "qNumberPresentations" : [ ],
+                "qActiveField" : 0,
+                "autoSort" : true,
+                "cId" : "YmUyTt"
+              },
+              "qOtherTotalSpec" : {
+                "qOtherMode" : "OTHER_OFF",
+                "qOtherCounted" : { },
+                "qOtherLimit" : { },
+                "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                "qForceBadValueKeeping" : true,
+                "qApplyEvenWhenPossiblyWrongResult" : true,
+                "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                "qTotalMode" : "TOTAL_OFF",
+                "qReferencedExpression" : { }
+              },
+              "qOtherLabel" : { },
+              "qTotalLabel" : { },
+              "qCalcCond" : { },
+              "qAttributeExpressions" : [ ],
+              "qAttributeDimensions" : [ ],
+              "qCalcCondition" : {
+                "qCond" : { },
+                "qMsg" : { }
+              },
+              "$$state" : {
+                "status" : 1,
+                "value" : {
+                  "qDef" : {
+                    "qFieldDefs" : [ ],
+                    "qFieldLabels" : [ ],
+                    "qSortCriterias" : [ {
+                      "qSortByState" : 1,
+                      "qSortByAscii" : 1,
+                      "qSortByNumeric" : 1,
+                      "qSortByLoadOrder" : 1
+                    } ]
+                  }
+                },
+                "processScheduled" : false
+              }
+            } ],
+            "qMeasures" : [ {
+              "qDef" : {
+                "qLabel" : "GeoReduceGeometry({1}[USStates.Area])",
+                "qTags" : [ ],
+                "qGrouping" : "N",
+                "qDef" : "GeoReduceGeometry({1}[USStates.Area])",
+                "qNumFormat" : {
+                  "qType" : "U",
+                  "qnDec" : 10,
+                  "qUseThou" : 0
+                },
+                "qAggrFunc" : "None",
+                "qAccumulate" : 0,
+                "qActiveExpression" : 0,
+                "qExpressions" : [ ],
+                "autoSort" : true,
+                "projection" : ""
+              },
+              "qSortBy" : {
+                "qSortByNumeric" : -1,
+                "qSortByLoadOrder" : 1,
+                "qExpression" : { }
+              },
+              "qAttributeExpressions" : [ ],
+              "qAttributeDimensions" : [ ],
+              "qCalcCond" : { },
+              "qCalcCondition" : {
+                "qCond" : { },
+                "qMsg" : { }
+              },
+              "qTrendLines" : [ ],
+              "qMiniChartDef" : {
+                "qSortBy" : {
+                  "qExpression" : { }
+                },
+                "qOtherTotalSpec" : {
+                  "qOtherMode" : "OTHER_OFF",
+                  "qOtherCounted" : { },
+                  "qOtherLimit" : { },
+                  "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping" : true,
+                  "qApplyEvenWhenPossiblyWrongResult" : true,
+                  "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                  "qTotalMode" : "TOTAL_OFF",
+                  "qReferencedExpression" : { }
+                },
+                "qMaxNumberPoints" : -1,
+                "qAttributeExpressions" : [ ]
+              }
+            } ],
+            "qInterColumnSortOrder" : [ ],
+            "qInitialDataFetch" : [ ],
+            "qReductionMode" : "N",
+            "qMode" : "S",
+            "qPseudoDimPos" : -1,
+            "qNoOfLeftDims" : -1,
+            "qMaxStackedCells" : 5000,
+            "qCalcCond" : { },
+            "qTitle" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qColumnOrder" : [ ],
+            "qExpansionState" : [ ]
+          }
+        }
+      } ],
+      "showTitles" : true,
+      "title" : "Ships to",
+      "subtitle" : "",
+      "footnote" : "",
+      "color" : {
+        "auto" : false,
+        "mode" : "byMeasure",
+        "singleColor" : 3,
+        "persistent" : false,
+        "expressionIsColor" : true,
+        "measureScheme" : "sc",
+        "reverseScheme" : false,
+        "dimensionScheme" : "12"
+      },
+      "legend" : {
+        "show" : true,
+        "dock" : "auto",
+        "showTitle" : false
+      },
+      "visualization" : "map",
+      "segments" : [ {
+        "label" : "default segment",
+        "value" : 1,
+        "color" : "#ff6600"
+      } ],
+      "background" : {
+        "show" : true,
+        "defaultMapService" : true,
+        "layers" : [ {
+          "type" : "XYZ",
+          "urls" : [ "http://tile.openstreetmap.org/${z}/${x}/${y}.png" ],
+          "attribution" : "© OpenStreetMap @[http://www.openstreetmap.org/copyright](License)"
+        } ]
+      },
+      "masterVersion" : 0.96,
+      "autoZoomOnSelection" : true
+    },
+    "qChildren" : [ ]
+  }, {
+    "qProperty" : {
+      "qInfo" : {
+        "qId" : "VQFJxg",
+        "qType" : "filterpane"
+      },
+      "qMetaDef" : { },
+      "qChildListDef" : {
+        "qData" : {
+          "info" : "/qInfo"
+        }
+      },
+      "showTitles" : false,
+      "title" : "",
+      "subtitle" : "",
+      "footnote" : "",
+      "visualization" : "filterpane"
+    },
+    "qChildren" : [ {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "VnCvj",
+          "qType" : "listbox"
+        },
+        "qMetaDef" : { },
+        "qListObjectDef" : {
+          "qLibraryId" : "PxJf",
+          "qDef" : {
+            "qGrouping" : "N",
+            "qFieldDefs" : [ ],
+            "qFieldLabels" : [ ],
+            "qSortCriterias" : [ {
+              "qSortByState" : 1,
+              "qSortByNumeric" : 1,
+              "qSortByAscii" : 1,
+              "qSortByLoadOrder" : 1,
+              "qExpression" : { }
+            } ],
+            "qNumberPresentations" : [ ],
+            "qActiveField" : 0,
+            "autoSort" : true
+          },
+          "qFrequencyMode" : "N",
+          "qShowAlternatives" : true,
+          "qInitialDataFetch" : [ ],
+          "qExpressions" : [ ]
+        },
+        "title" : "Year",
+        "visualization" : "listbox"
+      },
+      "qChildren" : [ ]
+    } ]
+  }, {
+    "qProperty" : {
+      "qInfo" : {
+        "qId" : "tVJVu",
+        "qType" : "map"
+      },
+      "qMetaDef" : { },
+      "layers" : [ {
+        "type" : "polygon",
+        "version" : "3",
+        "cId" : "FgdQPUj",
+        "show" : true,
+        "qHyperCubeDef" : {
+          "qDimensions" : [ {
+            "qLibraryId" : "xyjwAr",
+            "qDef" : {
+              "qGrouping" : "N",
+              "qFieldDefs" : [ ],
+              "qFieldLabels" : [ ],
+              "qSortCriterias" : [ {
+                "qSortByLoadOrder" : 1,
+                "qExpression" : { }
+              } ],
+              "qNumberPresentations" : [ ],
+              "qActiveField" : 0,
+              "autoSort" : true,
+              "cId" : "pFUgp"
+            },
+            "qOtherTotalSpec" : {
+              "qOtherMode" : "OTHER_OFF",
+              "qOtherCounted" : { },
+              "qOtherLimit" : { },
+              "qOtherLimitMode" : "OTHER_GT_LIMIT",
+              "qForceBadValueKeeping" : true,
+              "qApplyEvenWhenPossiblyWrongResult" : true,
+              "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+              "qTotalMode" : "TOTAL_OFF",
+              "qReferencedExpression" : { }
+            },
+            "qOtherLabel" : { },
+            "qTotalLabel" : { },
+            "qCalcCond" : { },
+            "qAttributeExpressions" : [ ],
+            "qAttributeDimensions" : [ ],
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "$$state" : {
+              "status" : 1,
+              "value" : {
+                "qDef" : {
+                  "qFieldDefs" : [ ],
+                  "qFieldLabels" : [ ],
+                  "qSortCriterias" : [ {
+                    "qSortByState" : 1,
+                    "qSortByAscii" : 1,
+                    "qSortByNumeric" : 1,
+                    "qSortByLoadOrder" : 1
+                  } ]
+                }
+              }
+            }
+          } ],
+          "qMeasures" : [ {
+            "qLibraryId" : "swHWw",
+            "qDef" : {
+              "qTags" : [ ],
+              "qGrouping" : "N",
+              "qNumFormat" : {
+                "qType" : "U",
+                "qnDec" : 10,
+                "qUseThou" : 0
+              },
+              "qAggrFunc" : "None",
+              "qAccumulate" : 0,
+              "qActiveExpression" : 0,
+              "qExpressions" : [ ],
+              "autoSort" : true
+            },
+            "qSortBy" : {
+              "qSortByNumeric" : -1,
+              "qSortByLoadOrder" : 1,
+              "qExpression" : { }
+            },
+            "qAttributeExpressions" : [ ],
+            "qAttributeDimensions" : [ ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qTrendLines" : [ ],
+            "qMiniChartDef" : {
+              "qSortBy" : {
+                "qExpression" : { }
+              },
+              "qOtherTotalSpec" : {
+                "qOtherMode" : "OTHER_OFF",
+                "qOtherCounted" : { },
+                "qOtherLimit" : { },
+                "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                "qForceBadValueKeeping" : true,
+                "qApplyEvenWhenPossiblyWrongResult" : true,
+                "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                "qTotalMode" : "TOTAL_OFF",
+                "qReferencedExpression" : { }
+              },
+              "qMaxNumberPoints" : -1,
+              "qAttributeExpressions" : [ ]
+            }
+          } ],
+          "qInterColumnSortOrder" : [ 0 ],
+          "qInitialDataFetch" : [ {
+            "qLeft" : 0,
+            "qTop" : 0,
+            "qWidth" : 2,
+            "qHeight" : 3333
+          } ],
+          "qReductionMode" : "N",
+          "qMode" : "S",
+          "qPseudoDimPos" : -1,
+          "qNoOfLeftDims" : -1,
+          "qMaxStackedCells" : 5000,
+          "qCalcCond" : { },
+          "qTitle" : { },
+          "qCalcCondition" : {
+            "qCond" : { },
+            "qMsg" : { }
+          },
+          "qColumnOrder" : [ ],
+          "qExpansionState" : [ ]
+        },
+        "geodata" : {
+          "qHyperCubeDef" : {
+            "qDimensions" : [ {
+              "qLibraryId" : "xyjwAr",
+              "qDef" : {
+                "qGrouping" : "N",
+                "qFieldDefs" : [ ],
+                "qFieldLabels" : [ ],
+                "qSortCriterias" : [ {
+                  "qSortByLoadOrder" : 1,
+                  "qExpression" : { }
+                } ],
+                "qNumberPresentations" : [ ],
+                "qActiveField" : 0,
+                "autoSort" : true,
+                "cId" : "vDRj"
+              },
+              "qOtherTotalSpec" : {
+                "qOtherMode" : "OTHER_OFF",
+                "qOtherCounted" : { },
+                "qOtherLimit" : { },
+                "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                "qForceBadValueKeeping" : true,
+                "qApplyEvenWhenPossiblyWrongResult" : true,
+                "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                "qTotalMode" : "TOTAL_OFF",
+                "qReferencedExpression" : { }
+              },
+              "qOtherLabel" : { },
+              "qTotalLabel" : { },
+              "qCalcCond" : { },
+              "qAttributeExpressions" : [ ],
+              "qAttributeDimensions" : [ ],
+              "qCalcCondition" : {
+                "qCond" : { },
+                "qMsg" : { }
+              },
+              "$$state" : {
+                "status" : 1,
+                "value" : {
+                  "qDef" : {
+                    "qFieldDefs" : [ ],
+                    "qFieldLabels" : [ ],
+                    "qSortCriterias" : [ {
+                      "qSortByState" : 1,
+                      "qSortByAscii" : 1,
+                      "qSortByNumeric" : 1,
+                      "qSortByLoadOrder" : 1
+                    } ]
+                  }
+                },
+                "processScheduled" : false
+              }
+            } ],
+            "qMeasures" : [ {
+              "qDef" : {
+                "qLabel" : "GeoReduceGeometry({1}[USStates.Area])",
+                "qTags" : [ ],
+                "qGrouping" : "N",
+                "qDef" : "GeoReduceGeometry({1}[USStates.Area])",
+                "qNumFormat" : {
+                  "qType" : "U",
+                  "qnDec" : 10,
+                  "qUseThou" : 0
+                },
+                "qAggrFunc" : "None",
+                "qAccumulate" : 0,
+                "qActiveExpression" : 0,
+                "qExpressions" : [ ],
+                "autoSort" : true,
+                "projection" : ""
+              },
+              "qSortBy" : {
+                "qSortByNumeric" : -1,
+                "qSortByLoadOrder" : 1,
+                "qExpression" : { }
+              },
+              "qAttributeExpressions" : [ ],
+              "qAttributeDimensions" : [ ],
+              "qCalcCond" : { },
+              "qCalcCondition" : {
+                "qCond" : { },
+                "qMsg" : { }
+              },
+              "qTrendLines" : [ ],
+              "qMiniChartDef" : {
+                "qSortBy" : {
+                  "qExpression" : { }
+                },
+                "qOtherTotalSpec" : {
+                  "qOtherMode" : "OTHER_OFF",
+                  "qOtherCounted" : { },
+                  "qOtherLimit" : { },
+                  "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping" : true,
+                  "qApplyEvenWhenPossiblyWrongResult" : true,
+                  "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                  "qTotalMode" : "TOTAL_OFF",
+                  "qReferencedExpression" : { }
+                },
+                "qMaxNumberPoints" : -1,
+                "qAttributeExpressions" : [ ]
+              }
+            } ],
+            "qInterColumnSortOrder" : [ ],
+            "qInitialDataFetch" : [ ],
+            "qReductionMode" : "N",
+            "qMode" : "S",
+            "qPseudoDimPos" : -1,
+            "qNoOfLeftDims" : -1,
+            "qMaxStackedCells" : 5000,
+            "qCalcCond" : { },
+            "qTitle" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qColumnOrder" : [ ],
+            "qExpansionState" : [ ]
+          }
+        }
+      } ],
+      "showTitles" : true,
+      "title" : "Sales by State",
+      "subtitle" : "",
+      "footnote" : "",
+      "color" : {
+        "auto" : false,
+        "mode" : "byMeasure",
+        "singleColor" : 3,
+        "persistent" : false,
+        "expressionIsColor" : true,
+        "measureScheme" : "sc",
+        "reverseScheme" : false,
+        "dimensionScheme" : "12"
+      },
+      "legend" : {
+        "show" : true,
+        "dock" : "auto",
+        "showTitle" : false
+      },
+      "visualization" : "map",
+      "segments" : [ {
+        "label" : "default segment",
+        "value" : 1,
+        "color" : "#ff6600"
+      } ],
+      "background" : {
+        "show" : true,
+        "defaultMapService" : true,
+        "layers" : [ {
+          "type" : "XYZ",
+          "urls" : [ "http://tile.openstreetmap.org/${z}/${x}/${y}.png" ],
+          "attribution" : "© OpenStreetMap @[http://www.openstreetmap.org/copyright](License)"
+        } ]
+      },
+      "masterVersion" : 0.96,
+      "autoZoomOnSelection" : true
+    },
+    "qChildren" : [ ]
+  } ]
+}

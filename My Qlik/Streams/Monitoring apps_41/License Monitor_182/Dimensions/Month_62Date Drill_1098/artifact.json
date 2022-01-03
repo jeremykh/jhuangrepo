@@ -1,0 +1,52 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "isEditMode" : true,
+      "qDim" : {
+        "qFieldDefs" : [ "Month", "Date" ],
+        "qFieldLabels" : [ ],
+        "qGrouping" : "H",
+        "title" : "Month>Date Drill"
+      },
+      "qInfo" : {
+        "qId" : "Fppwtsm",
+        "qType" : "dimension"
+      },
+      "qMetaDef" : {
+        "description" : "Drill-down dimension including Month and Date.",
+        "tags" : [ "date" ],
+        "title" : "Month>Date Drill"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "Fppwtsm,Dimension;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1098
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Dimensions/Month>Date Drill",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikDimension/QlikDimension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Month>Date Drill",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 263
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 263, 1098 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Dimension",
+  "shouldVersion" : true,
+  "subtype" : "QlikDimension",
+  "type" : "QlikArtifact"
+}

@@ -1,0 +1,333 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qChildren" : [ ],
+      "qProperty" : {
+        "color" : {
+          "auto" : true,
+          "dimensionScheme" : "12",
+          "expressionIsColor" : true,
+          "measureScheme" : "sg",
+          "mode" : "primary",
+          "persistent" : false,
+          "reverseScheme" : false,
+          "singleColor" : "#4477aa"
+        },
+        "dataPoint" : {
+          "show" : true,
+          "showLabels" : false
+        },
+        "dimensionAxis" : {
+          "dock" : "bottom",
+          "label" : "auto",
+          "show" : "all"
+        },
+        "footnote" : "",
+        "gridLine" : {
+          "auto" : true,
+          "spacing" : 2
+        },
+        "legend" : {
+          "dock" : "bottom",
+          "show" : true,
+          "showTitle" : true
+        },
+        "lineType" : "area",
+        "masterVersion" : 0.96,
+        "measureAxis" : {
+          "autoMinMax" : true,
+          "dock" : "near",
+          "label" : "horizontal",
+          "logarithmic" : false,
+          "max" : 10,
+          "min" : 0,
+          "minMax" : "min",
+          "show" : "all",
+          "spacing" : 1
+        },
+        "metadata" : { },
+        "nullMode" : "zero",
+        "qHyperCubeDef" : {
+          "qAlwaysFullyExpanded" : true,
+          "qCalcCond" : { },
+          "qCalcCondition" : {
+            "qCond" : { },
+            "qMsg" : { }
+          },
+          "qColumnOrder" : [ ],
+          "qDimensions" : [ {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "vepHdm",
+              "othersLabel" : "Others",
+              "qActiveField" : 0,
+              "qFieldDefs" : [ ],
+              "qFieldLabels" : [ ],
+              "qGrouping" : "N",
+              "qNumberPresentations" : [ ],
+              "qSortCriterias" : [ {
+                "qExpression" : { },
+                "qSortByLoadOrder" : 1,
+                "qSortByNumeric" : 1
+              } ]
+            },
+            "qLibraryId" : "ujLeFS",
+            "qOtherLabel" : { },
+            "qOtherTotalSpec" : {
+              "qApplyEvenWhenPossiblyWrongResult" : true,
+              "qForceBadValueKeeping" : true,
+              "qOtherCounted" : {
+                "qv" : "10"
+              },
+              "qOtherLimit" : {
+                "qv" : "0"
+              },
+              "qOtherLimitMode" : "OTHER_GE_LIMIT",
+              "qOtherMode" : "OTHER_OFF",
+              "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+              "qReferencedExpression" : { },
+              "qTotalMode" : "TOTAL_OFF"
+            },
+            "qTotalLabel" : { },
+            "title" : "YearMonth"
+          } ],
+          "qExpansionState" : [ ],
+          "qInitialDataFetch" : [ {
+            "qHeight" : 500,
+            "qLeft" : 0,
+            "qTop" : 0,
+            "qWidth" : 17
+          } ],
+          "qInterColumnSortOrder" : [ 0, 1, 2, 3 ],
+          "qLayoutExclude" : { },
+          "qMaxStackedCells" : 5000,
+          "qMeasures" : [ {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "FKjBn",
+              "qAccumulate" : 0,
+              "qActiveExpression" : 0,
+              "qDef" : "count(distinct If([Late Shipment] = 1 ,Shipments))",
+              "qExpressions" : [ ],
+              "qGrouping" : "N",
+              "qLabel" : "Late",
+              "qNumFormat" : {
+                "qType" : "U",
+                "qUseThou" : 0,
+                "qnDec" : 10
+              },
+              "qTags" : [ ],
+              "series" : {
+                "axis" : 0,
+                "marker" : "circle",
+                "markerFill" : true,
+                "type" : "line"
+              }
+            },
+            "qMiniChartDef" : {
+              "qAttributeExpressions" : [ ],
+              "qMaxNumberPoints" : -1,
+              "qOtherTotalSpec" : {
+                "qApplyEvenWhenPossiblyWrongResult" : true,
+                "qForceBadValueKeeping" : true,
+                "qOtherCounted" : { },
+                "qOtherLimit" : { },
+                "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                "qOtherMode" : "OTHER_OFF",
+                "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                "qReferencedExpression" : { },
+                "qTotalMode" : "TOTAL_OFF"
+              },
+              "qSortBy" : {
+                "qExpression" : { }
+              }
+            },
+            "qSortBy" : {
+              "qExpression" : { },
+              "qSortByLoadOrder" : 1,
+              "qSortByNumeric" : -1
+            },
+            "qTrendLines" : [ ],
+            "showInPercent" : false
+          }, {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "jmJPRm",
+              "numFormatFromTemplate" : true,
+              "qAccumulate" : 0,
+              "qActiveExpression" : 0,
+              "qDef" : "count(distinct Shipments)",
+              "qExpressions" : [ ],
+              "qGrouping" : "N",
+              "qLabel" : "Total Shipments",
+              "qNumFormat" : {
+                "qDec" : ".",
+                "qFmt" : "#,##0.00",
+                "qThou" : ",",
+                "qType" : "F",
+                "qUseThou" : 0,
+                "qnDec" : 2
+              },
+              "qTags" : [ ]
+            },
+            "qMiniChartDef" : {
+              "qAttributeExpressions" : [ ],
+              "qMaxNumberPoints" : -1,
+              "qOtherTotalSpec" : {
+                "qApplyEvenWhenPossiblyWrongResult" : true,
+                "qForceBadValueKeeping" : true,
+                "qOtherCounted" : { },
+                "qOtherLimit" : { },
+                "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                "qOtherMode" : "OTHER_OFF",
+                "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                "qReferencedExpression" : { },
+                "qTotalMode" : "TOTAL_OFF"
+              },
+              "qSortBy" : {
+                "qExpression" : { }
+              }
+            },
+            "qSortBy" : {
+              "qExpression" : { },
+              "qSortByLoadOrder" : 1,
+              "qSortByNumeric" : -1
+            },
+            "qTrendLines" : [ ]
+          }, {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "sTBTd",
+              "numFormatFromTemplate" : true,
+              "qAccumulate" : 0,
+              "qActiveExpression" : 0,
+              "qDef" : "count(distinct If([Late Shipment] = 0 ,Shipments))",
+              "qExpressions" : [ ],
+              "qGrouping" : "N",
+              "qLabel" : "On Time",
+              "qNumFormat" : {
+                "qType" : "U",
+                "qUseThou" : 0,
+                "qnDec" : 10
+              },
+              "qTags" : [ ],
+              "series" : {
+                "axis" : 0,
+                "marker" : "circle",
+                "markerFill" : true,
+                "type" : "line"
+              }
+            },
+            "qMiniChartDef" : {
+              "qAttributeExpressions" : [ ],
+              "qMaxNumberPoints" : -1,
+              "qOtherTotalSpec" : {
+                "qApplyEvenWhenPossiblyWrongResult" : true,
+                "qForceBadValueKeeping" : true,
+                "qOtherCounted" : { },
+                "qOtherLimit" : { },
+                "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                "qOtherMode" : "OTHER_OFF",
+                "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                "qReferencedExpression" : { },
+                "qTotalMode" : "TOTAL_OFF"
+              },
+              "qSortBy" : {
+                "qExpression" : { }
+              }
+            },
+            "qSortBy" : {
+              "qExpression" : { },
+              "qSortByLoadOrder" : 1,
+              "qSortByNumeric" : -1
+            },
+            "qTrendLines" : [ ]
+          } ],
+          "qMode" : "S",
+          "qNoOfLeftDims" : -1,
+          "qPseudoDimPos" : 10000,
+          "qReductionMode" : "N",
+          "qSuppressMissing" : true,
+          "qTitle" : { }
+        },
+        "qInfo" : {
+          "qId" : "CQgDDy",
+          "qType" : "masterobject"
+        },
+        "qLayoutExclude" : { },
+        "qMetaDef" : {
+          "description" : "Shipment performance over time",
+          "tags" : [ "Late", "Month", "On Time", "Shipment", "Year" ],
+          "title" : "Number of shipments vs late vs on time"
+        },
+        "refLine" : {
+          "refLines" : [ ]
+        },
+        "separateStacking" : true,
+        "showTitles" : true,
+        "stackedArea" : false,
+        "subtitle" : "",
+        "title" : "Number of shipments late vs on time",
+        "visualization" : "linechart"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "CQgDDy,Visualization;f84cf3b8-f44c-4e73-99aa-37fb20121969,App;",
+  "key" : {
+    "id" : 1421
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Sales Discovery(1)/Visualizations/Number of shipments vs late vs on time",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikVisualization/QlikVisualization",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Number of shipments vs late vs on time",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 310
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 186, 310, 1421 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Visualization",
+  "shouldVersion" : true,
+  "subtype" : "QlikVisualization",
+  "type" : "QlikArtifact"
+}

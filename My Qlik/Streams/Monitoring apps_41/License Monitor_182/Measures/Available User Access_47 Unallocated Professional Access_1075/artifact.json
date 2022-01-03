@@ -1,0 +1,64 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qInfo" : {
+        "qId" : "VMBgW",
+        "qType" : "measure"
+      },
+      "qMeasure" : {
+        "coloring" : { },
+        "descriptionExpression" : {
+          "qStringExpression" : {
+            "qExpr" : "IF((license_type_enabled)='Token-based','% of User Access available','% of unallocated Professional Access')"
+          }
+        },
+        "qActiveExpression" : 0,
+        "qDef" : "Num(\r\nIF((license_type_enabled)='Token-based',\n\tIF(Sum({<[License Token Type]={\"User*\"}>}[License Allocated Tokens]-[License Used Tokens]-[License Quarantined Tokens])/Sum({<[License Token Type]={\"User*\"}>}[License Allocated Tokens])>0,\n    \tSum({<[License Token Type]={\"User*\"}>}[License Allocated Tokens]-[License Used Tokens]-[License Quarantined Tokens])/Sum({<[License Token Type]={\"User*\"}>}[License Allocated Tokens]),0)\n    ,\n    IF(Sum({<[License Token Type]={\"Professional*\"}>}[License Total Available Tokens])/Sum({<[License Token Type]={\"Professional*\"}>}[License Total Tokens])>0,\n    \tSum({<[License Token Type]={\"Professional*\"}>}[License Total Available Tokens])/Sum({<[License Token Type]={\"Professional*\"}>}[License Total Tokens]),0)\n    )\n,'0%')",
+        "qExpressions" : [ ],
+        "qGrouping" : "N",
+        "qLabel" : "Available User Access/ Unallocated Professional Access",
+        "qLabelExpression" : "=IF((license_type_enabled)='Token-based','Available User Access','Unallocated Professional Access')",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qUseThou" : 0,
+          "qnDec" : 10
+        }
+      },
+      "qMetaDef" : {
+        "description" : "",
+        "tags" : [ ],
+        "title" : "Available User Access/ Unallocated Professional Access"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "VMBgW,Measure;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1075
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Measures/Available User Access\\/ Unallocated Professional Access",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikMeasure/QlikMeasure",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Available User Access/ Unallocated Professional Access",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 264
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 264, 1075 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Measure",
+  "shouldVersion" : true,
+  "subtype" : "QlikMeasure",
+  "type" : "QlikArtifact"
+}

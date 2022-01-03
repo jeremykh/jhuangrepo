@@ -1,0 +1,63 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qInfo" : {
+        "qId" : "HcUGYn",
+        "qType" : "measure"
+      },
+      "qMeasure" : {
+        "coloring" : { },
+        "descriptionExpression" : {
+          "qStringExpression" : {
+            "qExpr" : "'Unused or \"remaining available\" Analyzer Capacity minutes.  '\n& IF([License Allocated Analyzer Capacity (Minutes)]>5,\n\tchr(10) & ' To date in '& MonthName(Today(1)) & ' you have used ' & Num([License Used Analyzer Capacity (Minutes)],'#,##0') \n    & ' of ' & Num([License Allocated Analyzer Capacity (Minutes)],'#,##0') \n    & ' total minutes as reported at ' & ReloadTime() & '.'\n& chr(10) & ' At an average of ' & Num([License Used Analyzer Capacity (Minutes)]/(today(1)-MonthStart(Today(1))),'#,##0') & ' minutes used per day, you would ' \n& IF([License Used Analyzer Capacity (Minutes)]/(today(1)-MonthStart(Today(1)))>5,'run out of minutes in ' & Num(CEIL([License Allocated Analyzer Capacity (Minutes)]/([License Used Analyzer Capacity (Minutes)]/(today(1)-MonthStart(Today(1))))),'#,##0') & ' days.',' never run out!')\n& chr(10) & chr(10) & 'Analyzer Capacity minutes reset the first day of each calendar month. '\n,' ')\n& ' Refer to the online help documentation: https://help.qlik.com/en-US/search/?q=analyzer+capacity+license'"
+          }
+        },
+        "qActiveExpression" : 0,
+        "qDef" : "IF([License Allocated Analyzer Capacity (Minutes)] > 5,\r\n\tNum(([License Allocated Analyzer Capacity (Minutes)]-[License Used Analyzer Capacity (Minutes)]-[License Unavailable Analyzer Capacity (Minutes)])/[License Allocated Analyzer Capacity (Minutes)],'0.0%'),'N/A')",
+        "qExpressions" : [ ],
+        "qGrouping" : "N",
+        "qLabel" : "Available Analyzer Capacity (Minutes)",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qUseThou" : 0,
+          "qnDec" : 10
+        }
+      },
+      "qMetaDef" : {
+        "description" : "",
+        "tags" : [ ],
+        "title" : "Available Analyzer Capacity (Minutes)"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "HcUGYn,Measure;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1119
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Measures/Available Analyzer Capacity (Minutes)",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikMeasure/QlikMeasure",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Available Analyzer Capacity (Minutes)",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 264
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 264, 1119 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Measure",
+  "shouldVersion" : true,
+  "subtype" : "QlikMeasure",
+  "type" : "QlikArtifact"
+}

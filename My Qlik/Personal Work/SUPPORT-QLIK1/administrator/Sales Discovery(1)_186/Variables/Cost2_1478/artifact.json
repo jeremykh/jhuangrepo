@@ -1,0 +1,51 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qDefinition" : "0.00",
+      "qInfo" : {
+        "qId" : "432fabd0-42cd-4829-8bfc-31d2fde540ac",
+        "qType" : "variable"
+      },
+      "qMetaDef" : { },
+      "qName" : "Cost2",
+      "qNumberPresentation" : {
+        "qDec" : ".",
+        "qFmt" : "#,##0.00",
+        "qThou" : ",",
+        "qType" : "F",
+        "qUseThou" : 0,
+        "qnDec" : 2
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "432fabd0-42cd-4829-8bfc-31d2fde540ac,Variable;f84cf3b8-f44c-4e73-99aa-37fb20121969,App;",
+  "key" : {
+    "id" : 1478
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Sales Discovery(1)/Variables/Cost2",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikVariable/QlikVariable",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Cost2",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 309
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 186, 309, 1478 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Variable",
+  "shouldVersion" : true,
+  "subtype" : "QlikVariable",
+  "type" : "QlikArtifact"
+}

@@ -1,0 +1,82 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "5a48735f2dcbb617a37e0032316cb88363e14b66",
+      "contentName" : "content",
+      "contentOid" : 18495,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "col" : 1,
+          "colspan" : 22,
+          "name" : "HDThZ",
+          "row" : 0,
+          "rowspan" : 12,
+          "type" : "pivot-table"
+        } ],
+        "columns" : 24,
+        "qInfo" : {
+          "qId" : "LSZHpfJ",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "Compare this year sales with last year  sales.",
+          "title" : "Sales Comparison"
+        },
+        "rank" : 1.5,
+        "rows" : 12,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/f84cf3b8-f44c-4e73-99aa-37fb20121969/Sales Discovery1 - Sales Comparison _ Sheets - Qlik Sense.png"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : false,
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "published" : false,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "LSZHpfJ,Sheet;f84cf3b8-f44c-4e73-99aa-37fb20121969,App;",
+  "key" : {
+    "id" : 1409
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Sales Discovery(1)/Sheets/Sales Comparison",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Sales Comparison",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 306
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 186, 306, 1409 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

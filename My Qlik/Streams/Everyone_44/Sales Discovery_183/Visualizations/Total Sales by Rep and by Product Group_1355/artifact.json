@@ -1,0 +1,270 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qChildren" : [ ],
+      "qProperty" : {
+        "barGrouping" : {
+          "grouping" : "stacked"
+        },
+        "color" : {
+          "auto" : false,
+          "dimensionId" : "",
+          "dimensionScheme" : "12",
+          "expressionIsColor" : true,
+          "measureScheme" : "sg",
+          "mode" : "byExpression",
+          "persistent" : true,
+          "reverseScheme" : false,
+          "singleColor" : 3
+        },
+        "dataPoint" : {
+          "showLabels" : true
+        },
+        "dimensionAxis" : {
+          "dock" : "near",
+          "label" : "auto",
+          "show" : "all"
+        },
+        "footnote" : "",
+        "gridLine" : {
+          "auto" : true,
+          "spacing" : 2
+        },
+        "legend" : {
+          "dock" : "auto",
+          "show" : false,
+          "showTitle" : true
+        },
+        "masterVersion" : 0.96,
+        "measureAxis" : {
+          "autoMinMax" : true,
+          "dock" : "near",
+          "label" : "horizontal",
+          "max" : 10,
+          "min" : 0,
+          "minMax" : "min",
+          "show" : "all",
+          "spacing" : 1
+        },
+        "metadata" : { },
+        "orientation" : "vertical",
+        "qHyperCubeDef" : {
+          "qAlwaysFullyExpanded" : true,
+          "qCalcCond" : { },
+          "qCalcCondition" : {
+            "qCond" : { },
+            "qMsg" : { }
+          },
+          "qColumnOrder" : [ ],
+          "qDimensions" : [ {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : false,
+              "cId" : "GBJgGU",
+              "othersLabel" : "Others",
+              "qActiveField" : 0,
+              "qFieldDefs" : [ ],
+              "qFieldLabels" : [ ],
+              "qGrouping" : "N",
+              "qNumberPresentations" : [ ],
+              "qSortCriterias" : [ {
+                "qExpression" : {
+                  "qv" : "sum({<[Product Group Desc]={*}>} [Sales Amount])"
+                },
+                "qSortByExpression" : -1,
+                "qSortByLoadOrder" : 1
+              } ],
+              "title" : "Sales Rep"
+            },
+            "qLibraryId" : "wJSVej",
+            "qOtherLabel" : { },
+            "qOtherTotalSpec" : {
+              "qApplyEvenWhenPossiblyWrongResult" : true,
+              "qForceBadValueKeeping" : true,
+              "qOtherCounted" : {
+                "qv" : "10"
+              },
+              "qOtherLimit" : {
+                "qv" : "0"
+              },
+              "qOtherLimitMode" : "OTHER_GE_LIMIT",
+              "qOtherMode" : "OTHER_OFF",
+              "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+              "qReferencedExpression" : { },
+              "qTotalMode" : "TOTAL_OFF"
+            },
+            "qTotalLabel" : { }
+          }, {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : false,
+              "cId" : "KjVHHQU",
+              "othersLabel" : "Others",
+              "qActiveField" : 0,
+              "qFieldDefs" : [ ],
+              "qFieldLabels" : [ ],
+              "qGrouping" : "N",
+              "qNumberPresentations" : [ ],
+              "qSortCriterias" : [ {
+                "qExpression" : {
+                  "qv" : "=if(getselectedcount([Product Group Desc])>0, \tif(isnull(only([Product Group Desc])),1,3), \tif(isnull(only([Product Group Desc])),1,2))"
+                },
+                "qSortByExpression" : 1,
+                "qSortByLoadOrder" : 1
+              } ],
+              "title" : "Product Group"
+            },
+            "qLibraryId" : "WyjCnj",
+            "qOtherLabel" : { },
+            "qOtherTotalSpec" : {
+              "qApplyEvenWhenPossiblyWrongResult" : true,
+              "qForceBadValueKeeping" : true,
+              "qOtherCounted" : {
+                "qv" : "10"
+              },
+              "qOtherLimit" : {
+                "qv" : "0"
+              },
+              "qOtherLimitMode" : "OTHER_GE_LIMIT",
+              "qOtherMode" : "OTHER_OFF",
+              "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+              "qReferencedExpression" : { },
+              "qTotalMode" : "TOTAL_OFF"
+            },
+            "qTotalLabel" : { }
+          } ],
+          "qExpansionState" : [ ],
+          "qInitialDataFetch" : [ {
+            "qHeight" : 500,
+            "qLeft" : 0,
+            "qTop" : 0,
+            "qWidth" : 17
+          } ],
+          "qInterColumnSortOrder" : [ 0, 2, 1 ],
+          "qLayoutExclude" : { },
+          "qMaxStackedCells" : 5000,
+          "qMeasures" : [ {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ {
+              "id" : "colorByExpression",
+              "qExpression" : "if(getselectedcount([Product Group Desc])>0, \tif(isnull(only([Product Group Desc])),LightGray(),rgb(82,204,82)), \tif(isnull(only([Product Group Desc])),LightGray(80),DarkGray()))"
+            } ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "MqxpH",
+              "numFormatFromTemplate" : true,
+              "qAccumulate" : 0,
+              "qActiveExpression" : 0,
+              "qDef" : "sum({<[Product Group Desc]={*}>} [Sales Amount])",
+              "qExpressions" : [ ],
+              "qGrouping" : "N",
+              "qLabel" : "Sales ",
+              "qNumFormat" : {
+                "qDec" : ".",
+                "qFmt" : "$#,##0;($#,##0)",
+                "qThou" : ",",
+                "qType" : "M",
+                "qUseThou" : 0,
+                "qnDec" : 2
+              },
+              "qTags" : [ ]
+            },
+            "qMiniChartDef" : {
+              "qAttributeExpressions" : [ ],
+              "qMaxNumberPoints" : -1,
+              "qOtherTotalSpec" : {
+                "qApplyEvenWhenPossiblyWrongResult" : true,
+                "qForceBadValueKeeping" : true,
+                "qOtherCounted" : { },
+                "qOtherLimit" : { },
+                "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                "qOtherMode" : "OTHER_OFF",
+                "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                "qReferencedExpression" : { },
+                "qTotalMode" : "TOTAL_OFF"
+              },
+              "qSortBy" : {
+                "qExpression" : { }
+              }
+            },
+            "qSortBy" : {
+              "qExpression" : { },
+              "qSortByLoadOrder" : 1,
+              "qSortByNumeric" : -1
+            },
+            "qTrendLines" : [ ]
+          } ],
+          "qMode" : "K",
+          "qNoOfLeftDims" : -1,
+          "qPseudoDimPos" : 10000,
+          "qReductionMode" : "N",
+          "qSuppressMissing" : true,
+          "qTitle" : { }
+        },
+        "qInfo" : {
+          "qId" : "PtJP",
+          "qType" : "masterobject"
+        },
+        "qMetaDef" : {
+          "description" : "This chart works well when in combination with Total Sales vs. Gross Profit Margin Chart and displays as it name indicates the sales by product and by rep",
+          "tags" : [ "Product Group", "Sales", "Sales Rep" ],
+          "title" : "Total Sales by Rep and by Product Group"
+        },
+        "refLine" : {
+          "refLines" : [ ]
+        },
+        "showTitles" : true,
+        "subtitle" : "",
+        "title" : "Total Sales by Rep",
+        "visualization" : "barchart"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "PtJP,Visualization;3a4cdc64-c7f3-4555-b4b1-10a41056730a,App;",
+  "key" : {
+    "id" : 1355
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Sales Discovery/Visualizations/Total Sales by Rep and by Product Group",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikVisualization/QlikVisualization",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Total Sales by Rep and by Product Group",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 279
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 183, 279, 1355 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Visualization",
+  "shouldVersion" : true,
+  "subtype" : "QlikVisualization",
+  "type" : "QlikArtifact"
+}

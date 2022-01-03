@@ -1,0 +1,59 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qInfo" : {
+        "qId" : "Phbvp",
+        "qType" : "measure"
+      },
+      "qMeasure" : {
+        "coloring" : { },
+        "qActiveExpression" : 0,
+        "qDef" : "num(\n\tIF((license_type_enabled)='Token-based',\n\tceil(count({<[Access Type]={'Login Access'},LogTimeStamp= {\">=$(=DayStart(today()-6))\"}>} distinct UsageId)/10)\n    ,Sum({<[License Token Type]={'Analyzer Access'}>} distinct [License Total Tokens])\n    )\n,'#,##0')",
+        "qExpressions" : [ ],
+        "qGrouping" : "N",
+        "qLabel" : "Login Tokens or Analyzer Access Used",
+        "qLabelExpression" : "IF((license_type_enabled)='Token-based','Login Access Tokens','Analyzer Access Users')",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qUseThou" : 0,
+          "qnDec" : 10
+        }
+      },
+      "qMetaDef" : {
+        "description" : "For Login Access usage, please view this by Month only.",
+        "tags" : [ ],
+        "title" : "Login Tokens or Analyzer Access Used"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "Phbvp,Measure;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1081
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Measures/Login Tokens or Analyzer Access Used",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikMeasure/QlikMeasure",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Login Tokens or Analyzer Access Used",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 264
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 264, 1081 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Measure",
+  "shouldVersion" : true,
+  "subtype" : "QlikMeasure",
+  "type" : "QlikArtifact"
+}

@@ -1,0 +1,49 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "8a2afa6a0bfb98572278a70006e1222ee4345b5f",
+      "contentName" : "content",
+      "contentOid" : 18953,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "creationDate" : "2016-02-12T18:33:36.632Z",
+    "qMetaDef" : {
+      "annotation" : "Example: Login Access Rule Usage",
+      "description" : "",
+      "title" : "Login Access Rule Usage"
+    }
+  },
+  "hidden" : false,
+  "identity" : "DHeTT,Snapshot;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1088
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Snapshots/Login Access Rule Usage",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSnapshot/QlikSnapshot",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Login Access Rule Usage",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 266
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 266, 1088 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Snapshot",
+  "shouldVersion" : true,
+  "subtype" : "QlikSnapshot",
+  "type" : "QlikArtifact"
+}

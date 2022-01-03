@@ -1,0 +1,57 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qInfo" : {
+        "qId" : "QjUcZmK",
+        "qType" : "measure"
+      },
+      "qMeasure" : {
+        "qActiveExpression" : 0,
+        "qDef" : "count({<Level= {'ERROR','FATAL'} > } Level)",
+        "qExpressions" : [ ],
+        "qGrouping" : "N",
+        "qLabel" : "Error Count",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qUseThou" : 0,
+          "qnDec" : 10
+        }
+      },
+      "qMetaDef" : {
+        "description" : "Count of licensing errors. Examples include: Sense Server cannot access the active directory for user authentication or during sync of a User Directory Connector.",
+        "tags" : [ ],
+        "title" : "Error Count"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "QjUcZmK,Measure;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1029
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Measures/Error Count",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikMeasure/QlikMeasure",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Error Count",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 264
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 264, 1029 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Measure",
+  "shouldVersion" : true,
+  "subtype" : "QlikMeasure",
+  "type" : "QlikArtifact"
+}

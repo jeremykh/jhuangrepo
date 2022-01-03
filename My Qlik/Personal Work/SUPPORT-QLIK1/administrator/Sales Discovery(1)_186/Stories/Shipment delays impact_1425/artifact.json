@@ -1,0 +1,78 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "e8fe05b725e51fdac19dd7875316e2a473017aed",
+      "contentName" : "content",
+      "contentOid" : 18492,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "qChildListDef" : {
+          "qData" : {
+            "rank" : "/rank",
+            "title" : "/title"
+          }
+        },
+        "qInfo" : {
+          "qId" : "czmGm",
+          "qType" : "story"
+        },
+        "qMetaDef" : {
+          "description" : "",
+          "title" : "Shipment delays impact"
+        },
+        "rank" : 0,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/f84cf3b8-f44c-4e73-99aa-37fb20121969/storytelling-salesdiscovery_1.jpg"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : false,
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "published" : false,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "czmGm,Story;f84cf3b8-f44c-4e73-99aa-37fb20121969,App;",
+  "key" : {
+    "id" : 1425
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Sales Discovery(1)/Stories/Shipment delays impact",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikStory/QlikStory",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Shipment delays impact",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 308
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 186, 308, 1425 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Story",
+  "shouldVersion" : true,
+  "subtype" : "QlikStory",
+  "type" : "QlikArtifact"
+}

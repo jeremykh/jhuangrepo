@@ -1,0 +1,291 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qChildren" : [ ],
+      "qProperty" : {
+        "barGrouping" : {
+          "grouping" : "stacked"
+        },
+        "color" : {
+          "auto" : true,
+          "autoMinMax" : true,
+          "dimensionId" : "",
+          "dimensionScheme" : "12",
+          "expressionIsColor" : true,
+          "expressionLabel" : "",
+          "measureMax" : 10,
+          "measureMin" : 0,
+          "measureScheme" : "sg",
+          "mode" : "primary",
+          "persistent" : false,
+          "reverseScheme" : false,
+          "singleColor" : 3
+        },
+        "dataPoint" : {
+          "showLabels" : false
+        },
+        "dimensionAxis" : {
+          "dock" : "near",
+          "label" : "auto",
+          "show" : "labels"
+        },
+        "footnote" : "",
+        "gridLine" : {
+          "auto" : true,
+          "spacing" : 2
+        },
+        "legend" : {
+          "dock" : "auto",
+          "show" : true,
+          "showTitle" : false
+        },
+        "masterVersion" : 0.96,
+        "measureAxis" : {
+          "autoMinMax" : true,
+          "dock" : "near",
+          "max" : 10,
+          "min" : 0,
+          "minMax" : "min",
+          "show" : "labels",
+          "spacing" : 1
+        },
+        "metadata" : { },
+        "orientation" : "horizontal",
+        "qHyperCubeDef" : {
+          "columnOrder" : [ 0, 3, 1, 2, 4 ],
+          "qAlwaysFullyExpanded" : true,
+          "qCalcCond" : { },
+          "qCalcCondition" : {
+            "qCond" : { },
+            "qMsg" : { }
+          },
+          "qColumnOrder" : [ ],
+          "qDimensions" : [ {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : false,
+              "cId" : "EpWZN",
+              "othersLabel" : "Others",
+              "qActiveField" : 0,
+              "qFieldDefs" : [ ],
+              "qFieldLabels" : [ ],
+              "qGrouping" : "N",
+              "qNumberPresentations" : [ ],
+              "qSortCriterias" : [ {
+                "qExpression" : {
+                  "qv" : "=ceil(count({<AccessType={\"LoginAccess\"},LogTimeStamp= {\">=$(=daystart(max(LogTimeStamp)-28))\"}>} distinct UsageID)/10)+count({<AccessType={\"UserAccess\"},SessionCount={1},LogTimeStamp= {\">=$(=daystart(max(LogTimeStamp)-28))\"}>} distinct UserName)"
+                },
+                "qSortByExpression" : -1,
+                "qSortByLoadOrder" : 1
+              } ],
+              "title" : "App"
+            },
+            "qLibraryId" : "VJdrF",
+            "qNullSuppression" : true,
+            "qOtherLabel" : { },
+            "qOtherTotalSpec" : {
+              "qApplyEvenWhenPossiblyWrongResult" : true,
+              "qForceBadValueKeeping" : true,
+              "qOtherCounted" : {
+                "qv" : "10"
+              },
+              "qOtherLimit" : {
+                "qv" : "0"
+              },
+              "qOtherLimitMode" : "OTHER_GE_LIMIT",
+              "qOtherMode" : "OTHER_OFF",
+              "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+              "qReferencedExpression" : { },
+              "qTotalMode" : "TOTAL_OFF"
+            },
+            "qTotalLabel" : { },
+            "title" : "App"
+          } ],
+          "qExpansionState" : [ ],
+          "qInitialDataFetch" : [ {
+            "qHeight" : 500,
+            "qLeft" : 0,
+            "qTop" : 0,
+            "qWidth" : 17
+          } ],
+          "qInterColumnSortOrder" : [ 0, 1, 2 ],
+          "qLayoutExclude" : { },
+          "qMaxStackedCells" : 5000,
+          "qMeasures" : [ {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ {
+              "id" : "colorByExpression"
+            } ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "crKB",
+              "numFormatFromTemplate" : true,
+              "qAccumulate" : 0,
+              "qActiveExpression" : 0,
+              "qExpressions" : [ ],
+              "qGrouping" : "N",
+              "qNumFormat" : {
+                "qDec" : ".",
+                "qFmt" : "#,##0",
+                "qThou" : ",",
+                "qType" : "F",
+                "qUseThou" : 0,
+                "qnDec" : 2
+              },
+              "qTags" : [ ]
+            },
+            "qLibraryId" : "qyTgxb",
+            "qMiniChartDef" : {
+              "qAttributeExpressions" : [ ],
+              "qMaxNumberPoints" : -1,
+              "qOtherTotalSpec" : {
+                "qApplyEvenWhenPossiblyWrongResult" : true,
+                "qForceBadValueKeeping" : true,
+                "qOtherCounted" : { },
+                "qOtherLimit" : { },
+                "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                "qOtherMode" : "OTHER_OFF",
+                "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                "qReferencedExpression" : { },
+                "qTotalMode" : "TOTAL_OFF"
+              },
+              "qSortBy" : {
+                "qExpression" : { }
+              }
+            },
+            "qSortBy" : {
+              "qExpression" : { },
+              "qSortByLoadOrder" : 1,
+              "qSortByNumeric" : -1
+            },
+            "qTrendLines" : [ ]
+          }, {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "kALhzJ",
+              "numFormatFromTemplate" : true,
+              "qAccumulate" : 0,
+              "qActiveExpression" : 0,
+              "qExpressions" : [ ],
+              "qGrouping" : "N",
+              "qNumFormat" : {
+                "qDec" : ".",
+                "qFmt" : "#,##0",
+                "qThou" : ",",
+                "qType" : "F",
+                "qUseThou" : 0,
+                "qnDec" : 2
+              },
+              "qTags" : [ ]
+            },
+            "qLibraryId" : "hLPJx",
+            "qMiniChartDef" : {
+              "qAttributeExpressions" : [ ],
+              "qMaxNumberPoints" : -1,
+              "qOtherTotalSpec" : {
+                "qApplyEvenWhenPossiblyWrongResult" : true,
+                "qForceBadValueKeeping" : true,
+                "qOtherCounted" : { },
+                "qOtherLimit" : { },
+                "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                "qOtherMode" : "OTHER_OFF",
+                "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                "qReferencedExpression" : { },
+                "qTotalMode" : "TOTAL_OFF"
+              },
+              "qSortBy" : {
+                "qExpression" : { }
+              }
+            },
+            "qSortBy" : {
+              "qExpression" : { },
+              "qSortByLoadOrder" : 1,
+              "qSortByNumeric" : -1
+            },
+            "qTrendLines" : [ ]
+          } ],
+          "qMode" : "S",
+          "qNoOfLeftDims" : -1,
+          "qPseudoDimPos" : 10000,
+          "qReductionMode" : "N",
+          "qSuppressMissing" : true,
+          "qSuppressZero" : true,
+          "qTitle" : { }
+        },
+        "qInfo" : {
+          "qId" : "Rawakzg",
+          "qType" : "masterobject"
+        },
+        "qLayoutExclude" : { },
+        "qMetaDef" : {
+          "description" : "Bar chart showing token consumption by App.",
+          "tags" : [ ],
+          "title" : "Token Consumption by App (Last 28 Days)"
+        },
+        "refLine" : {
+          "refLines" : [ ]
+        },
+        "showTitles" : true,
+        "subtitle" : {
+          "qStringExpression" : {
+            "qExpr" : "if(sum({<AccessType={\"UserAccess\"},SessionCount={1}>} SessionCount)+count({<AccessType={\"LoginAccess\"}>} distinct UsageID)<1,\n\tif(count(getcurrentselections())>0,'* No token usage is associated with your current selections.',\n    \t'* No token usage data have been loaded from the License log files.')\n    ,'')"
+          }
+        },
+        "title" : {
+          "qStringExpression" : {
+            "qExpr" : "'Token Consumption by App (Last 28 Days)'"
+          }
+        },
+        "visualization" : "barchart"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "Rawakzg,Visualization;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1043
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Visualizations/Token Consumption by App (Last 28 Days)",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikVisualization/QlikVisualization",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Token Consumption by App (Last 28 Days)",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 269
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 269, 1043 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Visualization",
+  "shouldVersion" : true,
+  "subtype" : "QlikVisualization",
+  "type" : "QlikArtifact"
+}

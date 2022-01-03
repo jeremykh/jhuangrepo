@@ -1,0 +1,44 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "6f592b02f8ee634f2e260e38f98748a62e3a7ef8",
+      "contentName" : "content",
+      "contentOid" : 19078,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "path" : "countryGeo.qvd"
+  },
+  "hidden" : false,
+  "identity" : "countryGeo.qvd,AttachedFile;1bcebd6c-fef3-43bc-8a2c-a96073c1d4f3,App;",
+  "key" : {
+    "id" : 1405
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Combo Charts/AttachedFiles/countryGeo.qvd",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikAttachedFile/QlikAttachedFile",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "countryGeo.qvd",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 281
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 184, 281, 1405 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "AttachedFile",
+  "shouldVersion" : true,
+  "subtype" : "QlikAttachedFile",
+  "type" : "QlikArtifact"
+}

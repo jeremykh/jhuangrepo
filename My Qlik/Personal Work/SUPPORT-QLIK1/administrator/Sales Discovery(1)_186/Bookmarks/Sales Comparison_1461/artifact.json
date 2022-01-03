@@ -1,0 +1,60 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "afab38821d39e25d448e40e2cd0deeb7e038f909",
+      "contentName" : "content",
+      "contentOid" : 18493,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "creationDate" : "2021-08-25T12:06:58.997Z",
+    "qMetaDef" : {
+      "description" : "",
+      "title" : "Sales Comparison"
+    },
+    "qrsProp" : {
+      "approved" : false,
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "published" : false
+    },
+    "selectionFields" : "",
+    "sheetId" : "LSZHpfJ"
+  },
+  "hidden" : false,
+  "identity" : "3bab1216-8fba-4bcd-9c53-ed8612d8c656,Bookmark;f84cf3b8-f44c-4e73-99aa-37fb20121969,App;",
+  "key" : {
+    "id" : 1461
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Sales Discovery(1)/Bookmarks/Sales Comparison",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikBookmark/QlikBookmark",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Sales Comparison",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 303
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 186, 303, 1461 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Bookmark",
+  "shouldVersion" : true,
+  "subtype" : "QlikBookmark",
+  "type" : "QlikArtifact"
+}

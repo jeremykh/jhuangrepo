@@ -1,0 +1,122 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "a760a83269482b7a675d80feea276412c478a619",
+      "contentName" : "content",
+      "contentOid" : 18982,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "col" : 0,
+          "colspan" : 3,
+          "name" : "kPzbmD",
+          "row" : 0,
+          "rowspan" : 6,
+          "type" : "filterpane"
+        }, {
+          "col" : 0,
+          "colspan" : 3,
+          "name" : "mjCxnC",
+          "row" : 6,
+          "rowspan" : 6,
+          "type" : "filterpane"
+        }, {
+          "col" : 3,
+          "colspan" : 13,
+          "name" : "PWYsGZ",
+          "row" : 0,
+          "rowspan" : 6,
+          "type" : "linechart"
+        }, {
+          "col" : 3,
+          "colspan" : 13,
+          "name" : "JXBWFXE",
+          "row" : 6,
+          "rowspan" : 6,
+          "type" : "table"
+        }, {
+          "col" : 16,
+          "colspan" : 8,
+          "name" : "Vemju",
+          "row" : 6,
+          "rowspan" : 6,
+          "type" : "pivot-table"
+        }, {
+          "col" : 16,
+          "colspan" : 8,
+          "name" : "fNgSvc",
+          "row" : 0,
+          "rowspan" : 6,
+          "type" : "barchart"
+        } ],
+        "columns" : 24,
+        "labelExpression" : {
+          "qStringExpression" : {
+            "qExpr" : "'Login Access History' & IF(license_type_enabled='User-based',': Not applicable')"
+          }
+        },
+        "qInfo" : {
+          "qId" : "RDJy",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "",
+          "title" : "Login Access History"
+        },
+        "rank" : 1,
+        "rows" : 12,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/4ba9b5c8-4a4e-4a86-a54d-049935fe11ab/Icon_Qlik_Success_grey.png"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+        "name" : "sa_repository",
+        "userDirectory" : "INTERNAL",
+        "userId" : "sa_repository"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "RDJy,Sheet;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1086
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Sheets/Login Access History",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Login Access History",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 265
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 265, 1086 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

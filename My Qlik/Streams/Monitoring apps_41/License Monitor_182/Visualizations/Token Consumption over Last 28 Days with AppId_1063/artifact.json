@@ -1,0 +1,483 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qChildren" : [ ],
+      "qProperty" : {
+        "footnote" : "",
+        "masterVersion" : 0.96,
+        "qHyperCubeDef" : {
+          "columnOrder" : [ 0, 1, 2, 3, 4 ],
+          "columnWidths" : [ -1, -1, -1, -1, -1 ],
+          "customErrorMessage" : {
+            "calcCond" : "No tokens consumed during last 28 days based on current selections."
+          },
+          "qAlwaysFullyExpanded" : true,
+          "qCalcCond" : {
+            "qv" : "count({<[Access Type]={'Login Access'},LogTimeStamp= {\">=$(=daystart(max(LogTimeStamp)-28))\"}>} distinct UsageId) +count({<[Access Type]={'User Access'},LogTimeStamp= {\">=$(=daystart(max(LogTimeStamp)-28))\"}>} distinct UserId)>0"
+          },
+          "qCalcCondition" : {
+            "qCond" : { },
+            "qMsg" : { }
+          },
+          "qColumnOrder" : [ ],
+          "qDimensions" : [ {
+            "othersLabel" : "Others",
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : false,
+              "cId" : "YjTyyk",
+              "othersLabel" : "Others",
+              "qActiveField" : 0,
+              "qFieldDefs" : [ "App Stream" ],
+              "qFieldLabels" : [ "App Stream" ],
+              "qGrouping" : "N",
+              "qNumberPresentations" : [ ],
+              "qSortCriterias" : [ {
+                "qExpression" : {
+                  "qv" : "ceil(count({<[Access Type]={'Login Access'},LogTimeStamp= {\">=$(=daystart(max(LogTimeStamp)-27)\"}>} distinct UsageId)/10)\n+count({<[Access Type]={'User Access'},LogTimeStamp= {\">=$(=daystart(max(LogTimeStamp)-27))\"}>} distinct UserId)"
+                },
+                "qSortByAscii" : 1,
+                "qSortByExpression" : -1,
+                "qSortByLoadOrder" : 1
+              } ],
+              "representation" : {
+                "type" : "text",
+                "urlLabel" : ""
+              },
+              "textAlign" : {
+                "align" : "left",
+                "auto" : true
+              }
+            },
+            "qOtherLabel" : {
+              "qv" : "Others"
+            },
+            "qOtherTotalSpec" : {
+              "qApplyEvenWhenPossiblyWrongResult" : true,
+              "qForceBadValueKeeping" : true,
+              "qOtherCounted" : {
+                "qv" : "10"
+              },
+              "qOtherLimit" : {
+                "qv" : "0"
+              },
+              "qOtherLimitMode" : "OTHER_GE_LIMIT",
+              "qOtherMode" : "OTHER_OFF",
+              "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+              "qReferencedExpression" : { },
+              "qTotalMode" : "TOTAL_EXPR"
+            },
+            "qTotalLabel" : {
+              "qv" : "Total"
+            }
+          }, {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : false,
+              "cId" : "uZjTnu",
+              "othersLabel" : "Others",
+              "qActiveField" : 0,
+              "qFieldDefs" : [ "App Name" ],
+              "qFieldLabels" : [ "" ],
+              "qGrouping" : "N",
+              "qNumberPresentations" : [ ],
+              "qSortCriterias" : [ {
+                "qExpression" : {
+                  "qv" : "ceil(count({<[Access Type]={'Login Access'},LogTimeStamp= {\">=$(=daystart(max(LogTimeStamp)-27)\"}>} distinct UsageId)/10) +count({<[Access Type]={'User Access'},LogTimeStamp= {\">=$(=daystart(max(LogTimeStamp)-27))\"}>} distinct UserId)"
+                },
+                "qSortByAscii" : 1,
+                "qSortByExpression" : -1,
+                "qSortByLoadOrder" : 1
+              } ]
+            },
+            "qOtherLabel" : {
+              "qv" : "Others"
+            },
+            "qOtherTotalSpec" : {
+              "qApplyEvenWhenPossiblyWrongResult" : true,
+              "qForceBadValueKeeping" : true,
+              "qOtherCounted" : {
+                "qv" : "10"
+              },
+              "qOtherLimit" : {
+                "qv" : "0"
+              },
+              "qOtherLimitMode" : "OTHER_GE_LIMIT",
+              "qOtherMode" : "OTHER_OFF",
+              "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+              "qReferencedExpression" : { },
+              "qTotalMode" : "TOTAL_OFF"
+            },
+            "qTotalLabel" : {
+              "qv" : "Totals"
+            }
+          }, {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "tmYGx",
+              "othersLabel" : "Others",
+              "qActiveField" : 0,
+              "qFieldDefs" : [ "AppId" ],
+              "qFieldLabels" : [ "" ],
+              "qGrouping" : "N",
+              "qNumberPresentations" : [ ],
+              "qSortCriterias" : [ {
+                "qExpression" : { },
+                "qSortByAscii" : 1,
+                "qSortByLoadOrder" : 1
+              } ]
+            },
+            "qOtherLabel" : {
+              "qv" : "Others"
+            },
+            "qOtherTotalSpec" : {
+              "qApplyEvenWhenPossiblyWrongResult" : true,
+              "qForceBadValueKeeping" : true,
+              "qOtherCounted" : {
+                "qv" : "10"
+              },
+              "qOtherLimit" : {
+                "qv" : "0"
+              },
+              "qOtherLimitMode" : "OTHER_GE_LIMIT",
+              "qOtherMode" : "OTHER_OFF",
+              "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+              "qReferencedExpression" : { },
+              "qTotalMode" : "TOTAL_OFF"
+            },
+            "qTotalLabel" : {
+              "qv" : "Totals"
+            }
+          } ],
+          "qExpansionState" : [ ],
+          "qInitialDataFetch" : [ {
+            "qHeight" : 50,
+            "qLeft" : 0,
+            "qTop" : 0,
+            "qWidth" : 50
+          } ],
+          "qInterColumnSortOrder" : [ 0, 1, 2, -1 ],
+          "qLayoutExclude" : {
+            "qHyperCubeDef" : {
+              "qCalcCond" : { },
+              "qCalcCondition" : {
+                "qCond" : { },
+                "qMsg" : { }
+              },
+              "qColumnOrder" : [ ],
+              "qDimensions" : [ ],
+              "qExpansionState" : [ ],
+              "qInitialDataFetch" : [ ],
+              "qInterColumnSortOrder" : [ ],
+              "qMaxStackedCells" : 5000,
+              "qMeasures" : [ ],
+              "qMode" : "S",
+              "qNoOfLeftDims" : -1,
+              "qPseudoDimPos" : -1,
+              "qReductionMode" : "N",
+              "qTitle" : { }
+            }
+          },
+          "qMaxStackedCells" : 5000,
+          "qMeasures" : [ {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ { }, { } ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "pQmAdsJ",
+              "numFormatFromTemplate" : true,
+              "qAccumulate" : 0,
+              "qActiveExpression" : 0,
+              "qAggrFunc" : "Expr",
+              "qExpressions" : [ ],
+              "qGrouping" : "N",
+              "qNumFormat" : {
+                "qDec" : ".",
+                "qFmt" : "#,##0",
+                "qThou" : ",",
+                "qType" : "F",
+                "qUseThou" : 0,
+                "qnDec" : 2
+              },
+              "qTags" : [ ],
+              "textAlign" : {
+                "align" : "left",
+                "auto" : true
+              }
+            },
+            "qLibraryId" : "qyTgxb",
+            "qMiniChartDef" : {
+              "qAttributeExpressions" : [ ],
+              "qMaxNumberPoints" : -1,
+              "qOtherTotalSpec" : {
+                "qApplyEvenWhenPossiblyWrongResult" : true,
+                "qForceBadValueKeeping" : true,
+                "qOtherCounted" : { },
+                "qOtherLimit" : { },
+                "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                "qOtherMode" : "OTHER_OFF",
+                "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                "qReferencedExpression" : { },
+                "qTotalMode" : "TOTAL_OFF"
+              },
+              "qSortBy" : {
+                "qExpression" : { }
+              }
+            },
+            "qSortBy" : {
+              "qExpression" : { },
+              "qSortByLoadOrder" : 1,
+              "qSortByNumeric" : -1
+            },
+            "qTrendLines" : [ ]
+          }, {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ { }, { } ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "pSPSmpA",
+              "numFormatFromTemplate" : true,
+              "qAccumulate" : 0,
+              "qActiveExpression" : 0,
+              "qAggrFunc" : "Expr",
+              "qExpressions" : [ ],
+              "qGrouping" : "N",
+              "qNumFormat" : {
+                "qDec" : ".",
+                "qFmt" : "#,##0",
+                "qThou" : ",",
+                "qType" : "F",
+                "qUseThou" : 0,
+                "qnDec" : 2
+              },
+              "qTags" : [ ],
+              "textAlign" : {
+                "align" : "left",
+                "auto" : true
+              }
+            },
+            "qLibraryId" : "hLPJx",
+            "qMiniChartDef" : {
+              "qAttributeExpressions" : [ ],
+              "qMaxNumberPoints" : -1,
+              "qOtherTotalSpec" : {
+                "qApplyEvenWhenPossiblyWrongResult" : true,
+                "qForceBadValueKeeping" : true,
+                "qOtherCounted" : { },
+                "qOtherLimit" : { },
+                "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                "qOtherMode" : "OTHER_OFF",
+                "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                "qReferencedExpression" : { },
+                "qTotalMode" : "TOTAL_OFF"
+              },
+              "qSortBy" : {
+                "qExpression" : { }
+              }
+            },
+            "qSortBy" : {
+              "qExpression" : { },
+              "qSortByLoadOrder" : 1,
+              "qSortByNumeric" : -1
+            },
+            "qTrendLines" : [ ]
+          }, {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ { }, { } ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "hmvJPN",
+              "numFormatFromTemplate" : true,
+              "qAccumulate" : 0,
+              "qActiveExpression" : 0,
+              "qAggrFunc" : "Expr",
+              "qDef" : "[Tokens for Login Access]+[Tokens for User Access]",
+              "qExpressions" : [ ],
+              "qGrouping" : "N",
+              "qLabel" : "Total Tokens",
+              "qNumFormat" : {
+                "qDec" : ".",
+                "qFmt" : "#,##0",
+                "qThou" : ",",
+                "qType" : "F",
+                "qUseThou" : 0,
+                "qnDec" : 2
+              },
+              "qTags" : [ ],
+              "textAlign" : {
+                "align" : "left",
+                "auto" : true
+              }
+            },
+            "qMiniChartDef" : {
+              "qAttributeExpressions" : [ ],
+              "qMaxNumberPoints" : -1,
+              "qOtherTotalSpec" : {
+                "qApplyEvenWhenPossiblyWrongResult" : true,
+                "qForceBadValueKeeping" : true,
+                "qOtherCounted" : { },
+                "qOtherLimit" : { },
+                "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                "qOtherMode" : "OTHER_OFF",
+                "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                "qReferencedExpression" : { },
+                "qTotalMode" : "TOTAL_OFF"
+              },
+              "qSortBy" : {
+                "qExpression" : { }
+              }
+            },
+            "qSortBy" : {
+              "qExpression" : { },
+              "qSortByLoadOrder" : 1,
+              "qSortByNumeric" : -1
+            },
+            "qTrendLines" : [ ]
+          }, {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ { }, { } ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "Zmbev",
+              "numFormatFromTemplate" : true,
+              "qAccumulate" : 0,
+              "qActiveExpression" : 0,
+              "qAggrFunc" : "None",
+              "qDef" : "(ceil(count({<[Access Type]={'Login Access'},LogTimeStamp= {\">=$(=daystart(max(LogTimeStamp)-28))\"}>} distinct UsageId)/10)\n+\ncount({<[Access Type]={'User Access'},LogTimeStamp= {\">=$(=daystart(max(LogTimeStamp)-28))\"}>} distinct UserId)\n)\n/\n(\nceil(count({<[Access Type]={'Login Access'},LogTimeStamp= {\">=$(=daystart(max(LogTimeStamp)-28))\"}>} distinct TOTAL UsageId)/10)\n+ \ncount({<[Access Type]={'User Access'},LogTimeStamp= {\">=$(=daystart(max(LogTimeStamp)-28))\"}>} distinct TOTAL UserId)\n)",
+              "qExpressions" : [ ],
+              "qGrouping" : "N",
+              "qLabel" : "% of Used Tokens",
+              "qNumFormat" : {
+                "qDec" : ".",
+                "qFmt" : "0.0%",
+                "qThou" : ",",
+                "qType" : "F",
+                "qUseThou" : 0,
+                "qnDec" : 2
+              },
+              "qTags" : [ ],
+              "textAlign" : {
+                "align" : "left",
+                "auto" : true
+              }
+            },
+            "qMiniChartDef" : {
+              "qAttributeExpressions" : [ ],
+              "qMaxNumberPoints" : -1,
+              "qOtherTotalSpec" : {
+                "qApplyEvenWhenPossiblyWrongResult" : true,
+                "qForceBadValueKeeping" : true,
+                "qOtherCounted" : { },
+                "qOtherLimit" : { },
+                "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                "qOtherMode" : "OTHER_OFF",
+                "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                "qReferencedExpression" : { },
+                "qTotalMode" : "TOTAL_OFF"
+              },
+              "qSortBy" : {
+                "qExpression" : { }
+              }
+            },
+            "qSortBy" : {
+              "qExpression" : { },
+              "qSortByLoadOrder" : 1,
+              "qSortByNumeric" : -1
+            },
+            "qTrendLines" : [ ]
+          } ],
+          "qMode" : "P",
+          "qNoOfLeftDims" : 3,
+          "qPseudoDimPos" : -1,
+          "qReductionMode" : "N",
+          "qShowTotalsAbove" : true,
+          "qSuppressMissing" : true,
+          "qTitle" : { }
+        },
+        "qInfo" : {
+          "qId" : "eNqDuZ",
+          "qType" : "masterobject"
+        },
+        "qLayoutExclude" : { },
+        "qMetaDef" : {
+          "description" : "Use this chart in case you have multiple apps with the same name in the same Stream. It includes AppId to distinguish the apps.",
+          "tags" : [ ],
+          "title" : "Token Consumption over Last 28 Days with AppId"
+        },
+        "showTitles" : true,
+        "subtitle" : "",
+        "title" : "Token Consumption over Last 28 Days",
+        "visualization" : "pivot-table"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "eNqDuZ,Visualization;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1063
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Visualizations/Token Consumption over Last 28 Days with AppId",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikVisualization/QlikVisualization",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Token Consumption over Last 28 Days with AppId",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 269
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 269, 1063 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Visualization",
+  "shouldVersion" : true,
+  "subtype" : "QlikVisualization",
+  "type" : "QlikArtifact"
+}

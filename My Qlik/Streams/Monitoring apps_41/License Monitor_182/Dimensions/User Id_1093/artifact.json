@@ -1,0 +1,51 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qDim" : {
+        "qFieldDefs" : [ "UserId" ],
+        "qFieldLabels" : [ "User Id" ],
+        "qGrouping" : "N",
+        "title" : "User Id"
+      },
+      "qInfo" : {
+        "qId" : "JJCm",
+        "qType" : "dimension"
+      },
+      "qMetaDef" : {
+        "description" : "Username of the individual performing an allocation change or accessing apps and using allocated tokens.",
+        "tags" : [ "user" ],
+        "title" : "User Id"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "JJCm,Dimension;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1093
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Dimensions/User Id",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikDimension/QlikDimension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "User Id",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 263
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 263, 1093 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Dimension",
+  "shouldVersion" : true,
+  "subtype" : "QlikDimension",
+  "type" : "QlikArtifact"
+}

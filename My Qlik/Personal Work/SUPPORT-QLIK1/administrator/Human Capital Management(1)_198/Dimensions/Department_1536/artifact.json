@@ -1,0 +1,51 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qDim" : {
+        "qFieldDefs" : [ "Job Family" ],
+        "qFieldLabels" : [ "Department" ],
+        "qGrouping" : "N",
+        "title" : "Department"
+      },
+      "qInfo" : {
+        "qId" : "b81f4141-37a8-44bc-bea4-df7bc7e29000",
+        "qType" : "dimension"
+      },
+      "qMetaDef" : {
+        "description" : "Job Family",
+        "tags" : [ "Job" ],
+        "title" : "Department"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "b81f4141-37a8-44bc-bea4-df7bc7e29000,Dimension;d5856b5e-46b8-4254-86dd-0e2e1ef086a8,App;",
+  "key" : {
+    "id" : 1536
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Human Capital Management(1)/Dimensions/Department",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikDimension/QlikDimension",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Department",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 330
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 198, 330, 1536 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Dimension",
+  "shouldVersion" : true,
+  "subtype" : "QlikDimension",
+  "type" : "QlikArtifact"
+}

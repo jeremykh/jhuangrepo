@@ -1,0 +1,62 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qInfo" : {
+        "qId" : "qCJ",
+        "qType" : "measure"
+      },
+      "qMeasure" : {
+        "coloring" : { },
+        "isCustomFormatted" : false,
+        "qActiveExpression" : 0,
+        "qDef" : "If(isnull([Sales Amount]),Null(),Sum([Sales Amount]))",
+        "qExpressions" : [ ],
+        "qGrouping" : "N",
+        "qLabel" : "Total",
+        "qNumFormat" : {
+          "qDec" : ".",
+          "qFmt" : "$#,##0;($#,##0)",
+          "qThou" : ",",
+          "qType" : "M",
+          "qUseThou" : 0,
+          "qnDec" : 2
+        }
+      },
+      "qMetaDef" : {
+        "description" : "",
+        "tags" : [ ],
+        "title" : "Total"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "qCJ,Measure;baf3d4d4-e230-4461-819d-9f1e3f4985e0,App;",
+  "key" : {
+    "id" : 1655
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Consumer Sales(1)/Measures/Total",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikMeasure/QlikMeasure",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Total",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 341
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 199, 341, 1655 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Measure",
+  "shouldVersion" : true,
+  "subtype" : "QlikMeasure",
+  "type" : "QlikArtifact"
+}

@@ -1,0 +1,64 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qInfo" : {
+        "qId" : "zHqABy",
+        "qType" : "measure"
+      },
+      "qMeasure" : {
+        "coloring" : { },
+        "descriptionExpression" : {
+          "qStringExpression" : {
+            "qExpr" : "IF((license_type_enabled)='Token-based','% of total tokens unallocated','% of total access unallocated')"
+          }
+        },
+        "qActiveExpression" : 0,
+        "qDef" : "Num(\r\nIF(Sum([License Total Available Tokens])/Sum([License Total Tokens])>0,Sum([License Total Available Tokens])/Sum([License Total Tokens]),0)\n,'0%')",
+        "qExpressions" : [ ],
+        "qGrouping" : "N",
+        "qLabel" : "Unallocated Tokens / Access",
+        "qLabelExpression" : "=IF((license_type_enabled)='Token-based','Unallocated Tokens','Unallocated Access')",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qUseThou" : 0,
+          "qnDec" : 10
+        }
+      },
+      "qMetaDef" : {
+        "description" : "",
+        "tags" : [ ],
+        "title" : "Unallocated Tokens / Access"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "zHqABy,Measure;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1128
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Measures/Unallocated Tokens \\/ Access",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikMeasure/QlikMeasure",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Unallocated Tokens / Access",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 264
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 264, 1128 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Measure",
+  "shouldVersion" : true,
+  "subtype" : "QlikMeasure",
+  "type" : "QlikArtifact"
+}

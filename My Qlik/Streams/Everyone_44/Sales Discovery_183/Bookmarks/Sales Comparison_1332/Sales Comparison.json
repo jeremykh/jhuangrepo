@@ -1,0 +1,20 @@
+{
+  "qProp" : {
+    "qInfo" : {
+      "qId" : "3bab1216-8fba-4bcd-9c53-ed8612d8c656",
+      "qType" : "bookmark"
+    },
+    "qMetaDef" : {
+      "title" : "Sales Comparison",
+      "description" : ""
+    },
+    "creationDate" : "2021-08-25T12:06:58.997Z",
+    "sheetId" : "LSZHpfJ",
+    "selectionFields" : ""
+  },
+  "qStateData" : [ {
+    "qStateName" : "$",
+    "qFieldItems" : [ ]
+  } ],
+  "qPatches" : [ ]
+}

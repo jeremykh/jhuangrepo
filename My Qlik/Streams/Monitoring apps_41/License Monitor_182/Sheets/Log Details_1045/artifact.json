@@ -1,0 +1,115 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "aa89b9cb2e2067f99b0fe3922eca769806633ade",
+      "contentName" : "content",
+      "contentOid" : 18968,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "bounds" : {
+            "height" : 33.33333333333333,
+            "width" : 69.44444444444444,
+            "x" : 0,
+            "y" : 0
+          },
+          "col" : 0,
+          "colspan" : 25,
+          "name" : "RHPAXps",
+          "row" : 0,
+          "rowspan" : 6,
+          "type" : "text-image"
+        }, {
+          "bounds" : {
+            "height" : 33.33333333333333,
+            "width" : 30.555555555555557,
+            "x" : 69.44444444444444,
+            "y" : 0
+          },
+          "col" : 25,
+          "colspan" : 11,
+          "name" : "JckuEPu",
+          "row" : 0,
+          "rowspan" : 6,
+          "type" : "table"
+        }, {
+          "bounds" : {
+            "height" : 66.66666666666666,
+            "width" : 100,
+            "x" : 0,
+            "y" : 33.33333333333333
+          },
+          "col" : 0,
+          "colspan" : 36,
+          "name" : "EsabdQe",
+          "row" : 6,
+          "rowspan" : 12,
+          "type" : "table"
+        } ],
+        "columns" : 36,
+        "gridResolution" : "large",
+        "qInfo" : {
+          "qId" : "NEtuPF",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "",
+          "title" : "Log Details"
+        },
+        "rank" : 5.5,
+        "rows" : 18,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/4ba9b5c8-4a4e-4a86-a54d-049935fe11ab/Icon_Analyze_grey.png"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+        "name" : "sa_repository",
+        "userDirectory" : "INTERNAL",
+        "userId" : "sa_repository"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "NEtuPF,Sheet;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1045
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Sheets/Log Details",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Log Details",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 265
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 265, 1045 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

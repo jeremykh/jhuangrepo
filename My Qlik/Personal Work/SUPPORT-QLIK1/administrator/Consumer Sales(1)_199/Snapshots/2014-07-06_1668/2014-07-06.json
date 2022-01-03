@@ -1,0 +1,451 @@
+{
+  "qProp" : {
+    "qInfo" : {
+      "qId" : "vAXFkN",
+      "qType" : "snapshot"
+    },
+    "qMetaDef" : { },
+    "title" : "",
+    "description" : "",
+    "sheetId" : "bLZwBC",
+    "creationDate" : "2014-07-06",
+    "qMeta" : { },
+    "qSelectionInfo" : { },
+    "qHyperCube" : {
+      "qSize" : {
+        "qcx" : 3,
+        "qcy" : 4
+      },
+      "qDimensionInfo" : [ {
+        "qFallbackTitle" : "Product Sub Group",
+        "qApprMaxGlyphCount" : 17,
+        "qCardinal" : 70,
+        "qSortIndicator" : "A",
+        "qGroupFallbackTitles" : [ "Product Sub Group" ],
+        "qGroupPos" : 0,
+        "qStateCounts" : {
+          "qLocked" : 0,
+          "qSelected" : 0,
+          "qOption" : 70,
+          "qDeselected" : 0,
+          "qAlternative" : 0,
+          "qExcluded" : 0,
+          "qSelectedExcluded" : 0,
+          "qLockedExcluded" : 0
+        },
+        "qTags" : [ "$ascii", "$text" ],
+        "qDimensionType" : "D",
+        "qGrouping" : "N",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qnDec" : 0,
+          "qUseThou" : 0
+        },
+        "qIsAutoFormat" : true,
+        "qGroupFieldDefs" : [ "Product Sub Group Desc" ],
+        "qMin" : 0,
+        "qMax" : 0,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qCardinalities" : {
+          "qCardinal" : 0,
+          "qHypercubeCardinal" : 0,
+          "qAllValuesCardinal" : -1
+        },
+        "title" : "Product Sub Group",
+        "autoSort" : true,
+        "cId" : "zdaaskL",
+        "othersLabel" : "Others"
+      } ],
+      "qMeasureInfo" : [ {
+        "qFallbackTitle" : "Notheast Margin %",
+        "qApprMaxGlyphCount" : 1,
+        "qCardinal" : 0,
+        "qSortIndicator" : "D",
+        "qNumFormat" : {
+          "qType" : "F",
+          "qnDec" : 2,
+          "qUseThou" : 0,
+          "qFmt" : "0%",
+          "qDec" : ".",
+          "qThou" : ","
+        },
+        "qMin" : "NaN",
+        "qMax" : "NaN",
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qTrendLines" : [ ],
+        "autoSort" : true,
+        "cId" : "pLwjQ",
+        "numFormatFromTemplate" : true
+      }, {
+        "qFallbackTitle" : "Northeast Revenue",
+        "qApprMaxGlyphCount" : 1,
+        "qCardinal" : 1,
+        "qSortIndicator" : "D",
+        "qNumFormat" : {
+          "qType" : "R",
+          "qnDec" : 0,
+          "qUseThou" : 0,
+          "qFmt" : "##############",
+          "qDec" : ".",
+          "qThou" : ","
+        },
+        "qMin" : 0,
+        "qMax" : 0,
+        "qIsAutoFormat" : true,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qTrendLines" : [ ],
+        "autoSort" : true,
+        "cId" : "kfBPpA",
+        "numFormatFromTemplate" : true
+      } ],
+      "qEffectiveInterColumnSortOrder" : [ 2, 1, 0 ],
+      "qGrandTotalRow" : [ {
+        "qText" : "-",
+        "qNum" : "NaN",
+        "qElemNumber" : -1,
+        "qState" : "X",
+        "qIsTotalCell" : true
+      }, {
+        "qText" : "0",
+        "qNum" : 0,
+        "qElemNumber" : -1,
+        "qState" : "X",
+        "qIsTotalCell" : true
+      } ],
+      "qDataPages" : [ {
+        "qMatrix" : [ [ {
+          "qText" : "Bologna",
+          "qNum" : "NaN",
+          "qElemNumber" : 59,
+          "qState" : "O"
+        }, {
+          "qText" : "-",
+          "qNum" : "NaN",
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "0",
+          "qNum" : 0,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Cereal",
+          "qNum" : "NaN",
+          "qElemNumber" : 29,
+          "qState" : "O"
+        }, {
+          "qText" : "-",
+          "qNum" : "NaN",
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "0",
+          "qNum" : 0,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Cheese",
+          "qNum" : "NaN",
+          "qElemNumber" : 10,
+          "qState" : "O"
+        }, {
+          "qText" : "-",
+          "qNum" : "NaN",
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "0",
+          "qNum" : 0,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "French Fries",
+          "qNum" : "NaN",
+          "qElemNumber" : 48,
+          "qState" : "O"
+        }, {
+          "qText" : "-",
+          "qNum" : "NaN",
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "0",
+          "qNum" : 0,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ] ],
+        "qTails" : [ {
+          "qUp" : 0,
+          "qDown" : 0
+        } ],
+        "qArea" : {
+          "qLeft" : 0,
+          "qTop" : 0,
+          "qWidth" : 3,
+          "qHeight" : 4
+        }
+      } ],
+      "qPivotDataPages" : [ ],
+      "qStackedDataPages" : [ ],
+      "qMode" : "S",
+      "qNoOfLeftDims" : 0,
+      "qTreeNodesOnDim" : [ ],
+      "qColumnOrder" : [ ]
+    },
+    "refLine" : {
+      "refLinesX" : [ ],
+      "refLinesY" : [ ]
+    },
+    "showTitles" : true,
+    "subtitle" : "Northeast Sales vs Margin (Sales $0)",
+    "footnote" : "",
+    "dataPoint" : {
+      "bubbleSizes" : 5,
+      "rangeBubbleSizes" : [ 2, 8 ]
+    },
+    "labels" : {
+      "mode" : 1
+    },
+    "gridLine" : {
+      "auto" : false,
+      "spacing" : 3
+    },
+    "color" : {
+      "auto" : true,
+      "mode" : "primary",
+      "singleColor" : 3,
+      "persistent" : false,
+      "expressionIsColor" : true,
+      "measureScheme" : "sg",
+      "reverseScheme" : false,
+      "dimensionScheme" : "12"
+    },
+    "legend" : {
+      "show" : false,
+      "dock" : "auto",
+      "showTitle" : true
+    },
+    "xAxis" : {
+      "show" : "labels",
+      "label" : "auto",
+      "dock" : "near",
+      "spacing" : 0.5,
+      "autoMinMax" : false,
+      "minMax" : "minMax",
+      "min" : 0,
+      "max" : 1
+    },
+    "yAxis" : {
+      "show" : "labels",
+      "label" : "auto",
+      "dock" : "near",
+      "spacing" : 0.5,
+      "autoMinMax" : false,
+      "minMax" : "min",
+      "min" : 0,
+      "max" : 10
+    },
+    "visualization" : "scatterplot",
+    "visualizationType" : "scatterplot",
+    "timestamp" : 1404670492898,
+    "sourceObjectId" : "mkQXr",
+    "isClone" : false,
+    "libraryTitle" : "",
+    "snapshotData" : {
+      "object" : {
+        "size" : {
+          "w" : 359,
+          "h" : 146
+        }
+      },
+      "parent" : {
+        "h" : 654,
+        "w" : 1270
+      },
+      "content" : {
+        "chartData" : {
+          "legendScrollOffset" : 0,
+          "xAxisMin" : 0,
+          "xAxisMax" : 1,
+          "yAxisMin" : 0,
+          "yAxisMax" : 10
+        },
+        "size" : {
+          "w" : 359,
+          "h" : 118
+        },
+        "components" : {
+          "grid" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 311,
+              "h" : 65
+            }
+          },
+          "xAxis" : {
+            "visible" : true,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 311,
+              "h" : 29
+            }
+          },
+          "yAxis" : {
+            "visible" : true,
+            "dock" : "left",
+            "size" : {
+              "w" : 34,
+              "h" : 65
+            }
+          },
+          "xAxisTitle" : {
+            "visible" : false,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 311,
+              "h" : 0
+            }
+          },
+          "refLineLabelsX" : {
+            "visible" : false,
+            "dock" : "top",
+            "size" : {
+              "w" : 311,
+              "h" : 0
+            }
+          },
+          "refLineLabelsY" : {
+            "visible" : false,
+            "dock" : "right",
+            "size" : {
+              "w" : 0,
+              "h" : 65
+            }
+          },
+          "legend" : {
+            "visible" : false,
+            "dock" : "right",
+            "size" : {
+              "w" : 0,
+              "h" : 65
+            }
+          },
+          "refLines" : {
+            "visible" : false,
+            "dock" : "center",
+            "size" : {
+              "w" : 311,
+              "h" : 65
+            }
+          },
+          "dataArea" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 311,
+              "h" : 65
+            }
+          }
+        },
+        "v" : 0.96
+      }
+    },
+    "compressionResolution" : 5
+  },
+  "qStateData" : [ {
+    "qStateName" : "$",
+    "qFieldItems" : [ {
+      "qDef" : {
+        "qName" : "Metric",
+        "qType" : "PRESENT"
+      },
+      "qSelectInfo" : {
+        "qRangeLo" : "NaN",
+        "qRangeHi" : "NaN",
+        "qNumberFormat" : {
+          "qType" : "U",
+          "qnDec" : 10,
+          "qUseThou" : 0
+        },
+        "qRangeInfo" : [ ],
+        "qContinuousRangeInfo" : [ ]
+      },
+      "qValues" : [ {
+        "qText" : "Number of Lost Customers",
+        "qNumber" : "NaN"
+      } ],
+      "qExcludedValues" : [ ]
+    }, {
+      "qDef" : {
+        "qName" : "Sales Rep Name",
+        "qType" : "PRESENT"
+      },
+      "qSelectInfo" : {
+        "qRangeLo" : "NaN",
+        "qRangeHi" : "NaN",
+        "qNumberFormat" : {
+          "qType" : "U",
+          "qnDec" : 10,
+          "qUseThou" : 0
+        },
+        "qRangeInfo" : [ ],
+        "qContinuousRangeInfo" : [ ]
+      },
+      "qValues" : [ {
+        "qText" : "Dennis Fisher",
+        "qNumber" : "NaN"
+      }, {
+        "qText" : "Cart Lynch",
+        "qNumber" : "NaN"
+      }, {
+        "qText" : "Janice Scott",
+        "qNumber" : "NaN"
+      } ],
+      "qExcludedValues" : [ ]
+    }, {
+      "qDef" : {
+        "qName" : "Sales Rep Performance",
+        "qType" : "PRESENT"
+      },
+      "qSelectInfo" : {
+        "qRangeLo" : "NaN",
+        "qRangeHi" : "NaN",
+        "qNumberFormat" : {
+          "qType" : "U",
+          "qnDec" : 10,
+          "qUseThou" : 0
+        },
+        "qRangeInfo" : [ ],
+        "qContinuousRangeInfo" : [ ]
+      },
+      "qValues" : [ {
+        "qText" : "Low Performer",
+        "qNumber" : "NaN"
+      } ],
+      "qExcludedValues" : [ ]
+    } ]
+  }, {
+    "qStateName" : "Group1",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group2",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group3",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group4",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group 1",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group 2",
+    "qFieldItems" : [ ]
+  } ],
+  "qPatches" : [ ]
+}

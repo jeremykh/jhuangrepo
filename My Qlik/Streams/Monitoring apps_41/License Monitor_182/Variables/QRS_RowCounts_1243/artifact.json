@@ -1,0 +1,48 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qDefinition" : "QRS Row Counts:  monitor_apps_REST_license_user = 51 lines, monitor_apps_REST_license_login = 0 lines, monitor_apps_REST_user = 1510 lines, monitor_apps_REST_license_access = 6 lines, monitor_apps_REST_app = 88 lines, monitor_apps_REST_license = 1 lines,",
+      "qInfo" : {
+        "qId" : "e7a0d28b-ab10-4795-8e3b-a262d9dbdd95",
+        "qType" : "variable"
+      },
+      "qMetaDef" : { },
+      "qName" : "QRS_RowCounts",
+      "qNumberPresentation" : {
+        "qType" : "U",
+        "qUseThou" : 0,
+        "qnDec" : 10
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "e7a0d28b-ab10-4795-8e3b-a262d9dbdd95,Variable;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1243
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Variables/QRS_RowCounts",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikVariable/QlikVariable",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "QRS_RowCounts",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 268
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 268, 1243 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Variable",
+  "shouldVersion" : true,
+  "subtype" : "QlikVariable",
+  "type" : "QlikArtifact"
+}

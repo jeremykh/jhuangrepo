@@ -1,0 +1,122 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "e8c24c2c955e0e3a8de671f83359beb12fded9b9",
+      "contentName" : "content",
+      "contentOid" : 18984,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "col" : 0,
+          "colspan" : 3,
+          "name" : "MpYtF",
+          "row" : 0,
+          "rowspan" : 6,
+          "type" : "filterpane"
+        }, {
+          "col" : 0,
+          "colspan" : 3,
+          "name" : "fbkmX",
+          "row" : 6,
+          "rowspan" : 6,
+          "type" : "filterpane"
+        }, {
+          "col" : 3,
+          "colspan" : 12,
+          "name" : "kWwmk",
+          "row" : 0,
+          "rowspan" : 6,
+          "type" : "linechart"
+        }, {
+          "col" : 3,
+          "colspan" : 12,
+          "name" : "mUJbu",
+          "row" : 6,
+          "rowspan" : 6,
+          "type" : "table"
+        }, {
+          "col" : 15,
+          "colspan" : 9,
+          "name" : "JUHQJ",
+          "row" : 0,
+          "rowspan" : 6,
+          "type" : "table"
+        }, {
+          "col" : 15,
+          "colspan" : 9,
+          "name" : "dnVWkZ",
+          "row" : 6,
+          "rowspan" : 6,
+          "type" : "table"
+        } ],
+        "columns" : 24,
+        "labelExpression" : {
+          "qStringExpression" : {
+            "qExpr" : "='User Access History' & IF(license_type_enabled='User-based',': Not applicable')"
+          }
+        },
+        "qInfo" : {
+          "qId" : "WshBxg",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "",
+          "title" : "User Access History"
+        },
+        "rank" : 0,
+        "rows" : 12,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/4ba9b5c8-4a4e-4a86-a54d-049935fe11ab/Icon_People-Three_People_grey.png"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+        "name" : "sa_repository",
+        "userDirectory" : "INTERNAL",
+        "userId" : "sa_repository"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "WshBxg,Sheet;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1087
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Sheets/User Access History",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "User Access History",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 265
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 265, 1087 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

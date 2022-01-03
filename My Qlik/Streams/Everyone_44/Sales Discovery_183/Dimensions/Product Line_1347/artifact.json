@@ -1,0 +1,52 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "isEditMode" : true,
+      "qDim" : {
+        "qFieldDefs" : [ "Product Line Desc" ],
+        "qFieldLabels" : [ "Product Line" ],
+        "qGrouping" : "N",
+        "title" : "Product Line"
+      },
+      "qInfo" : {
+        "qId" : "BQnV",
+        "qType" : "dimension"
+      },
+      "qMetaDef" : {
+        "description" : "",
+        "tags" : [ ],
+        "title" : "Product Line"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "BQnV,Dimension;3a4cdc64-c7f3-4555-b4b1-10a41056730a,App;",
+  "key" : {
+    "id" : 1347
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Sales Discovery/Dimensions/Product Line",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikDimension/QlikDimension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Product Line",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 273
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 183, 273, 1347 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Dimension",
+  "shouldVersion" : true,
+  "subtype" : "QlikDimension",
+  "type" : "QlikArtifact"
+}

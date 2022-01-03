@@ -1,0 +1,51 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qDim" : {
+        "qFieldDefs" : [ "Termination" ],
+        "qFieldLabels" : [ "Termination (Y/N)" ],
+        "qGrouping" : "N",
+        "title" : "Termination (Y/N)"
+      },
+      "qInfo" : {
+        "qId" : "c545359f-d699-408d-89b0-89ac3195003e",
+        "qType" : "dimension"
+      },
+      "qMetaDef" : {
+        "description" : "",
+        "tags" : [ "Employee", "Termination" ],
+        "title" : "Termination (Y/N)"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "c545359f-d699-408d-89b0-89ac3195003e,Dimension;d5856b5e-46b8-4254-86dd-0e2e1ef086a8,App;",
+  "key" : {
+    "id" : 1493
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Human Capital Management(1)/Dimensions/Termination (Y\\/N)",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikDimension/QlikDimension",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Termination (Y/N)",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 330
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 198, 330, 1493 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Dimension",
+  "shouldVersion" : true,
+  "subtype" : "QlikDimension",
+  "type" : "QlikArtifact"
+}

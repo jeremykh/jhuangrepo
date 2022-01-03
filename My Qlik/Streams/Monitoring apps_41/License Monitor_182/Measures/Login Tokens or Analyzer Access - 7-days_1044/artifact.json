@@ -1,0 +1,59 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qInfo" : {
+        "qId" : "PBYupZ",
+        "qType" : "measure"
+      },
+      "qMeasure" : {
+        "coloring" : { },
+        "qActiveExpression" : 0,
+        "qDef" : "num(\r\n\tIF((license_type_enabled)='Token-based',\n\tceil(count({<[Access Type]={'Login Access','Analyzer Access'},LogTimeStamp= {\">=$(=DayStart(today()-6))\"}>} distinct UsageId)/10)\n    ,Count({<[Access Type]={'Analyzer Access'},LogTimeStamp= {\">=$(=DayStart(today()-6))\"},proxy_session_id_app_id={\"*\"}>} distinct UserId)\n    )\n,'#,##0')",
+        "qExpressions" : [ ],
+        "qGrouping" : "N",
+        "qLabel" : "Login Tokens or Analyzer Access - 7-days",
+        "qLabelExpression" : "IF((license_type_enabled)='Token-based','Login Access Tokens','Analyzer Access Users')",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qUseThou" : 0,
+          "qnDec" : 10
+        }
+      },
+      "qMetaDef" : {
+        "description" : "",
+        "tags" : [ "last 7 days" ],
+        "title" : "Login Tokens or Analyzer Access - 7-days"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "PBYupZ,Measure;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1044
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Measures/Login Tokens or Analyzer Access - 7-days",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikMeasure/QlikMeasure",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Login Tokens or Analyzer Access - 7-days",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 264
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 264, 1044 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Measure",
+  "shouldVersion" : true,
+  "subtype" : "QlikMeasure",
+  "type" : "QlikArtifact"
+}

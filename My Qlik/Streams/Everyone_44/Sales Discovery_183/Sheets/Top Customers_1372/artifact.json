@@ -1,0 +1,103 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "6b409566f8bd9e9bec00dd5c13f5b64648232f37",
+      "contentName" : "content",
+      "contentOid" : 19059,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "col" : 5,
+          "colspan" : 18,
+          "name" : "qgVhE",
+          "row" : 0,
+          "rowspan" : 7,
+          "type" : "barchart"
+        }, {
+          "col" : 5,
+          "colspan" : 5,
+          "name" : "fPzFZu",
+          "row" : 7,
+          "rowspan" : 4,
+          "type" : "barchart"
+        }, {
+          "col" : 10,
+          "colspan" : 13,
+          "name" : "umjpJqs",
+          "row" : 7,
+          "rowspan" : 4,
+          "type" : "linechart"
+        }, {
+          "col" : 1,
+          "colspan" : 3,
+          "name" : "Btbd",
+          "row" : 0,
+          "rowspan" : 11,
+          "type" : "filterpane"
+        } ],
+        "columns" : 24,
+        "qInfo" : {
+          "qId" : "JTxTF",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "Analyze the sales of our top customers over time.",
+          "title" : "Top Customers"
+        },
+        "rank" : 1,
+        "rows" : 12,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/3a4cdc64-c7f3-4555-b4b1-10a41056730a/Sales Discovery1 - Top Customers _ Sheets - Qlik Sense.png"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "JTxTF,Sheet;3a4cdc64-c7f3-4555-b4b1-10a41056730a,App;",
+  "key" : {
+    "id" : 1372
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Sales Discovery/Sheets/Top Customers",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Top Customers",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 275
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 183, 275, 1372 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

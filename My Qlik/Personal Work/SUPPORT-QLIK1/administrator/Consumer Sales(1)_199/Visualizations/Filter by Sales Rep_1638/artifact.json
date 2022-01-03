@@ -1,0 +1,101 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qChildren" : [ {
+        "qChildren" : [ ],
+        "qProperty" : {
+          "footnote" : "",
+          "qInfo" : {
+            "qId" : "63d0b247-c72b-4db4-ac49-e79d8d1bdf76",
+            "qType" : "listbox"
+          },
+          "qListObjectDef" : {
+            "qDef" : {
+              "autoSort" : false,
+              "cId" : "TQBKqcm",
+              "qActiveField" : 0,
+              "qFieldDefs" : [ ],
+              "qFieldLabels" : [ ],
+              "qGrouping" : "N",
+              "qNumberPresentations" : [ ],
+              "qSortCriterias" : [ {
+                "qExpression" : {
+                  "qv" : "=sum([Sales Amount])"
+                },
+                "qSortByAscii" : 1,
+                "qSortByExpression" : 1,
+                "qSortByLoadOrder" : 1,
+                "qSortByNumeric" : 1,
+                "qSortByState" : 1
+              } ],
+              "title" : "Sales Rep"
+            },
+            "qExpressions" : [ ],
+            "qFrequencyMode" : "N",
+            "qInitialDataFetch" : [ ],
+            "qLibraryId" : "UukqE",
+            "qOtherTotalSpec" : { },
+            "qShowAlternatives" : true
+          },
+          "qMetaDef" : { },
+          "showTitles" : true,
+          "subtitle" : "",
+          "title" : "Sales Rep",
+          "visualization" : "listbox"
+        }
+      } ],
+      "qProperty" : {
+        "footnote" : "",
+        "masterVersion" : 0.96,
+        "metadata" : { },
+        "qChildListDef" : {
+          "qData" : {
+            "info" : "/qInfo"
+          }
+        },
+        "qInfo" : {
+          "qId" : "pWVxu",
+          "qType" : "masterobject"
+        },
+        "qMetaDef" : {
+          "tags" : [ ],
+          "title" : "Filter by Sales Rep"
+        },
+        "showTitles" : false,
+        "subtitle" : "",
+        "title" : "",
+        "visualization" : "filterpane"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "pWVxu,Visualization;baf3d4d4-e230-4461-819d-9f1e3f4985e0,App;",
+  "key" : {
+    "id" : 1638
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Consumer Sales(1)/Visualizations/Filter by Sales Rep",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikVisualization/QlikVisualization",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Filter by Sales Rep",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 346
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 199, 346, 1638 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Visualization",
+  "shouldVersion" : true,
+  "subtype" : "QlikVisualization",
+  "type" : "QlikArtifact"
+}

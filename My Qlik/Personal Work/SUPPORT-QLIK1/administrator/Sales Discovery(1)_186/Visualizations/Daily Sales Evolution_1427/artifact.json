@@ -1,0 +1,244 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qChildren" : [ ],
+      "qProperty" : {
+        "color" : {
+          "auto" : true,
+          "autoMinMax" : true,
+          "dimensionScheme" : "12",
+          "expressionIsColor" : true,
+          "expressionLabel" : "",
+          "measureMax" : 10,
+          "measureMin" : 0,
+          "measureScheme" : "sg",
+          "mode" : "primary",
+          "persistent" : false,
+          "reverseScheme" : false,
+          "singleColor" : 3
+        },
+        "dataPoint" : {
+          "show" : false,
+          "showLabels" : false
+        },
+        "dimensionAxis" : {
+          "dock" : "near",
+          "label" : "auto",
+          "show" : "all"
+        },
+        "footnote" : "",
+        "gridLine" : {
+          "auto" : true,
+          "spacing" : 2
+        },
+        "legend" : {
+          "dock" : "auto",
+          "show" : true,
+          "showTitle" : true
+        },
+        "lineType" : "area",
+        "masterVersion" : 0.96,
+        "measureAxis" : {
+          "autoMinMax" : true,
+          "dock" : "near",
+          "logarithmic" : false,
+          "max" : 10,
+          "min" : 0,
+          "minMax" : "min",
+          "show" : "all",
+          "spacing" : 1
+        },
+        "metadata" : { },
+        "nullMode" : "gap",
+        "preferContinuousAxis" : true,
+        "qHyperCubeDef" : {
+          "customErrorMessage" : {
+            "calcCond" : ""
+          },
+          "qAlwaysFullyExpanded" : true,
+          "qCalcCond" : { },
+          "qCalcCondition" : {
+            "qCond" : { },
+            "qMsg" : { }
+          },
+          "qColumnOrder" : [ ],
+          "qDimensions" : [ {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "DeBqLs",
+              "othersLabel" : "Others",
+              "qActiveField" : 0,
+              "qFieldDefs" : [ "Date" ],
+              "qFieldLabels" : [ "" ],
+              "qGrouping" : "N",
+              "qNumberPresentations" : [ ],
+              "qSortCriterias" : [ {
+                "qExpression" : { },
+                "qSortByLoadOrder" : 1,
+                "qSortByNumeric" : 1
+              } ]
+            },
+            "qOtherLabel" : {
+              "qv" : "Others"
+            },
+            "qOtherTotalSpec" : {
+              "qApplyEvenWhenPossiblyWrongResult" : true,
+              "qForceBadValueKeeping" : true,
+              "qOtherCounted" : {
+                "qv" : "10"
+              },
+              "qOtherLimit" : {
+                "qv" : "0"
+              },
+              "qOtherLimitMode" : "OTHER_GE_LIMIT",
+              "qOtherMode" : "OTHER_OFF",
+              "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+              "qReferencedExpression" : { },
+              "qTotalMode" : "TOTAL_OFF"
+            },
+            "qTotalLabel" : { }
+          } ],
+          "qExpansionState" : [ ],
+          "qInitialDataFetch" : [ {
+            "qHeight" : 500,
+            "qLeft" : 0,
+            "qTop" : 0,
+            "qWidth" : 17
+          } ],
+          "qInterColumnSortOrder" : [ 0, 1 ],
+          "qLayoutExclude" : {
+            "qHyperCubeDef" : {
+              "qCalcCond" : { },
+              "qCalcCondition" : {
+                "qCond" : { },
+                "qMsg" : { }
+              },
+              "qColumnOrder" : [ ],
+              "qDimensions" : [ ],
+              "qExpansionState" : [ ],
+              "qInitialDataFetch" : [ ],
+              "qInterColumnSortOrder" : [ ],
+              "qMaxStackedCells" : 5000,
+              "qMeasures" : [ ],
+              "qMode" : "S",
+              "qNoOfLeftDims" : -1,
+              "qPseudoDimPos" : -1,
+              "qReductionMode" : "N",
+              "qTitle" : { }
+            }
+          },
+          "qMaxStackedCells" : 5000,
+          "qMeasures" : [ {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "ZJFam",
+              "numFormatFromTemplate" : true,
+              "qAccumulate" : 0,
+              "qActiveExpression" : 0,
+              "qExpressions" : [ ],
+              "qGrouping" : "N",
+              "qNumFormat" : {
+                "qType" : "U",
+                "qUseThou" : 0,
+                "qnDec" : 10
+              },
+              "qTags" : [ ]
+            },
+            "qLibraryId" : "swHWw",
+            "qMiniChartDef" : {
+              "qAttributeExpressions" : [ ],
+              "qMaxNumberPoints" : -1,
+              "qOtherTotalSpec" : {
+                "qApplyEvenWhenPossiblyWrongResult" : true,
+                "qForceBadValueKeeping" : true,
+                "qOtherCounted" : { },
+                "qOtherLimit" : { },
+                "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                "qOtherMode" : "OTHER_OFF",
+                "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                "qReferencedExpression" : { },
+                "qTotalMode" : "TOTAL_OFF"
+              },
+              "qSortBy" : {
+                "qExpression" : { }
+              }
+            },
+            "qSortBy" : {
+              "qExpression" : { },
+              "qSortByLoadOrder" : 1,
+              "qSortByNumeric" : -1
+            },
+            "qTrendLines" : [ ]
+          } ],
+          "qMode" : "S",
+          "qNoOfLeftDims" : -1,
+          "qPseudoDimPos" : -1,
+          "qReductionMode" : "N",
+          "qSuppressMissing" : true,
+          "qTitle" : { }
+        },
+        "qInfo" : {
+          "qId" : "qtpJwA",
+          "qType" : "masterobject"
+        },
+        "qMetaDef" : {
+          "tags" : [ ],
+          "title" : "Daily Sales Evolution"
+        },
+        "refLine" : {
+          "refLines" : [ ]
+        },
+        "separateStacking" : true,
+        "showTitles" : true,
+        "stackedArea" : false,
+        "subtitle" : "",
+        "title" : "Daily Sales",
+        "visualization" : "linechart"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "qtpJwA,Visualization;f84cf3b8-f44c-4e73-99aa-37fb20121969,App;",
+  "key" : {
+    "id" : 1427
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Sales Discovery(1)/Visualizations/Daily Sales Evolution",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikVisualization/QlikVisualization",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Daily Sales Evolution",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 310
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 186, 310, 1427 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Visualization",
+  "shouldVersion" : true,
+  "subtype" : "QlikVisualization",
+  "type" : "QlikArtifact"
+}

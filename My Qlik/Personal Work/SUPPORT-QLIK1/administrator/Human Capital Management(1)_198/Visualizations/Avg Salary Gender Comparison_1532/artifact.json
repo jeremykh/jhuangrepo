@@ -1,0 +1,223 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qChildren" : [ ],
+      "qProperty" : {
+        "barGrouping" : {
+          "grouping" : "grouped"
+        },
+        "color" : {
+          "auto" : false,
+          "autoMinMax" : true,
+          "dimensionId" : "",
+          "dimensionScheme" : "12",
+          "expressionIsColor" : true,
+          "expressionLabel" : "",
+          "measureMax" : 10,
+          "measureMin" : 0,
+          "measureScheme" : "sg",
+          "mode" : "byDimension",
+          "persistent" : true,
+          "reverseScheme" : false,
+          "singleColor" : 3
+        },
+        "dataPoint" : {
+          "showLabels" : true
+        },
+        "dimensionAxis" : {
+          "dock" : "near",
+          "label" : "auto",
+          "show" : "all"
+        },
+        "footnote" : "",
+        "gridLine" : {
+          "auto" : true,
+          "spacing" : 2
+        },
+        "legend" : {
+          "dock" : "auto",
+          "show" : false,
+          "showTitle" : true
+        },
+        "masterVersion" : 0.96,
+        "measureAxis" : {
+          "autoMinMax" : true,
+          "dock" : "near",
+          "max" : 10,
+          "min" : 0,
+          "minMax" : "min",
+          "show" : "all",
+          "spacing" : 1
+        },
+        "metadata" : { },
+        "orientation" : "horizontal",
+        "qHyperCubeDef" : {
+          "qAlwaysFullyExpanded" : true,
+          "qCalcCond" : { },
+          "qCalcCondition" : {
+            "qCond" : { },
+            "qMsg" : { }
+          },
+          "qColumnOrder" : [ ],
+          "qDimensions" : [ {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : false,
+              "cId" : "GuEaAs",
+              "othersLabel" : "Others",
+              "qActiveField" : 0,
+              "qFieldDefs" : [ ],
+              "qFieldLabels" : [ ],
+              "qGrouping" : "N",
+              "qNumberPresentations" : [ ],
+              "qSortCriterias" : [ {
+                "qExpression" : { },
+                "qSortByAscii" : -1,
+                "qSortByLoadOrder" : 1
+              } ],
+              "title" : "Gender"
+            },
+            "qLibraryId" : "c4eac37b-3c3c-47f8-a07d-3cb3b4d4fa46",
+            "qNullSuppression" : true,
+            "qOtherLabel" : { },
+            "qOtherTotalSpec" : {
+              "qApplyEvenWhenPossiblyWrongResult" : true,
+              "qForceBadValueKeeping" : true,
+              "qOtherCounted" : {
+                "qv" : "10"
+              },
+              "qOtherLimit" : {
+                "qv" : "0"
+              },
+              "qOtherLimitMode" : "OTHER_GE_LIMIT",
+              "qOtherMode" : "OTHER_OFF",
+              "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+              "qReferencedExpression" : { },
+              "qTotalMode" : "TOTAL_OFF"
+            },
+            "qTotalLabel" : { }
+          } ],
+          "qExpansionState" : [ ],
+          "qInitialDataFetch" : [ {
+            "qHeight" : 500,
+            "qLeft" : 0,
+            "qTop" : 0,
+            "qWidth" : 17
+          } ],
+          "qInterColumnSortOrder" : [ 0, 1 ],
+          "qLayoutExclude" : { },
+          "qMaxStackedCells" : 5000,
+          "qMeasures" : [ {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "JLrVEWu",
+              "numFormatFromTemplate" : true,
+              "qAccumulate" : 0,
+              "qActiveExpression" : 0,
+              "qExpressions" : [ ],
+              "qGrouping" : "N",
+              "qNumFormat" : {
+                "qDec" : ".",
+                "qFmt" : "$#,##0.00;($#,##0.00)",
+                "qThou" : ",",
+                "qType" : "M",
+                "qUseThou" : 0,
+                "qnDec" : 2
+              },
+              "qTags" : [ ]
+            },
+            "qLibraryId" : "mXUyq",
+            "qMiniChartDef" : {
+              "qAttributeExpressions" : [ ],
+              "qMaxNumberPoints" : -1,
+              "qOtherTotalSpec" : {
+                "qApplyEvenWhenPossiblyWrongResult" : true,
+                "qForceBadValueKeeping" : true,
+                "qOtherCounted" : { },
+                "qOtherLimit" : { },
+                "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                "qOtherMode" : "OTHER_OFF",
+                "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                "qReferencedExpression" : { },
+                "qTotalMode" : "TOTAL_OFF"
+              },
+              "qSortBy" : {
+                "qExpression" : { }
+              }
+            },
+            "qSortBy" : {
+              "qExpression" : { },
+              "qSortByLoadOrder" : 1,
+              "qSortByNumeric" : -1
+            },
+            "qTrendLines" : [ ]
+          } ],
+          "qMode" : "S",
+          "qNoOfLeftDims" : -1,
+          "qPseudoDimPos" : 10000,
+          "qReductionMode" : "N",
+          "qSuppressMissing" : true,
+          "qTitle" : { }
+        },
+        "qInfo" : {
+          "qId" : "pkQpR",
+          "qType" : "masterobject"
+        },
+        "qMetaDef" : {
+          "tags" : [ "Compensation", "diversity", "female", "Gender", "male", "men", "Salary", "women" ],
+          "title" : "Avg Salary Gender Comparison"
+        },
+        "refLine" : {
+          "refLines" : [ ]
+        },
+        "showTitles" : true,
+        "subtitle" : "",
+        "title" : "Avg Salary Gender Comparison",
+        "visualization" : "barchart"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "pkQpR,Visualization;d5856b5e-46b8-4254-86dd-0e2e1ef086a8,App;",
+  "key" : {
+    "id" : 1532
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Human Capital Management(1)/Visualizations/Avg Salary Gender Comparison",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikVisualization/QlikVisualization",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Avg Salary Gender Comparison",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 336
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 198, 336, 1532 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Visualization",
+  "shouldVersion" : true,
+  "subtype" : "QlikVisualization",
+  "type" : "QlikArtifact"
+}

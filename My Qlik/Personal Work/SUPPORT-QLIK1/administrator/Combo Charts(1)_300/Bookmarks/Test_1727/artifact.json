@@ -1,0 +1,60 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "e48032fe6855c3b91358f539a837e9dbb2d552aa",
+      "contentName" : "content",
+      "contentOid" : 19083,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "creationDate" : "2021-10-06T12:49:13.343Z",
+    "qMetaDef" : {
+      "description" : "",
+      "title" : "Test"
+    },
+    "qrsProp" : {
+      "approved" : false,
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "published" : false
+    },
+    "selectionFields" : "",
+    "sheetId" : "TyUFz"
+  },
+  "hidden" : false,
+  "identity" : "633c5518-f3df-4957-86ea-9b779e9f66fc,Bookmark;083c61a6-d8ba-41a9-b953-1d53a19f313b,App;",
+  "key" : {
+    "id" : 1727
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Combo Charts(1)/Bookmarks/Test",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikBookmark/QlikBookmark",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Test",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 415
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 300, 415, 1727 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Bookmark",
+  "shouldVersion" : true,
+  "subtype" : "QlikBookmark",
+  "type" : "QlikArtifact"
+}

@@ -1,0 +1,51 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qDim" : {
+        "qFieldDefs" : [ "Band" ],
+        "qFieldLabels" : [ "Employee Rate Categorization" ],
+        "qGrouping" : "N",
+        "title" : "Employee Rate Categorization"
+      },
+      "qInfo" : {
+        "qId" : "jnJRp",
+        "qType" : "dimension"
+      },
+      "qMetaDef" : {
+        "description" : "Employees ABCD classification",
+        "tags" : [ "Employee", "Employees" ],
+        "title" : "Employee Rate Categorization"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "jnJRp,Dimension;d5856b5e-46b8-4254-86dd-0e2e1ef086a8,App;",
+  "key" : {
+    "id" : 1518
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Human Capital Management(1)/Dimensions/Employee Rate Categorization",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikDimension/QlikDimension",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Employee Rate Categorization",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 330
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 198, 330, 1518 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Dimension",
+  "shouldVersion" : true,
+  "subtype" : "QlikDimension",
+  "type" : "QlikArtifact"
+}

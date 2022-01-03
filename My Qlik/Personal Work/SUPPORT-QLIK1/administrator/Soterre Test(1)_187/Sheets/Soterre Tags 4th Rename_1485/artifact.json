@@ -1,0 +1,92 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "3e536633d1f702a12e9370610d66c88328388cb9",
+      "contentName" : "content",
+      "contentOid" : 18536,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "bounds" : {
+            "height" : 50,
+            "width" : 100,
+            "x" : 0,
+            "y" : 0
+          },
+          "col" : 0,
+          "colspan" : 24,
+          "name" : "JDJvddG",
+          "row" : 0,
+          "rowspan" : 6,
+          "type" : "auto-chart"
+        } ],
+        "columns" : 24,
+        "gridResolution" : "small",
+        "qChildListDef" : {
+          "qData" : {
+            "title" : "/title"
+          }
+        },
+        "qInfo" : {
+          "qId" : "58a0b6d4-4f5c-44e1-a5eb-01db69c380d6",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "",
+          "title" : "Soterre Tags 4th Rename"
+        },
+        "rank" : -1,
+        "rows" : 12,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : { }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : false,
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "published" : false,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "58a0b6d4-4f5c-44e1-a5eb-01db69c380d6,Sheet;ec293693-6e00-47c8-9568-782a2ec872e9,App;",
+  "key" : {
+    "id" : 1485
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Soterre Test(1)/Sheets/Soterre Tags 4th Rename",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Soterre Tags 4th Rename",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 316
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 187, 316, 1485 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

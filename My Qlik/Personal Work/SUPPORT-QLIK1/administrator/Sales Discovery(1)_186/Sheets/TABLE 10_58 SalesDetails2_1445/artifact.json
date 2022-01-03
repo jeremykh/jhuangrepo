@@ -1,0 +1,76 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "95862dff6a3bf3d9b7cac2802660bb199dbb3a3c",
+      "contentName" : "content",
+      "contentOid" : 18516,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "col" : 0,
+          "colspan" : 24,
+          "name" : "abc0",
+          "row" : 0,
+          "rowspan" : 12,
+          "type" : "table"
+        } ],
+        "columns" : 24,
+        "qInfo" : {
+          "qId" : "testSheet10",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "This is a sheet for use in extracting data.",
+          "title" : "TABLE 10: SalesDetails2"
+        },
+        "rows" : 12
+      }
+    },
+    "qrsProp" : {
+      "approved" : false,
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "published" : false,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "testSheet10,Sheet;f84cf3b8-f44c-4e73-99aa-37fb20121969,App;",
+  "key" : {
+    "id" : 1445
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Sales Discovery(1)/Sheets/TABLE 10: SalesDetails2",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "TABLE 10: SalesDetails2",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 306
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 186, 306, 1445 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

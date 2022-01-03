@@ -1,0 +1,124 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "80634436b6461507122786a42231feb433e15108",
+      "contentName" : "content",
+      "contentOid" : 18623,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "col" : 1,
+          "colspan" : 9,
+          "name" : "rnuzC",
+          "row" : 2,
+          "rowspan" : 5,
+          "type" : "barchart"
+        }, {
+          "col" : 11,
+          "colspan" : 12,
+          "name" : "MGpYNk",
+          "row" : 2,
+          "rowspan" : 5,
+          "type" : "barchart"
+        }, {
+          "col" : 1,
+          "colspan" : 9,
+          "name" : "XpzsPvq",
+          "row" : 7,
+          "rowspan" : 4,
+          "type" : "barchart"
+        }, {
+          "col" : 11,
+          "colspan" : 12,
+          "name" : "yjAVPjR",
+          "row" : 7,
+          "rowspan" : 4,
+          "type" : "table"
+        }, {
+          "col" : 0,
+          "colspan" : 8,
+          "name" : "pKutVgd",
+          "row" : 0,
+          "rowspan" : 2,
+          "type" : "text-image"
+        }, {
+          "col" : 8,
+          "colspan" : 8,
+          "name" : "jftDVLU",
+          "row" : 0,
+          "rowspan" : 2,
+          "type" : "text-image"
+        }, {
+          "col" : 16,
+          "colspan" : 8,
+          "name" : "skYSu",
+          "row" : 0,
+          "rowspan" : 2,
+          "type" : "text-image"
+        } ],
+        "columns" : 24,
+        "qInfo" : {
+          "qId" : "HuuZW",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "See how the designed training program has been executed",
+          "title" : "Employee Development"
+        },
+        "rank" : 0.5,
+        "rows" : 12,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/d5856b5e-46b8-4254-86dd-0e2e1ef086a8/HumanCap-Employee.png"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : false,
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "published" : false,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "HuuZW,Sheet;d5856b5e-46b8-4254-86dd-0e2e1ef086a8,App;",
+  "key" : {
+    "id" : 1514
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Human Capital Management(1)/Sheets/Employee Development",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Employee Development",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 332
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 198, 332, 1514 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

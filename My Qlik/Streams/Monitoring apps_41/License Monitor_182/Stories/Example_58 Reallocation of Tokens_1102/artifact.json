@@ -1,0 +1,76 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "e570b115166bee663703a39065a92806a999a167",
+      "contentName" : "content",
+      "contentOid" : 18956,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "qChildListDef" : {
+          "qData" : {
+            "rank" : "/rank",
+            "title" : "/title"
+          }
+        },
+        "qInfo" : {
+          "qId" : "d246789e-14c3-4f8f-90a0-87ca3c1e6158",
+          "qType" : "story"
+        },
+        "qMetaDef" : {
+          "description" : "",
+          "title" : "Example: Reallocation of Tokens"
+        },
+        "rank" : 2,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : { }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+        "name" : "sa_repository",
+        "userDirectory" : "INTERNAL",
+        "userId" : "sa_repository"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "d246789e-14c3-4f8f-90a0-87ca3c1e6158,Story;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1102
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Stories/Example: Reallocation of Tokens",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikStory/QlikStory",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Example: Reallocation of Tokens",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 267
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 267, 1102 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Story",
+  "shouldVersion" : true,
+  "subtype" : "QlikStory",
+  "type" : "QlikArtifact"
+}

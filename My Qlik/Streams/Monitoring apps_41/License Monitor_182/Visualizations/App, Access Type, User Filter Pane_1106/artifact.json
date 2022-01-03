@@ -1,0 +1,255 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qChildren" : [ {
+        "qChildren" : [ ],
+        "qProperty" : {
+          "footnote" : "",
+          "qInfo" : {
+            "qId" : "7d1eef47-9f85-4d01-9c27-abb8e5fea20e",
+            "qType" : "listbox"
+          },
+          "qListObjectDef" : {
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "BPdUP",
+              "qActiveField" : 0,
+              "qFieldDefs" : [ ],
+              "qFieldLabels" : [ ],
+              "qGrouping" : "N",
+              "qNumberPresentations" : [ ],
+              "qSortCriterias" : [ {
+                "qExpression" : { },
+                "qSortByAscii" : 1,
+                "qSortByLoadOrder" : 1,
+                "qSortByNumeric" : 1,
+                "qSortByState" : 1
+              } ]
+            },
+            "qExpressions" : [ ],
+            "qFrequencyMode" : "N",
+            "qInitialDataFetch" : [ ],
+            "qLibraryId" : "vkPFJT",
+            "qOtherTotalSpec" : { },
+            "qShowAlternatives" : true
+          },
+          "qMetaDef" : { },
+          "showDetails" : false,
+          "showTitles" : true,
+          "subtitle" : "",
+          "title" : "Access Type",
+          "visualization" : "listbox"
+        }
+      }, {
+        "qChildren" : [ ],
+        "qProperty" : {
+          "footnote" : "",
+          "qInfo" : {
+            "qId" : "6b1c3b1d-e196-4d10-b23e-ddfeb8d1669b",
+            "qType" : "listbox"
+          },
+          "qListObjectDef" : {
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "ceXZk",
+              "qActiveField" : 0,
+              "qFieldDefs" : [ ],
+              "qFieldLabels" : [ ],
+              "qGrouping" : "N",
+              "qNumberPresentations" : [ ],
+              "qSortCriterias" : [ {
+                "qExpression" : { },
+                "qSortByAscii" : 1,
+                "qSortByLoadOrder" : 1,
+                "qSortByNumeric" : 1,
+                "qSortByState" : 1
+              } ]
+            },
+            "qExpressions" : [ ],
+            "qFrequencyMode" : "N",
+            "qInitialDataFetch" : [ ],
+            "qLibraryId" : "pymuPhV",
+            "qOtherTotalSpec" : { },
+            "qShowAlternatives" : true
+          },
+          "qMetaDef" : { },
+          "showDetails" : false,
+          "showTitles" : true,
+          "subtitle" : "",
+          "title" : "App Stream",
+          "visualization" : "listbox"
+        }
+      }, {
+        "qChildren" : [ ],
+        "qProperty" : {
+          "footnote" : "",
+          "qInfo" : {
+            "qId" : "51a4838a-7f37-4b97-99ec-ba428c46e651",
+            "qType" : "listbox"
+          },
+          "qListObjectDef" : {
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "KJfuwL",
+              "qActiveField" : 0,
+              "qFieldDefs" : [ ],
+              "qFieldLabels" : [ ],
+              "qGrouping" : "N",
+              "qNumberPresentations" : [ ],
+              "qSortCriterias" : [ {
+                "qExpression" : { },
+                "qSortByAscii" : 1,
+                "qSortByLoadOrder" : 1,
+                "qSortByNumeric" : 1,
+                "qSortByState" : 1
+              } ]
+            },
+            "qExpressions" : [ ],
+            "qFrequencyMode" : "N",
+            "qInitialDataFetch" : [ ],
+            "qLibraryId" : "VJdrF",
+            "qOtherTotalSpec" : { },
+            "qShowAlternatives" : true
+          },
+          "qMetaDef" : { },
+          "showDetails" : false,
+          "showTitles" : true,
+          "subtitle" : "",
+          "title" : "App",
+          "visualization" : "listbox"
+        }
+      }, {
+        "qChildren" : [ ],
+        "qProperty" : {
+          "footnote" : "",
+          "qInfo" : {
+            "qId" : "7af37465-441b-4688-96c1-1372d45fd5a6",
+            "qType" : "listbox"
+          },
+          "qListObjectDef" : {
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "FpteB",
+              "qActiveField" : 0,
+              "qFieldDefs" : [ ],
+              "qFieldLabels" : [ ],
+              "qGrouping" : "N",
+              "qNumberPresentations" : [ ],
+              "qSortCriterias" : [ {
+                "qExpression" : { },
+                "qSortByAscii" : 1,
+                "qSortByLoadOrder" : 1,
+                "qSortByNumeric" : 1,
+                "qSortByState" : 1
+              } ]
+            },
+            "qExpressions" : [ ],
+            "qFrequencyMode" : "N",
+            "qInitialDataFetch" : [ ],
+            "qLibraryId" : "JJCm",
+            "qOtherTotalSpec" : { },
+            "qShowAlternatives" : true
+          },
+          "qMetaDef" : { },
+          "showDetails" : false,
+          "showTitles" : true,
+          "subtitle" : "",
+          "title" : "User Id",
+          "visualization" : "listbox"
+        }
+      }, {
+        "qChildren" : [ ],
+        "qProperty" : {
+          "footnote" : "",
+          "qInfo" : {
+            "qId" : "faa93ce9-5b44-4bec-9f2c-1494d391a031",
+            "qType" : "listbox"
+          },
+          "qListObjectDef" : {
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "bqZNVS",
+              "qActiveField" : 0,
+              "qFieldDefs" : [ ],
+              "qFieldLabels" : [ ],
+              "qGrouping" : "N",
+              "qNumberPresentations" : [ ],
+              "qSortCriterias" : [ {
+                "qExpression" : { },
+                "qSortByAscii" : 1,
+                "qSortByLoadOrder" : 1,
+                "qSortByNumeric" : 1,
+                "qSortByState" : 1
+              } ]
+            },
+            "qExpressions" : [ ],
+            "qFrequencyMode" : "N",
+            "qInitialDataFetch" : [ ],
+            "qLibraryId" : "HpmKrA",
+            "qOtherTotalSpec" : { },
+            "qShowAlternatives" : true
+          },
+          "qMetaDef" : { },
+          "showDetails" : false,
+          "showTitles" : true,
+          "subtitle" : "",
+          "title" : "User Name",
+          "visualization" : "listbox"
+        }
+      } ],
+      "qProperty" : {
+        "footnote" : "",
+        "masterVersion" : 0.96,
+        "metadata" : { },
+        "qChildListDef" : {
+          "qData" : {
+            "info" : "/qInfo"
+          }
+        },
+        "qInfo" : {
+          "qId" : "560be7bc-0bf5-44f2-abd6-ccedafd51305",
+          "qType" : "masterobject"
+        },
+        "qMetaDef" : {
+          "tags" : [ ],
+          "title" : "App, Access Type, User Filter Pane"
+        },
+        "showDetails" : false,
+        "showTitles" : false,
+        "subtitle" : "",
+        "title" : "",
+        "visualization" : "filterpane"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "560be7bc-0bf5-44f2-abd6-ccedafd51305,Visualization;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1106
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Visualizations/App, Access Type, User Filter Pane",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikVisualization/QlikVisualization",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "App, Access Type, User Filter Pane",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 269
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 269, 1106 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Visualization",
+  "shouldVersion" : true,
+  "subtype" : "QlikVisualization",
+  "type" : "QlikArtifact"
+}

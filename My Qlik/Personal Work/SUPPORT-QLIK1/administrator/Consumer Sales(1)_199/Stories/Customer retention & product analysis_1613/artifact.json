@@ -1,0 +1,76 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "5300164db174612537927c28f7573479106891db",
+      "contentName" : "content",
+      "contentOid" : 18665,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "qChildListDef" : {
+          "qData" : {
+            "rank" : "/rank",
+            "title" : "/title"
+          }
+        },
+        "qInfo" : {
+          "qId" : "MjDNw",
+          "qType" : "story"
+        },
+        "qMetaDef" : {
+          "description" : "",
+          "title" : "Customer retention & product analysis"
+        },
+        "rank" : 0,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : { }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : false,
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "published" : false,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "MjDNw,Story;baf3d4d4-e230-4461-819d-9f1e3f4985e0,App;",
+  "key" : {
+    "id" : 1613
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Consumer Sales(1)/Stories/Customer retention & product analysis",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikStory/QlikStory",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Customer retention & product analysis",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 344
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 199, 344, 1613 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Story",
+  "shouldVersion" : true,
+  "subtype" : "QlikStory",
+  "type" : "QlikArtifact"
+}

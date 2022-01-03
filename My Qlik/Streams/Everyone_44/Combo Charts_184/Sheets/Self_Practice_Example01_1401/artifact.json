@@ -1,0 +1,99 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "66caed7521f53c56a9e0430a2ec9244868ea8b07",
+      "contentName" : "content",
+      "contentOid" : 19072,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "bounds" : {
+            "height" : 50,
+            "width" : 58.333333333333336,
+            "x" : 0,
+            "y" : 0
+          },
+          "col" : 0,
+          "colspan" : 14,
+          "name" : "ShEgkk",
+          "row" : 0,
+          "rowspan" : 6,
+          "type" : "combochart"
+        }, {
+          "bounds" : {
+            "height" : 50,
+            "width" : 41.66666666666667,
+            "x" : 58.333333333333336,
+            "y" : 0
+          },
+          "col" : 14,
+          "colspan" : 10,
+          "name" : "vjEnNj",
+          "row" : 0,
+          "rowspan" : 6,
+          "type" : "combochart"
+        } ],
+        "columns" : 24,
+        "qInfo" : {
+          "qId" : "TyUFz",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "",
+          "title" : "Self_Practice_Example01"
+        },
+        "rank" : 0,
+        "rows" : 12,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : { }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "TyUFz,Sheet;1bcebd6c-fef3-43bc-8a2c-a96073c1d4f3,App;",
+  "key" : {
+    "id" : 1401
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Combo Charts/Sheets/Self_Practice_Example01",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Self_Practice_Example01",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 285
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 184, 285, 1401 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

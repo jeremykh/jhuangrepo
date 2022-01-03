@@ -1,0 +1,393 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qChildren" : [ ],
+      "qProperty" : {
+        "color" : {
+          "auto" : false,
+          "autoMinMax" : false,
+          "colorExpression" : "num(sum([Login Passes Remaining])/sum([Login Passes Assigned])*100,'0%')",
+          "dimensionScheme" : "12",
+          "expressionIsColor" : false,
+          "expressionLabel" : "% Remaining",
+          "measureMax" : 100,
+          "measureMin" : 0,
+          "measureScheme" : "dg",
+          "mode" : "byExpression",
+          "persistent" : false,
+          "reverseScheme" : true,
+          "singleColor" : 3
+        },
+        "compressionResolution" : 5,
+        "dataPoint" : {
+          "bubbleSizes" : 5,
+          "rangeBubbleSizes" : [ 4, 15 ],
+          "show" : false
+        },
+        "footnote" : "",
+        "gridLine" : {
+          "auto" : true,
+          "spacing" : 2
+        },
+        "labels" : {
+          "mode" : 2
+        },
+        "legend" : {
+          "dock" : "auto",
+          "show" : false,
+          "showTitle" : true
+        },
+        "masterVersion" : 0.96,
+        "metadata" : { },
+        "navigation" : false,
+        "qHyperCubeDef" : {
+          "customErrorMessage" : {
+            "calcCond" : "Information not available because no REST connector found during reload."
+          },
+          "qCalcCond" : {
+            "qv" : "Sum([Login Passes Used])>=0"
+          },
+          "qCalcCondition" : {
+            "qCond" : { },
+            "qMsg" : { }
+          },
+          "qColumnOrder" : [ ],
+          "qDimensions" : [ {
+            "othersLabel" : "Others",
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : false,
+              "cId" : "jpxbD",
+              "othersLabel" : "Others",
+              "qActiveField" : 0,
+              "qFieldDefs" : [ ],
+              "qFieldLabels" : [ ],
+              "qGrouping" : "N",
+              "qNumberPresentations" : [ ],
+              "qSortCriterias" : [ {
+                "qExpression" : {
+                  "qv" : "sum({1} [Login Passes Assigned])"
+                },
+                "qSortByExpression" : -1,
+                "qSortByLoadOrder" : 1
+              } ]
+            },
+            "qLibraryId" : "zjJSYF",
+            "qNullSuppression" : true,
+            "qOtherLabel" : {
+              "qv" : "Others"
+            },
+            "qOtherTotalSpec" : {
+              "qApplyEvenWhenPossiblyWrongResult" : true,
+              "qForceBadValueKeeping" : true,
+              "qOtherCounted" : {
+                "qv" : "10"
+              },
+              "qOtherLimit" : {
+                "qv" : "0"
+              },
+              "qOtherLimitMode" : "OTHER_GE_LIMIT",
+              "qOtherMode" : "OTHER_ABS_LIMITED",
+              "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+              "qReferencedExpression" : { },
+              "qSuppressOther" : true,
+              "qTotalMode" : "TOTAL_OFF"
+            },
+            "qTotalLabel" : { },
+            "title" : "Login Access Rule"
+          } ],
+          "qExpansionState" : [ ],
+          "qInitialDataFetch" : [ {
+            "qHeight" : 0,
+            "qLeft" : 0,
+            "qTop" : 0,
+            "qWidth" : 0
+          } ],
+          "qInterColumnSortOrder" : [ 0, 1, 2, 3 ],
+          "qLayoutExclude" : {
+            "qHyperCubeDef" : {
+              "qCalcCond" : { },
+              "qCalcCondition" : {
+                "qCond" : { },
+                "qMsg" : { }
+              },
+              "qColumnOrder" : [ ],
+              "qDimensions" : [ ],
+              "qExpansionState" : [ ],
+              "qInitialDataFetch" : [ ],
+              "qInterColumnSortOrder" : [ ],
+              "qMaxStackedCells" : 5000,
+              "qMeasures" : [ ],
+              "qMode" : "S",
+              "qNoOfLeftDims" : -1,
+              "qPseudoDimPos" : -1,
+              "qReductionMode" : "N",
+              "qTitle" : { }
+            }
+          },
+          "qMaxStackedCells" : 5000,
+          "qMeasures" : [ {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ {
+              "id" : "colorByExpression",
+              "label" : "% Remaining",
+              "qExpression" : "num(sum([Login Passes Remaining])/sum([Login Passes Assigned])*100,'0%')"
+            } ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "nHpnnga",
+              "numFormatFromTemplate" : true,
+              "qAccumulate" : 0,
+              "qActiveExpression" : 0,
+              "qDef" : "Sum([Login Passes Used])",
+              "qExpressions" : [ ],
+              "qGrouping" : "N",
+              "qLabel" : "Used",
+              "qNumFormat" : {
+                "qDec" : ".",
+                "qFmt" : "#,##0",
+                "qThou" : ",",
+                "qType" : "F",
+                "qUseThou" : 0,
+                "qnDec" : 2
+              },
+              "qTags" : [ ],
+              "series" : {
+                "axis" : 0,
+                "marker" : "circle",
+                "markerFill" : true,
+                "type" : "bar"
+              }
+            },
+            "qMiniChartDef" : {
+              "qAttributeExpressions" : [ ],
+              "qMaxNumberPoints" : -1,
+              "qOtherTotalSpec" : {
+                "qApplyEvenWhenPossiblyWrongResult" : true,
+                "qForceBadValueKeeping" : true,
+                "qOtherCounted" : { },
+                "qOtherLimit" : { },
+                "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                "qOtherMode" : "OTHER_OFF",
+                "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                "qReferencedExpression" : { },
+                "qTotalMode" : "TOTAL_OFF"
+              },
+              "qSortBy" : {
+                "qExpression" : { }
+              }
+            },
+            "qSortBy" : {
+              "qExpression" : { },
+              "qSortByLoadOrder" : 1,
+              "qSortByNumeric" : -1
+            },
+            "qTrendLines" : [ ]
+          }, {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "wJmGyH",
+              "numFormatFromTemplate" : true,
+              "qAccumulate" : 0,
+              "qActiveExpression" : 0,
+              "qDef" : "sum([Login Passes Remaining]/[Login Passes Assigned])",
+              "qExpressions" : [ ],
+              "qGrouping" : "N",
+              "qLabel" : "% Remaining",
+              "qNumFormat" : {
+                "qDec" : ".",
+                "qFmt" : "0%",
+                "qThou" : ",",
+                "qType" : "F",
+                "qUseThou" : 0,
+                "qnDec" : 2
+              },
+              "qTags" : [ ],
+              "series" : {
+                "axis" : 1,
+                "marker" : "line",
+                "markerFill" : true,
+                "type" : "marker"
+              }
+            },
+            "qMiniChartDef" : {
+              "qAttributeExpressions" : [ ],
+              "qMaxNumberPoints" : -1,
+              "qOtherTotalSpec" : {
+                "qApplyEvenWhenPossiblyWrongResult" : true,
+                "qForceBadValueKeeping" : true,
+                "qOtherCounted" : { },
+                "qOtherLimit" : { },
+                "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                "qOtherMode" : "OTHER_OFF",
+                "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                "qReferencedExpression" : { },
+                "qTotalMode" : "TOTAL_OFF"
+              },
+              "qSortBy" : {
+                "qExpression" : { }
+              }
+            },
+            "qSortBy" : {
+              "qExpression" : { },
+              "qSortByLoadOrder" : 1,
+              "qSortByNumeric" : -1
+            },
+            "qTrendLines" : [ ]
+          }, {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "HPMuzjx",
+              "numFormatFromTemplate" : true,
+              "qAccumulate" : 0,
+              "qActiveExpression" : 0,
+              "qDef" : "Sum([Login Passes Assigned])\n//Sum({1}  [Login Passes Remaining])",
+              "qExpressions" : [ ],
+              "qGrouping" : "N",
+              "qLabel" : "Assigned",
+              "qNumFormat" : {
+                "qDec" : ".",
+                "qFmt" : "#,##0",
+                "qThou" : ",",
+                "qType" : "F",
+                "qUseThou" : 0,
+                "qnDec" : 2
+              },
+              "qTags" : [ ],
+              "series" : {
+                "axis" : 0,
+                "marker" : "line",
+                "markerFill" : true,
+                "type" : "bar"
+              }
+            },
+            "qMiniChartDef" : {
+              "qAttributeExpressions" : [ ],
+              "qMaxNumberPoints" : -1,
+              "qOtherTotalSpec" : {
+                "qApplyEvenWhenPossiblyWrongResult" : true,
+                "qForceBadValueKeeping" : true,
+                "qOtherCounted" : { },
+                "qOtherLimit" : { },
+                "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                "qOtherMode" : "OTHER_OFF",
+                "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                "qReferencedExpression" : { },
+                "qTotalMode" : "TOTAL_OFF"
+              },
+              "qSortBy" : {
+                "qExpression" : { }
+              }
+            },
+            "qSortBy" : {
+              "qExpression" : { },
+              "qSortByLoadOrder" : 1,
+              "qSortByNumeric" : -1
+            },
+            "qTrendLines" : [ ]
+          } ],
+          "qMode" : "S",
+          "qNoOfLeftDims" : -1,
+          "qPseudoDimPos" : -1,
+          "qReductionMode" : "N",
+          "qSuppressMissing" : true,
+          "qTitle" : { }
+        },
+        "qInfo" : {
+          "qId" : "VfuGmtA",
+          "qType" : "masterobject"
+        },
+        "qLayoutExclude" : { },
+        "qMetaDef" : {
+          "tags" : [ ],
+          "title" : "Login Access Rule Usage Scatter Plot"
+        },
+        "refLine" : {
+          "refLinesX" : [ ],
+          "refLinesY" : [ ]
+        },
+        "showTitles" : true,
+        "subtitle" : {
+          "qStringExpression" : {
+            "qExpr" : "'Login Access Passes used & available as of ' & ReloadStartTime"
+          }
+        },
+        "title" : "Login Access Rule Usage",
+        "visualization" : "scatterplot",
+        "xAxis" : {
+          "autoMinMax" : false,
+          "dock" : "near",
+          "max" : 10,
+          "min" : 0,
+          "minMax" : "min",
+          "show" : "all",
+          "spacing" : 1
+        },
+        "yAxis" : {
+          "autoMinMax" : false,
+          "dock" : "near",
+          "max" : 1.015,
+          "min" : 0,
+          "minMax" : "minMax",
+          "show" : "all",
+          "spacing" : 1
+        }
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "VfuGmtA,Visualization;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1071
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Visualizations/Login Access Rule Usage Scatter Plot",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikVisualization/QlikVisualization",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Login Access Rule Usage Scatter Plot",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 269
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 269, 1071 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Visualization",
+  "shouldVersion" : true,
+  "subtype" : "QlikVisualization",
+  "type" : "QlikArtifact"
+}

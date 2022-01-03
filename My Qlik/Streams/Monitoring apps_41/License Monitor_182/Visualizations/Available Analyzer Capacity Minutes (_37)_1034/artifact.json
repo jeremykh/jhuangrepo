@@ -1,0 +1,197 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qChildren" : [ ],
+      "qProperty" : {
+        "color" : {
+          "useBaseColors" : "measure"
+        },
+        "fontSize" : "M",
+        "footnote" : "",
+        "isRecommended" : true,
+        "masterVersion" : 0.96,
+        "metadata" : { },
+        "openUrlInNewTab" : false,
+        "qHyperCubeDef" : {
+          "qCalcCond" : { },
+          "qCalcCondition" : {
+            "qCond" : { },
+            "qMsg" : { }
+          },
+          "qColumnOrder" : [ ],
+          "qDimensions" : [ ],
+          "qExpansionState" : [ ],
+          "qInitialDataFetch" : [ {
+            "qHeight" : 10,
+            "qLeft" : 0,
+            "qTop" : 0,
+            "qWidth" : 500
+          } ],
+          "qInterColumnSortOrder" : [ 0 ],
+          "qLayoutExclude" : {
+            "qHyperCubeDef" : {
+              "qCalcCond" : { },
+              "qCalcCondition" : {
+                "qCond" : { },
+                "qMsg" : { }
+              },
+              "qColumnOrder" : [ ],
+              "qDimensions" : [ ],
+              "qExpansionState" : [ ],
+              "qInitialDataFetch" : [ ],
+              "qInterColumnSortOrder" : [ ],
+              "qMaxStackedCells" : 5000,
+              "qMeasures" : [ ],
+              "qMode" : "S",
+              "qNoOfLeftDims" : -1,
+              "qPseudoDimPos" : -1,
+              "qReductionMode" : "N",
+              "qTitle" : { }
+            }
+          },
+          "qMaxStackedCells" : 5000,
+          "qMeasures" : [ {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "yYhec",
+              "conditionalColoring" : {
+                "paletteSingleColor" : {
+                  "index" : 12
+                },
+                "segments" : {
+                  "limits" : [ {
+                    "gradient" : true,
+                    "value" : 0.05
+                  }, {
+                    "gradient" : true,
+                    "value" : 0.1
+                  } ],
+                  "paletteColors" : [ {
+                    "color" : "#a54343",
+                    "index" : 3
+                  }, {
+                    "color" : "#ecc43d",
+                    "index" : 6
+                  }, {
+                    "color" : "#578b60",
+                    "index" : 10
+                  } ]
+                },
+                "singleColor" : 3,
+                "useBaseColors" : false,
+                "useConditionalColoring" : true
+              },
+              "isCustomFormatted" : false,
+              "measureAxis" : {
+                "max" : 1.02416,
+                "min" : 0.025
+              },
+              "numFormatFromTemplate" : true,
+              "qAccumulate" : 0,
+              "qActiveExpression" : 0,
+              "qExpressions" : [ ],
+              "qGrouping" : "N",
+              "qNumFormat" : {
+                "qDec" : ".",
+                "qThou" : ",",
+                "qType" : "U",
+                "qUseThou" : 0,
+                "qnDec" : 2
+              },
+              "qTags" : [ ]
+            },
+            "qLibraryId" : "HcUGYn",
+            "qMiniChartDef" : {
+              "qAttributeExpressions" : [ ],
+              "qMaxNumberPoints" : -1,
+              "qOtherTotalSpec" : {
+                "qApplyEvenWhenPossiblyWrongResult" : true,
+                "qForceBadValueKeeping" : true,
+                "qOtherCounted" : { },
+                "qOtherLimit" : { },
+                "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                "qOtherMode" : "OTHER_OFF",
+                "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                "qReferencedExpression" : { },
+                "qTotalMode" : "TOTAL_OFF"
+              },
+              "qSortBy" : {
+                "qExpression" : { }
+              }
+            },
+            "qSortBy" : {
+              "qExpression" : { },
+              "qSortByLoadOrder" : 1,
+              "qSortByNumeric" : -1
+            },
+            "qTrendLines" : [ ]
+          } ],
+          "qMode" : "S",
+          "qNoOfLeftDims" : -1,
+          "qPseudoDimPos" : -1,
+          "qReductionMode" : "N",
+          "qSuppressMissing" : true,
+          "qTitle" : { }
+        },
+        "qInfo" : {
+          "qId" : "a342d0d7-7052-4d23-998d-fe4004a853cc",
+          "qType" : "masterobject"
+        },
+        "qLayoutExclude" : {
+          "disabled" : { },
+          "quarantine" : { }
+        },
+        "qMetaDef" : {
+          "tags" : [ ],
+          "title" : "Available Analyzer Capacity Minutes (%)"
+        },
+        "sheetLink" : "b78a9979-d831-4a55-b8ea-ffe7768548ab",
+        "showDetails" : true,
+        "showMeasureTitle" : true,
+        "showTitles" : false,
+        "subtitle" : "",
+        "textAlign" : "center",
+        "title" : "",
+        "useLink" : true,
+        "visualization" : "kpi"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "a342d0d7-7052-4d23-998d-fe4004a853cc,Visualization;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1034
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Visualizations/Available Analyzer Capacity Minutes (%)",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikVisualization/QlikVisualization",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Available Analyzer Capacity Minutes (%)",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 269
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 269, 1034 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Visualization",
+  "shouldVersion" : true,
+  "subtype" : "QlikVisualization",
+  "type" : "QlikArtifact"
+}

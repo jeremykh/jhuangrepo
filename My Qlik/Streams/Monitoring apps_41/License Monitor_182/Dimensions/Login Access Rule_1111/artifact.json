@@ -1,0 +1,52 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "isEditMode" : true,
+      "qDim" : {
+        "qFieldDefs" : [ "=[Login Access Rule]" ],
+        "qFieldLabels" : [ "Login Access Rule" ],
+        "qGrouping" : "N",
+        "title" : "Login Access Rule"
+      },
+      "qInfo" : {
+        "qId" : "zjJSYF",
+        "qType" : "dimension"
+      },
+      "qMetaDef" : {
+        "description" : "The Name of the Login Access Rule as configured in the QMC.",
+        "tags" : [ ],
+        "title" : "Login Access Rule"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "zjJSYF,Dimension;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1111
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Dimensions/Login Access Rule",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikDimension/QlikDimension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Login Access Rule",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 263
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 263, 1111 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Dimension",
+  "shouldVersion" : true,
+  "subtype" : "QlikDimension",
+  "type" : "QlikArtifact"
+}

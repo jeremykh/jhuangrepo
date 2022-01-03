@@ -1,0 +1,365 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qChildren" : [ ],
+      "qProperty" : {
+        "barGrouping" : {
+          "grouping" : "grouped",
+          "showAs" : "percentage"
+        },
+        "color" : {
+          "auto" : false,
+          "dimensionId" : "",
+          "dimensionScheme" : "12",
+          "expressionIsColor" : true,
+          "measureScheme" : "sg",
+          "mode" : "byMultiple",
+          "persistent" : false,
+          "reverseScheme" : false,
+          "singleColor" : "#4477aa"
+        },
+        "dataPoint" : {
+          "show" : false,
+          "showLabels" : true
+        },
+        "dimensionAxis" : {
+          "dock" : "near",
+          "label" : "auto",
+          "show" : "all"
+        },
+        "footnote" : "",
+        "legend" : {
+          "dock" : "auto",
+          "show" : true,
+          "showTitle" : true
+        },
+        "masterVersion" : 0.96,
+        "measureAxes" : [ {
+          "autoMinMax" : true,
+          "dock" : "near",
+          "max" : null,
+          "min" : 0,
+          "minMax" : "max",
+          "show" : "all",
+          "spacing" : 1
+        }, {
+          "autoMinMax" : false,
+          "dock" : "far",
+          "max" : 1,
+          "min" : 0,
+          "minMax" : "minMax",
+          "show" : "all",
+          "spacing" : 1
+        } ],
+        "metadata" : { },
+        "nullMode" : "gap",
+        "orientation" : "horizontal",
+        "qHyperCubeDef" : {
+          "qAlwaysFullyExpanded" : true,
+          "qCalcCond" : { },
+          "qCalcCondition" : {
+            "qCond" : { },
+            "qMsg" : { }
+          },
+          "qColumnOrder" : [ ],
+          "qDimensions" : [ {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "BYzPqNs",
+              "othersLabel" : "Others",
+              "qActiveField" : 0,
+              "qFieldDefs" : [ ],
+              "qFieldLabels" : [ ],
+              "qGrouping" : "N",
+              "qNumberPresentations" : [ ],
+              "qSortCriterias" : [ {
+                "qExpression" : { },
+                "qSortByAscii" : 1,
+                "qSortByLoadOrder" : 1
+              } ]
+            },
+            "qLibraryId" : "Cvbxj",
+            "qOtherLabel" : { },
+            "qOtherTotalSpec" : {
+              "qApplyEvenWhenPossiblyWrongResult" : true,
+              "qForceBadValueKeeping" : true,
+              "qOtherCounted" : {
+                "qv" : "20"
+              },
+              "qOtherLimit" : {
+                "qv" : "1200000%"
+              },
+              "qOtherLimitMode" : "OTHER_GT_LIMIT",
+              "qOtherMode" : "OTHER_COUNTED",
+              "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+              "qReferencedExpression" : { },
+              "qSuppressOther" : true,
+              "qTotalMode" : "TOTAL_OFF"
+            },
+            "qTotalLabel" : { },
+            "title" : "Customer"
+          } ],
+          "qExpansionState" : [ ],
+          "qInitialDataFetch" : [ {
+            "qHeight" : 500,
+            "qLeft" : 0,
+            "qTop" : 0,
+            "qWidth" : 17
+          } ],
+          "qInterColumnSortOrder" : [ 1, 0, 2, 3 ],
+          "qLayoutExclude" : {
+            "qHyperCubeDef" : {
+              "qCalcCond" : { },
+              "qCalcCondition" : {
+                "qCond" : { },
+                "qMsg" : { }
+              },
+              "qColumnOrder" : [ ],
+              "qDimensions" : [ ],
+              "qExpansionState" : [ ],
+              "qInitialDataFetch" : [ ],
+              "qInterColumnSortOrder" : [ ],
+              "qMaxStackedCells" : 5000,
+              "qMeasures" : [ ],
+              "qMode" : "S",
+              "qNoOfLeftDims" : -1,
+              "qPseudoDimPos" : -1,
+              "qReductionMode" : "N",
+              "qTitle" : { }
+            }
+          },
+          "qMaxStackedCells" : 5000,
+          "qMeasures" : [ {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : false,
+              "qAccumulate" : 0,
+              "qActiveExpression" : 0,
+              "qExpressions" : [ ],
+              "qGrouping" : "N",
+              "qNumFormat" : {
+                "qDec" : ".",
+                "qFmt" : "#,##0",
+                "qThou" : ",",
+                "qType" : "F",
+                "qUseThou" : 0,
+                "qnDec" : 2
+              },
+              "qTags" : [ ],
+              "series" : {
+                "axis" : 0,
+                "marker" : "circle",
+                "markerFill" : true,
+                "type" : "bar"
+              }
+            },
+            "qLibraryId" : "swHWw",
+            "qMiniChartDef" : {
+              "qAttributeExpressions" : [ ],
+              "qMaxNumberPoints" : -1,
+              "qOtherTotalSpec" : {
+                "qApplyEvenWhenPossiblyWrongResult" : true,
+                "qForceBadValueKeeping" : true,
+                "qOtherCounted" : { },
+                "qOtherLimit" : { },
+                "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                "qOtherMode" : "OTHER_OFF",
+                "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                "qReferencedExpression" : { },
+                "qTotalMode" : "TOTAL_OFF"
+              },
+              "qSortBy" : {
+                "qExpression" : { }
+              }
+            },
+            "qSortBy" : {
+              "qExpression" : { },
+              "qSortByLoadOrder" : 1,
+              "qSortByNumeric" : -1
+            },
+            "qTrendLines" : [ ]
+          }, {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "jwFv",
+              "numFormatFromTemplate" : true,
+              "qAccumulate" : 0,
+              "qActiveExpression" : 0,
+              "qDef" : "Sum([Sales Margin Amount])",
+              "qExpressions" : [ ],
+              "qGrouping" : "N",
+              "qLabel" : "Sales Margin",
+              "qNumFormat" : {
+                "qDec" : ".",
+                "qFmt" : "#,##0",
+                "qThou" : ",",
+                "qType" : "F",
+                "qUseThou" : 0,
+                "qnDec" : 2
+              },
+              "qTags" : [ ],
+              "series" : {
+                "axis" : 0,
+                "marker" : "line",
+                "markerFill" : true,
+                "type" : "marker"
+              }
+            },
+            "qMiniChartDef" : {
+              "qAttributeExpressions" : [ ],
+              "qMaxNumberPoints" : -1,
+              "qOtherTotalSpec" : {
+                "qApplyEvenWhenPossiblyWrongResult" : true,
+                "qForceBadValueKeeping" : true,
+                "qOtherCounted" : { },
+                "qOtherLimit" : { },
+                "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                "qOtherMode" : "OTHER_OFF",
+                "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                "qReferencedExpression" : { },
+                "qTotalMode" : "TOTAL_OFF"
+              },
+              "qSortBy" : {
+                "qExpression" : { }
+              }
+            },
+            "qSortBy" : {
+              "qExpression" : { },
+              "qSortByLoadOrder" : 1,
+              "qSortByNumeric" : -1
+            },
+            "qTrendLines" : [ ]
+          }, {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "CYuZB",
+              "numFormatFromTemplate" : true,
+              "qAccumulate" : 0,
+              "qActiveExpression" : 0,
+              "qDef" : "Sum([Sales Margin Amount])/Sum([Sales Amount])",
+              "qExpressions" : [ ],
+              "qGrouping" : "N",
+              "qLabel" : "Sales Margin (%)",
+              "qNumFormat" : {
+                "qDec" : ".",
+                "qFmt" : "0.0%",
+                "qThou" : ",",
+                "qType" : "F",
+                "qUseThou" : 0,
+                "qnDec" : 2
+              },
+              "qTags" : [ ],
+              "series" : {
+                "axis" : 1,
+                "marker" : "line",
+                "markerFill" : false,
+                "type" : "marker"
+              }
+            },
+            "qMiniChartDef" : {
+              "qAttributeExpressions" : [ ],
+              "qMaxNumberPoints" : -1,
+              "qOtherTotalSpec" : {
+                "qApplyEvenWhenPossiblyWrongResult" : true,
+                "qForceBadValueKeeping" : true,
+                "qOtherCounted" : { },
+                "qOtherLimit" : { },
+                "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                "qOtherMode" : "OTHER_OFF",
+                "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                "qReferencedExpression" : { },
+                "qTotalMode" : "TOTAL_OFF"
+              },
+              "qSortBy" : {
+                "qExpression" : { }
+              }
+            },
+            "qSortBy" : {
+              "qExpression" : { },
+              "qSortByLoadOrder" : 1,
+              "qSortByNumeric" : -1
+            },
+            "qTrendLines" : [ ]
+          } ],
+          "qMode" : "S",
+          "qNoOfLeftDims" : -1,
+          "qPseudoDimPos" : 10000,
+          "qReductionMode" : "N",
+          "qSuppressMissing" : true,
+          "qTitle" : { }
+        },
+        "qInfo" : {
+          "qId" : "XWxKDzh",
+          "qType" : "masterobject"
+        },
+        "qLayoutExclude" : { },
+        "qMetaDef" : {
+          "description" : "All time top customers by sales, sales margin and sales margin %",
+          "tags" : [ "Margin", "Sales" ],
+          "title" : "Top Customers"
+        },
+        "showTitles" : true,
+        "subtitle" : "",
+        "title" : "Top Customers",
+        "visualization" : "combochart"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "XWxKDzh,Visualization;3a4cdc64-c7f3-4555-b4b1-10a41056730a,App;",
+  "key" : {
+    "id" : 1329
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Sales Discovery/Visualizations/Top Customers",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikVisualization/QlikVisualization",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Top Customers",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 279
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 183, 279, 1329 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Visualization",
+  "shouldVersion" : true,
+  "subtype" : "QlikVisualization",
+  "type" : "QlikArtifact"
+}

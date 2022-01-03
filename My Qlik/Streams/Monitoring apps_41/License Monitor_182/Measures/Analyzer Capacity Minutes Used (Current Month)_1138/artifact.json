@@ -1,0 +1,64 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qInfo" : {
+        "qId" : "63cdc0da-170c-488c-a770-ac516f5a77a5",
+        "qType" : "measure"
+      },
+      "qMeasure" : {
+        "coloring" : { },
+        "descriptionExpression" : {
+          "qStringExpression" : {
+            "qExpr" : "'Analyzer Capacity Minutes renew the first day of each month. This measure calculates Analyzer Capacity minutes used so far in the current month.'\r\n& IF(license_type_enabled<>'Token-based' \n\tAND [License Allocated Analyzer Capacity (Minutes)]>0\n    AND Not Sum([Analyzer Capacity Used (Minutes)])>0,\n    '* Analyzer Capacity Minutes usage is captured historically in the logs starting in June 2019 Sense.' &\n    ' Earlier versions of Sense will report Analyzer Capacity Minutes = 0 in this chart even though minutes were used historically.'\n    ,'')"
+          }
+        },
+        "qActiveExpression" : 0,
+        "qDef" : "Num(Sum({<[Access Type]={\"Analyzer Capacity\"}, month_to_date = {'1'}>} [Analyzer Capacity Used (Minutes)]),'#,##0')",
+        "qExpressions" : [ ],
+        "qGrouping" : "N",
+        "qLabel" : "Analyzer Capacity Minutes Used (Current Month)",
+        "qLabelExpression" : "='Minutes This Month'",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qUseThou" : 0,
+          "qnDec" : 10
+        }
+      },
+      "qMetaDef" : {
+        "description" : "",
+        "tags" : [ ],
+        "title" : "Analyzer Capacity Minutes Used (Current Month)"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "63cdc0da-170c-488c-a770-ac516f5a77a5,Measure;4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 1138
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor/Measures/Analyzer Capacity Minutes Used (Current Month)",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikMeasure/QlikMeasure",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Analyzer Capacity Minutes Used (Current Month)",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 264
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182, 264, 1138 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Measure",
+  "shouldVersion" : true,
+  "subtype" : "QlikMeasure",
+  "type" : "QlikArtifact"
+}

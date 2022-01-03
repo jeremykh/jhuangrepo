@@ -1,0 +1,110 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "6ae002ccb999f44c0be20be16057307ee53c2832",
+      "contentName" : "content",
+      "contentOid" : 18625,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "col" : 1,
+          "colspan" : 5,
+          "name" : "dPjKY",
+          "row" : 0,
+          "rowspan" : 6,
+          "type" : "barchart"
+        }, {
+          "col" : 12,
+          "colspan" : 11,
+          "name" : "PsVhWxh",
+          "row" : 6,
+          "rowspan" : 5,
+          "type" : "barchart"
+        }, {
+          "col" : 1,
+          "colspan" : 11,
+          "name" : "HFzCzB",
+          "row" : 6,
+          "rowspan" : 5,
+          "type" : "barchart"
+        }, {
+          "col" : 18,
+          "colspan" : 5,
+          "name" : "jmraV",
+          "row" : 0,
+          "rowspan" : 6,
+          "type" : "barchart"
+        }, {
+          "col" : 6,
+          "colspan" : 12,
+          "name" : "XpbtXZJ",
+          "row" : 0,
+          "rowspan" : 6,
+          "type" : "barchart"
+        } ],
+        "columns" : 24,
+        "qInfo" : {
+          "qId" : "xUJLtF",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "Explore the characteristics of the population/workforce, for example, age, gender or ethnic group",
+          "title" : "Demographics"
+        },
+        "rank" : 1,
+        "rows" : 12,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/d5856b5e-46b8-4254-86dd-0e2e1ef086a8/HumanCap-Demo.png"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : false,
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "published" : false,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "xUJLtF,Sheet;d5856b5e-46b8-4254-86dd-0e2e1ef086a8,App;",
+  "key" : {
+    "id" : 1515
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Human Capital Management(1)/Sheets/Demographics",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Demographics",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 332
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 198, 332, 1515 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

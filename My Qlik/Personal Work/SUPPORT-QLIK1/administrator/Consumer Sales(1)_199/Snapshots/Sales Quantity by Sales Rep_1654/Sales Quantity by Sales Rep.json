@@ -1,0 +1,1825 @@
+{
+  "qProp" : {
+    "qInfo" : {
+      "qId" : "nkJyN",
+      "qType" : "snapshot"
+    },
+    "qMetaDef" : {
+      "title" : "Sales Quantity by Sales Rep"
+    },
+    "title" : "Sales Quantity by Sales Rep",
+    "description" : "",
+    "sheetId" : "xjXHDyD",
+    "creationDate" : "2014-07-06",
+    "qMeta" : { },
+    "qSelectionInfo" : { },
+    "qHyperCube" : {
+      "qSize" : {
+        "qcx" : 3,
+        "qcy" : 49
+      },
+      "qDimensionInfo" : [ {
+        "qFallbackTitle" : "Product Group",
+        "qApprMaxGlyphCount" : 19,
+        "qCardinal" : 17,
+        "qSortIndicator" : "A",
+        "qGroupFallbackTitles" : [ "Product Group" ],
+        "qGroupPos" : 0,
+        "qStateCounts" : {
+          "qLocked" : 0,
+          "qSelected" : 0,
+          "qOption" : 17,
+          "qDeselected" : 0,
+          "qAlternative" : 0,
+          "qExcluded" : 0,
+          "qSelectedExcluded" : 0,
+          "qLockedExcluded" : 0
+        },
+        "qTags" : [ "$ascii", "$text" ],
+        "qDimensionType" : "D",
+        "qGrouping" : "N",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qnDec" : 0,
+          "qUseThou" : 0
+        },
+        "qIsAutoFormat" : true,
+        "qGroupFieldDefs" : [ "Product Group Desc" ],
+        "qMin" : 0,
+        "qMax" : 0,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qCardinalities" : {
+          "qCardinal" : 0,
+          "qHypercubeCardinal" : 0,
+          "qAllValuesCardinal" : -1
+        },
+        "title" : "Product Group",
+        "autoSort" : true,
+        "cId" : "yGkVpyk",
+        "othersLabel" : "Others"
+      }, {
+        "qFallbackTitle" : "Sales Rep",
+        "qApprMaxGlyphCount" : 16,
+        "qCardinal" : 63,
+        "qSortIndicator" : "A",
+        "qGroupFallbackTitles" : [ "Sales Rep" ],
+        "qGroupPos" : 0,
+        "qStateCounts" : {
+          "qLocked" : 0,
+          "qSelected" : 3,
+          "qOption" : 0,
+          "qDeselected" : 0,
+          "qAlternative" : 16,
+          "qExcluded" : 44,
+          "qSelectedExcluded" : 0,
+          "qLockedExcluded" : 0
+        },
+        "qTags" : [ "$key", "$ascii", "$text" ],
+        "qDimensionType" : "D",
+        "qGrouping" : "N",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qnDec" : 0,
+          "qUseThou" : 0
+        },
+        "qIsAutoFormat" : true,
+        "qGroupFieldDefs" : [ "Sales Rep Name" ],
+        "qMin" : 0,
+        "qMax" : 0,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qCardinalities" : {
+          "qCardinal" : 0,
+          "qHypercubeCardinal" : 0,
+          "qAllValuesCardinal" : -1
+        },
+        "title" : "Sales Rep",
+        "autoSort" : true,
+        "cId" : "QDNKf",
+        "othersLabel" : "Others"
+      } ],
+      "qMeasureInfo" : [ {
+        "qFallbackTitle" : "Sales Quantity",
+        "qApprMaxGlyphCount" : 4,
+        "qCardinal" : 47,
+        "qSortIndicator" : "D",
+        "qNumFormat" : {
+          "qType" : "R",
+          "qnDec" : 0,
+          "qUseThou" : 0,
+          "qFmt" : "##############",
+          "qDec" : ".",
+          "qThou" : ","
+        },
+        "qMin" : 1,
+        "qMax" : 5769,
+        "qIsAutoFormat" : true,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qTrendLines" : [ ],
+        "autoSort" : true,
+        "cId" : "pZFXzc",
+        "numFormatFromTemplate" : true
+      } ],
+      "qEffectiveInterColumnSortOrder" : [ 0, 1, 2 ],
+      "qGrandTotalRow" : [ ],
+      "qDataPages" : [ ],
+      "qPivotDataPages" : [ ],
+      "qStackedDataPages" : [ {
+        "qData" : [ {
+          "qElemNo" : 0,
+          "qValue" : 0,
+          "qType" : "R",
+          "qMaxPos" : 34958,
+          "qMinNeg" : 0,
+          "qUp" : 0,
+          "qDown" : 0,
+          "qRow" : 0,
+          "qSubNodes" : [ {
+            "qText" : "Alcoholic Beverages",
+            "qElemNo" : 0,
+            "qValue" : "NaN",
+            "qType" : "N",
+            "qMaxPos" : 665,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 0,
+            "qSubNodes" : [ {
+              "qText" : "Cart Lynch",
+              "qElemNo" : 12,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 258,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 0,
+              "qSubNodes" : [ {
+                "qText" : "258",
+                "qElemNo" : 0,
+                "qValue" : 258,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 0,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 0
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Dennis Fisher",
+              "qElemNo" : 8,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 107,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 1,
+              "qSubNodes" : [ {
+                "qText" : "107",
+                "qElemNo" : 0,
+                "qValue" : 107,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 1,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 0
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Janice Scott",
+              "qElemNo" : 50,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 300,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 2,
+              "qSubNodes" : [ {
+                "qText" : "300",
+                "qElemNo" : 0,
+                "qValue" : 300,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 2,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 1
+                  } ]
+                }
+              } ]
+            } ]
+          }, {
+            "qText" : "Baked Goods",
+            "qElemNo" : 1,
+            "qValue" : "NaN",
+            "qType" : "N",
+            "qMaxPos" : 184,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 3,
+            "qSubNodes" : [ {
+              "qText" : "Cart Lynch",
+              "qElemNo" : 12,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 46,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 3,
+              "qSubNodes" : [ {
+                "qText" : "46",
+                "qElemNo" : 0,
+                "qValue" : 46,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 3,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 0
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Dennis Fisher",
+              "qElemNo" : 8,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 50,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 4,
+              "qSubNodes" : [ {
+                "qText" : "50",
+                "qElemNo" : 0,
+                "qValue" : 50,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 4,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 0
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Janice Scott",
+              "qElemNo" : 50,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 88,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 5,
+              "qSubNodes" : [ {
+                "qText" : "88",
+                "qElemNo" : 0,
+                "qValue" : 88,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 5,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 1
+                  } ]
+                }
+              } ]
+            } ]
+          }, {
+            "qText" : "Baking Goods",
+            "qElemNo" : 12,
+            "qValue" : "NaN",
+            "qType" : "N",
+            "qMaxPos" : 605,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 6,
+            "qSubNodes" : [ {
+              "qText" : "Cart Lynch",
+              "qElemNo" : 12,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 266,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 6,
+              "qSubNodes" : [ {
+                "qText" : "266",
+                "qElemNo" : 0,
+                "qValue" : 266,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 6,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 0
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Dennis Fisher",
+              "qElemNo" : 8,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 108,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 7,
+              "qSubNodes" : [ {
+                "qText" : "108",
+                "qElemNo" : 0,
+                "qValue" : 108,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 7,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 1
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Janice Scott",
+              "qElemNo" : 50,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 231,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 8,
+              "qSubNodes" : [ {
+                "qText" : "231",
+                "qElemNo" : 0,
+                "qValue" : 231,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 8,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 1
+                  } ]
+                }
+              } ]
+            } ]
+          }, {
+            "qText" : "Beverages",
+            "qElemNo" : 2,
+            "qValue" : "NaN",
+            "qType" : "N",
+            "qMaxPos" : 2620,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 9,
+            "qSubNodes" : [ {
+              "qText" : "Cart Lynch",
+              "qElemNo" : 12,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 424,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 9,
+              "qSubNodes" : [ {
+                "qText" : "424",
+                "qElemNo" : 0,
+                "qValue" : 424,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 9,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 0
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Dennis Fisher",
+              "qElemNo" : 8,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 912,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 10,
+              "qSubNodes" : [ {
+                "qText" : "912",
+                "qElemNo" : 0,
+                "qValue" : 912,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 10,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 0
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Janice Scott",
+              "qElemNo" : 50,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 1284,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 11,
+              "qSubNodes" : [ {
+                "qText" : "1284",
+                "qElemNo" : 0,
+                "qValue" : 1284,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 11,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 1
+                  } ]
+                }
+              } ]
+            } ]
+          }, {
+            "qText" : "Breakfast Foods",
+            "qElemNo" : 3,
+            "qValue" : "NaN",
+            "qType" : "N",
+            "qMaxPos" : 176,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 12,
+            "qSubNodes" : [ {
+              "qText" : "Cart Lynch",
+              "qElemNo" : 12,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 103,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 12,
+              "qSubNodes" : [ {
+                "qText" : "103",
+                "qElemNo" : 0,
+                "qValue" : 103,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 12,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 0
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Dennis Fisher",
+              "qElemNo" : 8,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 8,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 13,
+              "qSubNodes" : [ {
+                "qText" : "8",
+                "qElemNo" : 0,
+                "qValue" : 8,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 13,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 0
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Janice Scott",
+              "qElemNo" : 50,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 65,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 14,
+              "qSubNodes" : [ {
+                "qText" : "65",
+                "qElemNo" : 0,
+                "qValue" : 65,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 14,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 2
+                  } ]
+                }
+              } ]
+            } ]
+          }, {
+            "qText" : "Canned Foods",
+            "qElemNo" : 4,
+            "qValue" : "NaN",
+            "qType" : "N",
+            "qMaxPos" : 5534,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 15,
+            "qSubNodes" : [ {
+              "qText" : "Cart Lynch",
+              "qElemNo" : 12,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 4029,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 15,
+              "qSubNodes" : [ {
+                "qText" : "4029",
+                "qElemNo" : 0,
+                "qValue" : 4029,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 15,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 0
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Dennis Fisher",
+              "qElemNo" : 8,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 648,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 16,
+              "qSubNodes" : [ {
+                "qText" : "648",
+                "qElemNo" : 0,
+                "qValue" : 648,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 16,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 1
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Janice Scott",
+              "qElemNo" : 50,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 857,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 17,
+              "qSubNodes" : [ {
+                "qText" : "857",
+                "qElemNo" : 0,
+                "qValue" : 857,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 17,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 2
+                  } ]
+                }
+              } ]
+            } ]
+          }, {
+            "qText" : "Canned Products",
+            "qElemNo" : 13,
+            "qValue" : "NaN",
+            "qType" : "N",
+            "qMaxPos" : 29,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 18,
+            "qSubNodes" : [ {
+              "qText" : "Cart Lynch",
+              "qElemNo" : 12,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 8,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 18,
+              "qSubNodes" : [ {
+                "qText" : "8",
+                "qElemNo" : 0,
+                "qValue" : 8,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 18,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 0
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Dennis Fisher",
+              "qElemNo" : 8,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 3,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 19,
+              "qSubNodes" : [ {
+                "qText" : "3",
+                "qElemNo" : 0,
+                "qValue" : 3,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 19,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 0
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Janice Scott",
+              "qElemNo" : 50,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 18,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 20,
+              "qSubNodes" : [ {
+                "qText" : "18",
+                "qElemNo" : 0,
+                "qValue" : 18,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 20,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 1
+                  } ]
+                }
+              } ]
+            } ]
+          }, {
+            "qText" : "Dairy",
+            "qElemNo" : 5,
+            "qValue" : "NaN",
+            "qType" : "N",
+            "qMaxPos" : 6504,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 21,
+            "qSubNodes" : [ {
+              "qText" : "Cart Lynch",
+              "qElemNo" : 12,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 395,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 21,
+              "qSubNodes" : [ {
+                "qText" : "395",
+                "qElemNo" : 0,
+                "qValue" : 395,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 21,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 0
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Dennis Fisher",
+              "qElemNo" : 8,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 5769,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 22,
+              "qSubNodes" : [ {
+                "qText" : "5769",
+                "qElemNo" : 0,
+                "qValue" : 5769,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 22,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 1
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Janice Scott",
+              "qElemNo" : 50,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 340,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 23,
+              "qSubNodes" : [ {
+                "qText" : "340",
+                "qElemNo" : 0,
+                "qValue" : 340,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 23,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 1
+                  } ]
+                }
+              } ]
+            } ]
+          }, {
+            "qText" : "Deli",
+            "qElemNo" : 6,
+            "qValue" : "NaN",
+            "qType" : "N",
+            "qMaxPos" : 1750,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 24,
+            "qSubNodes" : [ {
+              "qText" : "Cart Lynch",
+              "qElemNo" : 12,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 116,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 24,
+              "qSubNodes" : [ {
+                "qText" : "116",
+                "qElemNo" : 0,
+                "qValue" : 116,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 24,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 0
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Dennis Fisher",
+              "qElemNo" : 8,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 348,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 25,
+              "qSubNodes" : [ {
+                "qText" : "348",
+                "qElemNo" : 0,
+                "qValue" : 348,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 25,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 0
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Janice Scott",
+              "qElemNo" : 50,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 1286,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 26,
+              "qSubNodes" : [ {
+                "qText" : "1286",
+                "qElemNo" : 0,
+                "qValue" : 1286,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 26,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 1
+                  } ]
+                }
+              } ]
+            } ]
+          }, {
+            "qText" : "Eggs",
+            "qElemNo" : 14,
+            "qValue" : "NaN",
+            "qType" : "N",
+            "qMaxPos" : 387,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 27,
+            "qSubNodes" : [ {
+              "qText" : "Cart Lynch",
+              "qElemNo" : 12,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 303,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 27,
+              "qSubNodes" : [ {
+                "qText" : "303",
+                "qElemNo" : 0,
+                "qValue" : 303,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 27,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 0
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Dennis Fisher",
+              "qElemNo" : 8,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 1,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 28,
+              "qSubNodes" : [ {
+                "qText" : "1",
+                "qElemNo" : 0,
+                "qValue" : 1,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 28,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 0
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Janice Scott",
+              "qElemNo" : 50,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 83,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 29,
+              "qSubNodes" : [ {
+                "qText" : "83",
+                "qElemNo" : 0,
+                "qValue" : 83,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 29,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 1
+                  } ]
+                }
+              } ]
+            } ]
+          }, {
+            "qText" : "Frozen Foods",
+            "qElemNo" : 15,
+            "qValue" : "NaN",
+            "qType" : "N",
+            "qMaxPos" : 6742,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 30,
+            "qSubNodes" : [ {
+              "qText" : "Cart Lynch",
+              "qElemNo" : 12,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 1227,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 30,
+              "qSubNodes" : [ {
+                "qText" : "1227",
+                "qElemNo" : 0,
+                "qValue" : 1227,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 30,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 0
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Dennis Fisher",
+              "qElemNo" : 8,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 748,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 31,
+              "qSubNodes" : [ {
+                "qText" : "748",
+                "qElemNo" : 0,
+                "qValue" : 748,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 31,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 1
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Janice Scott",
+              "qElemNo" : 50,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 4767,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 32,
+              "qSubNodes" : [ {
+                "qText" : "4767",
+                "qElemNo" : 0,
+                "qValue" : 4767,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 32,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 2
+                  } ]
+                }
+              } ]
+            } ]
+          }, {
+            "qText" : "Meat",
+            "qElemNo" : 7,
+            "qValue" : "NaN",
+            "qType" : "N",
+            "qMaxPos" : 25,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 33,
+            "qSubNodes" : [ {
+              "qText" : "Cart Lynch",
+              "qElemNo" : 12,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 21,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 33,
+              "qSubNodes" : [ {
+                "qText" : "21",
+                "qElemNo" : 0,
+                "qValue" : 21,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 33,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 0
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Janice Scott",
+              "qElemNo" : 50,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 4,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 34,
+              "qSubNodes" : [ {
+                "qText" : "4",
+                "qElemNo" : 0,
+                "qValue" : 4,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 34,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 0
+                  } ]
+                }
+              } ]
+            } ]
+          }, {
+            "qText" : "Produce",
+            "qElemNo" : 8,
+            "qValue" : "NaN",
+            "qType" : "N",
+            "qMaxPos" : 6503,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 35,
+            "qSubNodes" : [ {
+              "qText" : "Cart Lynch",
+              "qElemNo" : 12,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 719,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 35,
+              "qSubNodes" : [ {
+                "qText" : "719",
+                "qElemNo" : 0,
+                "qValue" : 719,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 35,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 0
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Dennis Fisher",
+              "qElemNo" : 8,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 2916,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 36,
+              "qSubNodes" : [ {
+                "qText" : "2916",
+                "qElemNo" : 0,
+                "qValue" : 2916,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 36,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 1
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Janice Scott",
+              "qElemNo" : 50,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 2868,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 37,
+              "qSubNodes" : [ {
+                "qText" : "2868",
+                "qElemNo" : 0,
+                "qValue" : 2868,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 37,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 1
+                  } ]
+                }
+              } ]
+            } ]
+          }, {
+            "qText" : "Seafood",
+            "qElemNo" : 9,
+            "qValue" : "NaN",
+            "qType" : "N",
+            "qMaxPos" : 3,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 38,
+            "qSubNodes" : [ {
+              "qText" : "Dennis Fisher",
+              "qElemNo" : 8,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 1,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 38,
+              "qSubNodes" : [ {
+                "qText" : "1",
+                "qElemNo" : 0,
+                "qValue" : 1,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 38,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 0
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Janice Scott",
+              "qElemNo" : 50,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 2,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 39,
+              "qSubNodes" : [ {
+                "qText" : "2",
+                "qElemNo" : 0,
+                "qValue" : 2,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 39,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 0
+                  } ]
+                }
+              } ]
+            } ]
+          }, {
+            "qText" : "Snack Foods",
+            "qElemNo" : 10,
+            "qValue" : "NaN",
+            "qType" : "N",
+            "qMaxPos" : 2208,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 40,
+            "qSubNodes" : [ {
+              "qText" : "Cart Lynch",
+              "qElemNo" : 12,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 408,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 40,
+              "qSubNodes" : [ {
+                "qText" : "408",
+                "qElemNo" : 0,
+                "qValue" : 408,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 40,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 0
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Dennis Fisher",
+              "qElemNo" : 8,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 542,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 41,
+              "qSubNodes" : [ {
+                "qText" : "542",
+                "qElemNo" : 0,
+                "qValue" : 542,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 41,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 1
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Janice Scott",
+              "qElemNo" : 50,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 1258,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 42,
+              "qSubNodes" : [ {
+                "qText" : "1258",
+                "qElemNo" : 0,
+                "qValue" : 1258,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 42,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 2
+                  } ]
+                }
+              } ]
+            } ]
+          }, {
+            "qText" : "Snacks",
+            "qElemNo" : 11,
+            "qValue" : "NaN",
+            "qType" : "N",
+            "qMaxPos" : 185,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 43,
+            "qSubNodes" : [ {
+              "qText" : "Cart Lynch",
+              "qElemNo" : 12,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 5,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 43,
+              "qSubNodes" : [ {
+                "qText" : "5",
+                "qElemNo" : 0,
+                "qValue" : 5,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 43,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 0
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Dennis Fisher",
+              "qElemNo" : 8,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 31,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 44,
+              "qSubNodes" : [ {
+                "qText" : "31",
+                "qElemNo" : 0,
+                "qValue" : 31,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 44,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 0
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Janice Scott",
+              "qElemNo" : 50,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 149,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 45,
+              "qSubNodes" : [ {
+                "qText" : "149",
+                "qElemNo" : 0,
+                "qValue" : 149,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 45,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 1
+                  } ]
+                }
+              } ]
+            } ]
+          }, {
+            "qText" : "Starchy Foods",
+            "qElemNo" : 16,
+            "qValue" : "NaN",
+            "qType" : "N",
+            "qMaxPos" : 838,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 46,
+            "qSubNodes" : [ {
+              "qText" : "Cart Lynch",
+              "qElemNo" : 12,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 95,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 46,
+              "qSubNodes" : [ {
+                "qText" : "95",
+                "qElemNo" : 0,
+                "qValue" : 95,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 46,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 0
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Dennis Fisher",
+              "qElemNo" : 8,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 126,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 47,
+              "qSubNodes" : [ {
+                "qText" : "126",
+                "qElemNo" : 0,
+                "qValue" : 126,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 47,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 0
+                  } ]
+                }
+              } ]
+            }, {
+              "qText" : "Janice Scott",
+              "qElemNo" : 50,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 617,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 48,
+              "qSubNodes" : [ {
+                "qText" : "617",
+                "qElemNo" : 0,
+                "qValue" : 617,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 48,
+                "qSubNodes" : [ ],
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 1
+                  } ]
+                }
+              } ]
+            } ]
+          } ]
+        } ],
+        "qArea" : {
+          "qLeft" : 0,
+          "qTop" : 0,
+          "qWidth" : 0,
+          "qHeight" : 0
+        }
+      } ],
+      "qMode" : "K",
+      "qNoOfLeftDims" : 0,
+      "qTreeNodesOnDim" : [ ],
+      "qColumnOrder" : [ ]
+    },
+    "showTitles" : true,
+    "subtitle" : "*colored by # of lost customers",
+    "footnote" : "",
+    "labels" : {
+      "auto" : false,
+      "headers" : false,
+      "overlay" : true,
+      "leaves" : true,
+      "values" : false
+    },
+    "color" : {
+      "auto" : false,
+      "mode" : "byExpression",
+      "singleColor" : "#4477aa",
+      "persistent" : true,
+      "measureScheme" : "dc",
+      "reverseScheme" : false,
+      "dimensionScheme" : "12",
+      "dimensionId" : "",
+      "expressionIsColor" : false,
+      "colorExpression" : "if (GetFieldSelections(Metric)='Number of Lost Customers', Count({$<Cust_Lost={\"1\"}>} distinct Customer), \nif(GetFieldSelections(Metric)='% Decrease in Customers', Count({$<Cust_Decreasing={\"1\"}>} distinct Customer), \nsum([Budget Amount])\n\n))\n\n\n//Count({$<Cust_Lost={\"1\"}>} distinct Customer)"
+    },
+    "legend" : {
+      "dock" : "auto",
+      "showTitle" : true
+    },
+    "visualization" : "treemap",
+    "visualizationType" : "treemap",
+    "timestamp" : 1404669715855,
+    "sourceObjectId" : "kdpJKE",
+    "isClone" : false,
+    "snapshotData" : {
+      "object" : {
+        "size" : {
+          "w" : 411,
+          "h" : 602
+        }
+      },
+      "parent" : {
+        "h" : 654,
+        "w" : 1270
+      },
+      "content" : {
+        "chartData" : { },
+        "size" : {
+          "w" : 411,
+          "h" : 553
+        },
+        "components" : {
+          "dataArea" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 407,
+              "h" : 549
+            }
+          },
+          "xAxisTitle" : {
+            "visible" : false,
+            "dock" : "top",
+            "size" : {
+              "w" : 407,
+              "h" : 0
+            }
+          }
+        },
+        "v" : 0.96
+      }
+    }
+  },
+  "qStateData" : [ {
+    "qStateName" : "$",
+    "qFieldItems" : [ {
+      "qDef" : {
+        "qName" : "Metric",
+        "qType" : "PRESENT"
+      },
+      "qSelectInfo" : {
+        "qRangeLo" : "NaN",
+        "qRangeHi" : "NaN",
+        "qNumberFormat" : {
+          "qType" : "U",
+          "qnDec" : 10,
+          "qUseThou" : 0
+        },
+        "qRangeInfo" : [ ],
+        "qContinuousRangeInfo" : [ ]
+      },
+      "qValues" : [ {
+        "qText" : "Number of Lost Customers",
+        "qNumber" : "NaN"
+      } ],
+      "qExcludedValues" : [ ]
+    }, {
+      "qDef" : {
+        "qName" : "Sales Rep Name",
+        "qType" : "PRESENT"
+      },
+      "qSelectInfo" : {
+        "qRangeLo" : "NaN",
+        "qRangeHi" : "NaN",
+        "qNumberFormat" : {
+          "qType" : "U",
+          "qnDec" : 10,
+          "qUseThou" : 0
+        },
+        "qRangeInfo" : [ ],
+        "qContinuousRangeInfo" : [ ]
+      },
+      "qValues" : [ {
+        "qText" : "Dennis Fisher",
+        "qNumber" : "NaN"
+      }, {
+        "qText" : "Cart Lynch",
+        "qNumber" : "NaN"
+      }, {
+        "qText" : "Janice Scott",
+        "qNumber" : "NaN"
+      } ],
+      "qExcludedValues" : [ ]
+    }, {
+      "qDef" : {
+        "qName" : "Sales Rep Performance",
+        "qType" : "PRESENT"
+      },
+      "qSelectInfo" : {
+        "qRangeLo" : "NaN",
+        "qRangeHi" : "NaN",
+        "qNumberFormat" : {
+          "qType" : "U",
+          "qnDec" : 10,
+          "qUseThou" : 0
+        },
+        "qRangeInfo" : [ ],
+        "qContinuousRangeInfo" : [ ]
+      },
+      "qValues" : [ {
+        "qText" : "Low Performer",
+        "qNumber" : "NaN"
+      } ],
+      "qExcludedValues" : [ ]
+    } ]
+  }, {
+    "qStateName" : "Group1",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group2",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group3",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group4",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group 1",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group 2",
+    "qFieldItems" : [ ]
+  } ],
+  "qPatches" : [ ]
+}
