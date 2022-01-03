@@ -1,0 +1,53 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "architecture" : 0,
+    "connectionstring" : "\\\\support-qlik1\\QlikData\\ArchivedLogs",
+    "createdDate" : "2021-05-19T23:01:46.256Z",
+    "customProperties" : [ ],
+    "engineObjectId" : "059b0778-1d27-4398-8973-300484554382",
+    "id" : "059b0778-1d27-4398-8973-300484554382",
+    "logOn" : 0,
+    "name" : "ArchivedLogsFolder",
+    "owner" : {
+      "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+      "name" : "sa_repository",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_repository"
+    },
+    "schemaPath" : "DataConnection",
+    "tags" : [ ],
+    "type" : "folder",
+    "username" : ""
+  },
+  "hidden" : false,
+  "identity" : "059b0778-1d27-4398-8973-300484554382,DataConnection;",
+  "key" : {
+    "id" : 48
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Data Connections/ArchivedLogsFolder",
+    "subtypePath" : "-/QlikDataConnection/QlikDataConnection",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "ArchivedLogsFolder",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 40
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 40, 48 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "DataConnection",
+  "shouldVersion" : true,
+  "subtype" : "QlikDataConnection",
+  "type" : "QlikArtifact"
+}

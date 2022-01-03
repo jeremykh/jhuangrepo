@@ -1,0 +1,53 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "architecture" : 0,
+    "connectionstring" : "\\\\support-qlik1\\QlikData\\StaticContent\\AppContent\\<APP_ID>",
+    "createdDate" : "2021-05-19T23:01:45.738Z",
+    "customProperties" : [ ],
+    "engineObjectId" : "47a1cfd8-f70e-4a98-a00d-00fca6c8e253",
+    "id" : "47a1cfd8-f70e-4a98-a00d-00fca6c8e253",
+    "logOn" : 0,
+    "name" : "AttachedFiles",
+    "owner" : {
+      "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+      "name" : "sa_repository",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_repository"
+    },
+    "schemaPath" : "DataConnection",
+    "tags" : [ ],
+    "type" : "folder",
+    "username" : ""
+  },
+  "hidden" : false,
+  "identity" : "47a1cfd8-f70e-4a98-a00d-00fca6c8e253,DataConnection;",
+  "key" : {
+    "id" : 57
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Data Connections/AttachedFiles",
+    "subtypePath" : "-/QlikDataConnection/QlikDataConnection",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "AttachedFiles",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 40
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 40, 57 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "DataConnection",
+  "shouldVersion" : true,
+  "subtype" : "QlikDataConnection",
+  "type" : "QlikArtifact"
+}

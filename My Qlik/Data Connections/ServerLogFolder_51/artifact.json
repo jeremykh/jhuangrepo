@@ -1,0 +1,53 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "architecture" : 0,
+    "connectionstring" : "C:\\ProgramData\\Qlik\\Sense\\Log\\",
+    "createdDate" : "2021-05-19T23:03:15.386Z",
+    "customProperties" : [ ],
+    "engineObjectId" : "aed6b0b6-514a-4d15-b1e1-968ca20b89c8",
+    "id" : "aed6b0b6-514a-4d15-b1e1-968ca20b89c8",
+    "logOn" : 0,
+    "name" : "ServerLogFolder",
+    "owner" : {
+      "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+      "name" : "sa_repository",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_repository"
+    },
+    "schemaPath" : "DataConnection",
+    "tags" : [ ],
+    "type" : "folder",
+    "username" : ""
+  },
+  "hidden" : false,
+  "identity" : "aed6b0b6-514a-4d15-b1e1-968ca20b89c8,DataConnection;",
+  "key" : {
+    "id" : 51
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Data Connections/ServerLogFolder",
+    "subtypePath" : "-/QlikDataConnection/QlikDataConnection",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "ServerLogFolder",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 40
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 40, 51 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "DataConnection",
+  "shouldVersion" : true,
+  "subtype" : "QlikDataConnection",
+  "type" : "QlikArtifact"
+}

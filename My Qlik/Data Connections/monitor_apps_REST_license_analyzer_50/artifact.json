@@ -1,0 +1,53 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "architecture" : 0,
+    "connectionstring" : "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://localhost/qrs/license/analyzeraccesstype/full;timeout=900;method=GET;autoDetectResponseType=true;keyGenerationStrategy=0;authSchema=ntlm;skipServerCertificateValidation=true;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;trustedLocations=qrs-proxy%2https://localhost:4244;queryParameters=xrfkey%20000000000000000;addMissingQueryParametersToFinalRequest=false;queryHeaders=X-Qlik-XrfKey%20000000000000000%1User-Agent%2Windows;PaginationType=None;\"",
+    "createdDate" : "2021-05-19T23:01:46.198Z",
+    "customProperties" : [ ],
+    "engineObjectId" : "a10b8554-8858-4d3f-aece-9c881c1b94aa",
+    "id" : "a10b8554-8858-4d3f-aece-9c881c1b94aa",
+    "logOn" : 0,
+    "name" : "monitor_apps_REST_license_analyzer",
+    "owner" : {
+      "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+      "name" : "sa_repository",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_repository"
+    },
+    "schemaPath" : "DataConnection",
+    "tags" : [ ],
+    "type" : "QvRestConnector.exe",
+    "username" : "SUPPORT-QLIK1\\qliksense"
+  },
+  "hidden" : false,
+  "identity" : "a10b8554-8858-4d3f-aece-9c881c1b94aa,DataConnection;",
+  "key" : {
+    "id" : 50
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Data Connections/monitor_apps_REST_license_analyzer",
+    "subtypePath" : "-/QlikDataConnection/QlikDataConnection",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "monitor_apps_REST_license_analyzer",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 40
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 40, 50 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "DataConnection",
+  "shouldVersion" : true,
+  "subtype" : "QlikDataConnection",
+  "type" : "QlikArtifact"
+}

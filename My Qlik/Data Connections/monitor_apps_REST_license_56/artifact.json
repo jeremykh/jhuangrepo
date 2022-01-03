@@ -1,0 +1,53 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "architecture" : 0,
+    "connectionstring" : "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://localhost/qrs/license;timeout=900;method=GET;autoDetectResponseType=true;keyGenerationStrategy=0;authSchema=ntlm;skipServerCertificateValidation=true;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;trustedLocations=qrs-proxy%2https://localhost:4244;queryParameters=xrfkey%20000000000000000;addMissingQueryParametersToFinalRequest=false;queryHeaders=X-Qlik-Xrfkey%20000000000000000%1User-Agent%2Windows;PaginationType=None;\"",
+    "createdDate" : "2021-05-19T23:01:46.198Z",
+    "customProperties" : [ ],
+    "engineObjectId" : "425d5526-9fa8-4255-814b-2e4ee76c8b52",
+    "id" : "425d5526-9fa8-4255-814b-2e4ee76c8b52",
+    "logOn" : 0,
+    "name" : "monitor_apps_REST_license",
+    "owner" : {
+      "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+      "name" : "sa_repository",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_repository"
+    },
+    "schemaPath" : "DataConnection",
+    "tags" : [ ],
+    "type" : "QvRestConnector.exe",
+    "username" : "SUPPORT-QLIK1\\qliksense"
+  },
+  "hidden" : false,
+  "identity" : "425d5526-9fa8-4255-814b-2e4ee76c8b52,DataConnection;",
+  "key" : {
+    "id" : 56
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Data Connections/monitor_apps_REST_license",
+    "subtypePath" : "-/QlikDataConnection/QlikDataConnection",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "monitor_apps_REST_license",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 40
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 40, 56 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "DataConnection",
+  "shouldVersion" : true,
+  "subtype" : "QlikDataConnection",
+  "type" : "QlikArtifact"
+}
