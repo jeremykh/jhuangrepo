@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 4294967295,
+    "category" : "Security",
+    "comment" : "The service accounts should be able to do all actions",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "19a4fdd1-b5cd-4284-91c2-acc4ee196190",
+    "name" : "ServiceAccount",
+    "resourceFilter" : "*",
+    "rule" : "user.UserDirectory = \"INTERNAL\" and user.UserId like \"sa_*\"",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "06f4a960-d71d-4bd0-b8df-4c1ed2ad2e18",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "ReadOnly",
+    "version" : 3
+  },
+  "hidden" : false,
+  "identity" : "19a4fdd1-b5cd-4284-91c2-acc4ee196190,SecurityRule;",
+  "key" : {
+    "id" : 145
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/ServiceAccount",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "ServiceAccount",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 145 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

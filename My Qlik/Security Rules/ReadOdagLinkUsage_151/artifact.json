@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 2,
+    "category" : "Security",
+    "comment" : "Non-anonymous users with read access to the selection app can read its OdagLinkUsages",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "cd91849b-cbf3-4a31-b774-4e7bd572fa37",
+    "name" : "ReadOdagLinkUsage",
+    "resourceFilter" : "OdagLinkUsage_*",
+    "rule" : "!user.IsAnonymous() and resource.selectionApp.HasPrivilege(\"read\")",
+    "ruleContext" : 1,
+    "schemaPath" : "SystemRule",
+    "seedId" : "a5212b76-b4a5-4927-98b8-6737d1a7de14",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 2
+  },
+  "hidden" : false,
+  "identity" : "cd91849b-cbf3-4a31-b774-4e7bd572fa37,SecurityRule;",
+  "key" : {
+    "id" : 151
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/ReadOdagLinkUsage",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "ReadOdagLinkUsage",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 151 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

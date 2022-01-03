@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 6271,
+    "category" : "Security",
+    "comment" : "Content admin should have access rights to content related entities",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "38344f23-2f8c-4b6d-9a38-b3ce0a9b3280",
+    "name" : "ContentAdmin",
+    "resourceFilter" : "Stream_*,App*,ReloadTask_*,ExternalProgramTask_*,UserSyncTask_*,SchemaEvent_*,User*,CustomProperty*,Tag_*,DataConnection_*,CompositeEvent_*,Extension_*,ContentLibrary_*,FileExtension_*,FileExtensionWhiteList_*,SystemNotification_*",
+    "rule" : "user.roles = \"ContentAdmin\"",
+    "ruleContext" : 2,
+    "schemaPath" : "SystemRule",
+    "seedId" : "5f57e8c8-c419-4b40-9bf5-8a0619444583",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 11
+  },
+  "hidden" : false,
+  "identity" : "38344f23-2f8c-4b6d-9a38-b3ce0a9b3280,SecurityRule;",
+  "key" : {
+    "id" : 150
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/ContentAdmin",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "ContentAdmin",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 150 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

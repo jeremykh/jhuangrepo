@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 2,
+    "category" : "Security",
+    "comment" : "Enable this rule along with isQmcCachingEnabled flag to support QMC-caching",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : true,
+    "id" : "821f1a60-04bb-43d2-85f0-65d5bc4298bc",
+    "name" : "QMCCachingSupport",
+    "resourceFilter" : "Execution*,*TaskOperational*",
+    "rule" : "!user.IsAnonymous()",
+    "ruleContext" : 2,
+    "schemaPath" : "SystemRule",
+    "seedId" : "cb55098e-e5c8-4cf8-9cde-0c37814b8b09",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 1
+  },
+  "hidden" : false,
+  "identity" : "821f1a60-04bb-43d2-85f0-65d5bc4298bc,SecurityRule;",
+  "key" : {
+    "id" : 149
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/QMCCachingSupport",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "QMCCachingSupport",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 149 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

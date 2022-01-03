@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 6,
+    "category" : "Security",
+    "comment" : "Deployment admin should have access rights to see and update apps in order to handle load balancing rules",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "184d43bc-a991-450e-93da-51bdd2d4796a",
+    "name" : "DeploymentAdminAppAccess",
+    "resourceFilter" : "App_*",
+    "rule" : "user.roles = \"DeploymentAdmin\"",
+    "ruleContext" : 2,
+    "schemaPath" : "SystemRule",
+    "seedId" : "006fb98e-f675-4646-b439-cb4fe2895bf5",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 2
+  },
+  "hidden" : false,
+  "identity" : "184d43bc-a991-450e-93da-51bdd2d4796a,SecurityRule;",
+  "key" : {
+    "id" : 148
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/DeploymentAdminAppAccess",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "DeploymentAdminAppAccess",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 148 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

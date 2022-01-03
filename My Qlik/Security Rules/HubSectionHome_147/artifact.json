@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 2,
+    "category" : "Security",
+    "comment" : "Allows all users to access the home hub section",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "dfc55fd2-f930-45f7-812b-6c595056026d",
+    "name" : "HubSectionHome",
+    "resourceFilter" : "HubSection_Home",
+    "rule" : "true",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "957861f4-d666-443e-a90d-441cd535d9b7",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 2
+  },
+  "hidden" : false,
+  "identity" : "dfc55fd2-f930-45f7-812b-6c595056026d,SecurityRule;",
+  "key" : {
+    "id" : 147
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/HubSectionHome",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "HubSectionHome",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 147 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}
