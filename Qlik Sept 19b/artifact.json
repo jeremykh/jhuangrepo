@@ -1,0 +1,189 @@
+{
+  "accessControlList" : [ {
+    "nodeId" : 1,
+    "permissions" : [ "TRAVERSE" ],
+    "principal" : "Anonymous User"
+  }, {
+    "nodeId" : 1,
+    "permissions" : [ "TRAVERSE" ],
+    "principal" : "Authenticated User"
+  }, {
+    "nodeId" : 26,
+    "permissions" : [ "READ", "TRAVERSE" ],
+    "principal" : "System Access"
+  }, {
+    "nodeId" : 26,
+    "permissions" : [ "READ", "WRITE", "EXECUTE", "TRAVERSE" ],
+    "principal" : "Administrator"
+  } ],
+  "activeVersioningEnabled" : false,
+  "activeVersioningRegistrationInterval" : 10,
+  "credential" : {
+    "domain" : "support-qlik1",
+    "qualifiedUserName" : "support-qlik1\\administrator",
+    "type" : ".QlikCredential",
+    "userName" : "administrator"
+  },
+  "deleted" : false,
+  "deploymentJobDefinitionKey" : {
+    "id" : 9
+  },
+  "deploymentSourceKeys" : {
+    "ids" : [ ]
+  },
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "excludedPaths" : [ ],
+  "findChangesJobDefinitionKey" : {
+    "id" : 8
+  },
+  "hasDeploymentSourceKeysEnabled" : false,
+  "hidden" : false,
+  "jobsFolderKey" : {
+    "id" : 28
+  },
+  "key" : {
+    "id" : 26
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik",
+    "subtypePath" : "-",
+    "typePath" : "PlatformNode"
+  },
+  "maxStreamCount" : 3,
+  "name" : "Qlik Sept 19b",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "path" : {
+    "ids" : [ 26 ]
+  },
+  "platformType" : "QlikNode",
+  "platformVersion" : "12.969.2",
+  "qlikEnvironment" : {
+    "@type" : "com.motio.soterre.system.qlik.api.extension.QlikEnvironment",
+    "activeVersioningEnabled" : false,
+    "activeVersioningRegistrationInterval" : 10,
+    "centralPort" : 443,
+    "clientCertPass" : "encrypted:HvIcyWDw0H0mssmsBKk1RSMNxb+5M52m",
+    "clientCertificate" : "c:\\newcerts\\support-qlik1\\client.pfx",
+    "deploymentServerName" : "",
+    "enginePort" : 4747,
+    "name" : "Qlik Sept 19b",
+    "objectLevelSecurityEnabled" : true,
+    "proxyCertPass" : "",
+    "proxyCertificate" : "",
+    "proxyServicePort" : 4243,
+    "repositoryServicePort" : 4242,
+    "rootCertPass" : "",
+    "rootCertificate" : "c:\\newcerts\\support-qlik1\\root.cer",
+    "serverName" : "support-qlik1",
+    "useSystemCredentialForAppReload" : false,
+    "virtualProxyWhiteList" : ""
+  },
+  "readAfterWriteDelay" : 3000,
+  "resolveDeploymentByPath" : false,
+  "restoreJobDefinitionKey" : {
+    "id" : 10
+  },
+  "roles" : [ {
+    "membershipRule" : {
+      "principals" : [ {
+        "name" : "Soterre Authenticated User",
+        "principalType" : "ThirdPartyPrincipal"
+      } ],
+      "type" : ".ThisNodeMembershipRule"
+    },
+    "name" : "System Access",
+    "type" : ".Role"
+  }, {
+    "membershipRule" : {
+      "principals" : [ {
+        "name" : "*/userId,Group,Role/Administrators",
+        "principalType" : "ThirdPartyPrincipal"
+      } ],
+      "type" : ".ThisNodeMembershipRule"
+    },
+    "name" : "Administrator",
+    "type" : ".Role"
+  }, {
+    "membershipRule" : {
+      "principals" : [ {
+        "name" : "Soterre Authenticated User",
+        "principalType" : "ThirdPartyPrincipal"
+      } ],
+      "type" : ".ThisNodeMembershipRule"
+    },
+    "name" : "Restore",
+    "type" : ".Role"
+  }, {
+    "membershipRule" : {
+      "principals" : [ {
+        "name" : "Soterre Authenticated User",
+        "principalType" : "ThirdPartyPrincipal"
+      } ],
+      "type" : ".ThisNodeMembershipRule"
+    },
+    "name" : "Deploy",
+    "type" : ".Role"
+  }, {
+    "membershipRule" : {
+      "principals" : [ {
+        "name" : "Soterre Authenticated User",
+        "principalType" : "ThirdPartyPrincipal"
+      } ],
+      "type" : ".ThisNodeMembershipRule"
+    },
+    "name" : "Receive Deployment",
+    "type" : ".Role"
+  }, {
+    "membershipRule" : {
+      "principals" : [ {
+        "name" : "Soterre Authenticated User",
+        "principalType" : "ThirdPartyPrincipal"
+      } ],
+      "type" : ".ThisNodeMembershipRule"
+    },
+    "name" : "Comment",
+    "type" : ".Role"
+  }, {
+    "membershipRule" : {
+      "principals" : [ {
+        "name" : "Soterre Authenticated User",
+        "principalType" : "ThirdPartyPrincipal"
+      } ],
+      "type" : ".ThisNodeMembershipRule"
+    },
+    "name" : "Access Deleted Artifacts",
+    "type" : ".Role"
+  }, {
+    "membershipRule" : {
+      "principals" : [ {
+        "name" : "Soterre Authenticated User",
+        "principalType" : "ThirdPartyPrincipal"
+      } ],
+      "type" : ".ThisNodeMembershipRule"
+    },
+    "name" : "Access Soterre Logs",
+    "type" : ".Role"
+  }, {
+    "membershipRule" : {
+      "principals" : [ {
+        "name" : "Soterre Authenticated User",
+        "principalType" : "ThirdPartyPrincipal"
+      } ],
+      "type" : ".ThisNodeMembershipRule"
+    },
+    "name" : "Save Jobs",
+    "type" : ".Role"
+  } ],
+  "securityProvider" : true,
+  "shouldVersion" : true,
+  "tagsFolderKey" : {
+    "id" : 27
+  },
+  "type" : "QlikNode",
+  "undoDeploymentJobDefinitionKey" : {
+    "id" : 11
+  }
+}
