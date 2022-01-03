@@ -1,0 +1,53 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "architecture" : 0,
+    "connectionstring" : "C:\\Users\\dmy\\Documents\\Qlik\\Sense\\Apps\\",
+    "createdDate" : "2021-05-19T23:08:32.009Z",
+    "customProperties" : [ ],
+    "engineObjectId" : "1af01fa1-1bdd-4fc0-be95-374a568b93a6",
+    "id" : "1af01fa1-1bdd-4fc0-be95-374a568b93a6",
+    "logOn" : 0,
+    "name" : "Apps",
+    "owner" : {
+      "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+      "name" : "Administrator",
+      "userDirectory" : "SUPPORT-QLIK1",
+      "userDirectoryConnectorName" : "SUPPORT-QLIK1",
+      "userId" : "administrator"
+    },
+    "schemaPath" : "DataConnection",
+    "tags" : [ ],
+    "type" : "folder",
+    "username" : ""
+  },
+  "hidden" : false,
+  "identity" : "1af01fa1-1bdd-4fc0-be95-374a568b93a6,DataConnection;",
+  "key" : {
+    "id" : 58
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Data Connections/Apps",
+    "subtypePath" : "-/QlikDataConnection/QlikDataConnection",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "Apps",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 40
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 40, 58 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "DataConnection",
+  "shouldVersion" : true,
+  "subtype" : "QlikDataConnection",
+  "type" : "QlikArtifact"
+}
