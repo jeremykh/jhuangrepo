@@ -1,0 +1,118 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "14716c8f31927759ec36b7d35af5eec7b1b3f708",
+      "contentName" : "content",
+      "contentOid" : 18289,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "createdDate" : "2021-05-19T23:02:37.402Z",
+    "customProperties" : [ ],
+    "id" : "55f4592b-522e-4572-ba69-f1b0d709fcf2",
+    "name" : "slideshow-template",
+    "owner" : {
+      "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+      "name" : "sa_repository",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_repository"
+    },
+    "references" : [ {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\slideshow-template\\dark.jpg",
+      "externalPath" : "/extensions/slideshow-template/dark.jpg",
+      "id" : "5e037fc1-c26f-4545-8fbf-266953c45138",
+      "logicalPath" : "/extensions/slideshow-template/dark.jpg",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\slideshow-template\\iron1.jpg",
+      "externalPath" : "/extensions/slideshow-template/iron1.jpg",
+      "id" : "8a573eb0-a12e-4c02-b3e2-4cd556bd0b9d",
+      "logicalPath" : "/extensions/slideshow-template/iron1.jpg",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\slideshow-template\\iron2.jpg",
+      "externalPath" : "/extensions/slideshow-template/iron2.jpg",
+      "id" : "80402a4f-eecc-4443-9471-bf02c1e84e87",
+      "logicalPath" : "/extensions/slideshow-template/iron2.jpg",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\slideshow-template\\slideshow-template.css",
+      "externalPath" : "/extensions/slideshow-template/slideshow-template.css",
+      "id" : "b21b761a-98c0-40cf-9aff-0b4c4fdb4a0d",
+      "logicalPath" : "/extensions/slideshow-template/slideshow-template.css",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\slideshow-template\\slideshow-template.html",
+      "externalPath" : "/extensions/slideshow-template/slideshow-template.html",
+      "id" : "131dcffd-954e-48bf-be06-cf3ce6bd9035",
+      "logicalPath" : "/extensions/slideshow-template/slideshow-template.html",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\slideshow-template\\slideshow-template.js",
+      "externalPath" : "/extensions/slideshow-template/slideshow-template.js",
+      "id" : "1c4ffd13-e663-426e-ab6a-ee756b3846f6",
+      "logicalPath" : "/extensions/slideshow-template/slideshow-template.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\slideshow-template\\slideshow-template.qext",
+      "externalPath" : "/extensions/slideshow-template/slideshow-template.qext",
+      "id" : "b6b4e4d9-1a15-4862-a354-0397cdea2866",
+      "logicalPath" : "/extensions/slideshow-template/slideshow-template.qext",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\slideshow-template\\wbfolder.wbl",
+      "externalPath" : "/extensions/slideshow-template/wbfolder.wbl",
+      "id" : "42b6b197-917b-472b-bf77-16ae13e9c684",
+      "logicalPath" : "/extensions/slideshow-template/wbfolder.wbl",
+      "privileges" : null,
+      "serveOptions" : 0
+    } ],
+    "schemaPath" : "Extension",
+    "tags" : [ ],
+    "whiteList" : {
+      "id" : "0106f312-d616-4a72-84a1-12d57bf25aef",
+      "libraryType" : 3,
+      "privileges" : null
+    }
+  },
+  "hidden" : false,
+  "identity" : "slideshow-template,Extension;",
+  "key" : {
+    "id" : 69
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Extensions/slideshow-template",
+    "subtypePath" : "-/QlikExtension/QlikExtension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "slideshow-template",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 38
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 38, 69 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Extension",
+  "shouldVersion" : true,
+  "subtype" : "QlikExtension",
+  "type" : "QlikArtifact"
+}

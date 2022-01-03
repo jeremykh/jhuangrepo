@@ -1,0 +1,42 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "choiceValues" : [ "Dashboard-bundle", "Visualization-bundle" ],
+    "createdDate" : "2021-05-19T23:03:01.163Z",
+    "description" : "",
+    "id" : "e959980b-ff83-40f1-a1bc-68387af8e3ae",
+    "name" : "ExtensionBundle",
+    "objectTypes" : [ "Extension" ],
+    "schemaPath" : "CustomPropertyDefinition",
+    "valueType" : "Text"
+  },
+  "hidden" : false,
+  "identity" : "e959980b-ff83-40f1-a1bc-68387af8e3ae,CustomProperty;",
+  "key" : {
+    "id" : 66
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Custom Properties/ExtensionBundle",
+    "subtypePath" : "-/QlikCustomProperty/QlikCustomProperty",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "ExtensionBundle",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 34
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 34, 66 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "CustomProperty",
+  "shouldVersion" : true,
+  "subtype" : "QlikCustomProperty",
+  "type" : "QlikArtifact"
+}

@@ -1,0 +1,104 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "6fec39c8861634def4e4cadb2f0446d36664d070",
+      "contentName" : "content",
+      "contentOid" : 18296,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "createdDate" : "2021-05-19T23:02:36.123Z",
+    "customProperties" : [ ],
+    "id" : "bef7eeca-486b-4bde-9497-338bd5afef6c",
+    "name" : "plant-template",
+    "owner" : {
+      "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+      "name" : "sa_repository",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_repository"
+    },
+    "references" : [ {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\plant-template\\leaf.jpg",
+      "externalPath" : "/extensions/plant-template/leaf.jpg",
+      "id" : "0a7cea11-b943-4e64-ae3b-a739eac4d08a",
+      "logicalPath" : "/extensions/plant-template/leaf.jpg",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\plant-template\\plant-template.css",
+      "externalPath" : "/extensions/plant-template/plant-template.css",
+      "id" : "86bfd63e-d0b9-47fe-83ec-e7830cef7b74",
+      "logicalPath" : "/extensions/plant-template/plant-template.css",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\plant-template\\plant-template.html",
+      "externalPath" : "/extensions/plant-template/plant-template.html",
+      "id" : "8c87b38f-f13b-49ce-ab4e-3194d59b3592",
+      "logicalPath" : "/extensions/plant-template/plant-template.html",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\plant-template\\plant-template.js",
+      "externalPath" : "/extensions/plant-template/plant-template.js",
+      "id" : "0809b47e-ae99-4907-af36-7dab62c51f73",
+      "logicalPath" : "/extensions/plant-template/plant-template.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\plant-template\\plant-template.qext",
+      "externalPath" : "/extensions/plant-template/plant-template.qext",
+      "id" : "f5c6150d-2400-4bfe-8142-42bc07b447fb",
+      "logicalPath" : "/extensions/plant-template/plant-template.qext",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\plant-template\\wbfolder.wbl",
+      "externalPath" : "/extensions/plant-template/wbfolder.wbl",
+      "id" : "30eb2906-b9cc-4acb-ad62-6d5e4aacf045",
+      "logicalPath" : "/extensions/plant-template/wbfolder.wbl",
+      "privileges" : null,
+      "serveOptions" : 0
+    } ],
+    "schemaPath" : "Extension",
+    "tags" : [ ],
+    "whiteList" : {
+      "id" : "0106f312-d616-4a72-84a1-12d57bf25aef",
+      "libraryType" : 3,
+      "privileges" : null
+    }
+  },
+  "hidden" : false,
+  "identity" : "plant-template,Extension;",
+  "key" : {
+    "id" : 75
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Extensions/plant-template",
+    "subtypePath" : "-/QlikExtension/QlikExtension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "plant-template",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 38
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 38, 75 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Extension",
+  "shouldVersion" : true,
+  "subtype" : "QlikExtension",
+  "type" : "QlikArtifact"
+}

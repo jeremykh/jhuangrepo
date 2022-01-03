@@ -1,0 +1,38 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "createdDate" : "2021-05-19T23:03:01.115Z",
+    "id" : "d105b679-9296-43cc-8e2c-dbd6a9ad21a7",
+    "name" : "Supported Extension",
+    "schemaPath" : "Tag"
+  },
+  "hidden" : false,
+  "identity" : "d105b679-9296-43cc-8e2c-dbd6a9ad21a7,Tag;",
+  "key" : {
+    "id" : 67
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Tags/Supported Extension",
+    "subtypePath" : "-/QlikTag/QlikTag",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "Supported Extension",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 37
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 37, 67 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Tag",
+  "shouldVersion" : true,
+  "subtype" : "QlikTag",
+  "type" : "QlikArtifact"
+}

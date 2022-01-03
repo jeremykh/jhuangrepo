@@ -1,0 +1,92 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "3f85e458cd7a5ab9d72e390e1361a1a967a89b2c",
+      "contentName" : "content",
+      "contentOid" : 18301,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "createdDate" : "2021-05-19T23:03:11.552Z",
+    "customProperties" : [ {
+      "definition" : {
+        "id" : "e959980b-ff83-40f1-a1bc-68387af8e3ae",
+        "name" : "ExtensionBundle"
+      },
+      "value" : "Visualization-bundle"
+    } ],
+    "id" : "d794d1fa-0ebf-431a-868b-9424dc941114",
+    "name" : "qlik-network-chart",
+    "owner" : {
+      "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+      "name" : "sa_repository",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_repository"
+    },
+    "references" : [ {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-network-chart\\network.png",
+      "externalPath" : "/extensions/qlik-network-chart/network.png",
+      "id" : "e0f09032-dbd0-476c-9048-20ad0c355c49",
+      "logicalPath" : "/extensions/qlik-network-chart/network.png",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-network-chart\\qlik-network-chart.js",
+      "externalPath" : "/extensions/qlik-network-chart/qlik-network-chart.js",
+      "id" : "80544cda-52fa-4c0f-b53f-09a7c9e7be1f",
+      "logicalPath" : "/extensions/qlik-network-chart/qlik-network-chart.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-network-chart\\qlik-network-chart.qext",
+      "externalPath" : "/extensions/qlik-network-chart/qlik-network-chart.qext",
+      "id" : "83894278-6787-4485-853d-c23ab54be5e7",
+      "logicalPath" : "/extensions/qlik-network-chart/qlik-network-chart.qext",
+      "privileges" : null,
+      "serveOptions" : 0
+    } ],
+    "schemaPath" : "Extension",
+    "tags" : [ {
+      "id" : "d105b679-9296-43cc-8e2c-dbd6a9ad21a7",
+      "name" : "Supported Extension"
+    } ],
+    "whiteList" : {
+      "id" : "0106f312-d616-4a72-84a1-12d57bf25aef",
+      "libraryType" : 3,
+      "privileges" : null
+    }
+  },
+  "hidden" : false,
+  "identity" : "qlik-network-chart,Extension;",
+  "key" : {
+    "id" : 80
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Extensions/qlik-network-chart",
+    "subtypePath" : "-/QlikExtension/QlikExtension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "qlik-network-chart",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 38
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 38, 80 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Extension",
+  "shouldVersion" : true,
+  "subtype" : "QlikExtension",
+  "type" : "QlikArtifact"
+}

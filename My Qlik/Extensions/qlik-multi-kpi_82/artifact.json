@@ -1,0 +1,99 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "430f5ca23d90c29fc4f90a49eea09178cf572ad8",
+      "contentName" : "content",
+      "contentOid" : 18303,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "createdDate" : "2021-05-19T23:03:11.345Z",
+    "customProperties" : [ {
+      "definition" : {
+        "id" : "e959980b-ff83-40f1-a1bc-68387af8e3ae",
+        "name" : "ExtensionBundle"
+      },
+      "value" : "Visualization-bundle"
+    } ],
+    "id" : "acbc20b6-8fe6-41a4-bbf2-a359a7abf72d",
+    "name" : "qlik-multi-kpi",
+    "owner" : {
+      "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+      "name" : "sa_repository",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_repository"
+    },
+    "references" : [ {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-multi-kpi\\multikpi.png",
+      "externalPath" : "/extensions/qlik-multi-kpi/multikpi.png",
+      "id" : "0ab76ab3-620e-4dfc-b5ee-b0e5cfd20d31",
+      "logicalPath" : "/extensions/qlik-multi-kpi/multikpi.png",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-multi-kpi\\qlik-multi-kpi.css",
+      "externalPath" : "/extensions/qlik-multi-kpi/qlik-multi-kpi.css",
+      "id" : "d9e49f23-5e93-4780-8418-9769cfbf1f27",
+      "logicalPath" : "/extensions/qlik-multi-kpi/qlik-multi-kpi.css",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-multi-kpi\\qlik-multi-kpi.js",
+      "externalPath" : "/extensions/qlik-multi-kpi/qlik-multi-kpi.js",
+      "id" : "520d4a1c-7c7e-4527-8962-883a2e7c5863",
+      "logicalPath" : "/extensions/qlik-multi-kpi/qlik-multi-kpi.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-multi-kpi\\qlik-multi-kpi.qext",
+      "externalPath" : "/extensions/qlik-multi-kpi/qlik-multi-kpi.qext",
+      "id" : "5bb2f082-fcb8-4d0d-acfa-534c984585f4",
+      "logicalPath" : "/extensions/qlik-multi-kpi/qlik-multi-kpi.qext",
+      "privileges" : null,
+      "serveOptions" : 0
+    } ],
+    "schemaPath" : "Extension",
+    "tags" : [ {
+      "id" : "d105b679-9296-43cc-8e2c-dbd6a9ad21a7",
+      "name" : "Supported Extension"
+    } ],
+    "whiteList" : {
+      "id" : "0106f312-d616-4a72-84a1-12d57bf25aef",
+      "libraryType" : 3,
+      "privileges" : null
+    }
+  },
+  "hidden" : false,
+  "identity" : "qlik-multi-kpi,Extension;",
+  "key" : {
+    "id" : 82
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Extensions/qlik-multi-kpi",
+    "subtypePath" : "-/QlikExtension/QlikExtension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "qlik-multi-kpi",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 38
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 38, 82 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Extension",
+  "shouldVersion" : true,
+  "subtype" : "QlikExtension",
+  "type" : "QlikArtifact"
+}

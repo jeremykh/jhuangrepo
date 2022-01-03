@@ -1,0 +1,97 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "f5efa4529023047b17b87aa01b8f7f35e97ed752",
+      "contentName" : "content",
+      "contentOid" : 18292,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "createdDate" : "2021-05-19T23:02:23.820Z",
+    "customProperties" : [ ],
+    "id" : "68868c4f-4662-41b6-88de-475bb5d016e8",
+    "name" : "basic-mashup-template",
+    "owner" : {
+      "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+      "name" : "sa_repository",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_repository"
+    },
+    "references" : [ {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\basic-mashup-template\\basic-mashup-template.css",
+      "externalPath" : "/extensions/basic-mashup-template/basic-mashup-template.css",
+      "id" : "f271a93e-ce13-452d-a498-ba0184bb82ac",
+      "logicalPath" : "/extensions/basic-mashup-template/basic-mashup-template.css",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\basic-mashup-template\\basic-mashup-template.html",
+      "externalPath" : "/extensions/basic-mashup-template/basic-mashup-template.html",
+      "id" : "933f0431-4d64-4f23-afc9-404e550a6ead",
+      "logicalPath" : "/extensions/basic-mashup-template/basic-mashup-template.html",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\basic-mashup-template\\basic-mashup-template.js",
+      "externalPath" : "/extensions/basic-mashup-template/basic-mashup-template.js",
+      "id" : "a9a83a89-4ae4-46e5-949c-b985a1a8deca",
+      "logicalPath" : "/extensions/basic-mashup-template/basic-mashup-template.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\basic-mashup-template\\basic-mashup-template.qext",
+      "externalPath" : "/extensions/basic-mashup-template/basic-mashup-template.qext",
+      "id" : "f9e9687b-6ac4-43bc-96c3-7de6a348e0a0",
+      "logicalPath" : "/extensions/basic-mashup-template/basic-mashup-template.qext",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\basic-mashup-template\\wbfolder.wbl",
+      "externalPath" : "/extensions/basic-mashup-template/wbfolder.wbl",
+      "id" : "ec552433-824b-4a67-9dd6-4d33982c427d",
+      "logicalPath" : "/extensions/basic-mashup-template/wbfolder.wbl",
+      "privileges" : null,
+      "serveOptions" : 0
+    } ],
+    "schemaPath" : "Extension",
+    "tags" : [ ],
+    "whiteList" : {
+      "id" : "0106f312-d616-4a72-84a1-12d57bf25aef",
+      "libraryType" : 3,
+      "privileges" : null
+    }
+  },
+  "hidden" : false,
+  "identity" : "basic-mashup-template,Extension;",
+  "key" : {
+    "id" : 72
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Extensions/basic-mashup-template",
+    "subtypePath" : "-/QlikExtension/QlikExtension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "basic-mashup-template",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 38
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 38, 72 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Extension",
+  "shouldVersion" : true,
+  "subtype" : "QlikExtension",
+  "type" : "QlikArtifact"
+}

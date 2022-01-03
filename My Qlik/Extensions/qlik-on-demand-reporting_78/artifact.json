@@ -1,0 +1,127 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "2c86fec596bae1a0695ba8ae530cef23e88bb55e",
+      "contentName" : "content",
+      "contentOid" : 18298,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "createdDate" : "2021-08-24T15:05:38.988Z",
+    "customProperties" : [ {
+      "definition" : {
+        "id" : "e959980b-ff83-40f1-a1bc-68387af8e3ae",
+        "name" : "ExtensionBundle"
+      },
+      "value" : "Dashboard-bundle"
+    } ],
+    "id" : "8d0dde29-5225-4695-8622-abf29df8376d",
+    "name" : "qlik-on-demand-reporting",
+    "owner" : {
+      "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+      "name" : "sa_repository",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_repository"
+    },
+    "references" : [ {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-on-demand-reporting\\js\\helpers.js",
+      "externalPath" : "/extensions/qlik-on-demand-reporting/js/helpers.js",
+      "id" : "eba133d9-5f65-40d4-b112-1935c8f259db",
+      "logicalPath" : "/extensions/qlik-on-demand-reporting/js/helpers.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-on-demand-reporting\\js\\properties.js",
+      "externalPath" : "/extensions/qlik-on-demand-reporting/js/properties.js",
+      "id" : "e2365d92-360a-41c1-af54-03c142453d72",
+      "logicalPath" : "/extensions/qlik-on-demand-reporting/js/properties.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-on-demand-reporting\\template\\view-main-single.html",
+      "externalPath" : "/extensions/qlik-on-demand-reporting/template/view-main-single.html",
+      "id" : "011ca73b-1f3e-4988-96dc-0178e81bdc1c",
+      "logicalPath" : "/extensions/qlik-on-demand-reporting/template/view-main-single.html",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-on-demand-reporting\\template\\view-popup.html",
+      "externalPath" : "/extensions/qlik-on-demand-reporting/template/view-popup.html",
+      "id" : "07c951c3-c04a-4b6c-b8be-4ec45fedbddc",
+      "logicalPath" : "/extensions/qlik-on-demand-reporting/template/view-popup.html",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-on-demand-reporting\\qlik-on-demand-reporting.js",
+      "externalPath" : "/extensions/qlik-on-demand-reporting/qlik-on-demand-reporting.js",
+      "id" : "bbf2724b-8102-47a5-a4eb-4967280f00ef",
+      "logicalPath" : "/extensions/qlik-on-demand-reporting/qlik-on-demand-reporting.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-on-demand-reporting\\qlik-on-demand-reporting.qext",
+      "externalPath" : "/extensions/qlik-on-demand-reporting/qlik-on-demand-reporting.qext",
+      "id" : "087683ea-1123-4bf7-949e-b6a8bed546e7",
+      "logicalPath" : "/extensions/qlik-on-demand-reporting/qlik-on-demand-reporting.qext",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-on-demand-reporting\\css\\qlik-on-demand-reporting.css",
+      "externalPath" : "/extensions/qlik-on-demand-reporting/css/qlik-on-demand-reporting.css",
+      "id" : "9615f93b-cbc2-4ab6-99a5-326e54e58cc8",
+      "logicalPath" : "/extensions/qlik-on-demand-reporting/css/qlik-on-demand-reporting.css",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-on-demand-reporting\\images\\preview.png",
+      "externalPath" : "/extensions/qlik-on-demand-reporting/images/preview.png",
+      "id" : "3b11f5e1-af30-436e-bda3-cc8b53811a6e",
+      "logicalPath" : "/extensions/qlik-on-demand-reporting/images/preview.png",
+      "privileges" : null,
+      "serveOptions" : 0
+    } ],
+    "schemaPath" : "Extension",
+    "tags" : [ {
+      "id" : "d105b679-9296-43cc-8e2c-dbd6a9ad21a7",
+      "name" : "Supported Extension"
+    } ],
+    "whiteList" : {
+      "id" : "0106f312-d616-4a72-84a1-12d57bf25aef",
+      "libraryType" : 3,
+      "privileges" : null
+    }
+  },
+  "hidden" : false,
+  "identity" : "qlik-on-demand-reporting,Extension;",
+  "key" : {
+    "id" : 78
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Extensions/qlik-on-demand-reporting",
+    "subtypePath" : "-/QlikExtension/QlikExtension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "qlik-on-demand-reporting",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 38
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 38, 78 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Extension",
+  "shouldVersion" : true,
+  "subtype" : "QlikExtension",
+  "type" : "QlikArtifact"
+}

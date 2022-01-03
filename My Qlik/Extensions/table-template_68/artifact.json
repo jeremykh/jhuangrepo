@@ -1,0 +1,90 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "3d24e2d58afd2d2f7f243560ec8469680b836ae5",
+      "contentName" : "content",
+      "contentOid" : 18288,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "createdDate" : "2021-05-19T23:02:38.110Z",
+    "customProperties" : [ ],
+    "id" : "45ae348f-367c-4a0c-a193-ca0936c0ebc3",
+    "name" : "table-template",
+    "owner" : {
+      "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+      "name" : "sa_repository",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_repository"
+    },
+    "references" : [ {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\table-template\\style.css",
+      "externalPath" : "/extensions/table-template/style.css",
+      "id" : "00a5116a-9cea-4ef2-88c3-ee6f3b2bc882",
+      "logicalPath" : "/extensions/table-template/style.css",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\table-template\\table-template.js",
+      "externalPath" : "/extensions/table-template/table-template.js",
+      "id" : "49f91876-798a-41a9-ae01-fdb24af93ec2",
+      "logicalPath" : "/extensions/table-template/table-template.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\table-template\\table-template.qext",
+      "externalPath" : "/extensions/table-template/table-template.qext",
+      "id" : "315e6ea0-6d07-49a4-a031-7daa1711f83c",
+      "logicalPath" : "/extensions/table-template/table-template.qext",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\table-template\\wbfolder.wbl",
+      "externalPath" : "/extensions/table-template/wbfolder.wbl",
+      "id" : "50ddf985-fbdd-4b35-a492-9d2bbef30cb9",
+      "logicalPath" : "/extensions/table-template/wbfolder.wbl",
+      "privileges" : null,
+      "serveOptions" : 0
+    } ],
+    "schemaPath" : "Extension",
+    "tags" : [ ],
+    "whiteList" : {
+      "id" : "0106f312-d616-4a72-84a1-12d57bf25aef",
+      "libraryType" : 3,
+      "privileges" : null
+    }
+  },
+  "hidden" : false,
+  "identity" : "table-template,Extension;",
+  "key" : {
+    "id" : 68
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Extensions/table-template",
+    "subtypePath" : "-/QlikExtension/QlikExtension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "table-template",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 38
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 38, 68 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Extension",
+  "shouldVersion" : true,
+  "subtype" : "QlikExtension",
+  "type" : "QlikArtifact"
+}

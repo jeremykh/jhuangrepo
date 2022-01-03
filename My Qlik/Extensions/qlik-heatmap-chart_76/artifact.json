@@ -1,0 +1,92 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "63aa980aca69003f833d66d9e70c61edb99f8f85",
+      "contentName" : "content",
+      "contentOid" : 18295,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "createdDate" : "2021-05-19T23:03:11.229Z",
+    "customProperties" : [ {
+      "definition" : {
+        "id" : "e959980b-ff83-40f1-a1bc-68387af8e3ae",
+        "name" : "ExtensionBundle"
+      },
+      "value" : "Visualization-bundle"
+    } ],
+    "id" : "9fe25086-3191-4a22-b4ef-d4b4ff400bd4",
+    "name" : "qlik-heatmap-chart",
+    "owner" : {
+      "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+      "name" : "sa_repository",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_repository"
+    },
+    "references" : [ {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-heatmap-chart\\heatmap.png",
+      "externalPath" : "/extensions/qlik-heatmap-chart/heatmap.png",
+      "id" : "4eb7fb1a-6789-4f75-8d9b-646600e95f27",
+      "logicalPath" : "/extensions/qlik-heatmap-chart/heatmap.png",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-heatmap-chart\\qlik-heatmap-chart.js",
+      "externalPath" : "/extensions/qlik-heatmap-chart/qlik-heatmap-chart.js",
+      "id" : "6479c84f-7b02-4ff5-8d49-b0065d1aef26",
+      "logicalPath" : "/extensions/qlik-heatmap-chart/qlik-heatmap-chart.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-heatmap-chart\\qlik-heatmap-chart.qext",
+      "externalPath" : "/extensions/qlik-heatmap-chart/qlik-heatmap-chart.qext",
+      "id" : "916476b1-039e-4c87-8fbd-abf97f39e01e",
+      "logicalPath" : "/extensions/qlik-heatmap-chart/qlik-heatmap-chart.qext",
+      "privileges" : null,
+      "serveOptions" : 0
+    } ],
+    "schemaPath" : "Extension",
+    "tags" : [ {
+      "id" : "d105b679-9296-43cc-8e2c-dbd6a9ad21a7",
+      "name" : "Supported Extension"
+    } ],
+    "whiteList" : {
+      "id" : "0106f312-d616-4a72-84a1-12d57bf25aef",
+      "libraryType" : 3,
+      "privileges" : null
+    }
+  },
+  "hidden" : false,
+  "identity" : "qlik-heatmap-chart,Extension;",
+  "key" : {
+    "id" : 76
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Extensions/qlik-heatmap-chart",
+    "subtypePath" : "-/QlikExtension/QlikExtension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "qlik-heatmap-chart",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 38
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 38, 76 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Extension",
+  "shouldVersion" : true,
+  "subtype" : "QlikExtension",
+  "type" : "QlikArtifact"
+}

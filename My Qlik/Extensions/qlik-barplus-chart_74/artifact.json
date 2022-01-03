@@ -1,0 +1,92 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "4c0fb0c34a207fc1ac08a3e8a6e52c1cb1c12edb",
+      "contentName" : "content",
+      "contentOid" : 18294,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "createdDate" : "2021-05-19T23:03:10.582Z",
+    "customProperties" : [ {
+      "definition" : {
+        "id" : "e959980b-ff83-40f1-a1bc-68387af8e3ae",
+        "name" : "ExtensionBundle"
+      },
+      "value" : "Visualization-bundle"
+    } ],
+    "id" : "ea90ec8e-1649-40d0-8c25-2c9775d1bf26",
+    "name" : "qlik-barplus-chart",
+    "owner" : {
+      "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+      "name" : "sa_repository",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_repository"
+    },
+    "references" : [ {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-barplus-chart\\qlik-barplus-chart.js",
+      "externalPath" : "/extensions/qlik-barplus-chart/qlik-barplus-chart.js",
+      "id" : "2091aec8-1644-456e-8530-12d11236deff",
+      "logicalPath" : "/extensions/qlik-barplus-chart/qlik-barplus-chart.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-barplus-chart\\qlik-barplus-chart.png",
+      "externalPath" : "/extensions/qlik-barplus-chart/qlik-barplus-chart.png",
+      "id" : "39dba09f-1e83-42b1-bdf1-a05f45dbb66e",
+      "logicalPath" : "/extensions/qlik-barplus-chart/qlik-barplus-chart.png",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-barplus-chart\\qlik-barplus-chart.qext",
+      "externalPath" : "/extensions/qlik-barplus-chart/qlik-barplus-chart.qext",
+      "id" : "691e860a-f680-4454-915d-80e19c9ff9f0",
+      "logicalPath" : "/extensions/qlik-barplus-chart/qlik-barplus-chart.qext",
+      "privileges" : null,
+      "serveOptions" : 0
+    } ],
+    "schemaPath" : "Extension",
+    "tags" : [ {
+      "id" : "d105b679-9296-43cc-8e2c-dbd6a9ad21a7",
+      "name" : "Supported Extension"
+    } ],
+    "whiteList" : {
+      "id" : "0106f312-d616-4a72-84a1-12d57bf25aef",
+      "libraryType" : 3,
+      "privileges" : null
+    }
+  },
+  "hidden" : false,
+  "identity" : "qlik-barplus-chart,Extension;",
+  "key" : {
+    "id" : 74
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Extensions/qlik-barplus-chart",
+    "subtypePath" : "-/QlikExtension/QlikExtension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "qlik-barplus-chart",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 38
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 38, 74 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Extension",
+  "shouldVersion" : true,
+  "subtype" : "QlikExtension",
+  "type" : "QlikArtifact"
+}

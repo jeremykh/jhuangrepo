@@ -1,0 +1,106 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "6716e4aed4fbab0a1ab0407af92ca3fcfaac10f4",
+      "contentName" : "content",
+      "contentOid" : 18299,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "createdDate" : "2021-05-19T23:03:04.331Z",
+    "customProperties" : [ {
+      "definition" : {
+        "id" : "e959980b-ff83-40f1-a1bc-68387af8e3ae",
+        "name" : "ExtensionBundle"
+      },
+      "value" : "Dashboard-bundle"
+    } ],
+    "id" : "1f8a6f1b-848b-4491-a278-30b2b5e913c5",
+    "name" : "qlik-animator",
+    "owner" : {
+      "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+      "name" : "sa_repository",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_repository"
+    },
+    "references" : [ {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-animator\\qlik-animator.js",
+      "externalPath" : "/extensions/qlik-animator/qlik-animator.js",
+      "id" : "6ace4f0c-6acc-4e9a-9f4a-824268f5822a",
+      "logicalPath" : "/extensions/qlik-animator/qlik-animator.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-animator\\qlik-animator.qext",
+      "externalPath" : "/extensions/qlik-animator/qlik-animator.qext",
+      "id" : "480115e0-3ecb-408b-a1f0-e032e5809186",
+      "logicalPath" : "/extensions/qlik-animator/qlik-animator.qext",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-animator\\qlik-animator.svg",
+      "externalPath" : "/extensions/qlik-animator/qlik-animator.svg",
+      "id" : "bd1cf4d5-b5d9-4958-96c9-2bc74c50920e",
+      "logicalPath" : "/extensions/qlik-animator/qlik-animator.svg",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-animator\\qlikanimatoricon-preview.png",
+      "externalPath" : "/extensions/qlik-animator/qlikanimatoricon-preview.png",
+      "id" : "f4f1d310-5f24-4838-97c8-395227d0286a",
+      "logicalPath" : "/extensions/qlik-animator/qlikanimatoricon-preview.png",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-animator\\qlikanimatoricon.png",
+      "externalPath" : "/extensions/qlik-animator/qlikanimatoricon.png",
+      "id" : "4bbb6c16-ef34-436c-953e-e1a5cfa884fe",
+      "logicalPath" : "/extensions/qlik-animator/qlikanimatoricon.png",
+      "privileges" : null,
+      "serveOptions" : 0
+    } ],
+    "schemaPath" : "Extension",
+    "tags" : [ {
+      "id" : "d105b679-9296-43cc-8e2c-dbd6a9ad21a7",
+      "name" : "Supported Extension"
+    } ],
+    "whiteList" : {
+      "id" : "0106f312-d616-4a72-84a1-12d57bf25aef",
+      "libraryType" : 3,
+      "privileges" : null
+    }
+  },
+  "hidden" : false,
+  "identity" : "qlik-animator,Extension;",
+  "key" : {
+    "id" : 79
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Extensions/qlik-animator",
+    "subtypePath" : "-/QlikExtension/QlikExtension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "qlik-animator",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 38
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 38, 79 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Extension",
+  "shouldVersion" : true,
+  "subtype" : "QlikExtension",
+  "type" : "QlikArtifact"
+}

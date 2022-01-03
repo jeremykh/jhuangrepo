@@ -1,0 +1,92 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "288ff7703f0598646be19bd6a635a1380ce41edf",
+      "contentName" : "content",
+      "contentOid" : 18305,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "createdDate" : "2021-05-19T23:03:11.862Z",
+    "customProperties" : [ {
+      "definition" : {
+        "id" : "e959980b-ff83-40f1-a1bc-68387af8e3ae",
+        "name" : "ExtensionBundle"
+      },
+      "value" : "Visualization-bundle"
+    } ],
+    "id" : "99c238a3-d3ee-4655-bc66-159f219d60bc",
+    "name" : "qlik-radar-chart",
+    "owner" : {
+      "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+      "name" : "sa_repository",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_repository"
+    },
+    "references" : [ {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-radar-chart\\qlik-radar-chart.js",
+      "externalPath" : "/extensions/qlik-radar-chart/qlik-radar-chart.js",
+      "id" : "fef068ea-5176-44ff-aadd-95022544f15b",
+      "logicalPath" : "/extensions/qlik-radar-chart/qlik-radar-chart.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-radar-chart\\qlik-radar-chart.png",
+      "externalPath" : "/extensions/qlik-radar-chart/qlik-radar-chart.png",
+      "id" : "063d34f2-e669-4ebe-8d55-8520b69d39fe",
+      "logicalPath" : "/extensions/qlik-radar-chart/qlik-radar-chart.png",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-radar-chart\\qlik-radar-chart.qext",
+      "externalPath" : "/extensions/qlik-radar-chart/qlik-radar-chart.qext",
+      "id" : "e5faaf18-a38d-4636-ab6d-49819ae28d94",
+      "logicalPath" : "/extensions/qlik-radar-chart/qlik-radar-chart.qext",
+      "privileges" : null,
+      "serveOptions" : 0
+    } ],
+    "schemaPath" : "Extension",
+    "tags" : [ {
+      "id" : "d105b679-9296-43cc-8e2c-dbd6a9ad21a7",
+      "name" : "Supported Extension"
+    } ],
+    "whiteList" : {
+      "id" : "0106f312-d616-4a72-84a1-12d57bf25aef",
+      "libraryType" : 3,
+      "privileges" : null
+    }
+  },
+  "hidden" : false,
+  "identity" : "qlik-radar-chart,Extension;",
+  "key" : {
+    "id" : 86
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Extensions/qlik-radar-chart",
+    "subtypePath" : "-/QlikExtension/QlikExtension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "qlik-radar-chart",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 38
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 38, 86 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Extension",
+  "shouldVersion" : true,
+  "subtype" : "QlikExtension",
+  "type" : "QlikArtifact"
+}

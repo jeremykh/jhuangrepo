@@ -1,0 +1,106 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "323541c540d514f53ebd86fc098eb96a489ea9ab",
+      "contentName" : "content",
+      "contentOid" : 18302,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "createdDate" : "2021-05-19T23:03:18.192Z",
+    "customProperties" : [ {
+      "definition" : {
+        "id" : "e959980b-ff83-40f1-a1bc-68387af8e3ae",
+        "name" : "ExtensionBundle"
+      },
+      "value" : "Dashboard-bundle"
+    } ],
+    "id" : "1524da9e-acfa-4555-818a-0745c5688b8d",
+    "name" : "qlik-tabbed-container",
+    "owner" : {
+      "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+      "name" : "sa_repository",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_repository"
+    },
+    "references" : [ {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-tabbed-container\\preview.png",
+      "externalPath" : "/extensions/qlik-tabbed-container/preview.png",
+      "id" : "cd7633d7-1143-4393-bfc6-41c3c76463df",
+      "logicalPath" : "/extensions/qlik-tabbed-container/preview.png",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-tabbed-container\\properties.js",
+      "externalPath" : "/extensions/qlik-tabbed-container/properties.js",
+      "id" : "de113734-0dd4-47b5-9403-a9f51062d2a6",
+      "logicalPath" : "/extensions/qlik-tabbed-container/properties.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-tabbed-container\\qlik-tabbed-container.js",
+      "externalPath" : "/extensions/qlik-tabbed-container/qlik-tabbed-container.js",
+      "id" : "6f5e8734-1523-48be-b00b-d6ff45b2a35d",
+      "logicalPath" : "/extensions/qlik-tabbed-container/qlik-tabbed-container.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-tabbed-container\\qlik-tabbed-container.qext",
+      "externalPath" : "/extensions/qlik-tabbed-container/qlik-tabbed-container.qext",
+      "id" : "212c6dee-5517-44a8-b298-a6e5a4c44777",
+      "logicalPath" : "/extensions/qlik-tabbed-container/qlik-tabbed-container.qext",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-tabbed-container\\css\\styles.css",
+      "externalPath" : "/extensions/qlik-tabbed-container/css/styles.css",
+      "id" : "99d1c033-4d8a-4b2b-905c-32c8c17f63a1",
+      "logicalPath" : "/extensions/qlik-tabbed-container/css/styles.css",
+      "privileges" : null,
+      "serveOptions" : 0
+    } ],
+    "schemaPath" : "Extension",
+    "tags" : [ {
+      "id" : "d105b679-9296-43cc-8e2c-dbd6a9ad21a7",
+      "name" : "Supported Extension"
+    } ],
+    "whiteList" : {
+      "id" : "0106f312-d616-4a72-84a1-12d57bf25aef",
+      "libraryType" : 3,
+      "privileges" : null
+    }
+  },
+  "hidden" : false,
+  "identity" : "qlik-tabbed-container,Extension;",
+  "key" : {
+    "id" : 83
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Extensions/qlik-tabbed-container",
+    "subtypePath" : "-/QlikExtension/QlikExtension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "qlik-tabbed-container",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 38
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 38, 83 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Extension",
+  "shouldVersion" : true,
+  "subtype" : "QlikExtension",
+  "type" : "QlikArtifact"
+}

@@ -1,0 +1,90 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "7a9379ed9720033ac8b2c42417ce2c525a1d1b45",
+      "contentName" : "content",
+      "contentOid" : 18300,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "createdDate" : "2021-05-19T23:02:33.294Z",
+    "customProperties" : [ ],
+    "id" : "6410ab30-2f74-41c2-9903-6378b76b0f3e",
+    "name" : "ng-basic-template",
+    "owner" : {
+      "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+      "name" : "sa_repository",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_repository"
+    },
+    "references" : [ {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\ng-basic-template\\ng-basic-template.js",
+      "externalPath" : "/extensions/ng-basic-template/ng-basic-template.js",
+      "id" : "a377012d-a37b-4ea7-b945-3e878eaf7ca5",
+      "logicalPath" : "/extensions/ng-basic-template/ng-basic-template.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\ng-basic-template\\ng-basic-template.qext",
+      "externalPath" : "/extensions/ng-basic-template/ng-basic-template.qext",
+      "id" : "9ec9d768-9f0e-46a7-a974-3d8a30fcb11c",
+      "logicalPath" : "/extensions/ng-basic-template/ng-basic-template.qext",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\ng-basic-template\\template.html",
+      "externalPath" : "/extensions/ng-basic-template/template.html",
+      "id" : "0f136d6e-9fce-48ac-9548-bfff3f3acf50",
+      "logicalPath" : "/extensions/ng-basic-template/template.html",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\ng-basic-template\\wbfolder.wbl",
+      "externalPath" : "/extensions/ng-basic-template/wbfolder.wbl",
+      "id" : "b64c4580-f540-4a92-b519-37456ffa3d50",
+      "logicalPath" : "/extensions/ng-basic-template/wbfolder.wbl",
+      "privileges" : null,
+      "serveOptions" : 0
+    } ],
+    "schemaPath" : "Extension",
+    "tags" : [ ],
+    "whiteList" : {
+      "id" : "0106f312-d616-4a72-84a1-12d57bf25aef",
+      "libraryType" : 3,
+      "privileges" : null
+    }
+  },
+  "hidden" : false,
+  "identity" : "ng-basic-template,Extension;",
+  "key" : {
+    "id" : 81
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Extensions/ng-basic-template",
+    "subtypePath" : "-/QlikExtension/QlikExtension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "ng-basic-template",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 38
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 38, 81 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Extension",
+  "shouldVersion" : true,
+  "subtype" : "QlikExtension",
+  "type" : "QlikArtifact"
+}
