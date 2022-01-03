@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 32,
+    "category" : "Security",
+    "comment" : "RootAdmin, ContentAdmin and SecurityAdmin should be able to publish to the default stream called Monitoring apps",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "d6dbe2b6-875e-4161-a882-8dd237adb355",
+    "name" : "StreamMonitoringAppsPublish",
+    "resourceFilter" : "Stream_a70ca8a5-1d59-4cc9-b5fa-6e207978dcaf",
+    "rule" : "user.roles = \"RootAdmin\" or user.roles = \"ContentAdmin\" or user.roles = \"SecurityAdmin\"",
+    "ruleContext" : 1,
+    "schemaPath" : "SystemRule",
+    "seedId" : "0d090e5d-714c-4ea7-8258-7232574db512",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 1
+  },
+  "hidden" : false,
+  "identity" : "d6dbe2b6-875e-4161-a882-8dd237adb355,SecurityRule;",
+  "key" : {
+    "id" : 133
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/StreamMonitoringAppsPublish",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "StreamMonitoringAppsPublish",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 133 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

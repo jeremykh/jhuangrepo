@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 2,
+    "category" : "Security",
+    "comment" : "Content admin should have access rights to content related sections",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "5d3f8a01-072a-410a-932b-df0f241d7405",
+    "name" : "ContentAdminQmcSections",
+    "resourceFilter" : "License_*,TermsAcceptance_*,QmcSection_Stream,QmcSection_App,QmcSection_App.Object,QmcSection_AppDistributionStatus,QmcSection_CloudDistribution,QmcSection_DataConnection,QmcSection_Tag,QmcSection_User,QmcSection_CustomPropertyDefinition,QmcSection_Task,QmcSection_Event,QmcSection_SchemaEvent,QmcSection_CompositeEvent,QmcSection_Extension,QmcSection_ReloadTask,QmcSection_UserSyncTask,QmcSection_ContentLibrary,QmcSection_Audit,QmcSection_AnalyticConnection,QmcSection_SystemNotification,QmcSection_SystemNotificationPolicy,QmcSection_DeploymentSetup",
+    "rule" : "user.roles = \"ContentAdmin\"",
+    "ruleContext" : 2,
+    "schemaPath" : "SystemRule",
+    "seedId" : "3bb63892-9cf6-483b-82dd-e6468ba60906",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 11
+  },
+  "hidden" : false,
+  "identity" : "5d3f8a01-072a-410a-932b-df0f241d7405,SecurityRule;",
+  "key" : {
+    "id" : 132
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/ContentAdminQmcSections",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "ContentAdminQmcSections",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 132 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}
