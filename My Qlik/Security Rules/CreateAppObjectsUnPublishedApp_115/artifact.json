@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 1,
+    "category" : "Security",
+    "comment" : "If you have read rights on an unpublished app you should be able to create app objects belonging to that app",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "0ecdf31f-015b-4a2e-bcf3-c4316ec075ef",
+    "name" : "CreateAppObjectsUnPublishedApp",
+    "resourceFilter" : "App.Object_*",
+    "rule" : "resource.App.stream.Empty() and resource.App.HasPrivilege(\"read\") and !user.IsAnonymous()",
+    "ruleContext" : 1,
+    "schemaPath" : "SystemRule",
+    "seedId" : "833824af-6978-4faf-a5d6-a3875e267c7d",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 3
+  },
+  "hidden" : false,
+  "identity" : "0ecdf31f-015b-4a2e-bcf3-c4316ec075ef,SecurityRule;",
+  "key" : {
+    "id" : 115
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/CreateAppObjectsUnPublishedApp",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "CreateAppObjectsUnPublishedApp",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 115 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

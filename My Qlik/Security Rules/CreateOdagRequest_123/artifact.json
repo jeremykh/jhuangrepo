@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 1,
+    "category" : "Security",
+    "comment" : "Non-anonymous users with read access to the link can create new Requests using that link",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "16715e81-d910-4a1e-b00c-d8d180c95290",
+    "name" : "CreateOdagRequest",
+    "resourceFilter" : "OdagRequest_*",
+    "rule" : "!user.IsAnonymous() and (resource.link.HasPrivilege(\"read\"))",
+    "ruleContext" : 1,
+    "schemaPath" : "SystemRule",
+    "seedId" : "32e1c65e-d7b4-461d-978b-b447da5bab9c",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 1
+  },
+  "hidden" : false,
+  "identity" : "16715e81-d910-4a1e-b00c-d8d180c95290,SecurityRule;",
+  "key" : {
+    "id" : 123
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/CreateOdagRequest",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "CreateOdagRequest",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 123 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

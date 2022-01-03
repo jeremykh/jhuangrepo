@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 1,
+    "category" : "Sync",
+    "comment" : "All resources need to be accessible on the central node",
+    "createdDate" : "2021-05-19T23:01:44.982Z",
+    "disabled" : false,
+    "id" : "94368630-5d70-4b56-87ec-ceaadcb3866a",
+    "name" : "ResourcesOnCentralNode",
+    "resourceFilter" : "*",
+    "rule" : "node.iscentral = \"true\"",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "f05aa823-fed0-4882-b22e-067100853b66",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "ReadOnly",
+    "version" : 2
+  },
+  "hidden" : false,
+  "identity" : "94368630-5d70-4b56-87ec-ceaadcb3866a,SecurityRule;",
+  "key" : {
+    "id" : 105
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/ResourcesOnCentralNode",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "ResourcesOnCentralNode",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 105 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

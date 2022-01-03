@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 2,
+    "category" : "Security",
+    "comment" : "Allows everyone that can see a content library to see its corresponding files",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "90ad3e0d-74c2-4668-a9d5-1877f977fd80",
+    "name" : "Content library content",
+    "resourceFilter" : "StaticContentReference_*",
+    "rule" : "resource.ContentLibrarys.HasPrivilege(\"Read\")",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "7bfbd5df-91c8-4e56-b492-0933adb7830a",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "ReadOnly",
+    "version" : 1
+  },
+  "hidden" : false,
+  "identity" : "90ad3e0d-74c2-4668-a9d5-1877f977fd80,SecurityRule;",
+  "key" : {
+    "id" : 113
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/Content library content",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "Content library content",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 113 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

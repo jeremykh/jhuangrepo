@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 1,
+    "category" : "Sync",
+    "comment" : "All resources need to be accessible on the non-central nodes, except the monitoring apps",
+    "createdDate" : "2021-05-19T23:01:44.982Z",
+    "disabled" : false,
+    "id" : "ad141884-5794-4c3f-9d20-bd0267e8950b",
+    "name" : "ResourcesOnNonCentralNodes",
+    "resourceFilter" : "App_*",
+    "rule" : "node.iscentral = \"false\" and resource.stream.id != \"a70ca8a5-1d59-4cc9-b5fa-6e207978dcaf\"",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "bb38a0b8-ef68-4aa9-81b8-cc07351c7742",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 4
+  },
+  "hidden" : false,
+  "identity" : "ad141884-5794-4c3f-9d20-bd0267e8950b,SecurityRule;",
+  "key" : {
+    "id" : 122
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/ResourcesOnNonCentralNodes",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "ResourcesOnNonCentralNodes",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 122 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

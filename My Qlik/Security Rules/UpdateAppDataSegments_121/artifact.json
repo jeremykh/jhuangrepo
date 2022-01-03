@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 15,
+    "category" : "Security",
+    "comment" : "If you have update rights on the app you should be able to create/update/read/delete app data segments belonging to that app",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "010f177a-ea3f-4003-8e0f-9875becae160",
+    "name" : "UpdateAppDataSegments",
+    "resourceFilter" : "App.DataSegment_*",
+    "rule" : "resource.App.HasPrivilege(\"update\") and !user.IsAnonymous()",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "6a43eb0f-5c92-4b1e-90bc-f10fc67385f8",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "ReadOnly",
+    "version" : 2
+  },
+  "hidden" : false,
+  "identity" : "010f177a-ea3f-4003-8e0f-9875becae160,SecurityRule;",
+  "key" : {
+    "id" : 121
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/UpdateAppDataSegments",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "UpdateAppDataSegments",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 121 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

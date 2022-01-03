@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 2,
+    "category" : "Security",
+    "comment" : "Security admin should have read rights on ServerNodeConfiguration entity",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "8991640e-2cef-4f77-ad2d-d4f225c598c9",
+    "name" : "SecurityAdminServerNodeConfiguration",
+    "resourceFilter" : "ServerNodeConfiguration_*",
+    "rule" : "user.roles = \"SecurityAdmin\"",
+    "ruleContext" : 2,
+    "schemaPath" : "SystemRule",
+    "seedId" : "c95e6e17-5777-4417-b8fb-410e0006142d",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 2
+  },
+  "hidden" : false,
+  "identity" : "8991640e-2cef-4f77-ad2d-d4f225c598c9,SecurityRule;",
+  "key" : {
+    "id" : 114
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/SecurityAdminServerNodeConfiguration",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "SecurityAdminServerNodeConfiguration",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 114 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

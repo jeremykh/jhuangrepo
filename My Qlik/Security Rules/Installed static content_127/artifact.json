@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 2,
+    "category" : "Security",
+    "comment" : "Allows everyone to read installed static content",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "61ba3b2d-6b41-4edc-af7c-7598e39b570b",
+    "name" : "Installed static content",
+    "resourceFilter" : "StaticContentReference_*",
+    "rule" : "resource.StaticContentSecurityType = \"Open\"",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "cc9974ae-0c59-4ba0-8bff-6fd09d9725f1",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "ReadOnly",
+    "version" : 1
+  },
+  "hidden" : false,
+  "identity" : "61ba3b2d-6b41-4edc-af7c-7598e39b570b,SecurityRule;",
+  "key" : {
+    "id" : 127
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/Installed static content",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "Installed static content",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 127 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

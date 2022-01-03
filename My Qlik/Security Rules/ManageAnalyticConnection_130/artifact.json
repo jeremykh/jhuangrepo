@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 15,
+    "category" : "Security",
+    "comment" : "RootAdmin, ContentAdmin and SecurityAdmin roles should be able to manage an analytical connection",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "779c3ba2-3b07-44a8-90b4-a16c6f408306",
+    "name" : "ManageAnalyticConnection",
+    "resourceFilter" : "AnalyticConnection_*",
+    "rule" : "user.roles = \"RootAdmin\" or user.roles = \"ContentAdmin\" or user.roles = \"SecurityAdmin\"",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "d977fab8-f53f-4172-bd8c-f3909b2730e5",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 1
+  },
+  "hidden" : false,
+  "identity" : "779c3ba2-3b07-44a8-90b4-a16c6f408306,SecurityRule;",
+  "key" : {
+    "id" : 130
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/ManageAnalyticConnection",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "ManageAnalyticConnection",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 130 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

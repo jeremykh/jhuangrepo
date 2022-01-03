@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 4096,
+    "category" : "Security",
+    "comment" : "The owner of an app should be able to approve app objects belonging to the app",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "1dd6fbcf-d954-493c-9863-8954fd48a078",
+    "name" : "OwnerAppApproveAppObject",
+    "resourceFilter" : "App.Object_*",
+    "rule" : "resource.App.owner = user",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "fc34a83c-6aba-4487-94f7-3c104d29572c",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 1
+  },
+  "hidden" : false,
+  "identity" : "1dd6fbcf-d954-493c-9863-8954fd48a078,SecurityRule;",
+  "key" : {
+    "id" : 119
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/OwnerAppApproveAppObject",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "OwnerAppApproveAppObject",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 119 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

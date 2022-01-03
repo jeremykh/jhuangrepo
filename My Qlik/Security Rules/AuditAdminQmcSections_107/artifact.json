@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 2,
+    "category" : "Security",
+    "comment" : "Audit admin should have access rights to audit related sections",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "7f0527ff-e358-4b4b-b5ba-45c09287de34",
+    "name" : "AuditAdminQmcSections",
+    "resourceFilter" : "License_*,TermsAcceptance_*,QmcSection_AppDistributionStatus,QmcSection_CloudDistribution,QmcSection_Tag,QmcSection_Audit,QmcSection_DeploymentSetup",
+    "rule" : "user.roles = \"AuditAdmin\"",
+    "ruleContext" : 2,
+    "schemaPath" : "SystemRule",
+    "seedId" : "4dfd8865-8bc0-4b3a-8572-d5b02e2008f3",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 4
+  },
+  "hidden" : false,
+  "identity" : "7f0527ff-e358-4b4b-b5ba-45c09287de34,SecurityRule;",
+  "key" : {
+    "id" : 107
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/AuditAdminQmcSections",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "AuditAdminQmcSections",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 107 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

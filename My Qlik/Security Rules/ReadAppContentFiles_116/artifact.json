@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 2,
+    "category" : "Security",
+    "comment" : "Allows everyone that can see an app to see it's content files",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "88995b2b-d030-4dc5-834b-a25e7965a1c3",
+    "name" : "ReadAppContentFiles",
+    "resourceFilter" : "StaticContentReference_*",
+    "rule" : "resource.AppContents.App.HasPrivilege(\"Read\")",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "20371f5c-ecd3-47c4-828b-8e04092afd28",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "ReadOnly",
+    "version" : 1
+  },
+  "hidden" : false,
+  "identity" : "88995b2b-d030-4dc5-834b-a25e7965a1c3,SecurityRule;",
+  "key" : {
+    "id" : 116
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/ReadAppContentFiles",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "ReadAppContentFiles",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 116 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

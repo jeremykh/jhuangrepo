@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 2,
+    "category" : "Security",
+    "comment" : "If you have read rights on the app you should be able to read app data segments belonging to that app",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "a6a6946b-9845-4416-85c4-d7c07e7e5c71",
+    "name" : "ReadAppDataSegments",
+    "resourceFilter" : "App.DataSegment_*",
+    "rule" : "resource.App.HasPrivilege(\"read\") and !user.IsAnonymous()",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "41c007bd-8276-481c-ab95-9d6122d476a9",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "ReadOnly",
+    "version" : 1
+  },
+  "hidden" : false,
+  "identity" : "a6a6946b-9845-4416-85c4-d7c07e7e5c71,SecurityRule;",
+  "key" : {
+    "id" : 109
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/ReadAppDataSegments",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "ReadAppDataSegments",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 109 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

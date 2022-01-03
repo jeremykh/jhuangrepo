@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 15,
+    "category" : "Security",
+    "comment" : "Allows everyone that can update a content library to manage its corresponding files",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "97eba974-3f11-4c7e-bc17-b9680704bf95",
+    "name" : "Content library manage content",
+    "resourceFilter" : "StaticContentReference_*",
+    "rule" : "resource.ContentLibrarys.HasPrivilege(\"Update\")",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "60baf5f3-09f6-4b88-a8c8-06e8c61e4344",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "ReadOnly",
+    "version" : 1
+  },
+  "hidden" : false,
+  "identity" : "97eba974-3f11-4c7e-bc17-b9680704bf95,SecurityRule;",
+  "key" : {
+    "id" : 128
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/Content library manage content",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "Content library manage content",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 128 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

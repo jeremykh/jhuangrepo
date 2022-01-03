@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 2,
+    "category" : "Security",
+    "comment" : "If you have read rights on the app you should be able to read app internals belonging to that app",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "1be28e86-d69e-4e95-9e10-5444aa3b8c9a",
+    "name" : "ReadAppInternals",
+    "resourceFilter" : "App.Internal_*",
+    "rule" : "resource.App.HasPrivilege(\"read\")",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "3dfed86f-9b4b-417b-bc30-47208ae84f79",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "ReadOnly",
+    "version" : 1
+  },
+  "hidden" : false,
+  "identity" : "1be28e86-d69e-4e95-9e10-5444aa3b8c9a,SecurityRule;",
+  "key" : {
+    "id" : 108
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/ReadAppInternals",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "ReadAppInternals",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 108 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

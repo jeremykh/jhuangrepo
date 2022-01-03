@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 15,
+    "category" : "Security",
+    "comment" : "Allows everyone that can update an app to manage it's content files",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "0178a11e-2a3e-412b-8703-22f072bdc570",
+    "name" : "UpdateAppContentFiles",
+    "resourceFilter" : "StaticContentReference_*",
+    "rule" : "resource.AppContents.App.HasPrivilege(\"Update\")",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "8a68e611-e824-470b-9483-e5df2e6c9516",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "ReadOnly",
+    "version" : 1
+  },
+  "hidden" : false,
+  "identity" : "0178a11e-2a3e-412b-8703-22f072bdc570,SecurityRule;",
+  "key" : {
+    "id" : 129
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/UpdateAppContentFiles",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "UpdateAppContentFiles",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 129 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

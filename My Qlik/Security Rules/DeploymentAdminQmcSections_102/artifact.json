@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 2,
+    "category" : "Security",
+    "comment" : "Deployment admin should have access rights to deployment related sections",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "31c023d7-5926-4b28-81ac-94e1407f7090",
+    "name" : "DeploymentAdminQmcSections",
+    "resourceFilter" : "License_*,TermsAcceptance_*,ServiceStatus_*,QmcSection_AppDistributionStatus,QmcSection_CloudDistribution,QmcSection_Tag,QmcSection_Templates,QmcSection_ServiceCluster,QmcSection_ServerNodeConfiguration,QmcSection_EngineService,QmcSection_ProxyService,QmcSection_VirtualProxyConfig,QmcSection_RepositoryService,QmcSection_SchedulerService,QmcSection_PrintingService,QmcSection_License*,QmcSection_Token,LoadbalancingSelectList,QmcSection_User,QmcSection_UserDirectory,QmcSection_CustomPropertyDefinition,QmcSection_Certificates,QmcSection_Certificates.Export,QmcSection_Task,QmcSection_App,QmcSection_SyncRule,QmcSection_LoadBalancingRule,QmcSection_Event,QmcSection_ReloadTask,QmcSection_UserSyncTask,QmcSection_Audit,QmcSection_DistributionPolicy,QmcSection_SystemNotification,QmcSection_SystemNotificationPolicy,QmcSection_DeploymentSetup",
+    "rule" : "user.roles = \"DeploymentAdmin\"",
+    "ruleContext" : 2,
+    "schemaPath" : "SystemRule",
+    "seedId" : "b15f4dcb-9d7a-475b-bece-12d89d65985c",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 14
+  },
+  "hidden" : false,
+  "identity" : "31c023d7-5926-4b28-81ac-94e1407f7090,SecurityRule;",
+  "key" : {
+    "id" : 102
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/DeploymentAdminQmcSections",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "DeploymentAdminQmcSections",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 102 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

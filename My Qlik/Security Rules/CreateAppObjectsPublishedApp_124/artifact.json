@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 1,
+    "category" : "Security",
+    "comment" : "If you have read rights on an published app you should be able to create sheets, stories, bookmarks and snapshots belonging to that app",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "fcf8c353-3d72-4ae6-a13a-ec5b64e56f03",
+    "name" : "CreateAppObjectsPublishedApp",
+    "resourceFilter" : "App.Object_*",
+    "rule" : "!resource.App.stream.Empty() and resource.App.HasPrivilege(\"read\") and (resource.objectType = \"userstate\" or resource.objectType = \"sheet\" or resource.objectType = \"story\" or resource.objectType = \"bookmark\" or resource.objectType = \"snapshot\" or resource.objectType = \"embeddedsnapshot\" or resource.objectType = \"hiddenbookmark\") and !user.IsAnonymous()",
+    "ruleContext" : 1,
+    "schemaPath" : "SystemRule",
+    "seedId" : "35694d46-31bc-41cd-9a08-104a67caa49c",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 4
+  },
+  "hidden" : false,
+  "identity" : "fcf8c353-3d72-4ae6-a13a-ec5b64e56f03,SecurityRule;",
+  "key" : {
+    "id" : 124
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/CreateAppObjectsPublishedApp",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "CreateAppObjectsPublishedApp",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 124 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

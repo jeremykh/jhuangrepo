@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 4294967295,
+    "category" : "Security",
+    "comment" : "Root admin should have full access rights",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "27c70714-d641-445f-bc1b-e7e543682d31",
+    "name" : "RootAdmin",
+    "resourceFilter" : "*",
+    "rule" : "user.roles = \"RootAdmin\"",
+    "ruleContext" : 2,
+    "schemaPath" : "SystemRule",
+    "seedId" : "a970b5c0-b3b1-4534-abd0-8cc361a1cac5",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "ReadOnly",
+    "version" : 1
+  },
+  "hidden" : false,
+  "identity" : "27c70714-d641-445f-bc1b-e7e543682d31,SecurityRule;",
+  "key" : {
+    "id" : 103
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/RootAdmin",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "RootAdmin",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 103 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 15,
+    "category" : "Security",
+    "comment" : "Allows everyone that can update an extension to manage its corresponding files",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "8a372198-9df1-4add-85d3-d8ce23f89bfb",
+    "name" : "Extension manage content",
+    "resourceFilter" : "StaticContentReference_*",
+    "rule" : "resource.Extensions.HasPrivilege(\"Update\")",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "9d49a381-a510-4921-ab52-305691a43239",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "ReadOnly",
+    "version" : 1
+  },
+  "hidden" : false,
+  "identity" : "8a372198-9df1-4add-85d3-d8ce23f89bfb,SecurityRule;",
+  "key" : {
+    "id" : 106
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/Extension manage content",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "Extension manage content",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 106 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

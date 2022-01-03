@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 15,
+    "category" : "Security",
+    "comment" : "Deployment admin should have access rights to manage sync and license rules",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "1111b308-7027-4658-a639-c9b50769d89b",
+    "name" : "DeploymentAdminRulesAccess",
+    "resourceFilter" : "SystemRule_*",
+    "rule" : "user.roles = \"DeploymentAdmin\" and (resource.category = \"Sync\" or resource.category = \"License\" or resource.category = \"Generic\")",
+    "ruleContext" : 2,
+    "schemaPath" : "SystemRule",
+    "seedId" : "a8b7982e-5e62-4ed4-99de-178bd0178126",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 2
+  },
+  "hidden" : false,
+  "identity" : "1111b308-7027-4658-a639-c9b50769d89b,SecurityRule;",
+  "key" : {
+    "id" : 112
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/DeploymentAdminRulesAccess",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "DeploymentAdminRulesAccess",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 112 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

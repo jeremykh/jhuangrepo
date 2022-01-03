@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 32,
+    "category" : "Security",
+    "comment" : "The owner of an app object should be able to publish an object unless it is approved",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "930b57f9-ed41-49a1-869a-053fc00213c1",
+    "name" : "OwnerPublishAppObject",
+    "resourceFilter" : "App.Object_*",
+    "rule" : "resource.IsOwned() and resource.owner = user and resource.approved = \"false\" and resource.app.stream.HasPrivilege(\"publish\")",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "ef3fdb6f-50a4-4d45-a055-11daf0fea287",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 4
+  },
+  "hidden" : false,
+  "identity" : "930b57f9-ed41-49a1-869a-053fc00213c1,SecurityRule;",
+  "key" : {
+    "id" : 110
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/OwnerPublishAppObject",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "OwnerPublishAppObject",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 110 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

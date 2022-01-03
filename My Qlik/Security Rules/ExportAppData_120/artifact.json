@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 256,
+    "category" : "Security",
+    "comment" : "Everyone is allowed to export the app data they are allowed to see except anonymous users",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "a47d6085-8f72-4759-a5cb-e480fba32ead",
+    "name" : "ExportAppData",
+    "resourceFilter" : "App_*",
+    "rule" : "resource.HasPrivilege(\"read\") and !user.IsAnonymous()",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "0a2547f3-777e-44d7-9a83-7b93350ee887",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 2
+  },
+  "hidden" : false,
+  "identity" : "a47d6085-8f72-4759-a5cb-e480fba32ead,SecurityRule;",
+  "key" : {
+    "id" : 120
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/ExportAppData",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "ExportAppData",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 120 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

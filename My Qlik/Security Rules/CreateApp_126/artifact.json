@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 1,
+    "category" : "Security",
+    "comment" : "Everyone is allowed to create apps except anonymous users",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "58189e4c-ffd7-435a-8c0b-ffa867355f25",
+    "name" : "CreateApp",
+    "resourceFilter" : "App_*",
+    "rule" : "!user.IsAnonymous()",
+    "ruleContext" : 1,
+    "schemaPath" : "SystemRule",
+    "seedId" : "80c35c31-6764-4dac-be40-3e505206e974",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 2
+  },
+  "hidden" : false,
+  "identity" : "58189e4c-ffd7-435a-8c0b-ffa867355f25,SecurityRule;",
+  "key" : {
+    "id" : 126
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/CreateApp",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "CreateApp",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 126 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

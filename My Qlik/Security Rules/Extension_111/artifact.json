@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 2,
+    "category" : "Security",
+    "comment" : "Everyone can view extensions",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "75fc0174-4c51-46ad-9c86-270e0bf1c94a",
+    "name" : "Extension",
+    "resourceFilter" : "Extension_*",
+    "rule" : "true",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "eef00d5e-f3a4-4f0c-8daa-679dc734bb5e",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 2
+  },
+  "hidden" : false,
+  "identity" : "75fc0174-4c51-46ad-9c86-270e0bf1c94a,SecurityRule;",
+  "key" : {
+    "id" : 111
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/Extension",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "Extension",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 111 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

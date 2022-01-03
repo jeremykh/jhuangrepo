@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 1,
+    "category" : "Security",
+    "comment" : "It should be possible to create data connections except of type folder",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "bbfe7c38-a58e-4799-a215-63289baf757e",
+    "name" : "DataConnection",
+    "resourceFilter" : "DataConnection_*",
+    "rule" : "resource.type != \"folder\"",
+    "ruleContext" : 1,
+    "schemaPath" : "SystemRule",
+    "seedId" : "de08eb86-f06e-40ee-9b28-7b0da1053189",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 2
+  },
+  "hidden" : false,
+  "identity" : "bbfe7c38-a58e-4799-a215-63289baf757e,SecurityRule;",
+  "key" : {
+    "id" : 118
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/DataConnection",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "DataConnection",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 118 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 2,
+    "category" : "Security",
+    "comment" : "Data connection used for uploading files to server",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "b4191ff8-c781-4a3d-9e5b-9f5b14a94dfc",
+    "name" : "File upload connection object",
+    "resourceFilter" : "DataConnection_47a1cfd8-f70e-4a98-a00d-00fca6c8e253",
+    "rule" : "!user.IsAnonymous()",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "2d0b2b23-9235-4097-b0a1-243f916c3ae0",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 1
+  },
+  "hidden" : false,
+  "identity" : "b4191ff8-c781-4a3d-9e5b-9f5b14a94dfc,SecurityRule;",
+  "key" : {
+    "id" : 117
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/File upload connection object",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "File upload connection object",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 117 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 34,
+    "category" : "Security",
+    "comment" : "The default stream called Everyone should be visible for all users and all users should be able to publish to it",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "fd687ce8-ec07-409d-998b-5e9f1e046642",
+    "name" : "StreamEveryone",
+    "resourceFilter" : "Stream_aaec8d41-5201-43ab-809f-3063750dfafd",
+    "rule" : "!user.IsAnonymous()",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "278155d1-37e2-4ce1-a760-43f3b0e795e3",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 1
+  },
+  "hidden" : false,
+  "identity" : "fd687ce8-ec07-409d-998b-5e9f1e046642,SecurityRule;",
+  "key" : {
+    "id" : 125
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/StreamEveryone",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "StreamEveryone",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 125 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}
