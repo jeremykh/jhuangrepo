@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "executionContext" : {
+    "findAllChanges" : true,
+    "platformNodeId" : 26
+  },
+  "hidden" : false,
+  "jobDefinitionKey" : {
+    "id" : 8
+  },
+  "key" : {
+    "id" : 29
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Soterre Jobs/Find All support-qlik1 Changes",
+    "subtypePath" : "-/Job/Find Changes",
+    "typePath" : "PlatformNode/Folder/JobExecutor"
+  },
+  "name" : "Find All support-qlik1 Changes",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 28
+  },
+  "path" : {
+    "ids" : [ 26, 28, 29 ]
+  },
+  "schedules" : {
+    "Weekly Passive Versioning" : {
+      "enabled" : true,
+      "friday" : false,
+      "interval" : 1,
+      "monday" : false,
+      "name" : "Weekly Passive Versioning",
+      "saturday" : true,
+      "startDate" : 1641627000000,
+      "sunday" : false,
+      "thursday" : false,
+      "tuesday" : false,
+      "type" : ".WeeklySchedule",
+      "wednesday" : false
+    }
+  },
+  "shouldVersion" : true,
+  "subtype" : "Find Changes",
+  "type" : "JobExecutor"
+}
