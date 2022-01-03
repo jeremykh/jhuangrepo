@@ -1,0 +1,132 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "f32fd01981b8c3aaffb96ce04b406610c7007154",
+      "contentName" : "content",
+      "contentOid" : 18307,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "createdDate" : "2021-09-27T20:04:00.494Z",
+    "customProperties" : [ ],
+    "id" : "57a17f15-1569-4b66-91de-5e8d18862b99",
+    "name" : "Soterre-Login",
+    "owner" : {
+      "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+      "name" : "Administrator",
+      "userDirectory" : "SUPPORT-QLIK1",
+      "userDirectoryConnectorName" : "SUPPORT-QLIK1",
+      "userId" : "administrator"
+    },
+    "references" : [ {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\Soterre-Login\\ChaletBook-Bold.ttf",
+      "externalPath" : "/extensions/Soterre-Login/ChaletBook-Bold.ttf",
+      "id" : "52b34ca4-57a4-480d-b047-32a94673634c",
+      "logicalPath" : "/extensions/Soterre-Login/ChaletBook-Bold.ttf",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\Soterre-Login\\ChaletBook-regular.ttf",
+      "externalPath" : "/extensions/Soterre-Login/ChaletBook-regular.ttf",
+      "id" : "8d9bda31-4b8d-4013-85b3-b11557a458f7",
+      "logicalPath" : "/extensions/Soterre-Login/ChaletBook-regular.ttf",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\Soterre-Login\\checksum-1e6119b91d28728b710142fa5f3c3ddd.txt",
+      "externalPath" : "/extensions/Soterre-Login/checksum-1e6119b91d28728b710142fa5f3c3ddd.txt",
+      "id" : "3b7a5d22-5e95-4b1b-b413-72e7b1876454",
+      "logicalPath" : "/extensions/Soterre-Login/checksum-1e6119b91d28728b710142fa5f3c3ddd.txt",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\Soterre-Login\\favicon.ico",
+      "externalPath" : "/extensions/Soterre-Login/favicon.ico",
+      "id" : "efeac881-51d9-4f34-ac54-e7d1c989aeba",
+      "logicalPath" : "/extensions/Soterre-Login/favicon.ico",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\Soterre-Login\\Soterre-Login.css",
+      "externalPath" : "/extensions/Soterre-Login/Soterre-Login.css",
+      "id" : "a054e344-842b-42cf-bf96-0179050de66f",
+      "logicalPath" : "/extensions/Soterre-Login/Soterre-Login.css",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\Soterre-Login\\Soterre-Login.html",
+      "externalPath" : "/extensions/Soterre-Login/Soterre-Login.html",
+      "id" : "a790db94-54d2-464d-b17b-6eb7d1085b3e",
+      "logicalPath" : "/extensions/Soterre-Login/Soterre-Login.html",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\Soterre-Login\\Soterre-Login.js",
+      "externalPath" : "/extensions/Soterre-Login/Soterre-Login.js",
+      "id" : "9ed74d04-8e20-4afc-beaa-79215ba17fa5",
+      "logicalPath" : "/extensions/Soterre-Login/Soterre-Login.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\Soterre-Login\\Soterre-Login.qext",
+      "externalPath" : "/extensions/Soterre-Login/Soterre-Login.qext",
+      "id" : "f88f2bd1-c363-4f55-94a1-adf82c88a29a",
+      "logicalPath" : "/extensions/Soterre-Login/Soterre-Login.qext",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\Soterre-Login\\SourceSansPro-Regular.ttf",
+      "externalPath" : "/extensions/Soterre-Login/SourceSansPro-Regular.ttf",
+      "id" : "dfaf0d60-c466-45f2-80b7-98c4a728178a",
+      "logicalPath" : "/extensions/Soterre-Login/SourceSansPro-Regular.ttf",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\Soterre-Login\\wbfolder.wbl",
+      "externalPath" : "/extensions/Soterre-Login/wbfolder.wbl",
+      "id" : "02632268-e789-40a3-9b24-d312be5380e5",
+      "logicalPath" : "/extensions/Soterre-Login/wbfolder.wbl",
+      "privileges" : null,
+      "serveOptions" : 0
+    } ],
+    "schemaPath" : "Extension",
+    "tags" : [ ],
+    "whiteList" : {
+      "id" : "0106f312-d616-4a72-84a1-12d57bf25aef",
+      "libraryType" : 3,
+      "privileges" : null
+    }
+  },
+  "hidden" : false,
+  "identity" : "Soterre-Login,Extension;",
+  "key" : {
+    "id" : 87
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Extensions/Soterre-Login",
+    "subtypePath" : "-/QlikExtension/QlikExtension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "Soterre-Login",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 38
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 38, 87 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Extension",
+  "shouldVersion" : true,
+  "subtype" : "QlikExtension",
+  "type" : "QlikArtifact"
+}
