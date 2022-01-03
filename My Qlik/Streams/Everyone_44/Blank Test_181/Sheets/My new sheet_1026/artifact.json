@@ -1,0 +1,95 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "807d29ef952e209ca7605b572fae561a754eb27a",
+      "contentName" : "content",
+      "contentOid" : 18946,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "bounds" : {
+            "height" : 50,
+            "width" : 50,
+            "x" : 0,
+            "y" : 0
+          },
+          "col" : 0,
+          "colspan" : 12,
+          "name" : "MbmmPPq",
+          "row" : 0,
+          "rowspan" : 6,
+          "type" : "auto-chart"
+        } ],
+        "columns" : 24,
+        "gridResolution" : "small",
+        "layoutOptions" : {
+          "mobileLayout" : "LIST"
+        },
+        "qChildListDef" : {
+          "qData" : {
+            "title" : "/title"
+          }
+        },
+        "qInfo" : {
+          "qId" : "cdb8b14e-c7fc-4232-a9d9-e27f9ba2bd27",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "",
+          "title" : "My new sheet"
+        },
+        "rank" : 0,
+        "rows" : 12,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : { }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "91239abc-dd6a-4e48-a8e9-4f42427f2df7",
+        "name" : "Jane Doe",
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userId" : "jdoe"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "cdb8b14e-c7fc-4232-a9d9-e27f9ba2bd27,Sheet;5011f27e-3b64-499d-bb46-226937647b8e,App;",
+  "key" : {
+    "id" : 1026
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Blank Test/Sheets/My new sheet",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "My new sheet",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 255
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 181, 255, 1026 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}
