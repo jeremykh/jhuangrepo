@@ -1,0 +1,53 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "architecture" : 0,
+    "connectionstring" : "\\\\support-qlik1\\QlikData\\Apps\\DataPrepAppCache\\<APP_ID>",
+    "createdDate" : "2021-05-20T00:18:48.096Z",
+    "customProperties" : [ ],
+    "engineObjectId" : "32d83545-417f-45c3-baa6-30ad701357d8",
+    "id" : "32d83545-417f-45c3-baa6-30ad701357d8",
+    "logOn" : 0,
+    "name" : "DataPrepAppCache",
+    "owner" : {
+      "id" : "e7190873-a50d-406e-b958-6f7323c6061f",
+      "name" : "sa_api",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_api"
+    },
+    "schemaPath" : "DataConnection",
+    "tags" : [ ],
+    "type" : "folder",
+    "username" : ""
+  },
+  "hidden" : false,
+  "identity" : "32d83545-417f-45c3-baa6-30ad701357d8,DataConnection;",
+  "key" : {
+    "id" : 47
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Data Connections/DataPrepAppCache",
+    "subtypePath" : "-/QlikDataConnection/QlikDataConnection",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "DataPrepAppCache",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 40
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 40, 47 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "DataConnection",
+  "shouldVersion" : true,
+  "subtype" : "QlikDataConnection",
+  "type" : "QlikArtifact"
+}
