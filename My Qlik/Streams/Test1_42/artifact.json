@@ -1,0 +1,47 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "createdDate" : "2021-06-24T13:41:03.306Z",
+    "customProperties" : [ ],
+    "id" : "ef778d4d-1044-426a-8db0-047e12500afb",
+    "name" : "Test1",
+    "owner" : {
+      "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+      "name" : "Administrator",
+      "userDirectory" : "SUPPORT-QLIK1",
+      "userDirectoryConnectorName" : "SUPPORT-QLIK1",
+      "userId" : "administrator"
+    },
+    "schemaPath" : "Stream",
+    "tags" : [ ]
+  },
+  "hidden" : false,
+  "identity" : "ef778d4d-1044-426a-8db0-047e12500afb,Stream;",
+  "key" : {
+    "id" : 42
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Test1",
+    "subtypePath" : "-/QlikStream/QlikStream",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "Test1",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 33
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 33, 42 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Stream",
+  "shouldVersion" : true,
+  "subtype" : "QlikStream",
+  "type" : "QlikArtifact"
+}
