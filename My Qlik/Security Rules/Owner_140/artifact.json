@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 12,
+    "category" : "Security",
+    "comment" : "The owner of a resource should be able to do Update and Delete actions if the resource is not published to a stream",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "9e89712b-c89c-4d2a-9537-92fa1363af2f",
+    "name" : "Owner",
+    "resourceFilter" : "*",
+    "rule" : "resource.IsOwned() and (resource.owner = user and !((resource.resourcetype = \"App\" and !resource.stream.Empty()) or (resource.resourcetype = \"App.Object\" and resource.published = \"true\")))",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "c6ecf544-bcc6-409f-a1f7-2193a8f9c994",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 4
+  },
+  "hidden" : false,
+  "identity" : "9e89712b-c89c-4d2a-9537-92fa1363af2f,SecurityRule;",
+  "key" : {
+    "id" : 140
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/Owner",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "Owner",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 140 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

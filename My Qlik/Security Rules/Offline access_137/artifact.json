@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 512,
+    "category" : "Security",
+    "comment" : "Everyone is allowed offline access to the app they are allowed to see except anonymous users",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "d4416ec7-9502-4cd3-b8aa-3413f30f438a",
+    "name" : "Offline access",
+    "resourceFilter" : "App_*",
+    "rule" : "resource.HasPrivilege(\"read\") and !user.IsAnonymous()",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "e1cc3e69-0bf9-4935-aea4-1a0f214ce271",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 1
+  },
+  "hidden" : false,
+  "identity" : "d4416ec7-9502-4cd3-b8aa-3413f30f438a,SecurityRule;",
+  "key" : {
+    "id" : 137
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/Offline access",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "Offline access",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 137 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

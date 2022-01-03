@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 4,
+    "category" : "Security",
+    "comment" : "The owner of an app should be able to do update action",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "d9ae05ed-6bd0-4446-89de-5e2de75c013c",
+    "name" : "OwnerUpdateApp",
+    "resourceFilter" : "App_*",
+    "rule" : "resource.IsOwned() and resource.owner = user",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "9276099e-7a67-478a-820f-efb7130c3beb",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 1
+  },
+  "hidden" : false,
+  "identity" : "d9ae05ed-6bd0-4446-89de-5e2de75c013c,SecurityRule;",
+  "key" : {
+    "id" : 141
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/OwnerUpdateApp",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "OwnerUpdateApp",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 141 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

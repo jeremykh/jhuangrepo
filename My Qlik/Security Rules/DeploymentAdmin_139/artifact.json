@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 15,
+    "category" : "Security",
+    "comment" : "Deployment admin should have access rights to deployment related entities",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "c5f94a97-5e5a-4c84-8be1-1dcc895abd54",
+    "name" : "DeploymentAdmin",
+    "resourceFilter" : "ServiceCluster_*,ServerNodeConfiguration_*,Engine*,Proxy*,VirtualProxy*,Repository*,Printing*,Scheduler*,User*,CustomProperty*,Tag_*,License*,TermsAcceptance_*,ReloadTask_*,ExternalProgramTask_*,UserSyncTask_*,SchemaEvent_*,CompositeEvent_*,Deployment_*,IdentityProviderSettings_*,SystemNotification_*",
+    "rule" : "user.roles = \"DeploymentAdmin\"",
+    "ruleContext" : 2,
+    "schemaPath" : "SystemRule",
+    "seedId" : "d8805f56-ab45-4c39-ab0d-c2fd08aaf44d",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 11
+  },
+  "hidden" : false,
+  "identity" : "c5f94a97-5e5a-4c84-8be1-1dcc895abd54,SecurityRule;",
+  "key" : {
+    "id" : 139
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/DeploymentAdmin",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "DeploymentAdmin",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 139 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

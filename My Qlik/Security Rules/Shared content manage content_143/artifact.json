@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 15,
+    "category" : "Security",
+    "comment" : "Allows everyone that can update a shared content to manage its corresponding files",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "9c045d7d-c471-4d03-9595-612b0acca4a1",
+    "name" : "Shared content manage content",
+    "resourceFilter" : "StaticContentReference_*",
+    "rule" : "resource.SharedContents.HasPrivilege(\"Update\")",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "31171f69-f7aa-4e6b-b50d-f1abcd98ad48",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "ReadOnly",
+    "version" : 1
+  },
+  "hidden" : false,
+  "identity" : "9c045d7d-c471-4d03-9595-612b0acca4a1,SecurityRule;",
+  "key" : {
+    "id" : 143
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/Shared content manage content",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "Shared content manage content",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 143 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

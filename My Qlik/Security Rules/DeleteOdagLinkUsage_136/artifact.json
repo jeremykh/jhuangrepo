@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 10,
+    "category" : "Security",
+    "comment" : "Non-anonymous users with read access on the selection app can delete OdagLinkUsages for that app",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "a577cc24-11b1-4cf1-9445-8ea6dd1416bb",
+    "name" : "DeleteOdagLinkUsage",
+    "resourceFilter" : "OdagLinkUsage_*",
+    "rule" : "!user.IsAnonymous() and resource.selectionApp.HasPrivilege(\"read\")",
+    "ruleContext" : 1,
+    "schemaPath" : "SystemRule",
+    "seedId" : "07c98af2-c30c-4bd5-af90-b4daba7b0558",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 1
+  },
+  "hidden" : false,
+  "identity" : "a577cc24-11b1-4cf1-9445-8ea6dd1416bb,SecurityRule;",
+  "key" : {
+    "id" : 136
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/DeleteOdagLinkUsage",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "DeleteOdagLinkUsage",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 136 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}
