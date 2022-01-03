@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 6,
+    "category" : "Security",
+    "comment" : "Allows everyone to create authentication files in the Soterre-Login content library.",
+    "createdDate" : "2021-09-27T19:02:15.353Z",
+    "disabled" : false,
+    "id" : "0d83532c-f2d3-478f-bfb3-3dd2d796a99a",
+    "name" : "Soterre-Login",
+    "resourceFilter" : "ContentLibrary_*",
+    "rule" : "((resource.name=\"Soterre-Login\"))",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "00000000-0000-0000-0000-000000000000",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Custom",
+    "version" : 0
+  },
+  "hidden" : false,
+  "identity" : "0d83532c-f2d3-478f-bfb3-3dd2d796a99a,SecurityRule;",
+  "key" : {
+    "id" : 135
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/Soterre-Login",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "Soterre-Login",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 135 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}
