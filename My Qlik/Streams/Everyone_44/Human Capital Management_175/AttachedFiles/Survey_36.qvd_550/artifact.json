@@ -1,0 +1,44 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "c355917f722054ae6af1c3d2045d5e673e56efa8",
+      "contentName" : "content",
+      "contentOid" : 18587,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "path" : "Survey$.qvd"
+  },
+  "hidden" : false,
+  "identity" : "Survey$.qvd,AttachedFile;e325a2bf-ba90-4eee-b641-71f0a1975f9b,App;",
+  "key" : {
+    "id" : 550
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Human Capital Management/AttachedFiles/Survey$.qvd",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikAttachedFile/QlikAttachedFile",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Survey$.qvd",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 189
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 175, 189, 550 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "AttachedFile",
+  "shouldVersion" : true,
+  "subtype" : "QlikAttachedFile",
+  "type" : "QlikArtifact"
+}

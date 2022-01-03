@@ -1,0 +1,57 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qInfo" : {
+        "qId" : "MLECukm",
+        "qType" : "measure"
+      },
+      "qMeasure" : {
+        "qActiveExpression" : 0,
+        "qDef" : "count(distinct If([Late Shipment] = 0 ,Shipments))/Count(Distinct Shipments)",
+        "qExpressions" : [ ],
+        "qGrouping" : "N",
+        "qLabel" : "% OnTime Shipments",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qUseThou" : 0,
+          "qnDec" : 10
+        }
+      },
+      "qMetaDef" : {
+        "description" : "",
+        "tags" : [ ],
+        "title" : "% OnTime Shipments"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "MLECukm,Measure;b0fdc823-746a-4443-aca0-30b592a00bde,App;",
+  "key" : {
+    "id" : 624
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Consumer Sales/Measures/% OnTime Shipments",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikMeasure/QlikMeasure",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "% OnTime Shipments",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 204
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 176, 204, 624 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Measure",
+  "shouldVersion" : true,
+  "subtype" : "QlikMeasure",
+  "type" : "QlikArtifact"
+}

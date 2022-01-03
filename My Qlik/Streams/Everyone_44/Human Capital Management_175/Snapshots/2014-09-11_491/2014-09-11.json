@@ -1,0 +1,422 @@
+{
+  "qProp" : {
+    "qInfo" : {
+      "qId" : "wQxXEA",
+      "qType" : "snapshot"
+    },
+    "qMetaDef" : {
+      "title" : "",
+      "description" : "",
+      "annotation" : ""
+    },
+    "title" : "",
+    "description" : "",
+    "sheetId" : "eEmmbS",
+    "creationDate" : "2014-09-11",
+    "qMeta" : { },
+    "qSelectionInfo" : { },
+    "qHyperCube" : {
+      "qSize" : {
+        "qcx" : 2,
+        "qcy" : 3
+      },
+      "qDimensionInfo" : [ {
+        "qFallbackTitle" : "Gender",
+        "qApprMaxGlyphCount" : 6,
+        "qCardinal" : 3,
+        "qSortIndicator" : "D",
+        "qGroupFallbackTitles" : [ "Gender" ],
+        "qGroupPos" : 0,
+        "qStateCounts" : {
+          "qLocked" : 0,
+          "qSelected" : 0,
+          "qOption" : 3,
+          "qDeselected" : 0,
+          "qAlternative" : 0,
+          "qExcluded" : 0,
+          "qSelectedExcluded" : 0,
+          "qLockedExcluded" : 0
+        },
+        "qTags" : [ "$ascii", "$text" ],
+        "qDimensionType" : "D",
+        "qGrouping" : "N",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qnDec" : 0,
+          "qUseThou" : 0
+        },
+        "qIsAutoFormat" : true,
+        "qGroupFieldDefs" : [ "Gender" ],
+        "qMin" : 0,
+        "qMax" : 0,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qCardinalities" : {
+          "qCardinal" : 0,
+          "qHypercubeCardinal" : 0,
+          "qAllValuesCardinal" : -1
+        },
+        "title" : "Gender",
+        "autoSort" : false,
+        "cId" : "GuEaAs",
+        "othersLabel" : "Others"
+      } ],
+      "qMeasureInfo" : [ {
+        "qFallbackTitle" : "Avg Compensation",
+        "qApprMaxGlyphCount" : 10,
+        "qCardinal" : 4,
+        "qSortIndicator" : "D",
+        "qNumFormat" : {
+          "qType" : "M",
+          "qnDec" : 2,
+          "qUseThou" : 0,
+          "qFmt" : "$#,##0.00;($#,##0.00)",
+          "qDec" : ".",
+          "qThou" : ","
+        },
+        "qMin" : 77383.0514450867,
+        "qMax" : 82548.33333333333,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qTrendLines" : [ ],
+        "autoSort" : true,
+        "cId" : "JLrVEWu",
+        "numFormatFromTemplate" : true
+      } ],
+      "qEffectiveInterColumnSortOrder" : [ 0, 1 ],
+      "qGrandTotalRow" : [ {
+        "qText" : "$79,638.26",
+        "qNum" : 79638.26427469136,
+        "qElemNumber" : -1,
+        "qState" : "X",
+        "qIsTotalCell" : true
+      } ],
+      "qDataPages" : [ {
+        "qMatrix" : [ [ {
+          "qText" : "Male",
+          "qNum" : "NaN",
+          "qElemNumber" : 0,
+          "qState" : "O"
+        }, {
+          "qText" : "$80,517.34",
+          "qNum" : 80517.3358652576,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Female",
+          "qNum" : "NaN",
+          "qElemNumber" : 1,
+          "qState" : "O"
+        }, {
+          "qText" : "$77,383.05",
+          "qNum" : 77383.0514450867,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "-",
+          "qNum" : "NaN",
+          "qElemNumber" : 2,
+          "qState" : "O"
+        }, {
+          "qText" : "$82,548.33",
+          "qNum" : 82548.33333333333,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ] ],
+        "qTails" : [ {
+          "qUp" : 0,
+          "qDown" : 0
+        } ],
+        "qArea" : {
+          "qLeft" : 0,
+          "qTop" : 0,
+          "qWidth" : 2,
+          "qHeight" : 3
+        }
+      } ],
+      "qPivotDataPages" : [ ],
+      "qStackedDataPages" : [ ],
+      "qMode" : "S",
+      "qNoOfLeftDims" : 0,
+      "qTreeNodesOnDim" : [ ],
+      "qColumnOrder" : [ ]
+    },
+    "refLine" : {
+      "refLines" : [ ]
+    },
+    "showTitles" : true,
+    "subtitle" : "",
+    "footnote" : "",
+    "barGrouping" : {
+      "grouping" : "grouped"
+    },
+    "orientation" : "horizontal",
+    "gridLine" : {
+      "auto" : true,
+      "spacing" : 2
+    },
+    "dataPoint" : {
+      "showLabels" : true
+    },
+    "color" : {
+      "auto" : false,
+      "mode" : "byDimension",
+      "singleColor" : 3,
+      "persistent" : true,
+      "expressionLabel" : "",
+      "expressionIsColor" : true,
+      "measureScheme" : "sg",
+      "reverseScheme" : false,
+      "dimensionScheme" : "12",
+      "autoMinMax" : true,
+      "measureMin" : 0,
+      "measureMax" : 10,
+      "dimensionId" : ""
+    },
+    "legend" : {
+      "show" : false,
+      "dock" : "auto",
+      "showTitle" : true
+    },
+    "dimensionAxis" : {
+      "show" : "all",
+      "label" : "auto",
+      "dock" : "near"
+    },
+    "measureAxis" : {
+      "show" : "all",
+      "dock" : "near",
+      "spacing" : 1,
+      "autoMinMax" : true,
+      "minMax" : "min",
+      "min" : 0,
+      "max" : 10
+    },
+    "visualization" : "barchart",
+    "reducedHyperCube" : {
+      "qDataPages" : [ {
+        "qMatrix" : [ [ {
+          "qText" : "Male",
+          "qNum" : "NaN",
+          "qElemNumber" : 0,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "$80,517.34",
+          "qNum" : 80517.3358652576,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Female",
+          "qNum" : "NaN",
+          "qElemNumber" : 1,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "$77,383.05",
+          "qNum" : 77383.0514450867,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "-",
+          "qNum" : "NaN",
+          "qElemNumber" : 2,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "$82,548.33",
+          "qNum" : 82548.33333333333,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ] ],
+        "qTails" : [ {
+          "qUp" : 0,
+          "qDown" : 0
+        } ],
+        "qArea" : {
+          "qLeft" : 0,
+          "qTop" : 0,
+          "qWidth" : 2,
+          "qHeight" : 3
+        }
+      } ],
+      "qDimensionInfo" : [ {
+        "qFallbackTitle" : "Gender",
+        "qApprMaxGlyphCount" : 6,
+        "qCardinal" : 3,
+        "qSortIndicator" : "D",
+        "qGroupFallbackTitles" : [ "Gender" ],
+        "qGroupPos" : 0,
+        "qStateCounts" : {
+          "qLocked" : 0,
+          "qSelected" : 0,
+          "qOption" : 3,
+          "qDeselected" : 0,
+          "qAlternative" : 0,
+          "qExcluded" : 0,
+          "qSelectedExcluded" : 0
+        },
+        "qTags" : [ "$ascii", "$text" ],
+        "qDimensionType" : "D",
+        "qGrouping" : "N",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qnDec" : 0,
+          "qUseThou" : 0
+        },
+        "qIsAutoFormat" : true,
+        "qGroupFieldDefs" : [ "Gender" ],
+        "title" : "Gender",
+        "autoSort" : false,
+        "cId" : "GuEaAs",
+        "othersLabel" : "Others"
+      } ],
+      "qMeasureInfo" : [ {
+        "qFallbackTitle" : "Avg Compensation",
+        "qApprMaxGlyphCount" : 10,
+        "qCardinal" : 4,
+        "qSortIndicator" : "D",
+        "qNumFormat" : {
+          "qType" : "M",
+          "qnDec" : 2,
+          "qUseThou" : 0,
+          "qFmt" : "$#,##0.00;($#,##0.00)",
+          "qDec" : ".",
+          "qThou" : ","
+        },
+        "qMin" : 77383.0514450867,
+        "qMax" : 82548.33333333333,
+        "autoSort" : true,
+        "cId" : "JLrVEWu",
+        "numFormatFromTemplate" : true
+      } ],
+      "qStackedDataPages" : [ ],
+      "qMode" : "S",
+      "qSize" : {
+        "qcx" : 2,
+        "qcy" : 0
+      }
+    },
+    "visualizationType" : "barchart",
+    "timestamp" : 1410462097961,
+    "sourceObjectId" : "chZxjav",
+    "isClone" : false,
+    "libraryTitle" : "",
+    "snapshotData" : {
+      "object" : {
+        "size" : {
+          "w" : 475,
+          "h" : 272
+        }
+      },
+      "parent" : {
+        "h" : 879,
+        "w" : 1670
+      },
+      "content" : {
+        "chartData" : {
+          "legendScrollOffset" : 0,
+          "scrollOffset" : 0,
+          "discreteSpacing" : 68.66666666666667,
+          "axisInnerOffset" : 0,
+          "hasMiniChart" : false
+        },
+        "size" : {
+          "w" : 475,
+          "h" : 266
+        },
+        "components" : {
+          "miniChart" : {
+            "visible" : false,
+            "dock" : "right",
+            "size" : {
+              "w" : 0,
+              "h" : 206
+            }
+          },
+          "refLineLabels" : {
+            "visible" : false,
+            "dock" : "top",
+            "size" : {
+              "w" : 381.78999919891356,
+              "h" : 0
+            }
+          },
+          "grid" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 381.78999919891356,
+              "h" : 206
+            }
+          },
+          "legend" : {
+            "visible" : false,
+            "dock" : "right",
+            "size" : {
+              "w" : 0,
+              "h" : 206
+            }
+          },
+          "scrollArea" : {
+            "visible" : false,
+            "dock" : "right",
+            "size" : {
+              "w" : 0,
+              "h" : 206
+            }
+          },
+          "refLines" : {
+            "visible" : false,
+            "dock" : "center",
+            "size" : {
+              "w" : 381.78999919891356,
+              "h" : 206
+            }
+          },
+          "dataArea" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 381.78999919891356,
+              "h" : 205
+            }
+          },
+          "measureAxis" : {
+            "visible" : true,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 381.78999919891356,
+              "h" : 56
+            }
+          },
+          "dimensionAxis" : {
+            "visible" : true,
+            "dock" : "left",
+            "size" : {
+              "w" : 65,
+              "h" : 206
+            }
+          },
+          "dimensionAxisTitle" : {
+            "visible" : true,
+            "dock" : "left",
+            "size" : {
+              "w" : 24.210000801086423,
+              "h" : 206
+            }
+          }
+        },
+        "v" : 0.96
+      }
+    }
+  },
+  "qStateData" : [ {
+    "qStateName" : "$",
+    "qFieldItems" : [ ]
+  } ],
+  "qPatches" : [ ]
+}

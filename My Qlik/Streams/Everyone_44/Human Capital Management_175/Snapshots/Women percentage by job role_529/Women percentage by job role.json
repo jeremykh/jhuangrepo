@@ -1,0 +1,709 @@
+{
+  "qProp" : {
+    "qInfo" : {
+      "qId" : "JPDAPv",
+      "qType" : "snapshot"
+    },
+    "qMetaDef" : {
+      "title" : "Women percentage by job role"
+    },
+    "title" : "Women percentage by job role",
+    "description" : "",
+    "sheetId" : "KkYhPC",
+    "creationDate" : "2014-10-13",
+    "qMeta" : { },
+    "qSelectionInfo" : { },
+    "qHyperCube" : {
+      "qSize" : {
+        "qcx" : 2,
+        "qcy" : 11
+      },
+      "qDimensionInfo" : [ {
+        "qFallbackTitle" : "Country",
+        "qApprMaxGlyphCount" : 14,
+        "qCardinal" : 10,
+        "qSortIndicator" : "A",
+        "qGroupFallbackTitles" : [ "Country" ],
+        "qGroupPos" : 0,
+        "qStateCounts" : {
+          "qLocked" : 0,
+          "qSelected" : 0,
+          "qOption" : 10,
+          "qDeselected" : 0,
+          "qAlternative" : 0,
+          "qExcluded" : 0,
+          "qSelectedExcluded" : 0,
+          "qLockedExcluded" : 0
+        },
+        "qTags" : [ "$ascii", "$text" ],
+        "qDimensionType" : "D",
+        "qGrouping" : "N",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qnDec" : 0,
+          "qUseThou" : 0
+        },
+        "qIsAutoFormat" : true,
+        "qGroupFieldDefs" : [ "Country" ],
+        "qMin" : 0,
+        "qMax" : 0,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qCardinalities" : {
+          "qCardinal" : 0,
+          "qHypercubeCardinal" : 0,
+          "qAllValuesCardinal" : -1
+        },
+        "title" : "Country",
+        "autoSort" : true,
+        "cId" : "yEfqn",
+        "othersLabel" : "Others"
+      } ],
+      "qMeasureInfo" : [ {
+        "qFallbackTitle" : "Women Employees Ratio",
+        "qApprMaxGlyphCount" : 5,
+        "qCardinal" : 12,
+        "qSortIndicator" : "D",
+        "qNumFormat" : {
+          "qType" : "F",
+          "qnDec" : 2,
+          "qUseThou" : 0,
+          "qFmt" : "0.0%",
+          "qDec" : ".",
+          "qThou" : ","
+        },
+        "qMin" : 0.225,
+        "qMax" : 0.46153846153846156,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qTrendLines" : [ ],
+        "autoSort" : true,
+        "cId" : "zWCxkU",
+        "numFormatFromTemplate" : true
+      } ],
+      "qEffectiveInterColumnSortOrder" : [ 0, 1 ],
+      "qGrandTotalRow" : [ {
+        "qText" : "36.3%",
+        "qNum" : 0.36292981629769194,
+        "qElemNumber" : -1,
+        "qState" : "X",
+        "qIsTotalCell" : true
+      } ],
+      "qDataPages" : [ {
+        "qMatrix" : [ [ {
+          "qText" : "Australia",
+          "qNum" : "NaN",
+          "qElemNumber" : 9,
+          "qState" : "O"
+        }, {
+          "qText" : "22.5%",
+          "qNum" : 0.225,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 4291585655
+            } ]
+          }
+        } ], [ {
+          "qText" : "Canada",
+          "qNum" : "NaN",
+          "qElemNumber" : 1,
+          "qState" : "O"
+        }, {
+          "qText" : "40.1%",
+          "qNum" : 0.4010416666666667,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 4291585655
+            } ]
+          }
+        } ], [ {
+          "qText" : "France",
+          "qNum" : "NaN",
+          "qElemNumber" : 6,
+          "qState" : "O"
+        }, {
+          "qText" : "33.9%",
+          "qNum" : 0.3385416666666667,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 4291585655
+            } ]
+          }
+        } ], [ {
+          "qText" : "Germany",
+          "qNum" : "NaN",
+          "qElemNumber" : 3,
+          "qState" : "O"
+        }, {
+          "qText" : "37.4%",
+          "qNum" : 0.37438423645320196,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 4291585655
+            } ]
+          }
+        } ], [ {
+          "qText" : "Ireland",
+          "qNum" : "NaN",
+          "qElemNumber" : 8,
+          "qState" : "O"
+        }, {
+          "qText" : "36.8%",
+          "qNum" : 0.3684210526315789,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 4291585655
+            } ]
+          }
+        } ], [ {
+          "qText" : "Italy",
+          "qNum" : "NaN",
+          "qElemNumber" : 4,
+          "qState" : "O"
+        }, {
+          "qText" : "37.0%",
+          "qNum" : 0.3704918032786885,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 4291585655
+            } ]
+          }
+        } ], [ {
+          "qText" : "Poland",
+          "qNum" : "NaN",
+          "qElemNumber" : 7,
+          "qState" : "O"
+        }, {
+          "qText" : "29.2%",
+          "qNum" : 0.2923076923076923,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 4291585655
+            } ]
+          }
+        } ], [ {
+          "qText" : "Scotland",
+          "qNum" : "NaN",
+          "qElemNumber" : 5,
+          "qState" : "O"
+        }, {
+          "qText" : "46.2%",
+          "qNum" : 0.46153846153846156,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 4291585655
+            } ]
+          }
+        } ], [ {
+          "qText" : "United Kingdom",
+          "qNum" : "NaN",
+          "qElemNumber" : 0,
+          "qState" : "O"
+        }, {
+          "qText" : "34.2%",
+          "qNum" : 0.3416666666666667,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 4291585655
+            } ]
+          }
+        } ], [ {
+          "qText" : "United States",
+          "qNum" : "NaN",
+          "qElemNumber" : 2,
+          "qState" : "O"
+        }, {
+          "qText" : "35.2%",
+          "qNum" : 0.35185185185185186,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 4291585655
+            } ]
+          }
+        } ], [ {
+          "qText" : "-",
+          "qNum" : "NaN",
+          "qElemNumber" : -2,
+          "qState" : "L",
+          "qIsEmpty" : true
+        }, {
+          "qText" : "40.0%",
+          "qNum" : 0.4,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 4291585655
+            } ]
+          }
+        } ] ],
+        "qTails" : [ {
+          "qUp" : 0,
+          "qDown" : 0
+        } ],
+        "qArea" : {
+          "qLeft" : 0,
+          "qTop" : 0,
+          "qWidth" : 2,
+          "qHeight" : 11
+        }
+      } ],
+      "qPivotDataPages" : [ ],
+      "qStackedDataPages" : [ ],
+      "qMode" : "S",
+      "qNoOfLeftDims" : 0,
+      "qTreeNodesOnDim" : [ ],
+      "qColumnOrder" : [ ]
+    },
+    "refLine" : {
+      "refLines" : [ ]
+    },
+    "showTitles" : false,
+    "subtitle" : "",
+    "footnote" : "",
+    "barGrouping" : {
+      "grouping" : "grouped"
+    },
+    "orientation" : "vertical",
+    "gridLine" : {
+      "auto" : true,
+      "spacing" : 2
+    },
+    "dataPoint" : {
+      "showLabels" : true
+    },
+    "color" : {
+      "auto" : false,
+      "mode" : "byExpression",
+      "singleColor" : 3,
+      "persistent" : false,
+      "expressionLabel" : "",
+      "expressionIsColor" : true,
+      "measureScheme" : "sg",
+      "reverseScheme" : false,
+      "dimensionScheme" : "12",
+      "autoMinMax" : true,
+      "measureMin" : 0,
+      "measureMax" : 10,
+      "dimensionId" : "",
+      "colorExpression" : "rgb(221,204,119)"
+    },
+    "legend" : {
+      "show" : false,
+      "dock" : "auto",
+      "showTitle" : true
+    },
+    "dimensionAxis" : {
+      "show" : "labels",
+      "label" : "auto",
+      "dock" : "near"
+    },
+    "measureAxis" : {
+      "show" : "all",
+      "dock" : "near",
+      "spacing" : 1,
+      "autoMinMax" : true,
+      "minMax" : "min",
+      "min" : 0,
+      "max" : 10
+    },
+    "visualization" : "barchart",
+    "masterVersion" : 0.96,
+    "reducedHyperCube" : {
+      "qDataPages" : [ {
+        "qMatrix" : [ [ {
+          "qText" : "Australia",
+          "qNum" : "NaN",
+          "qElemNumber" : 9,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "22.5%",
+          "qNum" : 0.225,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 4291585655
+            } ]
+          },
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Canada",
+          "qNum" : "NaN",
+          "qElemNumber" : 1,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "40.1%",
+          "qNum" : 0.4010416666666667,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 4291585655
+            } ]
+          },
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "France",
+          "qNum" : "NaN",
+          "qElemNumber" : 6,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "33.9%",
+          "qNum" : 0.3385416666666667,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 4291585655
+            } ]
+          },
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Germany",
+          "qNum" : "NaN",
+          "qElemNumber" : 3,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "37.4%",
+          "qNum" : 0.37438423645320196,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 4291585655
+            } ]
+          },
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Ireland",
+          "qNum" : "NaN",
+          "qElemNumber" : 8,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "36.8%",
+          "qNum" : 0.3684210526315789,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 4291585655
+            } ]
+          },
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Italy",
+          "qNum" : "NaN",
+          "qElemNumber" : 4,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "37.0%",
+          "qNum" : 0.3704918032786885,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 4291585655
+            } ]
+          },
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Poland",
+          "qNum" : "NaN",
+          "qElemNumber" : 7,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "29.2%",
+          "qNum" : 0.2923076923076923,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 4291585655
+            } ]
+          },
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Scotland",
+          "qNum" : "NaN",
+          "qElemNumber" : 5,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "46.2%",
+          "qNum" : 0.46153846153846156,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 4291585655
+            } ]
+          },
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "United Kingdom",
+          "qNum" : "NaN",
+          "qElemNumber" : 0,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "34.2%",
+          "qNum" : 0.3416666666666667,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 4291585655
+            } ]
+          },
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "United States",
+          "qNum" : "NaN",
+          "qElemNumber" : 2,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "35.2%",
+          "qNum" : 0.35185185185185186,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 4291585655
+            } ]
+          },
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "-",
+          "qNum" : "NaN",
+          "qElemNumber" : -2,
+          "qState" : "L",
+          "qIsEmpty" : true,
+          "qGreyValue" : 0
+        }, {
+          "qText" : "40.0%",
+          "qNum" : 0.4,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 4291585655
+            } ]
+          },
+          "qGreyValue" : 0
+        } ] ],
+        "qTails" : [ {
+          "qUp" : 0,
+          "qDown" : 0
+        } ],
+        "qArea" : {
+          "qLeft" : 0,
+          "qTop" : 0,
+          "qWidth" : 2,
+          "qHeight" : 11
+        }
+      } ],
+      "qDimensionInfo" : [ {
+        "qFallbackTitle" : "Country",
+        "qApprMaxGlyphCount" : 14,
+        "qCardinal" : 10,
+        "qSortIndicator" : "A",
+        "qGroupFallbackTitles" : [ "Country" ],
+        "qGroupPos" : 0,
+        "qStateCounts" : {
+          "qLocked" : 0,
+          "qSelected" : 0,
+          "qOption" : 10,
+          "qDeselected" : 0,
+          "qAlternative" : 0,
+          "qExcluded" : 0,
+          "qSelectedExcluded" : 0
+        },
+        "qTags" : [ "$ascii", "$text" ],
+        "qDimensionType" : "D",
+        "qGrouping" : "N",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qnDec" : 0,
+          "qUseThou" : 0
+        },
+        "qIsAutoFormat" : true,
+        "qGroupFieldDefs" : [ "Country" ],
+        "title" : "Country",
+        "autoSort" : true,
+        "cId" : "yEfqn",
+        "othersLabel" : "Others"
+      } ],
+      "qMeasureInfo" : [ {
+        "qFallbackTitle" : "Women Employees Ratio",
+        "qApprMaxGlyphCount" : 5,
+        "qCardinal" : 12,
+        "qSortIndicator" : "D",
+        "qNumFormat" : {
+          "qType" : "F",
+          "qnDec" : 2,
+          "qUseThou" : 0,
+          "qFmt" : "0.0%",
+          "qDec" : ".",
+          "qThou" : ","
+        },
+        "qMin" : 0.225,
+        "qMax" : 0.46153846153846156,
+        "autoSort" : true,
+        "cId" : "zWCxkU",
+        "numFormatFromTemplate" : true
+      } ],
+      "qStackedDataPages" : [ ],
+      "qMode" : "S",
+      "qSize" : {
+        "qcx" : 2,
+        "qcy" : 0
+      }
+    },
+    "visualizationType" : "barchart",
+    "timestamp" : 1413229103643,
+    "sourceObjectId" : "LBwwGt",
+    "isClone" : false,
+    "snapshotData" : {
+      "object" : {
+        "size" : {
+          "w" : 703,
+          "h" : 410
+        }
+      },
+      "parent" : {
+        "h" : 877,
+        "w" : 1910
+      },
+      "content" : {
+        "chartData" : {
+          "legendScrollOffset" : 0,
+          "scrollOffset" : 0,
+          "discreteSpacing" : 54.90909090909091,
+          "axisInnerOffset" : 0,
+          "hasMiniChart" : false
+        },
+        "size" : {
+          "w" : 703,
+          "h" : 410
+        },
+        "components" : {
+          "miniChart" : {
+            "visible" : false,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 604,
+              "h" : 0
+            }
+          },
+          "refLineLabels" : {
+            "visible" : false,
+            "dock" : "right",
+            "size" : {
+              "w" : 0,
+              "h" : 300
+            }
+          },
+          "grid" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 604,
+              "h" : 300
+            }
+          },
+          "legend" : {
+            "visible" : false,
+            "dock" : "right",
+            "size" : {
+              "w" : 0,
+              "h" : 300
+            }
+          },
+          "scrollArea" : {
+            "visible" : false,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 604,
+              "h" : 0
+            }
+          },
+          "refLines" : {
+            "visible" : false,
+            "dock" : "center",
+            "size" : {
+              "w" : 604,
+              "h" : 300
+            }
+          },
+          "dataArea" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 604,
+              "h" : 300
+            }
+          },
+          "measureAxis" : {
+            "visible" : true,
+            "dock" : "left",
+            "size" : {
+              "w" : 78,
+              "h" : 300
+            }
+          },
+          "dimensionAxis" : {
+            "visible" : true,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 604,
+              "h" : 106
+            }
+          },
+          "dimensionAxisTitle" : {
+            "visible" : false,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 604,
+              "h" : 0
+            }
+          }
+        },
+        "v" : 0.96
+      }
+    }
+  },
+  "qStateData" : [ {
+    "qStateName" : "$",
+    "qFieldItems" : [ ]
+  } ],
+  "qPatches" : [ ]
+}

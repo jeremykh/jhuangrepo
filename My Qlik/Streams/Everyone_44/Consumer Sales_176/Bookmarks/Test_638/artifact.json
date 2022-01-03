@@ -1,0 +1,60 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "60d2f5043df521a304a8caedaf4bfc9b073cf1a4",
+      "contentName" : "content",
+      "contentOid" : 18751,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "creationDate" : "2021-08-31T13:58:01.623Z",
+    "qMetaDef" : {
+      "description" : "",
+      "title" : "Test"
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "published" : true
+    },
+    "selectionFields" : "",
+    "sheetId" : "xjXHDyD"
+  },
+  "hidden" : false,
+  "identity" : "f32d7cea-31d7-4d71-8c84-2faf8b24ba63,Bookmark;b0fdc823-746a-4443-aca0-30b592a00bde,App;",
+  "key" : {
+    "id" : 638
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Consumer Sales/Bookmarks/Test",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikBookmark/QlikBookmark",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Test",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 202
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 176, 202, 638 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Bookmark",
+  "shouldVersion" : true,
+  "subtype" : "QlikBookmark",
+  "type" : "QlikArtifact"
+}

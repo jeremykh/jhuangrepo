@@ -1,0 +1,861 @@
+{
+  "qProperty" : {
+    "qInfo" : {
+      "qId" : "JNmE",
+      "qType" : "sheet"
+    },
+    "qMetaDef" : {
+      "title" : "Ethnic Diversity",
+      "description" : "Actively promoting diversity, this visualizations will help you to understand diversity in the company. For more information about diversity please check the Story called Diversity Analysis within the Data Storytelling library"
+    },
+    "rank" : 3,
+    "columns" : 24,
+    "rows" : 12,
+    "cells" : [ {
+      "name" : "SYfCey",
+      "type" : "treemap",
+      "col" : 9,
+      "row" : 0,
+      "colspan" : 7,
+      "rowspan" : 11
+    }, {
+      "name" : "fKwtfhH",
+      "type" : "barchart",
+      "col" : 16,
+      "row" : 0,
+      "colspan" : 7,
+      "rowspan" : 11
+    }, {
+      "name" : "PEDjaJv",
+      "type" : "barchart",
+      "col" : 1,
+      "row" : 4,
+      "colspan" : 8,
+      "rowspan" : 4
+    }, {
+      "name" : "hywdHj",
+      "type" : "treemap",
+      "col" : 1,
+      "row" : 0,
+      "colspan" : 8,
+      "rowspan" : 4
+    }, {
+      "name" : "LjtsQJ",
+      "type" : "treemap",
+      "col" : 1,
+      "row" : 8,
+      "colspan" : 8,
+      "rowspan" : 3
+    } ],
+    "thumbnail" : {
+      "qStaticContentUrlDef" : {
+        "qUrl" : "/appcontent/e325a2bf-ba90-4eee-b641-71f0a1975f9b/HumanCap-Ethnic.png"
+      }
+    }
+  },
+  "qChildren" : [ {
+    "qProperty" : {
+      "qInfo" : {
+        "qId" : "SYfCey",
+        "qType" : "barchart"
+      },
+      "qMetaDef" : { },
+      "qHyperCubeDef" : {
+        "qDimensions" : [ {
+          "qLibraryId" : "a63f4fa0-0c9e-4122-aaae-be60f3f6cb04",
+          "qDef" : {
+            "qGrouping" : "N",
+            "qFieldDefs" : [ ],
+            "qFieldLabels" : [ ],
+            "qSortCriterias" : [ {
+              "qSortByAscii" : 1,
+              "qSortByLoadOrder" : 1,
+              "qExpression" : { }
+            } ],
+            "qNumberPresentations" : [ ],
+            "qActiveField" : 0,
+            "autoSort" : true,
+            "cId" : "JJHsLM",
+            "othersLabel" : "Others",
+            "title" : "Country"
+          },
+          "qOtherTotalSpec" : {
+            "qOtherMode" : "OTHER_OFF",
+            "qOtherCounted" : {
+              "qv" : "10"
+            },
+            "qOtherLimit" : {
+              "qv" : "0"
+            },
+            "qOtherLimitMode" : "OTHER_GE_LIMIT",
+            "qForceBadValueKeeping" : true,
+            "qApplyEvenWhenPossiblyWrongResult" : true,
+            "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+            "qTotalMode" : "TOTAL_OFF",
+            "qReferencedExpression" : { }
+          },
+          "qOtherLabel" : { },
+          "qTotalLabel" : { },
+          "qCalcCond" : { },
+          "qAttributeExpressions" : [ ],
+          "qAttributeDimensions" : [ ],
+          "qCalcCondition" : {
+            "qCond" : { },
+            "qMsg" : { }
+          },
+          "title" : "Country"
+        }, {
+          "qLibraryId" : "1054e991-a4cb-4709-9ae2-6e3317a12eb9",
+          "qDef" : {
+            "qGrouping" : "N",
+            "qFieldDefs" : [ ],
+            "qFieldLabels" : [ ],
+            "qSortCriterias" : [ {
+              "qSortByAscii" : 1,
+              "qSortByLoadOrder" : 1,
+              "qExpression" : { }
+            } ],
+            "qNumberPresentations" : [ ],
+            "qActiveField" : 0,
+            "autoSort" : true,
+            "cId" : "PvBtBdT",
+            "othersLabel" : "Others",
+            "title" : "Ethnic Group"
+          },
+          "qOtherTotalSpec" : {
+            "qOtherMode" : "OTHER_OFF",
+            "qOtherCounted" : {
+              "qv" : "10"
+            },
+            "qOtherLimit" : {
+              "qv" : "0"
+            },
+            "qOtherLimitMode" : "OTHER_GE_LIMIT",
+            "qForceBadValueKeeping" : true,
+            "qApplyEvenWhenPossiblyWrongResult" : true,
+            "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+            "qTotalMode" : "TOTAL_OFF",
+            "qReferencedExpression" : { }
+          },
+          "qOtherLabel" : { },
+          "qTotalLabel" : { },
+          "qCalcCond" : { },
+          "qAttributeExpressions" : [ ],
+          "qAttributeDimensions" : [ ],
+          "qCalcCondition" : {
+            "qCond" : { },
+            "qMsg" : { }
+          },
+          "title" : "Ethnic Group"
+        } ],
+        "qMeasures" : [ {
+          "qLibraryId" : "ckPJmvF",
+          "qDef" : {
+            "qTags" : [ ],
+            "qGrouping" : "N",
+            "qNumFormat" : {
+              "qType" : "U",
+              "qnDec" : 10,
+              "qUseThou" : 0
+            },
+            "qAccumulate" : 0,
+            "qActiveExpression" : 0,
+            "qExpressions" : [ ],
+            "autoSort" : true,
+            "cId" : "FddNK",
+            "numFormatFromTemplate" : true
+          },
+          "qSortBy" : {
+            "qSortByNumeric" : -1,
+            "qSortByLoadOrder" : 1,
+            "qExpression" : { }
+          },
+          "qAttributeExpressions" : [ ],
+          "qAttributeDimensions" : [ ],
+          "qCalcCond" : { },
+          "qCalcCondition" : {
+            "qCond" : { },
+            "qMsg" : { }
+          },
+          "qTrendLines" : [ ],
+          "qMiniChartDef" : {
+            "qSortBy" : {
+              "qExpression" : { }
+            },
+            "qOtherTotalSpec" : {
+              "qOtherMode" : "OTHER_OFF",
+              "qOtherCounted" : { },
+              "qOtherLimit" : { },
+              "qOtherLimitMode" : "OTHER_GT_LIMIT",
+              "qForceBadValueKeeping" : true,
+              "qApplyEvenWhenPossiblyWrongResult" : true,
+              "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+              "qTotalMode" : "TOTAL_OFF",
+              "qReferencedExpression" : { }
+            },
+            "qMaxNumberPoints" : -1,
+            "qAttributeExpressions" : [ ]
+          }
+        } ],
+        "qInterColumnSortOrder" : [ 0, 2, 1 ],
+        "qSuppressMissing" : true,
+        "qInitialDataFetch" : [ {
+          "qLeft" : 0,
+          "qTop" : 0,
+          "qWidth" : 17,
+          "qHeight" : 500
+        } ],
+        "qReductionMode" : "N",
+        "qMode" : "K",
+        "qPseudoDimPos" : 10000,
+        "qNoOfLeftDims" : -1,
+        "qAlwaysFullyExpanded" : true,
+        "qMaxStackedCells" : 3000,
+        "qCalcCond" : { },
+        "qTitle" : { },
+        "qCalcCondition" : {
+          "qCond" : { },
+          "qMsg" : { }
+        },
+        "qColumnOrder" : [ ],
+        "qExpansionState" : [ ],
+        "qLayoutExclude" : { }
+      },
+      "showTitles" : true,
+      "title" : "Employees by ethnic group and country",
+      "subtitle" : "",
+      "footnote" : "",
+      "color" : {
+        "auto" : false,
+        "mode" : "byDimension",
+        "singleColor" : 3,
+        "persistent" : true,
+        "expressionLabel" : "",
+        "expressionIsColor" : true,
+        "measureScheme" : "sg",
+        "reverseScheme" : false,
+        "dimensionScheme" : "12",
+        "autoMinMax" : true,
+        "measureMin" : 0,
+        "measureMax" : 10,
+        "dimensionId" : ""
+      },
+      "legend" : {
+        "show" : false,
+        "dock" : "auto",
+        "showTitle" : true
+      },
+      "visualization" : "barchart",
+      "refLine" : {
+        "refLines" : [ ]
+      },
+      "barGrouping" : {
+        "grouping" : "stacked"
+      },
+      "orientation" : "horizontal",
+      "gridLine" : {
+        "auto" : true,
+        "spacing" : 2
+      },
+      "dataPoint" : {
+        "showLabels" : true
+      },
+      "dimensionAxis" : {
+        "show" : "all",
+        "label" : "auto",
+        "dock" : "near"
+      },
+      "measureAxis" : {
+        "show" : "all",
+        "label" : "horizontal",
+        "dock" : "near",
+        "spacing" : 1,
+        "autoMinMax" : true,
+        "minMax" : "min",
+        "min" : 0,
+        "max" : 10
+      },
+      "qLayoutExclude" : { }
+    },
+    "qChildren" : [ ]
+  }, {
+    "qProperty" : {
+      "qInfo" : {
+        "qId" : "fKwtfhH",
+        "qType" : "barchart"
+      },
+      "qMetaDef" : { },
+      "qHyperCubeDef" : {
+        "qDimensions" : [ {
+          "qLibraryId" : "a63f4fa0-0c9e-4122-aaae-be60f3f6cb04",
+          "qDef" : {
+            "qGrouping" : "N",
+            "qFieldDefs" : [ ],
+            "qFieldLabels" : [ ],
+            "qSortCriterias" : [ {
+              "qSortByAscii" : 1,
+              "qSortByLoadOrder" : 1,
+              "qExpression" : { }
+            } ],
+            "qNumberPresentations" : [ ],
+            "qActiveField" : 0,
+            "autoSort" : true,
+            "cId" : "eGgf",
+            "othersLabel" : "Others",
+            "title" : "Country"
+          },
+          "qOtherTotalSpec" : {
+            "qOtherMode" : "OTHER_OFF",
+            "qOtherCounted" : {
+              "qv" : "10"
+            },
+            "qOtherLimit" : {
+              "qv" : "0"
+            },
+            "qOtherLimitMode" : "OTHER_GE_LIMIT",
+            "qForceBadValueKeeping" : true,
+            "qApplyEvenWhenPossiblyWrongResult" : true,
+            "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+            "qTotalMode" : "TOTAL_OFF",
+            "qReferencedExpression" : { }
+          },
+          "qOtherLabel" : { },
+          "qTotalLabel" : { },
+          "qCalcCond" : { },
+          "qAttributeExpressions" : [ ],
+          "qAttributeDimensions" : [ ],
+          "qCalcCondition" : {
+            "qCond" : { },
+            "qMsg" : { }
+          }
+        }, {
+          "qLibraryId" : "1054e991-a4cb-4709-9ae2-6e3317a12eb9",
+          "qDef" : {
+            "qGrouping" : "N",
+            "qFieldDefs" : [ ],
+            "qFieldLabels" : [ ],
+            "qSortCriterias" : [ {
+              "qSortByAscii" : 1,
+              "qSortByLoadOrder" : 1,
+              "qExpression" : { }
+            } ],
+            "qNumberPresentations" : [ ],
+            "qActiveField" : 0,
+            "autoSort" : true,
+            "cId" : "Qya",
+            "othersLabel" : "Others",
+            "title" : "Ethnic Group"
+          },
+          "qOtherTotalSpec" : {
+            "qOtherMode" : "OTHER_OFF",
+            "qOtherCounted" : {
+              "qv" : "10"
+            },
+            "qOtherLimit" : {
+              "qv" : "0"
+            },
+            "qOtherLimitMode" : "OTHER_GE_LIMIT",
+            "qForceBadValueKeeping" : true,
+            "qApplyEvenWhenPossiblyWrongResult" : true,
+            "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+            "qTotalMode" : "TOTAL_OFF",
+            "qReferencedExpression" : { }
+          },
+          "qOtherLabel" : { },
+          "qTotalLabel" : { },
+          "qCalcCond" : { },
+          "qAttributeExpressions" : [ ],
+          "qAttributeDimensions" : [ ],
+          "qCalcCondition" : {
+            "qCond" : { },
+            "qMsg" : { }
+          }
+        } ],
+        "qMeasures" : [ {
+          "qLibraryId" : "mXUyq",
+          "qDef" : {
+            "qTags" : [ ],
+            "qGrouping" : "N",
+            "qNumFormat" : {
+              "qType" : "U",
+              "qnDec" : 10,
+              "qUseThou" : 0
+            },
+            "qAccumulate" : 0,
+            "qActiveExpression" : 0,
+            "qExpressions" : [ ],
+            "autoSort" : true,
+            "cId" : "yxmWTZ",
+            "numFormatFromTemplate" : true
+          },
+          "qSortBy" : {
+            "qSortByNumeric" : -1,
+            "qSortByLoadOrder" : 1,
+            "qExpression" : { }
+          },
+          "qAttributeExpressions" : [ ],
+          "qAttributeDimensions" : [ ],
+          "qCalcCond" : { },
+          "qCalcCondition" : {
+            "qCond" : { },
+            "qMsg" : { }
+          },
+          "qTrendLines" : [ ],
+          "qMiniChartDef" : {
+            "qSortBy" : {
+              "qExpression" : { }
+            },
+            "qOtherTotalSpec" : {
+              "qOtherMode" : "OTHER_OFF",
+              "qOtherCounted" : { },
+              "qOtherLimit" : { },
+              "qOtherLimitMode" : "OTHER_GT_LIMIT",
+              "qForceBadValueKeeping" : true,
+              "qApplyEvenWhenPossiblyWrongResult" : true,
+              "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+              "qTotalMode" : "TOTAL_OFF",
+              "qReferencedExpression" : { }
+            },
+            "qMaxNumberPoints" : -1,
+            "qAttributeExpressions" : [ ]
+          }
+        } ],
+        "qInterColumnSortOrder" : [ 0, 2, 1 ],
+        "qSuppressMissing" : true,
+        "qInitialDataFetch" : [ {
+          "qLeft" : 0,
+          "qTop" : 0,
+          "qWidth" : 17,
+          "qHeight" : 500
+        } ],
+        "qReductionMode" : "N",
+        "qMode" : "S",
+        "qPseudoDimPos" : 10000,
+        "qNoOfLeftDims" : -1,
+        "qAlwaysFullyExpanded" : true,
+        "qMaxStackedCells" : 5000,
+        "qCalcCond" : { },
+        "qTitle" : { },
+        "qCalcCondition" : {
+          "qCond" : { },
+          "qMsg" : { }
+        },
+        "qColumnOrder" : [ ],
+        "qExpansionState" : [ ],
+        "qLayoutExclude" : { }
+      },
+      "refLine" : {
+        "refLines" : [ ]
+      },
+      "showTitles" : true,
+      "title" : "Avg Salary by country and ethnicity",
+      "subtitle" : "",
+      "footnote" : "",
+      "barGrouping" : {
+        "grouping" : "grouped"
+      },
+      "orientation" : "horizontal",
+      "gridLine" : {
+        "auto" : true,
+        "spacing" : 2
+      },
+      "dataPoint" : {
+        "showLabels" : true
+      },
+      "color" : {
+        "auto" : false,
+        "mode" : "byDimension",
+        "singleColor" : 3,
+        "persistent" : true,
+        "expressionIsColor" : true,
+        "measureScheme" : "dc",
+        "reverseScheme" : false,
+        "dimensionScheme" : "12",
+        "dimensionId" : "Qya"
+      },
+      "legend" : {
+        "show" : false,
+        "dock" : "auto",
+        "showTitle" : true
+      },
+      "dimensionAxis" : {
+        "show" : "all",
+        "label" : "auto",
+        "dock" : "near"
+      },
+      "measureAxis" : {
+        "show" : "all",
+        "label" : "horizontal",
+        "dock" : "near",
+        "spacing" : 1,
+        "autoMinMax" : true,
+        "minMax" : "min",
+        "min" : 0,
+        "max" : 10
+      },
+      "visualization" : "barchart"
+    },
+    "qChildren" : [ ]
+  }, {
+    "qProperty" : {
+      "qInfo" : {
+        "qId" : "hywdHj",
+        "qType" : "barchart"
+      },
+      "qExtendsId" : "jpmvJv",
+      "qMetaDef" : { }
+    },
+    "qChildren" : [ ]
+  }, {
+    "qProperty" : {
+      "qInfo" : {
+        "qId" : "PEDjaJv",
+        "qType" : "table"
+      },
+      "qMetaDef" : { },
+      "qHyperCubeDef" : {
+        "qDimensions" : [ {
+          "qLibraryId" : "1054e991-a4cb-4709-9ae2-6e3317a12eb9",
+          "qDef" : {
+            "qGrouping" : "N",
+            "qFieldDefs" : [ ],
+            "qFieldLabels" : [ ],
+            "qSortCriterias" : [ {
+              "qSortByAscii" : 1,
+              "qSortByLoadOrder" : 1,
+              "qExpression" : { }
+            } ],
+            "qNumberPresentations" : [ ],
+            "qActiveField" : 0,
+            "autoSort" : true,
+            "cId" : "dSunDMY",
+            "othersLabel" : "Others",
+            "title" : "Ethnic Group"
+          },
+          "qOtherTotalSpec" : {
+            "qOtherMode" : "OTHER_OFF",
+            "qOtherCounted" : {
+              "qv" : "10"
+            },
+            "qOtherLimit" : {
+              "qv" : "0"
+            },
+            "qOtherLimitMode" : "OTHER_GE_LIMIT",
+            "qForceBadValueKeeping" : true,
+            "qApplyEvenWhenPossiblyWrongResult" : true,
+            "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+            "qTotalMode" : "TOTAL_OFF",
+            "qReferencedExpression" : { }
+          },
+          "qOtherLabel" : { },
+          "qTotalLabel" : { },
+          "qCalcCond" : { },
+          "qAttributeExpressions" : [ ],
+          "qAttributeDimensions" : [ ],
+          "qCalcCondition" : {
+            "qCond" : { },
+            "qMsg" : { }
+          },
+          "title" : "Ethnic Group"
+        } ],
+        "qMeasures" : [ {
+          "qDef" : {
+            "qLabel" : "Employee %",
+            "qTags" : [ ],
+            "qGrouping" : "N",
+            "qDef" : "count(Distinct EmployeeCount)/count(total Distinct EmployeeCount)",
+            "qNumFormat" : {
+              "qType" : "F",
+              "qnDec" : 2,
+              "qUseThou" : 0,
+              "qFmt" : "0.0%",
+              "qDec" : ".",
+              "qThou" : ","
+            },
+            "qAccumulate" : 0,
+            "qActiveExpression" : 0,
+            "qExpressions" : [ ],
+            "autoSort" : false,
+            "cId" : "ekKRkf",
+            "numFormatFromTemplate" : true
+          },
+          "qSortBy" : {
+            "qSortByNumeric" : -1,
+            "qSortByAscii" : 1,
+            "qSortByLoadOrder" : 1,
+            "qExpression" : { }
+          },
+          "qAttributeExpressions" : [ ],
+          "qAttributeDimensions" : [ ],
+          "qCalcCond" : { },
+          "qCalcCondition" : {
+            "qCond" : { },
+            "qMsg" : { }
+          },
+          "qTrendLines" : [ ],
+          "qMiniChartDef" : {
+            "qSortBy" : {
+              "qExpression" : { }
+            },
+            "qOtherTotalSpec" : {
+              "qOtherMode" : "OTHER_OFF",
+              "qOtherCounted" : { },
+              "qOtherLimit" : { },
+              "qOtherLimitMode" : "OTHER_GT_LIMIT",
+              "qForceBadValueKeeping" : true,
+              "qApplyEvenWhenPossiblyWrongResult" : true,
+              "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+              "qTotalMode" : "TOTAL_OFF",
+              "qReferencedExpression" : { }
+            },
+            "qMaxNumberPoints" : -1,
+            "qAttributeExpressions" : [ ]
+          }
+        }, {
+          "qLibraryId" : "ckPJmvF",
+          "qDef" : {
+            "qTags" : [ ],
+            "qGrouping" : "N",
+            "qNumFormat" : {
+              "qType" : "U",
+              "qnDec" : 10,
+              "qUseThou" : 0
+            },
+            "qAccumulate" : 0,
+            "qActiveExpression" : 0,
+            "qExpressions" : [ ],
+            "autoSort" : true,
+            "cId" : "qpD",
+            "numFormatFromTemplate" : true
+          },
+          "qSortBy" : {
+            "qSortByNumeric" : 1,
+            "qSortByAscii" : 1,
+            "qSortByLoadOrder" : 1,
+            "qExpression" : { }
+          },
+          "qAttributeExpressions" : [ ],
+          "qAttributeDimensions" : [ ],
+          "qCalcCond" : { },
+          "qCalcCondition" : {
+            "qCond" : { },
+            "qMsg" : { }
+          },
+          "qTrendLines" : [ ],
+          "qMiniChartDef" : {
+            "qSortBy" : {
+              "qExpression" : { }
+            },
+            "qOtherTotalSpec" : {
+              "qOtherMode" : "OTHER_OFF",
+              "qOtherCounted" : { },
+              "qOtherLimit" : { },
+              "qOtherLimitMode" : "OTHER_GT_LIMIT",
+              "qForceBadValueKeeping" : true,
+              "qApplyEvenWhenPossiblyWrongResult" : true,
+              "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+              "qTotalMode" : "TOTAL_OFF",
+              "qReferencedExpression" : { }
+            },
+            "qMaxNumberPoints" : -1,
+            "qAttributeExpressions" : [ ]
+          }
+        } ],
+        "qInterColumnSortOrder" : [ 1, 0, 2 ],
+        "qSuppressMissing" : true,
+        "qInitialDataFetch" : [ {
+          "qLeft" : 0,
+          "qTop" : 0,
+          "qWidth" : 0,
+          "qHeight" : 0
+        } ],
+        "qReductionMode" : "N",
+        "qMode" : "S",
+        "qPseudoDimPos" : 10000,
+        "qNoOfLeftDims" : -1,
+        "qAlwaysFullyExpanded" : true,
+        "qMaxStackedCells" : 5000,
+        "qCalcCond" : { },
+        "qTitle" : { },
+        "qCalcCondition" : {
+          "qCond" : { },
+          "qMsg" : { }
+        },
+        "qColumnOrder" : [ ],
+        "qExpansionState" : [ ],
+        "columnOrder" : [ 0, 1, 2 ],
+        "qLayoutExclude" : { },
+        "columnWidths" : [ -1, -1, -1 ]
+      },
+      "showTitles" : true,
+      "title" : "Details",
+      "subtitle" : "",
+      "footnote" : "",
+      "visualization" : "table",
+      "qLayoutExclude" : { },
+      "totals" : {
+        "show" : "auto",
+        "position" : "noTotals"
+      }
+    },
+    "qChildren" : [ ]
+  }, {
+    "qProperty" : {
+      "qInfo" : {
+        "qId" : "LjtsQJ",
+        "qType" : "treemap"
+      },
+      "qMetaDef" : { },
+      "qHyperCubeDef" : {
+        "qDimensions" : [ {
+          "qLibraryId" : "1054e991-a4cb-4709-9ae2-6e3317a12eb9",
+          "qDef" : {
+            "qGrouping" : "N",
+            "qFieldDefs" : [ ],
+            "qFieldLabels" : [ ],
+            "qSortCriterias" : [ {
+              "qSortByAscii" : 1,
+              "qSortByLoadOrder" : 1,
+              "qExpression" : { }
+            } ],
+            "qNumberPresentations" : [ ],
+            "qActiveField" : 0,
+            "autoSort" : true,
+            "cId" : "TzFmC",
+            "othersLabel" : "Others",
+            "title" : "Ethnic Group"
+          },
+          "qOtherTotalSpec" : {
+            "qOtherMode" : "OTHER_OFF",
+            "qOtherCounted" : {
+              "qv" : "10"
+            },
+            "qOtherLimit" : {
+              "qv" : "0"
+            },
+            "qOtherLimitMode" : "OTHER_GE_LIMIT",
+            "qForceBadValueKeeping" : true,
+            "qApplyEvenWhenPossiblyWrongResult" : true,
+            "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+            "qTotalMode" : "TOTAL_OFF",
+            "qReferencedExpression" : { }
+          },
+          "qOtherLabel" : { },
+          "qTotalLabel" : { },
+          "qCalcCond" : { },
+          "qAttributeExpressions" : [ ],
+          "qAttributeDimensions" : [ ],
+          "qCalcCondition" : {
+            "qCond" : { },
+            "qMsg" : { }
+          }
+        } ],
+        "qMeasures" : [ {
+          "qDef" : {
+            "qLabel" : "Emp %",
+            "qTags" : [ ],
+            "qGrouping" : "N",
+            "qDef" : "count(Distinct EmployeeCount)/count(total Distinct EmployeeCount)",
+            "qNumFormat" : {
+              "qType" : "F",
+              "qnDec" : 2,
+              "qUseThou" : 0,
+              "qFmt" : "0.0%",
+              "qDec" : ".",
+              "qThou" : ","
+            },
+            "qAccumulate" : 0,
+            "qActiveExpression" : 0,
+            "qExpressions" : [ ],
+            "autoSort" : true,
+            "cId" : "XphMee",
+            "numFormatFromTemplate" : true
+          },
+          "qSortBy" : {
+            "qSortByNumeric" : -1,
+            "qSortByLoadOrder" : 1,
+            "qExpression" : { }
+          },
+          "qAttributeExpressions" : [ ],
+          "qAttributeDimensions" : [ ],
+          "qCalcCond" : { },
+          "qCalcCondition" : {
+            "qCond" : { },
+            "qMsg" : { }
+          },
+          "qTrendLines" : [ ],
+          "qMiniChartDef" : {
+            "qSortBy" : {
+              "qExpression" : { }
+            },
+            "qOtherTotalSpec" : {
+              "qOtherMode" : "OTHER_OFF",
+              "qOtherCounted" : { },
+              "qOtherLimit" : { },
+              "qOtherLimitMode" : "OTHER_GT_LIMIT",
+              "qForceBadValueKeeping" : true,
+              "qApplyEvenWhenPossiblyWrongResult" : true,
+              "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+              "qTotalMode" : "TOTAL_OFF",
+              "qReferencedExpression" : { }
+            },
+            "qMaxNumberPoints" : -1,
+            "qAttributeExpressions" : [ ]
+          }
+        } ],
+        "qInterColumnSortOrder" : [ 0, 1 ],
+        "qSuppressMissing" : true,
+        "qInitialDataFetch" : [ {
+          "qLeft" : 0,
+          "qTop" : 0,
+          "qWidth" : 30,
+          "qHeight" : 3000
+        } ],
+        "qReductionMode" : "N",
+        "qMode" : "K",
+        "qPseudoDimPos" : 0,
+        "qNoOfLeftDims" : -1,
+        "qAlwaysFullyExpanded" : true,
+        "qMaxStackedCells" : 3000,
+        "qCalcCond" : { },
+        "qTitle" : { },
+        "qCalcCondition" : {
+          "qCond" : { },
+          "qMsg" : { }
+        },
+        "qColumnOrder" : [ ],
+        "qExpansionState" : [ ],
+        "qLayoutExclude" : { }
+      },
+      "showTitles" : true,
+      "title" : "% Employees by Ethnic group",
+      "subtitle" : "",
+      "footnote" : "",
+      "labels" : {
+        "auto" : true,
+        "headers" : true,
+        "overlay" : true,
+        "leaves" : true,
+        "values" : true
+      },
+      "color" : {
+        "auto" : false,
+        "mode" : "byDimension",
+        "singleColor" : 3,
+        "persistent" : true,
+        "expressionIsColor" : true,
+        "measureScheme" : "sg",
+        "reverseScheme" : false,
+        "dimensionScheme" : "12",
+        "dimensionId" : ""
+      },
+      "legend" : {
+        "show" : false,
+        "dock" : "auto",
+        "showTitle" : true
+      },
+      "visualization" : "treemap"
+    },
+    "qChildren" : [ ]
+  } ]
+}

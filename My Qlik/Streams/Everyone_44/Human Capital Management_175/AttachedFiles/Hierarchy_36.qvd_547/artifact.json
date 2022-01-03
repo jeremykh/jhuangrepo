@@ -1,0 +1,44 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "384ac10f1e52f56d579ed57c7d0e005422b112ce",
+      "contentName" : "content",
+      "contentOid" : 18584,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "path" : "Hierarchy$.qvd"
+  },
+  "hidden" : false,
+  "identity" : "Hierarchy$.qvd,AttachedFile;e325a2bf-ba90-4eee-b641-71f0a1975f9b,App;",
+  "key" : {
+    "id" : 547
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Human Capital Management/AttachedFiles/Hierarchy$.qvd",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikAttachedFile/QlikAttachedFile",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Hierarchy$.qvd",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 189
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 175, 189, 547 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "AttachedFile",
+  "shouldVersion" : true,
+  "subtype" : "QlikAttachedFile",
+  "type" : "QlikArtifact"
+}

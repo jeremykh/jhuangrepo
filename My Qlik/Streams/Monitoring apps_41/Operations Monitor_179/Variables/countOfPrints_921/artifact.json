@@ -1,0 +1,48 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qDefinition" : "28",
+      "qInfo" : {
+        "qId" : "0faf2026-17fc-4906-88ed-86e161a9295a",
+        "qType" : "variable"
+      },
+      "qMetaDef" : { },
+      "qName" : "countOfPrints",
+      "qNumberPresentation" : {
+        "qType" : "U",
+        "qUseThou" : 0,
+        "qnDec" : 10
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "0faf2026-17fc-4906-88ed-86e161a9295a,Variable;72d45588-644b-4905-a064-a3923f3f6e08,App;",
+  "key" : {
+    "id" : 921
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/Operations Monitor/Variables/countOfPrints",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikVariable/QlikVariable",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "countOfPrints",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 238
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 179, 238, 921 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Variable",
+  "shouldVersion" : true,
+  "subtype" : "QlikVariable",
+  "type" : "QlikArtifact"
+}

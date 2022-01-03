@@ -1,0 +1,44 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "b1e1de0fe35463eebd382fdc75bf772f721b19b5",
+      "contentName" : "content",
+      "contentOid" : 18885,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "path" : "Icon_Scheduler_grey.png"
+  },
+  "hidden" : false,
+  "identity" : "Icon_Scheduler_grey.png,AttachedFile;72d45588-644b-4905-a064-a3923f3f6e08,App;",
+  "key" : {
+    "id" : 901
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/Operations Monitor/AttachedFiles/Icon_Scheduler_grey.png",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikAttachedFile/QlikAttachedFile",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Icon_Scheduler_grey.png",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 231
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 179, 231, 901 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "AttachedFile",
+  "shouldVersion" : true,
+  "subtype" : "QlikAttachedFile",
+  "type" : "QlikArtifact"
+}

@@ -1,0 +1,44 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "8e659723383e99d19b171167bf6acbe588dc134b",
+      "contentName" : "content",
+      "contentOid" : 18597,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "path" : "world.kml"
+  },
+  "hidden" : false,
+  "identity" : "world.kml,AttachedFile;e325a2bf-ba90-4eee-b641-71f0a1975f9b,App;",
+  "key" : {
+    "id" : 555
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Human Capital Management/AttachedFiles/world.kml",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikAttachedFile/QlikAttachedFile",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "world.kml",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 189
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 175, 189, 555 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "AttachedFile",
+  "shouldVersion" : true,
+  "subtype" : "QlikAttachedFile",
+  "type" : "QlikArtifact"
+}

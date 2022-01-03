@@ -1,0 +1,76 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "ea06e40934b5d4204b90e0a67631e63bc8277fc4",
+      "contentName" : "content",
+      "contentOid" : 18554,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "qChildListDef" : {
+          "qData" : {
+            "rank" : "/rank",
+            "title" : "/title"
+          }
+        },
+        "qInfo" : {
+          "qId" : "08a1162b-2e82-41d7-bd53-ad43ec758878",
+          "qType" : "story"
+        },
+        "qMetaDef" : {
+          "description" : "A recent Gallup study have found that gender-diverse business units are highly engaged, and financial performance improves dramatically.",
+          "title" : "Diversity Workforce Analysis"
+        },
+        "rank" : 1,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : { }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "08a1162b-2e82-41d7-bd53-ad43ec758878,Story;e325a2bf-ba90-4eee-b641-71f0a1975f9b,App;",
+  "key" : {
+    "id" : 541
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Human Capital Management/Stories/Diversity Workforce Analysis",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikStory/QlikStory",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Diversity Workforce Analysis",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 195
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 175, 195, 541 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Story",
+  "shouldVersion" : true,
+  "subtype" : "QlikStory",
+  "type" : "QlikArtifact"
+}

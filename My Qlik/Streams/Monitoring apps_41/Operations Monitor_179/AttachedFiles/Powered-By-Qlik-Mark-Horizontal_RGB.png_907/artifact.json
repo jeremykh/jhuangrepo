@@ -1,0 +1,44 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "228d527aa9c71ed7eeef98cc5db7ea64ac4224ce",
+      "contentName" : "content",
+      "contentOid" : 18891,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "path" : "Powered-By-Qlik-Mark-Horizontal_RGB.png"
+  },
+  "hidden" : false,
+  "identity" : "Powered-By-Qlik-Mark-Horizontal_RGB.png,AttachedFile;72d45588-644b-4905-a064-a3923f3f6e08,App;",
+  "key" : {
+    "id" : 907
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/Operations Monitor/AttachedFiles/Powered-By-Qlik-Mark-Horizontal_RGB.png",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikAttachedFile/QlikAttachedFile",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Powered-By-Qlik-Mark-Horizontal_RGB.png",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 231
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 179, 231, 907 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "AttachedFile",
+  "shouldVersion" : true,
+  "subtype" : "QlikAttachedFile",
+  "type" : "QlikArtifact"
+}

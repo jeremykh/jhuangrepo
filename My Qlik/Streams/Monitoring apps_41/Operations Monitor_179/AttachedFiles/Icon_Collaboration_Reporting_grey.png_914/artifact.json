@@ -1,0 +1,44 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "2f5f30495688d45558ad9cde2ee7f426c70b9daa",
+      "contentName" : "content",
+      "contentOid" : 18897,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "path" : "Icon_Collaboration_Reporting_grey.png"
+  },
+  "hidden" : false,
+  "identity" : "Icon_Collaboration_Reporting_grey.png,AttachedFile;72d45588-644b-4905-a064-a3923f3f6e08,App;",
+  "key" : {
+    "id" : 914
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/Operations Monitor/AttachedFiles/Icon_Collaboration_Reporting_grey.png",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikAttachedFile/QlikAttachedFile",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Icon_Collaboration_Reporting_grey.png",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 231
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 179, 231, 914 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "AttachedFile",
+  "shouldVersion" : true,
+  "subtype" : "QlikAttachedFile",
+  "type" : "QlikArtifact"
+}

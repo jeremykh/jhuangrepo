@@ -1,0 +1,2133 @@
+{
+  "qProperty" : {
+    "qInfo" : {
+      "qId" : "08a1162b-2e82-41d7-bd53-ad43ec758878",
+      "qType" : "story"
+    },
+    "qMetaDef" : {
+      "title" : "Diversity Workforce Analysis",
+      "description" : "A recent Gallup study have found that gender-diverse business units are highly engaged, and financial performance improves dramatically."
+    },
+    "rank" : 1,
+    "qChildListDef" : {
+      "qData" : {
+        "title" : "/title",
+        "rank" : "/rank"
+      }
+    },
+    "thumbnail" : {
+      "qStaticContentUrlDef" : { }
+    }
+  },
+  "qChildren" : [ {
+    "qProperty" : {
+      "qInfo" : {
+        "qId" : "c0583a16-303c-4d1e-b158-3bd5689c3eda",
+        "qType" : "slide"
+      },
+      "qMetaDef" : { },
+      "rank" : 1,
+      "qChildListDef" : {
+        "qData" : {
+          "title" : "/title",
+          "sheetId" : "/sheetId",
+          "ratio" : "/ratio",
+          "position" : "/position",
+          "dataPath" : "/dataPath",
+          "visualization" : "/visualization",
+          "visualizationType" : "/visualizationType",
+          "style" : "/style",
+          "srcPath" : "/srcPath"
+        }
+      }
+    },
+    "qChildren" : [ {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "0d5ba08a-782f-4f6e-97e9-901cffd31a70",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "11.88%",
+          "left" : "27.95%",
+          "width" : "68.06%",
+          "height" : "18.67%",
+          "z-index" : 7
+        },
+        "visualization" : "text",
+        "visualizationType" : "title",
+        "style" : {
+          "color" : "#6E6E6E",
+          "text" : "#[%[DIVERSITY ANALYSIS](undefined)](10)\n"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "28ed6e5c-ab28-4e0b-ab72-d403c8211f19",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "27.47%",
+          "left" : "34.72%",
+          "width" : "68.14%",
+          "height" : "10.80%",
+          "z-index" : 8
+        },
+        "visualization" : "text",
+        "visualizationType" : "paragraph",
+        "style" : {
+          "color" : "#6E6E6E",
+          "text" : "^[%[Understanding diversity in the workforce](5)\n](center)"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "a311b70b-0089-4eb8-ad43-9ebd963a0c46",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "11.57%",
+          "left" : "23.52%",
+          "width" : "77.95%",
+          "height" : "18.83%",
+          "z-index" : 5
+        },
+        "dataPath" : "../resources/img/storytelling/shapes/square.svg",
+        "visualization" : "shape",
+        "visualizationType" : "square",
+        "style" : {
+          "color" : "#000000"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "0d8b6ee0-fd06-4c74-9e42-8bd91ab17a98",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "-19.82%",
+          "left" : "-0.50%",
+          "width" : "103.55%",
+          "height" : "151.52%",
+          "z-index" : 4
+        },
+        "visualization" : "image",
+        "srcPath" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/e325a2bf-ba90-4eee-b641-71f0a1975f9b/diversity.jpg"
+          }
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "0a64cac6-d8b6-424b-9e64-77fd79a802ff",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "27.62%",
+          "left" : "42.10%",
+          "width" : "58.25%",
+          "height" : "10.19%",
+          "z-index" : 6
+        },
+        "dataPath" : "../resources/img/storytelling/shapes/square.svg",
+        "visualization" : "shape",
+        "visualizationType" : "square",
+        "style" : {
+          "color" : "#ffcf02"
+        }
+      },
+      "qChildren" : [ ]
+    } ]
+  }, {
+    "qProperty" : {
+      "qInfo" : {
+        "qId" : "6b642989-d493-4c35-aff5-4a0012625129",
+        "qType" : "slide"
+      },
+      "qMetaDef" : { },
+      "rank" : 7,
+      "qChildListDef" : {
+        "qData" : {
+          "title" : "/title",
+          "sheetId" : "/sheetId",
+          "ratio" : "/ratio",
+          "position" : "/position",
+          "dataPath" : "/dataPath",
+          "visualization" : "/visualization",
+          "visualizationType" : "/visualizationType",
+          "style" : "/style",
+          "srcPath" : "/srcPath"
+        }
+      }
+    },
+    "qChildren" : [ {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "2b8efab4-96e6-437e-8c91-1ca90d117a90",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "-1.14%",
+          "left" : "3.20%",
+          "width" : "40.03%",
+          "height" : "11.51%",
+          "z-index" : 5
+        },
+        "visualization" : "text",
+        "visualizationType" : "title",
+        "style" : {
+          "color" : "#6E6E6E",
+          "text" : "**Gender diversity**"
+        },
+        "id" : "mPNDeNw",
+        "copiedFromSlide" : "WvMPnQv",
+        "action" : "copy"
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "2d86f73c-d6ea-4d11-ab80-bc99bed89ac8",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "5.81%",
+          "left" : "1.07%",
+          "width" : "98.22%",
+          "height" : "4.29%",
+          "z-index" : 6
+        },
+        "dataPath" : "../resources/img/storytelling/shapes/2lines_h.svg",
+        "visualization" : "shape",
+        "visualizationType" : "2lines_h",
+        "style" : {
+          "color" : "#ffcf02"
+        },
+        "id" : "EUHS",
+        "copiedFromSlide" : "WvMPnQv",
+        "action" : "copy"
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "46942dbf-01b8-4a1a-b234-cd8465b9c609",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "3.91%",
+          "left" : "84.30%",
+          "width" : "21.45%",
+          "height" : "10.48%",
+          "z-index" : 13
+        },
+        "visualization" : "text",
+        "visualizationType" : "paragraph",
+        "style" : {
+          "color" : "#6E6E6E",
+          "text" : "**DIVERSITY ANALYSIS**\n"
+        },
+        "id" : "XYDthP",
+        "copiedFromSlide" : "WvMPnQv",
+        "action" : "copy"
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "82ddcc7c-2a12-432c-b34c-ebefc73bf305",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "16.80%",
+          "left" : "36.01%",
+          "width" : "9.30%",
+          "height" : "11.74%",
+          "z-index" : 7
+        },
+        "visualization" : "text",
+        "visualizationType" : "paragraph",
+        "style" : {
+          "color" : "#6E6E6E",
+          "text" : "#[%[**%[63.2%](5)**](undefined)](10)"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "8cfa5f54-c8da-4f2c-ad12-5b24e52bc1d9",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "16.67%",
+          "left" : "75.45%",
+          "width" : "11.65%",
+          "height" : "11.74%",
+          "z-index" : 8
+        },
+        "visualization" : "text",
+        "visualizationType" : "paragraph",
+        "style" : {
+          "color" : "#6E6E6E",
+          "text" : "#[%[**%[36.3%](5)**](undefined)](10)"
+        },
+        "id" : "KqHXDp",
+        "copiedFromSlide" : "HgeKUH",
+        "action" : "copy"
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "c2f5e201-ae40-4f8b-9e4a-51086c48afb9",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "28.70%",
+          "left" : "6.62%",
+          "width" : "87.14%",
+          "height" : "28.66%",
+          "z-index" : 9
+        },
+        "visualization" : "text",
+        "visualizationType" : "paragraph",
+        "style" : {
+          "color" : "#6E6E6E",
+          "text" : "**D****iversity**  has been proven vital to any workplace. Not just because it's a laudable goal; it simply makes bottom\\-line business sense. Based in this premise we would like to understand gender\\-diversity in our company. We can see that 63.2% of the workforce are males while just around 36% are females.\n\nIf we break down these company percentages by country and by job role, we can observe how gender diversity works across geographies and positions. The bars in the charts below represent the ratio of women by country and job role. We can note that the ratio of females to males does not reach the 50% for any of the countries nor job roles. \n"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "d069fa9d-7e59-486a-bd8b-c0a246356e35",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "5.81%",
+          "left" : "1.07%",
+          "width" : "98.22%",
+          "height" : "4.29%",
+          "z-index" : 10
+        },
+        "dataPath" : "../resources/img/storytelling/shapes/2lines_h.svg",
+        "visualization" : "shape",
+        "visualizationType" : "2lines_h",
+        "style" : {
+          "color" : "#46c646"
+        },
+        "id" : "uuqV",
+        "copiedFromSlide" : "BGmVnn",
+        "action" : "copy"
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "aFRxwA",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "11.11%",
+          "left" : "0.00%",
+          "width" : "100.14%",
+          "height" : "19.07%",
+          "z-index" : 4
+        },
+        "visualization" : "snapshot",
+        "visualizationType" : "treemap",
+        "style" : {
+          "id" : "QVwMBRS"
+        }
+      },
+      "qChildren" : [ ],
+      "qEmbeddedSnapshotRef" : {
+        "qProperties" : {
+          "qInfo" : {
+            "qType" : "embeddedsnapshot"
+          },
+          "qMetaDef" : {
+            "title" : "",
+            "description" : "",
+            "annotation" : ""
+          },
+          "title" : "",
+          "description" : "",
+          "sheetId" : "KkYhPC",
+          "creationDate" : "2014-10-13",
+          "qMeta" : { },
+          "qSelectionInfo" : { },
+          "qHyperCube" : {
+            "qSize" : {
+              "qcx" : 2,
+              "qcy" : 3
+            },
+            "qDimensionInfo" : [ {
+              "qFallbackTitle" : "Gender",
+              "qApprMaxGlyphCount" : 6,
+              "qCardinal" : 2,
+              "qSortIndicator" : "A",
+              "qGroupFallbackTitles" : [ "Gender" ],
+              "qGroupPos" : 0,
+              "qStateCounts" : {
+                "qLocked" : 0,
+                "qSelected" : 0,
+                "qOption" : 2,
+                "qDeselected" : 0,
+                "qAlternative" : 0,
+                "qExcluded" : 0,
+                "qSelectedExcluded" : 0,
+                "qLockedExcluded" : 0
+              },
+              "qTags" : [ "$ascii", "$text" ],
+              "qDimensionType" : "D",
+              "qGrouping" : "N",
+              "qNumFormat" : {
+                "qType" : "U",
+                "qnDec" : 0,
+                "qUseThou" : 0
+              },
+              "qIsAutoFormat" : true,
+              "qGroupFieldDefs" : [ "Gender" ],
+              "qMin" : 0,
+              "qMax" : 0,
+              "qAttrExprInfo" : [ ],
+              "qAttrDimInfo" : [ ],
+              "qCardinalities" : {
+                "qCardinal" : 0,
+                "qHypercubeCardinal" : 0,
+                "qAllValuesCardinal" : -1
+              },
+              "title" : "Gender",
+              "autoSort" : true,
+              "cId" : "GmxWBG",
+              "othersLabel" : "Others"
+            } ],
+            "qMeasureInfo" : [ {
+              "qFallbackTitle" : "# of Employees",
+              "qApprMaxGlyphCount" : 4,
+              "qCardinal" : 3,
+              "qSortIndicator" : "D",
+              "qNumFormat" : {
+                "qType" : "I",
+                "qnDec" : 0,
+                "qUseThou" : 1,
+                "qFmt" : "###0",
+                "qDec" : "."
+              },
+              "qMin" : 20,
+              "qMax" : 2685,
+              "qIsAutoFormat" : true,
+              "qAttrExprInfo" : [ ],
+              "qAttrDimInfo" : [ ],
+              "qTrendLines" : [ ],
+              "autoSort" : true,
+              "cId" : "KjBvANw",
+              "numFormatFromTemplate" : true
+            } ],
+            "qEffectiveInterColumnSortOrder" : [ 0, 1 ],
+            "qGrandTotalRow" : [ ],
+            "qDataPages" : [ ],
+            "qPivotDataPages" : [ ],
+            "qStackedDataPages" : [ {
+              "qData" : [ {
+                "qElemNo" : 0,
+                "qValue" : 0,
+                "qType" : "R",
+                "qMaxPos" : 4246,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 0,
+                "qSubNodes" : [ {
+                  "qText" : "Female",
+                  "qElemNo" : 1,
+                  "qValue" : "NaN",
+                  "qType" : "N",
+                  "qMaxPos" : 1541,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 0,
+                  "qSubNodes" : [ {
+                    "qText" : "1541",
+                    "qElemNo" : 0,
+                    "qValue" : 1541,
+                    "qType" : "V",
+                    "qMaxPos" : 0,
+                    "qMinNeg" : 0,
+                    "qUp" : 0,
+                    "qDown" : 0,
+                    "qRow" : 0,
+                    "qSubNodes" : [ ]
+                  } ]
+                }, {
+                  "qText" : "Male",
+                  "qElemNo" : 0,
+                  "qValue" : "NaN",
+                  "qType" : "N",
+                  "qMaxPos" : 2685,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 1,
+                  "qSubNodes" : [ {
+                    "qText" : "2685",
+                    "qElemNo" : 0,
+                    "qValue" : 2685,
+                    "qType" : "V",
+                    "qMaxPos" : 0,
+                    "qMinNeg" : 0,
+                    "qUp" : 0,
+                    "qDown" : 0,
+                    "qRow" : 1,
+                    "qSubNodes" : [ ]
+                  } ]
+                }, {
+                  "qText" : "-",
+                  "qElemNo" : -2,
+                  "qValue" : "NaN",
+                  "qType" : "A",
+                  "qMaxPos" : 20,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 2,
+                  "qSubNodes" : [ {
+                    "qText" : "20",
+                    "qElemNo" : 0,
+                    "qValue" : 20,
+                    "qType" : "V",
+                    "qMaxPos" : 0,
+                    "qMinNeg" : 0,
+                    "qUp" : 0,
+                    "qDown" : 0,
+                    "qRow" : 2,
+                    "qSubNodes" : [ ]
+                  } ]
+                } ]
+              } ],
+              "qArea" : {
+                "qLeft" : 0,
+                "qTop" : 0,
+                "qWidth" : 0,
+                "qHeight" : 0
+              }
+            } ],
+            "qMode" : "K",
+            "qNoOfLeftDims" : 0,
+            "qTreeNodesOnDim" : [ ],
+            "qColumnOrder" : [ ]
+          },
+          "showTitles" : true,
+          "subtitle" : "",
+          "footnote" : "",
+          "labels" : {
+            "auto" : true,
+            "headers" : false,
+            "overlay" : true,
+            "leaves" : true,
+            "values" : false
+          },
+          "color" : {
+            "auto" : false,
+            "mode" : "byDimension",
+            "singleColor" : 3,
+            "persistent" : true,
+            "expressionIsColor" : true,
+            "measureScheme" : "sg",
+            "reverseScheme" : false,
+            "dimensionScheme" : "12",
+            "expressionLabel" : "",
+            "autoMinMax" : true,
+            "measureMin" : 0,
+            "measureMax" : 10
+          },
+          "legend" : {
+            "show" : false,
+            "dock" : "auto",
+            "showTitle" : true
+          },
+          "visualization" : "treemap",
+          "visualizationType" : "treemap",
+          "timestamp" : 1413228777112,
+          "sourceObjectId" : "WUvNWyj",
+          "isClone" : false,
+          "libraryTitle" : "",
+          "snapshotData" : {
+            "object" : {
+              "size" : {
+                "w" : 1884,
+                "h" : 202
+              }
+            },
+            "parent" : {
+              "h" : 877,
+              "w" : 1910
+            },
+            "content" : {
+              "chartData" : { },
+              "size" : {
+                "w" : 1884,
+                "h" : 196
+              },
+              "components" : {
+                "dataArea" : {
+                  "visible" : true,
+                  "dock" : "center",
+                  "size" : {
+                    "w" : 1880,
+                    "h" : 192
+                  }
+                },
+                "xAxisTitle" : {
+                  "visible" : false,
+                  "dock" : "top",
+                  "size" : {
+                    "w" : 1880,
+                    "h" : 0
+                  }
+                }
+              },
+              "v" : 0.96
+            }
+          }
+        },
+        "qBookmark" : {
+          "qStateData" : [ {
+            "qStateName" : "$",
+            "qFieldItems" : [ ]
+          } ],
+          "qVariableItems" : [ ],
+          "qPatches" : [ ]
+        }
+      }
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "JcneZ",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "61.74%",
+          "left" : "13.35%",
+          "width" : "32.32%",
+          "height" : "33.33%",
+          "z-index" : 11
+        },
+        "visualization" : "snapshot",
+        "visualizationType" : "barchart",
+        "style" : {
+          "id" : "JPDAPv"
+        }
+      },
+      "qChildren" : [ ],
+      "qEmbeddedSnapshotRef" : {
+        "qProperties" : {
+          "qInfo" : {
+            "qType" : "embeddedsnapshot"
+          },
+          "qMetaDef" : {
+            "title" : "Women percentage by job role"
+          },
+          "title" : "Women percentage by job role",
+          "description" : "",
+          "sheetId" : "KkYhPC",
+          "creationDate" : "2014-10-13",
+          "qMeta" : { },
+          "qSelectionInfo" : { },
+          "qHyperCube" : {
+            "qSize" : {
+              "qcx" : 2,
+              "qcy" : 11
+            },
+            "qDimensionInfo" : [ {
+              "qFallbackTitle" : "Country",
+              "qApprMaxGlyphCount" : 14,
+              "qCardinal" : 10,
+              "qSortIndicator" : "A",
+              "qGroupFallbackTitles" : [ "Country" ],
+              "qGroupPos" : 0,
+              "qStateCounts" : {
+                "qLocked" : 0,
+                "qSelected" : 0,
+                "qOption" : 10,
+                "qDeselected" : 0,
+                "qAlternative" : 0,
+                "qExcluded" : 0,
+                "qSelectedExcluded" : 0,
+                "qLockedExcluded" : 0
+              },
+              "qTags" : [ "$ascii", "$text" ],
+              "qDimensionType" : "D",
+              "qGrouping" : "N",
+              "qNumFormat" : {
+                "qType" : "U",
+                "qnDec" : 0,
+                "qUseThou" : 0
+              },
+              "qIsAutoFormat" : true,
+              "qGroupFieldDefs" : [ "Country" ],
+              "qMin" : 0,
+              "qMax" : 0,
+              "qAttrExprInfo" : [ ],
+              "qAttrDimInfo" : [ ],
+              "qCardinalities" : {
+                "qCardinal" : 0,
+                "qHypercubeCardinal" : 0,
+                "qAllValuesCardinal" : -1
+              },
+              "title" : "Country",
+              "autoSort" : true,
+              "cId" : "yEfqn",
+              "othersLabel" : "Others"
+            } ],
+            "qMeasureInfo" : [ {
+              "qFallbackTitle" : "Women Employees Ratio",
+              "qApprMaxGlyphCount" : 5,
+              "qCardinal" : 12,
+              "qSortIndicator" : "D",
+              "qNumFormat" : {
+                "qType" : "F",
+                "qnDec" : 2,
+                "qUseThou" : 0,
+                "qFmt" : "0.0%",
+                "qDec" : ".",
+                "qThou" : ","
+              },
+              "qMin" : 0.225,
+              "qMax" : 0.46153846153846156,
+              "qAttrExprInfo" : [ ],
+              "qAttrDimInfo" : [ ],
+              "qTrendLines" : [ ],
+              "autoSort" : true,
+              "cId" : "zWCxkU",
+              "numFormatFromTemplate" : true
+            } ],
+            "qEffectiveInterColumnSortOrder" : [ 0, 1 ],
+            "qGrandTotalRow" : [ {
+              "qText" : "36.3%",
+              "qNum" : 0.36292981629769194,
+              "qElemNumber" : -1,
+              "qState" : "X",
+              "qIsTotalCell" : true
+            } ],
+            "qDataPages" : [ {
+              "qMatrix" : [ [ {
+                "qText" : "Australia",
+                "qNum" : "NaN",
+                "qElemNumber" : 9,
+                "qState" : "O"
+              }, {
+                "qText" : "22.5%",
+                "qNum" : 0.225,
+                "qElemNumber" : 0,
+                "qState" : "L",
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 4291585655
+                  } ]
+                }
+              } ], [ {
+                "qText" : "Canada",
+                "qNum" : "NaN",
+                "qElemNumber" : 1,
+                "qState" : "O"
+              }, {
+                "qText" : "40.1%",
+                "qNum" : 0.4010416666666667,
+                "qElemNumber" : 0,
+                "qState" : "L",
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 4291585655
+                  } ]
+                }
+              } ], [ {
+                "qText" : "France",
+                "qNum" : "NaN",
+                "qElemNumber" : 6,
+                "qState" : "O"
+              }, {
+                "qText" : "33.9%",
+                "qNum" : 0.3385416666666667,
+                "qElemNumber" : 0,
+                "qState" : "L",
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 4291585655
+                  } ]
+                }
+              } ], [ {
+                "qText" : "Germany",
+                "qNum" : "NaN",
+                "qElemNumber" : 3,
+                "qState" : "O"
+              }, {
+                "qText" : "37.4%",
+                "qNum" : 0.37438423645320196,
+                "qElemNumber" : 0,
+                "qState" : "L",
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 4291585655
+                  } ]
+                }
+              } ], [ {
+                "qText" : "Ireland",
+                "qNum" : "NaN",
+                "qElemNumber" : 8,
+                "qState" : "O"
+              }, {
+                "qText" : "36.8%",
+                "qNum" : 0.3684210526315789,
+                "qElemNumber" : 0,
+                "qState" : "L",
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 4291585655
+                  } ]
+                }
+              } ], [ {
+                "qText" : "Italy",
+                "qNum" : "NaN",
+                "qElemNumber" : 4,
+                "qState" : "O"
+              }, {
+                "qText" : "37.0%",
+                "qNum" : 0.3704918032786885,
+                "qElemNumber" : 0,
+                "qState" : "L",
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 4291585655
+                  } ]
+                }
+              } ], [ {
+                "qText" : "Poland",
+                "qNum" : "NaN",
+                "qElemNumber" : 7,
+                "qState" : "O"
+              }, {
+                "qText" : "29.2%",
+                "qNum" : 0.2923076923076923,
+                "qElemNumber" : 0,
+                "qState" : "L",
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 4291585655
+                  } ]
+                }
+              } ], [ {
+                "qText" : "Scotland",
+                "qNum" : "NaN",
+                "qElemNumber" : 5,
+                "qState" : "O"
+              }, {
+                "qText" : "46.2%",
+                "qNum" : 0.46153846153846156,
+                "qElemNumber" : 0,
+                "qState" : "L",
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 4291585655
+                  } ]
+                }
+              } ], [ {
+                "qText" : "United Kingdom",
+                "qNum" : "NaN",
+                "qElemNumber" : 0,
+                "qState" : "O"
+              }, {
+                "qText" : "34.2%",
+                "qNum" : 0.3416666666666667,
+                "qElemNumber" : 0,
+                "qState" : "L",
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 4291585655
+                  } ]
+                }
+              } ], [ {
+                "qText" : "United States",
+                "qNum" : "NaN",
+                "qElemNumber" : 2,
+                "qState" : "O"
+              }, {
+                "qText" : "35.2%",
+                "qNum" : 0.35185185185185186,
+                "qElemNumber" : 0,
+                "qState" : "L",
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 4291585655
+                  } ]
+                }
+              } ], [ {
+                "qText" : "-",
+                "qNum" : "NaN",
+                "qElemNumber" : -2,
+                "qState" : "L",
+                "qIsEmpty" : true
+              }, {
+                "qText" : "40.0%",
+                "qNum" : 0.4,
+                "qElemNumber" : 0,
+                "qState" : "L",
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 4291585655
+                  } ]
+                }
+              } ] ],
+              "qTails" : [ {
+                "qUp" : 0,
+                "qDown" : 0
+              } ],
+              "qArea" : {
+                "qLeft" : 0,
+                "qTop" : 0,
+                "qWidth" : 2,
+                "qHeight" : 11
+              }
+            } ],
+            "qPivotDataPages" : [ ],
+            "qStackedDataPages" : [ ],
+            "qMode" : "S",
+            "qNoOfLeftDims" : 0,
+            "qTreeNodesOnDim" : [ ],
+            "qColumnOrder" : [ ]
+          },
+          "refLine" : {
+            "refLines" : [ ]
+          },
+          "showTitles" : false,
+          "subtitle" : "",
+          "footnote" : "",
+          "barGrouping" : {
+            "grouping" : "grouped"
+          },
+          "orientation" : "vertical",
+          "gridLine" : {
+            "auto" : true,
+            "spacing" : 2
+          },
+          "dataPoint" : {
+            "showLabels" : true
+          },
+          "color" : {
+            "auto" : false,
+            "mode" : "byExpression",
+            "singleColor" : 3,
+            "persistent" : false,
+            "expressionLabel" : "",
+            "expressionIsColor" : true,
+            "measureScheme" : "sg",
+            "reverseScheme" : false,
+            "dimensionScheme" : "12",
+            "autoMinMax" : true,
+            "measureMin" : 0,
+            "measureMax" : 10,
+            "dimensionId" : "",
+            "colorExpression" : "rgb(221,204,119)"
+          },
+          "legend" : {
+            "show" : false,
+            "dock" : "auto",
+            "showTitle" : true
+          },
+          "dimensionAxis" : {
+            "show" : "labels",
+            "label" : "auto",
+            "dock" : "near"
+          },
+          "measureAxis" : {
+            "show" : "all",
+            "dock" : "near",
+            "spacing" : 1,
+            "autoMinMax" : true,
+            "minMax" : "min",
+            "min" : 0,
+            "max" : 10
+          },
+          "visualization" : "barchart",
+          "masterVersion" : 0.96,
+          "reducedHyperCube" : {
+            "qDataPages" : [ {
+              "qMatrix" : [ [ {
+                "qText" : "Australia",
+                "qNum" : "NaN",
+                "qElemNumber" : 9,
+                "qState" : "O",
+                "qGreyValue" : 0
+              }, {
+                "qText" : "22.5%",
+                "qNum" : 0.225,
+                "qElemNumber" : 0,
+                "qState" : "L",
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 4291585655
+                  } ]
+                },
+                "qGreyValue" : 0
+              } ], [ {
+                "qText" : "Canada",
+                "qNum" : "NaN",
+                "qElemNumber" : 1,
+                "qState" : "O",
+                "qGreyValue" : 0
+              }, {
+                "qText" : "40.1%",
+                "qNum" : 0.4010416666666667,
+                "qElemNumber" : 0,
+                "qState" : "L",
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 4291585655
+                  } ]
+                },
+                "qGreyValue" : 0
+              } ], [ {
+                "qText" : "France",
+                "qNum" : "NaN",
+                "qElemNumber" : 6,
+                "qState" : "O",
+                "qGreyValue" : 0
+              }, {
+                "qText" : "33.9%",
+                "qNum" : 0.3385416666666667,
+                "qElemNumber" : 0,
+                "qState" : "L",
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 4291585655
+                  } ]
+                },
+                "qGreyValue" : 0
+              } ], [ {
+                "qText" : "Germany",
+                "qNum" : "NaN",
+                "qElemNumber" : 3,
+                "qState" : "O",
+                "qGreyValue" : 0
+              }, {
+                "qText" : "37.4%",
+                "qNum" : 0.37438423645320196,
+                "qElemNumber" : 0,
+                "qState" : "L",
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 4291585655
+                  } ]
+                },
+                "qGreyValue" : 0
+              } ], [ {
+                "qText" : "Ireland",
+                "qNum" : "NaN",
+                "qElemNumber" : 8,
+                "qState" : "O",
+                "qGreyValue" : 0
+              }, {
+                "qText" : "36.8%",
+                "qNum" : 0.3684210526315789,
+                "qElemNumber" : 0,
+                "qState" : "L",
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 4291585655
+                  } ]
+                },
+                "qGreyValue" : 0
+              } ], [ {
+                "qText" : "Italy",
+                "qNum" : "NaN",
+                "qElemNumber" : 4,
+                "qState" : "O",
+                "qGreyValue" : 0
+              }, {
+                "qText" : "37.0%",
+                "qNum" : 0.3704918032786885,
+                "qElemNumber" : 0,
+                "qState" : "L",
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 4291585655
+                  } ]
+                },
+                "qGreyValue" : 0
+              } ], [ {
+                "qText" : "Poland",
+                "qNum" : "NaN",
+                "qElemNumber" : 7,
+                "qState" : "O",
+                "qGreyValue" : 0
+              }, {
+                "qText" : "29.2%",
+                "qNum" : 0.2923076923076923,
+                "qElemNumber" : 0,
+                "qState" : "L",
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 4291585655
+                  } ]
+                },
+                "qGreyValue" : 0
+              } ], [ {
+                "qText" : "Scotland",
+                "qNum" : "NaN",
+                "qElemNumber" : 5,
+                "qState" : "O",
+                "qGreyValue" : 0
+              }, {
+                "qText" : "46.2%",
+                "qNum" : 0.46153846153846156,
+                "qElemNumber" : 0,
+                "qState" : "L",
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 4291585655
+                  } ]
+                },
+                "qGreyValue" : 0
+              } ], [ {
+                "qText" : "United Kingdom",
+                "qNum" : "NaN",
+                "qElemNumber" : 0,
+                "qState" : "O",
+                "qGreyValue" : 0
+              }, {
+                "qText" : "34.2%",
+                "qNum" : 0.3416666666666667,
+                "qElemNumber" : 0,
+                "qState" : "L",
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 4291585655
+                  } ]
+                },
+                "qGreyValue" : 0
+              } ], [ {
+                "qText" : "United States",
+                "qNum" : "NaN",
+                "qElemNumber" : 2,
+                "qState" : "O",
+                "qGreyValue" : 0
+              }, {
+                "qText" : "35.2%",
+                "qNum" : 0.35185185185185186,
+                "qElemNumber" : 0,
+                "qState" : "L",
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 4291585655
+                  } ]
+                },
+                "qGreyValue" : 0
+              } ], [ {
+                "qText" : "-",
+                "qNum" : "NaN",
+                "qElemNumber" : -2,
+                "qState" : "L",
+                "qIsEmpty" : true,
+                "qGreyValue" : 0
+              }, {
+                "qText" : "40.0%",
+                "qNum" : 0.4,
+                "qElemNumber" : 0,
+                "qState" : "L",
+                "qAttrExps" : {
+                  "qValues" : [ {
+                    "qNum" : 4291585655
+                  } ]
+                },
+                "qGreyValue" : 0
+              } ] ],
+              "qTails" : [ {
+                "qUp" : 0,
+                "qDown" : 0
+              } ],
+              "qArea" : {
+                "qLeft" : 0,
+                "qTop" : 0,
+                "qWidth" : 2,
+                "qHeight" : 11
+              }
+            } ],
+            "qDimensionInfo" : [ {
+              "qFallbackTitle" : "Country",
+              "qApprMaxGlyphCount" : 14,
+              "qCardinal" : 10,
+              "qSortIndicator" : "A",
+              "qGroupFallbackTitles" : [ "Country" ],
+              "qGroupPos" : 0,
+              "qStateCounts" : {
+                "qLocked" : 0,
+                "qSelected" : 0,
+                "qOption" : 10,
+                "qDeselected" : 0,
+                "qAlternative" : 0,
+                "qExcluded" : 0,
+                "qSelectedExcluded" : 0
+              },
+              "qTags" : [ "$ascii", "$text" ],
+              "qDimensionType" : "D",
+              "qGrouping" : "N",
+              "qNumFormat" : {
+                "qType" : "U",
+                "qnDec" : 0,
+                "qUseThou" : 0
+              },
+              "qIsAutoFormat" : true,
+              "qGroupFieldDefs" : [ "Country" ],
+              "title" : "Country",
+              "autoSort" : true,
+              "cId" : "yEfqn",
+              "othersLabel" : "Others"
+            } ],
+            "qMeasureInfo" : [ {
+              "qFallbackTitle" : "Women Employees Ratio",
+              "qApprMaxGlyphCount" : 5,
+              "qCardinal" : 12,
+              "qSortIndicator" : "D",
+              "qNumFormat" : {
+                "qType" : "F",
+                "qnDec" : 2,
+                "qUseThou" : 0,
+                "qFmt" : "0.0%",
+                "qDec" : ".",
+                "qThou" : ","
+              },
+              "qMin" : 0.225,
+              "qMax" : 0.46153846153846156,
+              "autoSort" : true,
+              "cId" : "zWCxkU",
+              "numFormatFromTemplate" : true
+            } ],
+            "qStackedDataPages" : [ ],
+            "qMode" : "S",
+            "qSize" : {
+              "qcx" : 2,
+              "qcy" : 0
+            }
+          },
+          "visualizationType" : "barchart",
+          "timestamp" : 1413229103643,
+          "sourceObjectId" : "LBwwGt",
+          "isClone" : false,
+          "snapshotData" : {
+            "object" : {
+              "size" : {
+                "w" : 703,
+                "h" : 410
+              }
+            },
+            "parent" : {
+              "h" : 877,
+              "w" : 1910
+            },
+            "content" : {
+              "chartData" : {
+                "legendScrollOffset" : 0,
+                "scrollOffset" : 0,
+                "discreteSpacing" : 54.90909090909091,
+                "axisInnerOffset" : 0,
+                "hasMiniChart" : false
+              },
+              "size" : {
+                "w" : 703,
+                "h" : 410
+              },
+              "components" : {
+                "miniChart" : {
+                  "visible" : false,
+                  "dock" : "bottom",
+                  "size" : {
+                    "w" : 604,
+                    "h" : 0
+                  }
+                },
+                "refLineLabels" : {
+                  "visible" : false,
+                  "dock" : "right",
+                  "size" : {
+                    "w" : 0,
+                    "h" : 300
+                  }
+                },
+                "grid" : {
+                  "visible" : true,
+                  "dock" : "center",
+                  "size" : {
+                    "w" : 604,
+                    "h" : 300
+                  }
+                },
+                "legend" : {
+                  "visible" : false,
+                  "dock" : "right",
+                  "size" : {
+                    "w" : 0,
+                    "h" : 300
+                  }
+                },
+                "scrollArea" : {
+                  "visible" : false,
+                  "dock" : "bottom",
+                  "size" : {
+                    "w" : 604,
+                    "h" : 0
+                  }
+                },
+                "refLines" : {
+                  "visible" : false,
+                  "dock" : "center",
+                  "size" : {
+                    "w" : 604,
+                    "h" : 300
+                  }
+                },
+                "dataArea" : {
+                  "visible" : true,
+                  "dock" : "center",
+                  "size" : {
+                    "w" : 604,
+                    "h" : 300
+                  }
+                },
+                "measureAxis" : {
+                  "visible" : true,
+                  "dock" : "left",
+                  "size" : {
+                    "w" : 78,
+                    "h" : 300
+                  }
+                },
+                "dimensionAxis" : {
+                  "visible" : true,
+                  "dock" : "bottom",
+                  "size" : {
+                    "w" : 604,
+                    "h" : 106
+                  }
+                },
+                "dimensionAxisTitle" : {
+                  "visible" : false,
+                  "dock" : "bottom",
+                  "size" : {
+                    "w" : 604,
+                    "h" : 0
+                  }
+                }
+              },
+              "v" : 0.96
+            }
+          }
+        },
+        "qBookmark" : {
+          "qStateData" : [ {
+            "qStateName" : "$",
+            "qFieldItems" : [ ]
+          } ],
+          "qVariableItems" : [ ],
+          "qPatches" : [ ]
+        }
+      }
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "acsb",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "62.88%",
+          "left" : "52.63%",
+          "width" : "35.01%",
+          "height" : "31.06%",
+          "z-index" : 12
+        },
+        "visualization" : "snapshot",
+        "visualizationType" : "barchart",
+        "style" : {
+          "id" : "cgwaGq"
+        }
+      },
+      "qChildren" : [ ]
+    } ]
+  }, {
+    "qProperty" : {
+      "qInfo" : {
+        "qId" : "6e91eb04-47b9-47af-8747-0bb368b09844",
+        "qType" : "slide"
+      },
+      "qMetaDef" : { },
+      "rank" : 8,
+      "qChildListDef" : {
+        "qData" : {
+          "title" : "/title",
+          "sheetId" : "/sheetId",
+          "ratio" : "/ratio",
+          "position" : "/position",
+          "dataPath" : "/dataPath",
+          "visualization" : "/visualization",
+          "visualizationType" : "/visualizationType",
+          "style" : "/style",
+          "srcPath" : "/srcPath"
+        }
+      }
+    },
+    "qChildren" : [ {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "9232767b-f133-4636-ae09-a6e74cdb91ca",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "-1.14%",
+          "left" : "3.20%",
+          "width" : "65.77%",
+          "height" : "11.49%",
+          "z-index" : 4
+        },
+        "visualization" : "text",
+        "visualizationType" : "title",
+        "style" : {
+          "color" : "#6E6E6E",
+          "text" : "**Gender diversity \\- Salary comparison**"
+        },
+        "id" : "JxHBx",
+        "copiedFromSlide" : "HgeKUH",
+        "action" : "copy"
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "d1a203d1-b5df-4f53-b5a0-7c58e3c9e0b2",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "5.81%",
+          "left" : "1.07%",
+          "width" : "98.22%",
+          "height" : "4.29%",
+          "z-index" : 5
+        },
+        "dataPath" : "../resources/img/storytelling/shapes/2lines_h.svg",
+        "visualization" : "shape",
+        "visualizationType" : "2lines_h",
+        "style" : {
+          "color" : "#46c646"
+        },
+        "id" : "uVEEeLa",
+        "copiedFromSlide" : "HgeKUH",
+        "action" : "copy"
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "8072744c-f340-4e60-87b0-2cb886f7423a",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "47.35%",
+          "left" : "7.33%",
+          "width" : "43.75%",
+          "height" : "47.85%",
+          "z-index" : 6
+        },
+        "visualization" : "text",
+        "visualizationType" : "paragraph",
+        "style" : {
+          "color" : "#6E6E6E",
+          "text" : "On average, females lag behind males when we compare their overall salaries.  The same behavior is observed  for each management role. However, among Senior Managers, there is a big difference in compensation. Men make a little over $3K more than their female counterparts.^[\nWomen are not as well represented in the higher paying job groups \\(management positions\\). As we can see in the Female ratio by Management role bar chart, women represent 29,2% and 34,9% for the two more popular management roles which is less than the ratio of women in contributor roles \\(general workers\\) 36.5%.\n\\_\\_\\_\\_\n%[_It's important to note that there is a very small number of senior managers in the company, sample data may not be conclusive for that group._](2)\n](left)"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "37dcf3d2-60b2-4dc4-987e-26b66e331fe0",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "11.87%",
+          "left" : "54.26%",
+          "width" : "28.91%",
+          "height" : "8.33%",
+          "z-index" : 7
+        },
+        "visualization" : "text",
+        "visualizationType" : "paragraph",
+        "style" : {
+          "color" : "#6E6E6E",
+          "text" : "#[%[**%[Average Compensation ](2)**](undefined)](1)\n"
+        },
+        "id" : "VxhnDP",
+        "copiedFromSlide" : "GxArU",
+        "action" : "copy"
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "npFApHU",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "53.91%",
+          "left" : "55.18%",
+          "width" : "54.47%",
+          "height" : "41.79%",
+          "z-index" : 8
+        },
+        "visualization" : "snapshot",
+        "visualizationType" : "barchart",
+        "style" : {
+          "id" : "NgXuva"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "zRgJAAA",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "19.95%",
+          "left" : "8.59%",
+          "width" : "40.13%",
+          "height" : "22.98%",
+          "z-index" : 9
+        },
+        "visualization" : "snapshot",
+        "visualizationType" : "barchart",
+        "style" : {
+          "id" : "jrPndN"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "fsJjvgJ",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "16.16%",
+          "left" : "54.83%",
+          "width" : "40.13%",
+          "height" : "31.06%",
+          "z-index" : 10
+        },
+        "visualization" : "snapshot",
+        "visualizationType" : "barchart",
+        "style" : {
+          "id" : "TyqN"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "rGpjpWZ",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "3.91%",
+          "left" : "84.3%",
+          "width" : "21.45%",
+          "height" : "10.48%",
+          "z-index" : 11
+        },
+        "visualization" : "text",
+        "visualizationType" : "paragraph",
+        "style" : {
+          "color" : "#6E6E6E",
+          "text" : "**DIVERSITY ANALYSIS**\n"
+        },
+        "id" : "46942dbf-01b8-4a1a-b234-cd8465b9c609",
+        "copiedFromSlide" : "6b642989-d493-4c35-aff5-4a0012625129",
+        "action" : "copy"
+      },
+      "qChildren" : [ ]
+    } ]
+  }, {
+    "qProperty" : {
+      "qInfo" : {
+        "qId" : "XCdFkk",
+        "qType" : "slide"
+      },
+      "qMetaDef" : { },
+      "rank" : 9,
+      "qChildListDef" : {
+        "qData" : {
+          "title" : "/title",
+          "sheetId" : "/sheetId",
+          "ratio" : "/ratio",
+          "position" : "/position",
+          "dataPath" : "/dataPath",
+          "visualization" : "/visualization",
+          "visualizationType" : "/visualizationType",
+          "style" : "/style",
+          "srcPath" : "/srcPath"
+        }
+      }
+    },
+    "qChildren" : [ {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "AQmhTM",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "-1.14%",
+          "left" : "3.2%",
+          "width" : "39.99%",
+          "height" : "11.74%",
+          "z-index" : 4
+        },
+        "visualization" : "text",
+        "visualizationType" : "title",
+        "style" : {
+          "color" : "#6E6E6E",
+          "text" : "**Ethnic distribution**#[%[\n](undefined)](11)"
+        },
+        "id" : "HHqKHSM",
+        "copiedFromSlide" : "BGmVnn",
+        "action" : "copy"
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "WaRWDyj",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "5.81%",
+          "left" : "1.07%",
+          "width" : "98.22%",
+          "height" : "4.29%",
+          "z-index" : 5
+        },
+        "dataPath" : "../resources/img/storytelling/shapes/2lines_h.svg",
+        "visualization" : "shape",
+        "visualizationType" : "2lines_h",
+        "style" : {
+          "color" : "#46c646"
+        },
+        "id" : "d1a203d1-b5df-4f53-b5a0-7c58e3c9e0b2",
+        "copiedFromSlide" : "6e91eb04-47b9-47af-8747-0bb368b09844",
+        "action" : "copy"
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "faQdsv",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "12.43%",
+          "left" : "1.93%",
+          "width" : "25.07%",
+          "height" : "44.58%",
+          "z-index" : 6
+        },
+        "visualization" : "text",
+        "visualizationType" : "paragraph",
+        "style" : {
+          "color" : "#6E6E6E",
+          "text" : "%[**Employees distribution by ethnicity**](4)\n\n%[The charts show how workforce is distributed by ethnicity. Each segment or bar in the charts represents an ethnicity. ](4)"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "BcmHxCU",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "20.20%",
+          "left" : "66.41%",
+          "width" : "31.46%",
+          "height" : "21.34%",
+          "z-index" : 8
+        },
+        "visualization" : "snapshot",
+        "visualizationType" : "treemap",
+        "style" : {
+          "id" : "JsNL"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "JpKwE",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "20.33%",
+          "left" : "29.47%",
+          "width" : "45.17%",
+          "height" : "31.06%",
+          "z-index" : 7
+        },
+        "visualization" : "snapshot",
+        "visualizationType" : "barchart",
+        "style" : {
+          "id" : "nnKjwU"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "tAgrevK",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "55.93%",
+          "left" : "29.55%",
+          "width" : "75.43%",
+          "height" : "38.89%",
+          "z-index" : 9
+        },
+        "visualization" : "snapshot",
+        "visualizationType" : "barchart",
+        "style" : {
+          "id" : "qwQDr"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "NdJMJA",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "3.91%",
+          "left" : "84.3%",
+          "width" : "21.45%",
+          "height" : "10.48%",
+          "z-index" : 10
+        },
+        "visualization" : "text",
+        "visualizationType" : "paragraph",
+        "style" : {
+          "color" : "#6E6E6E",
+          "text" : "**DIVERSITY ANALYSIS**\n"
+        },
+        "id" : "46942dbf-01b8-4a1a-b234-cd8465b9c609",
+        "copiedFromSlide" : "6b642989-d493-4c35-aff5-4a0012625129",
+        "action" : "copy"
+      },
+      "qChildren" : [ ]
+    } ]
+  }, {
+    "qProperty" : {
+      "qInfo" : {
+        "qId" : "TmGrRa",
+        "qType" : "slide"
+      },
+      "qMetaDef" : { },
+      "rank" : 10,
+      "qChildListDef" : {
+        "qData" : {
+          "title" : "/title",
+          "sheetId" : "/sheetId",
+          "ratio" : "/ratio",
+          "position" : "/position",
+          "dataPath" : "/dataPath",
+          "visualization" : "/visualization",
+          "visualizationType" : "/visualizationType",
+          "style" : "/style",
+          "srcPath" : "/srcPath"
+        }
+      }
+    },
+    "qChildren" : [ {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "EEBYdpV",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "-1.14%",
+          "left" : "3.20%",
+          "width" : "40.03%",
+          "height" : "11.51%",
+          "z-index" : 4
+        },
+        "visualization" : "text",
+        "visualizationType" : "title",
+        "style" : {
+          "color" : "#6E6E6E",
+          "text" : "**Age distribution**#[%[\n](undefined)](11)"
+        },
+        "id" : "AQmhTM",
+        "copiedFromSlide" : "XCdFkk",
+        "action" : "copy"
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "gPwUxp",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "5.81%",
+          "left" : "1.07%",
+          "width" : "98.22%",
+          "height" : "4.29%",
+          "z-index" : 5
+        },
+        "dataPath" : "../resources/img/storytelling/shapes/2lines_h.svg",
+        "visualization" : "shape",
+        "visualizationType" : "2lines_h",
+        "style" : {
+          "color" : "#46c646"
+        },
+        "id" : "WaRWDyj",
+        "copiedFromSlide" : "XCdFkk",
+        "action" : "copy"
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "JEzHjMM",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "49.87%",
+          "left" : "2.53%",
+          "width" : "44.74%",
+          "height" : "48.99%",
+          "z-index" : 6
+        },
+        "visualization" : "text",
+        "visualizationType" : "paragraph",
+        "style" : {
+          "color" : "#6E6E6E",
+          "text" : "%[As we can see in the charts on the right, the ](4)%[20\\-40 age range represents more than 90% of the company's workforce, with the largest number of employees falling into the 30 to 40 age range.\n\nWhen we look at employees by actual age, we can see that top two ages with the most employees are the 28 and 29 year old range.](4)\n"
+        },
+        "id" : "faQdsv",
+        "copiedFromSlide" : "XCdFkk",
+        "action" : "copy"
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "WqPEee",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "48.15%",
+          "left" : "47.84%",
+          "width" : "48.07%",
+          "height" : "46.83%",
+          "z-index" : 7
+        },
+        "visualization" : "snapshot",
+        "visualizationType" : "barchart",
+        "style" : {
+          "id" : "QFcPc"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "fJhCw",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "10.85%",
+          "left" : "2.83%",
+          "width" : "43.75%",
+          "height" : "38.89%",
+          "z-index" : 8
+        },
+        "visualization" : "snapshot",
+        "visualizationType" : "barchart",
+        "style" : {
+          "id" : "RzmeuG"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "PJmms",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "13.49%",
+          "left" : "73.74%",
+          "width" : "28.05%",
+          "height" : "35.58%",
+          "z-index" : 9
+        },
+        "visualization" : "snapshot",
+        "visualizationType" : "piechart",
+        "style" : {
+          "id" : "qdNGPL"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "prtXnL",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "12.30%",
+          "left" : "49.26%",
+          "width" : "24.48%",
+          "height" : "36.38%",
+          "z-index" : 10
+        },
+        "visualization" : "snapshot",
+        "visualizationType" : "barchart",
+        "style" : {
+          "id" : "dwNujJ"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "ECrqYgQ",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "3.91%",
+          "left" : "84.3%",
+          "width" : "21.45%",
+          "height" : "10.48%",
+          "z-index" : 11
+        },
+        "visualization" : "text",
+        "visualizationType" : "paragraph",
+        "style" : {
+          "color" : "#6E6E6E",
+          "text" : "**DIVERSITY ANALYSIS**\n"
+        },
+        "id" : "46942dbf-01b8-4a1a-b234-cd8465b9c609",
+        "copiedFromSlide" : "6b642989-d493-4c35-aff5-4a0012625129",
+        "action" : "copy"
+      },
+      "qChildren" : [ ]
+    } ]
+  } ]
+}

@@ -1,0 +1,697 @@
+{
+  "qProp" : {
+    "qInfo" : {
+      "qId" : "TyqN",
+      "qType" : "snapshot"
+    },
+    "qMetaDef" : {
+      "title" : "Management Positions"
+    },
+    "title" : "Management Positions",
+    "description" : "",
+    "sheetId" : "GuZh",
+    "creationDate" : "2014-10-13",
+    "qMeta" : { },
+    "qSelectionInfo" : { },
+    "qHyperCube" : {
+      "qSize" : {
+        "qcx" : 3,
+        "qcy" : 8
+      },
+      "qDimensionInfo" : [ {
+        "qFallbackTitle" : "Management role",
+        "qApprMaxGlyphCount" : 18,
+        "qCardinal" : 4,
+        "qSortIndicator" : "A",
+        "qGroupFallbackTitles" : [ "Management role" ],
+        "qGroupPos" : 0,
+        "qStateCounts" : {
+          "qLocked" : 0,
+          "qSelected" : 0,
+          "qOption" : 4,
+          "qDeselected" : 0,
+          "qAlternative" : 0,
+          "qExcluded" : 0,
+          "qSelectedExcluded" : 0,
+          "qLockedExcluded" : 0
+        },
+        "qTags" : [ "$ascii", "$text" ],
+        "qDimensionType" : "D",
+        "qGrouping" : "N",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qnDec" : 0,
+          "qUseThou" : 0
+        },
+        "qIsAutoFormat" : true,
+        "qGroupFieldDefs" : [ "Position1" ],
+        "qMin" : 0,
+        "qMax" : 0,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qCardinalities" : {
+          "qCardinal" : 0,
+          "qHypercubeCardinal" : 0,
+          "qAllValuesCardinal" : -1
+        },
+        "title" : "Management role",
+        "autoSort" : true,
+        "cId" : "Gzjut",
+        "othersLabel" : "Others"
+      }, {
+        "qFallbackTitle" : "Gender",
+        "qApprMaxGlyphCount" : 6,
+        "qCardinal" : 2,
+        "qSortIndicator" : "A",
+        "qGroupFallbackTitles" : [ "Gender" ],
+        "qGroupPos" : 0,
+        "qStateCounts" : {
+          "qLocked" : 0,
+          "qSelected" : 0,
+          "qOption" : 2,
+          "qDeselected" : 0,
+          "qAlternative" : 0,
+          "qExcluded" : 0,
+          "qSelectedExcluded" : 0,
+          "qLockedExcluded" : 0
+        },
+        "qTags" : [ "$ascii", "$text" ],
+        "qDimensionType" : "D",
+        "qGrouping" : "N",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qnDec" : 0,
+          "qUseThou" : 0
+        },
+        "qIsAutoFormat" : true,
+        "qGroupFieldDefs" : [ "Gender" ],
+        "qMin" : 0,
+        "qMax" : 0,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qCardinalities" : {
+          "qCardinal" : 0,
+          "qHypercubeCardinal" : 0,
+          "qAllValuesCardinal" : -1
+        },
+        "title" : "Gender",
+        "autoSort" : true,
+        "cId" : "LtNpvxQ",
+        "othersLabel" : "Others"
+      } ],
+      "qMeasureInfo" : [ {
+        "qFallbackTitle" : "Avg Compensation",
+        "qApprMaxGlyphCount" : 9,
+        "qCardinal" : 9,
+        "qSortIndicator" : "D",
+        "qNumFormat" : {
+          "qType" : "R",
+          "qnDec" : 0,
+          "qUseThou" : 0,
+          "qFmt" : "########",
+          "qDec" : ".",
+          "qThou" : ","
+        },
+        "qMin" : 66781,
+        "qMax" : 102711.66666666667,
+        "qIsAutoFormat" : true,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qTrendLines" : [ ],
+        "autoSort" : true,
+        "cId" : "RbkPYEx",
+        "numFormatFromTemplate" : true
+      } ],
+      "qEffectiveInterColumnSortOrder" : [ 0, 2, 1 ],
+      "qGrandTotalRow" : [ {
+        "qText" : "79377.716",
+        "qNum" : 79377.71584699454,
+        "qElemNumber" : -1,
+        "qState" : "X",
+        "qIsTotalCell" : true
+      } ],
+      "qDataPages" : [ {
+        "qMatrix" : [ [ {
+          "qText" : "Contributor",
+          "qNum" : "NaN",
+          "qElemNumber" : 1,
+          "qState" : "O"
+        }, {
+          "qText" : "Male",
+          "qNum" : "NaN",
+          "qElemNumber" : 0,
+          "qState" : "O"
+        }, {
+          "qText" : "80400.167",
+          "qNum" : 80400.16708952519,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Contributor",
+          "qNum" : "NaN",
+          "qElemNumber" : 1,
+          "qState" : "O"
+        }, {
+          "qText" : "Female",
+          "qNum" : "NaN",
+          "qElemNumber" : 1,
+          "qState" : "O"
+        }, {
+          "qText" : "77335.918",
+          "qNum" : 77335.91776522285,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "First Line Manager",
+          "qNum" : "NaN",
+          "qElemNumber" : 2,
+          "qState" : "O"
+        }, {
+          "qText" : "Male",
+          "qNum" : "NaN",
+          "qElemNumber" : 0,
+          "qState" : "O"
+        }, {
+          "qText" : "87309.175",
+          "qNum" : 87309.17543859649,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "First Line Manager",
+          "qNum" : "NaN",
+          "qElemNumber" : 2,
+          "qState" : "O"
+        }, {
+          "qText" : "Female",
+          "qNum" : "NaN",
+          "qElemNumber" : 1,
+          "qState" : "O"
+        }, {
+          "qText" : "79469.107",
+          "qNum" : 79469.10714285714,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Middle Manager",
+          "qNum" : "NaN",
+          "qElemNumber" : 0,
+          "qState" : "O"
+        }, {
+          "qText" : "Male",
+          "qNum" : "NaN",
+          "qElemNumber" : 0,
+          "qState" : "O"
+        }, {
+          "qText" : "80408.928",
+          "qNum" : 80408.92822966508,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Middle Manager",
+          "qNum" : "NaN",
+          "qElemNumber" : 0,
+          "qState" : "O"
+        }, {
+          "qText" : "Female",
+          "qNum" : "NaN",
+          "qElemNumber" : 1,
+          "qState" : "O"
+        }, {
+          "qText" : "76823.509",
+          "qNum" : 76823.50943396226,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Senior Manager",
+          "qNum" : "NaN",
+          "qElemNumber" : 3,
+          "qState" : "O"
+        }, {
+          "qText" : "Female",
+          "qNum" : "NaN",
+          "qElemNumber" : 1,
+          "qState" : "O"
+        }, {
+          "qText" : "102711.67",
+          "qNum" : 102711.66666666667,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Senior Manager",
+          "qNum" : "NaN",
+          "qElemNumber" : 3,
+          "qState" : "O"
+        }, {
+          "qText" : "Male",
+          "qNum" : "NaN",
+          "qElemNumber" : 0,
+          "qState" : "O"
+        }, {
+          "qText" : "66781",
+          "qNum" : 66781,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ] ],
+        "qTails" : [ {
+          "qUp" : 0,
+          "qDown" : 0
+        }, {
+          "qUp" : 0,
+          "qDown" : 0
+        } ],
+        "qArea" : {
+          "qLeft" : 0,
+          "qTop" : 0,
+          "qWidth" : 3,
+          "qHeight" : 8
+        }
+      } ],
+      "qPivotDataPages" : [ ],
+      "qStackedDataPages" : [ ],
+      "qMode" : "S",
+      "qNoOfLeftDims" : 0,
+      "qTreeNodesOnDim" : [ ],
+      "qColumnOrder" : [ ]
+    },
+    "refLine" : {
+      "refLines" : [ ]
+    },
+    "showTitles" : true,
+    "subtitle" : "",
+    "footnote" : "",
+    "barGrouping" : {
+      "grouping" : "grouped"
+    },
+    "orientation" : "vertical",
+    "gridLine" : {
+      "auto" : true,
+      "spacing" : 2
+    },
+    "dataPoint" : {
+      "showLabels" : true
+    },
+    "color" : {
+      "auto" : true,
+      "mode" : "byDimension",
+      "singleColor" : 3,
+      "persistent" : true,
+      "expressionLabel" : "",
+      "expressionIsColor" : true,
+      "measureScheme" : "sg",
+      "reverseScheme" : false,
+      "dimensionScheme" : "12",
+      "autoMinMax" : true,
+      "measureMin" : 0,
+      "measureMax" : 10,
+      "dimensionId" : "",
+      "colorExpression" : "rgb(221,204,119)"
+    },
+    "legend" : {
+      "show" : false,
+      "dock" : "auto",
+      "showTitle" : true
+    },
+    "dimensionAxis" : {
+      "show" : "all",
+      "label" : "auto",
+      "dock" : "near"
+    },
+    "measureAxis" : {
+      "show" : "all",
+      "dock" : "near",
+      "spacing" : 1,
+      "autoMinMax" : true,
+      "minMax" : "min",
+      "min" : 0,
+      "max" : 10
+    },
+    "visualization" : "barchart",
+    "masterVersion" : 0.96,
+    "reducedHyperCube" : {
+      "qDataPages" : [ {
+        "qMatrix" : [ [ {
+          "qText" : "Contributor",
+          "qNum" : "NaN",
+          "qElemNumber" : 1,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "Male",
+          "qNum" : "NaN",
+          "qElemNumber" : 0,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "80400.167",
+          "qNum" : 80400.16708952519,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Contributor",
+          "qNum" : "NaN",
+          "qElemNumber" : 1,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "Female",
+          "qNum" : "NaN",
+          "qElemNumber" : 1,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "77335.918",
+          "qNum" : 77335.91776522285,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "First Line Manager",
+          "qNum" : "NaN",
+          "qElemNumber" : 2,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "Male",
+          "qNum" : "NaN",
+          "qElemNumber" : 0,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "87309.175",
+          "qNum" : 87309.17543859649,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "First Line Manager",
+          "qNum" : "NaN",
+          "qElemNumber" : 2,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "Female",
+          "qNum" : "NaN",
+          "qElemNumber" : 1,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "79469.107",
+          "qNum" : 79469.10714285714,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Middle Manager",
+          "qNum" : "NaN",
+          "qElemNumber" : 0,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "Male",
+          "qNum" : "NaN",
+          "qElemNumber" : 0,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "80408.928",
+          "qNum" : 80408.92822966508,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Middle Manager",
+          "qNum" : "NaN",
+          "qElemNumber" : 0,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "Female",
+          "qNum" : "NaN",
+          "qElemNumber" : 1,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "76823.509",
+          "qNum" : 76823.50943396226,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Senior Manager",
+          "qNum" : "NaN",
+          "qElemNumber" : 3,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "Female",
+          "qNum" : "NaN",
+          "qElemNumber" : 1,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "102711.67",
+          "qNum" : 102711.66666666667,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Senior Manager",
+          "qNum" : "NaN",
+          "qElemNumber" : 3,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "Male",
+          "qNum" : "NaN",
+          "qElemNumber" : 0,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "66781",
+          "qNum" : 66781,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ] ],
+        "qTails" : [ {
+          "qUp" : 0,
+          "qDown" : 0
+        }, {
+          "qUp" : 0,
+          "qDown" : 0
+        } ],
+        "qArea" : {
+          "qLeft" : 0,
+          "qTop" : 0,
+          "qWidth" : 3,
+          "qHeight" : 8
+        }
+      } ],
+      "qDimensionInfo" : [ {
+        "qFallbackTitle" : "Management role",
+        "qApprMaxGlyphCount" : 18,
+        "qCardinal" : 4,
+        "qSortIndicator" : "A",
+        "qGroupFallbackTitles" : [ "Management role" ],
+        "qGroupPos" : 0,
+        "qStateCounts" : {
+          "qLocked" : 0,
+          "qSelected" : 0,
+          "qOption" : 4,
+          "qDeselected" : 0,
+          "qAlternative" : 0,
+          "qExcluded" : 0,
+          "qSelectedExcluded" : 0
+        },
+        "qTags" : [ "$ascii", "$text" ],
+        "qDimensionType" : "D",
+        "qGrouping" : "N",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qnDec" : 0,
+          "qUseThou" : 0
+        },
+        "qIsAutoFormat" : true,
+        "qGroupFieldDefs" : [ "Position1" ],
+        "title" : "Management role",
+        "autoSort" : true,
+        "cId" : "Gzjut",
+        "othersLabel" : "Others"
+      }, {
+        "qFallbackTitle" : "Gender",
+        "qApprMaxGlyphCount" : 6,
+        "qCardinal" : 2,
+        "qSortIndicator" : "A",
+        "qGroupFallbackTitles" : [ "Gender" ],
+        "qGroupPos" : 0,
+        "qStateCounts" : {
+          "qLocked" : 0,
+          "qSelected" : 0,
+          "qOption" : 2,
+          "qDeselected" : 0,
+          "qAlternative" : 0,
+          "qExcluded" : 0,
+          "qSelectedExcluded" : 0
+        },
+        "qTags" : [ "$ascii", "$text" ],
+        "qDimensionType" : "D",
+        "qGrouping" : "N",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qnDec" : 0,
+          "qUseThou" : 0
+        },
+        "qIsAutoFormat" : true,
+        "qGroupFieldDefs" : [ "Gender" ],
+        "title" : "Gender",
+        "autoSort" : true,
+        "cId" : "LtNpvxQ",
+        "othersLabel" : "Others"
+      } ],
+      "qMeasureInfo" : [ {
+        "qFallbackTitle" : "Avg Compensation",
+        "qApprMaxGlyphCount" : 9,
+        "qCardinal" : 9,
+        "qSortIndicator" : "D",
+        "qNumFormat" : {
+          "qType" : "R",
+          "qnDec" : 0,
+          "qUseThou" : 0,
+          "qFmt" : "########",
+          "qDec" : ".",
+          "qThou" : ","
+        },
+        "qMin" : 66781,
+        "qMax" : 102711.66666666667,
+        "qIsAutoFormat" : true,
+        "autoSort" : true,
+        "cId" : "RbkPYEx",
+        "numFormatFromTemplate" : true
+      } ],
+      "qStackedDataPages" : [ ],
+      "qMode" : "S",
+      "qSize" : {
+        "qcx" : 2,
+        "qcy" : 0
+      }
+    },
+    "visualizationType" : "barchart",
+    "timestamp" : 1413235374635,
+    "sourceObjectId" : "AufQXZn",
+    "isClone" : false,
+    "snapshotData" : {
+      "object" : {
+        "size" : {
+          "w" : 624,
+          "h" : 271
+        }
+      },
+      "parent" : {
+        "h" : 877,
+        "w" : 1910
+      },
+      "content" : {
+        "chartData" : {
+          "legendScrollOffset" : 0,
+          "scrollOffset" : 0,
+          "discreteSpacing" : 45.5,
+          "axisInnerOffset" : 0,
+          "hasMiniChart" : false
+        },
+        "size" : {
+          "w" : 624,
+          "h" : 244
+        },
+        "components" : {
+          "miniChart" : {
+            "visible" : false,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 546,
+              "h" : 0
+            }
+          },
+          "refLineLabels" : {
+            "visible" : false,
+            "dock" : "right",
+            "size" : {
+              "w" : 0,
+              "h" : 158.78999919891356
+            }
+          },
+          "grid" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 546,
+              "h" : 158.78999919891356
+            }
+          },
+          "legend" : {
+            "visible" : false,
+            "dock" : "right",
+            "size" : {
+              "w" : 0,
+              "h" : 158.78999919891356
+            }
+          },
+          "scrollArea" : {
+            "visible" : false,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 546,
+              "h" : 0
+            }
+          },
+          "refLines" : {
+            "visible" : false,
+            "dock" : "center",
+            "size" : {
+              "w" : 546,
+              "h" : 158.78999919891356
+            }
+          },
+          "dataArea" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 546,
+              "h" : 158.78999919891356
+            }
+          },
+          "measureAxis" : {
+            "visible" : true,
+            "dock" : "left",
+            "size" : {
+              "w" : 74,
+              "h" : 158.78999919891356
+            }
+          },
+          "dimensionAxis" : {
+            "visible" : true,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 546,
+              "h" : 57
+            }
+          },
+          "dimensionAxisTitle" : {
+            "visible" : true,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 546,
+              "h" : 24.210000801086423
+            }
+          }
+        },
+        "v" : 0.96
+      }
+    }
+  },
+  "qStateData" : [ {
+    "qStateName" : "$",
+    "qFieldItems" : [ ]
+  } ],
+  "qPatches" : [ ]
+}

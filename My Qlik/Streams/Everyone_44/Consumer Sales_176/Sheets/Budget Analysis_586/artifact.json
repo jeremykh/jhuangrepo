@@ -1,0 +1,141 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "aa6b0211b671e5cbbb4f7e61cddfaef4dc804d8a",
+      "contentName" : "content",
+      "contentOid" : 18760,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "bounds" : {
+            "height" : 100,
+            "width" : 37.5,
+            "x" : 12.5,
+            "y" : 0
+          },
+          "col" : 3,
+          "colspan" : 9,
+          "name" : "PJTJWqx",
+          "row" : 0,
+          "rowspan" : 12,
+          "type" : "barchart"
+        }, {
+          "bounds" : {
+            "height" : 41.66666666666667,
+            "width" : 50,
+            "x" : 50,
+            "y" : 0
+          },
+          "col" : 12,
+          "colspan" : 12,
+          "name" : "meQGcP",
+          "row" : 0,
+          "rowspan" : 5,
+          "type" : "combochart"
+        }, {
+          "bounds" : {
+            "height" : 58.333333333333336,
+            "width" : 12.5,
+            "x" : 0,
+            "y" : 0
+          },
+          "col" : 0,
+          "colspan" : 3,
+          "name" : "BrUHXGz",
+          "row" : 0,
+          "rowspan" : 7,
+          "type" : "filterpane"
+        }, {
+          "bounds" : {
+            "height" : 41.66666666666667,
+            "width" : 12.5,
+            "x" : 0,
+            "y" : 58.333333333333336
+          },
+          "col" : 0,
+          "colspan" : 3,
+          "name" : "erBqjrX",
+          "row" : 7,
+          "rowspan" : 5,
+          "type" : "filterpane"
+        }, {
+          "bounds" : {
+            "height" : 58.333333333333336,
+            "width" : 50,
+            "x" : 50,
+            "y" : 41.66666666666667
+          },
+          "col" : 12,
+          "colspan" : 12,
+          "name" : "SeYrbD",
+          "row" : 5,
+          "rowspan" : 7,
+          "type" : "table"
+        } ],
+        "columns" : 24,
+        "gridResolution" : "small",
+        "qInfo" : {
+          "qId" : "AjDCJg",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "Budget Analysis",
+          "title" : "Budget Analysis"
+        },
+        "rank" : -0.8515625,
+        "rows" : 12,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/b0fdc823-746a-4443-aca0-30b592a00bde/CGS_Budget_Analysis.png"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "AjDCJg,Sheet;b0fdc823-746a-4443-aca0-30b592a00bde,App;",
+  "key" : {
+    "id" : 586
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Consumer Sales/Sheets/Budget Analysis",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Budget Analysis",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 205
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 176, 205, 586 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

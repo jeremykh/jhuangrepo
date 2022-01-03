@@ -1,0 +1,57 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qInfo" : {
+        "qId" : "HQGmHG",
+        "qType" : "measure"
+      },
+      "qMeasure" : {
+        "qActiveExpression" : 0,
+        "qDef" : "num(count({<CPULoad={\">=0.95\"} > } [CPULoad])/count([CPULoad]),'#0%')",
+        "qExpressions" : [ ],
+        "qGrouping" : "N",
+        "qLabel" : "CPU Above 95%",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qUseThou" : 0,
+          "qnDec" : 10
+        }
+      },
+      "qMetaDef" : {
+        "description" : "Percentage of time the Qlik Sense process CPU exceeds 95%.",
+        "tags" : [ "performance" ],
+        "title" : "CPU Above 95%"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "HQGmHG,Measure;72d45588-644b-4905-a064-a3923f3f6e08,App;",
+  "key" : {
+    "id" : 806
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/Operations Monitor/Measures/CPU Above 95%",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikMeasure/QlikMeasure",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "CPU Above 95%",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 234
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 179, 234, 806 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Measure",
+  "shouldVersion" : true,
+  "subtype" : "QlikMeasure",
+  "type" : "QlikArtifact"
+}

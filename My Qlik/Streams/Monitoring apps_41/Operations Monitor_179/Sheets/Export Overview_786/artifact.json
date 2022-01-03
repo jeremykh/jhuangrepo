@@ -1,0 +1,141 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "afdf08e44b293d49f3701c2a06d24bda52310538",
+      "contentName" : "content",
+      "contentOid" : 18830,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "bounds" : {
+            "height" : 53.333333333333336,
+            "width" : 46.666666666666664,
+            "x" : 0,
+            "y" : 6.666666666666667
+          },
+          "col" : 0,
+          "colspan" : 14,
+          "name" : "8561bf4e-2be8-414e-a8af-b4024a3ca76c",
+          "row" : 1,
+          "rowspan" : 8,
+          "type" : "table"
+        }, {
+          "bounds" : {
+            "height" : 53.333333333333336,
+            "width" : 26.666666666666668,
+            "x" : 73.33333333333333,
+            "y" : 6.666666666666667
+          },
+          "col" : 22,
+          "colspan" : 8,
+          "name" : "1956ef3b-5223-4eb1-a78a-77ed1ff708e2",
+          "row" : 1,
+          "rowspan" : 8,
+          "type" : "table"
+        }, {
+          "bounds" : {
+            "height" : 40,
+            "width" : 100,
+            "x" : 0,
+            "y" : 60
+          },
+          "col" : 0,
+          "colspan" : 30,
+          "name" : "ef2a19c2-8cf0-477e-b32f-9639133b7dbb",
+          "row" : 9,
+          "rowspan" : 6,
+          "type" : "table"
+        }, {
+          "bounds" : {
+            "height" : 6.666666666666667,
+            "width" : 100,
+            "x" : 0,
+            "y" : 0
+          },
+          "col" : 0,
+          "colspan" : 30,
+          "name" : "06081971-f678-49a8-841c-405da635df6d",
+          "row" : 0,
+          "rowspan" : 1,
+          "type" : "filterpane"
+        }, {
+          "bounds" : {
+            "height" : 53.333333333333336,
+            "width" : 26.666666666666668,
+            "x" : 46.666666666666664,
+            "y" : 6.666666666666667
+          },
+          "col" : 14,
+          "colspan" : 8,
+          "name" : "YYGJNk",
+          "row" : 1,
+          "rowspan" : 8,
+          "type" : "table"
+        } ],
+        "columns" : 30,
+        "gridResolution" : "medium",
+        "qInfo" : {
+          "qId" : "a9bc4b3f-365d-4d69-a948-ec2a882b2707",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "",
+          "title" : "Export Overview"
+        },
+        "rank" : 0.392578125,
+        "rows" : 15,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/72d45588-644b-4905-a064-a3923f3f6e08/Icon_Collaboration_Reporting_grey.png"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+        "name" : "sa_repository",
+        "userDirectory" : "INTERNAL",
+        "userId" : "sa_repository"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "a9bc4b3f-365d-4d69-a948-ec2a882b2707,Sheet;72d45588-644b-4905-a064-a3923f3f6e08,App;",
+  "key" : {
+    "id" : 786
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/Operations Monitor/Sheets/Export Overview",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Export Overview",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 235
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 179, 235, 786 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

@@ -1,0 +1,94 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "33f923630306eb4cd1b62b6cc79f97ec413bd983",
+      "contentName" : "content",
+      "contentOid" : 18801,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "col" : 7,
+          "colspan" : 17,
+          "name" : "ASHep",
+          "row" : 0,
+          "rowspan" : 6,
+          "type" : "barchart"
+        }, {
+          "col" : 7,
+          "colspan" : 17,
+          "name" : "aPCBYbS",
+          "row" : 6,
+          "rowspan" : 6,
+          "type" : "map"
+        }, {
+          "col" : 0,
+          "colspan" : 7,
+          "name" : "CRfdPk",
+          "row" : 0,
+          "rowspan" : 12,
+          "type" : "filterpane"
+        } ],
+        "columns" : 24,
+        "qInfo" : {
+          "qId" : "EPbtjS",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "This sheet is designed to analyze sales per category",
+          "title" : "Sales Analysis"
+        },
+        "rank" : null,
+        "rows" : 12,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : { }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "EPbtjS,Sheet;88e3ab27-4783-4832-ba65-6eba49a9001b,App;",
+  "key" : {
+    "id" : 715
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/International Apparel Analysis/Sheets/Sales Analysis",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Sales Analysis",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 225
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 178, 225, 715 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

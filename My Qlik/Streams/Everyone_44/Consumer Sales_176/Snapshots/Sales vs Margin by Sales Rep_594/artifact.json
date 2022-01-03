@@ -1,0 +1,47 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "02ed9df5bd71c286b231105fe876828a56a62e48",
+      "contentName" : "content",
+      "contentOid" : 18741,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "creationDate" : "2014-06-24",
+    "qMetaDef" : {
+      "title" : "Sales vs Margin by Sales Rep"
+    }
+  },
+  "hidden" : false,
+  "identity" : "dAvFUy,Snapshot;b0fdc823-746a-4443-aca0-30b592a00bde,App;",
+  "key" : {
+    "id" : 594
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Consumer Sales/Snapshots/Sales vs Margin by Sales Rep",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSnapshot/QlikSnapshot",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Sales vs Margin by Sales Rep",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 206
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 176, 206, 594 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Snapshot",
+  "shouldVersion" : true,
+  "subtype" : "QlikSnapshot",
+  "type" : "QlikArtifact"
+}

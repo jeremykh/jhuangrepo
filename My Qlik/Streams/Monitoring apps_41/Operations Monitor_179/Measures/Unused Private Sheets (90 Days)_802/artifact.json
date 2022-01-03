@@ -1,0 +1,63 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qInfo" : {
+        "qId" : "efcb715c-0b84-4973-a0c5-f01c2f7669b5",
+        "qType" : "measure"
+      },
+      "qMeasure" : {
+        "coloring" : {
+          "baseColor" : {
+            "color" : "#138185",
+            "index" : 13
+          }
+        },
+        "qActiveExpression" : 0,
+        "qDef" : "Num(\r\n\tCount({<[Sheet Type]={\"Private Sheet\"},[Sheet Used Last 90 Days]={\"Unused*\"}>} Distinct AppObjectId)\n,'#,##0')\n/*Num(Sum(\n\t\tAggr(\n\t\t\tCount({$<[Sheet Type]={\"Private Sheet\"}>-<AppObjectId={\"=max({<[Sheet Type]={'Private Sheet'},sheet_audit_indicator={'1'}>} LogTimeStamp) >= vLast90Days\"}>} Distinct AppObjectId)\n        ,ObjectId)\n    )\n,'#,##0')",
+        "qExpressions" : [ ],
+        "qGrouping" : "N",
+        "qLabel" : "Unused Private Sheets (90 Days)",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qUseThou" : 0,
+          "qnDec" : 10
+        }
+      },
+      "qMetaDef" : {
+        "description" : "Sheets not used in last 90 days.",
+        "tags" : [ ],
+        "title" : "Unused Private Sheets (90 Days)"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "efcb715c-0b84-4973-a0c5-f01c2f7669b5,Measure;72d45588-644b-4905-a064-a3923f3f6e08,App;",
+  "key" : {
+    "id" : 802
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/Operations Monitor/Measures/Unused Private Sheets (90 Days)",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikMeasure/QlikMeasure",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Unused Private Sheets (90 Days)",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 234
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 179, 234, 802 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Measure",
+  "shouldVersion" : true,
+  "subtype" : "QlikMeasure",
+  "type" : "QlikArtifact"
+}

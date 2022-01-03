@@ -1,0 +1,2040 @@
+{
+  "qProp" : {
+    "qInfo" : {
+      "qId" : "NNtzRtJ",
+      "qType" : "snapshot"
+    },
+    "qMetaDef" : {
+      "title" : "Central Region"
+    },
+    "title" : "Total Revenue by Product Group = $28,298,668",
+    "description" : "",
+    "sheetId" : "VJyJ",
+    "creationDate" : "2014-07-06",
+    "qMeta" : { },
+    "qSelectionInfo" : { },
+    "qHyperCube" : {
+      "qSize" : {
+        "qcx" : 2,
+        "qcy" : 70
+      },
+      "qDimensionInfo" : [ {
+        "qFallbackTitle" : "Product Sub Group",
+        "qApprMaxGlyphCount" : 17,
+        "qCardinal" : 70,
+        "qSortIndicator" : "A",
+        "qGroupFallbackTitles" : [ "Product Sub Group" ],
+        "qGroupPos" : 0,
+        "qStateCounts" : {
+          "qLocked" : 0,
+          "qSelected" : 0,
+          "qOption" : 70,
+          "qDeselected" : 0,
+          "qAlternative" : 0,
+          "qExcluded" : 0,
+          "qSelectedExcluded" : 0,
+          "qLockedExcluded" : 0
+        },
+        "qTags" : [ "$ascii", "$text" ],
+        "qDimensionType" : "D",
+        "qGrouping" : "N",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qnDec" : 0,
+          "qUseThou" : 0
+        },
+        "qIsAutoFormat" : true,
+        "qGroupFieldDefs" : [ "Product Sub Group Desc" ],
+        "qMin" : 0,
+        "qMax" : 0,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qCardinalities" : {
+          "qCardinal" : 0,
+          "qHypercubeCardinal" : 0,
+          "qAllValuesCardinal" : -1
+        },
+        "title" : "Product Sub Group",
+        "autoSort" : true,
+        "cId" : "HBLVQ",
+        "othersLabel" : "Others"
+      } ],
+      "qMeasureInfo" : [ {
+        "qFallbackTitle" : "Revenue",
+        "qApprMaxGlyphCount" : 11,
+        "qCardinal" : 71,
+        "qSortIndicator" : "D",
+        "qNumFormat" : {
+          "qType" : "R",
+          "qnDec" : 0,
+          "qUseThou" : 0,
+          "qFmt" : "##############",
+          "qDec" : ".",
+          "qThou" : ","
+        },
+        "qMin" : -6086.750000000002,
+        "qMax" : 6278555.560000003,
+        "qIsAutoFormat" : true,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qTrendLines" : [ ],
+        "autoSort" : true,
+        "cId" : "LmPkqP",
+        "numFormatFromTemplate" : true
+      } ],
+      "qEffectiveInterColumnSortOrder" : [ 1, 0 ],
+      "qGrandTotalRow" : [ {
+        "qText" : "28298668.25",
+        "qNum" : 2.8298668249999687E7,
+        "qElemNumber" : -1,
+        "qState" : "X",
+        "qIsTotalCell" : true
+      } ],
+      "qDataPages" : [ {
+        "qMatrix" : [ [ {
+          "qText" : "Fresh Vegetables",
+          "qNum" : "NaN",
+          "qElemNumber" : 12,
+          "qState" : "O"
+        }, {
+          "qText" : "6278555.56",
+          "qNum" : 6278555.560000003,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Frozen Vegetables",
+          "qNum" : "NaN",
+          "qElemNumber" : 46,
+          "qState" : "O"
+        }, {
+          "qText" : "3816541.42",
+          "qNum" : 3816541.42,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Sugar",
+          "qNum" : "NaN",
+          "qElemNumber" : 39,
+          "qState" : "O"
+        }, {
+          "qText" : "3763687.61",
+          "qNum" : 3763687.6100000003,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Hot Dogs",
+          "qNum" : "NaN",
+          "qElemNumber" : 55,
+          "qState" : "O"
+        }, {
+          "qText" : "3365205.87",
+          "qNum" : 3365205.869999999,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Coffee",
+          "qNum" : "NaN",
+          "qElemNumber" : 6,
+          "qState" : "O"
+        }, {
+          "qText" : "3203984.23",
+          "qNum" : 3203984.23,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Chips",
+          "qNum" : "NaN",
+          "qElemNumber" : 11,
+          "qState" : "O"
+        }, {
+          "qText" : "2088974.63",
+          "qNum" : 2088974.6300000024,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Preserves",
+          "qNum" : "NaN",
+          "qElemNumber" : 27,
+          "qState" : "O"
+        }, {
+          "qText" : "1759989.84",
+          "qNum" : 1759989.8399999996,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Cereal",
+          "qNum" : "NaN",
+          "qElemNumber" : 29,
+          "qState" : "O"
+        }, {
+          "qText" : "647782.02",
+          "qNum" : 647782.02,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Pizza",
+          "qNum" : "NaN",
+          "qElemNumber" : 49,
+          "qState" : "O"
+        }, {
+          "qText" : "389887.74",
+          "qNum" : 389887.7400000001,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Fresh Fruit",
+          "qNum" : "NaN",
+          "qElemNumber" : 66,
+          "qState" : "O"
+        }, {
+          "qText" : "361780.86",
+          "qNum" : 361780.8599999995,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Flavored Drinks",
+          "qNum" : "NaN",
+          "qElemNumber" : 41,
+          "qState" : "O"
+        }, {
+          "qText" : "287775.74",
+          "qNum" : 287775.7399999993,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Shrimp",
+          "qNum" : "NaN",
+          "qElemNumber" : 61,
+          "qState" : "O"
+        }, {
+          "qText" : "172563.54",
+          "qNum" : 172563.53999999998,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Bologna",
+          "qNum" : "NaN",
+          "qElemNumber" : 59,
+          "qState" : "O"
+        }, {
+          "qText" : "171301.5",
+          "qNum" : 171301.49999999985,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Deli Meats",
+          "qNum" : "NaN",
+          "qElemNumber" : 7,
+          "qState" : "O"
+        }, {
+          "qText" : "166919.63",
+          "qNum" : 166919.6299999999,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Spices",
+          "qNum" : "NaN",
+          "qElemNumber" : 3,
+          "qState" : "O"
+        }, {
+          "qText" : "158977.51",
+          "qNum" : 158977.50999999998,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Peanut Butter",
+          "qNum" : "NaN",
+          "qElemNumber" : 42,
+          "qState" : "O"
+        }, {
+          "qText" : "128178.33",
+          "qNum" : 128178.33000000007,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Soda",
+          "qNum" : "NaN",
+          "qElemNumber" : 17,
+          "qState" : "O"
+        }, {
+          "qText" : "120332.42",
+          "qNum" : 120332.42000000003,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Pasta",
+          "qNum" : "NaN",
+          "qElemNumber" : 4,
+          "qState" : "O"
+        }, {
+          "qText" : "103534.32",
+          "qNum" : 103534.32,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Sardines",
+          "qNum" : "NaN",
+          "qElemNumber" : 65,
+          "qState" : "O"
+        }, {
+          "qText" : "102675.52",
+          "qNum" : 102675.52000000009,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Ice Cream",
+          "qNum" : "NaN",
+          "qElemNumber" : 8,
+          "qState" : "O"
+        }, {
+          "qText" : "96309.44",
+          "qNum" : 96309.43999999997,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Cookies",
+          "qNum" : "NaN",
+          "qElemNumber" : 35,
+          "qState" : "O"
+        }, {
+          "qText" : "90737.33",
+          "qNum" : 90737.32999999999,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Cheese",
+          "qNum" : "NaN",
+          "qElemNumber" : 10,
+          "qState" : "O"
+        }, {
+          "qText" : "80498.7",
+          "qNum" : 80498.69999999997,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Nuts",
+          "qNum" : "NaN",
+          "qElemNumber" : 0,
+          "qState" : "O"
+        }, {
+          "qText" : "72320.49",
+          "qNum" : 72320.49,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Soup",
+          "qNum" : "NaN",
+          "qElemNumber" : 45,
+          "qState" : "O"
+        }, {
+          "qText" : "64147.8",
+          "qNum" : 64147.800000000025,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Dried Fruit",
+          "qNum" : "NaN",
+          "qElemNumber" : 68,
+          "qState" : "O"
+        }, {
+          "qText" : "61696.5",
+          "qNum" : 61696.49999999996,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Frozen Chicken",
+          "qNum" : "NaN",
+          "qElemNumber" : 67,
+          "qState" : "O"
+        }, {
+          "qText" : "61587.92",
+          "qNum" : 61587.920000000006,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Muffins",
+          "qNum" : "NaN",
+          "qElemNumber" : 20,
+          "qState" : "O"
+        }, {
+          "qText" : "61453.1",
+          "qNum" : 61453.09999999999,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Yogurt",
+          "qNum" : "NaN",
+          "qElemNumber" : 5,
+          "qState" : "O"
+        }, {
+          "qText" : "59339.34",
+          "qNum" : 59339.340000000055,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Chocolate Candy",
+          "qNum" : "NaN",
+          "qElemNumber" : 30,
+          "qState" : "O"
+        }, {
+          "qText" : "57886.56",
+          "qNum" : 57886.56,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Milk",
+          "qNum" : "NaN",
+          "qElemNumber" : 53,
+          "qState" : "O"
+        }, {
+          "qText" : "52465.23",
+          "qNum" : 52465.230000000134,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Dips",
+          "qNum" : "NaN",
+          "qElemNumber" : 57,
+          "qState" : "O"
+        }, {
+          "qText" : "51671.47",
+          "qNum" : 51671.46999999999,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "TV Dinner",
+          "qNum" : "NaN",
+          "qElemNumber" : 9,
+          "qState" : "O"
+        }, {
+          "qText" : "44662.86",
+          "qNum" : 44662.859999999935,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Jelly",
+          "qNum" : "NaN",
+          "qElemNumber" : 25,
+          "qState" : "O"
+        }, {
+          "qText" : "39980.99",
+          "qNum" : 39980.98999999999,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Pretzels",
+          "qNum" : "NaN",
+          "qElemNumber" : 36,
+          "qState" : "O"
+        }, {
+          "qText" : "38181.63",
+          "qNum" : 38181.630000000005,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Canned Vegetables",
+          "qNum" : "NaN",
+          "qElemNumber" : 47,
+          "qState" : "O"
+        }, {
+          "qText" : "30386.16",
+          "qNum" : 30386.16000000001,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Tofu",
+          "qNum" : "NaN",
+          "qElemNumber" : 52,
+          "qState" : "O"
+        }, {
+          "qText" : "21827.6",
+          "qNum" : 21827.60000000001,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Deli Salads",
+          "qNum" : "NaN",
+          "qElemNumber" : 15,
+          "qState" : "O"
+        }, {
+          "qText" : "21212.41",
+          "qNum" : 21212.40999999999,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Eggs",
+          "qNum" : "NaN",
+          "qElemNumber" : 51,
+          "qState" : "O"
+        }, {
+          "qText" : "17785.29",
+          "qNum" : 17785.289999999997,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Waffles",
+          "qNum" : "NaN",
+          "qElemNumber" : 28,
+          "qState" : "O"
+        }, {
+          "qText" : "17021.25",
+          "qNum" : 17021.249999999996,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Hard Candy",
+          "qNum" : "NaN",
+          "qElemNumber" : 32,
+          "qState" : "O"
+        }, {
+          "qText" : "15919.32",
+          "qNum" : 15919.32,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Juice",
+          "qNum" : "NaN",
+          "qElemNumber" : 24,
+          "qState" : "O"
+        }, {
+          "qText" : "14301.58",
+          "qNum" : 14301.580000000002,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Sliced Bread",
+          "qNum" : "NaN",
+          "qElemNumber" : 21,
+          "qState" : "O"
+        }, {
+          "qText" : "14192.05",
+          "qNum" : 14192.050000000012,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Beer",
+          "qNum" : "NaN",
+          "qElemNumber" : 33,
+          "qState" : "O"
+        }, {
+          "qText" : "13662.77",
+          "qNum" : 13662.77,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Cooking Oil",
+          "qNum" : "NaN",
+          "qElemNumber" : 38,
+          "qState" : "O"
+        }, {
+          "qText" : "13566.07",
+          "qNum" : 13566.069999999996,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Wine",
+          "qNum" : "NaN",
+          "qElemNumber" : 34,
+          "qState" : "O"
+        }, {
+          "qText" : "12703.71",
+          "qNum" : 12703.710000000003,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Donuts",
+          "qNum" : "NaN",
+          "qElemNumber" : 58,
+          "qState" : "O"
+        }, {
+          "qText" : "12036.23",
+          "qNum" : 12036.229999999996,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "French Fries",
+          "qNum" : "NaN",
+          "qElemNumber" : 48,
+          "qState" : "O"
+        }, {
+          "qText" : "9405.86",
+          "qNum" : 9405.86,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Hamburger",
+          "qNum" : "NaN",
+          "qElemNumber" : 50,
+          "qState" : "O"
+        }, {
+          "qText" : "9213.09",
+          "qNum" : 9213.090000000002,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Tuna",
+          "qNum" : "NaN",
+          "qElemNumber" : 60,
+          "qState" : "O"
+        }, {
+          "qText" : "8868.23",
+          "qNum" : 8868.23,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Cottage Cheese",
+          "qNum" : "NaN",
+          "qElemNumber" : 14,
+          "qState" : "O"
+        }, {
+          "qText" : "7550.45",
+          "qNum" : 7550.450000000001,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Canned Fruit",
+          "qNum" : "NaN",
+          "qElemNumber" : 2,
+          "qState" : "O"
+        }, {
+          "qText" : "5441.8",
+          "qNum" : 5441.800000000005,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Oysters",
+          "qNum" : "NaN",
+          "qElemNumber" : 64,
+          "qState" : "O"
+        }, {
+          "qText" : "5156.74",
+          "qNum" : 5156.74,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Popcorn",
+          "qNum" : "NaN",
+          "qElemNumber" : 43,
+          "qState" : "O"
+        }, {
+          "qText" : "4871.68",
+          "qNum" : 4871.680000000002,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Dried Meat",
+          "qNum" : "NaN",
+          "qElemNumber" : 16,
+          "qState" : "O"
+        }, {
+          "qText" : "4672.41",
+          "qNum" : 4672.410000000001,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Sour Cream",
+          "qNum" : "NaN",
+          "qElemNumber" : 13,
+          "qState" : "O"
+        }, {
+          "qText" : "4558.45",
+          "qNum" : 4558.45,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Rice",
+          "qNum" : "NaN",
+          "qElemNumber" : 44,
+          "qState" : "O"
+        }, {
+          "qText" : "3450.97",
+          "qNum" : 3450.9699999999993,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Clams",
+          "qNum" : "NaN",
+          "qElemNumber" : 63,
+          "qState" : "O"
+        }, {
+          "qText" : "2438.35",
+          "qNum" : 2438.35,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Anchovies",
+          "qNum" : "NaN",
+          "qElemNumber" : 62,
+          "qState" : "O"
+        }, {
+          "qText" : "2293.21",
+          "qNum" : 2293.2100000000005,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Sauces",
+          "qNum" : "NaN",
+          "qElemNumber" : 37,
+          "qState" : "O"
+        }, {
+          "qText" : "2271.52",
+          "qNum" : 2271.5199999999995,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Pancakes",
+          "qNum" : "NaN",
+          "qElemNumber" : 23,
+          "qState" : "O"
+        }, {
+          "qText" : "2015.21",
+          "qNum" : 2015.2099999999994,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Bagels",
+          "qNum" : "NaN",
+          "qElemNumber" : 19,
+          "qState" : "O"
+        }, {
+          "qText" : "1724.11",
+          "qNum" : 1724.1099999999997,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Jam",
+          "qNum" : "NaN",
+          "qElemNumber" : 26,
+          "qState" : "O"
+        }, {
+          "qText" : "1232.47",
+          "qNum" : 1232.4699999999998,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Shellfish",
+          "qNum" : "NaN",
+          "qElemNumber" : 1,
+          "qState" : "O"
+        }, {
+          "qText" : "1155.26",
+          "qNum" : 1155.2599999999998,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Gum",
+          "qNum" : "NaN",
+          "qElemNumber" : 31,
+          "qState" : "O"
+        }, {
+          "qText" : "679.73",
+          "qNum" : 679.7299999999999,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Fresh Fish",
+          "qNum" : "NaN",
+          "qElemNumber" : 18,
+          "qState" : "O"
+        }, {
+          "qText" : "560.31",
+          "qNum" : 560.3100000000001,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Pancake Mix",
+          "qNum" : "NaN",
+          "qElemNumber" : 22,
+          "qState" : "O"
+        }, {
+          "qText" : "513.61",
+          "qNum" : 513.6099999999999,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Fresh Chicken",
+          "qNum" : "NaN",
+          "qElemNumber" : 54,
+          "qState" : "O"
+        }, {
+          "qText" : "364.73",
+          "qNum" : 364.72999999999996,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Chocolate",
+          "qNum" : "NaN",
+          "qElemNumber" : 40,
+          "qState" : "O"
+        }, {
+          "qText" : "255.15",
+          "qNum" : 255.15,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Crackers",
+          "qNum" : "NaN",
+          "qElemNumber" : 56,
+          "qState" : "O"
+        }, {
+          "qText" : "-140.43",
+          "qNum" : -140.43000000000006,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Popsicles",
+          "qNum" : "NaN",
+          "qElemNumber" : 69,
+          "qState" : "O"
+        }, {
+          "qText" : "-6086.75",
+          "qNum" : -6086.750000000002,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ] ],
+        "qTails" : [ {
+          "qUp" : 0,
+          "qDown" : 0
+        } ],
+        "qArea" : {
+          "qLeft" : 0,
+          "qTop" : 0,
+          "qWidth" : 2,
+          "qHeight" : 70
+        }
+      } ],
+      "qPivotDataPages" : [ ],
+      "qStackedDataPages" : [ ],
+      "qMode" : "S",
+      "qNoOfLeftDims" : 0,
+      "qTreeNodesOnDim" : [ ],
+      "qColumnOrder" : [ ]
+    },
+    "refLine" : {
+      "refLines" : [ ]
+    },
+    "showTitles" : true,
+    "subtitle" : "",
+    "footnote" : "",
+    "barGrouping" : {
+      "grouping" : "grouped",
+      "showAs" : "percentage"
+    },
+    "orientation" : "horizontal",
+    "gridLine" : {
+      "auto" : true,
+      "spacing" : 2
+    },
+    "dataPoint" : {
+      "showLabels" : true
+    },
+    "color" : {
+      "auto" : false,
+      "mode" : "byMeasure",
+      "singleColor" : "#4477aa",
+      "persistent" : false,
+      "measureScheme" : "dg",
+      "reverseScheme" : true,
+      "dimensionScheme" : "12",
+      "dimensionId" : ""
+    },
+    "legend" : {
+      "show" : true,
+      "dock" : "auto",
+      "showTitle" : true
+    },
+    "dimensionAxis" : {
+      "show" : "labels",
+      "label" : "auto",
+      "dock" : "near"
+    },
+    "measureAxis" : {
+      "show" : "labels",
+      "label" : "horizontal",
+      "dock" : "near",
+      "spacing" : 0.75,
+      "autoMinMax" : true,
+      "minMax" : "min",
+      "min" : 0,
+      "max" : 10
+    },
+    "visualization" : "barchart",
+    "cutAxis" : true,
+    "reducedHyperCube" : {
+      "qDataPages" : [ {
+        "qMatrix" : [ [ {
+          "qText" : "Fresh Vegetables",
+          "qNum" : "NaN",
+          "qElemNumber" : 12,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "6278555.56",
+          "qNum" : 6278555.560000003,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Frozen Vegetables",
+          "qNum" : "NaN",
+          "qElemNumber" : 46,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "3816541.42",
+          "qNum" : 3816541.42,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Sugar",
+          "qNum" : "NaN",
+          "qElemNumber" : 39,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "3763687.61",
+          "qNum" : 3763687.6100000003,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Hot Dogs",
+          "qNum" : "NaN",
+          "qElemNumber" : 55,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "3365205.87",
+          "qNum" : 3365205.869999999,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Coffee",
+          "qNum" : "NaN",
+          "qElemNumber" : 6,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "3203984.23",
+          "qNum" : 3203984.23,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Chips",
+          "qNum" : "NaN",
+          "qElemNumber" : 11,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "2088974.63",
+          "qNum" : 2088974.6300000024,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Preserves",
+          "qNum" : "NaN",
+          "qElemNumber" : 27,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "1759989.84",
+          "qNum" : 1759989.8399999996,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Cereal",
+          "qNum" : "NaN",
+          "qElemNumber" : 29,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "647782.02",
+          "qNum" : 647782.02,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Pizza",
+          "qNum" : "NaN",
+          "qElemNumber" : 49,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "389887.74",
+          "qNum" : 389887.7400000001,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Fresh Fruit",
+          "qNum" : "NaN",
+          "qElemNumber" : 66,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "361780.86",
+          "qNum" : 361780.8599999995,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Flavored Drinks",
+          "qNum" : "NaN",
+          "qElemNumber" : 41,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "287775.74",
+          "qNum" : 287775.7399999993,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Shrimp",
+          "qNum" : "NaN",
+          "qElemNumber" : 61,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "172563.54",
+          "qNum" : 172563.53999999998,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Bologna",
+          "qNum" : "NaN",
+          "qElemNumber" : 59,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "171301.5",
+          "qNum" : 171301.49999999985,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Deli Meats",
+          "qNum" : "NaN",
+          "qElemNumber" : 7,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "166919.63",
+          "qNum" : 166919.6299999999,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Spices",
+          "qNum" : "NaN",
+          "qElemNumber" : 3,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "158977.51",
+          "qNum" : 158977.50999999998,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Peanut Butter",
+          "qNum" : "NaN",
+          "qElemNumber" : 42,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "128178.33",
+          "qNum" : 128178.33000000007,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Soda",
+          "qNum" : "NaN",
+          "qElemNumber" : 17,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "120332.42",
+          "qNum" : 120332.42000000003,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Pasta",
+          "qNum" : "NaN",
+          "qElemNumber" : 4,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "103534.32",
+          "qNum" : 103534.32,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Sardines",
+          "qNum" : "NaN",
+          "qElemNumber" : 65,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "102675.52",
+          "qNum" : 102675.52000000009,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Ice Cream",
+          "qNum" : "NaN",
+          "qElemNumber" : 8,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "96309.44",
+          "qNum" : 96309.43999999997,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Cookies",
+          "qNum" : "NaN",
+          "qElemNumber" : 35,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "90737.33",
+          "qNum" : 90737.32999999999,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Cheese",
+          "qNum" : "NaN",
+          "qElemNumber" : 10,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "80498.7",
+          "qNum" : 80498.69999999997,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Nuts",
+          "qNum" : "NaN",
+          "qElemNumber" : 0,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "72320.49",
+          "qNum" : 72320.49,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Soup",
+          "qNum" : "NaN",
+          "qElemNumber" : 45,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "64147.8",
+          "qNum" : 64147.800000000025,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Dried Fruit",
+          "qNum" : "NaN",
+          "qElemNumber" : 68,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "61696.5",
+          "qNum" : 61696.49999999996,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Frozen Chicken",
+          "qNum" : "NaN",
+          "qElemNumber" : 67,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "61587.92",
+          "qNum" : 61587.920000000006,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Muffins",
+          "qNum" : "NaN",
+          "qElemNumber" : 20,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "61453.1",
+          "qNum" : 61453.09999999999,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Yogurt",
+          "qNum" : "NaN",
+          "qElemNumber" : 5,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "59339.34",
+          "qNum" : 59339.340000000055,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Chocolate Candy",
+          "qNum" : "NaN",
+          "qElemNumber" : 30,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "57886.56",
+          "qNum" : 57886.56,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Milk",
+          "qNum" : "NaN",
+          "qElemNumber" : 53,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "52465.23",
+          "qNum" : 52465.230000000134,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Dips",
+          "qNum" : "NaN",
+          "qElemNumber" : 57,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "51671.47",
+          "qNum" : 51671.46999999999,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "TV Dinner",
+          "qNum" : "NaN",
+          "qElemNumber" : 9,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "44662.86",
+          "qNum" : 44662.859999999935,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Jelly",
+          "qNum" : "NaN",
+          "qElemNumber" : 25,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "39980.99",
+          "qNum" : 39980.98999999999,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Pretzels",
+          "qNum" : "NaN",
+          "qElemNumber" : 36,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "38181.63",
+          "qNum" : 38181.630000000005,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Canned Vegetables",
+          "qNum" : "NaN",
+          "qElemNumber" : 47,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "30386.16",
+          "qNum" : 30386.16000000001,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Tofu",
+          "qNum" : "NaN",
+          "qElemNumber" : 52,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "21827.6",
+          "qNum" : 21827.60000000001,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Deli Salads",
+          "qNum" : "NaN",
+          "qElemNumber" : 15,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "21212.41",
+          "qNum" : 21212.40999999999,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Eggs",
+          "qNum" : "NaN",
+          "qElemNumber" : 51,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "17785.29",
+          "qNum" : 17785.289999999997,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Waffles",
+          "qNum" : "NaN",
+          "qElemNumber" : 28,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "17021.25",
+          "qNum" : 17021.249999999996,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Hard Candy",
+          "qNum" : "NaN",
+          "qElemNumber" : 32,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "15919.32",
+          "qNum" : 15919.32,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Juice",
+          "qNum" : "NaN",
+          "qElemNumber" : 24,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "14301.58",
+          "qNum" : 14301.580000000002,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Sliced Bread",
+          "qNum" : "NaN",
+          "qElemNumber" : 21,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "14192.05",
+          "qNum" : 14192.050000000012,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Beer",
+          "qNum" : "NaN",
+          "qElemNumber" : 33,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "13662.77",
+          "qNum" : 13662.77,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Cooking Oil",
+          "qNum" : "NaN",
+          "qElemNumber" : 38,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "13566.07",
+          "qNum" : 13566.069999999996,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Wine",
+          "qNum" : "NaN",
+          "qElemNumber" : 34,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "12703.71",
+          "qNum" : 12703.710000000003,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Donuts",
+          "qNum" : "NaN",
+          "qElemNumber" : 58,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "12036.23",
+          "qNum" : 12036.229999999996,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "French Fries",
+          "qNum" : "NaN",
+          "qElemNumber" : 48,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "9405.86",
+          "qNum" : 9405.86,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Hamburger",
+          "qNum" : "NaN",
+          "qElemNumber" : 50,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "9213.09",
+          "qNum" : 9213.090000000002,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Tuna",
+          "qNum" : "NaN",
+          "qElemNumber" : 60,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "8868.23",
+          "qNum" : 8868.23,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Cottage Cheese",
+          "qNum" : "NaN",
+          "qElemNumber" : 14,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "7550.45",
+          "qNum" : 7550.450000000001,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Canned Fruit",
+          "qNum" : "NaN",
+          "qElemNumber" : 2,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "5441.8",
+          "qNum" : 5441.800000000005,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Oysters",
+          "qNum" : "NaN",
+          "qElemNumber" : 64,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "5156.74",
+          "qNum" : 5156.74,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Popcorn",
+          "qNum" : "NaN",
+          "qElemNumber" : 43,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "4871.68",
+          "qNum" : 4871.680000000002,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Dried Meat",
+          "qNum" : "NaN",
+          "qElemNumber" : 16,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "4672.41",
+          "qNum" : 4672.410000000001,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Sour Cream",
+          "qNum" : "NaN",
+          "qElemNumber" : 13,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "4558.45",
+          "qNum" : 4558.45,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Rice",
+          "qNum" : "NaN",
+          "qElemNumber" : 44,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "3450.97",
+          "qNum" : 3450.9699999999993,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Clams",
+          "qNum" : "NaN",
+          "qElemNumber" : 63,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "2438.35",
+          "qNum" : 2438.35,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Anchovies",
+          "qNum" : "NaN",
+          "qElemNumber" : 62,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "2293.21",
+          "qNum" : 2293.2100000000005,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Sauces",
+          "qNum" : "NaN",
+          "qElemNumber" : 37,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "2271.52",
+          "qNum" : 2271.5199999999995,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Pancakes",
+          "qNum" : "NaN",
+          "qElemNumber" : 23,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "2015.21",
+          "qNum" : 2015.2099999999994,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Bagels",
+          "qNum" : "NaN",
+          "qElemNumber" : 19,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "1724.11",
+          "qNum" : 1724.1099999999997,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Jam",
+          "qNum" : "NaN",
+          "qElemNumber" : 26,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "1232.47",
+          "qNum" : 1232.4699999999998,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Shellfish",
+          "qNum" : "NaN",
+          "qElemNumber" : 1,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "1155.26",
+          "qNum" : 1155.2599999999998,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Gum",
+          "qNum" : "NaN",
+          "qElemNumber" : 31,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "679.73",
+          "qNum" : 679.7299999999999,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Fresh Fish",
+          "qNum" : "NaN",
+          "qElemNumber" : 18,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "560.31",
+          "qNum" : 560.3100000000001,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Pancake Mix",
+          "qNum" : "NaN",
+          "qElemNumber" : 22,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "513.61",
+          "qNum" : 513.6099999999999,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Fresh Chicken",
+          "qNum" : "NaN",
+          "qElemNumber" : 54,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "364.73",
+          "qNum" : 364.72999999999996,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Chocolate",
+          "qNum" : "NaN",
+          "qElemNumber" : 40,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "255.15",
+          "qNum" : 255.15,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Crackers",
+          "qNum" : "NaN",
+          "qElemNumber" : 56,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "-140.43",
+          "qNum" : -140.43000000000006,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ], [ {
+          "qText" : "Popsicles",
+          "qNum" : "NaN",
+          "qElemNumber" : 69,
+          "qState" : "O",
+          "qGreyValue" : 0
+        }, {
+          "qText" : "-6086.75",
+          "qNum" : -6086.750000000002,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qGreyValue" : 0
+        } ] ],
+        "qTails" : [ {
+          "qUp" : 0,
+          "qDown" : 0
+        } ],
+        "qArea" : {
+          "qLeft" : 0,
+          "qTop" : 0,
+          "qWidth" : 2,
+          "qHeight" : 70
+        }
+      } ],
+      "qDimensionInfo" : [ {
+        "qFallbackTitle" : "Product Sub Group",
+        "qApprMaxGlyphCount" : 17,
+        "qCardinal" : 70,
+        "qSortIndicator" : "A",
+        "qGroupFallbackTitles" : [ "Product Sub Group" ],
+        "qGroupPos" : 0,
+        "qStateCounts" : {
+          "qLocked" : 0,
+          "qSelected" : 0,
+          "qOption" : 70,
+          "qDeselected" : 0,
+          "qAlternative" : 0,
+          "qExcluded" : 0,
+          "qSelectedExcluded" : 0
+        },
+        "qTags" : [ "$ascii", "$text" ],
+        "qDimensionType" : "D",
+        "qGrouping" : "N",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qnDec" : 0,
+          "qUseThou" : 0
+        },
+        "qIsAutoFormat" : true,
+        "qGroupFieldDefs" : [ "Product Sub Group Desc" ],
+        "title" : "Product Sub Group",
+        "autoSort" : true,
+        "cId" : "HBLVQ",
+        "othersLabel" : "Others"
+      } ],
+      "qMeasureInfo" : [ {
+        "qFallbackTitle" : "Revenue",
+        "qApprMaxGlyphCount" : 11,
+        "qCardinal" : 71,
+        "qSortIndicator" : "D",
+        "qNumFormat" : {
+          "qType" : "R",
+          "qnDec" : 0,
+          "qUseThou" : 0,
+          "qFmt" : "##############",
+          "qDec" : ".",
+          "qThou" : ","
+        },
+        "qMin" : -6086.750000000002,
+        "qMax" : 6278555.560000003,
+        "qIsAutoFormat" : true,
+        "autoSort" : true,
+        "cId" : "LmPkqP",
+        "numFormatFromTemplate" : true
+      } ],
+      "qStackedDataPages" : [ ],
+      "qMode" : "S",
+      "qSize" : {
+        "qcx" : 2,
+        "qcy" : 0
+      }
+    },
+    "visualizationType" : "barchart",
+    "timestamp" : 1404673579791,
+    "sourceObjectId" : "ejEQJB",
+    "isClone" : false,
+    "snapshotData" : {
+      "object" : {
+        "size" : {
+          "w" : 567,
+          "h" : 602
+        }
+      },
+      "parent" : {
+        "h" : 654,
+        "w" : 1270
+      },
+      "content" : {
+        "chartData" : {
+          "legendScrollOffset" : 0,
+          "scrollOffset" : 0,
+          "discreteSpacing" : 28,
+          "axisInnerOffset" : 0,
+          "hasMiniChart" : true
+        },
+        "size" : {
+          "w" : 567,
+          "h" : 575
+        },
+        "components" : {
+          "miniChart" : {
+            "visible" : true,
+            "dock" : "right",
+            "size" : {
+              "w" : 40,
+              "h" : 495
+            }
+          },
+          "refLineLabels" : {
+            "visible" : false,
+            "dock" : "top",
+            "size" : {
+              "w" : 377,
+              "h" : 0
+            }
+          },
+          "grid" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 377,
+              "h" : 495
+            }
+          },
+          "legend" : {
+            "visible" : true,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 377,
+              "h" : 38
+            }
+          },
+          "scrollArea" : {
+            "visible" : true,
+            "dock" : "right",
+            "size" : {
+              "w" : 40,
+              "h" : 495
+            }
+          },
+          "refLines" : {
+            "visible" : false,
+            "dock" : "center",
+            "size" : {
+              "w" : 377,
+              "h" : 495
+            }
+          },
+          "dataArea" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 377,
+              "h" : 494
+            }
+          },
+          "measureAxis" : {
+            "visible" : true,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 377,
+              "h" : 38
+            }
+          },
+          "dimensionAxis" : {
+            "visible" : true,
+            "dock" : "left",
+            "size" : {
+              "w" : 146,
+              "h" : 495
+            }
+          },
+          "dimensionAxisTitle" : {
+            "visible" : false,
+            "dock" : "left",
+            "size" : {
+              "w" : 0,
+              "h" : 495
+            }
+          }
+        },
+        "v" : 0.96
+      }
+    }
+  },
+  "qStateData" : [ {
+    "qStateName" : "$",
+    "qFieldItems" : [ {
+      "qDef" : {
+        "qName" : "Metric",
+        "qType" : "PRESENT"
+      },
+      "qSelectInfo" : {
+        "qRangeLo" : "NaN",
+        "qRangeHi" : "NaN",
+        "qNumberFormat" : {
+          "qType" : "U",
+          "qnDec" : 10,
+          "qUseThou" : 0
+        },
+        "qRangeInfo" : [ ],
+        "qContinuousRangeInfo" : [ ]
+      },
+      "qValues" : [ {
+        "qText" : "Number of Lost Customers",
+        "qNumber" : "NaN"
+      } ],
+      "qExcludedValues" : [ ]
+    }, {
+      "qDef" : {
+        "qName" : "Region Name",
+        "qType" : "PRESENT"
+      },
+      "qSelectInfo" : {
+        "qRangeLo" : "NaN",
+        "qRangeHi" : "NaN",
+        "qNumberFormat" : {
+          "qType" : "U",
+          "qnDec" : 10,
+          "qUseThou" : 0
+        },
+        "qRangeInfo" : [ ],
+        "qContinuousRangeInfo" : [ ]
+      },
+      "qValues" : [ {
+        "qText" : "Central",
+        "qNumber" : "NaN"
+      } ],
+      "qExcludedValues" : [ ]
+    }, {
+      "qDef" : {
+        "qName" : "Sales Rep Name",
+        "qType" : "PRESENT"
+      },
+      "qSelectInfo" : {
+        "qRangeLo" : "NaN",
+        "qRangeHi" : "NaN",
+        "qNumberFormat" : {
+          "qType" : "U",
+          "qnDec" : 10,
+          "qUseThou" : 0
+        },
+        "qRangeInfo" : [ ],
+        "qContinuousRangeInfo" : [ ]
+      },
+      "qValues" : [ {
+        "qText" : "Judy Thurman",
+        "qNumber" : "NaN"
+      }, {
+        "qText" : "Sharon Carver",
+        "qNumber" : "NaN"
+      }, {
+        "qText" : "Stewart Wind",
+        "qNumber" : "NaN"
+      }, {
+        "qText" : "Marian White",
+        "qNumber" : "NaN"
+      }, {
+        "qText" : "Ken Roberts",
+        "qNumber" : "NaN"
+      }, {
+        "qText" : "Cary Frank",
+        "qNumber" : "NaN"
+      }, {
+        "qText" : "Ronald Milam",
+        "qNumber" : "NaN"
+      }, {
+        "qText" : "TAGnology",
+        "qNumber" : "NaN"
+      }, {
+        "qText" : "John Davis",
+        "qNumber" : "NaN"
+      }, {
+        "qText" : "Brenda Gibson",
+        "qNumber" : "NaN"
+      }, {
+        "qText" : "Molly McKenzie",
+        "qNumber" : "NaN"
+      }, {
+        "qText" : "Craig Amundson",
+        "qNumber" : "NaN"
+      }, {
+        "qText" : "Amanda Honda",
+        "qNumber" : "NaN"
+      }, {
+        "qText" : "Viginia Mountain",
+        "qNumber" : "NaN"
+      }, {
+        "qText" : "Ronald Golinski",
+        "qNumber" : "NaN"
+      }, {
+        "qText" : "Samantha Allen",
+        "qNumber" : "NaN"
+      } ],
+      "qExcludedValues" : [ ]
+    }, {
+      "qDef" : {
+        "qName" : "Sales Rep Performance",
+        "qType" : "PRESENT"
+      },
+      "qSelectInfo" : {
+        "qRangeLo" : "NaN",
+        "qRangeHi" : "NaN",
+        "qNumberFormat" : {
+          "qType" : "U",
+          "qnDec" : 10,
+          "qUseThou" : 0
+        },
+        "qRangeInfo" : [ ],
+        "qContinuousRangeInfo" : [ ]
+      },
+      "qValues" : [ {
+        "qText" : "Low Performer",
+        "qNumber" : "NaN"
+      } ],
+      "qExcludedValues" : [ ]
+    } ]
+  }, {
+    "qStateName" : "Group1",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group2",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group3",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group4",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group 1",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group 2",
+    "qFieldItems" : [ ]
+  } ],
+  "qPatches" : [ ]
+}

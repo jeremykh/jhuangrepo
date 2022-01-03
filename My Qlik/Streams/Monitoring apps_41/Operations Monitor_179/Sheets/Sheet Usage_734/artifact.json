@@ -1,0 +1,133 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "4123ece07353842c0e2db58cb3c0b704264b4ba1",
+      "contentName" : "content",
+      "contentOid" : 18814,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "bounds" : {
+            "height" : 5.555555555555555,
+            "width" : 100,
+            "x" : 0,
+            "y" : 0
+          },
+          "col" : 0,
+          "colspan" : 36,
+          "name" : "KuTfDZ",
+          "row" : 0,
+          "rowspan" : 1,
+          "type" : "filterpane"
+        }, {
+          "bounds" : {
+            "height" : 50,
+            "width" : 75,
+            "x" : 25,
+            "y" : 50
+          },
+          "col" : 9,
+          "colspan" : 27,
+          "name" : "XWALt",
+          "row" : 9,
+          "rowspan" : 9,
+          "type" : "table"
+        }, {
+          "bounds" : {
+            "height" : 44.44444444444444,
+            "width" : 75,
+            "x" : 25,
+            "y" : 5.555555555555555
+          },
+          "col" : 9,
+          "colspan" : 27,
+          "name" : "tDqdKeP",
+          "row" : 1,
+          "rowspan" : 8,
+          "type" : "table"
+        }, {
+          "bounds" : {
+            "height" : 94.44444444444444,
+            "width" : 25,
+            "x" : 0,
+            "y" : 5.555555555555555
+          },
+          "col" : 0,
+          "colspan" : 9,
+          "name" : "UCgsfS",
+          "row" : 1,
+          "rowspan" : 17,
+          "type" : "barchart"
+        } ],
+        "columns" : 36,
+        "gridResolution" : "large",
+        "qChildListDef" : {
+          "qData" : {
+            "title" : "/title"
+          }
+        },
+        "qInfo" : {
+          "qId" : "b6965b22-2ca4-45fa-b8c4-dfbda8485ff4",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "",
+          "title" : "Sheet Usage"
+        },
+        "rank" : 0.39404296875,
+        "rows" : 18,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/72d45588-644b-4905-a064-a3923f3f6e08/Icon_Data_Storytelling_grey.png"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+        "name" : "sa_repository",
+        "userDirectory" : "INTERNAL",
+        "userId" : "sa_repository"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "b6965b22-2ca4-45fa-b8c4-dfbda8485ff4,Sheet;72d45588-644b-4905-a064-a3923f3f6e08,App;",
+  "key" : {
+    "id" : 734
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/Operations Monitor/Sheets/Sheet Usage",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Sheet Usage",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 235
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 179, 235, 734 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

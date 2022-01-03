@@ -1,0 +1,44 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "8c1d0fc8d64eb146eeeec3e52b5f9c08f11764e3",
+      "contentName" : "content",
+      "contentOid" : 18940,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "path" : "thumb-executive_dashboard.png"
+  },
+  "hidden" : false,
+  "identity" : "thumb-executive_dashboard.png,AttachedFile;5b26c4a1-9028-49b8-87eb-703aaaf67569,App;",
+  "key" : {
+    "id" : 1005
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Executive Dashboard/AttachedFiles/thumb-executive_dashboard.png",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikAttachedFile/QlikAttachedFile",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "thumb-executive_dashboard.png",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 241
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 180, 241, 1005 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "AttachedFile",
+  "shouldVersion" : true,
+  "subtype" : "QlikAttachedFile",
+  "type" : "QlikArtifact"
+}

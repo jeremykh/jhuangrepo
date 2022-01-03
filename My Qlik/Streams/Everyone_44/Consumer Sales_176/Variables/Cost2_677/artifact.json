@@ -1,0 +1,51 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qDefinition" : "0.00",
+      "qInfo" : {
+        "qId" : "43aa6ee1-ab8c-4220-85fa-b38a728613d4",
+        "qType" : "variable"
+      },
+      "qMetaDef" : { },
+      "qName" : "Cost2",
+      "qNumberPresentation" : {
+        "qDec" : ".",
+        "qFmt" : "#,##0.00",
+        "qThou" : ",",
+        "qType" : "F",
+        "qUseThou" : 0,
+        "qnDec" : 2
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "43aa6ee1-ab8c-4220-85fa-b38a728613d4,Variable;b0fdc823-746a-4443-aca0-30b592a00bde,App;",
+  "key" : {
+    "id" : 677
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Consumer Sales/Variables/Cost2",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikVariable/QlikVariable",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Cost2",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 208
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 176, 208, 677 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Variable",
+  "shouldVersion" : true,
+  "subtype" : "QlikVariable",
+  "type" : "QlikArtifact"
+}

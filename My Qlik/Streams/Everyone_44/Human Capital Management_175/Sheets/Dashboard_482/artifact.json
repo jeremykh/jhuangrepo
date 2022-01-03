@@ -1,0 +1,152 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "107f3868838f5ecc67bbb0280399689a218454a9",
+      "contentName" : "content",
+      "contentOid" : 18560,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "col" : 1,
+          "colspan" : 10,
+          "name" : "UCEE",
+          "row" : 7,
+          "rowspan" : 4,
+          "type" : "linechart"
+        }, {
+          "col" : 13,
+          "colspan" : 10,
+          "name" : "RtrWBU",
+          "row" : 7,
+          "rowspan" : 4,
+          "type" : "linechart"
+        }, {
+          "col" : 1,
+          "colspan" : 10,
+          "name" : "ZxvqL",
+          "row" : 2,
+          "rowspan" : 5,
+          "type" : "barchart"
+        }, {
+          "col" : 13,
+          "colspan" : 6,
+          "name" : "jwBw",
+          "row" : 2,
+          "rowspan" : 5,
+          "type" : "map"
+        }, {
+          "col" : 19,
+          "colspan" : 4,
+          "name" : "pgNPDUd",
+          "row" : 2,
+          "rowspan" : 5,
+          "type" : "barchart"
+        }, {
+          "col" : 0,
+          "colspan" : 3,
+          "name" : "JbeTAc",
+          "row" : 0,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "col" : 4,
+          "colspan" : 4,
+          "name" : "xjjWSm",
+          "row" : 0,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "col" : 8,
+          "colspan" : 4,
+          "name" : "jwfFPyj",
+          "row" : 0,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "col" : 12,
+          "colspan" : 4,
+          "name" : "LcFPwq",
+          "row" : 0,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "col" : 16,
+          "colspan" : 4,
+          "name" : "pTmtcxc",
+          "row" : 0,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "col" : 20,
+          "colspan" : 4,
+          "name" : "YWujXMj",
+          "row" : 0,
+          "rowspan" : 2,
+          "type" : "kpi"
+        } ],
+        "columns" : 24,
+        "qInfo" : {
+          "qId" : "GZGbMWW",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "Headcount information and main KPIs",
+          "title" : "Dashboard"
+        },
+        "rank" : 0,
+        "rows" : 12,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/e325a2bf-ba90-4eee-b641-71f0a1975f9b/HumanCap-Dash.png"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "GZGbMWW,Sheet;e325a2bf-ba90-4eee-b641-71f0a1975f9b,App;",
+  "key" : {
+    "id" : 482
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Human Capital Management/Sheets/Dashboard",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Dashboard",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 193
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 175, 193, 482 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

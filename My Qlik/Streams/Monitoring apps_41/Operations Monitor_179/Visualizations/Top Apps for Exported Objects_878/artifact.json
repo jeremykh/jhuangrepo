@@ -1,0 +1,233 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qChildren" : [ ],
+      "qProperty" : {
+        "barGrouping" : {
+          "grouping" : "stacked",
+          "showAs" : "percentage"
+        },
+        "color" : {
+          "auto" : true,
+          "autoMinMax" : true,
+          "colorExpression" : "taskReloadStatusColor",
+          "dimensionId" : "",
+          "dimensionScheme" : "12",
+          "expressionIsColor" : false,
+          "expressionLabel" : "",
+          "measureMax" : 10,
+          "measureMin" : 0,
+          "measureScheme" : "sg",
+          "mode" : "byExpression",
+          "persistent" : true,
+          "reverseScheme" : false,
+          "singleColor" : 3
+        },
+        "cutAxis" : true,
+        "dataPoint" : {
+          "showLabels" : true
+        },
+        "dimensionAxis" : {
+          "dock" : "near",
+          "label" : "tilted",
+          "show" : "labels"
+        },
+        "footnote" : "",
+        "gridLine" : {
+          "auto" : true,
+          "spacing" : 1
+        },
+        "legend" : {
+          "dock" : "top",
+          "show" : false,
+          "showTitle" : false
+        },
+        "masterVersion" : 0.96,
+        "measureAxis" : {
+          "autoMinMax" : false,
+          "dock" : "near",
+          "label" : "horizontal",
+          "max" : 10,
+          "min" : 0,
+          "minMax" : "min",
+          "show" : "all",
+          "spacing" : 1
+        },
+        "orientation" : "vertical",
+        "qHyperCubeDef" : {
+          "customErrorMessage" : {
+            "calcCond" : "No activity is associated with your current selections."
+          },
+          "qAlwaysFullyExpanded" : true,
+          "qCalcCond" : {
+            "qv" : "sum([Export Count])>0"
+          },
+          "qCalcCondition" : {
+            "qCond" : { },
+            "qMsg" : { }
+          },
+          "qColumnOrder" : [ ],
+          "qDimensions" : [ {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "GcxUGL",
+              "othersLabel" : "Others",
+              "qActiveField" : 0,
+              "qFieldDefs" : [ ],
+              "qFieldLabels" : [ ],
+              "qGrouping" : "N",
+              "qNumberPresentations" : [ ],
+              "qSortCriterias" : [ {
+                "qExpression" : { },
+                "qSortByLoadOrder" : 1
+              } ]
+            },
+            "qLibraryId" : "08c0890d-6b3b-4b8f-afec-6a9269301751",
+            "qNullSuppression" : true,
+            "qOtherLabel" : { },
+            "qOtherTotalSpec" : {
+              "qApplyEvenWhenPossiblyWrongResult" : true,
+              "qForceBadValueKeeping" : true,
+              "qOtherCounted" : {
+                "qv" : "10"
+              },
+              "qOtherLimit" : {
+                "qv" : "0"
+              },
+              "qOtherLimitMode" : "OTHER_GE_LIMIT",
+              "qOtherMode" : "OTHER_OFF",
+              "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+              "qReferencedExpression" : { },
+              "qTotalMode" : "TOTAL_OFF"
+            },
+            "qTotalLabel" : { }
+          } ],
+          "qExpansionState" : [ ],
+          "qInitialDataFetch" : [ {
+            "qHeight" : 500,
+            "qLeft" : 0,
+            "qTop" : 0,
+            "qWidth" : 17
+          } ],
+          "qInterColumnSortOrder" : [ 1, 0 ],
+          "qLayoutExclude" : { },
+          "qMaxStackedCells" : 5000,
+          "qMeasures" : [ {
+            "qAttributeDimensions" : [ ],
+            "qAttributeExpressions" : [ {
+              "id" : "colorByExpression",
+              "qExpression" : "taskReloadStatusColor"
+            } ],
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qDef" : {
+              "autoSort" : true,
+              "cId" : "CPHPSC",
+              "numFormatFromTemplate" : true,
+              "qAccumulate" : 0,
+              "qActiveExpression" : 0,
+              "qExpressions" : [ ],
+              "qGrouping" : "N",
+              "qNumFormat" : {
+                "qDec" : ".",
+                "qThou" : ",",
+                "qType" : "U",
+                "qUseThou" : 0,
+                "qnDec" : 2
+              },
+              "qTags" : [ ]
+            },
+            "qLibraryId" : "HSsUR",
+            "qMiniChartDef" : {
+              "qAttributeExpressions" : [ ],
+              "qMaxNumberPoints" : -1,
+              "qOtherTotalSpec" : {
+                "qApplyEvenWhenPossiblyWrongResult" : true,
+                "qForceBadValueKeeping" : true,
+                "qOtherCounted" : { },
+                "qOtherLimit" : { },
+                "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                "qOtherMode" : "OTHER_OFF",
+                "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                "qReferencedExpression" : { },
+                "qTotalMode" : "TOTAL_OFF"
+              },
+              "qSortBy" : {
+                "qExpression" : { }
+              }
+            },
+            "qSortBy" : {
+              "qExpression" : { },
+              "qSortByLoadOrder" : 1,
+              "qSortByNumeric" : -1
+            },
+            "qTrendLines" : [ ]
+          } ],
+          "qMode" : "S",
+          "qNoOfLeftDims" : -1,
+          "qPseudoDimPos" : 10000,
+          "qReductionMode" : "N",
+          "qSuppressMissing" : true,
+          "qSuppressZero" : true,
+          "qTitle" : { }
+        },
+        "qInfo" : {
+          "qId" : "DEqw",
+          "qType" : "masterobject"
+        },
+        "qMetaDef" : {
+          "description" : "Ranking of Apps based on the count of exports made. In other words, which app has had the most app object exports.",
+          "tags" : [ "printing" ],
+          "title" : "Top Apps for Exported Objects"
+        },
+        "refLine" : {
+          "refLines" : [ ]
+        },
+        "showTitles" : true,
+        "subtitle" : "",
+        "title" : "Top Apps for Exported Objects",
+        "visualization" : "barchart"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "DEqw,Visualization;72d45588-644b-4905-a064-a3923f3f6e08,App;",
+  "key" : {
+    "id" : 878
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/Operations Monitor/Visualizations/Top Apps for Exported Objects",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikVisualization/QlikVisualization",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Top Apps for Exported Objects",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 239
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 179, 239, 878 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Visualization",
+  "shouldVersion" : true,
+  "subtype" : "QlikVisualization",
+  "type" : "QlikArtifact"
+}

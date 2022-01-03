@@ -1,0 +1,1564 @@
+{
+  "qProp" : {
+    "qInfo" : {
+      "qId" : "PrwBBRp",
+      "qType" : "snapshot"
+    },
+    "qMetaDef" : {
+      "title" : "Annual Salaries Earned",
+      "description" : "",
+      "annotation" : "Employee Salary Treemap"
+    },
+    "sheetId" : "qRbPzYn",
+    "creationDate" : "2016-02-08T13:11:50.885Z",
+    "qSelectionInfo" : { },
+    "qHyperCube" : {
+      "qSize" : {
+        "qcx" : 1,
+        "qcy" : 47
+      },
+      "qDimensionInfo" : [ {
+        "qFallbackTitle" : "JobTitle",
+        "qApprMaxGlyphCount" : 20,
+        "qCardinal" : 9,
+        "qSortIndicator" : "A",
+        "qGroupFallbackTitles" : [ "JobTitle" ],
+        "qGroupPos" : 0,
+        "qStateCounts" : {
+          "qLocked" : 0,
+          "qSelected" : 0,
+          "qOption" : 9,
+          "qDeselected" : 0,
+          "qAlternative" : 0,
+          "qExcluded" : 0,
+          "qSelectedExcluded" : 0,
+          "qLockedExcluded" : 0
+        },
+        "qTags" : [ "$ascii", "$text" ],
+        "qDimensionType" : "D",
+        "qGrouping" : "N",
+        "qNumFormat" : {
+          "qType" : "R",
+          "qnDec" : 14,
+          "qUseThou" : 1,
+          "qFmt" : "##############",
+          "qDec" : "."
+        },
+        "qIsAutoFormat" : true,
+        "qGroupFieldDefs" : [ "JobTitle" ],
+        "qMin" : 0,
+        "qMax" : 0,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qCardinalities" : {
+          "qCardinal" : 0,
+          "qHypercubeCardinal" : 0,
+          "qAllValuesCardinal" : -1
+        },
+        "autoSort" : true,
+        "cId" : "fVehsky",
+        "othersLabel" : "Others"
+      }, {
+        "qFallbackTitle" : "Supervisor",
+        "qApprMaxGlyphCount" : 22,
+        "qCardinal" : 9,
+        "qSortIndicator" : "A",
+        "qGroupFallbackTitles" : [ "Supervisor" ],
+        "qGroupPos" : 0,
+        "qStateCounts" : {
+          "qLocked" : 0,
+          "qSelected" : 0,
+          "qOption" : 9,
+          "qDeselected" : 0,
+          "qAlternative" : 0,
+          "qExcluded" : 0,
+          "qSelectedExcluded" : 0,
+          "qLockedExcluded" : 0
+        },
+        "qTags" : [ "$ascii", "$text" ],
+        "qDimensionType" : "D",
+        "qGrouping" : "N",
+        "qNumFormat" : {
+          "qType" : "R",
+          "qnDec" : 14,
+          "qUseThou" : 1,
+          "qFmt" : "##############",
+          "qDec" : "."
+        },
+        "qIsAutoFormat" : true,
+        "qGroupFieldDefs" : [ "Supervisor" ],
+        "qMin" : 0,
+        "qMax" : 0,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qCardinalities" : {
+          "qCardinal" : 0,
+          "qHypercubeCardinal" : 0,
+          "qAllValuesCardinal" : -1
+        },
+        "autoSort" : true,
+        "cId" : "wzmHz",
+        "othersLabel" : "Others"
+      }, {
+        "qFallbackTitle" : "Employee",
+        "qApprMaxGlyphCount" : 22,
+        "qCardinal" : 47,
+        "qSortIndicator" : "A",
+        "qGroupFallbackTitles" : [ "Employee" ],
+        "qGroupPos" : 0,
+        "qStateCounts" : {
+          "qLocked" : 0,
+          "qSelected" : 0,
+          "qOption" : 47,
+          "qDeselected" : 0,
+          "qAlternative" : 0,
+          "qExcluded" : 0,
+          "qSelectedExcluded" : 0,
+          "qLockedExcluded" : 0
+        },
+        "qTags" : [ "$text" ],
+        "qDimensionType" : "D",
+        "qGrouping" : "N",
+        "qNumFormat" : {
+          "qType" : "R",
+          "qnDec" : 14,
+          "qUseThou" : 1,
+          "qFmt" : "##############",
+          "qDec" : "."
+        },
+        "qIsAutoFormat" : true,
+        "qGroupFieldDefs" : [ "=EmployeeName" ],
+        "qMin" : 0,
+        "qMax" : 0,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qCardinalities" : {
+          "qCardinal" : 0,
+          "qHypercubeCardinal" : 0,
+          "qAllValuesCardinal" : -1
+        },
+        "title" : "Employee",
+        "autoSort" : true,
+        "cId" : "Gemw",
+        "othersLabel" : "Others"
+      } ],
+      "qMeasureInfo" : [ {
+        "qFallbackTitle" : "Salary",
+        "qApprMaxGlyphCount" : 6,
+        "qCardinal" : 0,
+        "qSortIndicator" : "D",
+        "qNumFormat" : {
+          "qType" : "R",
+          "qnDec" : 14,
+          "qUseThou" : 1,
+          "qFmt" : "##############",
+          "qDec" : "."
+        },
+        "qMin" : 25000,
+        "qMax" : 193000,
+        "qIsAutoFormat" : true,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qTrendLines" : [ ],
+        "autoSort" : true,
+        "cId" : "JKfAZwQ",
+        "numFormatFromTemplate" : true
+      } ],
+      "qEffectiveInterColumnSortOrder" : [ 0, 1, 2 ],
+      "qGrandTotalRow" : [ ],
+      "qDataPages" : [ ],
+      "qPivotDataPages" : [ ],
+      "qStackedDataPages" : [ {
+        "qData" : [ {
+          "qElemNo" : 0,
+          "qValue" : 0,
+          "qType" : "R",
+          "qMaxPos" : 2962000,
+          "qMinNeg" : 0,
+          "qUp" : 0,
+          "qDown" : 0,
+          "qRow" : 0,
+          "qSubNodes" : [ {
+            "qText" : "Account Manager",
+            "qElemNo" : 7,
+            "qValue" : "NaN",
+            "qType" : "N",
+            "qMaxPos" : 604100,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 0,
+            "qSubNodes" : [ {
+              "qText" : "Kaitlin K. Chavez",
+              "qElemNo" : 7,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 298500,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 0,
+              "qSubNodes" : [ {
+                "qText" : "Östen Ärlig",
+                "qElemNo" : 32,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 51000,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 0,
+                "qSubNodes" : [ {
+                  "qText" : "51000",
+                  "qElemNo" : 0,
+                  "qValue" : 51000,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 0,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "Mike Ashkenaz",
+                "qElemNo" : 42,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 49500,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 1,
+                "qSubNodes" : [ {
+                  "qText" : "49500",
+                  "qElemNo" : 0,
+                  "qValue" : 49500,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 1,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "Richard Ranieri",
+                "qElemNo" : 43,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 49500,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 2,
+                "qSubNodes" : [ {
+                  "qText" : "49500",
+                  "qElemNo" : 0,
+                  "qValue" : 49500,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 2,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "Sabrina Richards",
+                "qElemNo" : 44,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 49500,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 3,
+                "qSubNodes" : [ {
+                  "qText" : "49500",
+                  "qElemNo" : 0,
+                  "qValue" : 49500,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 3,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "Sehoon Daw",
+                "qElemNo" : 45,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 49500,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 4,
+                "qSubNodes" : [ {
+                  "qText" : "49500",
+                  "qElemNo" : 0,
+                  "qValue" : 49500,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 4,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "Stefan Lind",
+                "qElemNo" : 46,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 49500,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 5,
+                "qSubNodes" : [ {
+                  "qText" : "49500",
+                  "qElemNo" : 0,
+                  "qValue" : 49500,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 5,
+                  "qSubNodes" : [ ]
+                } ]
+              } ]
+            }, {
+              "qText" : "Kamal E. Kirk",
+              "qElemNo" : 8,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 305600,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 6,
+              "qSubNodes" : [ {
+                "qText" : "Bob Park",
+                "qElemNo" : 33,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 50000,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 6,
+                "qSubNodes" : [ {
+                  "qText" : "50000",
+                  "qElemNo" : 0,
+                  "qValue" : 50000,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 6,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "Clark Kentman",
+                "qElemNo" : 34,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 55000,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 7,
+                "qSubNodes" : [ {
+                  "qText" : "55000",
+                  "qElemNo" : 0,
+                  "qValue" : 55000,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 7,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "Janice Cheng",
+                "qElemNo" : 35,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 52000,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 8,
+                "qSubNodes" : [ {
+                  "qText" : "52000",
+                  "qElemNo" : 0,
+                  "qValue" : 52000,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 8,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "Kaya Alpan",
+                "qElemNo" : 36,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 51000,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 9,
+                "qSubNodes" : [ {
+                  "qText" : "51000",
+                  "qElemNo" : 0,
+                  "qValue" : 51000,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 9,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "Michelle Tyson",
+                "qElemNo" : 37,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 50000,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 10,
+                "qSubNodes" : [ {
+                  "qText" : "50000",
+                  "qElemNo" : 0,
+                  "qValue" : 50000,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 10,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "Ricardo Gucci",
+                "qElemNo" : 38,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 47600,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 11,
+                "qSubNodes" : [ {
+                  "qText" : "47600",
+                  "qElemNo" : 0,
+                  "qValue" : 47600,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 11,
+                  "qSubNodes" : [ ]
+                } ]
+              } ]
+            } ]
+          }, {
+            "qText" : "Network Manager",
+            "qElemNo" : 6,
+            "qValue" : "NaN",
+            "qType" : "N",
+            "qMaxPos" : 92000,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 12,
+            "qSubNodes" : [ {
+              "qText" : "Dorian X. Banks",
+              "qElemNo" : 2,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 92000,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 1,
+              "qRow" : 12,
+              "qSubNodes" : [ {
+                "qText" : "Jerry Tessel",
+                "qElemNo" : 27,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 45000,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 12,
+                "qSubNodes" : [ {
+                  "qText" : "45000",
+                  "qElemNo" : 0,
+                  "qValue" : 45000,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 12,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "John Lemon",
+                "qElemNo" : 28,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 47000,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 13,
+                "qSubNodes" : [ {
+                  "qText" : "47000",
+                  "qElemNo" : 0,
+                  "qValue" : 47000,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 13,
+                  "qSubNodes" : [ ]
+                } ]
+              } ]
+            } ]
+          }, {
+            "qText" : "Operator/Clerk",
+            "qElemNo" : 8,
+            "qValue" : "NaN",
+            "qType" : "N",
+            "qMaxPos" : 78100,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 14,
+            "qSubNodes" : [ {
+              "qText" : "Dorian X. Banks",
+              "qElemNo" : 2,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 27500,
+              "qMinNeg" : 0,
+              "qUp" : 2,
+              "qDown" : 0,
+              "qRow" : 14,
+              "qSubNodes" : [ {
+                "qText" : "Steve Cioazzi",
+                "qElemNo" : 39,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 27500,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 14,
+                "qSubNodes" : [ {
+                  "qText" : "27500",
+                  "qElemNo" : 0,
+                  "qValue" : 27500,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 14,
+                  "qSubNodes" : [ ]
+                } ]
+              } ]
+            }, {
+              "qText" : "Fletcher G. Mason",
+              "qElemNo" : 0,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 25000,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 15,
+              "qSubNodes" : [ {
+                "qText" : "Lucky Luke",
+                "qElemNo" : 41,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 25000,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 15,
+                "qSubNodes" : [ {
+                  "qText" : "25000",
+                  "qElemNo" : 0,
+                  "qValue" : 25000,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 15,
+                  "qSubNodes" : [ ]
+                } ]
+              } ]
+            }, {
+              "qText" : "Yvette E. Irwin",
+              "qElemNo" : 1,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 25600,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 16,
+              "qSubNodes" : [ {
+                "qText" : "Kenneth Finley",
+                "qElemNo" : 40,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 25600,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 16,
+                "qSubNodes" : [ {
+                  "qText" : "25600",
+                  "qElemNo" : 0,
+                  "qValue" : 25600,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 16,
+                  "qSubNodes" : [ ]
+                } ]
+              } ]
+            } ]
+          }, {
+            "qText" : "Product Manager",
+            "qElemNo" : 3,
+            "qValue" : "NaN",
+            "qType" : "N",
+            "qMaxPos" : 280500,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 17,
+            "qSubNodes" : [ {
+              "qText" : "Xander Z. Miller",
+              "qElemNo" : 3,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 280500,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 17,
+              "qSubNodes" : [ {
+                "qText" : "David Lesterman",
+                "qElemNo" : 9,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 75500,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 17,
+                "qSubNodes" : [ {
+                  "qText" : "75500",
+                  "qElemNo" : 0,
+                  "qValue" : 75500,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 17,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "John Cleaves",
+                "qElemNo" : 10,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 65000,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 18,
+                "qSubNodes" : [ {
+                  "qText" : "65000",
+                  "qElemNo" : 0,
+                  "qValue" : 65000,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 18,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "Miro Takako",
+                "qElemNo" : 11,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 72000,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 19,
+                "qSubNodes" : [ {
+                  "qText" : "72000",
+                  "qElemNo" : 0,
+                  "qValue" : 72000,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 19,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "Binh Protzmann",
+                "qElemNo" : 12,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 68000,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 20,
+                "qSubNodes" : [ {
+                  "qText" : "68000",
+                  "qElemNo" : 0,
+                  "qValue" : 68000,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 20,
+                  "qSubNodes" : [ ]
+                } ]
+              } ]
+            } ]
+          }, {
+            "qText" : "Sales Coordinator",
+            "qElemNo" : 2,
+            "qValue" : "NaN",
+            "qType" : "N",
+            "qMaxPos" : 165000,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 21,
+            "qSubNodes" : [ {
+              "qText" : "Dorian X. Banks",
+              "qElemNo" : 2,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 165000,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 21,
+              "qSubNodes" : [ {
+                "qText" : "Leif Shine",
+                "qElemNo" : 7,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 165000,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 21,
+                "qSubNodes" : [ {
+                  "qText" : "165000",
+                  "qElemNo" : 0,
+                  "qValue" : 165000,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 21,
+                  "qSubNodes" : [ ]
+                } ]
+              } ]
+            } ]
+          }, {
+            "qText" : "Sales Manager",
+            "qElemNo" : 1,
+            "qValue" : "NaN",
+            "qType" : "N",
+            "qMaxPos" : 83000,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 22,
+            "qSubNodes" : [ {
+              "qText" : "Yvette E. Irwin",
+              "qElemNo" : 1,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 83000,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 22,
+              "qSubNodes" : [ {
+                "qText" : "Joan Callins",
+                "qElemNo" : 3,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 83000,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 22,
+                "qSubNodes" : [ {
+                  "qText" : "83000",
+                  "qElemNo" : 0,
+                  "qValue" : 83000,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 22,
+                  "qSubNodes" : [ ]
+                } ]
+              } ]
+            } ]
+          }, {
+            "qText" : "Sales Representative",
+            "qElemNo" : 0,
+            "qValue" : "NaN",
+            "qType" : "N",
+            "qMaxPos" : 975500,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 23,
+            "qSubNodes" : [ {
+              "qText" : "Fletcher G. Mason",
+              "qElemNo" : 0,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 975500,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 23,
+              "qSubNodes" : [ {
+                "qText" : "Rock Rollman",
+                "qElemNo" : 0,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 135000,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 23,
+                "qSubNodes" : [ {
+                  "qText" : "135000",
+                  "qElemNo" : 0,
+                  "qValue" : 135000,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 23,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "Eli Preston",
+                "qElemNo" : 1,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 97000,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 24,
+                "qSubNodes" : [ {
+                  "qText" : "97000",
+                  "qElemNo" : 0,
+                  "qValue" : 97000,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 24,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "Rob Carsson",
+                "qElemNo" : 2,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 193000,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 25,
+                "qSubNodes" : [ {
+                  "qText" : "193000",
+                  "qElemNo" : 0,
+                  "qValue" : 193000,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 25,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "Ingrid Hendrix",
+                "qElemNo" : 4,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 111300,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 26,
+                "qSubNodes" : [ {
+                  "qText" : "111300",
+                  "qElemNo" : 0,
+                  "qValue" : 111300,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 26,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "Lennart Skoglund",
+                "qElemNo" : 5,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 121200,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 27,
+                "qSubNodes" : [ {
+                  "qText" : "121200",
+                  "qElemNo" : 0,
+                  "qValue" : 121200,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 27,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "Tom Lindwall",
+                "qElemNo" : 6,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 181000,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 28,
+                "qSubNodes" : [ {
+                  "qText" : "181000",
+                  "qElemNo" : 0,
+                  "qValue" : 181000,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 28,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "Helen Brolin",
+                "qElemNo" : 8,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 137000,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 29,
+                "qSubNodes" : [ {
+                  "qText" : "137000",
+                  "qElemNo" : 0,
+                  "qValue" : 137000,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 29,
+                  "qSubNodes" : [ ]
+                } ]
+              } ]
+            } ]
+          }, {
+            "qText" : "Storeman",
+            "qElemNo" : 5,
+            "qValue" : "NaN",
+            "qType" : "N",
+            "qMaxPos" : 378300,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 30,
+            "qSubNodes" : [ {
+              "qText" : "Buckminster A. Fleming",
+              "qElemNo" : 5,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 270300,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 30,
+              "qSubNodes" : [ {
+                "qText" : "Sven Svensson",
+                "qElemNo" : 19,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 31000,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 30,
+                "qSubNodes" : [ {
+                  "qText" : "31000",
+                  "qElemNo" : 0,
+                  "qValue" : 31000,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 30,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "Ira Baumel",
+                "qElemNo" : 20,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 30200,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 31,
+                "qSubNodes" : [ {
+                  "qText" : "30200",
+                  "qElemNo" : 0,
+                  "qValue" : 30200,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 31,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "Keith Helmkey",
+                "qElemNo" : 21,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 30200,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 32,
+                "qSubNodes" : [ {
+                  "qText" : "30200",
+                  "qElemNo" : 0,
+                  "qValue" : 30200,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 32,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "Rolf Wesenlund",
+                "qElemNo" : 22,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 35300,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 33,
+                "qSubNodes" : [ {
+                  "qText" : "35300",
+                  "qElemNo" : 0,
+                  "qValue" : 35300,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 33,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "Ann Lindquist",
+                "qElemNo" : 23,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 37100,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 34,
+                "qSubNodes" : [ {
+                  "qText" : "37100",
+                  "qElemNo" : 0,
+                  "qValue" : 37100,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 34,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "Bill Yang",
+                "qElemNo" : 24,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 32500,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 35,
+                "qSubNodes" : [ {
+                  "qText" : "32500",
+                  "qElemNo" : 0,
+                  "qValue" : 32500,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 35,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "Charles Ingvar Jönsson",
+                "qElemNo" : 25,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 38000,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 36,
+                "qSubNodes" : [ {
+                  "qText" : "38000",
+                  "qElemNo" : 0,
+                  "qValue" : 38000,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 36,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "Jacques Fin",
+                "qElemNo" : 26,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 36000,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 37,
+                "qSubNodes" : [ {
+                  "qText" : "36000",
+                  "qElemNo" : 0,
+                  "qValue" : 36000,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 37,
+                  "qSubNodes" : [ ]
+                } ]
+              } ]
+            }, {
+              "qText" : "Lacey E. Harmon",
+              "qElemNo" : 6,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 108000,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 38,
+              "qSubNodes" : [ {
+                "qText" : "Marcus Salvatori",
+                "qElemNo" : 29,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 34500,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 38,
+                "qSubNodes" : [ {
+                  "qText" : "34500",
+                  "qElemNo" : 0,
+                  "qValue" : 34500,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 38,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "Olivia Simenon",
+                "qElemNo" : 30,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 39700,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 39,
+                "qSubNodes" : [ {
+                  "qText" : "39700",
+                  "qElemNo" : 0,
+                  "qValue" : 39700,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 39,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "Sunil Gupta",
+                "qElemNo" : 31,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 33800,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 40,
+                "qSubNodes" : [ {
+                  "qText" : "33800",
+                  "qElemNo" : 0,
+                  "qValue" : 33800,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 40,
+                  "qSubNodes" : [ ]
+                } ]
+              } ]
+            } ]
+          }, {
+            "qText" : "Systems Manager",
+            "qElemNo" : 4,
+            "qValue" : "NaN",
+            "qType" : "N",
+            "qMaxPos" : 305500,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 41,
+            "qSubNodes" : [ {
+              "qText" : "Orli O. Calhoun",
+              "qElemNo" : 4,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 305500,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 41,
+              "qSubNodes" : [ {
+                "qText" : "Cezar Sandu",
+                "qElemNo" : 13,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 51000,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 41,
+                "qSubNodes" : [ {
+                  "qText" : "51000",
+                  "qElemNo" : 0,
+                  "qValue" : 51000,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 41,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "Cindy Crawford",
+                "qElemNo" : 14,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 50400,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 42,
+                "qSubNodes" : [ {
+                  "qText" : "50400",
+                  "qElemNo" : 0,
+                  "qValue" : 50400,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 42,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "James Bond",
+                "qElemNo" : 15,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 50000,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 43,
+                "qSubNodes" : [ {
+                  "qText" : "50000",
+                  "qElemNo" : 0,
+                  "qValue" : 50000,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 43,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "John Doe",
+                "qElemNo" : 16,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 51600,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 44,
+                "qSubNodes" : [ {
+                  "qText" : "51600",
+                  "qElemNo" : 0,
+                  "qValue" : 51600,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 44,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "Mario Kaddafi",
+                "qElemNo" : 17,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 51300,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 45,
+                "qSubNodes" : [ {
+                  "qText" : "51300",
+                  "qElemNo" : 0,
+                  "qValue" : 51300,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 45,
+                  "qSubNodes" : [ ]
+                } ]
+              }, {
+                "qText" : "Paul Dupont",
+                "qElemNo" : 18,
+                "qValue" : "NaN",
+                "qType" : "N",
+                "qMaxPos" : 51200,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 46,
+                "qSubNodes" : [ {
+                  "qText" : "51200",
+                  "qElemNo" : 0,
+                  "qValue" : 51200,
+                  "qType" : "V",
+                  "qMaxPos" : 0,
+                  "qMinNeg" : 0,
+                  "qUp" : 0,
+                  "qDown" : 0,
+                  "qRow" : 46,
+                  "qSubNodes" : [ ]
+                } ]
+              } ]
+            } ]
+          } ]
+        } ],
+        "qArea" : {
+          "qLeft" : 0,
+          "qTop" : 0,
+          "qWidth" : 3,
+          "qHeight" : 9
+        }
+      } ],
+      "qMode" : "K",
+      "qNoOfLeftDims" : -1,
+      "qTreeNodesOnDim" : [ ],
+      "qColumnOrder" : [ ],
+      "customErrorMessage" : {
+        "calcCond" : ""
+      }
+    },
+    "showTitles" : true,
+    "title" : "Annual Salaries Earned",
+    "subtitle" : "",
+    "footnote" : "",
+    "labels" : {
+      "auto" : true,
+      "headers" : true,
+      "overlay" : true,
+      "leaves" : true,
+      "values" : false
+    },
+    "color" : {
+      "auto" : true,
+      "mode" : "primary",
+      "singleColor" : 3,
+      "persistent" : true,
+      "expressionIsColor" : true,
+      "expressionLabel" : "",
+      "measureScheme" : "sg",
+      "reverseScheme" : false,
+      "dimensionScheme" : "12",
+      "autoMinMax" : true,
+      "measureMin" : 0,
+      "measureMax" : 10,
+      "dimensionId" : ""
+    },
+    "legend" : {
+      "show" : false,
+      "dock" : "auto",
+      "showTitle" : true
+    },
+    "visualization" : "treemap",
+    "snapshotData" : {
+      "object" : {
+        "size" : {
+          "w" : 419,
+          "h" : 465
+        }
+      },
+      "content" : {
+        "chartData" : {
+          "legendScrollOffset" : 0
+        },
+        "size" : {
+          "w" : 419,
+          "h" : 438
+        },
+        "components" : {
+          "dataArea" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 415,
+              "h" : 434
+            }
+          },
+          "xAxisTitle" : {
+            "visible" : false,
+            "dock" : "top",
+            "size" : {
+              "w" : 415,
+              "h" : 0
+            }
+          },
+          "colorLegend" : {
+            "visible" : false,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 415,
+              "h" : 0
+            }
+          }
+        },
+        "v" : 0.96
+      },
+      "parent" : {
+        "h" : 516,
+        "w" : 947
+      }
+    },
+    "visualizationType" : "treemap",
+    "sourceObjectId" : "saMAJp",
+    "timestamp" : 1454937110879,
+    "isClone" : false
+  },
+  "qStateData" : [ {
+    "qStateName" : "$",
+    "qFieldItems" : [ ]
+  } ],
+  "qPatches" : [ ]
+}

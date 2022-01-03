@@ -1,0 +1,103 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "cecd4ff302d33b9e628dfe7e51b9858169f1c80f",
+      "contentName" : "content",
+      "contentOid" : 18935,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "col" : 0,
+          "colspan" : 12,
+          "name" : "fzrxtjq",
+          "row" : 1,
+          "rowspan" : 6,
+          "type" : "scatterplot"
+        }, {
+          "col" : 0,
+          "colspan" : 12,
+          "name" : "nvqpV",
+          "row" : 7,
+          "rowspan" : 5,
+          "type" : "linechart"
+        }, {
+          "col" : 13,
+          "colspan" : 11,
+          "name" : "qZPdytp",
+          "row" : 1,
+          "rowspan" : 11,
+          "type" : "barchart"
+        }, {
+          "col" : 0,
+          "colspan" : 24,
+          "name" : "jRMGQG",
+          "row" : 0,
+          "rowspan" : 1,
+          "type" : "filterpane"
+        } ],
+        "columns" : 24,
+        "qInfo" : {
+          "qId" : "FaQeFa",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "The Sales Analysis sheet allows the user to monitor the company's revenue to ensure it is on target for the year.",
+          "title" : "Sales Analysis"
+        },
+        "rank" : 1,
+        "rows" : 12,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/5b26c4a1-9028-49b8-87eb-703aaaf67569/apppages-executivedashboard_2.jpg"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "FaQeFa,Sheet;5b26c4a1-9028-49b8-87eb-703aaaf67569,App;",
+  "key" : {
+    "id" : 1000
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Executive Dashboard/Sheets/Sales Analysis",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Sales Analysis",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 245
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 180, 245, 1000 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

@@ -1,0 +1,110 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "788a3621870d90ea49fede963af8edab9866bbc9",
+      "contentName" : "content",
+      "contentOid" : 18562,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "col" : 9,
+          "colspan" : 7,
+          "name" : "SYfCey",
+          "row" : 0,
+          "rowspan" : 11,
+          "type" : "treemap"
+        }, {
+          "col" : 16,
+          "colspan" : 7,
+          "name" : "fKwtfhH",
+          "row" : 0,
+          "rowspan" : 11,
+          "type" : "barchart"
+        }, {
+          "col" : 1,
+          "colspan" : 8,
+          "name" : "PEDjaJv",
+          "row" : 4,
+          "rowspan" : 4,
+          "type" : "barchart"
+        }, {
+          "col" : 1,
+          "colspan" : 8,
+          "name" : "hywdHj",
+          "row" : 0,
+          "rowspan" : 4,
+          "type" : "treemap"
+        }, {
+          "col" : 1,
+          "colspan" : 8,
+          "name" : "LjtsQJ",
+          "row" : 8,
+          "rowspan" : 3,
+          "type" : "treemap"
+        } ],
+        "columns" : 24,
+        "qInfo" : {
+          "qId" : "JNmE",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "Actively promoting diversity, this visualizations will help you to understand diversity in the company. For more information about diversity please check the Story called Diversity Analysis within the Data Storytelling library",
+          "title" : "Ethnic Diversity"
+        },
+        "rank" : 3,
+        "rows" : 12,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/e325a2bf-ba90-4eee-b641-71f0a1975f9b/HumanCap-Ethnic.png"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "JNmE,Sheet;e325a2bf-ba90-4eee-b641-71f0a1975f9b,App;",
+  "key" : {
+    "id" : 486
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Human Capital Management/Sheets/Ethnic Diversity",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Ethnic Diversity",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 193
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 175, 193, 486 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

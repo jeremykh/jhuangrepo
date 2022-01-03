@@ -1,0 +1,552 @@
+{
+  "qProp" : {
+    "qInfo" : {
+      "qId" : "pAjAa",
+      "qType" : "snapshot"
+    },
+    "qMetaDef" : {
+      "title" : "Sessions & Reloads with CPU and RAM by Day of Week",
+      "description" : ""
+    },
+    "sheetId" : "xUpRMjd",
+    "creationDate" : "2015-07-31T15:48:45.234Z",
+    "qSelectionInfo" : { },
+    "refLine" : {
+      "refLinesX" : [ ],
+      "refLinesY" : [ ]
+    },
+    "qHyperCube" : {
+      "qSize" : {
+        "qcx" : 4,
+        "qcy" : 7
+      },
+      "qDimensionInfo" : [ {
+        "qFallbackTitle" : "Weekday",
+        "qApprMaxGlyphCount" : 3,
+        "qCardinal" : 7,
+        "qSortIndicator" : "A",
+        "qGroupFallbackTitles" : [ "Weekday" ],
+        "qGroupPos" : 0,
+        "qStateCounts" : {
+          "qLocked" : 0,
+          "qSelected" : 0,
+          "qOption" : 7,
+          "qDeselected" : 0,
+          "qAlternative" : 0,
+          "qExcluded" : 0,
+          "qSelectedExcluded" : 0,
+          "qLockedExcluded" : 0
+        },
+        "qTags" : [ "$numeric", "$integer" ],
+        "qDimensionType" : "N",
+        "qGrouping" : "N",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qnDec" : 0,
+          "qUseThou" : 0
+        },
+        "qIsAutoFormat" : true,
+        "qGroupFieldDefs" : [ "Weekday" ],
+        "qMin" : 0,
+        "qMax" : 0,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qCardinalities" : {
+          "qCardinal" : 0,
+          "qHypercubeCardinal" : 0,
+          "qAllValuesCardinal" : -1
+        },
+        "title" : "Weekday",
+        "autoSort" : true,
+        "cId" : "MzHpWs",
+        "othersLabel" : "Others"
+      } ],
+      "qMeasureInfo" : [ {
+        "qFallbackTitle" : "Sessions",
+        "qApprMaxGlyphCount" : 5,
+        "qCardinal" : 0,
+        "qSortIndicator" : "D",
+        "qNumFormat" : {
+          "qType" : "F",
+          "qnDec" : 2,
+          "qUseThou" : 0,
+          "qFmt" : "#,##0",
+          "qDec" : ".",
+          "qThou" : ","
+        },
+        "qMin" : 215,
+        "qMax" : 2112,
+        "qAttrExprInfo" : [ {
+          "qMin" : 0,
+          "qMax" : 0,
+          "qNumFormat" : {
+            "qType" : "U",
+            "qnDec" : 10,
+            "qUseThou" : 0
+          },
+          "label" : "Max CPU (%)",
+          "id" : "colorByExpression"
+        } ],
+        "qAttrDimInfo" : [ ],
+        "qTrendLines" : [ ],
+        "autoSort" : true,
+        "cId" : "pyuSsW",
+        "numFormatFromTemplate" : true
+      }, {
+        "qFallbackTitle" : "Reloads",
+        "qApprMaxGlyphCount" : 5,
+        "qCardinal" : 0,
+        "qSortIndicator" : "D",
+        "qNumFormat" : {
+          "qType" : "F",
+          "qnDec" : 2,
+          "qUseThou" : 0,
+          "qFmt" : "#,##0",
+          "qDec" : ".",
+          "qThou" : ","
+        },
+        "qMin" : 388,
+        "qMax" : 605,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qTrendLines" : [ ],
+        "autoSort" : true,
+        "cId" : "yrSceL",
+        "numFormatFromTemplate" : true
+      }, {
+        "qFallbackTitle" : "Max RAM (GB)",
+        "qApprMaxGlyphCount" : 5,
+        "qCardinal" : 0,
+        "qSortIndicator" : "D",
+        "qNumFormat" : {
+          "qType" : "F",
+          "qnDec" : 2,
+          "qUseThou" : 1,
+          "qFmt" : "###0.00",
+          "qDec" : "."
+        },
+        "qMin" : 9.56,
+        "qMax" : 21.21,
+        "qIsAutoFormat" : true,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qTrendLines" : [ ],
+        "autoSort" : true,
+        "cId" : "JJKqtxb",
+        "numFormatFromTemplate" : true
+      } ],
+      "qEffectiveInterColumnSortOrder" : [ 3, 2, 1, 0 ],
+      "qGrandTotalRow" : [ {
+        "qText" : "9,759",
+        "qNum" : 9759,
+        "qElemNumber" : -1,
+        "qState" : "X",
+        "qIsTotalCell" : true
+      }, {
+        "qText" : "3,560",
+        "qNum" : 3560,
+        "qElemNumber" : -1,
+        "qState" : "X",
+        "qIsTotalCell" : true
+      }, {
+        "qText" : "21.21",
+        "qNum" : 21.21,
+        "qElemNumber" : -1,
+        "qState" : "X",
+        "qIsTotalCell" : true
+      } ],
+      "qDataPages" : [ {
+        "qMatrix" : [ [ {
+          "qText" : "Sat",
+          "qNum" : 6,
+          "qElemNumber" : 2,
+          "qState" : "O"
+        }, {
+          "qText" : "215",
+          "qNum" : 215,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 85
+            } ]
+          }
+        }, {
+          "qText" : "489",
+          "qNum" : 489,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "21.21",
+          "qNum" : 21.21,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Mon",
+          "qNum" : 1,
+          "qElemNumber" : 4,
+          "qState" : "O"
+        }, {
+          "qText" : "1,876",
+          "qNum" : 1876,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 90
+            } ]
+          }
+        }, {
+          "qText" : "497",
+          "qNum" : 497,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "10.36",
+          "qNum" : 10.36,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Sun",
+          "qNum" : 0,
+          "qElemNumber" : 3,
+          "qState" : "O"
+        }, {
+          "qText" : "260",
+          "qNum" : 260,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 90
+            } ]
+          }
+        }, {
+          "qText" : "503",
+          "qNum" : 503,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "9.90",
+          "qNum" : 9.9,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Tue",
+          "qNum" : 2,
+          "qElemNumber" : 5,
+          "qState" : "O"
+        }, {
+          "qText" : "1,518",
+          "qNum" : 1518,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 90
+            } ]
+          }
+        }, {
+          "qText" : "388",
+          "qNum" : 388,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "9.73",
+          "qNum" : 9.73,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Wed",
+          "qNum" : 3,
+          "qElemNumber" : 6,
+          "qState" : "O"
+        }, {
+          "qText" : "1,991",
+          "qNum" : 1991,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 90
+            } ]
+          }
+        }, {
+          "qText" : "575",
+          "qNum" : 575,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "9.65",
+          "qNum" : 9.65,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Fri",
+          "qNum" : 5,
+          "qElemNumber" : 1,
+          "qState" : "O"
+        }, {
+          "qText" : "2,112",
+          "qNum" : 2112,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 90
+            } ]
+          }
+        }, {
+          "qText" : "527",
+          "qNum" : 527,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "9.58",
+          "qNum" : 9.58,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Thu",
+          "qNum" : 4,
+          "qElemNumber" : 0,
+          "qState" : "O"
+        }, {
+          "qText" : "1,846",
+          "qNum" : 1846,
+          "qElemNumber" : 0,
+          "qState" : "L",
+          "qAttrExps" : {
+            "qValues" : [ {
+              "qNum" : 90
+            } ]
+          }
+        }, {
+          "qText" : "605",
+          "qNum" : 605,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "9.56",
+          "qNum" : 9.56,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ] ],
+        "qTails" : [ {
+          "qUp" : 0,
+          "qDown" : 0
+        } ],
+        "qArea" : {
+          "qLeft" : 0,
+          "qTop" : 0,
+          "qWidth" : 4,
+          "qHeight" : 7
+        }
+      } ],
+      "qPivotDataPages" : [ ],
+      "qStackedDataPages" : [ ],
+      "qMode" : "S",
+      "qNoOfLeftDims" : -1,
+      "qTreeNodesOnDim" : [ ],
+      "qColumnOrder" : [ ],
+      "isBigData" : false,
+      "isReduced" : false
+    },
+    "showTitles" : true,
+    "title" : "Sessions & Reloads with CPU and RAM by Day of Week",
+    "subtitle" : "Each bubble represents one day of the week.  Size of bubble corresponds to Max RAM (GB).",
+    "footnote" : "",
+    "navigation" : false,
+    "dataPoint" : {
+      "bubbleSizes" : 7,
+      "rangeBubbleSizes" : [ 4, 10 ]
+    },
+    "labels" : {
+      "mode" : 1
+    },
+    "gridLine" : {
+      "auto" : true,
+      "spacing" : 2
+    },
+    "color" : {
+      "auto" : false,
+      "mode" : "byExpression",
+      "singleColor" : 3,
+      "persistent" : false,
+      "expressionIsColor" : false,
+      "expressionLabel" : "Max CPU (%)",
+      "measureScheme" : "dg",
+      "reverseScheme" : false,
+      "dimensionScheme" : "12",
+      "autoMinMax" : false,
+      "measureMin" : 0,
+      "measureMax" : 100,
+      "colorExpression" : "round(max(CPULoad)*100,5)"
+    },
+    "legend" : {
+      "show" : true,
+      "dock" : "auto",
+      "showTitle" : true
+    },
+    "xAxis" : {
+      "show" : "all",
+      "dock" : "near",
+      "spacing" : 1,
+      "autoMinMax" : false,
+      "minMax" : "min",
+      "min" : 0,
+      "max" : 10
+    },
+    "yAxis" : {
+      "show" : "all",
+      "dock" : "near",
+      "spacing" : 1,
+      "autoMinMax" : true,
+      "minMax" : "min",
+      "min" : 0,
+      "max" : 10
+    },
+    "visualization" : "scatterplot",
+    "masterVersion" : 0.96,
+    "compressionResolution" : 5,
+    "qHasSoftPatches" : true,
+    "snapshotData" : {
+      "object" : {
+        "size" : {
+          "w" : 744,
+          "h" : 630
+        }
+      },
+      "content" : {
+        "chartData" : {
+          "legendScrollOffset" : 0,
+          "xAxisMin" : 0,
+          "xAxisMax" : 2500,
+          "yAxisMin" : 350,
+          "yAxisMax" : 650
+        },
+        "size" : {
+          "w" : 744,
+          "h" : 580
+        },
+        "components" : {
+          "grid" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 578.9800567626953,
+              "h" : 494
+            }
+          },
+          "colorLegend" : {
+            "visible" : true,
+            "dock" : "right",
+            "size" : {
+              "w" : 83.01994323730469,
+              "h" : 494
+            }
+          },
+          "xAxis" : {
+            "visible" : true,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 578.9800567626953,
+              "h" : 62
+            }
+          },
+          "yAxis" : {
+            "visible" : true,
+            "dock" : "left",
+            "size" : {
+              "w" : 78,
+              "h" : 494
+            }
+          },
+          "xAxisTitle" : {
+            "visible" : false,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 578.9800567626953,
+              "h" : 0
+            }
+          },
+          "colorLegendLight" : {
+            "visible" : false,
+            "dock" : "right",
+            "size" : {
+              "w" : 0,
+              "h" : 494
+            }
+          },
+          "refLineLabelsX" : {
+            "visible" : false,
+            "dock" : "top",
+            "size" : {
+              "w" : 578.9800567626953,
+              "h" : 0
+            }
+          },
+          "refLineLabelsY" : {
+            "visible" : false,
+            "dock" : "right",
+            "size" : {
+              "w" : 0,
+              "h" : 494
+            }
+          },
+          "refLines" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 578.9800567626953,
+              "h" : 494
+            }
+          },
+          "dataArea" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 578.9800567626953,
+              "h" : 494
+            }
+          }
+        },
+        "v" : 0.96
+      },
+      "parent" : {
+        "h" : 680,
+        "w" : 1519
+      }
+    },
+    "visualizationType" : "scatterplot",
+    "sourceObjectId" : "KnPd",
+    "timestamp" : 1438357725231,
+    "isClone" : false
+  },
+  "qStateData" : [ {
+    "qStateName" : "$",
+    "qFieldItems" : [ {
+      "qDef" : {
+        "qName" : "Month",
+        "qType" : "PRESENT"
+      },
+      "qSelectInfo" : {
+        "qRangeLo" : "NaN",
+        "qRangeHi" : "NaN",
+        "qNumberFormat" : {
+          "qType" : "U",
+          "qnDec" : 10,
+          "qUseThou" : 0
+        },
+        "qRangeInfo" : [ ],
+        "qContinuousRangeInfo" : [ ]
+      },
+      "qValues" : [ {
+        "qIsNumeric" : true,
+        "qNumber" : 42186
+      } ],
+      "qExcludedValues" : [ ]
+    } ]
+  } ],
+  "qPatches" : [ ]
+}

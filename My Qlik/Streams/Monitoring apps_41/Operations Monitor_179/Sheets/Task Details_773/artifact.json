@@ -1,0 +1,115 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "ab5df8b2566814d9b7e6dd6384c2340edf2f6121",
+      "contentName" : "content",
+      "contentOid" : 18824,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "bounds" : {
+            "height" : 8.333333333333332,
+            "width" : 100,
+            "x" : 0,
+            "y" : 0
+          },
+          "col" : 0,
+          "colspan" : 24,
+          "name" : "jeAjQE",
+          "row" : 0,
+          "rowspan" : 1,
+          "type" : "filterpane"
+        }, {
+          "bounds" : {
+            "height" : 50,
+            "width" : 100,
+            "x" : 0,
+            "y" : 8.333333333333332
+          },
+          "col" : 0,
+          "colspan" : 24,
+          "name" : "HkBHBv",
+          "row" : 1,
+          "rowspan" : 6,
+          "type" : "table"
+        }, {
+          "bounds" : {
+            "height" : 41.66666666666667,
+            "width" : 100,
+            "x" : 0,
+            "y" : 58.333333333333336
+          },
+          "col" : 0,
+          "colspan" : 24,
+          "name" : "XnBPft",
+          "row" : 7,
+          "rowspan" : 5,
+          "type" : "table"
+        } ],
+        "columns" : 24,
+        "gridResolution" : "small",
+        "qInfo" : {
+          "qId" : "rtMRYJ",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "",
+          "title" : "Task Details"
+        },
+        "rank" : 0.353515625,
+        "rows" : 12,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/72d45588-644b-4905-a064-a3923f3f6e08/Icon_Complete_Data_Services_grey.png"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+        "name" : "sa_repository",
+        "userDirectory" : "INTERNAL",
+        "userId" : "sa_repository"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "rtMRYJ,Sheet;72d45588-644b-4905-a064-a3923f3f6e08,App;",
+  "key" : {
+    "id" : 773
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/Operations Monitor/Sheets/Task Details",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Task Details",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 235
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 179, 235, 773 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

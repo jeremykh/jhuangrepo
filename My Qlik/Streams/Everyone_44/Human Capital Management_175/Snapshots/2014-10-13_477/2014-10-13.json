@@ -1,0 +1,259 @@
+{
+  "qProp" : {
+    "qInfo" : {
+      "qId" : "QVwMBRS",
+      "qType" : "snapshot"
+    },
+    "qMetaDef" : {
+      "title" : "",
+      "description" : "",
+      "annotation" : ""
+    },
+    "title" : "",
+    "description" : "",
+    "sheetId" : "KkYhPC",
+    "creationDate" : "2014-10-13",
+    "qMeta" : { },
+    "qSelectionInfo" : { },
+    "qHyperCube" : {
+      "qSize" : {
+        "qcx" : 2,
+        "qcy" : 3
+      },
+      "qDimensionInfo" : [ {
+        "qFallbackTitle" : "Gender",
+        "qApprMaxGlyphCount" : 6,
+        "qCardinal" : 2,
+        "qSortIndicator" : "A",
+        "qGroupFallbackTitles" : [ "Gender" ],
+        "qGroupPos" : 0,
+        "qStateCounts" : {
+          "qLocked" : 0,
+          "qSelected" : 0,
+          "qOption" : 2,
+          "qDeselected" : 0,
+          "qAlternative" : 0,
+          "qExcluded" : 0,
+          "qSelectedExcluded" : 0,
+          "qLockedExcluded" : 0
+        },
+        "qTags" : [ "$ascii", "$text" ],
+        "qDimensionType" : "D",
+        "qGrouping" : "N",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qnDec" : 0,
+          "qUseThou" : 0
+        },
+        "qIsAutoFormat" : true,
+        "qGroupFieldDefs" : [ "Gender" ],
+        "qMin" : 0,
+        "qMax" : 0,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qCardinalities" : {
+          "qCardinal" : 0,
+          "qHypercubeCardinal" : 0,
+          "qAllValuesCardinal" : -1
+        },
+        "title" : "Gender",
+        "autoSort" : true,
+        "cId" : "GmxWBG",
+        "othersLabel" : "Others"
+      } ],
+      "qMeasureInfo" : [ {
+        "qFallbackTitle" : "# of Employees",
+        "qApprMaxGlyphCount" : 4,
+        "qCardinal" : 3,
+        "qSortIndicator" : "D",
+        "qNumFormat" : {
+          "qType" : "I",
+          "qnDec" : 0,
+          "qUseThou" : 1,
+          "qFmt" : "###0",
+          "qDec" : "."
+        },
+        "qMin" : 20,
+        "qMax" : 2685,
+        "qIsAutoFormat" : true,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qTrendLines" : [ ],
+        "autoSort" : true,
+        "cId" : "KjBvANw",
+        "numFormatFromTemplate" : true
+      } ],
+      "qEffectiveInterColumnSortOrder" : [ 0, 1 ],
+      "qGrandTotalRow" : [ ],
+      "qDataPages" : [ ],
+      "qPivotDataPages" : [ ],
+      "qStackedDataPages" : [ {
+        "qData" : [ {
+          "qElemNo" : 0,
+          "qValue" : 0,
+          "qType" : "R",
+          "qMaxPos" : 4246,
+          "qMinNeg" : 0,
+          "qUp" : 0,
+          "qDown" : 0,
+          "qRow" : 0,
+          "qSubNodes" : [ {
+            "qText" : "Female",
+            "qElemNo" : 1,
+            "qValue" : "NaN",
+            "qType" : "N",
+            "qMaxPos" : 1541,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 0,
+            "qSubNodes" : [ {
+              "qText" : "1541",
+              "qElemNo" : 0,
+              "qValue" : 1541,
+              "qType" : "V",
+              "qMaxPos" : 0,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 0,
+              "qSubNodes" : [ ]
+            } ]
+          }, {
+            "qText" : "Male",
+            "qElemNo" : 0,
+            "qValue" : "NaN",
+            "qType" : "N",
+            "qMaxPos" : 2685,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 1,
+            "qSubNodes" : [ {
+              "qText" : "2685",
+              "qElemNo" : 0,
+              "qValue" : 2685,
+              "qType" : "V",
+              "qMaxPos" : 0,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 1,
+              "qSubNodes" : [ ]
+            } ]
+          }, {
+            "qText" : "-",
+            "qElemNo" : -2,
+            "qValue" : "NaN",
+            "qType" : "A",
+            "qMaxPos" : 20,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 2,
+            "qSubNodes" : [ {
+              "qText" : "20",
+              "qElemNo" : 0,
+              "qValue" : 20,
+              "qType" : "V",
+              "qMaxPos" : 0,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 2,
+              "qSubNodes" : [ ]
+            } ]
+          } ]
+        } ],
+        "qArea" : {
+          "qLeft" : 0,
+          "qTop" : 0,
+          "qWidth" : 0,
+          "qHeight" : 0
+        }
+      } ],
+      "qMode" : "K",
+      "qNoOfLeftDims" : 0,
+      "qTreeNodesOnDim" : [ ],
+      "qColumnOrder" : [ ]
+    },
+    "showTitles" : true,
+    "subtitle" : "",
+    "footnote" : "",
+    "labels" : {
+      "auto" : true,
+      "headers" : false,
+      "overlay" : true,
+      "leaves" : true,
+      "values" : false
+    },
+    "color" : {
+      "auto" : false,
+      "mode" : "byDimension",
+      "singleColor" : 3,
+      "persistent" : true,
+      "expressionIsColor" : true,
+      "measureScheme" : "sg",
+      "reverseScheme" : false,
+      "dimensionScheme" : "12",
+      "expressionLabel" : "",
+      "autoMinMax" : true,
+      "measureMin" : 0,
+      "measureMax" : 10
+    },
+    "legend" : {
+      "show" : false,
+      "dock" : "auto",
+      "showTitle" : true
+    },
+    "visualization" : "treemap",
+    "visualizationType" : "treemap",
+    "timestamp" : 1413228777112,
+    "sourceObjectId" : "WUvNWyj",
+    "isClone" : false,
+    "libraryTitle" : "",
+    "snapshotData" : {
+      "object" : {
+        "size" : {
+          "w" : 1884,
+          "h" : 202
+        }
+      },
+      "parent" : {
+        "h" : 877,
+        "w" : 1910
+      },
+      "content" : {
+        "chartData" : { },
+        "size" : {
+          "w" : 1884,
+          "h" : 196
+        },
+        "components" : {
+          "dataArea" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 1880,
+              "h" : 192
+            }
+          },
+          "xAxisTitle" : {
+            "visible" : false,
+            "dock" : "top",
+            "size" : {
+              "w" : 1880,
+              "h" : 0
+            }
+          }
+        },
+        "v" : 0.96
+      }
+    }
+  },
+  "qStateData" : [ {
+    "qStateName" : "$",
+    "qFieldItems" : [ ]
+  } ],
+  "qPatches" : [ ]
+}

@@ -1,0 +1,747 @@
+{
+  "qProp" : {
+    "qInfo" : {
+      "qId" : "rAnVerJ",
+      "qType" : "snapshot"
+    },
+    "qMetaDef" : {
+      "title" : "Shipping Costs vs. Sales Costs",
+      "description" : "",
+      "annotation" : "All data"
+    },
+    "sheetId" : "JBCWppA",
+    "creationDate" : "2016-02-08T13:01:41.782Z",
+    "qSelectionInfo" : { },
+    "qHyperCube" : {
+      "qSize" : {
+        "qcx" : 3,
+        "qcy" : 29
+      },
+      "qDimensionInfo" : [ {
+        "qFallbackTitle" : "Supplier",
+        "qApprMaxGlyphCount" : 23,
+        "qCardinal" : 29,
+        "qSortIndicator" : "A",
+        "qGroupFallbackTitles" : [ "Supplier" ],
+        "qGroupPos" : 0,
+        "qStateCounts" : {
+          "qLocked" : 0,
+          "qSelected" : 0,
+          "qOption" : 29,
+          "qDeselected" : 0,
+          "qAlternative" : 0,
+          "qExcluded" : 0,
+          "qSelectedExcluded" : 0,
+          "qLockedExcluded" : 0
+        },
+        "qTags" : [ "$text" ],
+        "qDimensionType" : "D",
+        "qGrouping" : "N",
+        "qNumFormat" : {
+          "qType" : "R",
+          "qnDec" : 14,
+          "qUseThou" : 1,
+          "qFmt" : "##############",
+          "qDec" : "."
+        },
+        "qIsAutoFormat" : true,
+        "qGroupFieldDefs" : [ "Supplier" ],
+        "qMin" : 0,
+        "qMax" : 0,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qCardinalities" : {
+          "qCardinal" : 0,
+          "qHypercubeCardinal" : 0,
+          "qAllValuesCardinal" : -1
+        },
+        "autoSort" : true,
+        "cId" : "YVRkXXm",
+        "othersLabel" : "Others"
+      } ],
+      "qMeasureInfo" : [ {
+        "qFallbackTitle" : "Shipping Cost Totals",
+        "qApprMaxGlyphCount" : 8,
+        "qCardinal" : 0,
+        "qSortIndicator" : "D",
+        "qNumFormat" : {
+          "qType" : "R",
+          "qnDec" : 14,
+          "qUseThou" : 1,
+          "qFmt" : "##############",
+          "qDec" : "."
+        },
+        "qMin" : 927.9699999999999,
+        "qMax" : 8108.239999999999,
+        "qIsAutoFormat" : true,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qTrendLines" : [ ],
+        "autoSort" : true,
+        "cId" : "QPJVN",
+        "numFormatFromTemplate" : true
+      }, {
+        "qFallbackTitle" : "Cost of Sales Total",
+        "qApprMaxGlyphCount" : 12,
+        "qCardinal" : 0,
+        "qSortIndicator" : "D",
+        "qNumFormat" : {
+          "qType" : "R",
+          "qnDec" : 14,
+          "qUseThou" : 1,
+          "qFmt" : "##############",
+          "qDec" : "."
+        },
+        "qMin" : 4505.0605,
+        "qMax" : 338700.49189999996,
+        "qIsAutoFormat" : true,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qTrendLines" : [ ],
+        "autoSort" : true,
+        "cId" : "DFnPCWs",
+        "numFormatFromTemplate" : true
+      } ],
+      "qEffectiveInterColumnSortOrder" : [ 2, 1, 0 ],
+      "qGrandTotalRow" : [ {
+        "qText" : "41937.14",
+        "qNum" : 41937.139999999934,
+        "qElemNumber" : -1,
+        "qState" : "X",
+        "qIsTotalCell" : true
+      }, {
+        "qText" : "1420296.6836",
+        "qNum" : 1420296.6835999994,
+        "qElemNumber" : -1,
+        "qState" : "X",
+        "qIsTotalCell" : true
+      } ],
+      "qDataPages" : [ {
+        "qMatrix" : [ [ {
+          "qText" : "Nordik Koskenkorva",
+          "qNum" : "NaN",
+          "qElemNumber" : 22,
+          "qState" : "O"
+        }, {
+          "qText" : "3387.72",
+          "qNum" : 3387.720000000001,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "338700.4919",
+          "qNum" : 338700.49189999996,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Austerlich",
+          "qNum" : "NaN",
+          "qElemNumber" : 11,
+          "qState" : "O"
+        }, {
+          "qText" : "8108.24",
+          "qNum" : 8108.239999999999,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "144957.313",
+          "qNum" : 144957.31300000002,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Cangaroo Shoes",
+          "qNum" : "NaN",
+          "qElemNumber" : 23,
+          "qState" : "O"
+        }, {
+          "qText" : "4853.41",
+          "qNum" : 4853.410000000002,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "144655.1654",
+          "qNum" : 144655.16539999997,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Like Paradis",
+          "qNum" : "NaN",
+          "qElemNumber" : 17,
+          "qState" : "O"
+        }, {
+          "qText" : "2813.22",
+          "qNum" : 2813.2199999999993,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "83417.7489",
+          "qNum" : 83417.7489,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "New Balls",
+          "qNum" : "NaN",
+          "qElemNumber" : 6,
+          "qState" : "O"
+        }, {
+          "qText" : "8042.12",
+          "qNum" : 8042.119999999994,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "69430.1342",
+          "qNum" : 69430.13420000003,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Mountain International",
+          "qNum" : "NaN",
+          "qElemNumber" : 24,
+          "qState" : "O"
+        }, {
+          "qText" : "3451.11",
+          "qNum" : 3451.1100000000006,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "52375.1148",
+          "qNum" : 52375.11479999999,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Asin Fashion Ltd Co",
+          "qNum" : "NaN",
+          "qElemNumber" : 19,
+          "qState" : "O"
+        }, {
+          "qText" : "3849.46",
+          "qNum" : 3849.4599999999996,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "51927.8419",
+          "qNum" : 51927.84189999999,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Pirilli Company",
+          "qNum" : "NaN",
+          "qElemNumber" : 25,
+          "qState" : "O"
+        }, {
+          "qText" : "3570.15",
+          "qNum" : 3570.1499999999996,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "48589.4175",
+          "qNum" : 48589.41749999999,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Hot Pants",
+          "qNum" : "NaN",
+          "qElemNumber" : 7,
+          "qState" : "O"
+        }, {
+          "qText" : "6207.25",
+          "qNum" : 6207.25,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "46208.3843",
+          "qNum" : 46208.3843,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Bar Åkeri",
+          "qNum" : "NaN",
+          "qElemNumber" : 14,
+          "qState" : "O"
+        }, {
+          "qText" : "4886.41",
+          "qNum" : 4886.41,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "45074.1421",
+          "qNum" : 45074.1421,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Fast Runners",
+          "qNum" : "NaN",
+          "qElemNumber" : 28,
+          "qState" : "O"
+        }, {
+          "qText" : "3684.65",
+          "qNum" : 3684.650000000001,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "40279.8694",
+          "qNum" : 40279.8694,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Sunny Clothes",
+          "qNum" : "NaN",
+          "qElemNumber" : 0,
+          "qState" : "O"
+        }, {
+          "qText" : "4497.83",
+          "qNum" : 4497.830000000001,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "38070.9152",
+          "qNum" : 38070.915199999996,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Der Bahnhof",
+          "qNum" : "NaN",
+          "qElemNumber" : 10,
+          "qState" : "O"
+        }, {
+          "qText" : "3081.31",
+          "qNum" : 3081.3100000000004,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "36707.7506",
+          "qNum" : 36707.7506,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Dressed for Succes",
+          "qNum" : "NaN",
+          "qElemNumber" : 2,
+          "qState" : "O"
+        }, {
+          "qText" : "2530.62",
+          "qNum" : 2530.62,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "34153.1034",
+          "qNum" : 34153.1034,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "SatSUMAs",
+          "qNum" : "NaN",
+          "qElemNumber" : 5,
+          "qState" : "O"
+        }, {
+          "qText" : "3395.96",
+          "qNum" : 3395.96,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "31335.5028",
+          "qNum" : 31335.502799999995,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Mayflower",
+          "qNum" : "NaN",
+          "qElemNumber" : 18,
+          "qState" : "O"
+        }, {
+          "qText" : "4625.44",
+          "qNum" : 4625.4400000000005,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "25371.3795",
+          "qNum" : 25371.3795,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Ravenna Fashion",
+          "qNum" : "NaN",
+          "qElemNumber" : 13,
+          "qState" : "O"
+        }, {
+          "qText" : "4951.07",
+          "qNum" : 4951.07,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "23226.747",
+          "qNum" : 23226.747,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Gal Export",
+          "qNum" : "NaN",
+          "qElemNumber" : 26,
+          "qState" : "O"
+        }, {
+          "qText" : "927.97",
+          "qNum" : 927.9699999999999,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "22044.1823",
+          "qNum" : 22044.182299999997,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Big L",
+          "qNum" : "NaN",
+          "qElemNumber" : 1,
+          "qState" : "O"
+        }, {
+          "qText" : "3386.96",
+          "qNum" : 3386.96,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "20237.7393",
+          "qNum" : 20237.739299999997,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Los Hombres Machos",
+          "qNum" : "NaN",
+          "qElemNumber" : 4,
+          "qState" : "O"
+        }, {
+          "qText" : "2728.47",
+          "qNum" : 2728.4699999999993,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "19486.6417",
+          "qNum" : 19486.641699999996,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Smooth Clothes",
+          "qNum" : "NaN",
+          "qElemNumber" : 15,
+          "qState" : "O"
+        }, {
+          "qText" : "3121.75",
+          "qNum" : 3121.7499999999995,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "17583.0979",
+          "qNum" : 17583.0979,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "FrisersAfrong",
+          "qNum" : "NaN",
+          "qElemNumber" : 27,
+          "qState" : "O"
+        }, {
+          "qText" : "4842.07",
+          "qNum" : 4842.069999999999,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "17570.2672",
+          "qNum" : 17570.2672,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Nitsuchiba",
+          "qNum" : "NaN",
+          "qElemNumber" : 3,
+          "qState" : "O"
+        }, {
+          "qText" : "2694.07",
+          "qNum" : 2694.0699999999993,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "15055.6457",
+          "qNum" : 15055.645700000001,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Niemegen Boots",
+          "qNum" : "NaN",
+          "qElemNumber" : 21,
+          "qState" : "O"
+        }, {
+          "qText" : "1461.13",
+          "qNum" : 1461.1299999999999,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "14229.8591",
+          "qNum" : 14229.859100000001,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Executive Clothing GMBH",
+          "qNum" : "NaN",
+          "qElemNumber" : 12,
+          "qState" : "O"
+        }, {
+          "qText" : "1662.39",
+          "qNum" : 1662.39,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "13562.5714",
+          "qNum" : 13562.5714,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Prael Ltd",
+          "qNum" : "NaN",
+          "qElemNumber" : 20,
+          "qState" : "O"
+        }, {
+          "qText" : "1892.6",
+          "qNum" : 1892.6000000000001,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "9792.4243",
+          "qNum" : 9792.4243,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "ABC",
+          "qNum" : "NaN",
+          "qElemNumber" : 16,
+          "qState" : "O"
+        }, {
+          "qText" : "2679.84",
+          "qNum" : 2679.84,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "6123.3714",
+          "qNum" : 6123.371400000001,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Goa Kläder",
+          "qNum" : "NaN",
+          "qElemNumber" : 8,
+          "qState" : "O"
+        }, {
+          "qText" : "1737.35",
+          "qNum" : 1737.35,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "5624.8009",
+          "qNum" : 5624.800899999999,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Samba",
+          "qNum" : "NaN",
+          "qElemNumber" : 9,
+          "qState" : "O"
+        }, {
+          "qText" : "2644.02",
+          "qNum" : 2644.02,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "4505.0605",
+          "qNum" : 4505.0605,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ] ],
+        "qTails" : [ {
+          "qUp" : 0,
+          "qDown" : 0
+        } ],
+        "qArea" : {
+          "qLeft" : 0,
+          "qTop" : 0,
+          "qWidth" : 3,
+          "qHeight" : 29
+        }
+      } ],
+      "qPivotDataPages" : [ ],
+      "qStackedDataPages" : [ ],
+      "qMode" : "S",
+      "qNoOfLeftDims" : -1,
+      "qTreeNodesOnDim" : [ ],
+      "qColumnOrder" : [ ],
+      "customErrorMessage" : {
+        "calcCond" : ""
+      },
+      "isReduced" : false
+    },
+    "refLine" : {
+      "refLinesX" : [ ],
+      "refLinesY" : [ ]
+    },
+    "showTitles" : true,
+    "title" : "Shipping Costs vs. Sales Costs",
+    "subtitle" : "",
+    "footnote" : "",
+    "navigation" : false,
+    "dataPoint" : {
+      "bubbleSizes" : 7,
+      "rangeBubbleSizes" : [ 2, 8 ]
+    },
+    "labels" : {
+      "mode" : 0
+    },
+    "compressionResolution" : 5,
+    "gridLine" : {
+      "auto" : true,
+      "spacing" : 2
+    },
+    "color" : {
+      "auto" : false,
+      "mode" : "primary",
+      "singleColor" : 6,
+      "persistent" : false,
+      "expressionIsColor" : true,
+      "expressionLabel" : "",
+      "measureScheme" : "sg",
+      "reverseScheme" : false,
+      "dimensionScheme" : "12",
+      "autoMinMax" : true,
+      "measureMin" : 0,
+      "measureMax" : 10
+    },
+    "legend" : {
+      "show" : true,
+      "dock" : "auto",
+      "showTitle" : true
+    },
+    "xAxis" : {
+      "show" : "all",
+      "dock" : "near",
+      "spacing" : 0.5,
+      "autoMinMax" : true,
+      "minMax" : "min",
+      "min" : 0,
+      "max" : 10
+    },
+    "yAxis" : {
+      "show" : "all",
+      "dock" : "near",
+      "spacing" : 0.5,
+      "autoMinMax" : false,
+      "minMax" : "min",
+      "min" : 0,
+      "max" : 10
+    },
+    "visualization" : "scatterplot",
+    "snapshotData" : {
+      "object" : {
+        "size" : {
+          "w" : 419,
+          "h" : 230
+        }
+      },
+      "content" : {
+        "chartData" : {
+          "legendScrollOffset" : 0,
+          "xAxisMin" : 0,
+          "xAxisMax" : 10000,
+          "yAxisMin" : 0,
+          "yAxisMax" : 400000
+        },
+        "size" : {
+          "w" : 419,
+          "h" : 203
+        },
+        "components" : {
+          "grid" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 355,
+              "h" : 147
+            }
+          },
+          "colorLegend" : {
+            "visible" : false,
+            "dock" : "right",
+            "size" : {
+              "w" : 0,
+              "h" : 147
+            }
+          },
+          "xAxis" : {
+            "visible" : true,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 355,
+              "h" : 32
+            }
+          },
+          "yAxis" : {
+            "visible" : true,
+            "dock" : "left",
+            "size" : {
+              "w" : 50,
+              "h" : 147
+            }
+          },
+          "xAxisTitle" : {
+            "visible" : false,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 355,
+              "h" : 0
+            }
+          },
+          "refLineLabelsX" : {
+            "visible" : false,
+            "dock" : "top",
+            "size" : {
+              "w" : 355,
+              "h" : 0
+            }
+          },
+          "refLineLabelsY" : {
+            "visible" : false,
+            "dock" : "right",
+            "size" : {
+              "w" : 0,
+              "h" : 147
+            }
+          },
+          "refLines" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 355,
+              "h" : 147
+            }
+          },
+          "dataArea" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 355,
+              "h" : 147
+            }
+          }
+        },
+        "v" : 0.96
+      },
+      "parent" : {
+        "h" : 516,
+        "w" : 947
+      }
+    },
+    "visualizationType" : "scatterplot",
+    "sourceObjectId" : "ZzePF",
+    "timestamp" : 1454936501770,
+    "isClone" : false
+  },
+  "qStateData" : [ {
+    "qStateName" : "$",
+    "qFieldItems" : [ ]
+  } ],
+  "qPatches" : [ ]
+}

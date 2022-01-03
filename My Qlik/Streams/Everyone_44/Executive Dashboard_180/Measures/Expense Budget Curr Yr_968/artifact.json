@@ -1,0 +1,63 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qInfo" : {
+        "qId" : "b551c4b8-9e02-41c3-b1dc-6e9c9683eb46",
+        "qType" : "measure"
+      },
+      "qMeasure" : {
+        "coloring" : {
+          "baseColor" : {
+            "color" : "#b0afae",
+            "index" : 12
+          }
+        },
+        "qActiveExpression" : 0,
+        "qDef" : "if(GetSelectedCount([Fiscal Year])<>1, \n\tSum({<[Fiscal Year]={$(=max([Fiscal Year]))} >} ExpenseBudget)/1000, \t\n    Sum({<[Fiscal Year]={$(vYear)}>} ExpenseBudget)/1000\n)",
+        "qExpressions" : [ ],
+        "qGrouping" : "N",
+        "qLabel" : "Expense Budget Curr Yr",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qUseThou" : 0,
+          "qnDec" : 10
+        }
+      },
+      "qMetaDef" : {
+        "description" : "Current Year Expenses (in 1000s)",
+        "tags" : [ ],
+        "title" : "Expense Budget Curr Yr"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "b551c4b8-9e02-41c3-b1dc-6e9c9683eb46,Measure;5b26c4a1-9028-49b8-87eb-703aaaf67569,App;",
+  "key" : {
+    "id" : 968
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Executive Dashboard/Measures/Expense Budget Curr Yr",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikMeasure/QlikMeasure",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Expense Budget Curr Yr",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 244
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 180, 244, 968 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Measure",
+  "shouldVersion" : true,
+  "subtype" : "QlikMeasure",
+  "type" : "QlikArtifact"
+}

@@ -1,0 +1,692 @@
+{
+  "qProp" : {
+    "qInfo" : {
+      "qId" : "jQHQaE",
+      "qType" : "snapshot"
+    },
+    "qMetaDef" : {
+      "title" : "Annual Shipping Cost Totals",
+      "description" : "",
+      "annotation" : "One Line for each Shipping Company"
+    },
+    "sheetId" : "JBCWppA",
+    "creationDate" : "2016-02-08T13:02:08.735Z",
+    "qSelectionInfo" : { },
+    "qHyperCube" : {
+      "qSize" : {
+        "qcx" : 1,
+        "qcy" : 14
+      },
+      "qDimensionInfo" : [ {
+        "qFallbackTitle" : "Year",
+        "qApprMaxGlyphCount" : 4,
+        "qCardinal" : 5,
+        "qSortIndicator" : "A",
+        "qGroupFallbackTitles" : [ "Year" ],
+        "qGroupPos" : 0,
+        "qStateCounts" : {
+          "qLocked" : 0,
+          "qSelected" : 0,
+          "qOption" : 5,
+          "qDeselected" : 0,
+          "qAlternative" : 0,
+          "qExcluded" : 0,
+          "qSelectedExcluded" : 0,
+          "qLockedExcluded" : 0
+        },
+        "qTags" : [ "$numeric", "$integer" ],
+        "qDimensionType" : "N",
+        "qGrouping" : "N",
+        "qNumFormat" : {
+          "qType" : "I",
+          "qnDec" : 0,
+          "qUseThou" : 0,
+          "qFmt" : "###0",
+          "qDec" : "."
+        },
+        "qIsAutoFormat" : true,
+        "qGroupFieldDefs" : [ "=Year(DeliveryDate)" ],
+        "qMin" : 0,
+        "qMax" : 0,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qCardinalities" : {
+          "qCardinal" : 0,
+          "qHypercubeCardinal" : 0,
+          "qAllValuesCardinal" : -1
+        },
+        "autoSort" : true,
+        "cId" : "grGyf",
+        "othersLabel" : "Others"
+      }, {
+        "qFallbackTitle" : "Shipping Company",
+        "qApprMaxGlyphCount" : 15,
+        "qCardinal" : 3,
+        "qSortIndicator" : "A",
+        "qGroupFallbackTitles" : [ "Shipping Company" ],
+        "qGroupPos" : 0,
+        "qStateCounts" : {
+          "qLocked" : 0,
+          "qSelected" : 0,
+          "qOption" : 3,
+          "qDeselected" : 0,
+          "qAlternative" : 0,
+          "qExcluded" : 0,
+          "qSelectedExcluded" : 0,
+          "qLockedExcluded" : 0
+        },
+        "qTags" : [ "$ascii", "$text" ],
+        "qDimensionType" : "D",
+        "qGrouping" : "N",
+        "qNumFormat" : {
+          "qType" : "R",
+          "qnDec" : 14,
+          "qUseThou" : 1,
+          "qFmt" : "##############",
+          "qDec" : "."
+        },
+        "qIsAutoFormat" : true,
+        "qGroupFieldDefs" : [ "=ShippingCompany" ],
+        "qMin" : 0,
+        "qMax" : 0,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qCardinalities" : {
+          "qCardinal" : 0,
+          "qHypercubeCardinal" : 0,
+          "qAllValuesCardinal" : -1
+        },
+        "title" : "Shipping Company",
+        "autoSort" : true,
+        "cId" : "kUQfwgm",
+        "othersLabel" : "Others"
+      } ],
+      "qMeasureInfo" : [ {
+        "qFallbackTitle" : "Shipping Cost Totals",
+        "qApprMaxGlyphCount" : 8,
+        "qCardinal" : 0,
+        "qSortIndicator" : "D",
+        "qNumFormat" : {
+          "qType" : "R",
+          "qnDec" : 14,
+          "qUseThou" : 1,
+          "qFmt" : "##############",
+          "qDec" : "."
+        },
+        "qMin" : 71.44000000000001,
+        "qMax" : 13751.919999999996,
+        "qIsAutoFormat" : true,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qTrendLines" : [ ],
+        "autoSort" : true,
+        "cId" : "zZLvC",
+        "numFormatFromTemplate" : true
+      } ],
+      "qEffectiveInterColumnSortOrder" : [ 0, 1 ],
+      "qGrandTotalRow" : [ ],
+      "qDataPages" : [ ],
+      "qPivotDataPages" : [ ],
+      "qStackedDataPages" : [ {
+        "qData" : [ {
+          "qElemNo" : 0,
+          "qValue" : 0,
+          "qType" : "R",
+          "qMaxPos" : 41937.13999999999,
+          "qMinNeg" : 0,
+          "qUp" : 0,
+          "qDown" : 0,
+          "qRow" : 0,
+          "qSubNodes" : [ {
+            "qText" : "2011",
+            "qElemNo" : 3,
+            "qValue" : 2011,
+            "qType" : "N",
+            "qMaxPos" : 647.44,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 0,
+            "qSubNodes" : [ {
+              "qText" : "One Liners",
+              "qElemNo" : 1,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 576,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 0,
+              "qSubNodes" : [ {
+                "qText" : "576",
+                "qElemNo" : 0,
+                "qValue" : 576,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 0,
+                "qSubNodes" : [ ]
+              } ]
+            }, {
+              "qText" : "Ship for U",
+              "qElemNo" : 2,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 71.44000000000001,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 1,
+              "qSubNodes" : [ {
+                "qText" : "71.44",
+                "qElemNo" : 0,
+                "qValue" : 71.44000000000001,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 1,
+                "qSubNodes" : [ ]
+              } ]
+            } ]
+          }, {
+            "qText" : "2012",
+            "qElemNo" : 4,
+            "qValue" : 2012,
+            "qType" : "N",
+            "qMaxPos" : 6507.460000000001,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 2,
+            "qSubNodes" : [ {
+              "qText" : "Freight Express",
+              "qElemNo" : 0,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 1072.0400000000002,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 2,
+              "qSubNodes" : [ {
+                "qText" : "1072.04",
+                "qElemNo" : 0,
+                "qValue" : 1072.0400000000002,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 2,
+                "qSubNodes" : [ ]
+              } ]
+            }, {
+              "qText" : "One Liners",
+              "qElemNo" : 1,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 4289.230000000001,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 3,
+              "qSubNodes" : [ {
+                "qText" : "4289.23",
+                "qElemNo" : 0,
+                "qValue" : 4289.230000000001,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 3,
+                "qSubNodes" : [ ]
+              } ]
+            }, {
+              "qText" : "Ship for U",
+              "qElemNo" : 2,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 1146.1899999999998,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 4,
+              "qSubNodes" : [ {
+                "qText" : "1146.19",
+                "qElemNo" : 0,
+                "qValue" : 1146.1899999999998,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 4,
+                "qSubNodes" : [ ]
+              } ]
+            } ]
+          }, {
+            "qText" : "2013",
+            "qElemNo" : 1,
+            "qValue" : 2013,
+            "qType" : "N",
+            "qMaxPos" : 10872.269999999999,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 5,
+            "qSubNodes" : [ {
+              "qText" : "Freight Express",
+              "qElemNo" : 0,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 2180.2999999999997,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 5,
+              "qSubNodes" : [ {
+                "qText" : "2180.3",
+                "qElemNo" : 0,
+                "qValue" : 2180.2999999999997,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 5,
+                "qSubNodes" : [ ]
+              } ]
+            }, {
+              "qText" : "One Liners",
+              "qElemNo" : 1,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 6281.759999999999,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 6,
+              "qSubNodes" : [ {
+                "qText" : "6281.76",
+                "qElemNo" : 0,
+                "qValue" : 6281.759999999999,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 6,
+                "qSubNodes" : [ ]
+              } ]
+            }, {
+              "qText" : "Ship for U",
+              "qElemNo" : 2,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 2410.2099999999996,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 7,
+              "qSubNodes" : [ {
+                "qText" : "2410.21",
+                "qElemNo" : 0,
+                "qValue" : 2410.2099999999996,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 7,
+                "qSubNodes" : [ ]
+              } ]
+            } ]
+          }, {
+            "qText" : "2014",
+            "qElemNo" : 2,
+            "qValue" : 2014,
+            "qType" : "N",
+            "qMaxPos" : 20863.839999999997,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 8,
+            "qSubNodes" : [ {
+              "qText" : "Freight Express",
+              "qElemNo" : 0,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 3086.3500000000004,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 8,
+              "qSubNodes" : [ {
+                "qText" : "3086.35",
+                "qElemNo" : 0,
+                "qValue" : 3086.3500000000004,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 8,
+                "qSubNodes" : [ ]
+              } ]
+            }, {
+              "qText" : "One Liners",
+              "qElemNo" : 1,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 13751.919999999996,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 9,
+              "qSubNodes" : [ {
+                "qText" : "13751.92",
+                "qElemNo" : 0,
+                "qValue" : 13751.919999999996,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 9,
+                "qSubNodes" : [ ]
+              } ]
+            }, {
+              "qText" : "Ship for U",
+              "qElemNo" : 2,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 4025.57,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 10,
+              "qSubNodes" : [ {
+                "qText" : "4025.57",
+                "qElemNo" : 0,
+                "qValue" : 4025.57,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 10,
+                "qSubNodes" : [ ]
+              } ]
+            } ]
+          }, {
+            "qText" : "2015",
+            "qElemNo" : 0,
+            "qValue" : 2015,
+            "qType" : "N",
+            "qMaxPos" : 3046.1299999999997,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 11,
+            "qSubNodes" : [ {
+              "qText" : "Freight Express",
+              "qElemNo" : 0,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 264.09000000000003,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 11,
+              "qSubNodes" : [ {
+                "qText" : "264.09",
+                "qElemNo" : 0,
+                "qValue" : 264.09000000000003,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 11,
+                "qSubNodes" : [ ]
+              } ]
+            }, {
+              "qText" : "One Liners",
+              "qElemNo" : 1,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 1987.8199999999997,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 12,
+              "qSubNodes" : [ {
+                "qText" : "1987.82",
+                "qElemNo" : 0,
+                "qValue" : 1987.8199999999997,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 12,
+                "qSubNodes" : [ ]
+              } ]
+            }, {
+              "qText" : "Ship for U",
+              "qElemNo" : 2,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 794.2199999999999,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 13,
+              "qSubNodes" : [ {
+                "qText" : "794.22",
+                "qElemNo" : 0,
+                "qValue" : 794.2199999999999,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 13,
+                "qSubNodes" : [ ]
+              } ]
+            } ]
+          } ]
+        } ],
+        "qArea" : {
+          "qLeft" : 0,
+          "qTop" : 0,
+          "qWidth" : 2,
+          "qHeight" : 5
+        }
+      } ],
+      "qMode" : "K",
+      "qNoOfLeftDims" : -1,
+      "qTreeNodesOnDim" : [ ],
+      "qColumnOrder" : [ ],
+      "customErrorMessage" : {
+        "calcCond" : ""
+      }
+    },
+    "refLine" : {
+      "refLines" : [ ]
+    },
+    "showTitles" : true,
+    "title" : "Annual Shipping Cost Totals",
+    "subtitle" : "",
+    "footnote" : "",
+    "lineType" : "area",
+    "stackedArea" : false,
+    "separateStacking" : true,
+    "nullMode" : "gap",
+    "dataPoint" : {
+      "show" : false,
+      "showLabels" : false
+    },
+    "gridLine" : {
+      "auto" : true,
+      "spacing" : 2
+    },
+    "color" : {
+      "auto" : true,
+      "mode" : "primary",
+      "singleColor" : 3,
+      "persistent" : true,
+      "expressionIsColor" : true,
+      "expressionLabel" : "",
+      "measureScheme" : "sg",
+      "reverseScheme" : false,
+      "dimensionScheme" : "12",
+      "autoMinMax" : true,
+      "measureMin" : 0,
+      "measureMax" : 10
+    },
+    "legend" : {
+      "show" : true,
+      "dock" : "auto",
+      "showTitle" : true
+    },
+    "dimensionAxis" : {
+      "show" : "all",
+      "label" : "auto",
+      "dock" : "near"
+    },
+    "measureAxis" : {
+      "show" : "all",
+      "dock" : "near",
+      "spacing" : 1,
+      "autoMinMax" : true,
+      "minMax" : "min",
+      "min" : 0,
+      "max" : 10,
+      "logarithmic" : false
+    },
+    "visualization" : "linechart",
+    "snapshotData" : {
+      "object" : {
+        "size" : {
+          "w" : 921,
+          "h" : 230
+        }
+      },
+      "content" : {
+        "chartData" : {
+          "legendScrollOffset" : 0,
+          "scrollOffset" : 0,
+          "discreteSpacing" : 170.4,
+          "axisInnerOffset" : 0,
+          "hasMiniChart" : false
+        },
+        "size" : {
+          "w" : 921,
+          "h" : 203
+        },
+        "components" : {
+          "grid" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 852,
+              "h" : 174
+            }
+          },
+          "colorLegend" : {
+            "visible" : false,
+            "dock" : "right",
+            "size" : {
+              "w" : 0,
+              "h" : 174
+            }
+          },
+          "miniChart" : {
+            "visible" : false,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 852,
+              "h" : 0
+            }
+          },
+          "refLineLabels" : {
+            "visible" : false,
+            "dock" : "right",
+            "size" : {
+              "w" : 0,
+              "h" : 174
+            }
+          },
+          "scrollArea" : {
+            "visible" : false,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 852,
+              "h" : 0
+            }
+          },
+          "refLines" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 852,
+              "h" : 174
+            }
+          },
+          "dataArea" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 852,
+              "h" : 174
+            }
+          },
+          "measureAxis" : {
+            "visible" : true,
+            "dock" : "left",
+            "size" : {
+              "w" : 65,
+              "h" : 174
+            }
+          },
+          "dimensionAxis" : {
+            "visible" : true,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 852,
+              "h" : 24
+            }
+          },
+          "dimensionAxisTitle" : {
+            "visible" : false,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 852,
+              "h" : 0
+            }
+          }
+        },
+        "v" : 0.96
+      },
+      "parent" : {
+        "h" : 516,
+        "w" : 947
+      }
+    },
+    "visualizationType" : "linechart",
+    "sourceObjectId" : "stLeFum",
+    "timestamp" : 1454936528722,
+    "isClone" : false
+  },
+  "qStateData" : [ {
+    "qStateName" : "$",
+    "qFieldItems" : [ ]
+  } ],
+  "qPatches" : [ ]
+}

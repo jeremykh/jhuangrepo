@@ -1,0 +1,128 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "200c87b5c34ebfc6fc6dae696a6a894b1c4b8cf9",
+      "contentName" : "content",
+      "contentOid" : 18865,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "bounds" : {
+            "height" : 50,
+            "width" : 100,
+            "x" : 0,
+            "y" : 50
+          },
+          "col" : 0,
+          "colspan" : 24,
+          "name" : "jLQJfB",
+          "row" : 6,
+          "rowspan" : 6,
+          "type" : "table"
+        }, {
+          "bounds" : {
+            "height" : 25,
+            "width" : 45.83333333333333,
+            "x" : 0,
+            "y" : 0
+          },
+          "col" : 0,
+          "colspan" : 11,
+          "name" : "UaBRsX",
+          "row" : 0,
+          "rowspan" : 3,
+          "type" : "text-image"
+        }, {
+          "bounds" : {
+            "height" : 25,
+            "width" : 45.83333333333333,
+            "x" : 0,
+            "y" : 25
+          },
+          "col" : 0,
+          "colspan" : 11,
+          "name" : "jrvdJCm",
+          "row" : 3,
+          "rowspan" : 3,
+          "type" : "table"
+        }, {
+          "bounds" : {
+            "height" : 50,
+            "width" : 54.166666666666664,
+            "x" : 45.83333333333333,
+            "y" : 0
+          },
+          "col" : 11,
+          "colspan" : 13,
+          "name" : "KnCGc",
+          "row" : 0,
+          "rowspan" : 6,
+          "type" : "table"
+        } ],
+        "columns" : 24,
+        "gridResolution" : "small",
+        "qInfo" : {
+          "qId" : "9a190063-4c91-4250-b3e7-2ad07f3a0e9d",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "",
+          "title" : "Log Details"
+        },
+        "rank" : 0.46875,
+        "rows" : 12,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/72d45588-644b-4905-a064-a3923f3f6e08/Icon_Analyze_grey.png"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+        "name" : "sa_repository",
+        "userDirectory" : "INTERNAL",
+        "userId" : "sa_repository"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "9a190063-4c91-4250-b3e7-2ad07f3a0e9d,Sheet;72d45588-644b-4905-a064-a3923f3f6e08,App;",
+  "key" : {
+    "id" : 876
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/Operations Monitor/Sheets/Log Details",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Log Details",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 235
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 179, 235, 876 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

@@ -1,0 +1,232 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "cebbff5de8ece245fc8f0a9340f31e564d57dded",
+      "contentName" : "content",
+      "contentOid" : 18812,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "bounds" : {
+            "height" : 11.11111111111111,
+            "width" : 25,
+            "x" : 0,
+            "y" : 16.666666666666664
+          },
+          "col" : 0,
+          "colspan" : 9,
+          "name" : "5fb01240-b452-4a3b-85d0-23340652400e",
+          "row" : 3,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "bounds" : {
+            "height" : 16.666666666666664,
+            "width" : 25,
+            "x" : 0,
+            "y" : 0
+          },
+          "col" : 0,
+          "colspan" : 9,
+          "name" : "dda9db48-dce7-445d-bf30-ce22eb7dfe50",
+          "row" : 0,
+          "rowspan" : 3,
+          "type" : "kpi"
+        }, {
+          "bounds" : {
+            "height" : 11.11111111111111,
+            "width" : 25,
+            "x" : 0,
+            "y" : 27.77777777777778
+          },
+          "col" : 0,
+          "colspan" : 9,
+          "name" : "e7bddf07-d20d-4685-8fb3-dde515240df2",
+          "row" : 5,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "bounds" : {
+            "height" : 11.11111111111111,
+            "width" : 25,
+            "x" : 0,
+            "y" : 38.88888888888889
+          },
+          "col" : 0,
+          "colspan" : 9,
+          "name" : "HMyHXk",
+          "row" : 7,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "bounds" : {
+            "height" : 50,
+            "width" : 50,
+            "x" : 50,
+            "y" : 50
+          },
+          "col" : 18,
+          "colspan" : 18,
+          "name" : "3d2e1b84-8d17-43ae-b013-29a6b713e3ad",
+          "row" : 9,
+          "rowspan" : 9,
+          "type" : "linechart"
+        }, {
+          "bounds" : {
+            "height" : 50,
+            "width" : 25,
+            "x" : 50,
+            "y" : 0
+          },
+          "col" : 18,
+          "colspan" : 9,
+          "name" : "f8aebc69-7221-43f2-a242-69e643910459",
+          "row" : 0,
+          "rowspan" : 9,
+          "type" : "barchart"
+        }, {
+          "bounds" : {
+            "height" : 50,
+            "width" : 50,
+            "x" : 0,
+            "y" : 50
+          },
+          "col" : 0,
+          "colspan" : 18,
+          "name" : "ppkhJhv",
+          "row" : 9,
+          "rowspan" : 9,
+          "type" : "barchart"
+        }, {
+          "bounds" : {
+            "height" : 50,
+            "width" : 25,
+            "x" : 75,
+            "y" : 0
+          },
+          "col" : 27,
+          "colspan" : 9,
+          "name" : "AzPdbJd",
+          "row" : 0,
+          "rowspan" : 9,
+          "type" : "barchart"
+        }, {
+          "bounds" : {
+            "height" : 16.666666666666664,
+            "width" : 25,
+            "x" : 25,
+            "y" : 0
+          },
+          "col" : 9,
+          "colspan" : 9,
+          "name" : "hNFGHX",
+          "row" : 0,
+          "rowspan" : 3,
+          "type" : "kpi"
+        }, {
+          "bounds" : {
+            "height" : 11.11111111111111,
+            "width" : 25,
+            "x" : 25,
+            "y" : 16.666666666666664
+          },
+          "col" : 9,
+          "colspan" : 9,
+          "name" : "DAjgzV",
+          "row" : 3,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "bounds" : {
+            "height" : 11.11111111111111,
+            "width" : 25,
+            "x" : 25,
+            "y" : 27.77777777777778
+          },
+          "col" : 9,
+          "colspan" : 9,
+          "name" : "EKUxvs",
+          "row" : 5,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "bounds" : {
+            "height" : 11.11111111111111,
+            "width" : 25,
+            "x" : 25,
+            "y" : 38.88888888888889
+          },
+          "col" : 9,
+          "colspan" : 9,
+          "name" : "ZhYSmw",
+          "row" : 7,
+          "rowspan" : 2,
+          "type" : "kpi"
+        } ],
+        "columns" : 36,
+        "gridResolution" : "large",
+        "qInfo" : {
+          "qId" : "3c6925b8-5c17-4e16-93b5-bf603672d2e1",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "",
+          "title" : "Session Overview"
+        },
+        "rank" : 0.37109375,
+        "rows" : 18,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/72d45588-644b-4905-a064-a3923f3f6e08/Icon_Chart_grey.png"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+        "name" : "sa_repository",
+        "userDirectory" : "INTERNAL",
+        "userId" : "sa_repository"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "3c6925b8-5c17-4e16-93b5-bf603672d2e1,Sheet;72d45588-644b-4905-a064-a3923f3f6e08,App;",
+  "key" : {
+    "id" : 728
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/Operations Monitor/Sheets/Session Overview",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Session Overview",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 235
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 179, 235, 728 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

@@ -1,0 +1,1088 @@
+{
+  "qProp" : {
+    "qInfo" : {
+      "qId" : "HLvVX",
+      "qType" : "snapshot"
+    },
+    "qMetaDef" : {
+      "title" : "Sales vs Margin by Sales Rep"
+    },
+    "title" : "Sales vs Margin by Sales Rep",
+    "description" : "",
+    "sheetId" : "VJyJ",
+    "creationDate" : "2014-06-24",
+    "qMeta" : { },
+    "qSelectionInfo" : { },
+    "qHyperCube" : {
+      "qSize" : {
+        "qcx" : 3,
+        "qcy" : 49
+      },
+      "qDimensionInfo" : [ {
+        "qFallbackTitle" : "Sales Rep",
+        "qApprMaxGlyphCount" : 16,
+        "qCardinal" : 63,
+        "qSortIndicator" : "A",
+        "qGroupFallbackTitles" : [ "Sales Rep" ],
+        "qGroupPos" : 0,
+        "qStateCounts" : {
+          "qLocked" : 0,
+          "qSelected" : 0,
+          "qOption" : 49,
+          "qDeselected" : 0,
+          "qAlternative" : 0,
+          "qExcluded" : 14,
+          "qSelectedExcluded" : 0,
+          "qLockedExcluded" : 0
+        },
+        "qTags" : [ "$ascii", "$text" ],
+        "qDimensionType" : "D",
+        "qGrouping" : "N",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qnDec" : 0,
+          "qUseThou" : 0
+        },
+        "qIsAutoFormat" : true,
+        "qGroupFieldDefs" : [ "Sales Rep Name" ],
+        "qMin" : 0,
+        "qMax" : 0,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qCardinalities" : {
+          "qCardinal" : 0,
+          "qHypercubeCardinal" : 0,
+          "qAllValuesCardinal" : -1
+        },
+        "title" : "Sales Rep",
+        "autoSort" : true,
+        "cId" : "qvHTMd",
+        "othersLabel" : "Others"
+      } ],
+      "qMeasureInfo" : [ {
+        "qFallbackTitle" : "Margin %",
+        "qApprMaxGlyphCount" : 3,
+        "qCardinal" : 47,
+        "qSortIndicator" : "D",
+        "qNumFormat" : {
+          "qType" : "F",
+          "qnDec" : 2,
+          "qUseThou" : 0,
+          "qFmt" : "0%",
+          "qDec" : ".",
+          "qThou" : ","
+        },
+        "qMin" : 0.27523948510702007,
+        "qMax" : 0.8132867132867135,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qTrendLines" : [ ],
+        "autoSort" : true,
+        "cId" : "vpTeLC",
+        "numFormatFromTemplate" : true
+      }, {
+        "qFallbackTitle" : "Revenue",
+        "qApprMaxGlyphCount" : 8,
+        "qCardinal" : 48,
+        "qSortIndicator" : "D",
+        "qNumFormat" : {
+          "qType" : "R",
+          "qnDec" : 0,
+          "qUseThou" : 0,
+          "qFmt" : "##############",
+          "qDec" : ".",
+          "qThou" : ","
+        },
+        "qMin" : -94.3,
+        "qMax" : 3231.12,
+        "qIsAutoFormat" : true,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qTrendLines" : [ ],
+        "autoSort" : true,
+        "cId" : "jrdTvp",
+        "numFormatFromTemplate" : true
+      } ],
+      "qEffectiveInterColumnSortOrder" : [ 2, 1, 0 ],
+      "qGrandTotalRow" : [ {
+        "qText" : "47%",
+        "qNum" : 0.466770851923488,
+        "qElemNumber" : -1,
+        "qState" : "X",
+        "qIsTotalCell" : true
+      }, {
+        "qText" : "24878.76",
+        "qNum" : 24878.76000000001,
+        "qElemNumber" : -1,
+        "qState" : "X",
+        "qIsTotalCell" : true
+      } ],
+      "qDataPages" : [ {
+        "qMatrix" : [ [ {
+          "qText" : "Brad Taylor",
+          "qNum" : "NaN",
+          "qElemNumber" : 0,
+          "qState" : "O"
+        }, {
+          "qText" : "38%",
+          "qNum" : 0.3846034811458564,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "3231.12",
+          "qNum" : 3231.12,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Amanda Honda",
+          "qNum" : "NaN",
+          "qElemNumber" : 56,
+          "qState" : "O"
+        }, {
+          "qText" : "40%",
+          "qNum" : 0.40006359507282724,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "2767.51",
+          "qNum" : 2767.5099999999998,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "TAGnology",
+          "qNum" : "NaN",
+          "qElemNumber" : 38,
+          "qState" : "O"
+        }, {
+          "qText" : "51%",
+          "qNum" : 0.5113969559766671,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "1930.34",
+          "qNum" : 1930.3400000000006,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Bima Malek",
+          "qNum" : "NaN",
+          "qElemNumber" : 44,
+          "qState" : "O"
+        }, {
+          "qText" : "41%",
+          "qNum" : 0.4132036787534415,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "1707.1",
+          "qNum" : 1707.1000000000004,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Karl Anderson",
+          "qNum" : "NaN",
+          "qElemNumber" : 43,
+          "qState" : "O"
+        }, {
+          "qText" : "42%",
+          "qNum" : 0.4173400051953024,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "1462.86",
+          "qNum" : 1462.86,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Donna Brown",
+          "qNum" : "NaN",
+          "qElemNumber" : 53,
+          "qState" : "O"
+        }, {
+          "qText" : "42%",
+          "qNum" : 0.420306518782338,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "1426.34",
+          "qNum" : 1426.3400000000001,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "William Fisher",
+          "qNum" : "NaN",
+          "qElemNumber" : 13,
+          "qState" : "O"
+        }, {
+          "qText" : "44%",
+          "qNum" : 0.4376926499737065,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "1236.05",
+          "qNum" : 1236.0500000000002,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Cary Frank",
+          "qNum" : "NaN",
+          "qElemNumber" : 33,
+          "qState" : "O"
+        }, {
+          "qText" : "62%",
+          "qNum" : 0.6221660203450794,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "889.65",
+          "qNum" : 889.6500000000002,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Dennis Johnson",
+          "qNum" : "NaN",
+          "qElemNumber" : 29,
+          "qState" : "O"
+        }, {
+          "qText" : "45%",
+          "qNum" : 0.44717156991611495,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "836.86",
+          "qNum" : 836.8599999999999,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Amalia Craig",
+          "qNum" : "NaN",
+          "qElemNumber" : 35,
+          "qState" : "O"
+        }, {
+          "qText" : "49%",
+          "qNum" : 0.4936890240103668,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "802.57",
+          "qNum" : 802.5699999999999,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "David Laychak",
+          "qNum" : "NaN",
+          "qElemNumber" : 42,
+          "qState" : "O"
+        }, {
+          "qText" : "57%",
+          "qNum" : 0.5691793287340755,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "708.81",
+          "qNum" : 708.8100000000001,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Craig Amundson",
+          "qNum" : "NaN",
+          "qElemNumber" : 52,
+          "qState" : "O"
+        }, {
+          "qText" : "57%",
+          "qNum" : 0.5672809779588812,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "647.88",
+          "qNum" : 647.8800000000001,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Don Simmons",
+          "qNum" : "NaN",
+          "qElemNumber" : 27,
+          "qState" : "O"
+        }, {
+          "qText" : "57%",
+          "qNum" : 0.573376077686825,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "642.58",
+          "qNum" : 642.58,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "John Greg",
+          "qNum" : "NaN",
+          "qElemNumber" : 30,
+          "qState" : "O"
+        }, {
+          "qText" : "32%",
+          "qNum" : 0.3228368106097364,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "618.3",
+          "qNum" : 618.3,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Carolyn Halmon",
+          "qNum" : "NaN",
+          "qElemNumber" : 51,
+          "qState" : "O"
+        }, {
+          "qText" : "45%",
+          "qNum" : 0.44685470056478016,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "589.61",
+          "qNum" : 589.61,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Edward Laychak",
+          "qNum" : "NaN",
+          "qElemNumber" : 25,
+          "qState" : "O"
+        }, {
+          "qText" : "28%",
+          "qNum" : 0.27523948510702007,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "534.48",
+          "qNum" : 534.4799999999998,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Ruth Sakas",
+          "qNum" : "NaN",
+          "qElemNumber" : 46,
+          "qState" : "O"
+        }, {
+          "qText" : "46%",
+          "qNum" : 0.46023403818517755,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "487.1",
+          "qNum" : 487.1,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Amelia Fields",
+          "qNum" : "NaN",
+          "qElemNumber" : 6,
+          "qState" : "O"
+        }, {
+          "qText" : "59%",
+          "qNum" : 0.586341544468907,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "481.46",
+          "qNum" : 481.46000000000004,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Jose Bowen",
+          "qNum" : "NaN",
+          "qElemNumber" : 2,
+          "qState" : "O"
+        }, {
+          "qText" : "36%",
+          "qNum" : 0.3600219961506736,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "363.7",
+          "qNum" : 363.70000000000005,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Sharon Carver",
+          "qNum" : "NaN",
+          "qElemNumber" : 5,
+          "qState" : "O"
+        }, {
+          "qText" : "60%",
+          "qNum" : 0.5983216947362244,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "340.82",
+          "qNum" : 340.82,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Ken Roberts",
+          "qNum" : "NaN",
+          "qElemNumber" : 28,
+          "qState" : "O"
+        }, {
+          "qText" : "59%",
+          "qNum" : 0.5899829458755946,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "334.23",
+          "qNum" : 334.2300000000001,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Ronald Milam",
+          "qNum" : "NaN",
+          "qElemNumber" : 37,
+          "qState" : "O"
+        }, {
+          "qText" : "56%",
+          "qNum" : 0.5600128369704749,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "311.6",
+          "qNum" : 311.6,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Micheal Williams",
+          "qNum" : "NaN",
+          "qElemNumber" : 39,
+          "qState" : "O"
+        }, {
+          "qText" : "58%",
+          "qNum" : 0.5760554247295315,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "293.01",
+          "qNum" : 293.01,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Karen Clinton",
+          "qNum" : "NaN",
+          "qElemNumber" : 54,
+          "qState" : "O"
+        }, {
+          "qText" : "60%",
+          "qNum" : 0.5976331360946745,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "278.85",
+          "qNum" : 278.85,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Angelen Carter",
+          "qNum" : "NaN",
+          "qElemNumber" : 23,
+          "qState" : "O"
+        }, {
+          "qText" : "58%",
+          "qNum" : 0.5795887583359796,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "251.92",
+          "qNum" : 251.92000000000002,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "John Davis",
+          "qNum" : "NaN",
+          "qElemNumber" : 40,
+          "qState" : "O"
+        }, {
+          "qText" : "59%",
+          "qNum" : 0.5904793264029353,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "212.59",
+          "qNum" : 212.59,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Scott Powell",
+          "qNum" : "NaN",
+          "qElemNumber" : 18,
+          "qState" : "O"
+        }, {
+          "qText" : "81%",
+          "qNum" : 0.8132867132867135,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "200.2",
+          "qNum" : 200.19999999999996,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Craig Lary",
+          "qNum" : "NaN",
+          "qElemNumber" : 55,
+          "qState" : "O"
+        }, {
+          "qText" : "59%",
+          "qNum" : 0.5937364071335363,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "183.92",
+          "qNum" : 183.92000000000004,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Odessa Morris",
+          "qNum" : "NaN",
+          "qElemNumber" : 60,
+          "qState" : "O"
+        }, {
+          "qText" : "58%",
+          "qNum" : 0.5784363533728478,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "177.15",
+          "qNum" : 177.15,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Marian White",
+          "qNum" : "NaN",
+          "qElemNumber" : 22,
+          "qState" : "O"
+        }, {
+          "qText" : "61%",
+          "qNum" : 0.6101259477410865,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "159.59",
+          "qNum" : 159.59,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Sheila Hein",
+          "qNum" : "NaN",
+          "qElemNumber" : 32,
+          "qState" : "O"
+        }, {
+          "qText" : "61%",
+          "qNum" : 0.6103814884302688,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "143.91",
+          "qNum" : 143.91000000000003,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Teresa Lynch",
+          "qNum" : "NaN",
+          "qElemNumber" : 11,
+          "qState" : "O"
+        }, {
+          "qText" : "59%",
+          "qNum" : 0.5903852486005927,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "121.48",
+          "qNum" : 121.47999999999999,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Martha Richard",
+          "qNum" : "NaN",
+          "qElemNumber" : 26,
+          "qState" : "O"
+        }, {
+          "qText" : "59%",
+          "qNum" : 0.5878436221820603,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "105.13",
+          "qNum" : 105.13,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Brenda Kegler",
+          "qNum" : "NaN",
+          "qElemNumber" : 7,
+          "qState" : "O"
+        }, {
+          "qText" : "60%",
+          "qNum" : 0.6030582988212806,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "94.17",
+          "qNum" : 94.17,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Janice Scott",
+          "qNum" : "NaN",
+          "qElemNumber" : 50,
+          "qState" : "O"
+        }, {
+          "qText" : "57%",
+          "qNum" : 0.5738088680804186,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "72.62",
+          "qNum" : 72.62,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Jimmie Holley",
+          "qNum" : "NaN",
+          "qElemNumber" : 9,
+          "qState" : "O"
+        }, {
+          "qText" : "58%",
+          "qNum" : 0.5835561497326203,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "59.84",
+          "qNum" : 59.84,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "David Howard",
+          "qNum" : "NaN",
+          "qElemNumber" : 31,
+          "qState" : "O"
+        }, {
+          "qText" : "58%",
+          "qNum" : 0.5794122643111941,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "58.87",
+          "qNum" : 58.870000000000005,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Kathy Clinton",
+          "qNum" : "NaN",
+          "qElemNumber" : 10,
+          "qState" : "O"
+        }, {
+          "qText" : "59%",
+          "qNum" : 0.5917431192660549,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "45.78",
+          "qNum" : 45.78,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Samantha Allen",
+          "qNum" : "NaN",
+          "qElemNumber" : 62,
+          "qState" : "O"
+        }, {
+          "qText" : "60%",
+          "qNum" : 0.5978050355067785,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "30.98",
+          "qNum" : 30.98,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Ted Moy",
+          "qNum" : "NaN",
+          "qElemNumber" : 24,
+          "qState" : "O"
+        }, {
+          "qText" : "59%",
+          "qNum" : 0.5881570192947438,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "30.06",
+          "qNum" : 30.060000000000002,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Edward Smith",
+          "qNum" : "NaN",
+          "qElemNumber" : 14,
+          "qState" : "O"
+        }, {
+          "qText" : "57%",
+          "qNum" : 0.5721153846153846,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "29.12",
+          "qNum" : 29.12,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Brenda Gibson",
+          "qNum" : "NaN",
+          "qElemNumber" : 47,
+          "qState" : "O"
+        }, {
+          "qText" : "57%",
+          "qNum" : 0.573103448275862,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "29",
+          "qNum" : 29,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Sandra Barone",
+          "qNum" : "NaN",
+          "qElemNumber" : 49,
+          "qState" : "O"
+        }, {
+          "qText" : "59%",
+          "qNum" : 0.5943643512450852,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "15.26",
+          "qNum" : 15.26,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Peggie Hurt",
+          "qNum" : "NaN",
+          "qElemNumber" : 1,
+          "qState" : "O"
+        }, {
+          "qText" : "58%",
+          "qNum" : 0.5820391627278866,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "14.81",
+          "qNum" : 14.81,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Deborah Halmon",
+          "qNum" : "NaN",
+          "qElemNumber" : 45,
+          "qState" : "O"
+        }, {
+          "qText" : "55%",
+          "qNum" : 0.5495300072306579,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "13.83",
+          "qNum" : 13.83,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Judy Thurman",
+          "qNum" : "NaN",
+          "qElemNumber" : 4,
+          "qState" : "O"
+        }, {
+          "qText" : "-",
+          "qNum" : "NaN",
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "0",
+          "qNum" : 0,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Max Blagburn",
+          "qNum" : "NaN",
+          "qElemNumber" : 20,
+          "qState" : "O"
+        }, {
+          "qText" : "-",
+          "qNum" : "NaN",
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "0",
+          "qNum" : 0,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Stewart Wind",
+          "qNum" : "NaN",
+          "qElemNumber" : 17,
+          "qState" : "O"
+        }, {
+          "qText" : "-",
+          "qNum" : "NaN",
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "0",
+          "qNum" : 0,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "Molly McKenzie",
+          "qNum" : "NaN",
+          "qElemNumber" : 48,
+          "qState" : "O"
+        }, {
+          "qText" : "60%",
+          "qNum" : 0.6033934252386002,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        }, {
+          "qText" : "-94.3",
+          "qNum" : -94.3,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ] ],
+        "qTails" : [ {
+          "qUp" : 0,
+          "qDown" : 0
+        } ],
+        "qArea" : {
+          "qLeft" : 0,
+          "qTop" : 0,
+          "qWidth" : 3,
+          "qHeight" : 49
+        }
+      } ],
+      "qPivotDataPages" : [ ],
+      "qStackedDataPages" : [ ],
+      "qMode" : "S",
+      "qNoOfLeftDims" : 0,
+      "qTreeNodesOnDim" : [ ],
+      "qColumnOrder" : [ ]
+    },
+    "refLine" : {
+      "refLinesX" : [ {
+        "show" : true,
+        "label" : "Margin Target",
+        "color" : "#f93f17",
+        "refLineExpr" : {
+          "label" : ".45",
+          "value" : 0.45
+        },
+        "cId" : "SFmPUz",
+        "$$hashKey" : "L7J"
+      } ],
+      "refLinesY" : [ ]
+    },
+    "showTitles" : true,
+    "subtitle" : "",
+    "footnote" : "",
+    "dataPoint" : {
+      "bubbleSizes" : 5,
+      "rangeBubbleSizes" : [ 2, 8 ]
+    },
+    "labels" : {
+      "mode" : 1
+    },
+    "gridLine" : {
+      "auto" : true,
+      "spacing" : 2
+    },
+    "color" : {
+      "auto" : true,
+      "mode" : "primary",
+      "singleColor" : "#4477aa",
+      "persistent" : false,
+      "measureScheme" : "sg",
+      "reverseScheme" : false,
+      "dimensionScheme" : "12"
+    },
+    "legend" : {
+      "show" : false,
+      "dock" : "auto",
+      "showTitle" : true
+    },
+    "xAxis" : {
+      "show" : "labels",
+      "label" : "auto",
+      "dock" : "near",
+      "spacing" : 0.5,
+      "autoMinMax" : false,
+      "minMax" : "min",
+      "min" : 0,
+      "max" : 10
+    },
+    "yAxis" : {
+      "show" : "labels",
+      "label" : "auto",
+      "dock" : "near",
+      "spacing" : 0.5,
+      "autoMinMax" : false,
+      "minMax" : "min",
+      "min" : 0,
+      "max" : 10
+    },
+    "visualization" : "scatterplot",
+    "visualizationType" : "scatterplot",
+    "timestamp" : 1403651487449,
+    "sourceObjectId" : "wmZEw",
+    "isClone" : false,
+    "snapshotData" : {
+      "object" : {
+        "size" : {
+          "w" : 648,
+          "h" : 398
+        }
+      },
+      "parent" : {
+        "h" : 738,
+        "w" : 1590
+      },
+      "content" : {
+        "chartData" : {
+          "legendScrollOffset" : 0,
+          "xAxisMin" : 0,
+          "xAxisMax" : 0.9,
+          "yAxisMin" : 0,
+          "yAxisMax" : 3500
+        },
+        "size" : {
+          "w" : 648,
+          "h" : 371
+        },
+        "components" : {
+          "grid" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 586,
+              "h" : 274
+            }
+          },
+          "xAxis" : {
+            "visible" : true,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 586,
+              "h" : 33
+            }
+          },
+          "yAxis" : {
+            "visible" : true,
+            "dock" : "left",
+            "size" : {
+              "w" : 48,
+              "h" : 274
+            }
+          },
+          "xAxisTitle" : {
+            "visible" : false,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 586,
+              "h" : 0
+            }
+          },
+          "refLineLabelsX" : {
+            "visible" : true,
+            "dock" : "top",
+            "size" : {
+              "w" : 586,
+              "h" : 40
+            }
+          },
+          "refLineLabelsY" : {
+            "visible" : false,
+            "dock" : "right",
+            "size" : {
+              "w" : 0,
+              "h" : 274
+            }
+          },
+          "legend" : {
+            "visible" : false,
+            "dock" : "right",
+            "size" : {
+              "w" : 0,
+              "h" : 274
+            }
+          },
+          "refLines" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 586,
+              "h" : 274
+            }
+          },
+          "dataArea" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 586,
+              "h" : 274
+            }
+          }
+        },
+        "v" : 0.96
+      }
+    },
+    "compressionResolution" : 5
+  },
+  "qStateData" : [ {
+    "qStateName" : "$",
+    "qFieldItems" : [ {
+      "qDef" : {
+        "qName" : "Line Desc 1",
+        "qType" : "PRESENT"
+      },
+      "qSelectInfo" : {
+        "qRangeLo" : "NaN",
+        "qRangeHi" : "NaN",
+        "qNumberFormat" : {
+          "qType" : "U",
+          "qnDec" : 10,
+          "qUseThou" : 0
+        },
+        "qRangeInfo" : [ ],
+        "qContinuousRangeInfo" : [ ]
+      },
+      "qValues" : [ {
+        "qText" : "Ebony Cauliflower",
+        "qNumber" : "NaN"
+      } ],
+      "qExcludedValues" : [ ]
+    } ]
+  }, {
+    "qStateName" : "Group1",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group2",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group3",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group4",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group 1",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group 2",
+    "qFieldItems" : [ ]
+  } ],
+  "qPatches" : [ ]
+}

@@ -1,0 +1,108 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "0b3db55c658ce804a3ca2a7b0297f80c7ef41563",
+      "contentName" : "content",
+      "contentOid" : 18933,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "col" : 0,
+          "colspan" : 24,
+          "name" : "PgmMHr",
+          "row" : 7,
+          "rowspan" : 5,
+          "type" : "pivot-table"
+        }, {
+          "col" : 17,
+          "colspan" : 7,
+          "name" : "NCtK",
+          "row" : 1,
+          "rowspan" : 6,
+          "type" : "piechart"
+        }, {
+          "col" : 0,
+          "colspan" : 24,
+          "name" : "PjZfjY",
+          "row" : 0,
+          "rowspan" : 1,
+          "type" : "filterpane"
+        }, {
+          "col" : 0,
+          "colspan" : 17,
+          "name" : "kTkyjf",
+          "row" : 1,
+          "rowspan" : 6,
+          "type" : "combochart"
+        } ],
+        "columns" : 24,
+        "qChildListDef" : {
+          "qData" : {
+            "title" : "/title"
+          }
+        },
+        "qInfo" : {
+          "qId" : "7521c1f9-b9a6-4c4a-bd37-6169e8214e00",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "The expenses sheet shows the companies performance against expense budgets and vs the prior year.",
+          "title" : "Expenses"
+        },
+        "rank" : 1.5,
+        "rows" : 12,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/5b26c4a1-9028-49b8-87eb-703aaaf67569/Exp.png"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "7521c1f9-b9a6-4c4a-bd37-6169e8214e00,Sheet;5b26c4a1-9028-49b8-87eb-703aaaf67569,App;",
+  "key" : {
+    "id" : 996
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Executive Dashboard/Sheets/Expenses",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Expenses",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 245
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 180, 245, 996 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

@@ -1,0 +1,540 @@
+{
+  "qProp" : {
+    "qInfo" : {
+      "qId" : "phhG",
+      "qType" : "snapshot"
+    },
+    "qMetaDef" : {
+      "title" : "Concurrent Users Over Time (Multinode)",
+      "description" : ""
+    },
+    "sheetId" : "xUpRMjd",
+    "creationDate" : "2015-07-31T15:55:22.932Z",
+    "qSelectionInfo" : { },
+    "qHyperCube" : {
+      "qSize" : {
+        "qcx" : 1,
+        "qcy" : 6
+      },
+      "qDimensionInfo" : [ {
+        "qFallbackTitle" : "Date",
+        "qApprMaxGlyphCount" : 10,
+        "qCardinal" : 79,
+        "qSortIndicator" : "A",
+        "qGroupFallbackTitles" : [ "Month", "Date", "Hour Timeline" ],
+        "qGroupPos" : 1,
+        "qStateCounts" : {
+          "qLocked" : 0,
+          "qSelected" : 3,
+          "qOption" : 0,
+          "qDeselected" : 0,
+          "qAlternative" : 28,
+          "qExcluded" : 48,
+          "qSelectedExcluded" : 0,
+          "qLockedExcluded" : 0
+        },
+        "qTags" : [ "$numeric", "$integer", "$timestamp", "$date" ],
+        "qDimensionType" : "N",
+        "qGrouping" : "H",
+        "qNumFormat" : {
+          "qType" : "D",
+          "qnDec" : 0,
+          "qUseThou" : 0,
+          "qFmt" : "YYYY-MM-DD"
+        },
+        "qIsAutoFormat" : true,
+        "qGroupFieldDefs" : [ "Month", "Date", "Hour Timeline" ],
+        "qMin" : 0,
+        "qMax" : 0,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qCardinalities" : {
+          "qCardinal" : 0,
+          "qHypercubeCardinal" : 0,
+          "qAllValuesCardinal" : -1
+        },
+        "title" : "Month>Date>Hour Drill",
+        "autoSort" : true,
+        "cId" : "qgYpM",
+        "othersLabel" : "Others"
+      }, {
+        "qFallbackTitle" : "Hostname",
+        "qApprMaxGlyphCount" : 15,
+        "qCardinal" : 2,
+        "qSortIndicator" : "A",
+        "qGroupFallbackTitles" : [ "Hostname" ],
+        "qGroupPos" : 0,
+        "qStateCounts" : {
+          "qLocked" : 0,
+          "qSelected" : 0,
+          "qOption" : 2,
+          "qDeselected" : 0,
+          "qAlternative" : 0,
+          "qExcluded" : 0,
+          "qSelectedExcluded" : 0,
+          "qLockedExcluded" : 0
+        },
+        "qTags" : [ "$ascii", "$text" ],
+        "qDimensionType" : "D",
+        "qGrouping" : "N",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qnDec" : 0,
+          "qUseThou" : 0
+        },
+        "qIsAutoFormat" : true,
+        "qGroupFieldDefs" : [ "Hostname" ],
+        "qMin" : 0,
+        "qMax" : 0,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qCardinalities" : {
+          "qCardinal" : 0,
+          "qHypercubeCardinal" : 0,
+          "qAllValuesCardinal" : -1
+        },
+        "title" : "Hostname",
+        "autoSort" : true,
+        "cId" : "TVLqZf",
+        "othersLabel" : "Others"
+      } ],
+      "qMeasureInfo" : [ {
+        "qFallbackTitle" : "Concurrent Users",
+        "qApprMaxGlyphCount" : 2,
+        "qCardinal" : 0,
+        "qSortIndicator" : "D",
+        "qNumFormat" : {
+          "qType" : "F",
+          "qnDec" : 2,
+          "qUseThou" : 0,
+          "qFmt" : "#,##0",
+          "qDec" : ".",
+          "qThou" : ","
+        },
+        "qMin" : 0,
+        "qMax" : 47,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qTrendLines" : [ ],
+        "autoSort" : true,
+        "cId" : "CJPGqP",
+        "numFormatFromTemplate" : true
+      } ],
+      "qEffectiveInterColumnSortOrder" : [ 0, 1 ],
+      "qGrandTotalRow" : [ ],
+      "qDataPages" : [ ],
+      "qPivotDataPages" : [ ],
+      "qStackedDataPages" : [ {
+        "qData" : [ {
+          "qElemNo" : 0,
+          "qValue" : 0,
+          "qType" : "R",
+          "qMaxPos" : 104,
+          "qMinNeg" : 0,
+          "qUp" : 0,
+          "qDown" : 0,
+          "qRow" : 0,
+          "qSubNodes" : [ {
+            "qText" : "2015-07-29",
+            "qElemNo" : 76,
+            "qValue" : 42214,
+            "qType" : "N",
+            "qMaxPos" : 47,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 0,
+            "qSubNodes" : [ {
+              "qText" : "rd-twa-govzilla",
+              "qElemNo" : 1,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 47,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 0,
+              "qSubNodes" : [ {
+                "qText" : "47",
+                "qElemNo" : 0,
+                "qValue" : 47,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 0,
+                "qSubNodes" : [ ]
+              } ]
+            }, {
+              "qText" : "usbos-twa",
+              "qElemNo" : 0,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 0,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 1,
+              "qSubNodes" : [ {
+                "qText" : "0",
+                "qElemNo" : 0,
+                "qValue" : 0,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 1,
+                "qSubNodes" : [ ]
+              } ]
+            } ]
+          }, {
+            "qText" : "2015-07-30",
+            "qElemNo" : 77,
+            "qValue" : 42215,
+            "qType" : "N",
+            "qMaxPos" : 48,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 2,
+            "qSubNodes" : [ {
+              "qText" : "rd-twa-govzilla",
+              "qElemNo" : 1,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 47,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 2,
+              "qSubNodes" : [ {
+                "qText" : "47",
+                "qElemNo" : 0,
+                "qValue" : 47,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 2,
+                "qSubNodes" : [ ]
+              } ]
+            }, {
+              "qText" : "usbos-twa",
+              "qElemNo" : 0,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 1,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 3,
+              "qSubNodes" : [ {
+                "qText" : "1",
+                "qElemNo" : 0,
+                "qValue" : 1,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 3,
+                "qSubNodes" : [ ]
+              } ]
+            } ]
+          }, {
+            "qText" : "2015-07-31",
+            "qElemNo" : 78,
+            "qValue" : 42216,
+            "qType" : "N",
+            "qMaxPos" : 9,
+            "qMinNeg" : 0,
+            "qUp" : 0,
+            "qDown" : 0,
+            "qRow" : 4,
+            "qSubNodes" : [ {
+              "qText" : "rd-twa-govzilla",
+              "qElemNo" : 1,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 9,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 4,
+              "qSubNodes" : [ {
+                "qText" : "9",
+                "qElemNo" : 0,
+                "qValue" : 9,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 4,
+                "qSubNodes" : [ ]
+              } ]
+            }, {
+              "qText" : "usbos-twa",
+              "qElemNo" : 0,
+              "qValue" : "NaN",
+              "qType" : "N",
+              "qMaxPos" : 0,
+              "qMinNeg" : 0,
+              "qUp" : 0,
+              "qDown" : 0,
+              "qRow" : 5,
+              "qSubNodes" : [ {
+                "qText" : "0",
+                "qElemNo" : 0,
+                "qValue" : 0,
+                "qType" : "V",
+                "qMaxPos" : 0,
+                "qMinNeg" : 0,
+                "qUp" : 0,
+                "qDown" : 0,
+                "qRow" : 5,
+                "qSubNodes" : [ ]
+              } ]
+            } ]
+          } ]
+        } ],
+        "qArea" : {
+          "qLeft" : 0,
+          "qTop" : 0,
+          "qWidth" : 2,
+          "qHeight" : 3
+        }
+      } ],
+      "qMode" : "K",
+      "qNoOfLeftDims" : -1,
+      "qTreeNodesOnDim" : [ ],
+      "qColumnOrder" : [ ],
+      "customErrorMessage" : {
+        "calcCond" : ""
+      }
+    },
+    "refLine" : {
+      "refLines" : [ ]
+    },
+    "showTitles" : true,
+    "title" : "Concurrent Users Over Time (Multinode)",
+    "subtitle" : "",
+    "footnote" : "",
+    "lineType" : "line",
+    "stackedArea" : false,
+    "separateStacking" : true,
+    "nullMode" : "gap",
+    "dataPoint" : {
+      "show" : false,
+      "showLabels" : false
+    },
+    "gridLine" : {
+      "auto" : true,
+      "spacing" : 2
+    },
+    "color" : {
+      "auto" : true,
+      "mode" : "primary",
+      "singleColor" : 3,
+      "persistent" : true,
+      "expressionIsColor" : true,
+      "expressionLabel" : "",
+      "measureScheme" : "sg",
+      "reverseScheme" : false,
+      "dimensionScheme" : "12",
+      "autoMinMax" : true,
+      "measureMin" : 0,
+      "measureMax" : 10
+    },
+    "legend" : {
+      "show" : true,
+      "dock" : "auto",
+      "showTitle" : false
+    },
+    "dimensionAxis" : {
+      "show" : "labels",
+      "label" : "auto",
+      "dock" : "near"
+    },
+    "measureAxis" : {
+      "show" : "all",
+      "dock" : "near",
+      "spacing" : 1,
+      "autoMinMax" : true,
+      "minMax" : "min",
+      "min" : 0,
+      "max" : 10,
+      "logarithmic" : false
+    },
+    "visualization" : "linechart",
+    "masterVersion" : 0.96,
+    "snapshotData" : {
+      "object" : {
+        "size" : {
+          "w" : 1494,
+          "h" : 631
+        }
+      },
+      "content" : {
+        "chartData" : {
+          "legendScrollOffset" : 0,
+          "scrollOffset" : 0,
+          "discreteSpacing" : 433.6210428873698,
+          "axisInnerOffset" : 0,
+          "hasMiniChart" : false
+        },
+        "size" : {
+          "w" : 1494,
+          "h" : 604
+        },
+        "components" : {
+          "grid" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 1300.8631286621094,
+              "h" : 572
+            }
+          },
+          "colorLegend" : {
+            "visible" : true,
+            "dock" : "right",
+            "size" : {
+              "w" : 120.13687133789062,
+              "h" : 572
+            }
+          },
+          "miniChart" : {
+            "visible" : false,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 1300.8631286621094,
+              "h" : 0
+            }
+          },
+          "refLineLabels" : {
+            "visible" : false,
+            "dock" : "right",
+            "size" : {
+              "w" : 0,
+              "h" : 572
+            }
+          },
+          "scrollArea" : {
+            "visible" : false,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 1300.8631286621094,
+              "h" : 0
+            }
+          },
+          "refLines" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 1300.8631286621094,
+              "h" : 572
+            }
+          },
+          "dataArea" : {
+            "visible" : true,
+            "dock" : "center",
+            "size" : {
+              "w" : 1300.8631286621094,
+              "h" : 572
+            }
+          },
+          "measureAxis" : {
+            "visible" : true,
+            "dock" : "left",
+            "size" : {
+              "w" : 69,
+              "h" : 572
+            }
+          },
+          "dimensionAxis" : {
+            "visible" : true,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 1300.8631286621094,
+              "h" : 27
+            }
+          },
+          "dimensionAxisTitle" : {
+            "visible" : false,
+            "dock" : "bottom",
+            "size" : {
+              "w" : 1300.8631286621094,
+              "h" : 0
+            }
+          }
+        },
+        "v" : 0.96
+      },
+      "parent" : {
+        "h" : 680,
+        "w" : 1519
+      }
+    },
+    "visualizationType" : "linechart",
+    "sourceObjectId" : "PdPsYz",
+    "timestamp" : 1438358122929,
+    "isClone" : false
+  },
+  "qStateData" : [ {
+    "qStateName" : "$",
+    "qFieldItems" : [ {
+      "qDef" : {
+        "qName" : "Month",
+        "qType" : "PRESENT"
+      },
+      "qSelectInfo" : {
+        "qRangeLo" : "NaN",
+        "qRangeHi" : "NaN",
+        "qNumberFormat" : {
+          "qType" : "U",
+          "qnDec" : 10,
+          "qUseThou" : 0
+        },
+        "qRangeInfo" : [ ],
+        "qContinuousRangeInfo" : [ ]
+      },
+      "qValues" : [ {
+        "qIsNumeric" : true,
+        "qNumber" : 42186
+      } ],
+      "qExcludedValues" : [ ]
+    }, {
+      "qDef" : {
+        "qName" : "Date",
+        "qType" : "PRESENT"
+      },
+      "qSelectInfo" : {
+        "qRangeLo" : "NaN",
+        "qRangeHi" : "NaN",
+        "qNumberFormat" : {
+          "qType" : "U",
+          "qnDec" : 10,
+          "qUseThou" : 0
+        },
+        "qRangeInfo" : [ ],
+        "qContinuousRangeInfo" : [ ]
+      },
+      "qValues" : [ {
+        "qIsNumeric" : true,
+        "qNumber" : 42214
+      }, {
+        "qIsNumeric" : true,
+        "qNumber" : 42215
+      }, {
+        "qIsNumeric" : true,
+        "qNumber" : 42216
+      } ],
+      "qExcludedValues" : [ ]
+    } ]
+  } ],
+  "qPatches" : [ ]
+}

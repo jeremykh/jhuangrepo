@@ -1,0 +1,60 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "7571fce00fbcd77f55b19b98f6c5524e9b9e8e23",
+      "contentName" : "content",
+      "contentOid" : 18792,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "creationDate" : "2016-02-08T13:16:34.332Z",
+    "qMetaDef" : {
+      "description" : "This bookmark isolates shoes in North America, and displays the Shipping Analysis sheet.",
+      "title" : "North American Shoes"
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "published" : true
+    },
+    "selectionFields" : "Region, Department",
+    "sheetId" : "JBCWppA"
+  },
+  "hidden" : false,
+  "identity" : "myVYX,Bookmark;88e3ab27-4783-4832-ba65-6eba49a9001b,App;",
+  "key" : {
+    "id" : 706
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/International Apparel Analysis/Bookmarks/North American Shoes",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikBookmark/QlikBookmark",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "North American Shoes",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 222
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 178, 222, 706 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Bookmark",
+  "shouldVersion" : true,
+  "subtype" : "QlikBookmark",
+  "type" : "QlikArtifact"
+}

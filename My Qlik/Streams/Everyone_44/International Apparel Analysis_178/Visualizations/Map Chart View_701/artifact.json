@@ -1,0 +1,266 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qChildren" : [ ],
+      "qProperty" : {
+        "autoZoomOnSelection" : true,
+        "background" : {
+          "defaultMapService" : true,
+          "layers" : [ {
+            "attribution" : "",
+            "type" : "XYZ",
+            "urls" : [ "" ]
+          } ],
+          "show" : true
+        },
+        "calcCond" : "",
+        "color" : {
+          "auto" : false,
+          "autoMinMax" : false,
+          "dimensionScheme" : "12",
+          "expressionIsColor" : true,
+          "expressionLabel" : "",
+          "measureMax" : 10000,
+          "measureMin" : 500,
+          "measureScheme" : "dg",
+          "mode" : "byMeasure",
+          "persistent" : true,
+          "reverseScheme" : false,
+          "singleColor" : 3
+        },
+        "customErrorMessage" : {
+          "calcCond" : ""
+        },
+        "footnote" : "",
+        "layers" : [ {
+          "autoMinMax" : true,
+          "bubbleSizes" : 8,
+          "cId" : "TXdJGb",
+          "customMax" : 10,
+          "customMin" : 0,
+          "opacity" : 1,
+          "qHyperCubeDef" : {
+            "customErrorMessage" : {
+              "calcCond" : ""
+            },
+            "qCalcCond" : { },
+            "qCalcCondition" : {
+              "qCond" : { },
+              "qMsg" : { }
+            },
+            "qColumnOrder" : [ ],
+            "qDimensions" : [ {
+              "qAttributeDimensions" : [ ],
+              "qAttributeExpressions" : [ ],
+              "qCalcCond" : { },
+              "qCalcCondition" : {
+                "qCond" : { },
+                "qMsg" : { }
+              },
+              "qDef" : {
+                "cId" : "UkRHNck",
+                "qActiveField" : 0,
+                "qFieldDefs" : [ "City" ],
+                "qFieldLabels" : [ "" ],
+                "qGrouping" : "N",
+                "qNumberPresentations" : [ ],
+                "qSortCriterias" : [ {
+                  "qExpression" : { },
+                  "qSortByAscii" : 1,
+                  "qSortByLoadOrder" : 1,
+                  "qSortByNumeric" : 1,
+                  "qSortByState" : 1
+                } ]
+              },
+              "qOtherLabel" : { },
+              "qOtherTotalSpec" : {
+                "qApplyEvenWhenPossiblyWrongResult" : true,
+                "qForceBadValueKeeping" : true,
+                "qOtherCounted" : { },
+                "qOtherLimit" : { },
+                "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                "qOtherMode" : "OTHER_OFF",
+                "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                "qReferencedExpression" : { },
+                "qTotalMode" : "TOTAL_OFF"
+              },
+              "qTotalLabel" : { }
+            }, {
+              "qAttributeDimensions" : [ ],
+              "qAttributeExpressions" : [ ],
+              "qCalcCond" : { },
+              "qCalcCondition" : {
+                "qCond" : { },
+                "qMsg" : { }
+              },
+              "qDef" : {
+                "cId" : "bpDZXm",
+                "qActiveField" : 0,
+                "qFieldDefs" : [ "=GeoMakePoint(Latitude,Longitude)" ],
+                "qFieldLabels" : [ "" ],
+                "qGrouping" : "N",
+                "qNumberPresentations" : [ ],
+                "qSortCriterias" : [ {
+                  "qExpression" : { },
+                  "qSortByAscii" : 1,
+                  "qSortByLoadOrder" : 1,
+                  "qSortByNumeric" : 1,
+                  "qSortByState" : 1
+                } ]
+              },
+              "qOtherLabel" : { },
+              "qOtherTotalSpec" : {
+                "qApplyEvenWhenPossiblyWrongResult" : true,
+                "qForceBadValueKeeping" : true,
+                "qOtherCounted" : { },
+                "qOtherLimit" : { },
+                "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                "qOtherMode" : "OTHER_OFF",
+                "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                "qReferencedExpression" : { },
+                "qTotalMode" : "TOTAL_OFF"
+              },
+              "qTotalLabel" : { }
+            } ],
+            "qExpansionState" : [ ],
+            "qInitialDataFetch" : [ {
+              "qHeight" : 3333,
+              "qLeft" : 0,
+              "qTop" : 0,
+              "qWidth" : 3
+            } ],
+            "qInterColumnSortOrder" : [ 2, 0, 1 ],
+            "qLayoutExclude" : {
+              "qHyperCubeDef" : {
+                "qCalcCond" : { },
+                "qCalcCondition" : {
+                  "qCond" : { },
+                  "qMsg" : { }
+                },
+                "qColumnOrder" : [ ],
+                "qDimensions" : [ ],
+                "qExpansionState" : [ ],
+                "qInitialDataFetch" : [ ],
+                "qInterColumnSortOrder" : [ ],
+                "qMaxStackedCells" : 5000,
+                "qMeasures" : [ ],
+                "qMode" : "S",
+                "qNoOfLeftDims" : -1,
+                "qPseudoDimPos" : -1,
+                "qReductionMode" : "N",
+                "qTitle" : { }
+              }
+            },
+            "qMaxStackedCells" : 5000,
+            "qMeasures" : [ {
+              "qAttributeDimensions" : [ ],
+              "qAttributeExpressions" : [ ],
+              "qCalcCond" : { },
+              "qCalcCondition" : {
+                "qCond" : { },
+                "qMsg" : { }
+              },
+              "qDef" : {
+                "autoSort" : true,
+                "qAccumulate" : 0,
+                "qActiveExpression" : 0,
+                "qExpressions" : [ ],
+                "qGrouping" : "N",
+                "qNumFormat" : {
+                  "qType" : "U",
+                  "qUseThou" : 0,
+                  "qnDec" : 10
+                },
+                "qTags" : [ ]
+              },
+              "qLibraryId" : "KDmrLuX",
+              "qMiniChartDef" : {
+                "qAttributeExpressions" : [ ],
+                "qMaxNumberPoints" : -1,
+                "qOtherTotalSpec" : {
+                  "qApplyEvenWhenPossiblyWrongResult" : true,
+                  "qForceBadValueKeeping" : true,
+                  "qOtherCounted" : { },
+                  "qOtherLimit" : { },
+                  "qOtherLimitMode" : "OTHER_GT_LIMIT",
+                  "qOtherMode" : "OTHER_OFF",
+                  "qOtherSortMode" : "OTHER_SORT_DESCENDING",
+                  "qReferencedExpression" : { },
+                  "qTotalMode" : "TOTAL_OFF"
+                },
+                "qSortBy" : {
+                  "qExpression" : { }
+                }
+              },
+              "qSortBy" : {
+                "qExpression" : { },
+                "qSortByLoadOrder" : 1,
+                "qSortByNumeric" : -1
+              },
+              "qTrendLines" : [ ]
+            } ],
+            "qMode" : "S",
+            "qNoOfLeftDims" : -1,
+            "qPseudoDimPos" : -1,
+            "qReductionMode" : "N",
+            "qTitle" : { }
+          },
+          "rangeBubbleSizes" : [ 2, 32 ],
+          "show" : true,
+          "type" : "point",
+          "useSize" : false
+        } ],
+        "legend" : {
+          "dock" : "auto",
+          "show" : true,
+          "showTitle" : true
+        },
+        "masterVersion" : 0.96,
+        "metadata" : { },
+        "navigation" : false,
+        "qInfo" : {
+          "qId" : "NWj",
+          "qType" : "masterobject"
+        },
+        "qMetaDef" : {
+          "tags" : [ ],
+          "title" : "Map Chart View"
+        },
+        "showTitles" : true,
+        "subtitle" : "",
+        "title" : "Sales Totals in each City",
+        "visualization" : "map"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "NWj,Visualization;88e3ab27-4783-4832-ba65-6eba49a9001b,App;",
+  "key" : {
+    "id" : 701
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/International Apparel Analysis/Visualizations/Map Chart View",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikVisualization/QlikVisualization",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Map Chart View",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 229
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 178, 229, 701 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Visualization",
+  "shouldVersion" : true,
+  "subtype" : "QlikVisualization",
+  "type" : "QlikArtifact"
+}

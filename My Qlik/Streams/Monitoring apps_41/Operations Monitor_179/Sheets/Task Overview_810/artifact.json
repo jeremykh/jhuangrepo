@@ -1,0 +1,232 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "55020076bbe6986903c4dca0f2af5e5a6b3aa123",
+      "contentName" : "content",
+      "contentOid" : 18836,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "bounds" : {
+            "height" : 11.11111111111111,
+            "width" : 25,
+            "x" : 0,
+            "y" : 0
+          },
+          "col" : 0,
+          "colspan" : 9,
+          "name" : "ZWpHnPP",
+          "row" : 0,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "bounds" : {
+            "height" : 11.11111111111111,
+            "width" : 25,
+            "x" : 0,
+            "y" : 11.11111111111111
+          },
+          "col" : 0,
+          "colspan" : 9,
+          "name" : "PcFYSVp",
+          "row" : 2,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "bounds" : {
+            "height" : 11.11111111111111,
+            "width" : 25,
+            "x" : 0,
+            "y" : 22.22222222222222
+          },
+          "col" : 0,
+          "colspan" : 9,
+          "name" : "fzWnrPG",
+          "row" : 4,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "bounds" : {
+            "height" : 50,
+            "width" : 50,
+            "x" : 50,
+            "y" : 50
+          },
+          "col" : 18,
+          "colspan" : 18,
+          "name" : "VRVwE",
+          "row" : 9,
+          "rowspan" : 9,
+          "type" : "linechart"
+        }, {
+          "bounds" : {
+            "height" : 50,
+            "width" : 50,
+            "x" : 50,
+            "y" : 0
+          },
+          "col" : 18,
+          "colspan" : 18,
+          "name" : "SYMTcPv",
+          "row" : 0,
+          "rowspan" : 9,
+          "type" : "barchart"
+        }, {
+          "bounds" : {
+            "height" : 33.33333333333333,
+            "width" : 50,
+            "x" : 0,
+            "y" : 66.66666666666666
+          },
+          "col" : 0,
+          "colspan" : 18,
+          "name" : "gurBmL",
+          "row" : 12,
+          "rowspan" : 6,
+          "type" : "barchart"
+        }, {
+          "bounds" : {
+            "height" : 11.11111111111111,
+            "width" : 25,
+            "x" : 0,
+            "y" : 33.33333333333333
+          },
+          "col" : 0,
+          "colspan" : 9,
+          "name" : "ExcqRa",
+          "row" : 6,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "bounds" : {
+            "height" : 11.11111111111111,
+            "width" : 25,
+            "x" : 25,
+            "y" : 11.11111111111111
+          },
+          "col" : 9,
+          "colspan" : 9,
+          "name" : "PEuxja",
+          "row" : 2,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "bounds" : {
+            "height" : 11.11111111111111,
+            "width" : 25,
+            "x" : 25,
+            "y" : 0
+          },
+          "col" : 9,
+          "colspan" : 9,
+          "name" : "ZmntLp",
+          "row" : 0,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "bounds" : {
+            "height" : 11.11111111111111,
+            "width" : 25,
+            "x" : 25,
+            "y" : 22.22222222222222
+          },
+          "col" : 9,
+          "colspan" : 9,
+          "name" : "KNpjK",
+          "row" : 4,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "bounds" : {
+            "height" : 11.11111111111111,
+            "width" : 25,
+            "x" : 25,
+            "y" : 33.33333333333333
+          },
+          "col" : 9,
+          "colspan" : 9,
+          "name" : "jBxJs",
+          "row" : 6,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "bounds" : {
+            "height" : 22.22222222222222,
+            "width" : 50,
+            "x" : 0,
+            "y" : 44.44444444444444
+          },
+          "col" : 0,
+          "colspan" : 18,
+          "name" : "eUhj",
+          "row" : 8,
+          "rowspan" : 4,
+          "type" : "table"
+        } ],
+        "columns" : 36,
+        "gridResolution" : "large",
+        "qInfo" : {
+          "qId" : "cf1c9029-4f28-4dbb-a458-ef715cc71ee0",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "",
+          "title" : "Task Overview"
+        },
+        "rank" : 0.3359375,
+        "rows" : 18,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/72d45588-644b-4905-a064-a3923f3f6e08/Icon_Scheduler_grey.png"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+        "name" : "sa_repository",
+        "userDirectory" : "INTERNAL",
+        "userId" : "sa_repository"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "cf1c9029-4f28-4dbb-a458-ef715cc71ee0,Sheet;72d45588-644b-4905-a064-a3923f3f6e08,App;",
+  "key" : {
+    "id" : 810
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/Operations Monitor/Sheets/Task Overview",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Task Overview",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 235
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 179, 235, 810 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

@@ -1,0 +1,20 @@
+{
+  "qProp" : {
+    "qInfo" : {
+      "qId" : "ea65fe17-2f65-49a2-a56f-883ec48ce5cd",
+      "qType" : "bookmark"
+    },
+    "qMetaDef" : {
+      "title" : "HCM Bookmark for Training",
+      "description" : ""
+    },
+    "creationDate" : "2021-09-03T21:04:34.940Z",
+    "sheetId" : "GZGbMWW",
+    "selectionFields" : ""
+  },
+  "qStateData" : [ {
+    "qStateName" : "$",
+    "qFieldItems" : [ ]
+  } ],
+  "qPatches" : [ ]
+}

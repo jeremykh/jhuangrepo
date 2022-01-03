@@ -1,0 +1,245 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "38f73558182077783cc121da962121e327571b80",
+      "contentName" : "content",
+      "contentOid" : 18832,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "bounds" : {
+            "height" : 16.666666666666664,
+            "width" : 25,
+            "x" : 0,
+            "y" : 0
+          },
+          "col" : 0,
+          "colspan" : 6,
+          "name" : "jtrBGkk",
+          "row" : 0,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "bounds" : {
+            "height" : 16.666666666666664,
+            "width" : 25,
+            "x" : 25,
+            "y" : 0
+          },
+          "col" : 6,
+          "colspan" : 6,
+          "name" : "XDVGEtu",
+          "row" : 0,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "bounds" : {
+            "height" : 16.666666666666664,
+            "width" : 25,
+            "x" : 25,
+            "y" : 16.666666666666664
+          },
+          "col" : 6,
+          "colspan" : 6,
+          "name" : "TuKuZj",
+          "row" : 2,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "bounds" : {
+            "height" : 16.666666666666664,
+            "width" : 25,
+            "x" : 25,
+            "y" : 33.33333333333333
+          },
+          "col" : 6,
+          "colspan" : 6,
+          "name" : "Tqxng",
+          "row" : 4,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "bounds" : {
+            "height" : 16.666666666666664,
+            "width" : 25,
+            "x" : 25,
+            "y" : 50
+          },
+          "col" : 6,
+          "colspan" : 6,
+          "name" : "aeAMH",
+          "row" : 6,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "bounds" : {
+            "height" : 16.666666666666664,
+            "width" : 25,
+            "x" : 25,
+            "y" : 66.66666666666666
+          },
+          "col" : 6,
+          "colspan" : 6,
+          "name" : "RpHQ",
+          "row" : 8,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "bounds" : {
+            "height" : 50,
+            "width" : 50,
+            "x" : 50,
+            "y" : 0
+          },
+          "col" : 12,
+          "colspan" : 12,
+          "name" : "yuzApu",
+          "row" : 0,
+          "rowspan" : 6,
+          "type" : "table"
+        }, {
+          "bounds" : {
+            "height" : 50,
+            "width" : 50,
+            "x" : 50,
+            "y" : 50
+          },
+          "col" : 12,
+          "colspan" : 12,
+          "name" : "RvHyV",
+          "row" : 6,
+          "rowspan" : 6,
+          "type" : "pivot-table"
+        }, {
+          "bounds" : {
+            "height" : 16.666666666666664,
+            "width" : 25,
+            "x" : 0,
+            "y" : 16.666666666666664
+          },
+          "col" : 0,
+          "colspan" : 6,
+          "name" : "NdaTdCr",
+          "row" : 2,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "bounds" : {
+            "height" : 16.666666666666664,
+            "width" : 25,
+            "x" : 0,
+            "y" : 50
+          },
+          "col" : 0,
+          "colspan" : 6,
+          "name" : "xFQTP",
+          "row" : 6,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "bounds" : {
+            "height" : 16.666666666666664,
+            "width" : 25,
+            "x" : 0,
+            "y" : 33.33333333333333
+          },
+          "col" : 0,
+          "colspan" : 6,
+          "name" : "RAQKDt",
+          "row" : 4,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "bounds" : {
+            "height" : 16.666666666666664,
+            "width" : 25,
+            "x" : 0,
+            "y" : 66.66666666666666
+          },
+          "col" : 0,
+          "colspan" : 6,
+          "name" : "fzTFGyF",
+          "row" : 8,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "bounds" : {
+            "height" : 16.666666666666664,
+            "width" : 50,
+            "x" : 0,
+            "y" : 83.33333333333334
+          },
+          "col" : 0,
+          "colspan" : 12,
+          "name" : "mnAdMq",
+          "row" : 10,
+          "rowspan" : 2,
+          "type" : "text-image"
+        } ],
+        "columns" : 24,
+        "gridResolution" : "small",
+        "qInfo" : {
+          "qId" : "xMab",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "",
+          "title" : "24-Hour Summary"
+        },
+        "rank" : -1,
+        "rows" : 12,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/72d45588-644b-4905-a064-a3923f3f6e08/Icon_KPI_Dashboard_grey(1).png"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+        "name" : "sa_repository",
+        "userDirectory" : "INTERNAL",
+        "userId" : "sa_repository"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "xMab,Sheet;72d45588-644b-4905-a064-a3923f3f6e08,App;",
+  "key" : {
+    "id" : 787
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/Operations Monitor/Sheets/24-Hour Summary",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "24-Hour Summary",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 235
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 179, 235, 787 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

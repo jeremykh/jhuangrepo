@@ -1,0 +1,232 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "7f084d80c194cf2d6e26c3200c4bb134584b6598",
+      "contentName" : "content",
+      "contentOid" : 18758,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "bounds" : {
+            "height" : 38.88888888888889,
+            "width" : 36.11111111111111,
+            "x" : 63.888888888888886,
+            "y" : 44.44444444444444
+          },
+          "col" : 23,
+          "colspan" : 13,
+          "name" : "ejEQJB",
+          "row" : 8,
+          "rowspan" : 7,
+          "type" : "barchart"
+        }, {
+          "bounds" : {
+            "height" : 22.22222222222222,
+            "width" : 25,
+            "x" : 22.22222222222222,
+            "y" : 0
+          },
+          "col" : 8,
+          "colspan" : 9,
+          "name" : "wmZEw",
+          "row" : 0,
+          "rowspan" : 4,
+          "type" : "scatterplot"
+        }, {
+          "bounds" : {
+            "height" : 27.77777777777778,
+            "width" : 11.11111111111111,
+            "x" : 0,
+            "y" : 44.44444444444444
+          },
+          "col" : 0,
+          "colspan" : 4,
+          "name" : "gGEvB",
+          "row" : 8,
+          "rowspan" : 5,
+          "type" : "filterpane"
+        }, {
+          "bounds" : {
+            "height" : 11.11111111111111,
+            "width" : 11.11111111111111,
+            "x" : 0,
+            "y" : 0
+          },
+          "col" : 0,
+          "colspan" : 4,
+          "name" : "dNmwJzh",
+          "row" : 0,
+          "rowspan" : 2,
+          "type" : "auto-chart"
+        }, {
+          "bounds" : {
+            "height" : 11.11111111111111,
+            "width" : 11.11111111111111,
+            "x" : 11.11111111111111,
+            "y" : 0
+          },
+          "col" : 4,
+          "colspan" : 4,
+          "name" : "yJChy",
+          "row" : 0,
+          "rowspan" : 2,
+          "type" : "kpi"
+        }, {
+          "bounds" : {
+            "height" : 61.111111111111114,
+            "width" : 11.11111111111111,
+            "x" : 11.11111111111111,
+            "y" : 11.11111111111111
+          },
+          "col" : 4,
+          "colspan" : 4,
+          "name" : "yuQn",
+          "row" : 2,
+          "rowspan" : 11,
+          "type" : "filterpane"
+        }, {
+          "bounds" : {
+            "height" : 27.77777777777778,
+            "width" : 22.22222222222222,
+            "x" : 0,
+            "y" : 72.22222222222221
+          },
+          "col" : 0,
+          "colspan" : 8,
+          "name" : "ngAuD",
+          "row" : 13,
+          "rowspan" : 5,
+          "type" : "treemap"
+        }, {
+          "bounds" : {
+            "height" : 44.44444444444444,
+            "width" : 36.11111111111111,
+            "x" : 63.888888888888886,
+            "y" : 0
+          },
+          "col" : 23,
+          "colspan" : 13,
+          "name" : "zPERD",
+          "row" : 0,
+          "rowspan" : 8,
+          "type" : "map"
+        }, {
+          "bounds" : {
+            "height" : 50,
+            "width" : 41.66666666666667,
+            "x" : 22.22222222222222,
+            "y" : 50
+          },
+          "col" : 8,
+          "colspan" : 15,
+          "name" : "RgRdrZ",
+          "row" : 9,
+          "rowspan" : 9,
+          "type" : "pivot-table"
+        }, {
+          "bounds" : {
+            "height" : 16.666666666666664,
+            "width" : 36.11111111111111,
+            "x" : 63.888888888888886,
+            "y" : 83.33333333333334
+          },
+          "col" : 23,
+          "colspan" : 13,
+          "name" : "rTSuUH",
+          "row" : 15,
+          "rowspan" : 3,
+          "type" : "linechart"
+        }, {
+          "bounds" : {
+            "height" : 33.33333333333333,
+            "width" : 11.11111111111111,
+            "x" : 0,
+            "y" : 11.11111111111111
+          },
+          "col" : 0,
+          "colspan" : 4,
+          "name" : "xVrXacn",
+          "row" : 2,
+          "rowspan" : 6,
+          "type" : "filterpane"
+        }, {
+          "bounds" : {
+            "height" : 27.77777777777778,
+            "width" : 27.77777777777778,
+            "x" : 22.22222222222222,
+            "y" : 22.22222222222222
+          },
+          "col" : 8,
+          "colspan" : 10,
+          "name" : "mDJbbp",
+          "row" : 4,
+          "rowspan" : 5,
+          "type" : "bulletchart"
+        } ],
+        "columns" : 36,
+        "gridResolution" : "large",
+        "qInfo" : {
+          "qId" : "VJyJ",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "",
+          "title" : "Sales Analysis"
+        },
+        "rank" : -0.875,
+        "rows" : 18,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/b0fdc823-746a-4443-aca0-30b592a00bde/CGS_Sales_Analysis.png"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "VJyJ,Sheet;b0fdc823-746a-4443-aca0-30b592a00bde,App;",
+  "key" : {
+    "id" : 585
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Consumer Sales/Sheets/Sales Analysis",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Sales Analysis",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 205
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 176, 205, 585 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

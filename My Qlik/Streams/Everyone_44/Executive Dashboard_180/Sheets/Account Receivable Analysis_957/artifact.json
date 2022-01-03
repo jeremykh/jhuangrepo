@@ -1,0 +1,117 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "363317da617359a2e7ad64a39e3123a0c066d303",
+      "contentName" : "content",
+      "contentOid" : 18915,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "col" : 0,
+          "colspan" : 5,
+          "name" : "YPPUPE",
+          "row" : 3,
+          "rowspan" : 9,
+          "type" : "treemap"
+        }, {
+          "col" : 5,
+          "colspan" : 4,
+          "name" : "VARhxUj",
+          "row" : 0,
+          "rowspan" : 3,
+          "type" : "gauge"
+        }, {
+          "col" : 10,
+          "colspan" : 4,
+          "name" : "ZFaWvw",
+          "row" : 0,
+          "rowspan" : 3,
+          "type" : "gauge"
+        }, {
+          "col" : 5,
+          "colspan" : 9,
+          "name" : "mVPztHm",
+          "row" : 3,
+          "rowspan" : 9,
+          "type" : "scatterplot"
+        }, {
+          "col" : 14,
+          "colspan" : 10,
+          "name" : "nnkLtpf",
+          "row" : 0,
+          "rowspan" : 12,
+          "type" : "table"
+        }, {
+          "col" : 0,
+          "colspan" : 5,
+          "name" : "HDuUjmn",
+          "row" : 0,
+          "rowspan" : 2,
+          "type" : "kpi"
+        } ],
+        "columns" : 24,
+        "qInfo" : {
+          "qId" : "JsCeVm",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "The Account Receivables Analysis sheet provides a look at the amount due and days sales outstanding for customers.",
+          "title" : "Account Receivable Analysis"
+        },
+        "rank" : 2,
+        "rows" : 12,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/5b26c4a1-9028-49b8-87eb-703aaaf67569/AR.png"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "JsCeVm,Sheet;5b26c4a1-9028-49b8-87eb-703aaaf67569,App;",
+  "key" : {
+    "id" : 957
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Executive Dashboard/Sheets/Account Receivable Analysis",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Account Receivable Analysis",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 245
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 180, 245, 957 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}

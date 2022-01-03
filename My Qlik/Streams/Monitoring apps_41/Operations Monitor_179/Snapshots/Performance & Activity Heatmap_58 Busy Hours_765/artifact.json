@@ -1,0 +1,48 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "1e7c6046378db9aa08ef934797d5c93d3c1b90fc",
+      "contentName" : "content",
+      "contentOid" : 18805,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "creationDate" : "2015-07-31T15:50:53.182Z",
+    "qMetaDef" : {
+      "description" : "",
+      "title" : "Performance & Activity Heatmap: Busy Hours"
+    }
+  },
+  "hidden" : false,
+  "identity" : "PqcsNP,Snapshot;72d45588-644b-4905-a064-a3923f3f6e08,App;",
+  "key" : {
+    "id" : 765
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/Operations Monitor/Snapshots/Performance & Activity Heatmap: Busy Hours",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSnapshot/QlikSnapshot",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Performance & Activity Heatmap: Busy Hours",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 236
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 179, 236, 765 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Snapshot",
+  "shouldVersion" : true,
+  "subtype" : "QlikSnapshot",
+  "type" : "QlikArtifact"
+}

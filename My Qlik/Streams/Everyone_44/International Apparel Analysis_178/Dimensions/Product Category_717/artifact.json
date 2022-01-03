@@ -1,0 +1,51 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qDim" : {
+        "qFieldDefs" : [ "=CategoryName" ],
+        "qFieldLabels" : [ "Product Category" ],
+        "qGrouping" : "N",
+        "title" : "Product Category"
+      },
+      "qInfo" : {
+        "qId" : "TyFTUmJ",
+        "qType" : "dimension"
+      },
+      "qMetaDef" : {
+        "description" : "",
+        "tags" : [ ],
+        "title" : "Product Category"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "TyFTUmJ,Dimension;88e3ab27-4783-4832-ba65-6eba49a9001b,App;",
+  "key" : {
+    "id" : 717
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/International Apparel Analysis/Dimensions/Product Category",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikDimension/QlikDimension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Product Category",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 223
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 178, 223, 717 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Dimension",
+  "shouldVersion" : true,
+  "subtype" : "QlikDimension",
+  "type" : "QlikArtifact"
+}

@@ -1,0 +1,51 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qDim" : {
+        "qFieldDefs" : [ "=[Reload Status]" ],
+        "qFieldLabels" : [ "Reload Status" ],
+        "qGrouping" : "N",
+        "title" : "Reload Status"
+      },
+      "qInfo" : {
+        "qId" : "2639e123-081d-4df0-988f-e88c83d26059",
+        "qType" : "dimension"
+      },
+      "qMetaDef" : {
+        "description" : "",
+        "tags" : [ ],
+        "title" : "Reload Status"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "2639e123-081d-4df0-988f-e88c83d26059,Dimension;72d45588-644b-4905-a064-a3923f3f6e08,App;",
+  "key" : {
+    "id" : 811
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/Operations Monitor/Dimensions/Reload Status",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikDimension/QlikDimension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Reload Status",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 233
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 41, 179, 233, 811 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Dimension",
+  "shouldVersion" : true,
+  "subtype" : "QlikDimension",
+  "type" : "QlikArtifact"
+}

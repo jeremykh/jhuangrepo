@@ -1,0 +1,671 @@
+{
+  "qProperty" : {
+    "qInfo" : {
+      "qId" : "Cbpvks",
+      "qType" : "story"
+    },
+    "qMetaDef" : {
+      "title" : "Margin Analysis by Sales Rep",
+      "description" : "This story provides an analysis of sales reps with low margin and sales reps with high margin sales and the top product sold in each group."
+    },
+    "rank" : 0,
+    "qChildListDef" : {
+      "qData" : {
+        "title" : "/title",
+        "rank" : "/rank"
+      }
+    },
+    "thumbnail" : {
+      "qStaticContentUrlDef" : {
+        "qUrl" : "/appcontent/5b26c4a1-9028-49b8-87eb-703aaaf67569/storytelling-executivedash_1.jpg"
+      }
+    }
+  },
+  "qChildren" : [ {
+    "qProperty" : {
+      "qInfo" : {
+        "qId" : "NUmqyjt",
+        "qType" : "slide"
+      },
+      "qMetaDef" : { },
+      "rank" : 1,
+      "qChildListDef" : {
+        "qData" : {
+          "title" : "/title",
+          "sheetId" : "/sheetId",
+          "ratio" : "/ratio",
+          "position" : "/position",
+          "dataPath" : "/dataPath",
+          "visualization" : "/visualization",
+          "visualizationType" : "/visualizationType",
+          "style" : "/style",
+          "srcPath" : "/srcPath"
+        }
+      }
+    },
+    "qChildren" : [ {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "jUcEquM",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "41.82%",
+          "left" : "1.31%",
+          "width" : "55.64%",
+          "height" : "50.77%",
+          "z-index" : 4
+        },
+        "visualization" : "snapshot",
+        "visualizationType" : "scatterplot",
+        "style" : {
+          "id" : "ML01"
+        },
+        "dataPath" : "",
+        "qMeta" : { },
+        "qSelectionInfo" : { }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "pVkZM",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "25.00%",
+          "left" : "54.47%",
+          "width" : "44.27%",
+          "height" : "69.14%",
+          "z-index" : 6
+        },
+        "visualization" : "snapshot",
+        "visualizationType" : "barchart",
+        "style" : {
+          "id" : "Ta02"
+        },
+        "qMeta" : { },
+        "qSelectionInfo" : { },
+        "dataPath" : ""
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "CqsGzX",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "37.79%",
+          "left" : "39.28%",
+          "width" : "5.47%",
+          "height" : "8.84%",
+          "z-index" : 8
+        },
+        "dataPath" : "../resources/img/storytelling/shapes/arrow_d.svg",
+        "visualization" : "shape",
+        "visualizationType" : "arrow_d",
+        "style" : {
+          "color" : "#f93f17"
+        },
+        "qMeta" : { },
+        "qSelectionInfo" : { }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "sSvVdj",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "30.52%",
+          "left" : "53.55%",
+          "width" : "4.69%",
+          "height" : "7.87%",
+          "z-index" : 9
+        },
+        "dataPath" : "../resources/img/storytelling/shapes/arrow_r.svg",
+        "visualization" : "shape",
+        "visualizationType" : "arrow_r",
+        "style" : {
+          "color" : "#f93f17"
+        },
+        "qMeta" : { },
+        "qSelectionInfo" : { }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "eVCFDxT",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "18.06%",
+          "left" : "3.99%",
+          "width" : "47.28%",
+          "height" : "19.32%",
+          "z-index" : 9
+        },
+        "visualization" : "text",
+        "visualizationType" : "paragraph",
+        "style" : {
+          "color" : "#6E6E6E",
+          "isNew" : false,
+          "text" : "Sales Reps with high margin sales also achieve high revenues. The top products that they sell are Fresh Vegetables, Bologna, Fresh Fruits, and Hot Dog products."
+        },
+        "qMeta" : { },
+        "qSelectionInfo" : { },
+        "dataPath" : ""
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "Rcgz",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "2.71%",
+          "left" : "3.04%",
+          "width" : "40.02%",
+          "height" : "10.96%",
+          "z-index" : 10
+        },
+        "visualization" : "text",
+        "visualizationType" : "title",
+        "style" : {
+          "color" : "#6E6E6E",
+          "isNew" : false,
+          "text" : "**~#[High Margin Sales](2)~**"
+        },
+        "qMeta" : { },
+        "qSelectionInfo" : { },
+        "dataPath" : ""
+      },
+      "qChildren" : [ ]
+    } ]
+  }, {
+    "qProperty" : {
+      "qInfo" : {
+        "qId" : "KSLaCn",
+        "qType" : "slide"
+      },
+      "qMetaDef" : { },
+      "rank" : 2,
+      "qChildListDef" : {
+        "qData" : {
+          "title" : "/title",
+          "sheetId" : "/sheetId",
+          "ratio" : "/ratio",
+          "position" : "/position",
+          "dataPath" : "/dataPath",
+          "visualization" : "/visualization",
+          "visualizationType" : "/visualizationType",
+          "style" : "/style",
+          "srcPath" : "/srcPath"
+        }
+      }
+    },
+    "qChildren" : [ {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "HawhNp",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "41.82%",
+          "left" : "2.30%",
+          "width" : "52.26%",
+          "height" : "47.84%",
+          "z-index" : 4
+        },
+        "visualization" : "snapshot",
+        "visualizationType" : "scatterplot",
+        "style" : {
+          "id" : "gG02"
+        },
+        "id" : "DjQADC",
+        "copiedFromSlide" : "NUmqyjt",
+        "qMeta" : { },
+        "qSelectionInfo" : { }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "rtyPsA",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "16.67%",
+          "left" : "48.94%",
+          "width" : "50.52%",
+          "height" : "78.86%",
+          "z-index" : 6
+        },
+        "visualization" : "snapshot",
+        "visualizationType" : "barchart",
+        "style" : {
+          "id" : "Pq01"
+        },
+        "qMeta" : { },
+        "qSelectionInfo" : { },
+        "dataPath" : ""
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "WKUKu",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "2.71%",
+          "left" : "3.04%",
+          "width" : "40.02%",
+          "height" : "10.80%",
+          "z-index" : 7
+        },
+        "dataPath" : "",
+        "visualization" : "text",
+        "visualizationType" : "title",
+        "style" : {
+          "color" : "#6E6E6E",
+          "isNew" : false,
+          "text" : "**~#[Low Margin Sales](2)~**"
+        },
+        "id" : "Rcgz",
+        "copiedFromSlide" : "NUmqyjt",
+        "qMeta" : { },
+        "qSelectionInfo" : { }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "VkJps",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "16.20%",
+          "left" : "3.30%",
+          "width" : "44.57%",
+          "height" : "22.10%",
+          "z-index" : 8
+        },
+        "dataPath" : "",
+        "visualization" : "text",
+        "visualizationType" : "paragraph",
+        "style" : {
+          "color" : "#6E6E6E",
+          "isNew" : false,
+          "text" : "Although Sales Reps with low margin sales have more higher revenue products, they still could not achieve the same margin %. As it is displayed on the revenue bar chart, the top product that is being sold by these sales reps is Hot Dogs. We should consider increasing the margin % on this product."
+        },
+        "id" : "eVCFDxT",
+        "copiedFromSlide" : "NUmqyjt",
+        "qMeta" : { },
+        "qSelectionInfo" : { }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "dPCXdJZ",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "21.11%",
+          "left" : "53.11%",
+          "width" : "4.69%",
+          "height" : "7.87%",
+          "z-index" : 9
+        },
+        "dataPath" : "../resources/img/storytelling/shapes/arrow_r.svg",
+        "visualization" : "shape",
+        "visualizationType" : "arrow_r",
+        "style" : {
+          "color" : "#f93f17"
+        },
+        "id" : "sSvVdj",
+        "copiedFromSlide" : "NUmqyjt",
+        "qMeta" : { },
+        "qSelectionInfo" : { }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "VCjQxM",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "37.94%",
+          "left" : "29.40%",
+          "width" : "5.47%",
+          "height" : "8.80%",
+          "z-index" : 10
+        },
+        "dataPath" : "../resources/img/storytelling/shapes/arrow_d.svg",
+        "visualization" : "shape",
+        "visualizationType" : "arrow_d",
+        "style" : {
+          "color" : "#f93f17"
+        },
+        "id" : "CqsGzX",
+        "copiedFromSlide" : "NUmqyjt"
+      },
+      "qChildren" : [ ]
+    } ]
+  }, {
+    "qProperty" : {
+      "qInfo" : {
+        "qId" : "ptpXBF",
+        "qType" : "slide"
+      },
+      "qMetaDef" : { },
+      "rank" : 4,
+      "qChildListDef" : {
+        "qData" : {
+          "title" : "/title",
+          "sheetId" : "/sheetId",
+          "ratio" : "/ratio",
+          "position" : "/position",
+          "dataPath" : "/dataPath",
+          "visualization" : "/visualization",
+          "visualizationType" : "/visualizationType",
+          "style" : "/style",
+          "srcPath" : "/srcPath"
+        }
+      }
+    },
+    "qChildren" : [ {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "mVhTV",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "title" : "",
+        "sheetId" : "JsCeVm",
+        "ratio" : false,
+        "position" : {
+          "top" : "0%",
+          "left" : "1.5%",
+          "width" : "96%",
+          "height" : "97.5%",
+          "z-index" : 4
+        },
+        "visualization" : "sheet",
+        "selectionState" : null
+      },
+      "qChildren" : [ ]
+    } ]
+  }, {
+    "qProperty" : {
+      "qInfo" : {
+        "qId" : "JEuAeN",
+        "qType" : "slide"
+      },
+      "qMetaDef" : { },
+      "rank" : 2.5,
+      "qChildListDef" : {
+        "qData" : {
+          "title" : "/title",
+          "sheetId" : "/sheetId",
+          "ratio" : "/ratio",
+          "position" : "/position",
+          "dataPath" : "/dataPath",
+          "visualization" : "/visualization",
+          "visualizationType" : "/visualizationType",
+          "style" : "/style",
+          "srcPath" : "/srcPath"
+        }
+      }
+    },
+    "qChildren" : [ {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "SFXNhh",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "2.71%",
+          "left" : "3.04%",
+          "width" : "49.22%",
+          "height" : "10.53%",
+          "z-index" : 5
+        },
+        "dataPath" : "",
+        "visualization" : "text",
+        "visualizationType" : "title",
+        "style" : {
+          "color" : "#6E6E6E",
+          "isNew" : false,
+          "text" : "**~#[%[Low Margin Sales \\- John Greg](undefined)](2)~**"
+        },
+        "id" : "Rcgz",
+        "copiedFromSlide" : "NUmqyjt"
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "NCmg",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "qEmbeddedSnapshotDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "22.22%",
+          "left" : "16.67%",
+          "width" : "22.92%",
+          "height" : "70.37%",
+          "z-index" : 10
+        },
+        "visualization" : "snapshot",
+        "visualizationType" : "treemap",
+        "style" : {
+          "id" : "0497404c-15bc-4817-8bc9-616bb1434e00"
+        }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "aKKxutV",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "55.09%",
+          "left" : "46.64%",
+          "width" : "51.82%",
+          "height" : "39.97%",
+          "z-index" : 6
+        },
+        "visualization" : "snapshot",
+        "visualizationType" : "scatterplot",
+        "style" : {
+          "id" : "jP01"
+        },
+        "dataPath" : "",
+        "qMeta" : { },
+        "qSelectionInfo" : { }
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "bcyvFk",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : true,
+        "position" : {
+          "top" : "33.97%",
+          "left" : "-13.46%",
+          "width" : "37.41%",
+          "height" : "55.86%",
+          "z-index" : 4
+        },
+        "visualization" : "snapshot",
+        "visualizationType" : "gauge",
+        "style" : {
+          "id" : "Vp01"
+        },
+        "qMeta" : { },
+        "qSelectionInfo" : { },
+        "dataPath" : ""
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "qJUgQPc",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "19.69%",
+          "left" : "1.32%",
+          "width" : "10.07%",
+          "height" : "16.67%",
+          "z-index" : 7
+        },
+        "visualization" : "text",
+        "visualizationType" : "paragraph",
+        "style" : {
+          "color" : "#6E6E6E",
+          "isNew" : false,
+          "text" : "~Average Day Sales Outstanding~"
+        },
+        "qMeta" : { },
+        "qSelectionInfo" : { },
+        "dataPath" : ""
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "eysUsz",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "16.04689%",
+          "left" : "47.39793%",
+          "width" : "48.43858%",
+          "height" : "35.18710%",
+          "z-index" : 201,
+          "right" : "auto"
+        },
+        "visualization" : "text",
+        "visualizationType" : "paragraph",
+        "style" : {
+          "color" : "#6E6E6E",
+          "isNew" : false,
+          "text" : "One concern for these low margin sales reps is the average days sales metric. On average, it is #[%[82 ](4)](7)days.\n\n#[**Janice Scott**](3) is the sales rep within the low margin sales reps with the greatest amount overdue. Supermarkets is her top customer group. \n^[\n](left)^[#[%[RFI corporation](4)](7) has the highest Amount Overdue.](left)^[\n](left)"
+        },
+        "qMeta" : { },
+        "qSelectionInfo" : { },
+        "dataPath" : ""
+      },
+      "qChildren" : [ ]
+    }, {
+      "qProperty" : {
+        "qInfo" : {
+          "qId" : "HbvPQ",
+          "qType" : "slideitem"
+        },
+        "qMetaDef" : { },
+        "title" : "",
+        "sheetId" : "",
+        "ratio" : false,
+        "position" : {
+          "top" : "55.56%",
+          "left" : "77.64%",
+          "width" : "7.07%",
+          "height" : "12.30%",
+          "z-index" : 9
+        },
+        "dataPath" : "../resources/img/storytelling/shapes/circle.svg",
+        "visualization" : "shape",
+        "visualizationType" : "circle",
+        "style" : {
+          "color" : "#f93f17"
+        },
+        "qMeta" : { },
+        "qSelectionInfo" : { }
+      },
+      "qChildren" : [ ]
+    } ]
+  } ]
+}
