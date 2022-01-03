@@ -1,0 +1,82 @@
+{
+  "contentMap" : {
+    "QlikAppProps.json" : {
+      "contentChecksum" : "2561ebef8c9eccf40963910cf14be3de25ee88a8",
+      "contentName" : "QlikAppProps",
+      "contentOid" : 18438,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    },
+    "QlikLoadModel.json" : {
+      "contentChecksum" : "57becdf993d9216dcbbd445c6260b421899a7ccd",
+      "contentName" : "QlikLoadModel",
+      "contentOid" : 18437,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    },
+    "QlikScript.txt" : {
+      "contentChecksum" : "bd3b0f988d996d2e52db6d5d182c0d842015b3b8",
+      "contentName" : "QlikScript",
+      "contentOid" : 18436,
+      "contentType" : "txt",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "createdDate" : "2021-06-25T15:13:36.858Z",
+      "description" : "",
+      "dynamicColor" : "",
+      "published" : true,
+      "qSavedInProductVersion" : "12.969.2",
+      "qThumbnail" : { },
+      "qTitle" : "Blank Test",
+      "stream" : {
+        "id" : "aaec8d41-5201-43ab-809f-3063750dfafd",
+        "name" : "Everyone"
+      }
+    },
+    "qrsProp" : {
+      "customProperties" : [ ],
+      "owner" : {
+        "id" : "91239abc-dd6a-4e48-a8e9-4f42427f2df7",
+        "name" : "Jane Doe",
+        "privileges" : null,
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userDirectoryConnectorName" : "SUPPORT-QLIK1",
+        "userId" : "jdoe"
+      },
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "5011f27e-3b64-499d-bb46-226937647b8e,App;",
+  "key" : {
+    "id" : 181
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Blank Test",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact"
+  },
+  "name" : "Blank Test",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 44
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 33, 44, 181 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "App",
+  "shouldVersion" : true,
+  "subtype" : "QlikApp",
+  "type" : "QlikArtifact"
+}
