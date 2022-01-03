@@ -1,0 +1,85 @@
+{
+  "contentMap" : {
+    "QlikAppProps.json" : {
+      "contentChecksum" : "cd29267f122b6521db286b5dd15f1936c5baa546",
+      "contentName" : "QlikAppProps",
+      "contentOid" : 18441,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    },
+    "QlikLoadModel.json" : {
+      "contentChecksum" : "57becdf993d9216dcbbd445c6260b421899a7ccd",
+      "contentName" : "QlikLoadModel",
+      "contentOid" : 18440,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    },
+    "QlikScript.txt" : {
+      "contentChecksum" : "cc5a1ce46c43790ab4eaafee082bc13b2dddb00b",
+      "contentName" : "QlikScript",
+      "contentOid" : 18439,
+      "contentType" : "txt",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "createdDate" : "2021-05-19T23:03:05.650Z",
+      "description" : "The License Monitor 7.18 tracks license usage and facilitates efficient allocation of licenses and tokens. Includes the ability to assess Token-based usage or Analyzer/Professional/Analyzer Capacity usage, or Unified License usage (dual use of Sense and QlikView). Enjoy!",
+      "dynamicColor" : "",
+      "published" : true,
+      "qMigrationHash" : "21ecc792c56e18162f1785d3d41f28fdaced5c96",
+      "qSavedInProductVersion" : "12.475.0",
+      "qThumbnail" : {
+        "qUrl" : "/appcontent/4ba9b5c8-4a4e-4a86-a54d-049935fe11ab/Icon_License_grey.png"
+      },
+      "qTitle" : "License Monitor",
+      "stream" : {
+        "id" : "a70ca8a5-1d59-4cc9-b5fa-6e207978dcaf",
+        "name" : "Monitoring apps"
+      }
+    },
+    "qrsProp" : {
+      "customProperties" : [ ],
+      "owner" : {
+        "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+        "name" : "sa_repository",
+        "privileges" : null,
+        "userDirectory" : "INTERNAL",
+        "userDirectoryConnectorName" : "",
+        "userId" : "sa_repository"
+      },
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "4ba9b5c8-4a4e-4a86-a54d-049935fe11ab,App;",
+  "key" : {
+    "id" : 182
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/License Monitor",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact"
+  },
+  "name" : "License Monitor",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 41
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 33, 41, 182 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "App",
+  "shouldVersion" : true,
+  "subtype" : "QlikApp",
+  "type" : "QlikArtifact"
+}

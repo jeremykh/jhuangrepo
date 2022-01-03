@@ -1,0 +1,1751 @@
+{
+  "qProperty" : {
+    "qInfo" : {
+      "qId" : "LoadModel",
+      "qType" : "LoadModel"
+    },
+    "qMetaDef" : { },
+    "connectionMetaDataModels" : {
+      "AttachedFiles" : {
+        "name" : "AttachedFiles",
+        "id" : "47a1cfd8-f70e-4a98-a00d-00fca6c8e253",
+        "type" : {
+          "provider" : "folder",
+          "type" : "folder",
+          "displayName" : "scripteditor.dataconnectors.filedirectory",
+          "connectDialog" : "scripteditor.views/fileconnectdialog/fileconnectdialog",
+          "selectDialog" : "scripteditor.views/fileselectdialog/fileselectdialog",
+          "connectorMain" : "assets/hldm/data-connectors/native-file-connector/connector-main",
+          "needsConnect" : false,
+          "isStandardConnector" : true
+        },
+        "typeName" : "folder",
+        "privileges" : [ "read" ],
+        "canDelete" : true,
+        "sourceConnectorID" : "folder",
+        "dbInfo" : {
+          "dbusage" : false,
+          "ownerusage" : false,
+          "dbfirst" : false,
+          "specialchars" : "!  　\"$&'()*+,-/:;<>´`{}~[]\r\n\t",
+          "dbseparator" : "",
+          "ownerseparator" : "",
+          "quotesuffix" : "\"",
+          "quoteprefix" : "\"",
+          "quotesuffixfordoublequotes" : "]",
+          "quoteprefixfordoublequotes" : "[",
+          "keywords" : [ ]
+        }
+      }
+    },
+    "tables" : [ {
+      "dataconnectorName" : "AttachedFiles",
+      "boxType" : "load-file",
+      "databaseName" : "International Apparel Data.xlsx",
+      "ownerName" : "TYPE9_EXCEL_OOXML",
+      "tableName" : "Customers",
+      "tableAlias" : "Customers",
+      "key" : "AttachedFiles:International Apparel Data.xlsx:TYPE9_EXCEL_OOXML:Customers",
+      "fields" : [ {
+        "id" : "dsd.Customers.Address",
+        "name" : "Address",
+        "alias" : "Address",
+        "selected" : true
+      }, {
+        "id" : "dsd.Customers.City",
+        "name" : "City",
+        "alias" : "City",
+        "selected" : true
+      }, {
+        "id" : "dsd.Customers.ContactName",
+        "name" : "ContactName",
+        "alias" : "ContactName",
+        "selected" : true
+      }, {
+        "id" : "dsd.Customers.Country",
+        "name" : "Country",
+        "alias" : "Country",
+        "selected" : true
+      }, {
+        "id" : "dsd.Customers.Region",
+        "name" : "Region",
+        "alias" : "Region",
+        "selected" : true
+      }, {
+        "id" : "dsd.Customers.Customer",
+        "name" : "Customer",
+        "alias" : "Customer",
+        "selected" : true
+      }, {
+        "id" : "dsd.Customers.CustomerID",
+        "name" : "CustomerID",
+        "alias" : "Customers.CustomerID",
+        "selected" : true
+      }, {
+        "id" : "dsd.Customers.Fax",
+        "name" : "Fax",
+        "alias" : "Fax",
+        "selected" : true
+      }, {
+        "id" : "dsd.Customers.Phone",
+        "name" : "Phone",
+        "alias" : "Phone",
+        "selected" : true
+      }, {
+        "id" : "dsd.Customers.PostalCode",
+        "name" : "PostalCode",
+        "alias" : "PostalCode",
+        "selected" : true
+      }, {
+        "id" : "dsd.Customers.CountryCode",
+        "name" : "CountryCode",
+        "alias" : "CountryCode",
+        "selected" : true
+      }, {
+        "id" : "dsd.Customers.Latitude",
+        "name" : "Latitude",
+        "alias" : "Latitude",
+        "selected" : true
+      }, {
+        "id" : "dsd.Customers.Longitude",
+        "name" : "Longitude",
+        "alias" : "Longitude",
+        "selected" : true
+      } ],
+      "calculatedFields" : [ ],
+      "connectionInfo" : {
+        "name" : "AttachedFiles",
+        "id" : "47a1cfd8-f70e-4a98-a00d-00fca6c8e253",
+        "type" : {
+          "provider" : "folder",
+          "type" : "folder",
+          "displayName" : "scripteditor.dataconnectors.filedirectory",
+          "connectDialog" : "scripteditor.views/fileconnectdialog/fileconnectdialog",
+          "selectDialog" : "scripteditor.views/fileselectdialog/fileselectdialog",
+          "connectorMain" : "assets/hldm/data-connectors/native-file-connector/connector-main",
+          "needsConnect" : false,
+          "isStandardConnector" : true
+        },
+        "typeName" : "folder",
+        "privileges" : [ "read" ],
+        "canDelete" : true,
+        "sourceConnectorID" : "folder",
+        "dbInfo" : {
+          "dbusage" : false,
+          "ownerusage" : false,
+          "dbfirst" : false,
+          "specialchars" : "!  　\"$&'()*+,-/:;<>´`{}~[]\r\n\t",
+          "dbseparator" : "",
+          "ownerseparator" : "",
+          "quotesuffix" : "\"",
+          "quoteprefix" : "\"",
+          "quotesuffixfordoublequotes" : "]",
+          "quoteprefixfordoublequotes" : "[",
+          "keywords" : [ ]
+        }
+      },
+      "id" : "dsd.Customers",
+      "fileFormatSettings" : {
+        "qLabel" : "embedded labels",
+        "qHeaderSize" : 0,
+        "qDelimiter" : {
+          "qNumber" : 0,
+          "qIsMultiple" : false
+        },
+        "qQuote" : "standard",
+        "qCodePage" : 1252,
+        "qIgnoreEOF" : false,
+        "qFixedWidthDelimiters" : "1",
+        "qTabSize" : 0,
+        "qRecordSize" : 0,
+        "qComment" : ""
+      },
+      "formatSpec" : "(ooxml, embedded labels, table is Customers)",
+      "loadSelectStatement" : "LOAD [Address] AS [Address],\n\t[City] AS [City],\n\t[ContactName] AS [ContactName],\n\t[Country] AS [Country],\n\t[Region] AS [Region],\n\t[Customer] AS [Customer],\n\t[CustomerID] AS [CustomerID],\n\t[Fax] AS [Fax],\n\t[Phone] AS [Phone],\n\t[PostalCode] AS [PostalCode],\n\t[CountryCode] AS [CountryCode],\n\t[Latitude] AS [Latitude],\n\t[Longitude] AS [Longitude]\nFROM [lib://AttachedFiles/International Apparel Data.xlsx]\n(ooxml, embedded labels, table is Customers);\n"
+    }, {
+      "dataconnectorName" : "AttachedFiles",
+      "boxType" : "load-file",
+      "databaseName" : "International Apparel Data.xlsx",
+      "ownerName" : "TYPE9_EXCEL_OOXML",
+      "tableName" : "Employees",
+      "tableAlias" : "Employees",
+      "key" : "AttachedFiles:International Apparel Data.xlsx:TYPE9_EXCEL_OOXML:Employees",
+      "fields" : [ {
+        "id" : "dsd.Employees.EmployeeID",
+        "name" : "EmployeeID",
+        "alias" : "Employees.EmployeeID",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Extension",
+        "name" : "Extension",
+        "alias" : "Extension",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.EmployeeName",
+        "name" : "EmployeeName",
+        "alias" : "EmployeeName",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.EmployeeGender",
+        "name" : "EmployeeGender",
+        "alias" : "EmployeeGender",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Hire Date",
+        "name" : "Hire Date",
+        "alias" : "Hire Date",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Office",
+        "name" : "Office",
+        "alias" : "Employees.Office",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Supervisor",
+        "name" : "Supervisor",
+        "alias" : "Supervisor",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.JobTitle",
+        "name" : "JobTitle",
+        "alias" : "JobTitle",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.AnnualSalary",
+        "name" : "AnnualSalary",
+        "alias" : "AnnualSalary",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.SalesTarget",
+        "name" : "SalesTarget",
+        "alias" : "SalesTarget",
+        "selected" : true
+      } ],
+      "calculatedFields" : [ ],
+      "connectionInfo" : {
+        "name" : "AttachedFiles",
+        "id" : "47a1cfd8-f70e-4a98-a00d-00fca6c8e253",
+        "type" : {
+          "provider" : "folder",
+          "type" : "folder",
+          "displayName" : "scripteditor.dataconnectors.filedirectory",
+          "connectDialog" : "scripteditor.views/fileconnectdialog/fileconnectdialog",
+          "selectDialog" : "scripteditor.views/fileselectdialog/fileselectdialog",
+          "connectorMain" : "assets/hldm/data-connectors/native-file-connector/connector-main",
+          "needsConnect" : false,
+          "isStandardConnector" : true
+        },
+        "typeName" : "folder",
+        "privileges" : [ "read" ],
+        "canDelete" : true,
+        "sourceConnectorID" : "folder",
+        "dbInfo" : {
+          "dbusage" : false,
+          "ownerusage" : false,
+          "dbfirst" : false,
+          "specialchars" : "!  　\"$&'()*+,-/:;<>´`{}~[]\r\n\t",
+          "dbseparator" : "",
+          "ownerseparator" : "",
+          "quotesuffix" : "\"",
+          "quoteprefix" : "\"",
+          "quotesuffixfordoublequotes" : "]",
+          "quoteprefixfordoublequotes" : "[",
+          "keywords" : [ ]
+        }
+      },
+      "id" : "dsd.Employees",
+      "fileFormatSettings" : {
+        "qLabel" : "embedded labels",
+        "qHeaderSize" : 0,
+        "qDelimiter" : {
+          "qNumber" : 0,
+          "qIsMultiple" : false
+        },
+        "qQuote" : "standard",
+        "qCodePage" : 1252,
+        "qIgnoreEOF" : false,
+        "qFixedWidthDelimiters" : "1",
+        "qTabSize" : 0,
+        "qRecordSize" : 0,
+        "qComment" : ""
+      },
+      "formatSpec" : "(ooxml, embedded labels, table is Employees)",
+      "loadSelectStatement" : "LOAD [EmployeeID] AS [EmployeeID],\n\t[Extension] AS [Extension],\n\t[EmployeeName] AS [EmployeeName],\n\t[EmployeeGender] AS [EmployeeGender],\n\t[Hire Date] AS [Hire Date],\n\t[Office] AS [Office],\n\t[Supervisor] AS [Supervisor],\n\t[JobTitle] AS [JobTitle],\n\t[AnnualSalary] AS [AnnualSalary],\n\t[SalesTarget] AS [SalesTarget]\nFROM [lib://AttachedFiles/International Apparel Data.xlsx]\n(ooxml, embedded labels, table is Employees);\n"
+    }, {
+      "dataconnectorName" : "AttachedFiles",
+      "boxType" : "load-file",
+      "databaseName" : "International Apparel Data.xlsx",
+      "ownerName" : "TYPE9_EXCEL_OOXML",
+      "tableName" : "Offices",
+      "tableAlias" : "Offices",
+      "key" : "AttachedFiles:International Apparel Data.xlsx:TYPE9_EXCEL_OOXML:Offices",
+      "fields" : [ {
+        "id" : "dsd.Offices.Office",
+        "name" : "Office",
+        "alias" : "Offices.Office",
+        "selected" : true
+      }, {
+        "id" : "dsd.Offices.OfficeLocation",
+        "name" : "OfficeLocation",
+        "alias" : "OfficeLocation",
+        "selected" : true
+      } ],
+      "calculatedFields" : [ ],
+      "connectionInfo" : {
+        "name" : "AttachedFiles",
+        "id" : "47a1cfd8-f70e-4a98-a00d-00fca6c8e253",
+        "type" : {
+          "provider" : "folder",
+          "type" : "folder",
+          "displayName" : "scripteditor.dataconnectors.filedirectory",
+          "connectDialog" : "scripteditor.views/fileconnectdialog/fileconnectdialog",
+          "selectDialog" : "scripteditor.views/fileselectdialog/fileselectdialog",
+          "connectorMain" : "assets/hldm/data-connectors/native-file-connector/connector-main",
+          "needsConnect" : false,
+          "isStandardConnector" : true
+        },
+        "typeName" : "folder",
+        "privileges" : [ "read" ],
+        "canDelete" : true,
+        "sourceConnectorID" : "folder",
+        "dbInfo" : {
+          "dbusage" : false,
+          "ownerusage" : false,
+          "dbfirst" : false,
+          "specialchars" : "!  　\"$&'()*+,-/:;<>´`{}~[]\r\n\t",
+          "dbseparator" : "",
+          "ownerseparator" : "",
+          "quotesuffix" : "\"",
+          "quoteprefix" : "\"",
+          "quotesuffixfordoublequotes" : "]",
+          "quoteprefixfordoublequotes" : "[",
+          "keywords" : [ ]
+        }
+      },
+      "id" : "dsd.Offices",
+      "fileFormatSettings" : {
+        "qLabel" : "embedded labels",
+        "qHeaderSize" : 0,
+        "qDelimiter" : {
+          "qNumber" : 0,
+          "qIsMultiple" : false
+        },
+        "qQuote" : "standard",
+        "qCodePage" : 1252,
+        "qIgnoreEOF" : false,
+        "qFixedWidthDelimiters" : "1",
+        "qTabSize" : 0,
+        "qRecordSize" : 0,
+        "qComment" : ""
+      },
+      "formatSpec" : "(ooxml, embedded labels, table is Offices)",
+      "loadSelectStatement" : "LOAD [Office] AS [Office],\n\t[OfficeLocation] AS [OfficeLocation]\nFROM [lib://AttachedFiles/International Apparel Data.xlsx]\n(ooxml, embedded labels, table is Offices);\n"
+    }, {
+      "dataconnectorName" : "AttachedFiles",
+      "boxType" : "load-file",
+      "databaseName" : "International Apparel Data.xlsx",
+      "ownerName" : "TYPE9_EXCEL_OOXML",
+      "tableName" : "OrderHeader",
+      "tableAlias" : "OrderHeader",
+      "key" : "AttachedFiles:International Apparel Data.xlsx:TYPE9_EXCEL_OOXML:OrderHeader",
+      "fields" : [ {
+        "id" : "dsd.OrderHeader.OrderDate",
+        "name" : "OrderDate",
+        "alias" : "OrderDate",
+        "selected" : true
+      }, {
+        "id" : "dsd.OrderHeader.CustomerID",
+        "name" : "CustomerID",
+        "alias" : "OrderHeader.CustomerID",
+        "selected" : true
+      }, {
+        "id" : "dsd.OrderHeader.EmployeeID",
+        "name" : "EmployeeID",
+        "alias" : "OrderHeader.EmployeeID",
+        "selected" : true
+      }, {
+        "id" : "dsd.OrderHeader.ShippingCost",
+        "name" : "ShippingCost",
+        "alias" : "ShippingCost",
+        "selected" : true
+      }, {
+        "id" : "dsd.OrderHeader.OrderID",
+        "name" : "OrderID",
+        "alias" : "OrderHeader.OrderID",
+        "selected" : true
+      }, {
+        "id" : "dsd.OrderHeader.ShippingCompany",
+        "name" : "ShippingCompany",
+        "alias" : "ShippingCompany",
+        "selected" : true
+      }, {
+        "id" : "dsd.OrderHeader.DeliveryDate",
+        "name" : "DeliveryDate",
+        "alias" : "DeliveryDate",
+        "selected" : true
+      } ],
+      "calculatedFields" : [ ],
+      "connectionInfo" : {
+        "name" : "AttachedFiles",
+        "id" : "47a1cfd8-f70e-4a98-a00d-00fca6c8e253",
+        "type" : {
+          "provider" : "folder",
+          "type" : "folder",
+          "displayName" : "scripteditor.dataconnectors.filedirectory",
+          "connectDialog" : "scripteditor.views/fileconnectdialog/fileconnectdialog",
+          "selectDialog" : "scripteditor.views/fileselectdialog/fileselectdialog",
+          "connectorMain" : "assets/hldm/data-connectors/native-file-connector/connector-main",
+          "needsConnect" : false,
+          "isStandardConnector" : true
+        },
+        "typeName" : "folder",
+        "privileges" : [ "read" ],
+        "canDelete" : true,
+        "sourceConnectorID" : "folder",
+        "dbInfo" : {
+          "dbusage" : false,
+          "ownerusage" : false,
+          "dbfirst" : false,
+          "specialchars" : "!  　\"$&'()*+,-/:;<>´`{}~[]\r\n\t",
+          "dbseparator" : "",
+          "ownerseparator" : "",
+          "quotesuffix" : "\"",
+          "quoteprefix" : "\"",
+          "quotesuffixfordoublequotes" : "]",
+          "quoteprefixfordoublequotes" : "[",
+          "keywords" : [ ]
+        }
+      },
+      "id" : "dsd.OrderHeader",
+      "fileFormatSettings" : {
+        "qLabel" : "embedded labels",
+        "qHeaderSize" : 0,
+        "qDelimiter" : {
+          "qNumber" : 0,
+          "qIsMultiple" : false
+        },
+        "qQuote" : "standard",
+        "qCodePage" : 1252,
+        "qIgnoreEOF" : false,
+        "qFixedWidthDelimiters" : "1",
+        "qTabSize" : 0,
+        "qRecordSize" : 0,
+        "qComment" : ""
+      },
+      "formatSpec" : "(ooxml, embedded labels, table is OrderHeader)",
+      "loadSelectStatement" : "LOAD [OrderDate] AS [OrderDate],\n\t[CustomerID] AS [CustomerID],\n\t[EmployeeID] AS [EmployeeID],\n\t[ShippingCost] AS [ShippingCost],\n\t[OrderID] AS [OrderID],\n\t[ShippingCompany] AS [ShippingCompany],\n\t[DeliveryDate] AS [DeliveryDate]\nFROM [lib://AttachedFiles/International Apparel Data.xlsx]\n(ooxml, embedded labels, table is OrderHeader);\n"
+    }, {
+      "dataconnectorName" : "AttachedFiles",
+      "boxType" : "load-file",
+      "databaseName" : "International Apparel Data.xlsx",
+      "ownerName" : "TYPE9_EXCEL_OOXML",
+      "tableName" : "Category",
+      "tableAlias" : "Category",
+      "key" : "AttachedFiles:International Apparel Data.xlsx:TYPE9_EXCEL_OOXML:Category",
+      "fields" : [ {
+        "id" : "dsd.Category.CategoryID",
+        "name" : "CategoryID",
+        "alias" : "Category.CategoryID",
+        "selected" : true
+      }, {
+        "id" : "dsd.Category.CategoryName",
+        "name" : "CategoryName",
+        "alias" : "CategoryName",
+        "selected" : true
+      }, {
+        "id" : "dsd.Category.Department",
+        "name" : "Department",
+        "alias" : "Department",
+        "selected" : true
+      }, {
+        "id" : "dsd.Category.Description",
+        "name" : "Description",
+        "alias" : "Description",
+        "selected" : true
+      } ],
+      "calculatedFields" : [ ],
+      "connectionInfo" : {
+        "name" : "AttachedFiles",
+        "id" : "47a1cfd8-f70e-4a98-a00d-00fca6c8e253",
+        "type" : {
+          "provider" : "folder",
+          "type" : "folder",
+          "displayName" : "scripteditor.dataconnectors.filedirectory",
+          "connectDialog" : "scripteditor.views/fileconnectdialog/fileconnectdialog",
+          "selectDialog" : "scripteditor.views/fileselectdialog/fileselectdialog",
+          "connectorMain" : "assets/hldm/data-connectors/native-file-connector/connector-main",
+          "needsConnect" : false,
+          "isStandardConnector" : true
+        },
+        "typeName" : "folder",
+        "privileges" : [ "read" ],
+        "canDelete" : true,
+        "sourceConnectorID" : "folder",
+        "dbInfo" : {
+          "dbusage" : false,
+          "ownerusage" : false,
+          "dbfirst" : false,
+          "specialchars" : "!  　\"$&'()*+,-/:;<>´`{}~[]\r\n\t",
+          "dbseparator" : "",
+          "ownerseparator" : "",
+          "quotesuffix" : "\"",
+          "quoteprefix" : "\"",
+          "quotesuffixfordoublequotes" : "]",
+          "quoteprefixfordoublequotes" : "[",
+          "keywords" : [ ]
+        }
+      },
+      "id" : "dsd.Category",
+      "fileFormatSettings" : {
+        "qLabel" : "embedded labels",
+        "qHeaderSize" : 0,
+        "qDelimiter" : {
+          "qNumber" : 0,
+          "qIsMultiple" : false
+        },
+        "qQuote" : "standard",
+        "qCodePage" : 1252,
+        "qIgnoreEOF" : false,
+        "qFixedWidthDelimiters" : "1",
+        "qTabSize" : 0,
+        "qRecordSize" : 0,
+        "qComment" : ""
+      },
+      "formatSpec" : "(ooxml, embedded labels, table is Category)",
+      "loadSelectStatement" : "LOAD [CategoryID] AS [CategoryID],\n\t[CategoryName] AS [CategoryName],\n\t[Department] AS [Department],\n\t[Description] AS [Description]\nFROM [lib://AttachedFiles/International Apparel Data.xlsx]\n(ooxml, embedded labels, table is Category);\n"
+    }, {
+      "dataconnectorName" : "AttachedFiles",
+      "boxType" : "load-file",
+      "databaseName" : "International Apparel Data.xlsx",
+      "ownerName" : "TYPE9_EXCEL_OOXML",
+      "tableName" : "Products",
+      "tableAlias" : "Products",
+      "key" : "AttachedFiles:International Apparel Data.xlsx:TYPE9_EXCEL_OOXML:Products",
+      "fields" : [ {
+        "id" : "dsd.Products.ProductID",
+        "name" : "ProductID",
+        "alias" : "Products.ProductID",
+        "selected" : true
+      }, {
+        "id" : "dsd.Products.CategoryID",
+        "name" : "CategoryID",
+        "alias" : "Products.CategoryID",
+        "selected" : true
+      }, {
+        "id" : "dsd.Products.ProductName",
+        "name" : "ProductName",
+        "alias" : "ProductName",
+        "selected" : true
+      }, {
+        "id" : "dsd.Products.SupplierID",
+        "name" : "SupplierID",
+        "alias" : "Products.SupplierID",
+        "selected" : true
+      } ],
+      "calculatedFields" : [ ],
+      "connectionInfo" : {
+        "name" : "AttachedFiles",
+        "id" : "47a1cfd8-f70e-4a98-a00d-00fca6c8e253",
+        "type" : {
+          "provider" : "folder",
+          "type" : "folder",
+          "displayName" : "scripteditor.dataconnectors.filedirectory",
+          "connectDialog" : "scripteditor.views/fileconnectdialog/fileconnectdialog",
+          "selectDialog" : "scripteditor.views/fileselectdialog/fileselectdialog",
+          "connectorMain" : "assets/hldm/data-connectors/native-file-connector/connector-main",
+          "needsConnect" : false,
+          "isStandardConnector" : true
+        },
+        "typeName" : "folder",
+        "privileges" : [ "read" ],
+        "canDelete" : true,
+        "sourceConnectorID" : "folder",
+        "dbInfo" : {
+          "dbusage" : false,
+          "ownerusage" : false,
+          "dbfirst" : false,
+          "specialchars" : "!  　\"$&'()*+,-/:;<>´`{}~[]\r\n\t",
+          "dbseparator" : "",
+          "ownerseparator" : "",
+          "quotesuffix" : "\"",
+          "quoteprefix" : "\"",
+          "quotesuffixfordoublequotes" : "]",
+          "quoteprefixfordoublequotes" : "[",
+          "keywords" : [ ]
+        }
+      },
+      "id" : "dsd.Products",
+      "fileFormatSettings" : {
+        "qLabel" : "embedded labels",
+        "qHeaderSize" : 0,
+        "qDelimiter" : {
+          "qNumber" : 0,
+          "qIsMultiple" : false
+        },
+        "qQuote" : "standard",
+        "qCodePage" : 1252,
+        "qIgnoreEOF" : false,
+        "qFixedWidthDelimiters" : "1",
+        "qTabSize" : 0,
+        "qRecordSize" : 0,
+        "qComment" : ""
+      },
+      "formatSpec" : "(ooxml, embedded labels, table is Products)",
+      "loadSelectStatement" : "LOAD [ProductID] AS [ProductID],\n\t[CategoryID] AS [CategoryID],\n\t[ProductName] AS [ProductName],\n\t[SupplierID] AS [SupplierID]\nFROM [lib://AttachedFiles/International Apparel Data.xlsx]\n(ooxml, embedded labels, table is Products);\n"
+    }, {
+      "dataconnectorName" : "AttachedFiles",
+      "boxType" : "load-file",
+      "databaseName" : "International Apparel Data.xlsx",
+      "ownerName" : "TYPE9_EXCEL_OOXML",
+      "tableName" : "OrderDetails",
+      "tableAlias" : "OrderDetails",
+      "key" : "AttachedFiles:International Apparel Data.xlsx:TYPE9_EXCEL_OOXML:OrderDetails",
+      "fields" : [ {
+        "id" : "dsd.OrderDetails.OrderID",
+        "name" : "OrderID",
+        "alias" : "OrderDetails.OrderID",
+        "selected" : true
+      }, {
+        "id" : "dsd.OrderDetails.ProductID",
+        "name" : "ProductID",
+        "alias" : "OrderDetails.ProductID",
+        "selected" : true
+      }, {
+        "id" : "dsd.OrderDetails.Quantity",
+        "name" : "Quantity",
+        "alias" : "Quantity",
+        "selected" : true
+      }, {
+        "id" : "dsd.OrderDetails.Sales",
+        "name" : "Sales",
+        "alias" : "Sales",
+        "selected" : true
+      }, {
+        "id" : "dsd.OrderDetails.Discount",
+        "name" : "Discount",
+        "alias" : "Discount",
+        "selected" : true
+      }, {
+        "id" : "dsd.OrderDetails.CostOfSales",
+        "name" : "CostOfSales",
+        "alias" : "CostOfSales",
+        "selected" : true
+      }, {
+        "id" : "dsd.OrderDetails.GrossProfit",
+        "name" : "GrossProfit",
+        "alias" : "GrossProfit",
+        "selected" : true
+      } ],
+      "calculatedFields" : [ ],
+      "connectionInfo" : {
+        "name" : "AttachedFiles",
+        "id" : "47a1cfd8-f70e-4a98-a00d-00fca6c8e253",
+        "type" : {
+          "provider" : "folder",
+          "type" : "folder",
+          "displayName" : "scripteditor.dataconnectors.filedirectory",
+          "connectDialog" : "scripteditor.views/fileconnectdialog/fileconnectdialog",
+          "selectDialog" : "scripteditor.views/fileselectdialog/fileselectdialog",
+          "connectorMain" : "assets/hldm/data-connectors/native-file-connector/connector-main",
+          "needsConnect" : false,
+          "isStandardConnector" : true
+        },
+        "typeName" : "folder",
+        "privileges" : [ "read" ],
+        "canDelete" : true,
+        "sourceConnectorID" : "folder",
+        "dbInfo" : {
+          "dbusage" : false,
+          "ownerusage" : false,
+          "dbfirst" : false,
+          "specialchars" : "!  　\"$&'()*+,-/:;<>´`{}~[]\r\n\t",
+          "dbseparator" : "",
+          "ownerseparator" : "",
+          "quotesuffix" : "\"",
+          "quoteprefix" : "\"",
+          "quotesuffixfordoublequotes" : "]",
+          "quoteprefixfordoublequotes" : "[",
+          "keywords" : [ ]
+        }
+      },
+      "id" : "dsd.OrderDetails",
+      "fileFormatSettings" : {
+        "qLabel" : "embedded labels",
+        "qHeaderSize" : 0,
+        "qDelimiter" : {
+          "qNumber" : 0,
+          "qIsMultiple" : false
+        },
+        "qQuote" : "standard",
+        "qCodePage" : 1252,
+        "qIgnoreEOF" : false,
+        "qFixedWidthDelimiters" : "1",
+        "qTabSize" : 0,
+        "qRecordSize" : 0,
+        "qComment" : ""
+      },
+      "formatSpec" : "(ooxml, embedded labels, table is OrderDetails)",
+      "loadSelectStatement" : "LOAD [OrderID] AS [OrderID],\n\t[ProductID] AS [ProductID],\n\t[Quantity] AS [Quantity],\n\t[Sales] AS [Sales],\n\t[Discount] AS [Discount],\n\t[CostOfSales] AS [CostOfSales],\n\t[GrossProfit] AS [GrossProfit]\nFROM [lib://AttachedFiles/International Apparel Data.xlsx]\n(ooxml, embedded labels, table is OrderDetails);\n"
+    }, {
+      "dataconnectorName" : "AttachedFiles",
+      "boxType" : "load-file",
+      "databaseName" : "International Apparel Data.xlsx",
+      "ownerName" : "TYPE9_EXCEL_OOXML",
+      "tableName" : "Suppliers",
+      "tableAlias" : "Suppliers",
+      "key" : "AttachedFiles:International Apparel Data.xlsx:TYPE9_EXCEL_OOXML:Suppliers",
+      "fields" : [ {
+        "id" : "dsd.Suppliers.SupplierID",
+        "name" : "SupplierID",
+        "alias" : "Suppliers.SupplierID",
+        "selected" : true
+      }, {
+        "id" : "dsd.Suppliers.Supplier",
+        "name" : "Supplier",
+        "alias" : "Supplier",
+        "selected" : true
+      }, {
+        "id" : "dsd.Suppliers.SupplierContact",
+        "name" : "SupplierContact",
+        "alias" : "SupplierContact",
+        "selected" : true
+      }, {
+        "id" : "dsd.Suppliers.SupplierCountry",
+        "name" : "SupplierCountry",
+        "alias" : "SupplierCountry",
+        "selected" : true
+      } ],
+      "calculatedFields" : [ ],
+      "connectionInfo" : {
+        "name" : "AttachedFiles",
+        "id" : "47a1cfd8-f70e-4a98-a00d-00fca6c8e253",
+        "type" : {
+          "provider" : "folder",
+          "type" : "folder",
+          "displayName" : "scripteditor.dataconnectors.filedirectory",
+          "connectDialog" : "scripteditor.views/fileconnectdialog/fileconnectdialog",
+          "selectDialog" : "scripteditor.views/fileselectdialog/fileselectdialog",
+          "connectorMain" : "assets/hldm/data-connectors/native-file-connector/connector-main",
+          "needsConnect" : false,
+          "isStandardConnector" : true
+        },
+        "typeName" : "folder",
+        "privileges" : [ "read" ],
+        "canDelete" : true,
+        "sourceConnectorID" : "folder",
+        "dbInfo" : {
+          "dbusage" : false,
+          "ownerusage" : false,
+          "dbfirst" : false,
+          "specialchars" : "!  　\"$&'()*+,-/:;<>´`{}~[]\r\n\t",
+          "dbseparator" : "",
+          "ownerseparator" : "",
+          "quotesuffix" : "\"",
+          "quoteprefix" : "\"",
+          "quotesuffixfordoublequotes" : "]",
+          "quoteprefixfordoublequotes" : "[",
+          "keywords" : [ ]
+        }
+      },
+      "id" : "dsd.Suppliers",
+      "fileFormatSettings" : {
+        "qLabel" : "embedded labels",
+        "qHeaderSize" : 0,
+        "qDelimiter" : {
+          "qNumber" : 0,
+          "qIsMultiple" : false
+        },
+        "qQuote" : "standard",
+        "qCodePage" : 1252,
+        "qIgnoreEOF" : false,
+        "qFixedWidthDelimiters" : "1",
+        "qTabSize" : 0,
+        "qRecordSize" : 0,
+        "qComment" : ""
+      },
+      "formatSpec" : "(ooxml, embedded labels, table is Suppliers)",
+      "loadSelectStatement" : "LOAD [SupplierID] AS [SupplierID],\n\t[Supplier] AS [Supplier],\n\t[SupplierContact] AS [SupplierContact],\n\t[SupplierCountry] AS [SupplierCountry]\nFROM [lib://AttachedFiles/International Apparel Data.xlsx]\n(ooxml, embedded labels, table is Suppliers);\n"
+    }, {
+      "dataconnectorName" : "AttachedFiles",
+      "boxType" : "load-file",
+      "databaseName" : "International Apparel Data.xlsx",
+      "ownerName" : "TYPE9_EXCEL_OOXML",
+      "tableName" : "Territories",
+      "tableAlias" : "Territories",
+      "key" : "AttachedFiles:International Apparel Data.xlsx:TYPE9_EXCEL_OOXML:Territories",
+      "fields" : [ {
+        "id" : "dsd.Territories.EmployeeID",
+        "name" : "EmployeeID",
+        "alias" : "Territories.EmployeeID",
+        "selected" : true
+      }, {
+        "id" : "dsd.Territories.TerritoryID",
+        "name" : "TerritoryID",
+        "alias" : "TerritoryID",
+        "selected" : true
+      } ],
+      "calculatedFields" : [ ],
+      "connectionInfo" : {
+        "name" : "AttachedFiles",
+        "id" : "47a1cfd8-f70e-4a98-a00d-00fca6c8e253",
+        "type" : {
+          "provider" : "folder",
+          "type" : "folder",
+          "displayName" : "scripteditor.dataconnectors.filedirectory",
+          "connectDialog" : "scripteditor.views/fileconnectdialog/fileconnectdialog",
+          "selectDialog" : "scripteditor.views/fileselectdialog/fileselectdialog",
+          "connectorMain" : "assets/hldm/data-connectors/native-file-connector/connector-main",
+          "needsConnect" : false,
+          "isStandardConnector" : true
+        },
+        "typeName" : "folder",
+        "privileges" : [ "read" ],
+        "canDelete" : true,
+        "sourceConnectorID" : "folder",
+        "dbInfo" : {
+          "dbusage" : false,
+          "ownerusage" : false,
+          "dbfirst" : false,
+          "specialchars" : "!  　\"$&'()*+,-/:;<>´`{}~[]\r\n\t",
+          "dbseparator" : "",
+          "ownerseparator" : "",
+          "quotesuffix" : "\"",
+          "quoteprefix" : "\"",
+          "quotesuffixfordoublequotes" : "]",
+          "quoteprefixfordoublequotes" : "[",
+          "keywords" : [ ]
+        }
+      },
+      "id" : "dsd.Territories",
+      "fileFormatSettings" : {
+        "qLabel" : "embedded labels",
+        "qHeaderSize" : 0,
+        "qDelimiter" : {
+          "qNumber" : 0,
+          "qIsMultiple" : false
+        },
+        "qQuote" : "standard",
+        "qCodePage" : 1252,
+        "qIgnoreEOF" : false,
+        "qFixedWidthDelimiters" : "1",
+        "qTabSize" : 0,
+        "qRecordSize" : 0,
+        "qComment" : ""
+      },
+      "formatSpec" : "(ooxml, embedded labels, table is Territories)",
+      "loadSelectStatement" : "LOAD [EmployeeID] AS [EmployeeID],\n\t[TerritoryID] AS [TerritoryID]\nFROM [lib://AttachedFiles/International Apparel Data.xlsx]\n(ooxml, embedded labels, table is Territories);\n"
+    } ],
+    "queries" : [ {
+      "id" : "6b4ace62-a2b2-464d-8b1c-d4013b574953",
+      "type" : "Query",
+      "name" : "Customers",
+      "tableRef" : "dsd.Customers",
+      "status" : "",
+      "fields" : [ {
+        "id" : "eeaecb91-5335-41b6-930c-1aef693fa829",
+        "type" : "QueryField",
+        "name" : "Address",
+        "fieldRef" : "dsd.Customers.Address",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "7bdd5d70-ed3e-4978-ba20-d03a939fe13b",
+        "type" : "QueryField",
+        "name" : "City",
+        "fieldRef" : "dsd.Customers.City",
+        "classifications" : [ "city" ],
+        "originalClassification" : [ "city" ],
+        "transformations" : [ {
+          "op" : "lookupGeoInfo",
+          "appliedTo" : "7bdd5d70-ed3e-4978-ba20-d03a939fe13b",
+          "arguments" : {
+            "geoType" : "cityAlias",
+            "matchRatio" : 0.88,
+            "unmatched" : [ "bräcke", "cunewalde", "frankfurt a.m.", "i. de margarita", "lander", "méxico d.f.", "stavern", "tsawassen" ],
+            "disambiguatingCountry" : "f15a6be1-b30a-4a49-81e9-b926c0db6459"
+          }
+        } ],
+        "originalTransformations" : [ {
+          "op" : "lookupGeoInfo",
+          "appliedTo" : "7bdd5d70-ed3e-4978-ba20-d03a939fe13b",
+          "arguments" : {
+            "geoType" : "cityAlias",
+            "matchRatio" : 0.88,
+            "unmatched" : [ "bräcke", "cunewalde", "frankfurt a.m.", "i. de margarita", "lander", "méxico d.f.", "stavern", "tsawassen" ],
+            "disambiguatingCountry" : "f15a6be1-b30a-4a49-81e9-b926c0db6459"
+          }
+        } ]
+      }, {
+        "id" : "b782f1a9-b261-4798-a386-785461c8f45d",
+        "type" : "QueryField",
+        "name" : "ContactName",
+        "fieldRef" : "dsd.Customers.ContactName",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "f15a6be1-b30a-4a49-81e9-b926c0db6459",
+        "type" : "QueryField",
+        "name" : "Country",
+        "fieldRef" : "dsd.Customers.Country",
+        "classifications" : [ "country" ],
+        "originalClassification" : [ "country" ],
+        "transformations" : [ {
+          "op" : "lookupGeoInfo",
+          "appliedTo" : "f15a6be1-b30a-4a49-81e9-b926c0db6459",
+          "arguments" : {
+            "geoType" : "countryAlias",
+            "matchRatio" : 1
+          }
+        } ],
+        "originalTransformations" : [ {
+          "op" : "lookupGeoInfo",
+          "appliedTo" : "f15a6be1-b30a-4a49-81e9-b926c0db6459",
+          "arguments" : {
+            "geoType" : "countryAlias",
+            "matchRatio" : 1
+          }
+        } ]
+      }, {
+        "id" : "cae990b9-9391-46f6-9cab-c54222df4533",
+        "type" : "QueryField",
+        "name" : "Region",
+        "fieldRef" : "dsd.Customers.Region",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "9abb0604-d87b-496c-89e4-3b4924a02543",
+        "type" : "QueryField",
+        "name" : "Customer",
+        "fieldRef" : "dsd.Customers.Customer",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "b3815be7-68f6-491a-8da0-447e85260a5e",
+        "type" : "QueryField",
+        "name" : "Customers.CustomerID",
+        "fieldRef" : "dsd.Customers.CustomerID",
+        "classifications" : [ "dimension", "identifier" ],
+        "originalClassification" : [ "dimension", "identifier" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "cab16f9d-ee15-4822-a372-a2eb5fa2fc63",
+        "type" : "QueryField",
+        "name" : "Fax",
+        "fieldRef" : "dsd.Customers.Fax",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "0cfba867-60f8-4f82-beb1-ebfc0f42f2da",
+        "type" : "QueryField",
+        "name" : "Phone",
+        "fieldRef" : "dsd.Customers.Phone",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "a4b96463-36b4-4aac-a13e-5590570939bf",
+        "type" : "QueryField",
+        "name" : "PostalCode",
+        "fieldRef" : "dsd.Customers.PostalCode",
+        "classifications" : [ "postalCode" ],
+        "originalClassification" : [ "postalCode" ],
+        "transformations" : [ {
+          "op" : "ignoreValues",
+          "appliedTo" : "a4b96463-36b4-4aac-a13e-5590570939bf",
+          "arguments" : {
+            "values" : [ "NULL" ]
+          }
+        } ],
+        "originalTransformations" : [ {
+          "op" : "ignoreValues",
+          "appliedTo" : "a4b96463-36b4-4aac-a13e-5590570939bf",
+          "arguments" : {
+            "values" : [ "NULL" ]
+          }
+        } ]
+      }, {
+        "id" : "1509af16-e1a3-4369-9f70-ff8e16c75856",
+        "type" : "QueryField",
+        "name" : "CountryCode",
+        "fieldRef" : "dsd.Customers.CountryCode",
+        "classifications" : [ "country" ],
+        "originalClassification" : [ "country" ],
+        "transformations" : [ {
+          "op" : "lookupGeoInfo",
+          "appliedTo" : "1509af16-e1a3-4369-9f70-ff8e16c75856",
+          "arguments" : {
+            "geoType" : "countryCodeISO2",
+            "matchRatio" : 1
+          }
+        } ],
+        "originalTransformations" : [ {
+          "op" : "lookupGeoInfo",
+          "appliedTo" : "1509af16-e1a3-4369-9f70-ff8e16c75856",
+          "arguments" : {
+            "geoType" : "countryCodeISO2",
+            "matchRatio" : 1
+          }
+        } ]
+      }, {
+        "id" : "8bf320eb-a1b8-49c3-a74b-a4bde6fe44c4",
+        "type" : "QueryField",
+        "name" : "Latitude",
+        "fieldRef" : "dsd.Customers.Latitude",
+        "classifications" : [ "latitude" ],
+        "originalClassification" : [ "latitude" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "0c5ca440-4553-4c85-afeb-53aea4a153c0",
+        "type" : "QueryField",
+        "name" : "Longitude",
+        "fieldRef" : "dsd.Customers.Longitude",
+        "classifications" : [ "longitude" ],
+        "originalClassification" : [ "longitude" ],
+        "transformations" : [ {
+          "op" : "makeGeoPoint",
+          "appliedTo" : [ "8bf320eb-a1b8-49c3-a74b-a4bde6fe44c4", "0c5ca440-4553-4c85-afeb-53aea4a153c0" ],
+          "arguments" : {
+            "correspondsToCandidates" : [ "eeaecb91-5335-41b6-930c-1aef693fa829", "b782f1a9-b261-4798-a386-785461c8f45d", "9abb0604-d87b-496c-89e4-3b4924a02543", "b3815be7-68f6-491a-8da0-447e85260a5e", "0cfba867-60f8-4f82-beb1-ebfc0f42f2da" ]
+          }
+        } ],
+        "originalTransformations" : [ {
+          "op" : "makeGeoPoint",
+          "appliedTo" : [ "8bf320eb-a1b8-49c3-a74b-a4bde6fe44c4", "0c5ca440-4553-4c85-afeb-53aea4a153c0" ],
+          "arguments" : {
+            "correspondsToCandidates" : [ "eeaecb91-5335-41b6-930c-1aef693fa829", "b782f1a9-b261-4798-a386-785461c8f45d", "9abb0604-d87b-496c-89e4-3b4924a02543", "b3815be7-68f6-491a-8da0-447e85260a5e", "0cfba867-60f8-4f82-beb1-ebfc0f42f2da" ]
+          }
+        } ]
+      }, {
+        "id" : "91763e83-29d3-47d0-ad77-4800d4ae487e",
+        "type" : "QueryTransformField",
+        "name" : "Customers.City_GeoInfo",
+        "transformations" : [ {
+          "op" : "lookupGeoInfo",
+          "appliedTo" : "7bdd5d70-ed3e-4978-ba20-d03a939fe13b",
+          "arguments" : {
+            "geoType" : "cityAlias",
+            "matchRatio" : 0.88,
+            "unmatched" : [ "bräcke", "cunewalde", "frankfurt a.m.", "i. de margarita", "lander", "méxico d.f.", "stavern", "tsawassen" ],
+            "disambiguatingCountry" : "f15a6be1-b30a-4a49-81e9-b926c0db6459"
+          }
+        } ],
+        "classifications" : [ "geoPoint" ]
+      }, {
+        "id" : "38df1e46-ca36-4f49-b208-b62820b6ba55",
+        "type" : "QueryTransformField",
+        "name" : "Customers.Country_GeoInfo",
+        "transformations" : [ {
+          "op" : "lookupGeoInfo",
+          "appliedTo" : "f15a6be1-b30a-4a49-81e9-b926c0db6459",
+          "arguments" : {
+            "geoType" : "countryAlias",
+            "matchRatio" : 1
+          }
+        } ],
+        "classifications" : [ "geoPolygon" ]
+      }, {
+        "id" : "a4ec73a9-9fd8-48a1-8f03-d0f4c4a29569",
+        "type" : "QueryTransformField",
+        "name" : "Customers.CountryCode_GeoInfo",
+        "transformations" : [ {
+          "op" : "lookupGeoInfo",
+          "appliedTo" : "1509af16-e1a3-4369-9f70-ff8e16c75856",
+          "arguments" : {
+            "geoType" : "countryCodeISO2",
+            "matchRatio" : 1
+          }
+        } ],
+        "classifications" : [ "geoPolygon" ]
+      }, {
+        "id" : "572208d8-64ae-459c-902e-cfaf1d95ace5",
+        "type" : "QueryTransformField",
+        "name" : "Longitude_Latitude",
+        "transformations" : [ {
+          "op" : "makeGeoPoint",
+          "appliedTo" : [ "8bf320eb-a1b8-49c3-a74b-a4bde6fe44c4", "0c5ca440-4553-4c85-afeb-53aea4a153c0" ],
+          "arguments" : {
+            "correspondsToCandidates" : [ "eeaecb91-5335-41b6-930c-1aef693fa829", "b782f1a9-b261-4798-a386-785461c8f45d", "9abb0604-d87b-496c-89e4-3b4924a02543", "b3815be7-68f6-491a-8da0-447e85260a5e", "0cfba867-60f8-4f82-beb1-ebfc0f42f2da" ]
+          }
+        } ],
+        "classifications" : [ "geoPoint" ]
+      } ]
+    }, {
+      "id" : "b5ddd135-c045-4923-82cb-a3f308337c62",
+      "type" : "Query",
+      "name" : "Employees",
+      "tableRef" : "dsd.Employees",
+      "status" : "",
+      "fields" : [ {
+        "id" : "36ac6183-8371-417e-8783-77b91bb52392",
+        "type" : "QueryField",
+        "name" : "Employees.EmployeeID",
+        "fieldRef" : "dsd.Employees.EmployeeID",
+        "classifications" : [ "dimension", "identifier" ],
+        "originalClassification" : [ "dimension", "identifier" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "100340de-ff81-41a9-8019-1d52f810c726",
+        "type" : "QueryField",
+        "name" : "Extension",
+        "fieldRef" : "dsd.Employees.Extension",
+        "classifications" : [ "measure" ],
+        "originalClassification" : [ "measure" ],
+        "transformations" : [ {
+          "op" : "ignoreValues",
+          "appliedTo" : "100340de-ff81-41a9-8019-1d52f810c726",
+          "arguments" : {
+            "values" : [ "NULL" ]
+          }
+        } ],
+        "originalTransformations" : [ {
+          "op" : "ignoreValues",
+          "appliedTo" : "100340de-ff81-41a9-8019-1d52f810c726",
+          "arguments" : {
+            "values" : [ "NULL" ]
+          }
+        } ]
+      }, {
+        "id" : "02862c42-e8b2-440c-8c55-b10782adada4",
+        "type" : "QueryField",
+        "name" : "EmployeeName",
+        "fieldRef" : "dsd.Employees.EmployeeName",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "3a7deb3d-21d1-47f6-b14d-7a877301ba30",
+        "type" : "QueryField",
+        "name" : "EmployeeGender",
+        "fieldRef" : "dsd.Employees.EmployeeGender",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "c26e38b9-81c6-4c7d-8340-309286d4e329",
+        "type" : "QueryField",
+        "name" : "Hire Date",
+        "fieldRef" : "dsd.Employees.Hire Date",
+        "classifications" : [ "date" ],
+        "originalClassification" : [ "date" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "7d63b3ae-8530-44e9-bb67-30826b03f876",
+        "type" : "QueryField",
+        "name" : "Employees.Office",
+        "fieldRef" : "dsd.Employees.Office",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "3590c78d-3f69-4a81-82dc-ce769a862ea4",
+        "type" : "QueryField",
+        "name" : "Supervisor",
+        "fieldRef" : "dsd.Employees.Supervisor",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ {
+          "op" : "fieldSplit",
+          "appliedTo" : "3590c78d-3f69-4a81-82dc-ce769a862ea4",
+          "arguments" : {
+            "delimiter" : "."
+          }
+        } ],
+        "originalTransformations" : [ {
+          "op" : "fieldSplit",
+          "appliedTo" : "3590c78d-3f69-4a81-82dc-ce769a862ea4",
+          "arguments" : {
+            "delimiter" : "."
+          }
+        } ]
+      }, {
+        "id" : "db4bd4c6-81c6-4df9-a9da-04c94e002ad0",
+        "type" : "QueryField",
+        "name" : "JobTitle",
+        "fieldRef" : "dsd.Employees.JobTitle",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "b03eff87-da11-467c-a111-6fade170774c",
+        "type" : "QueryField",
+        "name" : "AnnualSalary",
+        "fieldRef" : "dsd.Employees.AnnualSalary",
+        "classifications" : [ "measure" ],
+        "originalClassification" : [ "measure" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "f471b208-22b8-4d82-a8e5-c362114b59af",
+        "type" : "QueryField",
+        "name" : "SalesTarget",
+        "fieldRef" : "dsd.Employees.SalesTarget",
+        "classifications" : [ "measure" ],
+        "originalClassification" : [ "measure" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      } ]
+    }, {
+      "id" : "cef6f6b7-7858-46a1-bbe3-0513be475762",
+      "type" : "Query",
+      "name" : "Offices",
+      "tableRef" : "dsd.Offices",
+      "status" : "",
+      "fields" : [ {
+        "id" : "558f1ba0-89ae-421e-89ae-5c76aca2955a",
+        "type" : "QueryField",
+        "name" : "Offices.Office",
+        "fieldRef" : "dsd.Offices.Office",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "356ceb1f-20d3-4387-8731-3f0e335f7bec",
+        "type" : "QueryField",
+        "name" : "OfficeLocation",
+        "fieldRef" : "dsd.Offices.OfficeLocation",
+        "classifications" : [ "city" ],
+        "originalClassification" : [ "city" ],
+        "transformations" : [ {
+          "op" : "lookupGeoInfo",
+          "appliedTo" : "356ceb1f-20d3-4387-8731-3f0e335f7bec",
+          "arguments" : {
+            "geoType" : "cityAlias",
+            "matchRatio" : 1
+          }
+        } ],
+        "originalTransformations" : [ {
+          "op" : "lookupGeoInfo",
+          "appliedTo" : "356ceb1f-20d3-4387-8731-3f0e335f7bec",
+          "arguments" : {
+            "geoType" : "cityAlias",
+            "matchRatio" : 1
+          }
+        } ]
+      }, {
+        "id" : "d476d0ce-72d6-48e8-9d4a-f6aac281238d",
+        "type" : "QueryTransformField",
+        "name" : "Offices.OfficeLocation_GeoInfo",
+        "transformations" : [ {
+          "op" : "lookupGeoInfo",
+          "appliedTo" : "356ceb1f-20d3-4387-8731-3f0e335f7bec",
+          "arguments" : {
+            "geoType" : "cityAlias",
+            "matchRatio" : 1
+          }
+        } ],
+        "classifications" : [ "geoPoint" ]
+      } ]
+    }, {
+      "id" : "28609334-6028-48cd-a863-d9fb94b07984",
+      "type" : "Query",
+      "name" : "OrderHeader",
+      "tableRef" : "dsd.OrderHeader",
+      "status" : "",
+      "fields" : [ {
+        "id" : "46e0449f-94de-417b-914d-093e34f35fc5",
+        "type" : "QueryField",
+        "name" : "OrderDate",
+        "fieldRef" : "dsd.OrderHeader.OrderDate",
+        "classifications" : [ "date" ],
+        "originalClassification" : [ "date" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "deaa1896-ae0a-460d-b945-9798ebaa8f07",
+        "type" : "QueryField",
+        "name" : "OrderHeader.CustomerID",
+        "fieldRef" : "dsd.OrderHeader.CustomerID",
+        "classifications" : [ "dimension", "identifier" ],
+        "originalClassification" : [ "dimension", "identifier" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "199bc10a-7c4b-4fda-baec-a8870db6ce69",
+        "type" : "QueryField",
+        "name" : "OrderHeader.EmployeeID",
+        "fieldRef" : "dsd.OrderHeader.EmployeeID",
+        "classifications" : [ "dimension", "identifier" ],
+        "originalClassification" : [ "dimension", "identifier" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "428cecd2-3213-4148-aac3-742d2f316c7a",
+        "type" : "QueryField",
+        "name" : "ShippingCost",
+        "fieldRef" : "dsd.OrderHeader.ShippingCost",
+        "classifications" : [ "measure" ],
+        "originalClassification" : [ "measure" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "f3de837d-43f7-4d47-acd2-dd268e5ba4c8",
+        "type" : "QueryField",
+        "name" : "OrderHeader.OrderID",
+        "fieldRef" : "dsd.OrderHeader.OrderID",
+        "classifications" : [ "dimension", "identifier" ],
+        "originalClassification" : [ "dimension", "identifier" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "c4dff573-2917-46d7-93e8-56b21ef82825",
+        "type" : "QueryField",
+        "name" : "ShippingCompany",
+        "fieldRef" : "dsd.OrderHeader.ShippingCompany",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "51d0f4a0-c74c-4dd4-a8ae-6636caa3fe5c",
+        "type" : "QueryField",
+        "name" : "DeliveryDate",
+        "fieldRef" : "dsd.OrderHeader.DeliveryDate",
+        "classifications" : [ "date" ],
+        "originalClassification" : [ "date" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      } ]
+    }, {
+      "id" : "7f5801d1-875c-47e5-9f6d-4fb7a4a59e60",
+      "type" : "Query",
+      "name" : "Category",
+      "tableRef" : "dsd.Category",
+      "status" : "",
+      "fields" : [ {
+        "id" : "9d69c655-b6d7-4db8-b021-97110137fc7b",
+        "type" : "QueryField",
+        "name" : "Category.CategoryID",
+        "fieldRef" : "dsd.Category.CategoryID",
+        "classifications" : [ "dimension", "identifier" ],
+        "originalClassification" : [ "dimension", "identifier" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "b27e0532-c32b-4874-90bf-d91cd8908292",
+        "type" : "QueryField",
+        "name" : "CategoryName",
+        "fieldRef" : "dsd.Category.CategoryName",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "ae702d92-c96d-481c-b7b6-10fe7ea6ab9c",
+        "type" : "QueryField",
+        "name" : "Department",
+        "fieldRef" : "dsd.Category.Department",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "c7b9c5e5-1210-4534-8417-c3dee62c1a1f",
+        "type" : "QueryField",
+        "name" : "Description",
+        "fieldRef" : "dsd.Category.Description",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      } ]
+    }, {
+      "id" : "ac8daa38-2dc6-4b16-9763-8d8679069408",
+      "type" : "Query",
+      "name" : "Products",
+      "tableRef" : "dsd.Products",
+      "status" : "",
+      "fields" : [ {
+        "id" : "9dcf4517-b73b-4136-8e20-3314cf3b9549",
+        "type" : "QueryField",
+        "name" : "Products.ProductID",
+        "fieldRef" : "dsd.Products.ProductID",
+        "classifications" : [ "dimension", "identifier" ],
+        "originalClassification" : [ "dimension", "identifier" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "9dc286a0-443a-4a07-b67a-93c04ffe6fed",
+        "type" : "QueryField",
+        "name" : "Products.CategoryID",
+        "fieldRef" : "dsd.Products.CategoryID",
+        "classifications" : [ "dimension", "identifier" ],
+        "originalClassification" : [ "dimension", "identifier" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "3365dfe5-e715-4400-a095-75f4b958e483",
+        "type" : "QueryField",
+        "name" : "ProductName",
+        "fieldRef" : "dsd.Products.ProductName",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "c19a8d93-3da1-4dbd-916f-780c43b31008",
+        "type" : "QueryField",
+        "name" : "Products.SupplierID",
+        "fieldRef" : "dsd.Products.SupplierID",
+        "classifications" : [ "dimension", "identifier" ],
+        "originalClassification" : [ "dimension", "identifier" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      } ]
+    }, {
+      "id" : "e7d7c738-2e05-4ed9-99db-e170435102ff",
+      "type" : "Query",
+      "name" : "OrderDetails",
+      "tableRef" : "dsd.OrderDetails",
+      "status" : "",
+      "fields" : [ {
+        "id" : "ebef5022-d7d2-4820-b637-68f515f3b543",
+        "type" : "QueryField",
+        "name" : "OrderDetails.OrderID",
+        "fieldRef" : "dsd.OrderDetails.OrderID",
+        "classifications" : [ "dimension", "identifier" ],
+        "originalClassification" : [ "dimension", "identifier" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "1b99116e-3cec-4bff-8090-ba434eca9012",
+        "type" : "QueryField",
+        "name" : "OrderDetails.ProductID",
+        "fieldRef" : "dsd.OrderDetails.ProductID",
+        "classifications" : [ "dimension", "identifier" ],
+        "originalClassification" : [ "dimension", "identifier" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "b20c306b-5dca-463f-af12-fa907a52b55d",
+        "type" : "QueryField",
+        "name" : "Quantity",
+        "fieldRef" : "dsd.OrderDetails.Quantity",
+        "classifications" : [ "measure" ],
+        "originalClassification" : [ "measure" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "ae52f8ae-6cb2-4ab1-8137-40322323abc2",
+        "type" : "QueryField",
+        "name" : "Sales",
+        "fieldRef" : "dsd.OrderDetails.Sales",
+        "classifications" : [ "measure" ],
+        "originalClassification" : [ "measure" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "30c1bd28-698a-4614-a86c-396f81cec1a8",
+        "type" : "QueryField",
+        "name" : "Discount",
+        "fieldRef" : "dsd.OrderDetails.Discount",
+        "classifications" : [ "measure" ],
+        "originalClassification" : [ "measure" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "5067786e-469c-414a-8074-e8d4a26c9522",
+        "type" : "QueryField",
+        "name" : "CostOfSales",
+        "fieldRef" : "dsd.OrderDetails.CostOfSales",
+        "classifications" : [ "measure" ],
+        "originalClassification" : [ "measure" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "59d31fc7-a039-4929-998b-f062b96d87a3",
+        "type" : "QueryField",
+        "name" : "GrossProfit",
+        "fieldRef" : "dsd.OrderDetails.GrossProfit",
+        "classifications" : [ "measure" ],
+        "originalClassification" : [ "measure" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      } ]
+    }, {
+      "id" : "28a26937-0e8b-460a-adde-57054837f2f1",
+      "type" : "Query",
+      "name" : "Suppliers",
+      "tableRef" : "dsd.Suppliers",
+      "status" : "",
+      "fields" : [ {
+        "id" : "519289c2-cdf9-4a39-b1b4-30605d127ef5",
+        "type" : "QueryField",
+        "name" : "Suppliers.SupplierID",
+        "fieldRef" : "dsd.Suppliers.SupplierID",
+        "classifications" : [ "dimension", "identifier" ],
+        "originalClassification" : [ "dimension", "identifier" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "c8d98c64-2c4e-4a41-8dba-2502341b594c",
+        "type" : "QueryField",
+        "name" : "Supplier",
+        "fieldRef" : "dsd.Suppliers.Supplier",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "06b57850-e269-456a-b948-3488bf7690b3",
+        "type" : "QueryField",
+        "name" : "SupplierContact",
+        "fieldRef" : "dsd.Suppliers.SupplierContact",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "50f3594b-429a-401c-9c05-b8e261dd4b70",
+        "type" : "QueryField",
+        "name" : "SupplierCountry",
+        "fieldRef" : "dsd.Suppliers.SupplierCountry",
+        "classifications" : [ "country" ],
+        "originalClassification" : [ "country" ],
+        "transformations" : [ {
+          "op" : "lookupGeoInfo",
+          "appliedTo" : "50f3594b-429a-401c-9c05-b8e261dd4b70",
+          "arguments" : {
+            "geoType" : "countryAlias",
+            "matchRatio" : 1
+          }
+        } ],
+        "originalTransformations" : [ {
+          "op" : "lookupGeoInfo",
+          "appliedTo" : "50f3594b-429a-401c-9c05-b8e261dd4b70",
+          "arguments" : {
+            "geoType" : "countryAlias",
+            "matchRatio" : 1
+          }
+        } ]
+      }, {
+        "id" : "11c76410-46a0-4621-82b6-3718b8b0216c",
+        "type" : "QueryTransformField",
+        "name" : "Suppliers.SupplierCountry_GeoInfo",
+        "transformations" : [ {
+          "op" : "lookupGeoInfo",
+          "appliedTo" : "50f3594b-429a-401c-9c05-b8e261dd4b70",
+          "arguments" : {
+            "geoType" : "countryAlias",
+            "matchRatio" : 1
+          }
+        } ],
+        "classifications" : [ "geoPolygon" ]
+      } ]
+    }, {
+      "id" : "baf2ec28-916d-4327-ab75-723f2db46980",
+      "type" : "Query",
+      "name" : "Territories",
+      "tableRef" : "dsd.Territories",
+      "status" : "",
+      "fields" : [ {
+        "id" : "10c23870-7ae4-46f7-9186-d42e19393fe0",
+        "type" : "QueryField",
+        "name" : "Territories.EmployeeID",
+        "fieldRef" : "dsd.Territories.EmployeeID",
+        "classifications" : [ "dimension", "identifier" ],
+        "originalClassification" : [ "dimension", "identifier" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "84bd9887-3f47-465c-864e-6b7105165772",
+        "type" : "QueryField",
+        "name" : "TerritoryID",
+        "fieldRef" : "dsd.Territories.TerritoryID",
+        "classifications" : [ "dimension", "identifier" ],
+        "originalClassification" : [ "dimension", "identifier" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      } ]
+    } ],
+    "associations" : {
+      "ProductID" : [ {
+        "tableId" : "ac8daa38-2dc6-4b16-9763-8d8679069408",
+        "fieldId" : "9dcf4517-b73b-4136-8e20-3314cf3b9549"
+      }, {
+        "tableId" : "e7d7c738-2e05-4ed9-99db-e170435102ff",
+        "fieldId" : "1b99116e-3cec-4bff-8090-ba434eca9012"
+      } ],
+      "SupplierID" : [ {
+        "tableId" : "ac8daa38-2dc6-4b16-9763-8d8679069408",
+        "fieldId" : "c19a8d93-3da1-4dbd-916f-780c43b31008"
+      }, {
+        "tableId" : "28a26937-0e8b-460a-adde-57054837f2f1",
+        "fieldId" : "519289c2-cdf9-4a39-b1b4-30605d127ef5"
+      } ],
+      "CategoryID" : [ {
+        "tableId" : "7f5801d1-875c-47e5-9f6d-4fb7a4a59e60",
+        "fieldId" : "9d69c655-b6d7-4db8-b021-97110137fc7b"
+      }, {
+        "tableId" : "ac8daa38-2dc6-4b16-9763-8d8679069408",
+        "fieldId" : "9dc286a0-443a-4a07-b67a-93c04ffe6fed"
+      } ],
+      "EmployeeID" : [ {
+        "tableId" : "b5ddd135-c045-4923-82cb-a3f308337c62",
+        "fieldId" : "36ac6183-8371-417e-8783-77b91bb52392"
+      }, {
+        "tableId" : "28609334-6028-48cd-a863-d9fb94b07984",
+        "fieldId" : "199bc10a-7c4b-4fda-baec-a8870db6ce69"
+      }, {
+        "tableId" : "baf2ec28-916d-4327-ab75-723f2db46980",
+        "fieldId" : "10c23870-7ae4-46f7-9186-d42e19393fe0"
+      } ],
+      "Office" : [ {
+        "tableId" : "b5ddd135-c045-4923-82cb-a3f308337c62",
+        "fieldId" : "7d63b3ae-8530-44e9-bb67-30826b03f876"
+      }, {
+        "tableId" : "cef6f6b7-7858-46a1-bbe3-0513be475762",
+        "fieldId" : "558f1ba0-89ae-421e-89ae-5c76aca2955a"
+      } ],
+      "OrderID" : [ {
+        "tableId" : "28609334-6028-48cd-a863-d9fb94b07984",
+        "fieldId" : "f3de837d-43f7-4d47-acd2-dd268e5ba4c8"
+      }, {
+        "tableId" : "e7d7c738-2e05-4ed9-99db-e170435102ff",
+        "fieldId" : "ebef5022-d7d2-4820-b637-68f515f3b543"
+      } ],
+      "CustomerID" : [ {
+        "tableId" : "6b4ace62-a2b2-464d-8b1c-d4013b574953",
+        "fieldId" : "b3815be7-68f6-491a-8da0-447e85260a5e"
+      }, {
+        "tableId" : "28609334-6028-48cd-a863-d9fb94b07984",
+        "fieldId" : "deaa1896-ae0a-460d-b945-9798ebaa8f07"
+      } ]
+    },
+    "locale" : {
+      "0" : "e",
+      "1" : "n",
+      "2" : "-",
+      "3" : "U",
+      "4" : "S"
+    },
+    "defaultCalendar" : {
+      "id" : "autoCalendar",
+      "name" : "autoCalendar",
+      "appliedToTags" : [ "$date" ],
+      "derivedFields" : [ {
+        "id" : "Decade",
+        "name" : "Decade",
+        "translation" : "",
+        "definition" : "Dual(Div(Year($1),10)*10, MakeDate(Div(Year($1),10)*10, 1, 1))",
+        "tags" : [ "$axis", "$decade" ],
+        "selected" : false
+      }, {
+        "id" : "Year",
+        "name" : "Year",
+        "translation" : "scripteditor.autoCalendarYear",
+        "definition" : "Dual(Year($1), YearStart($1))",
+        "tags" : [ "$axis", "$year" ],
+        "selected" : true
+      }, {
+        "id" : "Quarter",
+        "name" : "Quarter",
+        "translation" : "scripteditor.autoCalendarQuarter",
+        "definition" : "Dual('Q'&Num(Ceil(Num(Month($1))/3)),Num(Ceil(NUM(Month($1))/3),00))",
+        "tags" : [ "$quarter", "$cyclic" ],
+        "selected" : true
+      }, {
+        "id" : "YearQuarter",
+        "name" : "YearQuarter",
+        "translation" : "scripteditor.autoCalendarQuarterYear",
+        "definition" : "Dual(Year($1)&'-Q'&Num(Ceil(Num(Month($1))/3)),QuarterStart($1))",
+        "tags" : [ "$yearquarter", "$qualified" ],
+        "selected" : true
+      }, {
+        "id" : "_YearQuarter",
+        "name" : "_YearQuarter",
+        "translation" : "scripteditor.autoCalendarQuarterYear",
+        "definition" : "Dual('Q'&Num(Ceil(Num(Month($1))/3)),QuarterStart($1))",
+        "tags" : [ "$yearquarter", "$hidden", "$simplified" ],
+        "selected" : true
+      }, {
+        "id" : "Month",
+        "name" : "Month",
+        "translation" : "scripteditor.autoCalendarMonth",
+        "definition" : "Month($1)",
+        "tags" : [ "$month", "$cyclic" ],
+        "selected" : true
+      }, {
+        "id" : "YearMonth",
+        "name" : "YearMonth",
+        "translation" : "scripteditor.autoCalendarMonthYear",
+        "definition" : "Dual(Year($1)&'-'&Month($1), monthstart($1))",
+        "tags" : [ "$axis", "$yearmonth", "$qualified" ],
+        "selected" : true
+      }, {
+        "id" : "_YearMonth",
+        "name" : "_YearMonth",
+        "translation" : "scripteditor.autoCalendarMonthYear",
+        "definition" : "Dual(Month($1), monthstart($1))",
+        "tags" : [ "$axis", "$yearmonth", "$simplified", "$hidden" ],
+        "selected" : true
+      }, {
+        "id" : "Week",
+        "name" : "Week",
+        "translation" : "scripteditor.autoCalendarWeek",
+        "definition" : "Dual('W'&Num(Week($1),00), Num(Week($1),00))",
+        "tags" : [ "$weeknumber", "$cyclic" ],
+        "selected" : true
+      }, {
+        "id" : "YearWeek",
+        "name" : "YearWeek",
+        "translation" : "",
+        "definition" : "Dual(Year($1)&'-W'&num(Week($1),00), weekstart($1))",
+        "tags" : [ "$yearweek" ],
+        "selected" : false
+      }, {
+        "id" : "WeekDay",
+        "name" : "WeekDay",
+        "translation" : "",
+        "definition" : "Dual(WeekDay($1),num(WeekDay($1)))",
+        "tags" : [ "$weekday" ],
+        "selected" : false
+      }, {
+        "id" : "Date",
+        "name" : "Date",
+        "translation" : "scripteditor.autoCalendarDate",
+        "definition" : "Date(Floor($1))",
+        "tags" : [ "$axis", "$date", "$qualified" ],
+        "selected" : true
+      }, {
+        "id" : "_Date",
+        "name" : "_Date",
+        "translation" : "scripteditor.autoCalendarDate",
+        "definition" : "Date(Floor($1), 'D')",
+        "tags" : [ "$axis", "$date", "$hidden", "$simplified" ],
+        "selected" : true
+      } ],
+      "groups" : [ {
+        "name" : "YearMonthDay",
+        "drillDown" : "true",
+        "fieldRefs" : [ "Year", "Month", "WeekDay" ]
+      }, {
+        "name" : "YearMonth",
+        "drillDown" : "false",
+        "fieldRefs" : [ "Year", "Month" ]
+      } ],
+      "deriveFieldsType" : "fieldExplicit"
+    },
+    "schemaVersion" : 2.1
+  },
+  "qChildren" : [ ]
+}

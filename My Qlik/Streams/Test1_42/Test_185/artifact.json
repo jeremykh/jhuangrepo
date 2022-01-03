@@ -1,0 +1,75 @@
+{
+  "contentMap" : {
+    "QlikLoadModel.json" : {
+      "contentChecksum" : "1c339bfca458768503f834b811f4b23e33ecd74d",
+      "contentName" : "QlikLoadModel",
+      "contentOid" : 18450,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    },
+    "QlikScript.txt" : {
+      "contentChecksum" : "8f57619d48d88c955af066b3ef8f5e746a4cb42b",
+      "contentName" : "QlikScript",
+      "contentOid" : 18449,
+      "contentType" : "txt",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "createdDate" : "2021-09-24T15:24:08.845Z",
+      "description" : "",
+      "dynamicColor" : "",
+      "published" : true,
+      "qSavedInProductVersion" : "12.969.2",
+      "qThumbnail" : { },
+      "qTitle" : "Test",
+      "stream" : {
+        "id" : "ef778d4d-1044-426a-8db0-047e12500afb",
+        "name" : "Test1"
+      }
+    },
+    "qrsProp" : {
+      "customProperties" : [ ],
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "privileges" : null,
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userDirectoryConnectorName" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "1bc9f652-7c69-435e-94dc-32120a024215,App;",
+  "key" : {
+    "id" : 185
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Test1/Test",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact"
+  },
+  "name" : "Test",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 42
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 33, 42, 185 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "App",
+  "shouldVersion" : true,
+  "subtype" : "QlikApp",
+  "type" : "QlikArtifact"
+}

@@ -1,0 +1,80 @@
+{
+  "contentMap" : {
+    "QlikAppProps.json" : {
+      "contentChecksum" : "51e339cbf838abc4ad66a88e54b1f645700df460",
+      "contentName" : "QlikAppProps",
+      "contentOid" : 18453,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    },
+    "QlikLoadModel.json" : {
+      "contentChecksum" : "1c339bfca458768503f834b811f4b23e33ecd74d",
+      "contentName" : "QlikLoadModel",
+      "contentOid" : 18452,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    },
+    "QlikScript.txt" : {
+      "contentChecksum" : "5e9e42a8322a0405a72d96d9c1cc3042fcb2f4a1",
+      "contentName" : "QlikScript",
+      "contentOid" : 18451,
+      "contentType" : "txt",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "createdDate" : "2021-10-06T13:10:44.793Z",
+      "description" : "",
+      "dynamicColor" : "",
+      "published" : false,
+      "qMigrationHash" : "82b8362010f6f32f12217392e08c75194db0d4fc",
+      "qSavedInProductVersion" : "12.969.2",
+      "qThumbnail" : { },
+      "qTitle" : "Combo Charts(1)",
+      "stream" : null
+    },
+    "qrsProp" : {
+      "customProperties" : [ ],
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "privileges" : null,
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userDirectoryConnectorName" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "083c61a6-d8ba-41a9-b953-1d53a19f313b,App;",
+  "key" : {
+    "id" : 300
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Combo Charts(1)",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact"
+  },
+  "name" : "Combo Charts(1)",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 174
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 300 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "App",
+  "shouldVersion" : true,
+  "subtype" : "QlikApp",
+  "type" : "QlikArtifact"
+}

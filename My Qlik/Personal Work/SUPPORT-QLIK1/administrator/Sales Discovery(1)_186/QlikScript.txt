@@ -1,0 +1,258 @@
+///$tab Section
+SET ThousandSep=',';
+SET DecimalSep='.';
+SET MoneyThousandSep=',';SET MoneyDecimalSep='.';
+SET MoneyFormat='$#,##0.00;($#,##0.00)';
+SET TimeFormat='h:mm:ss TT';
+SET DateFormat='M/D/YYYY';
+SET TimestampFormat='M/D/YYYY h:mm:ss[.fff] TT';
+SET FirstWeekDay=6;
+SET BrokenWeeks=1;
+SET ReferenceDay=0;
+SET FirstMonthOfYear=1;
+SET CollationLocale='en-US';
+SET CreateSearchIndexOnReload=1;
+SET MonthNames='Jan;Feb;Mar;Apr;May;Jun;Jul;Aug;Sep;Oct;Nov;Dec';
+SET LongMonthNames='January;February;March;April;May;June;July;August;September;October;November;December';
+SET DayNames='Mon;Tue;Wed;Thu;Fri;Sat;Sun';
+SET LongDayNames='Monday;Tuesday;Wednesday;Thursday;Friday;Saturday;Sunday';
+
+SET ThousandSep=',';
+SET DecimalSep='.';
+SET MoneyThousandSep=',';SET MoneyDecimalSep='.';
+SET MoneyFormat='$#,##0.00;($#,##0.00)';
+SET TimeFormat='h:mm:ss TT';
+SET DateFormat='M/D/YYYY';
+SET TimestampFormat='M/D/YYYY h:mm:ss[.fff] TT';
+SET FirstWeekDay=6;
+SET BrokenWeeks=1;
+SET ReferenceDay=0;
+SET FirstMonthOfYear=1;
+SET CollationLocale='en-US';
+SET CreateSearchIndexOnReload=1;
+SET MonthNames='Jan;Feb;Mar;Apr;May;Jun;Jul;Aug;Sep;Oct;Nov;Dec';
+SET LongMonthNames='January;February;March;April;May;June;July;August;September;October;November;December';
+SET DayNames='Mon;Tue;Wed;Thu;Fri;Sat;Sun';
+SET LongDayNames='Monday;Tuesday;Wednesday;Thursday;Friday;Saturday;Sunday';
+
+[FinalItemMaster]:
+LOAD 
+[Short Name],
+[Item Count],
+[Product Price Group],
+[Product Department],
+[Product Line],
+[Product Line Desc],
+[Product Group],
+[Product Group Desc],
+[Product Type],
+[Master Planning Family],
+[Product Sub Group]
+ FROM [lib://Exported CSVs/Sales Discovery/FinalItemMaster.csv]
+(txt, codepage is 1252, embedded labels, delimiter is ',', msq);
+
+[AggSales]:
+LOAD 
+[AggKey],
+[YTD Sales Amount],
+[LY YTD Sales Amount],
+[TM Sales Amount],
+[LY TM Sales Amount],
+[LY Tot Sales Amount],
+[YTD Sales Margin Amount],
+[LY YTD Sales Margin Amount],
+[TM Sales Margin Amount],
+[LY TM Sales Margin Amount],
+[LY Tot Sales Margin Amount],
+[Current Open Amount],
+[Current BackOrder Amount],
+[Current Backlog Amount]
+ FROM [lib://Exported CSVs/Sales Discovery/AggSales.csv]
+(txt, codepage is 1252, embedded labels, delimiter is ',', msq);
+
+[CustomerAddress]:
+LOAD 
+[State-USStates.Name],
+[Address Number],
+[Customer Address 1],
+[Customer Address 2],
+[Customer Address 3],
+[Customer Address 4],
+[Zip Code],
+[City],
+[County],
+[Country]
+ FROM [lib://Exported CSVs/Sales Discovery/CustomerAddress.csv]
+(txt, codepage is 1252, embedded labels, delimiter is ',', msq);
+
+[Customers]:
+LOAD 
+[Address Number],
+[Division],
+[Division Name],
+[Business Family],
+[Customer Type],
+[Customer Type Name],
+[Channel],
+[Channel Name],
+[Category Code 5],
+[Zone Mgr],
+[Zone Mgr Name],
+[Category Code 7],
+[Regional Sales Mgr],
+[Regional Sales Mgr Name],
+[Distribution Channel Mgr],
+[Distribution Channel Mgr Name],
+[Region Code],
+[Region Name],
+[Price Discount Cde 4],
+[Line of Business],
+[Sales Volume],
+[Customer],
+[Customer Number],
+[Consolidated],
+[Search Type],
+[Phone],
+[Business Unit],
+[SIC Code],
+[Tax Certificate]
+ FROM [lib://Exported CSVs/Sales Discovery/Customers.csv]
+(txt, codepage is 1252, embedded labels, delimiter is ',', msq);
+
+[FinalItemBranch]:
+LOAD 
+[Item-Branch Key],
+[Short Name],
+[Item Branch 3rd Item Number],
+[Item Branch G/L Category],
+[Item Branch 2nd Item Number],
+[Item Branch Reorder Quantity],
+[Horsepower],
+[Item Branch Category Code 6],
+[Item Branch Category Code 7],
+[Item Branch Primary Supplier]
+ FROM [lib://Exported CSVs/Sales Discovery/FinalItemBranch.csv]
+(txt, codepage is 1252, embedded labels, delimiter is ',', msq);
+
+[FinalSalesHeader]:
+LOAD 
+[Order Number],
+[Address Number Header],
+[Order Gross Amount],
+[Order Type Header],
+[Business Unit Order Header],
+[Order Date Header],
+[Hold Orders Code Header],
+[Company Number Header],
+[Stop Code Header],
+[Zone Code Header],
+[Hold Code Header],
+[Ship To Address Header],
+[Parent Address Number Header],
+[Orderby Header],
+[Freight Code Header]
+ FROM [lib://Exported CSVs/Sales Discovery/FinalSalesHeader.csv]
+(txt, codepage is 1252, embedded labels, delimiter is ',', msq);
+
+[FinalYTDBudget]:
+LOAD 
+[BudKey],
+[YTD Budget Amount],
+[TM Budget Amount]
+ FROM [lib://Exported CSVs/Sales Discovery/FinalYTDBudget.csv]
+(txt, codepage is 1252, embedded labels, delimiter is ',', msq);
+
+[Province]:
+LOAD 
+[State-USStates.Name],
+[state_abbr],
+[state_name]
+ FROM [lib://Exported CSVs/Sales Discovery/Province.csv]
+(txt, codepage is 1252, embedded labels, delimiter is ',', msq);
+
+[Sales]:
+LOAD 
+[Key],
+[NoOfItem],
+[MaxNoOfItem]
+ FROM [lib://Exported CSVs/Sales Discovery/Sales.csv]
+(txt, codepage is 1252, embedded labels, delimiter is ',', msq);
+
+[US STATES]:
+LOAD 
+[State-USStates.Name],
+[USStates.Area]
+ FROM [lib://Exported CSVs/Sales Discovery/US STATES.csv]
+(txt, codepage is 1252, embedded labels, delimiter is ',', msq);
+
+[SalesDetails2]:
+LOAD 
+[Key],
+[DateKey],
+[Address Number],
+[Item-Branch Key],
+[BudKey],
+[AggKey],
+[Order Number],
+[Ship To],
+[Sales Rep],
+[Sales Rep Name],
+[Item Class],
+[Item Class Desc],
+[CustKey],
+[Family Class],
+[Sales Amount Based on List Price],
+[Line Desc 1],
+[Invoice Number],
+[Backlog Amount],
+[Sales Quantity],
+[Qty Backordered],
+[Actual Delivery Date],
+[Last Status],
+[Number Of Days Late],
+[Doc Type],
+[Order Status Primary],
+[Order Status],
+[Line Number],
+[Item Number],
+[Line Type],
+[List Price],
+[Sales Cost Amount],
+[Order Margin],
+[Open Order Cost Amount],
+[Discount Amount],
+[Invoice Date],
+[Company Number Detail],
+[Payment Terms],
+[Sales Unit Cost Price],
+[Open Order Quantity],
+[Unit Price],
+[Business Unit Details],
+[Next Status],
+[Promised Delivery Date],
+[Sales Margin Amount],
+[U/M],
+[Parent Address Number],
+[Open Order Amount],
+[Sales Amount],
+[BackOrder Amount],
+[Sales Price],
+[Address Order Number],
+[Late Shipment],
+[Order Type Detail],
+[Shipments]
+ FROM [lib://Exported CSVs/Sales Discovery/SalesDetails2.csv]
+(txt, codepage is 1252, embedded labels, delimiter is ',', msq);
+
+[Dates3]:
+LOAD 
+[DateKey],
+[Date],
+[Day],
+[Month],
+[Week],
+[Weekday],
+[Year],
+[YearMonth]
+ FROM [lib://Exported CSVs/Sales Discovery/Dates3.csv]
+(txt, codepage is 1252, embedded labels, delimiter is ',', msq);

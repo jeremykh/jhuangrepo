@@ -1,0 +1,81 @@
+{
+  "contentMap" : {
+    "QlikAppProps.json" : {
+      "contentChecksum" : "b353101f10a1d0364650802cd5b09ff16155b359",
+      "contentName" : "QlikAppProps",
+      "contentOid" : 18412,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    },
+    "QlikLoadModel.json" : {
+      "contentChecksum" : "0ec37f65e4cc903d9b6735f749e9a3d54a027bca",
+      "contentName" : "QlikLoadModel",
+      "contentOid" : 18411,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    },
+    "QlikScript.txt" : {
+      "contentChecksum" : "45094daed6e9dd024fa17858de4ae9d7d1c910e0",
+      "contentName" : "QlikScript",
+      "contentOid" : 18410,
+      "contentType" : "txt",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "createdDate" : "2021-09-01T20:27:25.995Z",
+      "description" : "In this demo, you will see Employee Demographics, Turnover, New Hires, Terminations,  and Salaries. Explore storytelling mode to find out more insight about company's diversity programs.\nMost of the data for this app comes from a HRMS system, but it also includes data from other sources such as Payroll & Compensation, Recruiting systems, Active Directory (LDAP), Learning Management System, and other local sources (XLS, CSV, etc.)",
+      "dynamicColor" : "",
+      "published" : false,
+      "qSavedInProductVersion" : "12.969.2",
+      "qThumbnail" : {
+        "qUrl" : "/appcontent/d5856b5e-46b8-4254-86dd-0e2e1ef086a8/thumb-human_capital_management.png"
+      },
+      "qTitle" : "Human Capital Management(1)",
+      "stream" : null
+    },
+    "qrsProp" : {
+      "customProperties" : [ ],
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "privileges" : null,
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userDirectoryConnectorName" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "d5856b5e-46b8-4254-86dd-0e2e1ef086a8,App;",
+  "key" : {
+    "id" : 198
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Human Capital Management(1)",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact"
+  },
+  "name" : "Human Capital Management(1)",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 174
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 198 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "App",
+  "shouldVersion" : true,
+  "subtype" : "QlikApp",
+  "type" : "QlikArtifact"
+}

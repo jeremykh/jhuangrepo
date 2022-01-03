@@ -1,0 +1,27 @@
+{
+  "qProperty" : {
+    "qInfo" : {
+      "qId" : "2c9062a7-35a7-433e-8462-57b7aae7e9a5",
+      "qType" : "appprops"
+    },
+    "qMetaDef" : { },
+    "sheetTitleBgColor" : {
+      "color" : "#006580",
+      "index" : 6
+    },
+    "sheetTitleGradientColor" : {
+      "color" : "#006580",
+      "index" : 6
+    },
+    "sheetTitleColor" : "#fffefc",
+    "sheetLogoThumbnail" : {
+      "qStaticContentUrlDef" : {
+        "qUrl" : "/appcontent/baf3d4d4-e230-4461-819d-9f1e3f4985e0/Qlik-Logo_WHITE.png"
+      }
+    },
+    "sheetLogoPosition" : "",
+    "rtl" : false,
+    "theme" : "horizon"
+  },
+  "qChildren" : [ ]
+}

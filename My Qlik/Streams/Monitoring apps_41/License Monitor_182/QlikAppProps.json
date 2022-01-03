@@ -1,0 +1,21 @@
+{
+  "qProperty" : {
+    "qInfo" : {
+      "qId" : "RNsah",
+      "qType" : "appprops"
+    },
+    "qMetaDef" : { },
+    "sheetTitleBgColor" : "",
+    "sheetTitleGradientColor" : "",
+    "sheetTitleColor" : "",
+    "sheetLogoThumbnail" : {
+      "qStaticContentUrlDef" : {
+        "qUrl" : "/appcontent/4ba9b5c8-4a4e-4a86-a54d-049935fe11ab/Powered-By-Qlik-Mark-Horizontal_RGB.png"
+      }
+    },
+    "sheetLogoPosition" : "",
+    "rtl" : false,
+    "theme" : "breeze"
+  },
+  "qChildren" : [ ]
+}

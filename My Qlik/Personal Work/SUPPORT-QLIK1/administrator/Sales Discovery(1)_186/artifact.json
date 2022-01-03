@@ -1,0 +1,81 @@
+{
+  "contentMap" : {
+    "QlikAppProps.json" : {
+      "contentChecksum" : "81edabd7d85c18a31a914af15cdfdfdf0bbacb87",
+      "contentName" : "QlikAppProps",
+      "contentOid" : 18400,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    },
+    "QlikLoadModel.json" : {
+      "contentChecksum" : "fdaa479935dabb69494b4b8707b07c38f28c54c4",
+      "contentName" : "QlikLoadModel",
+      "contentOid" : 18399,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    },
+    "QlikScript.txt" : {
+      "contentChecksum" : "1417a305e482936f3a50649658871f2fd6dac1f7",
+      "contentName" : "QlikScript",
+      "contentOid" : 18398,
+      "contentType" : "txt",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "createdDate" : "2021-08-31T13:55:56.102Z",
+      "description" : "This application contains consumer goods sales data. Using the uniqueness of Qlik Sense, Associative Analysis, you will be able to analyze sales information from different angles and create your own charts",
+      "dynamicColor" : "hsla(210,18%,43%,1)",
+      "published" : false,
+      "qSavedInProductVersion" : "12.969.2",
+      "qThumbnail" : {
+        "qUrl" : "/appcontent/f84cf3b8-f44c-4e73-99aa-37fb20121969/thumb-sales_discovery.png"
+      },
+      "qTitle" : "Sales Discovery(1)",
+      "stream" : null
+    },
+    "qrsProp" : {
+      "customProperties" : [ ],
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "privileges" : null,
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userDirectoryConnectorName" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "f84cf3b8-f44c-4e73-99aa-37fb20121969,App;",
+  "key" : {
+    "id" : 186
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Personal Work/SUPPORT-QLIK1/administrator/Sales Discovery(1)",
+    "subtypePath" : "-/QlikPersonalWork/QlikPersonalUserDirectory/QlikPersonalUser/QlikApp",
+    "typePath" : "PlatformNode/Folder/Folder/Folder/PlatformArtifact"
+  },
+  "name" : "Sales Discovery(1)",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 174
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 39, 173, 174, 186 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "App",
+  "shouldVersion" : true,
+  "subtype" : "QlikApp",
+  "type" : "QlikArtifact"
+}
