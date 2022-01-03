@@ -1,0 +1,90 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "e9fe0148630996d02dc52de39ca2c97681a7294a",
+      "contentName" : "content",
+      "contentOid" : 18321,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "createdDate" : "2021-05-19T23:02:32.947Z",
+    "customProperties" : [ ],
+    "id" : "73c19abf-e701-4dc5-a218-ab17dc080a6f",
+    "name" : "listbox-template",
+    "owner" : {
+      "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+      "name" : "sa_repository",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_repository"
+    },
+    "references" : [ {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\listbox-template\\listbox-template.js",
+      "externalPath" : "/extensions/listbox-template/listbox-template.js",
+      "id" : "cf8ed4a0-0ef6-490f-86e5-c09a90a8f684",
+      "logicalPath" : "/extensions/listbox-template/listbox-template.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\listbox-template\\listbox-template.qext",
+      "externalPath" : "/extensions/listbox-template/listbox-template.qext",
+      "id" : "5a6608d2-fb78-421e-b421-f35b182ab539",
+      "logicalPath" : "/extensions/listbox-template/listbox-template.qext",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\listbox-template\\style.css",
+      "externalPath" : "/extensions/listbox-template/style.css",
+      "id" : "34ead018-df69-485f-aa17-14852725ce7d",
+      "logicalPath" : "/extensions/listbox-template/style.css",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\listbox-template\\wbfolder.wbl",
+      "externalPath" : "/extensions/listbox-template/wbfolder.wbl",
+      "id" : "1fc358e0-76e2-493e-926d-88a2eca97a66",
+      "logicalPath" : "/extensions/listbox-template/wbfolder.wbl",
+      "privileges" : null,
+      "serveOptions" : 0
+    } ],
+    "schemaPath" : "Extension",
+    "tags" : [ ],
+    "whiteList" : {
+      "id" : "0106f312-d616-4a72-84a1-12d57bf25aef",
+      "libraryType" : 3,
+      "privileges" : null
+    }
+  },
+  "hidden" : false,
+  "identity" : "listbox-template,Extension;",
+  "key" : {
+    "id" : 101
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Extensions/listbox-template",
+    "subtypePath" : "-/QlikExtension/QlikExtension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "listbox-template",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 38
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 38, 101 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Extension",
+  "shouldVersion" : true,
+  "subtype" : "QlikExtension",
+  "type" : "QlikArtifact"
+}

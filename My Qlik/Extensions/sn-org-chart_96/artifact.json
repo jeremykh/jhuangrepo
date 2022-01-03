@@ -1,0 +1,99 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "dcc719acca26567eeea3e66b6a7b13d80a8b9def",
+      "contentName" : "content",
+      "contentOid" : 18316,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "createdDate" : "2021-05-19T23:03:22.828Z",
+    "customProperties" : [ {
+      "definition" : {
+        "id" : "e959980b-ff83-40f1-a1bc-68387af8e3ae",
+        "name" : "ExtensionBundle"
+      },
+      "value" : "Visualization-bundle"
+    } ],
+    "id" : "5dd956c7-6b5c-407e-942c-153095b62e17",
+    "name" : "sn-org-chart",
+    "owner" : {
+      "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+      "name" : "sa_repository",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_repository"
+    },
+    "references" : [ {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\sn-org-chart\\preview.png",
+      "externalPath" : "/extensions/sn-org-chart/preview.png",
+      "id" : "80473fbf-88fe-4831-bfd7-403edae23bc3",
+      "logicalPath" : "/extensions/sn-org-chart/preview.png",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\sn-org-chart\\sn-org-chart.esm.js",
+      "externalPath" : "/extensions/sn-org-chart/sn-org-chart.esm.js",
+      "id" : "183b2669-a7a3-4a4e-b1db-b8ec928b4a11",
+      "logicalPath" : "/extensions/sn-org-chart/sn-org-chart.esm.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\sn-org-chart\\sn-org-chart.js",
+      "externalPath" : "/extensions/sn-org-chart/sn-org-chart.js",
+      "id" : "7287029b-1e5d-4326-93e2-877ff5c31346",
+      "logicalPath" : "/extensions/sn-org-chart/sn-org-chart.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\sn-org-chart\\sn-org-chart.qext",
+      "externalPath" : "/extensions/sn-org-chart/sn-org-chart.qext",
+      "id" : "626f3944-d672-4311-af97-f9980e16f2d8",
+      "logicalPath" : "/extensions/sn-org-chart/sn-org-chart.qext",
+      "privileges" : null,
+      "serveOptions" : 0
+    } ],
+    "schemaPath" : "Extension",
+    "tags" : [ {
+      "id" : "d105b679-9296-43cc-8e2c-dbd6a9ad21a7",
+      "name" : "Supported Extension"
+    } ],
+    "whiteList" : {
+      "id" : "0106f312-d616-4a72-84a1-12d57bf25aef",
+      "libraryType" : 3,
+      "privileges" : null
+    }
+  },
+  "hidden" : false,
+  "identity" : "sn-org-chart,Extension;",
+  "key" : {
+    "id" : 96
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Extensions/sn-org-chart",
+    "subtypePath" : "-/QlikExtension/QlikExtension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "sn-org-chart",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 38
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 38, 96 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Extension",
+  "shouldVersion" : true,
+  "subtype" : "QlikExtension",
+  "type" : "QlikArtifact"
+}

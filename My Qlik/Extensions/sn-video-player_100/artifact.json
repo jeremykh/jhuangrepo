@@ -1,0 +1,99 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "e78254c277f932296df0de7ddab49849a1ac36d4",
+      "contentName" : "content",
+      "contentOid" : 18319,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "createdDate" : "2021-05-19T23:03:22.594Z",
+    "customProperties" : [ {
+      "definition" : {
+        "id" : "e959980b-ff83-40f1-a1bc-68387af8e3ae",
+        "name" : "ExtensionBundle"
+      },
+      "value" : "Dashboard-bundle"
+    } ],
+    "id" : "6166e54c-bd35-4a20-9aee-ff644735f040",
+    "name" : "sn-video-player",
+    "owner" : {
+      "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+      "name" : "sa_repository",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_repository"
+    },
+    "references" : [ {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\sn-video-player\\index-103f24cd.js",
+      "externalPath" : "/extensions/sn-video-player/index-103f24cd.js",
+      "id" : "890d0e05-cc00-4cc1-8d68-06ca0844b2c2",
+      "logicalPath" : "/extensions/sn-video-player/index-103f24cd.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\sn-video-player\\sn-video-player.js",
+      "externalPath" : "/extensions/sn-video-player/sn-video-player.js",
+      "id" : "b3c41035-f1b4-46e4-be5c-d7a36c3a941f",
+      "logicalPath" : "/extensions/sn-video-player/sn-video-player.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\sn-video-player\\sn-video-player.qext",
+      "externalPath" : "/extensions/sn-video-player/sn-video-player.qext",
+      "id" : "d367b8e0-b465-4119-a7db-df6b460d4ad0",
+      "logicalPath" : "/extensions/sn-video-player/sn-video-player.qext",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\sn-video-player\\Youtube-f41ef1c5.js",
+      "externalPath" : "/extensions/sn-video-player/Youtube-f41ef1c5.js",
+      "id" : "125e6ddd-4861-4ca3-b38f-4d148cf6fff1",
+      "logicalPath" : "/extensions/sn-video-player/Youtube-f41ef1c5.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    } ],
+    "schemaPath" : "Extension",
+    "tags" : [ {
+      "id" : "d105b679-9296-43cc-8e2c-dbd6a9ad21a7",
+      "name" : "Supported Extension"
+    } ],
+    "whiteList" : {
+      "id" : "0106f312-d616-4a72-84a1-12d57bf25aef",
+      "libraryType" : 3,
+      "privileges" : null
+    }
+  },
+  "hidden" : false,
+  "identity" : "sn-video-player,Extension;",
+  "key" : {
+    "id" : 100
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Extensions/sn-video-player",
+    "subtypePath" : "-/QlikExtension/QlikExtension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "sn-video-player",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 38
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 38, 100 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Extension",
+  "shouldVersion" : true,
+  "subtype" : "QlikExtension",
+  "type" : "QlikArtifact"
+}

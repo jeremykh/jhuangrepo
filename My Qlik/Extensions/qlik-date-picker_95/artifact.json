@@ -1,0 +1,148 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "ef4d1c3bdf8a0dbb28cf798e45fe86ae02037894",
+      "contentName" : "content",
+      "contentOid" : 18315,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "createdDate" : "2021-08-24T15:05:38.706Z",
+    "customProperties" : [ {
+      "definition" : {
+        "id" : "e959980b-ff83-40f1-a1bc-68387af8e3ae",
+        "name" : "ExtensionBundle"
+      },
+      "value" : "Dashboard-bundle"
+    } ],
+    "id" : "5c17fc4b-daaa-41f2-9f09-c39b17d5c3d7",
+    "name" : "qlik-date-picker",
+    "owner" : {
+      "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+      "name" : "sa_repository",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_repository"
+    },
+    "references" : [ {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-date-picker\\calendar-settings.js",
+      "externalPath" : "/extensions/qlik-date-picker/calendar-settings.js",
+      "id" : "3282c297-bf0e-4f2d-8533-ef855bea12df",
+      "logicalPath" : "/extensions/qlik-date-picker/calendar-settings.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-date-picker\\calendar-settings.spa.js",
+      "externalPath" : "/extensions/qlik-date-picker/calendar-settings.spa.js",
+      "id" : "2cca4182-32dc-4dba-b6c4-3bc53858f85c",
+      "logicalPath" : "/extensions/qlik-date-picker/calendar-settings.spa.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-date-picker\\preview.png",
+      "externalPath" : "/extensions/qlik-date-picker/preview.png",
+      "id" : "fe759556-69ff-4801-862d-01a7e560209f",
+      "logicalPath" : "/extensions/qlik-date-picker/preview.png",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-date-picker\\qlik-date-picker.js",
+      "externalPath" : "/extensions/qlik-date-picker/qlik-date-picker.js",
+      "id" : "ccae28b7-8df1-4744-8441-dfe43979c6cd",
+      "logicalPath" : "/extensions/qlik-date-picker/qlik-date-picker.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-date-picker\\qlik-date-picker.qext",
+      "externalPath" : "/extensions/qlik-date-picker/qlik-date-picker.qext",
+      "id" : "495aaf1a-eca9-4ac2-b062-4c00f8e7b3ae",
+      "logicalPath" : "/extensions/qlik-date-picker/qlik-date-picker.qext",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-date-picker\\lib\\daterangepicker.css",
+      "externalPath" : "/extensions/qlik-date-picker/lib/daterangepicker.css",
+      "id" : "42a68e8b-21e0-4882-b7f4-c2083909d44a",
+      "logicalPath" : "/extensions/qlik-date-picker/lib/daterangepicker.css",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-date-picker\\lib\\daterangepicker.js",
+      "externalPath" : "/extensions/qlik-date-picker/lib/daterangepicker.js",
+      "id" : "61454b95-6fc0-4f7d-be77-26dd21854066",
+      "logicalPath" : "/extensions/qlik-date-picker/lib/daterangepicker.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-date-picker\\lib\\Daterangepickerlicense.txt",
+      "externalPath" : "/extensions/qlik-date-picker/lib/Daterangepickerlicense.txt",
+      "id" : "459ca251-7b92-4299-9a6e-20336e9035c3",
+      "logicalPath" : "/extensions/qlik-date-picker/lib/Daterangepickerlicense.txt",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-date-picker\\lib\\encoder.js",
+      "externalPath" : "/extensions/qlik-date-picker/lib/encoder.js",
+      "id" : "628e89c5-3136-46c0-8cde-8a03b2d104e5",
+      "logicalPath" : "/extensions/qlik-date-picker/lib/encoder.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-date-picker\\lib\\moment.min.js",
+      "externalPath" : "/extensions/qlik-date-picker/lib/moment.min.js",
+      "id" : "68cf56c5-bfc2-4885-b1e2-5012d30035cd",
+      "logicalPath" : "/extensions/qlik-date-picker/lib/moment.min.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-date-picker\\lib\\Momentjslicense.txt",
+      "externalPath" : "/extensions/qlik-date-picker/lib/Momentjslicense.txt",
+      "id" : "f26ab48c-8d49-4610-a7c6-cc5509af83ce",
+      "logicalPath" : "/extensions/qlik-date-picker/lib/Momentjslicense.txt",
+      "privileges" : null,
+      "serveOptions" : 0
+    } ],
+    "schemaPath" : "Extension",
+    "tags" : [ {
+      "id" : "d105b679-9296-43cc-8e2c-dbd6a9ad21a7",
+      "name" : "Supported Extension"
+    } ],
+    "whiteList" : {
+      "id" : "0106f312-d616-4a72-84a1-12d57bf25aef",
+      "libraryType" : 3,
+      "privileges" : null
+    }
+  },
+  "hidden" : false,
+  "identity" : "qlik-date-picker,Extension;",
+  "key" : {
+    "id" : 95
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Extensions/qlik-date-picker",
+    "subtypePath" : "-/QlikExtension/QlikExtension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "qlik-date-picker",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 38
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 38, 95 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Extension",
+  "shouldVersion" : true,
+  "subtype" : "QlikExtension",
+  "type" : "QlikArtifact"
+}

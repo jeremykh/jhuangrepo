@@ -1,0 +1,127 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "54e897cf37cb419d60c9d7d7d1d2a36a3639d550",
+      "contentName" : "content",
+      "contentOid" : 18320,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "createdDate" : "2021-05-19T23:03:12.093Z",
+    "customProperties" : [ {
+      "definition" : {
+        "id" : "e959980b-ff83-40f1-a1bc-68387af8e3ae",
+        "name" : "ExtensionBundle"
+      },
+      "value" : "Visualization-bundle"
+    } ],
+    "id" : "ad9d529e-6e66-4b8c-9fc0-4cced5dc5931",
+    "name" : "qlik-sankey-chart-ext",
+    "owner" : {
+      "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+      "name" : "sa_repository",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_repository"
+    },
+    "references" : [ {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-sankey-chart-ext\\qlik-sankey-chart-ext.js",
+      "externalPath" : "/extensions/qlik-sankey-chart-ext/qlik-sankey-chart-ext.js",
+      "id" : "6c42b3ea-9890-4e5a-abef-04e932f4d450",
+      "logicalPath" : "/extensions/qlik-sankey-chart-ext/qlik-sankey-chart-ext.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-sankey-chart-ext\\qlik-sankey-chart-ext.qext",
+      "externalPath" : "/extensions/qlik-sankey-chart-ext/qlik-sankey-chart-ext.qext",
+      "id" : "f728c98b-7988-409b-86d2-1995018f83cc",
+      "logicalPath" : "/extensions/qlik-sankey-chart-ext/qlik-sankey-chart-ext.qext",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-sankey-chart-ext\\assets\\expr-color.png",
+      "externalPath" : "/extensions/qlik-sankey-chart-ext/assets/expr-color.png",
+      "id" : "3835857b-efde-4395-b2f7-e53ea93da453",
+      "logicalPath" : "/extensions/qlik-sankey-chart-ext/assets/expr-color.png",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-sankey-chart-ext\\assets\\sankey-preview.png",
+      "externalPath" : "/extensions/qlik-sankey-chart-ext/assets/sankey-preview.png",
+      "id" : "476fe07f-fcb7-480e-bbcc-dfa222ce6a53",
+      "logicalPath" : "/extensions/qlik-sankey-chart-ext/assets/sankey-preview.png",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-sankey-chart-ext\\assets\\shadow.png",
+      "externalPath" : "/extensions/qlik-sankey-chart-ext/assets/shadow.png",
+      "id" : "8cd8fa25-896f-4dfc-8a5f-0962ec5d018e",
+      "logicalPath" : "/extensions/qlik-sankey-chart-ext/assets/shadow.png",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-sankey-chart-ext\\assets\\source-color.png",
+      "externalPath" : "/extensions/qlik-sankey-chart-ext/assets/source-color.png",
+      "id" : "7bb3aada-98f1-4f7b-b0ac-0c9e16b67e1b",
+      "logicalPath" : "/extensions/qlik-sankey-chart-ext/assets/source-color.png",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-sankey-chart-ext\\dist\\sn-sankey-chart.js",
+      "externalPath" : "/extensions/qlik-sankey-chart-ext/dist/sn-sankey-chart.js",
+      "id" : "61a12211-4227-462d-b47c-326ba2d89ad1",
+      "logicalPath" : "/extensions/qlik-sankey-chart-ext/dist/sn-sankey-chart.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-sankey-chart-ext\\qext\\ext.js",
+      "externalPath" : "/extensions/qlik-sankey-chart-ext/qext/ext.js",
+      "id" : "8d8d69ea-dd97-4847-8fc0-9209678290eb",
+      "logicalPath" : "/extensions/qlik-sankey-chart-ext/qext/ext.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    } ],
+    "schemaPath" : "Extension",
+    "tags" : [ {
+      "id" : "d105b679-9296-43cc-8e2c-dbd6a9ad21a7",
+      "name" : "Supported Extension"
+    } ],
+    "whiteList" : {
+      "id" : "0106f312-d616-4a72-84a1-12d57bf25aef",
+      "libraryType" : 3,
+      "privileges" : null
+    }
+  },
+  "hidden" : false,
+  "identity" : "qlik-sankey-chart-ext,Extension;",
+  "key" : {
+    "id" : 99
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Extensions/qlik-sankey-chart-ext",
+    "subtypePath" : "-/QlikExtension/QlikExtension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "qlik-sankey-chart-ext",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 38
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 38, 99 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Extension",
+  "shouldVersion" : true,
+  "subtype" : "QlikExtension",
+  "type" : "QlikArtifact"
+}

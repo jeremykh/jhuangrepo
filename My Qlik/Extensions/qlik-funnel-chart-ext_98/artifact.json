@@ -1,0 +1,106 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "e3c8a6a3d4828a751b59cbc6a9b651f33abf489b",
+      "contentName" : "content",
+      "contentOid" : 18317,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "createdDate" : "2021-05-19T23:03:11.020Z",
+    "customProperties" : [ {
+      "definition" : {
+        "id" : "e959980b-ff83-40f1-a1bc-68387af8e3ae",
+        "name" : "ExtensionBundle"
+      },
+      "value" : "Visualization-bundle"
+    } ],
+    "id" : "d5357d82-901d-4d33-85e4-9b32d83f8afb",
+    "name" : "qlik-funnel-chart-ext",
+    "owner" : {
+      "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+      "name" : "sa_repository",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_repository"
+    },
+    "references" : [ {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-funnel-chart-ext\\qlik-funnel-chart-ext.js",
+      "externalPath" : "/extensions/qlik-funnel-chart-ext/qlik-funnel-chart-ext.js",
+      "id" : "5e6d8c75-6c78-45cb-9d24-d45c955603c2",
+      "logicalPath" : "/extensions/qlik-funnel-chart-ext/qlik-funnel-chart-ext.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-funnel-chart-ext\\qlik-funnel-chart-ext.qext",
+      "externalPath" : "/extensions/qlik-funnel-chart-ext/qlik-funnel-chart-ext.qext",
+      "id" : "639ac02c-696f-435e-b50e-ce2cf8e37da7",
+      "logicalPath" : "/extensions/qlik-funnel-chart-ext/qlik-funnel-chart-ext.qext",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-funnel-chart-ext\\assets\\funnel-preview.png",
+      "externalPath" : "/extensions/qlik-funnel-chart-ext/assets/funnel-preview.png",
+      "id" : "e339a671-5ba9-46e4-b33b-d383a5e42a6a",
+      "logicalPath" : "/extensions/qlik-funnel-chart-ext/assets/funnel-preview.png",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-funnel-chart-ext\\dist\\sn-funnel-chart.js",
+      "externalPath" : "/extensions/qlik-funnel-chart-ext/dist/sn-funnel-chart.js",
+      "id" : "2ffd3ce2-d774-4857-bdfa-adf8ddf28864",
+      "logicalPath" : "/extensions/qlik-funnel-chart-ext/dist/sn-funnel-chart.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-funnel-chart-ext\\qext\\ext.js",
+      "externalPath" : "/extensions/qlik-funnel-chart-ext/qext/ext.js",
+      "id" : "88f0bc87-2ad5-4c72-9ebd-f6be84ddc433",
+      "logicalPath" : "/extensions/qlik-funnel-chart-ext/qext/ext.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    } ],
+    "schemaPath" : "Extension",
+    "tags" : [ {
+      "id" : "d105b679-9296-43cc-8e2c-dbd6a9ad21a7",
+      "name" : "Supported Extension"
+    } ],
+    "whiteList" : {
+      "id" : "0106f312-d616-4a72-84a1-12d57bf25aef",
+      "libraryType" : 3,
+      "privileges" : null
+    }
+  },
+  "hidden" : false,
+  "identity" : "qlik-funnel-chart-ext,Extension;",
+  "key" : {
+    "id" : 98
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Extensions/qlik-funnel-chart-ext",
+    "subtypePath" : "-/QlikExtension/QlikExtension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "qlik-funnel-chart-ext",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 38
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 38, 98 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Extension",
+  "shouldVersion" : true,
+  "subtype" : "QlikExtension",
+  "type" : "QlikArtifact"
+}

@@ -1,0 +1,83 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "9ad0f4c300d4eb2c2a3628a25495c626b4cde711",
+      "contentName" : "content",
+      "contentOid" : 18318,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "createdDate" : "2021-05-19T23:02:30.388Z",
+    "customProperties" : [ ],
+    "id" : "3008fcc0-868b-421c-b95e-3920bd41257e",
+    "name" : "basic-template",
+    "owner" : {
+      "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+      "name" : "sa_repository",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_repository"
+    },
+    "references" : [ {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\basic-template\\basic-template.js",
+      "externalPath" : "/extensions/basic-template/basic-template.js",
+      "id" : "20b091f8-e48b-4d73-a0e9-e45cda09a862",
+      "logicalPath" : "/extensions/basic-template/basic-template.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\basic-template\\basic-template.qext",
+      "externalPath" : "/extensions/basic-template/basic-template.qext",
+      "id" : "6622eb12-17eb-4f50-ae8b-20a9c9973b1c",
+      "logicalPath" : "/extensions/basic-template/basic-template.qext",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\basic-template\\wbfolder.wbl",
+      "externalPath" : "/extensions/basic-template/wbfolder.wbl",
+      "id" : "e881e737-6b9d-45e1-ba04-37a0ed4d2c12",
+      "logicalPath" : "/extensions/basic-template/wbfolder.wbl",
+      "privileges" : null,
+      "serveOptions" : 0
+    } ],
+    "schemaPath" : "Extension",
+    "tags" : [ ],
+    "whiteList" : {
+      "id" : "0106f312-d616-4a72-84a1-12d57bf25aef",
+      "libraryType" : 3,
+      "privileges" : null
+    }
+  },
+  "hidden" : false,
+  "identity" : "basic-template,Extension;",
+  "key" : {
+    "id" : 97
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Extensions/basic-template",
+    "subtypePath" : "-/QlikExtension/QlikExtension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "basic-template",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 38
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 38, 97 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Extension",
+  "shouldVersion" : true,
+  "subtype" : "QlikExtension",
+  "type" : "QlikArtifact"
+}

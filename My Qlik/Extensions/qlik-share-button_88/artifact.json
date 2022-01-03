@@ -1,0 +1,92 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "0d8a4c4f1db41773ac90af3bacf94efc51ad8dc6",
+      "contentName" : "content",
+      "contentOid" : 18308,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "createdDate" : "2021-08-24T15:05:39.144Z",
+    "customProperties" : [ {
+      "definition" : {
+        "id" : "e959980b-ff83-40f1-a1bc-68387af8e3ae",
+        "name" : "ExtensionBundle"
+      },
+      "value" : "Dashboard-bundle"
+    } ],
+    "id" : "6b2101b5-bc50-4673-bf74-90081bfbc7e4",
+    "name" : "qlik-share-button",
+    "owner" : {
+      "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+      "name" : "sa_repository",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_repository"
+    },
+    "references" : [ {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-share-button\\qlik-share-button.js",
+      "externalPath" : "/extensions/qlik-share-button/qlik-share-button.js",
+      "id" : "0f61e444-168b-43e1-ae9f-76800b12a2c7",
+      "logicalPath" : "/extensions/qlik-share-button/qlik-share-button.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-share-button\\qlik-share-button.qext",
+      "externalPath" : "/extensions/qlik-share-button/qlik-share-button.qext",
+      "id" : "a55de6c5-a0f3-4759-86cc-c410cd9b5d35",
+      "logicalPath" : "/extensions/qlik-share-button/qlik-share-button.qext",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-share-button\\sharebutton.png",
+      "externalPath" : "/extensions/qlik-share-button/sharebutton.png",
+      "id" : "bfc00505-9aab-4145-b72e-b2927ad0a940",
+      "logicalPath" : "/extensions/qlik-share-button/sharebutton.png",
+      "privileges" : null,
+      "serveOptions" : 0
+    } ],
+    "schemaPath" : "Extension",
+    "tags" : [ {
+      "id" : "d105b679-9296-43cc-8e2c-dbd6a9ad21a7",
+      "name" : "Supported Extension"
+    } ],
+    "whiteList" : {
+      "id" : "0106f312-d616-4a72-84a1-12d57bf25aef",
+      "libraryType" : 3,
+      "privileges" : null
+    }
+  },
+  "hidden" : false,
+  "identity" : "qlik-share-button,Extension;",
+  "key" : {
+    "id" : 88
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Extensions/qlik-share-button",
+    "subtypePath" : "-/QlikExtension/QlikExtension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "qlik-share-button",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 38
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 38, 88 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Extension",
+  "shouldVersion" : true,
+  "subtype" : "QlikExtension",
+  "type" : "QlikArtifact"
+}

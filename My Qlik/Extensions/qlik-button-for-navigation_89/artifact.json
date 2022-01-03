@@ -1,0 +1,92 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "99191f8960d139e280ac576783b6bb286ebe5cdc",
+      "contentName" : "content",
+      "contentOid" : 18309,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "createdDate" : "2021-05-19T23:03:06.948Z",
+    "customProperties" : [ {
+      "definition" : {
+        "id" : "e959980b-ff83-40f1-a1bc-68387af8e3ae",
+        "name" : "ExtensionBundle"
+      },
+      "value" : "Dashboard-bundle"
+    } ],
+    "id" : "c4cc8838-f0e1-4c60-b8de-dd719ea8f4d5",
+    "name" : "qlik-button-for-navigation",
+    "owner" : {
+      "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+      "name" : "sa_repository",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_repository"
+    },
+    "references" : [ {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-button-for-navigation\\qlik-button-for-navigation.js",
+      "externalPath" : "/extensions/qlik-button-for-navigation/qlik-button-for-navigation.js",
+      "id" : "224c087c-3180-446e-a665-b41051383b9a",
+      "logicalPath" : "/extensions/qlik-button-for-navigation/qlik-button-for-navigation.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-button-for-navigation\\qlik-button-for-navigation.png",
+      "externalPath" : "/extensions/qlik-button-for-navigation/qlik-button-for-navigation.png",
+      "id" : "4c73f004-e8ff-4b9f-a795-d19b44d4cdb1",
+      "logicalPath" : "/extensions/qlik-button-for-navigation/qlik-button-for-navigation.png",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-button-for-navigation\\qlik-button-for-navigation.qext",
+      "externalPath" : "/extensions/qlik-button-for-navigation/qlik-button-for-navigation.qext",
+      "id" : "45b9550e-0c2e-4f52-9077-87cf51deda48",
+      "logicalPath" : "/extensions/qlik-button-for-navigation/qlik-button-for-navigation.qext",
+      "privileges" : null,
+      "serveOptions" : 0
+    } ],
+    "schemaPath" : "Extension",
+    "tags" : [ {
+      "id" : "d105b679-9296-43cc-8e2c-dbd6a9ad21a7",
+      "name" : "Supported Extension"
+    } ],
+    "whiteList" : {
+      "id" : "0106f312-d616-4a72-84a1-12d57bf25aef",
+      "libraryType" : 3,
+      "privileges" : null
+    }
+  },
+  "hidden" : false,
+  "identity" : "qlik-button-for-navigation,Extension;",
+  "key" : {
+    "id" : 89
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Extensions/qlik-button-for-navigation",
+    "subtypePath" : "-/QlikExtension/QlikExtension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "qlik-button-for-navigation",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 38
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 38, 89 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Extension",
+  "shouldVersion" : true,
+  "subtype" : "QlikExtension",
+  "type" : "QlikArtifact"
+}

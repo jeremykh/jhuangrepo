@@ -1,0 +1,97 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "6126ed4e1a82653d3f812c9d2b16b8898babfb7e",
+      "contentName" : "content",
+      "contentOid" : 18310,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "createdDate" : "2021-05-19T23:02:33.623Z",
+    "customProperties" : [ ],
+    "id" : "e0ceb7f2-22d2-4308-9e29-09d689ec9e5e",
+    "name" : "ng-table-template",
+    "owner" : {
+      "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+      "name" : "sa_repository",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_repository"
+    },
+    "references" : [ {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\ng-table-template\\ng-table-template.js",
+      "externalPath" : "/extensions/ng-table-template/ng-table-template.js",
+      "id" : "a1de7b32-c609-4e2b-9e5d-7f0c6fc901d7",
+      "logicalPath" : "/extensions/ng-table-template/ng-table-template.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\ng-table-template\\ng-table-template.qext",
+      "externalPath" : "/extensions/ng-table-template/ng-table-template.qext",
+      "id" : "e0ed98b0-0f23-403a-a90f-c17c9cc21c4b",
+      "logicalPath" : "/extensions/ng-table-template/ng-table-template.qext",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\ng-table-template\\style.css",
+      "externalPath" : "/extensions/ng-table-template/style.css",
+      "id" : "9ad0337b-f7f9-45e3-8a7d-61955ff5c4fc",
+      "logicalPath" : "/extensions/ng-table-template/style.css",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\ng-table-template\\template.html",
+      "externalPath" : "/extensions/ng-table-template/template.html",
+      "id" : "df35003d-48b0-45b5-b800-38e119dc4c86",
+      "logicalPath" : "/extensions/ng-table-template/template.html",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\ng-table-template\\wbfolder.wbl",
+      "externalPath" : "/extensions/ng-table-template/wbfolder.wbl",
+      "id" : "15acfb35-a45a-4c02-b1d4-aba5d31b13b4",
+      "logicalPath" : "/extensions/ng-table-template/wbfolder.wbl",
+      "privileges" : null,
+      "serveOptions" : 0
+    } ],
+    "schemaPath" : "Extension",
+    "tags" : [ ],
+    "whiteList" : {
+      "id" : "0106f312-d616-4a72-84a1-12d57bf25aef",
+      "libraryType" : 3,
+      "privileges" : null
+    }
+  },
+  "hidden" : false,
+  "identity" : "ng-table-template,Extension;",
+  "key" : {
+    "id" : 90
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Extensions/ng-table-template",
+    "subtypePath" : "-/QlikExtension/QlikExtension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "ng-table-template",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 38
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 38, 90 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Extension",
+  "shouldVersion" : true,
+  "subtype" : "QlikExtension",
+  "type" : "QlikArtifact"
+}

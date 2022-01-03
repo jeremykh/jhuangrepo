@@ -1,0 +1,106 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "ea67706031e0ca278b9aaa4fe1bb05750a3f2cca",
+      "contentName" : "content",
+      "contentOid" : 18313,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "createdDate" : "2021-05-19T23:03:22.500Z",
+    "customProperties" : [ {
+      "definition" : {
+        "id" : "e959980b-ff83-40f1-a1bc-68387af8e3ae",
+        "name" : "ExtensionBundle"
+      },
+      "value" : "Visualization-bundle"
+    } ],
+    "id" : "9cf471b9-96cc-4785-8cc7-42a3e4b9ccb4",
+    "name" : "sn-grid-chart",
+    "owner" : {
+      "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+      "name" : "sa_repository",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_repository"
+    },
+    "references" : [ {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\sn-grid-chart\\sn-grid-chart.js",
+      "externalPath" : "/extensions/sn-grid-chart/sn-grid-chart.js",
+      "id" : "21539d26-cc54-4029-be30-8b93b480826f",
+      "logicalPath" : "/extensions/sn-grid-chart/sn-grid-chart.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\sn-grid-chart\\sn-grid-chart.qext",
+      "externalPath" : "/extensions/sn-grid-chart/sn-grid-chart.qext",
+      "id" : "9a8bbaba-e24d-4cc9-a24b-471aec9b3fe5",
+      "logicalPath" : "/extensions/sn-grid-chart/sn-grid-chart.qext",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\sn-grid-chart\\assets\\grid-preview.png",
+      "externalPath" : "/extensions/sn-grid-chart/assets/grid-preview.png",
+      "id" : "a86457c2-4f72-4f00-8703-1404cdf7b14d",
+      "logicalPath" : "/extensions/sn-grid-chart/assets/grid-preview.png",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\sn-grid-chart\\dist\\sn-grid-chart.js",
+      "externalPath" : "/extensions/sn-grid-chart/dist/sn-grid-chart.js",
+      "id" : "3283afbb-158d-45de-a22c-bd6df0003de1",
+      "logicalPath" : "/extensions/sn-grid-chart/dist/sn-grid-chart.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\sn-grid-chart\\qext\\ext.js",
+      "externalPath" : "/extensions/sn-grid-chart/qext/ext.js",
+      "id" : "56473016-ad41-46b4-a44d-4cd33f9d02f5",
+      "logicalPath" : "/extensions/sn-grid-chart/qext/ext.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    } ],
+    "schemaPath" : "Extension",
+    "tags" : [ {
+      "id" : "d105b679-9296-43cc-8e2c-dbd6a9ad21a7",
+      "name" : "Supported Extension"
+    } ],
+    "whiteList" : {
+      "id" : "0106f312-d616-4a72-84a1-12d57bf25aef",
+      "libraryType" : 3,
+      "privileges" : null
+    }
+  },
+  "hidden" : false,
+  "identity" : "sn-grid-chart,Extension;",
+  "key" : {
+    "id" : 91
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Extensions/sn-grid-chart",
+    "subtypePath" : "-/QlikExtension/QlikExtension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "sn-grid-chart",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 38
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 38, 91 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Extension",
+  "shouldVersion" : true,
+  "subtype" : "QlikExtension",
+  "type" : "QlikArtifact"
+}

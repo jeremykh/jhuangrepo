@@ -1,0 +1,92 @@
+{
+  "contentMap" : {
+    "content.blob" : {
+      "contentChecksum" : "38ba23a407b5bb3ef053f7e1b61c942019ea8184",
+      "contentName" : "content",
+      "contentOid" : 18311,
+      "contentType" : "blob",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "createdDate" : "2021-05-19T23:03:10.893Z",
+    "customProperties" : [ {
+      "definition" : {
+        "id" : "e959980b-ff83-40f1-a1bc-68387af8e3ae",
+        "name" : "ExtensionBundle"
+      },
+      "value" : "Visualization-bundle"
+    } ],
+    "id" : "d332a0d1-9797-41de-b3bd-bc586988153c",
+    "name" : "qlik-bullet-chart",
+    "owner" : {
+      "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+      "name" : "sa_repository",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_repository"
+    },
+    "references" : [ {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-bullet-chart\\qlik-bullet-chart.js",
+      "externalPath" : "/extensions/qlik-bullet-chart/qlik-bullet-chart.js",
+      "id" : "7b5060fa-a2a0-4ee8-b08f-352bc4636737",
+      "logicalPath" : "/extensions/qlik-bullet-chart/qlik-bullet-chart.js",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-bullet-chart\\qlik-bullet-chart.png",
+      "externalPath" : "/extensions/qlik-bullet-chart/qlik-bullet-chart.png",
+      "id" : "e56562f3-dab3-48f7-93a6-8b9986b35fcb",
+      "logicalPath" : "/extensions/qlik-bullet-chart/qlik-bullet-chart.png",
+      "privileges" : null,
+      "serveOptions" : 0
+    }, {
+      "dataLocation" : "%StaticContentRoot%\\Extensions\\qlik-bullet-chart\\qlik-bullet-chart.qext",
+      "externalPath" : "/extensions/qlik-bullet-chart/qlik-bullet-chart.qext",
+      "id" : "9dd3fad9-f184-4915-a52a-e027cb7f1aee",
+      "logicalPath" : "/extensions/qlik-bullet-chart/qlik-bullet-chart.qext",
+      "privileges" : null,
+      "serveOptions" : 0
+    } ],
+    "schemaPath" : "Extension",
+    "tags" : [ {
+      "id" : "d105b679-9296-43cc-8e2c-dbd6a9ad21a7",
+      "name" : "Supported Extension"
+    } ],
+    "whiteList" : {
+      "id" : "0106f312-d616-4a72-84a1-12d57bf25aef",
+      "libraryType" : 3,
+      "privileges" : null
+    }
+  },
+  "hidden" : false,
+  "identity" : "qlik-bullet-chart,Extension;",
+  "key" : {
+    "id" : 92
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Extensions/qlik-bullet-chart",
+    "subtypePath" : "-/QlikExtension/QlikExtension",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "qlik-bullet-chart",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 38
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 38, 92 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Extension",
+  "shouldVersion" : true,
+  "subtype" : "QlikExtension",
+  "type" : "QlikArtifact"
+}
