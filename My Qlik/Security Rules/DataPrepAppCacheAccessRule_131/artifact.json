@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 2,
+    "category" : "Security",
+    "comment" : "Readonly access for all users",
+    "createdDate" : "2021-05-20T00:18:49.156Z",
+    "disabled" : false,
+    "id" : "df4cd5f5-6d47-4995-b492-8c0aa850cbf0",
+    "name" : "DataPrepAppCacheAccessRule",
+    "resourceFilter" : "DataConnection_32d83545-417f-45c3-baa6-30ad701357d8",
+    "rule" : "!user.isAnonymous()",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "00000000-0000-0000-0000-000000000000",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Custom",
+    "version" : 0
+  },
+  "hidden" : false,
+  "identity" : "df4cd5f5-6d47-4995-b492-8c0aa850cbf0,SecurityRule;",
+  "key" : {
+    "id" : 131
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/DataPrepAppCacheAccessRule",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "DataPrepAppCacheAccessRule",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 131 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}
