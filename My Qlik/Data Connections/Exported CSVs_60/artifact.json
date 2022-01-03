@@ -1,0 +1,53 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "architecture" : 0,
+    "connectionstring" : "C:\\QlikData\\ExportedAppData\\",
+    "createdDate" : "2021-08-24T15:52:36.002Z",
+    "customProperties" : [ ],
+    "engineObjectId" : "08522c90-aae1-4a11-8dad-a96d62c8e6d7",
+    "id" : "08522c90-aae1-4a11-8dad-a96d62c8e6d7",
+    "logOn" : 0,
+    "name" : "Exported CSVs",
+    "owner" : {
+      "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+      "name" : "Administrator",
+      "userDirectory" : "SUPPORT-QLIK1",
+      "userDirectoryConnectorName" : "SUPPORT-QLIK1",
+      "userId" : "administrator"
+    },
+    "schemaPath" : "DataConnection",
+    "tags" : [ ],
+    "type" : "folder",
+    "username" : ""
+  },
+  "hidden" : false,
+  "identity" : "08522c90-aae1-4a11-8dad-a96d62c8e6d7,DataConnection;",
+  "key" : {
+    "id" : 60
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Data Connections/Exported CSVs",
+    "subtypePath" : "-/QlikDataConnection/QlikDataConnection",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "Exported CSVs",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 40
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 40, 60 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "DataConnection",
+  "shouldVersion" : true,
+  "subtype" : "QlikDataConnection",
+  "type" : "QlikArtifact"
+}
