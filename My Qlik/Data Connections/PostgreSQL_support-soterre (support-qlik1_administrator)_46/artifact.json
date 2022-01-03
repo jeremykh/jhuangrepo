@@ -1,0 +1,53 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "architecture" : 0,
+    "connectionstring" : "CUSTOM CONNECT TO \"provider=QvOdbcConnectorPackage.exe;driver=postgres;host=support-soterre;port=5432;db=Soterre;SSLMode=disable;UseSystemTrustStore=false;ByteaAsLongVarBinary=0;TextAsLongVarchar=0;UseUnicode=1;FetchTSWTZasTimestamp=1;MaxVarcharSize=262144;UseDeclareFetch=1;Fetch=200;EnableTableTypes=1;MoneyAsDecimal=1;allowNonSelectQueries=false;QueryTimeout=30;\"",
+    "createdDate" : "2021-09-29T13:31:23.834Z",
+    "customProperties" : [ ],
+    "engineObjectId" : "353bf6a7-e6e6-41d6-92ca-9b0e0f3154ed",
+    "id" : "353bf6a7-e6e6-41d6-92ca-9b0e0f3154ed",
+    "logOn" : 1,
+    "name" : "PostgreSQL_support-soterre (support-qlik1_administrator)",
+    "owner" : {
+      "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+      "name" : "Administrator",
+      "userDirectory" : "SUPPORT-QLIK1",
+      "userDirectoryConnectorName" : "SUPPORT-QLIK1",
+      "userId" : "administrator"
+    },
+    "schemaPath" : "DataConnection",
+    "tags" : [ ],
+    "type" : "QvOdbcConnectorPackage.exe",
+    "username" : "Soterre"
+  },
+  "hidden" : false,
+  "identity" : "353bf6a7-e6e6-41d6-92ca-9b0e0f3154ed,DataConnection;",
+  "key" : {
+    "id" : 46
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Data Connections/PostgreSQL_support-soterre (support-qlik1_administrator)",
+    "subtypePath" : "-/QlikDataConnection/QlikDataConnection",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "PostgreSQL_support-soterre (support-qlik1_administrator)",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 40
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 40, 46 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "DataConnection",
+  "shouldVersion" : true,
+  "subtype" : "QlikDataConnection",
+  "type" : "QlikArtifact"
+}
