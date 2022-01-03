@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 2,
+    "category" : "Security",
+    "comment" : "The default stream called Monitoring apps should be visible for default Administrators",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "e938f0a3-9e56-4aae-870a-daaa5d49b73b",
+    "name" : "StreamMonitoringAppsRead",
+    "resourceFilter" : "Stream_a70ca8a5-1d59-4cc9-b5fa-6e207978dcaf",
+    "rule" : "user.roles = \"RootAdmin\" or user.roles = \"ContentAdmin\" or user.roles = \"SecurityAdmin\" or user.roles = \"DeploymentAdmin\" or user.roles = \"AuditAdmin\"",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "3f6652af-356a-4cc7-aea6-ec4cb0543820",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 5
+  },
+  "hidden" : false,
+  "identity" : "e938f0a3-9e56-4aae-870a-daaa5d49b73b,SecurityRule;",
+  "key" : {
+    "id" : 161
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/StreamMonitoringAppsRead",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "StreamMonitoringAppsRead",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 161 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

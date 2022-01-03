@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 2,
+    "category" : "Generic",
+    "comment" : "Describes how target users should be expanded from a system notification",
+    "createdDate" : "2021-05-19T23:01:46.523Z",
+    "disabled" : false,
+    "id" : "9f02eb73-116b-4b67-b4cf-ce66a5af9cd8",
+    "name" : "ExpandSystemNotification",
+    "resourceFilter" : "User_*",
+    "rule" : "subject.targetGroups = resource.group or subject.targetUsers = resource",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "2812f72b-587a-48ea-9b03-e800803d28f3",
+    "subcategory" : "SystemNotification",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 1
+  },
+  "hidden" : false,
+  "identity" : "9f02eb73-116b-4b67-b4cf-ce66a5af9cd8,SecurityRule;",
+  "key" : {
+    "id" : 158
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/ExpandSystemNotification",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "ExpandSystemNotification",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 158 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

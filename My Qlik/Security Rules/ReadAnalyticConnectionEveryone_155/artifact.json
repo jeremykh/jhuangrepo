@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 2,
+    "category" : "Security",
+    "comment" : "Non-anonymous users can read an analytic connection",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "8e881f52-7ccd-41e6-81f8-3b89cf4649a6",
+    "name" : "ReadAnalyticConnectionEveryone",
+    "resourceFilter" : "AnalyticConnection_*",
+    "rule" : "!user.IsAnonymous()",
+    "ruleContext" : 1,
+    "schemaPath" : "SystemRule",
+    "seedId" : "372a7de1-74e4-4f7c-bb2e-9d0dd1a48050",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 1
+  },
+  "hidden" : false,
+  "identity" : "8e881f52-7ccd-41e6-81f8-3b89cf4649a6,SecurityRule;",
+  "key" : {
+    "id" : 155
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/ReadAnalyticConnectionEveryone",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "ReadAnalyticConnectionEveryone",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 155 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

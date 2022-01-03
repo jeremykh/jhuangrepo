@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 2080,
+    "category" : "Security",
+    "comment" : "The owner of an app or a stream should be able to publish, and the owner of an app should be able to duplicate",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "62138fa4-1aff-4cd2-b521-811be60aaaa8",
+    "name" : "OwnerPublishDuplicate",
+    "resourceFilter" : "App_*,Stream_*",
+    "rule" : "resource.IsOwned() and resource.owner = user",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "d3c37fc1-7b2e-42dc-a0b1-aa0bef6185e2",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 5
+  },
+  "hidden" : false,
+  "identity" : "62138fa4-1aff-4cd2-b521-811be60aaaa8,SecurityRule;",
+  "key" : {
+    "id" : 168
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/OwnerPublishDuplicate",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "OwnerPublishDuplicate",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 168 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

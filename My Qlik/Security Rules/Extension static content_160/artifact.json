@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 2,
+    "category" : "Security",
+    "comment" : "Allows everyone that can see an extension to see its corresponding files",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "461d3f1a-4505-42d4-a4a5-f5f4f99b5682",
+    "name" : "Extension static content",
+    "resourceFilter" : "StaticContentReference_*",
+    "rule" : "resource.Extensions.HasPrivilege(\"Read\")",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "d949f4d9-6270-4a31-aefd-82805fd0fe6b",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "ReadOnly",
+    "version" : 1
+  },
+  "hidden" : false,
+  "identity" : "461d3f1a-4505-42d4-a4a5-f5f4f99b5682,SecurityRule;",
+  "key" : {
+    "id" : 160
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/Extension static content",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "Extension static content",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 160 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

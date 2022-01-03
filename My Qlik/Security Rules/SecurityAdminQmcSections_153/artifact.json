@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 2,
+    "category" : "Security",
+    "comment" : "Security admin should have access rights to security related sections",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "4551386e-484c-425b-a0d6-58b2b3155173",
+    "name" : "SecurityAdminQmcSections",
+    "resourceFilter" : "License_*,TermsAcceptance_*,ServiceStatus_*,QmcSection_Stream,QmcSection_App,QmcSection_App.Object,QmcSection_AppDistributionStatus,QmcSection_CloudDistribution,QmcSection_SystemRule,QmcSection_DataConnection,QmcSection_Tag,QmcSection_Templates,QmcSection_Audit,QmcSection_ProxyService,QmcSection_VirtualProxyConfig,QmcSection_User,QmcSection_CustomPropertyDefinition,QmcSection_Certificates,QmcSection_Certificates.Export,QmcSection_ContentLibrary,QmcSection_AnalyticConnection,QmcSection_DeploymentSetup",
+    "rule" : "user.roles = \"SecurityAdmin\"",
+    "ruleContext" : 2,
+    "schemaPath" : "SystemRule",
+    "seedId" : "e21bca12-c296-468c-b30a-d263b7c20d93",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 8
+  },
+  "hidden" : false,
+  "identity" : "4551386e-484c-425b-a0d6-58b2b3155173,SecurityRule;",
+  "key" : {
+    "id" : 153
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/SecurityAdminQmcSections",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "SecurityAdminQmcSections",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 153 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

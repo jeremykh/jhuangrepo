@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 1,
+    "category" : "Security",
+    "comment" : "Non-anonymous users with read access to the ODAG template app can create links and it is possible to create a link without first knowing the template app",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "51a67aa3-29cf-4ecd-8968-2960dfc0ac0d",
+    "name" : "CreateOdagLinks",
+    "resourceFilter" : "OdagLink_*",
+    "rule" : "!user.IsAnonymous() and (resource.templateApp.Empty() or resource.templateApp.HasPrivilege(\"read\"))",
+    "ruleContext" : 1,
+    "schemaPath" : "SystemRule",
+    "seedId" : "9230f965-552c-40f8-9071-9abb9222b766",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 1
+  },
+  "hidden" : false,
+  "identity" : "51a67aa3-29cf-4ecd-8968-2960dfc0ac0d,SecurityRule;",
+  "key" : {
+    "id" : 159
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/CreateOdagLinks",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "CreateOdagLinks",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 159 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

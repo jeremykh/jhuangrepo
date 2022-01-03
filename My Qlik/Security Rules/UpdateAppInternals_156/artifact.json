@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 15,
+    "category" : "Security",
+    "comment" : "If you have update rights on the app you should be able to create/update/read/delete app internals belonging to that app",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "1afca3fe-f308-4324-9ee2-539f61d03618",
+    "name" : "UpdateAppInternals",
+    "resourceFilter" : "App.Internal_*",
+    "rule" : "resource.App.HasPrivilege(\"update\")",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "1026c370-f4f0-48b9-8ba6-2af3eab4ba7e",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "ReadOnly",
+    "version" : 1
+  },
+  "hidden" : false,
+  "identity" : "1afca3fe-f308-4324-9ee2-539f61d03618,SecurityRule;",
+  "key" : {
+    "id" : 156
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/UpdateAppInternals",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "UpdateAppInternals",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 156 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

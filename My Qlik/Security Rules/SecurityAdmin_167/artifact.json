@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 6271,
+    "category" : "Security",
+    "comment" : "Security admin should have access rights to security related entities",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "05debeae-3f3f-40ac-ba97-2b04a6ec267c",
+    "name" : "SecurityAdmin",
+    "resourceFilter" : "Stream_*,App*,Proxy*,VirtualProxy*,User*,SystemRule_*,CustomProperty*,Tag_*,DataConnection_*,ContentLibrary_*,FileExtension_*,FileExtensionWhiteList_*,Deployment_*,IdentityProviderSettings_*",
+    "rule" : "user.roles = \"SecurityAdmin\"",
+    "ruleContext" : 2,
+    "schemaPath" : "SystemRule",
+    "seedId" : "4d829b74-f087-41e4-9c9a-cd46cf2c4769",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 10
+  },
+  "hidden" : false,
+  "identity" : "05debeae-3f3f-40ac-ba97-2b04a6ec267c,SecurityRule;",
+  "key" : {
+    "id" : 167
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/SecurityAdmin",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "SecurityAdmin",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 167 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

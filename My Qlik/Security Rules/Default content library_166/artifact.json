@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 2,
+    "category" : "Security",
+    "comment" : "The default content library should be visible for all users",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "2fba6b9a-6b3d-4994-bdd5-89a08857e70a",
+    "name" : "Default content library",
+    "resourceFilter" : "ContentLibrary_365cddf2-1181-4204-8800-e9a46fe3b127",
+    "rule" : "true",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "df595d66-390e-465e-a494-acd2ebbb09df",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 2
+  },
+  "hidden" : false,
+  "identity" : "2fba6b9a-6b3d-4994-bdd5-89a08857e70a,SecurityRule;",
+  "key" : {
+    "id" : 166
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/Default content library",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "Default content library",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 166 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

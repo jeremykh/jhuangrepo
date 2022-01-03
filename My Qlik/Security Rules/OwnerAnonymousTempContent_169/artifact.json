@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 10,
+    "category" : "Security",
+    "comment" : "An anonymous owner of temporary content should be able to access and delete it",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "957dbbbc-e63f-4456-8bd9-c77d5aa5eae2",
+    "name" : "OwnerAnonymousTempContent",
+    "resourceFilter" : "TempContent_*",
+    "rule" : "user.IsAnonymous() and resource.anonymousOwnerUserId = user.userId",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "5d811d42-7117-4e54-b880-15b49de45da1",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "ReadOnly",
+    "version" : 1
+  },
+  "hidden" : false,
+  "identity" : "957dbbbc-e63f-4456-8bd9-c77d5aa5eae2,SecurityRule;",
+  "key" : {
+    "id" : 169
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/OwnerAnonymousTempContent",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "OwnerAnonymousTempContent",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 169 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 2,
+    "category" : "Security",
+    "comment" : "The owner of a resource should be able to see the resource if it is published to a stream",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "f6880f29-6f81-402e-aae9-f5295d98fec7",
+    "name" : "OwnerRead",
+    "resourceFilter" : "*",
+    "rule" : "resource.IsOwned() and resource.owner = user",
+    "ruleContext" : 0,
+    "schemaPath" : "SystemRule",
+    "seedId" : "e6eb52f4-1ae2-4bd0-b90a-0438bdafc8f8",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "ReadOnly",
+    "version" : 3
+  },
+  "hidden" : false,
+  "identity" : "f6880f29-6f81-402e-aae9-f5295d98fec7,SecurityRule;",
+  "key" : {
+    "id" : 154
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/OwnerRead",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "OwnerRead",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 154 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

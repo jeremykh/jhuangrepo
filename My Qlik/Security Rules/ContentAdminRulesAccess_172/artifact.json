@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 15,
+    "category" : "Security",
+    "comment" : "Content admin should have access rights to manage security rules for streams, data connections, content libraries and extensions",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "00e17c83-2dff-4689-a03a-4c81d6d3cedd",
+    "name" : "ContentAdminRulesAccess",
+    "resourceFilter" : "SystemRule_*",
+    "rule" : "user.roles = \"ContentAdmin\" and (resource.category = \"Security\" and (resource.resourcefilter matches \"Stream_\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}\" or resource.resourcefilter matches \"DataConnection_\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}\" or resource.resourcefilter matches \"ContentLibrary_\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}\" or resource.resourcefilter matches \"Extension_\\w{8}-\\w{4}-\\w{4}-\\w{4}-\\w{12}\") or (resource.category = \"Generic\" and resource.subcategory = \"SystemNotification\"))",
+    "ruleContext" : 2,
+    "schemaPath" : "SystemRule",
+    "seedId" : "40471e4e-f92c-46d8-8f88-4d718792a5fa",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 4
+  },
+  "hidden" : false,
+  "identity" : "00e17c83-2dff-4689-a03a-4c81d6d3cedd,SecurityRule;",
+  "key" : {
+    "id" : 172
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/ContentAdminRulesAccess",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "ContentAdminRulesAccess",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 172 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

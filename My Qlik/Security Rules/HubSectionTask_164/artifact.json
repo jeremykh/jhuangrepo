@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 2,
+    "category" : "Security",
+    "comment" : "Allows all users to access the task hub section",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "110dec4d-1014-4185-aaca-9f7a49687a85",
+    "name" : "HubSectionTask",
+    "resourceFilter" : "HubSection_Task",
+    "rule" : "true",
+    "ruleContext" : 1,
+    "schemaPath" : "SystemRule",
+    "seedId" : "94f730d8-bc82-4e8f-be7c-a3b711a60c8c",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 1
+  },
+  "hidden" : false,
+  "identity" : "110dec4d-1014-4185-aaca-9f7a49687a85,SecurityRule;",
+  "key" : {
+    "id" : 164
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/HubSectionTask",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "HubSectionTask",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 164 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

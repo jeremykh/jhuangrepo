@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 15,
+    "category" : "Security",
+    "comment" : "It should be possible for admins to create folder data connections",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "0baa21b8-fe57-4698-9e88-a8b942ddc59f",
+    "name" : "FolderDataConnection",
+    "resourceFilter" : "DataConnection_*",
+    "rule" : "resource.type = \"folder\" and (user.roles = \"RootAdmin\" or user.roles = \"ContentAdmin\" or user.roles = \"SecurityAdmin\")",
+    "ruleContext" : 1,
+    "schemaPath" : "SystemRule",
+    "seedId" : "373ab16b-cd2e-402d-9b1c-1123374e5626",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 1
+  },
+  "hidden" : false,
+  "identity" : "0baa21b8-fe57-4698-9e88-a8b942ddc59f,SecurityRule;",
+  "key" : {
+    "id" : 163
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/FolderDataConnection",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "FolderDataConnection",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 163 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}

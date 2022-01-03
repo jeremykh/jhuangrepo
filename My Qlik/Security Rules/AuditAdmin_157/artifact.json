@@ -1,0 +1,50 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "actions" : 2,
+    "category" : "Security",
+    "comment" : "Audit admin should have access rights to audit entities",
+    "createdDate" : "2021-05-19T23:01:38.033Z",
+    "disabled" : false,
+    "id" : "d61b2293-093e-4c04-86bb-e1abc1571a15",
+    "name" : "AuditAdmin",
+    "resourceFilter" : "*",
+    "rule" : "user.roles = \"AuditAdmin\" and !(resource.resourcetype = \"TransientObject\" and resource.name like \"QmcSection_*\")",
+    "ruleContext" : 2,
+    "schemaPath" : "SystemRule",
+    "seedId" : "7941ddd4-219e-4b34-9d4e-104874f4d6f8",
+    "subcategory" : "",
+    "tags" : [ ],
+    "type" : "Default",
+    "version" : 3
+  },
+  "hidden" : false,
+  "identity" : "d61b2293-093e-4c04-86bb-e1abc1571a15,SecurityRule;",
+  "key" : {
+    "id" : 157
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Security Rules/AuditAdmin",
+    "subtypePath" : "-/QlikSecurityRule/QlikSecurityRule",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "AuditAdmin",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 36
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 36, 157 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "SecurityRule",
+  "shouldVersion" : true,
+  "subtype" : "QlikSecurityRule",
+  "type" : "QlikArtifact"
+}
