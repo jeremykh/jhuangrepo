@@ -1,0 +1,47 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "createdDate" : "2021-05-19T23:01:44.060Z",
+    "customProperties" : [ ],
+    "id" : "a70ca8a5-1d59-4cc9-b5fa-6e207978dcaf",
+    "name" : "Monitoring apps",
+    "owner" : {
+      "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+      "name" : "sa_repository",
+      "userDirectory" : "INTERNAL",
+      "userDirectoryConnectorName" : "",
+      "userId" : "sa_repository"
+    },
+    "schemaPath" : "Stream",
+    "tags" : [ ]
+  },
+  "hidden" : false,
+  "identity" : "a70ca8a5-1d59-4cc9-b5fa-6e207978dcaf,Stream;",
+  "key" : {
+    "id" : 41
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps",
+    "subtypePath" : "-/QlikStream/QlikStream",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact"
+  },
+  "name" : "Monitoring apps",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 33
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 33, 41 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Stream",
+  "shouldVersion" : true,
+  "subtype" : "QlikStream",
+  "type" : "QlikArtifact"
+}
