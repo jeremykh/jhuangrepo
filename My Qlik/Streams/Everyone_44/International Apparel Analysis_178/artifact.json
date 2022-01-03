@@ -1,0 +1,85 @@
+{
+  "contentMap" : {
+    "QlikAppProps.json" : {
+      "contentChecksum" : "0836ab8604f4e63177b970b7f705561a6b6b6b75",
+      "contentName" : "QlikAppProps",
+      "contentOid" : 18427,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    },
+    "QlikLoadModel.json" : {
+      "contentChecksum" : "57becdf993d9216dcbbd445c6260b421899a7ccd",
+      "contentName" : "QlikLoadModel",
+      "contentOid" : 18426,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    },
+    "QlikScript.txt" : {
+      "contentChecksum" : "33aa6912f578674c13d9a54b1d564fb3b55a0e93",
+      "contentName" : "QlikScript",
+      "contentOid" : 18425,
+      "contentType" : "txt",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "createdDate" : "2021-08-24T15:51:01.406Z",
+      "description" : "The app is designed to provide an interactive visual analysis of sales, shipping, and employee data for an international clothing supply company.",
+      "dynamicColor" : "",
+      "published" : true,
+      "qMigrationHash" : "82b8362010f6f32f12217392e08c75194db0d4fc",
+      "qSavedInProductVersion" : "12.969.2",
+      "qThumbnail" : {
+        "qUrl" : "/appcontent/88e3ab27-4783-4832-ba65-6eba49a9001b/Thumbnail.png"
+      },
+      "qTitle" : "International Apparel Analysis",
+      "stream" : {
+        "id" : "aaec8d41-5201-43ab-809f-3063750dfafd",
+        "name" : "Everyone"
+      }
+    },
+    "qrsProp" : {
+      "customProperties" : [ ],
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "privileges" : null,
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userDirectoryConnectorName" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "88e3ab27-4783-4832-ba65-6eba49a9001b,App;",
+  "key" : {
+    "id" : 178
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/International Apparel Analysis",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact"
+  },
+  "name" : "International Apparel Analysis",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 44
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 33, 44, 178 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "App",
+  "shouldVersion" : true,
+  "subtype" : "QlikApp",
+  "type" : "QlikArtifact"
+}

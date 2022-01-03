@@ -1,0 +1,116 @@
+///$tab Section
+SET ThousandSep=',';
+SET DecimalSep='.';
+SET MoneyThousandSep=',';SET MoneyDecimalSep='.';
+SET MoneyFormat='$#,##0.00;($#,##0.00)';
+SET TimeFormat='h:mm:ss TT';
+SET DateFormat='M/D/YYYY';
+SET TimestampFormat='M/D/YYYY h:mm:ss[.fff] TT';
+SET FirstWeekDay=6;
+SET BrokenWeeks=1;
+SET ReferenceDay=0;
+SET FirstMonthOfYear=1;
+SET CollationLocale='en-US';
+SET CreateSearchIndexOnReload=1;
+SET MonthNames='Jan;Feb;Mar;Apr;May;Jun;Jul;Aug;Sep;Oct;Nov;Dec';
+SET LongMonthNames='January;February;March;April;May;June;July;August;September;October;November;December';
+SET DayNames='Mon;Tue;Wed;Thu;Fri;Sat;Sun';
+SET LongDayNames='Monday;Tuesday;Wednesday;Thursday;Friday;Saturday;Sunday';
+
+[Customers]:
+LOAD 
+[CustomerID],
+[Address],
+[City],
+[ContactName],
+[Country],
+[Region],
+[Customer],
+[Fax],
+[Phone],
+[PostalCode],
+[CountryCode],
+[Latitude],
+[Longitude]
+ FROM [lib://Exported CSVs/International Apparel Analysis/Customers.csv]
+(txt, codepage is 1252, embedded labels, delimiter is ',', msq);
+
+[Employees]:
+LOAD 
+[EmployeeID],
+[Office],
+[Extension],
+[EmployeeName],
+[EmployeeGender],
+[Hire Date],
+[Supervisor],
+[JobTitle],
+[AnnualSalary],
+[SalesTarget]
+ FROM [lib://Exported CSVs/International Apparel Analysis/Employees.csv]
+(txt, codepage is 1252, embedded labels, delimiter is ',', msq);
+
+[Offices]:
+LOAD 
+[Office],
+[OfficeLocation]
+ FROM [lib://Exported CSVs/International Apparel Analysis/Offices.csv]
+(txt, codepage is 1252, embedded labels, delimiter is ',', msq);
+
+[OrderHeader]:
+LOAD 
+[OrderID],
+[EmployeeID],
+[CustomerID],
+[OrderDate],
+[ShippingCost],
+[ShippingCompany],
+[DeliveryDate]
+ FROM [lib://Exported CSVs/International Apparel Analysis/OrderHeader.csv]
+(txt, codepage is 1252, embedded labels, delimiter is ',', msq);
+
+[Category]:
+LOAD 
+[CategoryID],
+[CategoryName],
+[Department],
+[Description]
+ FROM [lib://Exported CSVs/International Apparel Analysis/Category.csv]
+(txt, codepage is 1252, embedded labels, delimiter is ',', msq);
+
+[Products]:
+LOAD 
+[CategoryID],
+[SupplierID],
+[ProductID],
+[ProductName]
+ FROM [lib://Exported CSVs/International Apparel Analysis/Products.csv]
+(txt, codepage is 1252, embedded labels, delimiter is ',', msq);
+
+[OrderDetails]:
+LOAD 
+[ProductID],
+[OrderID],
+[Quantity],
+[Sales],
+[Discount],
+[CostOfSales],
+[GrossProfit]
+ FROM [lib://Exported CSVs/International Apparel Analysis/OrderDetails.csv]
+(txt, codepage is 1252, embedded labels, delimiter is ',', msq);
+
+[Suppliers]:
+LOAD 
+[SupplierID],
+[Supplier],
+[SupplierContact],
+[SupplierCountry]
+ FROM [lib://Exported CSVs/International Apparel Analysis/Suppliers.csv]
+(txt, codepage is 1252, embedded labels, delimiter is ',', msq);
+
+[Territories]:
+LOAD 
+[EmployeeID],
+[TerritoryID]
+ FROM [lib://Exported CSVs/International Apparel Analysis/Territories.csv]
+(txt, codepage is 1252, embedded labels, delimiter is ',', msq);

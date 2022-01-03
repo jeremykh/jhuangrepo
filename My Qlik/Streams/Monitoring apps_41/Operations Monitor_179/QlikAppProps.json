@@ -1,0 +1,21 @@
+{
+  "qProperty" : {
+    "qInfo" : {
+      "qId" : "LfnyKS",
+      "qType" : "appprops"
+    },
+    "qMetaDef" : { },
+    "sheetTitleBgColor" : "",
+    "sheetTitleGradientColor" : "",
+    "sheetTitleColor" : "",
+    "sheetLogoThumbnail" : {
+      "qStaticContentUrlDef" : {
+        "qUrl" : "/appcontent/72d45588-644b-4905-a064-a3923f3f6e08/Powered-By-Qlik-Mark-Horizontal_RGB.png"
+      }
+    },
+    "sheetLogoPosition" : "",
+    "rtl" : false,
+    "theme" : "breeze"
+  },
+  "qChildren" : [ ]
+}

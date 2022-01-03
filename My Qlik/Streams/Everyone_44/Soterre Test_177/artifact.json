@@ -1,0 +1,82 @@
+{
+  "contentMap" : {
+    "QlikAppProps.json" : {
+      "contentChecksum" : "aae6e39c492df293c89e7dd90721fc27e60fe990",
+      "contentName" : "QlikAppProps",
+      "contentOid" : 18424,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    },
+    "QlikLoadModel.json" : {
+      "contentChecksum" : "57becdf993d9216dcbbd445c6260b421899a7ccd",
+      "contentName" : "QlikLoadModel",
+      "contentOid" : 18423,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    },
+    "QlikScript.txt" : {
+      "contentChecksum" : "30882e13a16d11958a5b7f4a9759fc814b60982d",
+      "contentName" : "QlikScript",
+      "contentOid" : 18422,
+      "contentType" : "txt",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "createdDate" : "2021-09-28T20:11:39.585Z",
+      "description" : "",
+      "dynamicColor" : "",
+      "published" : true,
+      "qSavedInProductVersion" : "12.969.2",
+      "qThumbnail" : { },
+      "qTitle" : "Soterre Test",
+      "stream" : {
+        "id" : "aaec8d41-5201-43ab-809f-3063750dfafd",
+        "name" : "Everyone"
+      }
+    },
+    "qrsProp" : {
+      "customProperties" : [ ],
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "privileges" : null,
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userDirectoryConnectorName" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "8e0ec299-2282-4c70-ae9f-ee00c24f8cda,App;",
+  "key" : {
+    "id" : 177
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Soterre Test",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact"
+  },
+  "name" : "Soterre Test",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 44
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 33, 44, 177 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "App",
+  "shouldVersion" : true,
+  "subtype" : "QlikApp",
+  "type" : "QlikArtifact"
+}

@@ -1,0 +1,85 @@
+{
+  "contentMap" : {
+    "QlikAppProps.json" : {
+      "contentChecksum" : "775d3ed0da5106722d239cada2812f7da7420839",
+      "contentName" : "QlikAppProps",
+      "contentOid" : 18431,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    },
+    "QlikLoadModel.json" : {
+      "contentChecksum" : "57becdf993d9216dcbbd445c6260b421899a7ccd",
+      "contentName" : "QlikLoadModel",
+      "contentOid" : 18430,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    },
+    "QlikScript.txt" : {
+      "contentChecksum" : "7649785b78f6e04fc870ffac00a03a4a7e73c2fb",
+      "contentName" : "QlikScript",
+      "contentOid" : 18429,
+      "contentType" : "txt",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "createdDate" : "2021-05-19T23:03:32.264Z",
+      "description" : "The Operations Monitor 7.16 provides information about the Qlik Sense server environment, including: server memory and CPU usage, active users, task reloads, and errors and warnings.  Enjoy!",
+      "dynamicColor" : "",
+      "published" : true,
+      "qMigrationHash" : "21ecc792c56e18162f1785d3d41f28fdaced5c96",
+      "qSavedInProductVersion" : "12.969.2",
+      "qThumbnail" : {
+        "qUrl" : "/appcontent/72d45588-644b-4905-a064-a3923f3f6e08/Icon_KPI_Dashboard_grey.png"
+      },
+      "qTitle" : "Operations Monitor",
+      "stream" : {
+        "id" : "a70ca8a5-1d59-4cc9-b5fa-6e207978dcaf",
+        "name" : "Monitoring apps"
+      }
+    },
+    "qrsProp" : {
+      "customProperties" : [ ],
+      "owner" : {
+        "id" : "79a4ed21-2a01-484f-ad2a-a1c1ffb9027c",
+        "name" : "sa_repository",
+        "privileges" : null,
+        "userDirectory" : "INTERNAL",
+        "userDirectoryConnectorName" : "",
+        "userId" : "sa_repository"
+      },
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "72d45588-644b-4905-a064-a3923f3f6e08,App;",
+  "key" : {
+    "id" : 179
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Monitoring apps/Operations Monitor",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact"
+  },
+  "name" : "Operations Monitor",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 41
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 33, 41, 179 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "App",
+  "shouldVersion" : true,
+  "subtype" : "QlikApp",
+  "type" : "QlikArtifact"
+}

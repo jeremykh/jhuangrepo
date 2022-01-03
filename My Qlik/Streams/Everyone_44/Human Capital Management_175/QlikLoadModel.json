@@ -1,0 +1,1324 @@
+{
+  "qProperty" : {
+    "qInfo" : {
+      "qId" : "LoadModel",
+      "qType" : "LoadModel"
+    },
+    "qMetaDef" : { },
+    "connectionMetaDataModels" : {
+      "AttachedFiles" : {
+        "name" : "AttachedFiles",
+        "id" : "47a1cfd8-f70e-4a98-a00d-00fca6c8e253",
+        "type" : {
+          "provider" : "folder",
+          "type" : "folder",
+          "displayName" : "scripteditor.dataconnectors.filedirectory",
+          "connectDialog" : "scripteditor.views/fileconnectdialog/fileconnectdialog",
+          "selectDialog" : "scripteditor.views/fileselectdialog/fileselectdialog",
+          "connectorMain" : "assets/hldm/data-connectors/native-file-connector/connector-main",
+          "needsConnect" : false,
+          "isStandardConnector" : true
+        },
+        "typeName" : "folder",
+        "privileges" : [ "read", "update", "delete" ],
+        "canDelete" : true,
+        "dbInfo" : {
+          "dbusage" : false,
+          "ownerusage" : false,
+          "dbfirst" : false,
+          "specialchars" : "!  　\"$&'()*+,-/:;<>´`{}~[]\r\n\t",
+          "dbseparator" : "",
+          "ownerseparator" : "",
+          "quotesuffix" : "\"",
+          "quoteprefix" : "\"",
+          "quotesuffixfordoublequotes" : "]",
+          "quoteprefixfordoublequotes" : "[",
+          "keywords" : [ ]
+        }
+      }
+    },
+    "tables" : [ {
+      "dataconnectorName" : "AttachedFiles",
+      "boxType" : "load-file",
+      "databaseName" : "Training.qvd",
+      "ownerName" : "TYPE9_QVD",
+      "tableName" : "Training",
+      "tableAlias" : "Training",
+      "key" : "AttachedFiles:Training.qvd:TYPE9_QVD:Training",
+      "fields" : [ {
+        "id" : "dsd.Training.Employee_ID",
+        "name" : "Employee_ID",
+        "alias" : "Training.Employee_ID",
+        "selected" : true
+      }, {
+        "id" : "dsd.Training.Course_ID",
+        "name" : "Course_ID",
+        "alias" : "Training.Course_ID",
+        "selected" : true
+      }, {
+        "id" : "dsd.Training.# Enrollment",
+        "name" : "# Enrollment",
+        "alias" : "# Enrollment",
+        "selected" : true
+      }, {
+        "id" : "dsd.Training.Training Hours",
+        "name" : "Training Hours",
+        "alias" : "Training Hours",
+        "selected" : true
+      }, {
+        "id" : "dsd.Training.Training Cost",
+        "name" : "Training Cost",
+        "alias" : "Training Cost",
+        "selected" : true
+      }, {
+        "id" : "dsd.Training.# Program Completion",
+        "name" : "# Program Completion",
+        "alias" : "# Program Completion",
+        "selected" : true
+      } ],
+      "calculatedFields" : [ ],
+      "connectionInfo" : {
+        "name" : "AttachedFiles",
+        "id" : "47a1cfd8-f70e-4a98-a00d-00fca6c8e253",
+        "type" : {
+          "provider" : "folder",
+          "type" : "folder",
+          "displayName" : "scripteditor.dataconnectors.filedirectory",
+          "connectDialog" : "scripteditor.views/fileconnectdialog/fileconnectdialog",
+          "selectDialog" : "scripteditor.views/fileselectdialog/fileselectdialog",
+          "connectorMain" : "assets/hldm/data-connectors/native-file-connector/connector-main",
+          "needsConnect" : false,
+          "isStandardConnector" : true
+        },
+        "typeName" : "folder",
+        "privileges" : [ "read", "update", "delete" ],
+        "canDelete" : true,
+        "dbInfo" : {
+          "dbusage" : false,
+          "ownerusage" : false,
+          "dbfirst" : false,
+          "specialchars" : "!  　\"$&'()*+,-/:;<>´`{}~[]\r\n\t",
+          "dbseparator" : "",
+          "ownerseparator" : "",
+          "quotesuffix" : "\"",
+          "quoteprefix" : "\"",
+          "quotesuffixfordoublequotes" : "]",
+          "quoteprefixfordoublequotes" : "[",
+          "keywords" : [ ]
+        }
+      },
+      "id" : "dsd.Training",
+      "fileFormatSettings" : {
+        "qLabel" : "embedded labels",
+        "qHeaderSize" : 0,
+        "qDelimiter" : {
+          "qNumber" : 0,
+          "qIsMultiple" : false
+        },
+        "qQuote" : "standard",
+        "qCodePage" : 1252,
+        "qIgnoreEOF" : false,
+        "qFixedWidthDelimiters" : "1",
+        "qTabSize" : 0,
+        "qRecordSize" : 0,
+        "qComment" : ""
+      },
+      "formatSpec" : "(qvd)",
+      "loadSelectStatement" : "LOAD [Employee_ID] AS [Employee_ID],\n\t[Course_ID] AS [Course_ID],\n\t[# Enrollment] AS [# Enrollment],\n\t[Training Hours] AS [Training Hours],\n\t[Training Cost] AS [Training Cost],\n\t[# Program Completion] AS [# Program Completion]\nFROM [lib://AttachedFiles/Training.qvd]\n(qvd);\n"
+    }, {
+      "dataconnectorName" : "AttachedFiles",
+      "boxType" : "load-file",
+      "databaseName" : "Survey$.qvd",
+      "ownerName" : "TYPE9_QVD",
+      "tableName" : "Survey$",
+      "tableAlias" : "Survey$",
+      "key" : "AttachedFiles:Survey$.qvd:TYPE9_QVD:Survey$",
+      "fields" : [ {
+        "id" : "dsd.Survey$.Employee_ID",
+        "name" : "Employee_ID",
+        "alias" : "Survey$.Employee_ID",
+        "selected" : true
+      }, {
+        "id" : "dsd.Survey$.Question Type",
+        "name" : "Question Type",
+        "alias" : "Question Type",
+        "selected" : true
+      }, {
+        "id" : "dsd.Survey$.Score",
+        "name" : "Score",
+        "alias" : "Score",
+        "selected" : true
+      }, {
+        "id" : "dsd.Survey$.Responses",
+        "name" : "Responses",
+        "alias" : "Responses",
+        "selected" : true
+      } ],
+      "calculatedFields" : [ ],
+      "connectionInfo" : {
+        "name" : "AttachedFiles",
+        "id" : "47a1cfd8-f70e-4a98-a00d-00fca6c8e253",
+        "type" : {
+          "provider" : "folder",
+          "type" : "folder",
+          "displayName" : "scripteditor.dataconnectors.filedirectory",
+          "connectDialog" : "scripteditor.views/fileconnectdialog/fileconnectdialog",
+          "selectDialog" : "scripteditor.views/fileselectdialog/fileselectdialog",
+          "connectorMain" : "assets/hldm/data-connectors/native-file-connector/connector-main",
+          "needsConnect" : false,
+          "isStandardConnector" : true
+        },
+        "typeName" : "folder",
+        "privileges" : [ "read", "update", "delete" ],
+        "canDelete" : true,
+        "dbInfo" : {
+          "dbusage" : false,
+          "ownerusage" : false,
+          "dbfirst" : false,
+          "specialchars" : "!  　\"$&'()*+,-/:;<>´`{}~[]\r\n\t",
+          "dbseparator" : "",
+          "ownerseparator" : "",
+          "quotesuffix" : "\"",
+          "quoteprefix" : "\"",
+          "quotesuffixfordoublequotes" : "]",
+          "quoteprefixfordoublequotes" : "[",
+          "keywords" : [ ]
+        }
+      },
+      "id" : "dsd.Survey$",
+      "fileFormatSettings" : {
+        "qLabel" : "embedded labels",
+        "qHeaderSize" : 0,
+        "qDelimiter" : {
+          "qNumber" : 0,
+          "qIsMultiple" : false
+        },
+        "qQuote" : "standard",
+        "qCodePage" : 1252,
+        "qIgnoreEOF" : false,
+        "qFixedWidthDelimiters" : "1",
+        "qTabSize" : 0,
+        "qRecordSize" : 0,
+        "qComment" : ""
+      },
+      "formatSpec" : "(qvd)",
+      "loadSelectStatement" : "LOAD [Employee_ID] AS [Employee_ID],\n\t[Question Type] AS [Question Type],\n\t[Score] AS [Score],\n\t[Responses] AS [Responses]\nFROM [lib://AttachedFiles/Survey$.qvd]\n(qvd);\n"
+    }, {
+      "dataconnectorName" : "AttachedFiles",
+      "boxType" : "load-file",
+      "databaseName" : "Hierarchy$.qvd",
+      "ownerName" : "TYPE9_QVD",
+      "tableName" : "Hierarchy$",
+      "tableAlias" : "Hierarchy$",
+      "key" : "AttachedFiles:Hierarchy$.qvd:TYPE9_QVD:Hierarchy$",
+      "fields" : [ {
+        "id" : "dsd.Hierarchy$.Employee_ID",
+        "name" : "Employee_ID",
+        "alias" : "Hierarchy$.Employee_ID",
+        "selected" : true
+      }, {
+        "id" : "dsd.Hierarchy$.Director",
+        "name" : "Director",
+        "alias" : "Director",
+        "selected" : true
+      }, {
+        "id" : "dsd.Hierarchy$.VP",
+        "name" : "VP",
+        "alias" : "VP",
+        "selected" : true
+      } ],
+      "calculatedFields" : [ ],
+      "connectionInfo" : {
+        "name" : "AttachedFiles",
+        "id" : "47a1cfd8-f70e-4a98-a00d-00fca6c8e253",
+        "type" : {
+          "provider" : "folder",
+          "type" : "folder",
+          "displayName" : "scripteditor.dataconnectors.filedirectory",
+          "connectDialog" : "scripteditor.views/fileconnectdialog/fileconnectdialog",
+          "selectDialog" : "scripteditor.views/fileselectdialog/fileselectdialog",
+          "connectorMain" : "assets/hldm/data-connectors/native-file-connector/connector-main",
+          "needsConnect" : false,
+          "isStandardConnector" : true
+        },
+        "typeName" : "folder",
+        "privileges" : [ "read", "update", "delete" ],
+        "canDelete" : true,
+        "dbInfo" : {
+          "dbusage" : false,
+          "ownerusage" : false,
+          "dbfirst" : false,
+          "specialchars" : "!  　\"$&'()*+,-/:;<>´`{}~[]\r\n\t",
+          "dbseparator" : "",
+          "ownerseparator" : "",
+          "quotesuffix" : "\"",
+          "quoteprefix" : "\"",
+          "quotesuffixfordoublequotes" : "]",
+          "quoteprefixfordoublequotes" : "[",
+          "keywords" : [ ]
+        }
+      },
+      "id" : "dsd.Hierarchy$",
+      "fileFormatSettings" : {
+        "qLabel" : "embedded labels",
+        "qHeaderSize" : 0,
+        "qDelimiter" : {
+          "qNumber" : 0,
+          "qIsMultiple" : false
+        },
+        "qQuote" : "standard",
+        "qCodePage" : 1252,
+        "qIgnoreEOF" : false,
+        "qFixedWidthDelimiters" : "1",
+        "qTabSize" : 0,
+        "qRecordSize" : 0,
+        "qComment" : ""
+      },
+      "formatSpec" : "(qvd)",
+      "loadSelectStatement" : "LOAD [Employee_ID] AS [Employee_ID],\n\t[Director] AS [Director],\n\t[VP] AS [VP]\nFROM [lib://AttachedFiles/Hierarchy$.qvd]\n(qvd);\n"
+    }, {
+      "dataconnectorName" : "AttachedFiles",
+      "boxType" : "load-file",
+      "databaseName" : "Employees.qvd",
+      "ownerName" : "TYPE9_QVD",
+      "tableName" : "Employees",
+      "tableAlias" : "Employees",
+      "key" : "AttachedFiles:Employees.qvd:TYPE9_QVD:Employees",
+      "fields" : [ {
+        "id" : "dsd.Employees.Month",
+        "name" : "Month",
+        "alias" : "Month",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Employee_ID",
+        "name" : "Employee_ID",
+        "alias" : "Employees.Employee_ID",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.EmployeeCount",
+        "name" : "EmployeeCount",
+        "alias" : "EmployeeCount",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Employee Name",
+        "name" : "Employee Name",
+        "alias" : "Employee Name",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Reason",
+        "name" : "Reason",
+        "alias" : "Reason",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Job Family",
+        "name" : "Job Family",
+        "alias" : "Job Family",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Job",
+        "name" : "Job",
+        "alias" : "Job",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Position",
+        "name" : "Position",
+        "alias" : "Position",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Geography",
+        "name" : "Geography",
+        "alias" : "Geography",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Country",
+        "name" : "Country",
+        "alias" : "Country",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.CountryCode",
+        "name" : "CountryCode",
+        "alias" : "CountryCode",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Town or City",
+        "name" : "Town or City",
+        "alias" : "Town or City",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Location",
+        "name" : "Location",
+        "alias" : "Location",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Gender",
+        "name" : "Gender",
+        "alias" : "Gender",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Band",
+        "name" : "Band",
+        "alias" : "Band",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Position1",
+        "name" : "Position1",
+        "alias" : "Position1",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Employment Status",
+        "name" : "Employment Status",
+        "alias" : "Employment Status",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Organization Type",
+        "name" : "Organization Type",
+        "alias" : "Organization Type",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Organization Class",
+        "name" : "Organization Class",
+        "alias" : "Organization Class",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Organization",
+        "name" : "Organization",
+        "alias" : "Organization",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Ethnic Group",
+        "name" : "Ethnic Group",
+        "alias" : "Ethnic Group",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Recruiting_Channel",
+        "name" : "Recruiting_Channel",
+        "alias" : "Recruiting_Channel",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Recruiting_Source",
+        "name" : "Recruiting_Source",
+        "alias" : "Recruiting_Source",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Salary",
+        "name" : "Salary",
+        "alias" : "Salary",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Employee Type",
+        "name" : "Employee Type",
+        "alias" : "Employee Type",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Terminated Employee",
+        "name" : "Terminated Employee",
+        "alias" : "Terminated Employee",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Termination",
+        "name" : "Termination",
+        "alias" : "Termination",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.NewHire",
+        "name" : "NewHire",
+        "alias" : "NewHire",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.New Hires",
+        "name" : "New Hires",
+        "alias" : "New Hires",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Tenure",
+        "name" : "Tenure",
+        "alias" : "Tenure",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Tenure Group",
+        "name" : "Tenure Group",
+        "alias" : "Tenure Group",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Age",
+        "name" : "Age",
+        "alias" : "Age",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Age Group",
+        "name" : "Age Group",
+        "alias" : "Age Group",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.CountryCode3",
+        "name" : "CountryCode3",
+        "alias" : "CountryCode3",
+        "selected" : true
+      }, {
+        "id" : "dsd.Employees.Year",
+        "name" : "Year",
+        "alias" : "Year",
+        "selected" : true
+      } ],
+      "calculatedFields" : [ ],
+      "connectionInfo" : {
+        "name" : "AttachedFiles",
+        "id" : "47a1cfd8-f70e-4a98-a00d-00fca6c8e253",
+        "type" : {
+          "provider" : "folder",
+          "type" : "folder",
+          "displayName" : "scripteditor.dataconnectors.filedirectory",
+          "connectDialog" : "scripteditor.views/fileconnectdialog/fileconnectdialog",
+          "selectDialog" : "scripteditor.views/fileselectdialog/fileselectdialog",
+          "connectorMain" : "assets/hldm/data-connectors/native-file-connector/connector-main",
+          "needsConnect" : false,
+          "isStandardConnector" : true
+        },
+        "typeName" : "folder",
+        "privileges" : [ "read", "update", "delete" ],
+        "canDelete" : true,
+        "dbInfo" : {
+          "dbusage" : false,
+          "ownerusage" : false,
+          "dbfirst" : false,
+          "specialchars" : "!  　\"$&'()*+,-/:;<>´`{}~[]\r\n\t",
+          "dbseparator" : "",
+          "ownerseparator" : "",
+          "quotesuffix" : "\"",
+          "quoteprefix" : "\"",
+          "quotesuffixfordoublequotes" : "]",
+          "quoteprefixfordoublequotes" : "[",
+          "keywords" : [ ]
+        }
+      },
+      "id" : "dsd.Employees",
+      "fileFormatSettings" : {
+        "qLabel" : "embedded labels",
+        "qHeaderSize" : 0,
+        "qDelimiter" : {
+          "qNumber" : 0,
+          "qIsMultiple" : false
+        },
+        "qQuote" : "standard",
+        "qCodePage" : 1252,
+        "qIgnoreEOF" : false,
+        "qFixedWidthDelimiters" : "1",
+        "qTabSize" : 0,
+        "qRecordSize" : 0,
+        "qComment" : ""
+      },
+      "formatSpec" : "(qvd)",
+      "loadSelectStatement" : "LOAD [Month] AS [Month],\n\t[Employee_ID] AS [Employee_ID],\n\t[EmployeeCount] AS [EmployeeCount],\n\t[Employee Name] AS [Employee Name],\n\t[Reason] AS [Reason],\n\t[Job Family] AS [Job Family],\n\t[Job] AS [Job],\n\t[Position] AS [Position],\n\t[Geography] AS [Geography],\n\t[Country] AS [Country],\n\t[CountryCode] AS [CountryCode],\n\t[Town or City] AS [Town or City],\n\t[Location] AS [Location],\n\t[Gender] AS [Gender],\n\t[Band] AS [Band],\n\t[Position1] AS [Position1],\n\t[Employment Status] AS [Employment Status],\n\t[Organization Type] AS [Organization Type],\n\t[Organization Class] AS [Organization Class],\n\t[Organization] AS [Organization],\n\t[Ethnic Group] AS [Ethnic Group],\n\t[Recruiting_Channel] AS [Recruiting_Channel],\n\t[Recruiting_Source] AS [Recruiting_Source],\n\t[Salary] AS [Salary],\n\t[Employee Type] AS [Employee Type],\n\t[Terminated Employee] AS [Terminated Employee],\n\t[Termination] AS [Termination],\n\t[NewHire] AS [NewHire],\n\t[New Hires] AS [New Hires],\n\t[Tenure] AS [Tenure],\n\t[Tenure Group] AS [Tenure Group],\n\t[Age] AS [Age],\n\t[Age Group] AS [Age Group],\n\t[CountryCode3] AS [CountryCode3],\n\t[Year] AS [Year]\nFROM [lib://AttachedFiles/Employees.qvd]\n(qvd);\n"
+    }, {
+      "dataconnectorName" : "AttachedFiles",
+      "boxType" : "load-file",
+      "databaseName" : "countryISO3.qvd",
+      "ownerName" : "TYPE9_QVD",
+      "tableName" : "countryISO3",
+      "tableAlias" : "countryISO3",
+      "key" : "AttachedFiles:countryISO3.qvd:TYPE9_QVD:countryISO3",
+      "fields" : [ {
+        "id" : "dsd.countryISO3.Course_ID",
+        "name" : "Course_ID",
+        "alias" : "countryISO3.Course_ID",
+        "selected" : true
+      }, {
+        "id" : "dsd.countryISO3.Course",
+        "name" : "Course",
+        "alias" : "Course",
+        "selected" : true
+      }, {
+        "id" : "dsd.countryISO3.Course Type",
+        "name" : "Course Type",
+        "alias" : "Course Type",
+        "selected" : true
+      }, {
+        "id" : "dsd.countryISO3.Developmental Program",
+        "name" : "Developmental Program",
+        "alias" : "Developmental Program",
+        "selected" : true
+      } ],
+      "calculatedFields" : [ ],
+      "connectionInfo" : {
+        "name" : "AttachedFiles",
+        "id" : "47a1cfd8-f70e-4a98-a00d-00fca6c8e253",
+        "type" : {
+          "provider" : "folder",
+          "type" : "folder",
+          "displayName" : "scripteditor.dataconnectors.filedirectory",
+          "connectDialog" : "scripteditor.views/fileconnectdialog/fileconnectdialog",
+          "selectDialog" : "scripteditor.views/fileselectdialog/fileselectdialog",
+          "connectorMain" : "assets/hldm/data-connectors/native-file-connector/connector-main",
+          "needsConnect" : false,
+          "isStandardConnector" : true
+        },
+        "typeName" : "folder",
+        "privileges" : [ "read", "update", "delete" ],
+        "canDelete" : true,
+        "dbInfo" : {
+          "dbusage" : false,
+          "ownerusage" : false,
+          "dbfirst" : false,
+          "specialchars" : "!  　\"$&'()*+,-/:;<>´`{}~[]\r\n\t",
+          "dbseparator" : "",
+          "ownerseparator" : "",
+          "quotesuffix" : "\"",
+          "quoteprefix" : "\"",
+          "quotesuffixfordoublequotes" : "]",
+          "quoteprefixfordoublequotes" : "[",
+          "keywords" : [ ]
+        }
+      },
+      "id" : "dsd.countryISO3",
+      "fileFormatSettings" : {
+        "qLabel" : "embedded labels",
+        "qHeaderSize" : 0,
+        "qDelimiter" : {
+          "qNumber" : 0,
+          "qIsMultiple" : false
+        },
+        "qQuote" : "standard",
+        "qCodePage" : 1252,
+        "qIgnoreEOF" : false,
+        "qFixedWidthDelimiters" : "1",
+        "qTabSize" : 0,
+        "qRecordSize" : 0,
+        "qComment" : ""
+      },
+      "formatSpec" : "(qvd)",
+      "loadSelectStatement" : "LOAD [Course_ID] AS [Course_ID],\n\t[Course] AS [Course],\n\t[Course Type] AS [Course Type],\n\t[Developmental Program] AS [Developmental Program]\nFROM [lib://AttachedFiles/countryISO3.qvd]\n(qvd);\n"
+    }, {
+      "dataconnectorName" : "AttachedFiles",
+      "boxType" : "load-file",
+      "databaseName" : "world.kml",
+      "ownerName" : "TYPE9_KML",
+      "tableName" : "World.shp/Features",
+      "tableAlias" : "World.shp/Features",
+      "key" : "AttachedFiles:world.kml:TYPE9_KML:World.shp/Features",
+      "fields" : [ {
+        "id" : "dsd.World..shp/Features.world..Name",
+        "name" : "world.Name",
+        "alias" : "world.Name",
+        "selected" : true
+      }, {
+        "id" : "dsd.World..shp/Features.world..Point",
+        "name" : "world.Point",
+        "alias" : "world.Point",
+        "selected" : false
+      }, {
+        "id" : "dsd.World..shp/Features.world..Area",
+        "name" : "world.Area",
+        "alias" : "world.Area",
+        "selected" : true
+      } ],
+      "calculatedFields" : [ ],
+      "connectionInfo" : {
+        "name" : "AttachedFiles",
+        "id" : "47a1cfd8-f70e-4a98-a00d-00fca6c8e253",
+        "type" : {
+          "provider" : "folder",
+          "type" : "folder",
+          "displayName" : "scripteditor.dataconnectors.filedirectory",
+          "connectDialog" : "scripteditor.views/fileconnectdialog/fileconnectdialog",
+          "selectDialog" : "scripteditor.views/fileselectdialog/fileselectdialog",
+          "connectorMain" : "assets/hldm/data-connectors/native-file-connector/connector-main",
+          "needsConnect" : false,
+          "isStandardConnector" : true
+        },
+        "typeName" : "folder",
+        "privileges" : [ "read", "update", "delete" ],
+        "canDelete" : true,
+        "dbInfo" : {
+          "dbusage" : false,
+          "ownerusage" : false,
+          "dbfirst" : false,
+          "specialchars" : "!  　\"$&'()*+,-/:;<>´`{}~[]\r\n\t",
+          "dbseparator" : "",
+          "ownerseparator" : "",
+          "quotesuffix" : "\"",
+          "quoteprefix" : "\"",
+          "quotesuffixfordoublequotes" : "]",
+          "quoteprefixfordoublequotes" : "[",
+          "keywords" : [ ]
+        }
+      },
+      "id" : "dsd.World..shp/Features",
+      "formatSpec" : "(kml, Table is [World.shp/Features])",
+      "loadSelectStatement" : "LOAD [world.Name] AS [world.Name],\n\t[world.Area] AS [world.Area]\nFROM [lib://AttachedFiles/world.kml]\n(kml, Table is [World.shp/Features]);\n"
+    } ],
+    "queries" : [ {
+      "id" : "8e2c1a26-db59-4ffd-af33-bc54ab18ca3b",
+      "type" : "Query",
+      "name" : "Training",
+      "tableRef" : "dsd.Training",
+      "status" : "",
+      "fields" : [ {
+        "id" : "3b72bac6-94bf-4397-9221-7cb0111f1f52",
+        "type" : "QueryField",
+        "name" : "Training.Employee_ID",
+        "fieldRef" : "dsd.Training.Employee_ID",
+        "classifications" : [ "dimension", "identifier" ],
+        "originalClassification" : [ "dimension", "identifier" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "d127f482-ba5c-4df0-9ef4-2cf35d049dea",
+        "type" : "QueryField",
+        "name" : "Training.Course_ID",
+        "fieldRef" : "dsd.Training.Course_ID",
+        "classifications" : [ "dimension", "identifier" ],
+        "originalClassification" : [ "dimension", "identifier" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "8b829832-e6b3-487e-94c1-2e42233167d0",
+        "type" : "QueryField",
+        "name" : "# Enrollment",
+        "fieldRef" : "dsd.Training.# Enrollment",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "196911c2-0c69-48ac-975a-715957cde87f",
+        "type" : "QueryField",
+        "name" : "Training Hours",
+        "fieldRef" : "dsd.Training.Training Hours",
+        "classifications" : [ "measure" ],
+        "originalClassification" : [ "measure" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "0dd113b8-94af-41a5-a8cf-1ebd9dfe22cb",
+        "type" : "QueryField",
+        "name" : "Training Cost",
+        "fieldRef" : "dsd.Training.Training Cost",
+        "classifications" : [ "measure" ],
+        "originalClassification" : [ "measure" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "dca3cccb-bd4e-42d5-8c7c-7947e3b82534",
+        "type" : "QueryField",
+        "name" : "# Program Completion",
+        "fieldRef" : "dsd.Training.# Program Completion",
+        "classifications" : [ "boolean" ],
+        "originalClassification" : [ "boolean" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      } ]
+    }, {
+      "id" : "12f72c6a-a37e-4db0-9c4a-0c67b32a8b75",
+      "type" : "Query",
+      "name" : "Survey$",
+      "tableRef" : "dsd.Survey$",
+      "status" : "",
+      "fields" : [ {
+        "id" : "3e55d6ca-e857-410a-a1d7-deab32e3e02d",
+        "type" : "QueryField",
+        "name" : "Survey$.Employee_ID",
+        "fieldRef" : "dsd.Survey$.Employee_ID",
+        "classifications" : [ "dimension", "identifier" ],
+        "originalClassification" : [ "dimension", "identifier" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "4456a981-9186-4835-ae07-eb577eb65676",
+        "type" : "QueryField",
+        "name" : "Question Type",
+        "fieldRef" : "dsd.Survey$.Question Type",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "c134684e-8942-4ad0-932c-3e05ccd0860d",
+        "type" : "QueryField",
+        "name" : "Score",
+        "fieldRef" : "dsd.Survey$.Score",
+        "classifications" : [ "measure" ],
+        "originalClassification" : [ "measure" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "aef6238e-42d1-4a98-bf18-7603c8e23800",
+        "type" : "QueryField",
+        "name" : "Responses",
+        "fieldRef" : "dsd.Survey$.Responses",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      } ]
+    }, {
+      "id" : "878f3def-0ac7-4cd3-88b3-8261cc3340db",
+      "type" : "Query",
+      "name" : "Hierarchy$",
+      "tableRef" : "dsd.Hierarchy$",
+      "status" : "",
+      "fields" : [ {
+        "id" : "d5ef7bbf-2412-4d0f-b636-44392fc0b9bd",
+        "type" : "QueryField",
+        "name" : "Hierarchy$.Employee_ID",
+        "fieldRef" : "dsd.Hierarchy$.Employee_ID",
+        "classifications" : [ "dimension", "identifier" ],
+        "originalClassification" : [ "dimension", "identifier" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "bba7ba46-dd20-40c6-87a7-a2d38a68ddcd",
+        "type" : "QueryField",
+        "name" : "Director",
+        "fieldRef" : "dsd.Hierarchy$.Director",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "b68773cf-38d5-444f-95e0-e0461d404743",
+        "type" : "QueryField",
+        "name" : "VP",
+        "fieldRef" : "dsd.Hierarchy$.VP",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      } ]
+    }, {
+      "id" : "c9c334d0-fbe2-47f5-8cee-c0629f025c8d",
+      "type" : "Query",
+      "name" : "Employees",
+      "tableRef" : "dsd.Employees",
+      "status" : "",
+      "fields" : [ {
+        "id" : "6885d9c8-8a63-4d98-bbf3-e95e91ce6e2a",
+        "type" : "QueryField",
+        "name" : "Month",
+        "fieldRef" : "dsd.Employees.Month",
+        "classifications" : [ "month" ],
+        "originalClassification" : [ "month" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "10d68678-78f0-4e34-8208-56a67696cafc",
+        "type" : "QueryField",
+        "name" : "Employees.Employee_ID",
+        "fieldRef" : "dsd.Employees.Employee_ID",
+        "classifications" : [ "dimension", "identifier" ],
+        "originalClassification" : [ "dimension", "identifier" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "f0be6421-9c3f-4c9c-8d7d-70abb2cc22be",
+        "type" : "QueryField",
+        "name" : "EmployeeCount",
+        "fieldRef" : "dsd.Employees.EmployeeCount",
+        "classifications" : [ "measure" ],
+        "originalClassification" : [ "measure" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "6f3ee2c3-e0fd-4118-85a5-4abaea8133ad",
+        "type" : "QueryField",
+        "name" : "Employee Name",
+        "fieldRef" : "dsd.Employees.Employee Name",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "b193b2af-f49f-4b05-b206-82271ff7bb28",
+        "type" : "QueryField",
+        "name" : "Reason",
+        "fieldRef" : "dsd.Employees.Reason",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "8e5713e9-3d99-49da-8fee-2b2717d8d7a0",
+        "type" : "QueryField",
+        "name" : "Job Family",
+        "fieldRef" : "dsd.Employees.Job Family",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "e8b36566-ac70-4441-8d6f-24b69fb03209",
+        "type" : "QueryField",
+        "name" : "Job",
+        "fieldRef" : "dsd.Employees.Job",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "3c2ab184-0f5e-4872-8ae4-94a86917070b",
+        "type" : "QueryField",
+        "name" : "Position",
+        "fieldRef" : "dsd.Employees.Position",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "a4fbb9be-3fba-4ab2-bde4-b90342f96aea",
+        "type" : "QueryField",
+        "name" : "Geography",
+        "fieldRef" : "dsd.Employees.Geography",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "4e26357c-1b92-46f5-bc95-7beed887e237",
+        "type" : "QueryField",
+        "name" : "Country",
+        "fieldRef" : "dsd.Employees.Country",
+        "classifications" : [ "country" ],
+        "originalClassification" : [ "country" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "5873903e-a72e-4222-bd4b-711fa91f910b",
+        "type" : "QueryField",
+        "name" : "CountryCode",
+        "fieldRef" : "dsd.Employees.CountryCode",
+        "classifications" : [ "country" ],
+        "originalClassification" : [ "country" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "d2a820c7-ca14-4c82-83b8-543d4fcb03ff",
+        "type" : "QueryField",
+        "name" : "Town or City",
+        "fieldRef" : "dsd.Employees.Town or City",
+        "classifications" : [ "city" ],
+        "originalClassification" : [ "city" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "b225c866-7e00-4ef4-9385-637037c421cc",
+        "type" : "QueryField",
+        "name" : "Location",
+        "fieldRef" : "dsd.Employees.Location",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "f81f9059-9b5f-4c02-a813-5e493abad562",
+        "type" : "QueryField",
+        "name" : "Gender",
+        "fieldRef" : "dsd.Employees.Gender",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "09830df1-e5bc-46d2-ae62-47848c8d0146",
+        "type" : "QueryField",
+        "name" : "Band",
+        "fieldRef" : "dsd.Employees.Band",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "b04080c1-d80d-4d10-8d07-0967e8fcffe0",
+        "type" : "QueryField",
+        "name" : "Position1",
+        "fieldRef" : "dsd.Employees.Position1",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "a854320a-418e-4124-8849-b003629c9632",
+        "type" : "QueryField",
+        "name" : "Employment Status",
+        "fieldRef" : "dsd.Employees.Employment Status",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "f191218a-dadf-4a5b-9c80-9052ce99a30a",
+        "type" : "QueryField",
+        "name" : "Organization Type",
+        "fieldRef" : "dsd.Employees.Organization Type",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "0fae3dc5-cb0d-45a2-b90d-3f368e830f5d",
+        "type" : "QueryField",
+        "name" : "Organization Class",
+        "fieldRef" : "dsd.Employees.Organization Class",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "b507a11f-6e3e-4226-9de8-86af5bf137b2",
+        "type" : "QueryField",
+        "name" : "Organization",
+        "fieldRef" : "dsd.Employees.Organization",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "068b3f3d-6e66-4e8b-bf11-6d699f529f46",
+        "type" : "QueryField",
+        "name" : "Ethnic Group",
+        "fieldRef" : "dsd.Employees.Ethnic Group",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "d3a65169-a38b-4f54-91c3-6bfcef26c7cd",
+        "type" : "QueryField",
+        "name" : "Recruiting_Channel",
+        "fieldRef" : "dsd.Employees.Recruiting_Channel",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "21419692-c90d-4e15-8b5e-f12dc2e5ab7b",
+        "type" : "QueryField",
+        "name" : "Recruiting_Source",
+        "fieldRef" : "dsd.Employees.Recruiting_Source",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "18aecc4e-586f-4f5c-89ce-494d675c0b6e",
+        "type" : "QueryField",
+        "name" : "Salary",
+        "fieldRef" : "dsd.Employees.Salary",
+        "classifications" : [ "measure" ],
+        "originalClassification" : [ "measure" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "3199faa7-0175-4174-b57f-5d9de6d9eb4b",
+        "type" : "QueryField",
+        "name" : "Employee Type",
+        "fieldRef" : "dsd.Employees.Employee Type",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "f74fbf4d-a17c-42bb-9638-0a66a64c6b85",
+        "type" : "QueryField",
+        "name" : "Terminated Employee",
+        "fieldRef" : "dsd.Employees.Terminated Employee",
+        "classifications" : [ "boolean" ],
+        "originalClassification" : [ "boolean" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "251a1c3a-b5bb-42ca-954e-810dea01f4a5",
+        "type" : "QueryField",
+        "name" : "Termination",
+        "fieldRef" : "dsd.Employees.Termination",
+        "classifications" : [ "boolean" ],
+        "originalClassification" : [ "boolean" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "1b03f4c5-34b9-4541-aa99-4f7b2f7742af",
+        "type" : "QueryField",
+        "name" : "NewHire",
+        "fieldRef" : "dsd.Employees.NewHire",
+        "classifications" : [ "boolean" ],
+        "originalClassification" : [ "boolean" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "e840d07f-202c-45c1-b0ce-513358b5f441",
+        "type" : "QueryField",
+        "name" : "New Hires",
+        "fieldRef" : "dsd.Employees.New Hires",
+        "classifications" : [ "boolean" ],
+        "originalClassification" : [ "boolean" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "edc90e4b-cd85-4045-b262-7253053e7a98",
+        "type" : "QueryField",
+        "name" : "Tenure",
+        "fieldRef" : "dsd.Employees.Tenure",
+        "classifications" : [ "measure" ],
+        "originalClassification" : [ "measure" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "f4e6ea8a-ffbb-4988-a52c-c1e6a0ee33db",
+        "type" : "QueryField",
+        "name" : "Tenure Group",
+        "fieldRef" : "dsd.Employees.Tenure Group",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "eba73e89-0c60-4181-b01a-ac3a5eace31e",
+        "type" : "QueryField",
+        "name" : "Age",
+        "fieldRef" : "dsd.Employees.Age",
+        "classifications" : [ "dimension", "measure" ],
+        "originalClassification" : [ "dimension", "measure" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "eb88b85b-b642-4c12-ab0a-b0e004c70b97",
+        "type" : "QueryField",
+        "name" : "Age Group",
+        "fieldRef" : "dsd.Employees.Age Group",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "423840d8-18af-4824-8bc7-50d909da929f",
+        "type" : "QueryField",
+        "name" : "CountryCode3",
+        "fieldRef" : "dsd.Employees.CountryCode3",
+        "classifications" : [ "country" ],
+        "originalClassification" : [ "country" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "627a7305-c930-49f6-a005-1408b4428f9d",
+        "type" : "QueryField",
+        "name" : "Year",
+        "fieldRef" : "dsd.Employees.Year",
+        "classifications" : [ "year" ],
+        "originalClassification" : [ "year" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      } ]
+    }, {
+      "id" : "56a2921a-30da-4703-933c-e1926f7676b0",
+      "type" : "Query",
+      "name" : "countryISO3",
+      "tableRef" : "dsd.countryISO3",
+      "status" : "",
+      "fields" : [ {
+        "id" : "7fff155c-59b6-43cd-a7ed-dedc2943ae13",
+        "type" : "QueryField",
+        "name" : "countryISO3.Course_ID",
+        "fieldRef" : "dsd.countryISO3.Course_ID",
+        "classifications" : [ "dimension", "identifier" ],
+        "originalClassification" : [ "dimension", "identifier" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "5ac4020b-bc5c-4613-bd9c-dc5ca158e853",
+        "type" : "QueryField",
+        "name" : "Course",
+        "fieldRef" : "dsd.countryISO3.Course",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "166c7512-60cc-4de2-80cb-588f6ef90fee",
+        "type" : "QueryField",
+        "name" : "Course Type",
+        "fieldRef" : "dsd.countryISO3.Course Type",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "26761467-d025-407a-92b1-594325420413",
+        "type" : "QueryField",
+        "name" : "Developmental Program",
+        "fieldRef" : "dsd.countryISO3.Developmental Program",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      } ]
+    }, {
+      "id" : "e74d31a0-6f4e-4502-92a4-2ed583e2c758",
+      "type" : "Query",
+      "name" : "World.shp/Features",
+      "tableRef" : "dsd.World..shp/Features",
+      "status" : "",
+      "fields" : [ {
+        "id" : "b851aac1-43ff-4b47-bef9-133327f2deb7",
+        "type" : "QueryField",
+        "name" : "world.Name",
+        "fieldRef" : "dsd.World..shp/Features.world..Name",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      }, {
+        "id" : "8a22541d-a1ae-486a-bf3e-d14f6af5e6f8",
+        "type" : "QueryField",
+        "name" : "world.Area",
+        "fieldRef" : "dsd.World..shp/Features.world..Area",
+        "classifications" : [ "dimension" ],
+        "originalClassification" : [ "dimension" ],
+        "transformations" : [ ],
+        "originalTransformations" : [ ]
+      } ]
+    } ],
+    "associations" : {
+      "Employee_ID" : [ {
+        "tableId" : "8e2c1a26-db59-4ffd-af33-bc54ab18ca3b",
+        "fieldId" : "3b72bac6-94bf-4397-9221-7cb0111f1f52"
+      }, {
+        "tableId" : "12f72c6a-a37e-4db0-9c4a-0c67b32a8b75",
+        "fieldId" : "3e55d6ca-e857-410a-a1d7-deab32e3e02d"
+      }, {
+        "tableId" : "c9c334d0-fbe2-47f5-8cee-c0629f025c8d",
+        "fieldId" : "10d68678-78f0-4e34-8208-56a67696cafc"
+      }, {
+        "tableId" : "878f3def-0ac7-4cd3-88b3-8261cc3340db",
+        "fieldId" : "d5ef7bbf-2412-4d0f-b636-44392fc0b9bd"
+      } ],
+      "Course_ID" : [ {
+        "tableId" : "8e2c1a26-db59-4ffd-af33-bc54ab18ca3b",
+        "fieldId" : "d127f482-ba5c-4df0-9ef4-2cf35d049dea"
+      }, {
+        "tableId" : "56a2921a-30da-4703-933c-e1926f7676b0",
+        "fieldId" : "7fff155c-59b6-43cd-a7ed-dedc2943ae13"
+      } ],
+      "CountryCode3-world.Name" : [ {
+        "tableId" : "e74d31a0-6f4e-4502-92a4-2ed583e2c758",
+        "fieldId" : "b851aac1-43ff-4b47-bef9-133327f2deb7"
+      }, {
+        "tableId" : "c9c334d0-fbe2-47f5-8cee-c0629f025c8d",
+        "fieldId" : "423840d8-18af-4824-8bc7-50d909da929f"
+      } ]
+    },
+    "locale" : {
+      "0" : "e",
+      "1" : "n",
+      "2" : "-",
+      "3" : "U",
+      "4" : "S"
+    },
+    "defaultCalendar" : {
+      "id" : "autoCalendar",
+      "name" : "autoCalendar",
+      "appliedToTags" : [ "$date" ],
+      "derivedFields" : [ {
+        "id" : "Decade",
+        "name" : "Decade",
+        "translation" : "",
+        "definition" : "Dual(Div(Year($1),10)*10, MakeDate(Div(Year($1),10)*10, 1, 1))",
+        "tags" : [ "$axis", "$decade" ],
+        "selected" : false
+      }, {
+        "id" : "Year",
+        "name" : "Year",
+        "translation" : "scripteditor.autoCalendarYear",
+        "definition" : "Dual(Year($1), YearStart($1))",
+        "tags" : [ "$axis", "$year" ],
+        "selected" : true
+      }, {
+        "id" : "Quarter",
+        "name" : "Quarter",
+        "translation" : "scripteditor.autoCalendarQuarter",
+        "definition" : "Dual('Q'&Num(Ceil(Num(Month($1))/3)),Num(Ceil(NUM(Month($1))/3),00))",
+        "tags" : [ "$quarter", "$cyclic" ],
+        "selected" : true
+      }, {
+        "id" : "YearQuarter",
+        "name" : "YearQuarter",
+        "translation" : "scripteditor.autoCalendarQuarterYear",
+        "definition" : "Dual(Year($1)&'-Q'&Num(Ceil(Num(Month($1))/3)),QuarterStart($1))",
+        "tags" : [ "$yearquarter", "$qualified" ],
+        "selected" : true
+      }, {
+        "id" : "_YearQuarter",
+        "name" : "_YearQuarter",
+        "translation" : "scripteditor.autoCalendarQuarterYear",
+        "definition" : "Dual('Q'&Num(Ceil(Num(Month($1))/3)),QuarterStart($1))",
+        "tags" : [ "$yearquarter", "$hidden", "$simplified" ],
+        "selected" : true
+      }, {
+        "id" : "Month",
+        "name" : "Month",
+        "translation" : "scripteditor.autoCalendarMonth",
+        "definition" : "Month($1)",
+        "tags" : [ "$month", "$cyclic" ],
+        "selected" : true
+      }, {
+        "id" : "YearMonth",
+        "name" : "YearMonth",
+        "translation" : "scripteditor.autoCalendarMonthYear",
+        "definition" : "Dual(Year($1)&'-'&Month($1), monthstart($1))",
+        "tags" : [ "$axis", "$yearmonth", "$qualified" ],
+        "selected" : true
+      }, {
+        "id" : "_YearMonth",
+        "name" : "_YearMonth",
+        "translation" : "scripteditor.autoCalendarMonthYear",
+        "definition" : "Dual(Month($1), monthstart($1))",
+        "tags" : [ "$axis", "$yearmonth", "$simplified", "$hidden" ],
+        "selected" : true
+      }, {
+        "id" : "Week",
+        "name" : "Week",
+        "translation" : "scripteditor.autoCalendarWeek",
+        "definition" : "Dual('W'&Num(Week($1),00), Num(Week($1),00))",
+        "tags" : [ "$weeknumber", "$cyclic" ],
+        "selected" : true
+      }, {
+        "id" : "YearWeek",
+        "name" : "YearWeek",
+        "translation" : "",
+        "definition" : "Dual(Year($1)&'-W'&num(Week($1),00), weekstart($1))",
+        "tags" : [ "$yearweek" ],
+        "selected" : false
+      }, {
+        "id" : "WeekDay",
+        "name" : "WeekDay",
+        "translation" : "",
+        "definition" : "Dual(WeekDay($1),num(WeekDay($1)))",
+        "tags" : [ "$weekday" ],
+        "selected" : false
+      }, {
+        "id" : "Date",
+        "name" : "Date",
+        "translation" : "scripteditor.autoCalendarDate",
+        "definition" : "Date(Floor($1))",
+        "tags" : [ "$axis", "$date", "$qualified" ],
+        "selected" : true
+      }, {
+        "id" : "_Date",
+        "name" : "_Date",
+        "translation" : "scripteditor.autoCalendarDate",
+        "definition" : "Date(Floor($1), 'D')",
+        "tags" : [ "$axis", "$date", "$hidden", "$simplified" ],
+        "selected" : true
+      } ],
+      "groups" : [ {
+        "name" : "YearMonthDay",
+        "drillDown" : "true",
+        "fieldRefs" : [ "Year", "Month", "WeekDay" ]
+      }, {
+        "name" : "YearMonth",
+        "drillDown" : "false",
+        "fieldRefs" : [ "Year", "Month" ]
+      } ],
+      "deriveFieldsType" : "fieldExplicit"
+    },
+    "schemaVersion" : 2.1
+  },
+  "qChildren" : [ ]
+}

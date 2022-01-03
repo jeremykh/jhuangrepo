@@ -1,0 +1,77 @@
+{
+  "contentMap" : {
+    "QlikLoadModel.json" : {
+      "contentChecksum" : "57becdf993d9216dcbbd445c6260b421899a7ccd",
+      "contentName" : "QlikLoadModel",
+      "contentOid" : 18434,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    },
+    "QlikScript.txt" : {
+      "contentChecksum" : "cd6036404713e623400b2ced9755878ee755a891",
+      "contentName" : "QlikScript",
+      "contentOid" : 18433,
+      "contentType" : "txt",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "createdDate" : "2021-08-31T14:31:20.440Z",
+      "description" : "Executive Dashboard is for senior managers to monitor performance within their business, giving them both a high level view as well as the ability to drill down into the granular details of the business. In this example, the organization manufactures fast moving consumables, using a reseller model to distribute its products across multiple regions.",
+      "dynamicColor" : "hsla(205,18%,43%,1)",
+      "published" : true,
+      "qSavedInProductVersion" : "12.969.2",
+      "qThumbnail" : {
+        "qUrl" : "/appcontent/5b26c4a1-9028-49b8-87eb-703aaaf67569/executive-dashboard.jpg"
+      },
+      "qTitle" : "Executive Dashboard",
+      "stream" : {
+        "id" : "aaec8d41-5201-43ab-809f-3063750dfafd",
+        "name" : "Everyone"
+      }
+    },
+    "qrsProp" : {
+      "customProperties" : [ ],
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "privileges" : null,
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userDirectoryConnectorName" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "5b26c4a1-9028-49b8-87eb-703aaaf67569,App;",
+  "key" : {
+    "id" : 180
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Executive Dashboard",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact"
+  },
+  "name" : "Executive Dashboard",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 44
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 33, 44, 180 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "App",
+  "shouldVersion" : true,
+  "subtype" : "QlikApp",
+  "type" : "QlikArtifact"
+}
