@@ -1,9 +1,9 @@
 {
   "contentMap" : {
     "content.json" : {
-      "contentChecksum" : "c35c702042dead12a24beee4f609d4ed286a59ce",
+      "contentChecksum" : "80e6da937d4d4631084ed218b0aa29cd9f08e9de",
       "contentName" : "content",
-      "contentOid" : 20520,
+      "contentOid" : 20551,
       "contentType" : "json",
       "type" : ".LargeObjectMetadataComponent"
     }
@@ -27,19 +27,6 @@
           "row" : 0,
           "rowspan" : 6,
           "type" : "barchart"
-        }, {
-          "bounds" : {
-            "height" : 50,
-            "width" : 100,
-            "x" : 0,
-            "y" : 50
-          },
-          "col" : 0,
-          "colspan" : 24,
-          "name" : "aNRuU",
-          "row" : 6,
-          "rowspan" : 6,
-          "type" : "map"
         } ],
         "columns" : 24,
         "gridResolution" : "small",
