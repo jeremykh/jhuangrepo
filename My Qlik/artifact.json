@@ -28,6 +28,9 @@
   "deploymentJobDefinitionKey" : {
     "id" : 9
   },
+  "deploymentSourceKeys" : {
+    "ids" : [ ]
+  },
   "displayOrder" : 0,
   "entitySummary" : false,
   "excludedPaths" : [ ],
@@ -62,7 +65,7 @@
     "activeVersioningEnabled" : false,
     "activeVersioningRegistrationInterval" : 10,
     "centralPort" : 443,
-    "clientCertPass" : "encrypted:TPjiLTNb0r2S+wUTIrqBBhLYZmOTKoP0",
+    "clientCertPass" : "encrypted:u+ojNI1MCctS+/buZO1di7xlIb8TBnFf",
     "clientCertificate" : "c:\\newcerts\\support-qlik1\\client.pfx",
     "deploymentServerName" : "",
     "enginePort" : 4747,
@@ -75,7 +78,8 @@
     "rootCertPass" : "",
     "rootCertificate" : "c:\\newcerts\\support-qlik1\\root.cer",
     "serverName" : "support-qlik1",
-    "useSystemCredentialForAppReload" : false
+    "useSystemCredentialForAppReload" : false,
+    "virtualProxyWhiteList" : ""
   },
   "readAfterWriteDelay" : 3000,
   "resolveDeploymentByPath" : false,
