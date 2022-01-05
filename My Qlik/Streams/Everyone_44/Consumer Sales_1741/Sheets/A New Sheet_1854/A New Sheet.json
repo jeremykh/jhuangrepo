@@ -47,7 +47,7 @@
       "qMetaDef" : { },
       "qHyperCubeDef" : {
         "qDimensions" : [ {
-          "qLibraryId" : "AmMkUJQ",
+          "qLibraryId" : "561fae5e-7cea-42a7-a742-b0bb7fe63d0b",
           "qDef" : {
             "qGrouping" : "N",
             "qFieldDefs" : [ ],
@@ -61,7 +61,7 @@
             "qNumberPresentations" : [ ],
             "qActiveField" : 0,
             "autoSort" : true,
-            "cId" : "SQrjkd",
+            "cId" : "VQTPsV",
             "othersLabel" : "Others"
           },
           "qOtherTotalSpec" : {
@@ -139,7 +139,7 @@
             "qAttributeExpressions" : [ ]
           }
         } ],
-        "qInterColumnSortOrder" : [ 1, 0 ],
+        "qInterColumnSortOrder" : [ 0, 1 ],
         "qSuppressMissing" : true,
         "qInitialDataFetch" : [ {
           "qLeft" : 0,
@@ -261,7 +261,10 @@
       },
       "visualization" : "barchart",
       "version" : "1.6.0",
-      "showMiniChartForContinuousAxis" : true
+      "showMiniChartForContinuousAxis" : true,
+      "qLayoutExclude" : {
+        "quarantine" : { }
+      }
     },
     "qChildren" : [ ]
   } ]
