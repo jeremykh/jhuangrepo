@@ -1,0 +1,334 @@
+{
+  "qProp" : {
+    "qInfo" : {
+      "qId" : "vpmH",
+      "qType" : "snapshot"
+    },
+    "qMetaDef" : {
+      "title" : "Sales Reps Sales Variance"
+    },
+    "title" : "Sales Reps Sales Variance",
+    "description" : "",
+    "sheetId" : "xjXHDyD",
+    "creationDate" : "2014-07-02",
+    "qMeta" : { },
+    "qSelectionInfo" : { },
+    "showTitles" : true,
+    "subtitle" : "",
+    "footnote" : "",
+    "totals" : {
+      "show" : "auto",
+      "position" : "noTotals"
+    },
+    "qHyperCube" : {
+      "qSize" : {
+        "qcx" : 2,
+        "qcy" : 8
+      },
+      "qDimensionInfo" : [ {
+        "qFallbackTitle" : "Sales Rep",
+        "qApprMaxGlyphCount" : 16,
+        "qCardinal" : 63,
+        "qSortIndicator" : "A",
+        "qGroupFallbackTitles" : [ "Sales Rep" ],
+        "qGroupPos" : 0,
+        "qStateCounts" : {
+          "qLocked" : 0,
+          "qSelected" : 8,
+          "qOption" : 0,
+          "qDeselected" : 0,
+          "qAlternative" : 11,
+          "qExcluded" : 44,
+          "qSelectedExcluded" : 0,
+          "qLockedExcluded" : 0
+        },
+        "qTags" : [ "$key", "$ascii", "$text" ],
+        "qDimensionType" : "D",
+        "qGrouping" : "N",
+        "qNumFormat" : {
+          "qType" : "U",
+          "qnDec" : 0,
+          "qUseThou" : 0
+        },
+        "qIsAutoFormat" : true,
+        "qGroupFieldDefs" : [ "Sales Rep Name" ],
+        "qMin" : 0,
+        "qMax" : 0,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qCardinalities" : {
+          "qCardinal" : 0,
+          "qHypercubeCardinal" : 0,
+          "qAllValuesCardinal" : -1
+        },
+        "title" : "Sales Rep",
+        "autoSort" : true,
+        "cId" : "AQZRMQ",
+        "othersLabel" : "Others"
+      } ],
+      "qMeasureInfo" : [ {
+        "qFallbackTitle" : "Sales Variance",
+        "qApprMaxGlyphCount" : 6,
+        "qCardinal" : 5,
+        "qSortIndicator" : "A",
+        "qNumFormat" : {
+          "qType" : "F",
+          "qnDec" : 2,
+          "qUseThou" : 0,
+          "qFmt" : "0.0%",
+          "qDec" : ".",
+          "qThou" : ","
+        },
+        "qMin" : -0.18822292323869597,
+        "qMax" : 0,
+        "qAttrExprInfo" : [ ],
+        "qAttrDimInfo" : [ ],
+        "qTrendLines" : [ ],
+        "autoSort" : false,
+        "cId" : "QbGJFae",
+        "numFormatFromTemplate" : true
+      } ],
+      "qEffectiveInterColumnSortOrder" : [ 1, 0 ],
+      "qGrandTotalRow" : [ {
+        "qText" : "-18.2%",
+        "qNum" : -0.18173908719717896,
+        "qElemNumber" : -1,
+        "qState" : "X",
+        "qIsTotalCell" : true
+      } ],
+      "qDataPages" : [ {
+        "qMatrix" : [ [ {
+          "qText" : "Ken Roberts",
+          "qNum" : "NaN",
+          "qElemNumber" : 28,
+          "qState" : "S"
+        } ], [ {
+          "qText" : "Ronald Milam",
+          "qNum" : "NaN",
+          "qElemNumber" : 37,
+          "qState" : "S"
+        } ], [ {
+          "qText" : "Judy Thurman",
+          "qNum" : "NaN",
+          "qElemNumber" : 4,
+          "qState" : "S"
+        } ], [ {
+          "qText" : "Brenda Gibson",
+          "qNum" : "NaN",
+          "qElemNumber" : 47,
+          "qState" : "S"
+        } ], [ {
+          "qText" : "Cary Frank",
+          "qNum" : "NaN",
+          "qElemNumber" : 33,
+          "qState" : "S"
+        } ], [ {
+          "qText" : "Craig Amundson",
+          "qNum" : "NaN",
+          "qElemNumber" : 52,
+          "qState" : "S"
+        } ], [ {
+          "qText" : "Janice Scott",
+          "qNum" : "NaN",
+          "qElemNumber" : 50,
+          "qState" : "S"
+        } ], [ {
+          "qText" : "John Davis",
+          "qNum" : "NaN",
+          "qElemNumber" : 40,
+          "qState" : "S"
+        } ] ],
+        "qTails" : [ ],
+        "qArea" : {
+          "qLeft" : 0,
+          "qTop" : 0,
+          "qWidth" : 1,
+          "qHeight" : 8
+        }
+      }, {
+        "qMatrix" : [ [ {
+          "qText" : "-18.8%",
+          "qNum" : -0.18822292323869597,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "-11.8%",
+          "qNum" : -0.11842540522659616,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "-9.0%",
+          "qNum" : -0.09011219408924362,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "0.0%",
+          "qNum" : 0,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "0.0%",
+          "qNum" : 0,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "0.0%",
+          "qNum" : 0,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "0.0%",
+          "qNum" : 0,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ], [ {
+          "qText" : "0.0%",
+          "qNum" : 0,
+          "qElemNumber" : 0,
+          "qState" : "L"
+        } ] ],
+        "qTails" : [ ],
+        "qArea" : {
+          "qLeft" : 1,
+          "qTop" : 0,
+          "qWidth" : 1,
+          "qHeight" : 8
+        }
+      } ],
+      "qPivotDataPages" : [ ],
+      "qStackedDataPages" : [ ],
+      "qMode" : "S",
+      "qNoOfLeftDims" : 0,
+      "qTreeNodesOnDim" : [ ],
+      "qColumnOrder" : [ ],
+      "columnOrder" : [ 0, 1 ],
+      "columnWidths" : [ -1, -1 ]
+    },
+    "visualization" : "table",
+    "masterVersion" : 0.96,
+    "visualizationType" : "table",
+    "timestamp" : 1404341506453,
+    "sourceObjectId" : "qdQMSbX",
+    "isClone" : false,
+    "snapshotData" : {
+      "object" : {
+        "size" : {
+          "w" : 321,
+          "h" : 272
+        },
+        "dataTableHeight" : 170
+      },
+      "parent" : {
+        "h" : 714,
+        "w" : 1590
+      }
+    }
+  },
+  "qStateData" : [ {
+    "qStateName" : "$",
+    "qFieldItems" : [ {
+      "qDef" : {
+        "qName" : "Product Sub Group Desc",
+        "qType" : "PRESENT"
+      },
+      "qSelectInfo" : {
+        "qRangeLo" : "NaN",
+        "qRangeHi" : "NaN",
+        "qNumberFormat" : {
+          "qType" : "U",
+          "qnDec" : 10,
+          "qUseThou" : 0
+        },
+        "qRangeInfo" : [ ],
+        "qContinuousRangeInfo" : [ ]
+      },
+      "qValues" : [ {
+        "qText" : "Frozen Vegetables",
+        "qNumber" : "NaN"
+      } ],
+      "qExcludedValues" : [ ]
+    }, {
+      "qDef" : {
+        "qName" : "Sales Rep Name",
+        "qType" : "PRESENT"
+      },
+      "qSelectInfo" : {
+        "qRangeLo" : "NaN",
+        "qRangeHi" : "NaN",
+        "qNumberFormat" : {
+          "qType" : "U",
+          "qnDec" : 10,
+          "qUseThou" : 0
+        },
+        "qRangeInfo" : [ ],
+        "qContinuousRangeInfo" : [ ]
+      },
+      "qValues" : [ {
+        "qText" : "Judy Thurman",
+        "qNumber" : "NaN"
+      }, {
+        "qText" : "Ken Roberts",
+        "qNumber" : "NaN"
+      }, {
+        "qText" : "Cary Frank",
+        "qNumber" : "NaN"
+      }, {
+        "qText" : "Ronald Milam",
+        "qNumber" : "NaN"
+      }, {
+        "qText" : "John Davis",
+        "qNumber" : "NaN"
+      }, {
+        "qText" : "Brenda Gibson",
+        "qNumber" : "NaN"
+      }, {
+        "qText" : "Janice Scott",
+        "qNumber" : "NaN"
+      }, {
+        "qText" : "Craig Amundson",
+        "qNumber" : "NaN"
+      } ],
+      "qExcludedValues" : [ ]
+    }, {
+      "qDef" : {
+        "qName" : "Sales Rep Performance",
+        "qType" : "PRESENT"
+      },
+      "qSelectInfo" : {
+        "qRangeLo" : "NaN",
+        "qRangeHi" : "NaN",
+        "qNumberFormat" : {
+          "qType" : "U",
+          "qnDec" : 10,
+          "qUseThou" : 0
+        },
+        "qRangeInfo" : [ ],
+        "qContinuousRangeInfo" : [ ]
+      },
+      "qValues" : [ {
+        "qText" : "Low Performer",
+        "qNumber" : "NaN"
+      } ],
+      "qExcludedValues" : [ ]
+    } ]
+  }, {
+    "qStateName" : "Group1",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group2",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group3",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group4",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group 1",
+    "qFieldItems" : [ ]
+  }, {
+    "qStateName" : "Group 2",
+    "qFieldItems" : [ ]
+  } ],
+  "qPatches" : [ ]
+}

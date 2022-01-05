@@ -1,0 +1,62 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "qInfo" : {
+        "qId" : "RcBYTz",
+        "qType" : "measure"
+      },
+      "qMeasure" : {
+        "coloring" : { },
+        "isCustomFormatted" : false,
+        "qActiveExpression" : 0,
+        "qDef" : "Sum([Sales Quantity])",
+        "qExpressions" : [ ],
+        "qGrouping" : "N",
+        "qLabel" : "Quantity",
+        "qNumFormat" : {
+          "qDec" : ".",
+          "qFmt" : "#,##0",
+          "qThou" : ",",
+          "qType" : "F",
+          "qUseThou" : 0,
+          "qnDec" : 2
+        }
+      },
+      "qMetaDef" : {
+        "description" : "",
+        "tags" : [ ],
+        "title" : "Quantity"
+      }
+    }
+  },
+  "hidden" : false,
+  "identity" : "RcBYTz,Measure;ec6da206-7c8e-45e4-9158-bdcd8dbf2141,App;",
+  "key" : {
+    "id" : 1772
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Consumer Sales/Measures/Quantity",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikMeasure/QlikMeasure",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Quantity",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 1746
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 1741, 1746, 1772 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Measure",
+  "shouldVersion" : true,
+  "subtype" : "QlikMeasure",
+  "type" : "QlikArtifact"
+}

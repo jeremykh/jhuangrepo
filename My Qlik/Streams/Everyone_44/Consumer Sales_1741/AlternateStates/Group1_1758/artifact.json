@@ -1,0 +1,33 @@
+{
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : { },
+  "hidden" : false,
+  "identity" : "Group1,AlternateState;ec6da206-7c8e-45e4-9158-bdcd8dbf2141,App;",
+  "key" : {
+    "id" : 1758
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Consumer Sales/AlternateStates/Group1",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikAlternateState/QlikAlternateState",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "Group1",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 1742
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 1741, 1742, 1758 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "AlternateState",
+  "shouldVersion" : true,
+  "subtype" : "QlikAlternateState",
+  "type" : "QlikArtifact"
+}

@@ -1,0 +1,193 @@
+{
+  "contentMap" : {
+    "content.json" : {
+      "contentChecksum" : "02a261e07881954327d86da6e583afc5bc8cd0ca",
+      "contentName" : "content",
+      "contentOid" : 21058,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qPropEntry" : {
+      "qProperty" : {
+        "cells" : [ {
+          "bounds" : {
+            "height" : 33.33333333333333,
+            "width" : 30.555555555555557,
+            "x" : 19.444444444444446,
+            "y" : 0
+          },
+          "col" : 7,
+          "colspan" : 11,
+          "name" : "cXahBQ",
+          "row" : 0,
+          "rowspan" : 6,
+          "type" : "piechart"
+        }, {
+          "bounds" : {
+            "height" : 33.33333333333333,
+            "width" : 30.555555555555557,
+            "x" : 19.444444444444446,
+            "y" : 33.33333333333333
+          },
+          "col" : 7,
+          "colspan" : 11,
+          "name" : "TeHsna",
+          "row" : 6,
+          "rowspan" : 6,
+          "type" : "piechart"
+        }, {
+          "bounds" : {
+            "height" : 33.33333333333333,
+            "width" : 30.555555555555557,
+            "x" : 19.444444444444446,
+            "y" : 66.66666666666666
+          },
+          "col" : 7,
+          "colspan" : 11,
+          "name" : "EdSuNFM",
+          "row" : 12,
+          "rowspan" : 6,
+          "type" : "piechart"
+        }, {
+          "bounds" : {
+            "height" : 33.33333333333333,
+            "width" : 50,
+            "x" : 50,
+            "y" : 0
+          },
+          "col" : 18,
+          "colspan" : 18,
+          "name" : "fxyuxvp",
+          "row" : 0,
+          "rowspan" : 6,
+          "type" : "linechart"
+        }, {
+          "bounds" : {
+            "height" : 33.33333333333333,
+            "width" : 50,
+            "x" : 50,
+            "y" : 33.33333333333333
+          },
+          "col" : 18,
+          "colspan" : 18,
+          "name" : "JRVHPjJ",
+          "row" : 6,
+          "rowspan" : 6,
+          "type" : "linechart"
+        }, {
+          "bounds" : {
+            "height" : 33.33333333333333,
+            "width" : 50,
+            "x" : 50,
+            "y" : 66.66666666666666
+          },
+          "col" : 18,
+          "colspan" : 18,
+          "name" : "WSPHg",
+          "row" : 12,
+          "rowspan" : 6,
+          "type" : "linechart"
+        }, {
+          "bounds" : {
+            "height" : 33.33333333333333,
+            "width" : 19.444444444444446,
+            "x" : 0,
+            "y" : 0
+          },
+          "col" : 0,
+          "colspan" : 7,
+          "name" : "JRNGq",
+          "row" : 0,
+          "rowspan" : 6,
+          "type" : "qlik-multi-kpi"
+        }, {
+          "bounds" : {
+            "height" : 33.33333333333333,
+            "width" : 19.444444444444446,
+            "x" : 0,
+            "y" : 33.33333333333333
+          },
+          "col" : 0,
+          "colspan" : 7,
+          "name" : "PUpAQty",
+          "row" : 6,
+          "rowspan" : 6,
+          "type" : "kpi"
+        }, {
+          "bounds" : {
+            "height" : 33.33333333333333,
+            "width" : 19.444444444444446,
+            "x" : 0,
+            "y" : 66.66666666666666
+          },
+          "col" : 0,
+          "colspan" : 7,
+          "name" : "sKDevh",
+          "row" : 12,
+          "rowspan" : 6,
+          "type" : "kpi"
+        } ],
+        "columns" : 36,
+        "gridResolution" : "large",
+        "qInfo" : {
+          "qId" : "uyXmT",
+          "qType" : "sheet"
+        },
+        "qMetaDef" : {
+          "description" : "",
+          "title" : "KPI Dashboard"
+        },
+        "rank" : -1,
+        "rows" : 18,
+        "thumbnail" : {
+          "qStaticContentUrlDef" : {
+            "qUrl" : "/appcontent/ec6da206-7c8e-45e4-9158-bdcd8dbf2141/CGS_Dashboard.png"
+          }
+        }
+      }
+    },
+    "qrsProp" : {
+      "approved" : true,
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "published" : true,
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "uyXmT,Sheet;ec6da206-7c8e-45e4-9158-bdcd8dbf2141,App;",
+  "key" : {
+    "id" : 1830
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/Consumer Sales/Sheets/KPI Dashboard",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp/QlikSheet/QlikSheet",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact/Folder/PlatformArtifact"
+  },
+  "name" : "KPI Dashboard",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 1747
+  },
+  "parentRelationType" : "COMPOSITE",
+  "path" : {
+    "ids" : [ 26, 33, 44, 1741, 1747, 1830 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "Sheet",
+  "shouldVersion" : true,
+  "subtype" : "QlikSheet",
+  "type" : "QlikArtifact"
+}
