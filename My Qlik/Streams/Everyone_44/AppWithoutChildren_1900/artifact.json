@@ -1,0 +1,82 @@
+{
+  "contentMap" : {
+    "QlikAppProps.json" : {
+      "contentChecksum" : "b4a77770275363271daa7bb6eded98db3f51d494",
+      "contentName" : "QlikAppProps",
+      "contentOid" : 21209,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    },
+    "QlikLoadModel.json" : {
+      "contentChecksum" : "57becdf993d9216dcbbd445c6260b421899a7ccd",
+      "contentName" : "QlikLoadModel",
+      "contentOid" : 21208,
+      "contentType" : "json",
+      "type" : ".LargeObjectMetadataComponent"
+    },
+    "QlikScript.txt" : {
+      "contentChecksum" : "bd3b0f988d996d2e52db6d5d182c0d842015b3b8",
+      "contentName" : "QlikScript",
+      "contentOid" : 21207,
+      "contentType" : "txt",
+      "type" : ".LargeObjectMetadataComponent"
+    }
+  },
+  "deleted" : false,
+  "displayOrder" : 0,
+  "entitySummary" : false,
+  "genericProperties" : {
+    "qProp" : {
+      "createdDate" : "2022-01-05T21:45:48.996Z",
+      "description" : "App with no sheets. For restore-test purposes",
+      "dynamicColor" : "",
+      "published" : true,
+      "qSavedInProductVersion" : "12.969.2",
+      "qThumbnail" : { },
+      "qTitle" : "AppWithoutChildren",
+      "stream" : {
+        "id" : "aaec8d41-5201-43ab-809f-3063750dfafd",
+        "name" : "Everyone"
+      }
+    },
+    "qrsProp" : {
+      "customProperties" : [ ],
+      "owner" : {
+        "id" : "2d36aad3-0129-4030-b2a6-31ee823569bc",
+        "name" : "Administrator",
+        "privileges" : null,
+        "userDirectory" : "SUPPORT-QLIK1",
+        "userDirectoryConnectorName" : "SUPPORT-QLIK1",
+        "userId" : "administrator"
+      },
+      "tags" : [ ]
+    }
+  },
+  "hidden" : false,
+  "identity" : "d985c968-4e05-41df-8c88-3f2576a2c04e,App;",
+  "key" : {
+    "id" : 1900
+  },
+  "materializedPath" : {
+    "namePath" : "My Qlik/Streams/Everyone/AppWithoutChildren",
+    "subtypePath" : "-/QlikStream/QlikStream/QlikApp",
+    "typePath" : "PlatformNode/Folder/PlatformArtifact/PlatformArtifact"
+  },
+  "name" : "AppWithoutChildren",
+  "nodeKey" : {
+    "id" : 26
+  },
+  "parentKey" : {
+    "id" : 44
+  },
+  "parentRelationType" : "NORMAL",
+  "path" : {
+    "ids" : [ 26, 33, 44, 1900 ]
+  },
+  "platformType" : "QlikArtifact",
+  "platformVersion" : "12.969.2",
+  "qlikType" : "App",
+  "shouldVersion" : true,
+  "subtype" : "QlikApp",
+  "type" : "QlikArtifact"
+}
