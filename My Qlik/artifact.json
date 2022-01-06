@@ -18,6 +18,11 @@
   } ],
   "activeVersioningEnabled" : false,
   "activeVersioningRegistrationInterval" : 10,
+  "backingStoreConfig" : {
+    "@type" : "com.motio.commons.store.GitConfig",
+    "defaultBranch" : "master",
+    "repoBaseDir" : "C:\\soterre-git\\QlikNode-26-GitBackingStore"
+  },
   "credential" : {
     "domain" : "support-qlik1",
     "qualifiedUserName" : "support-qlik1\\administrator",
