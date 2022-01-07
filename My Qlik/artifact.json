@@ -21,6 +21,12 @@
   "backingStoreConfig" : {
     "@type" : "com.motio.commons.store.GitConfig",
     "defaultBranch" : "master",
+    "remoteConfig" : {
+      "@type" : "com.motio.commons.store.GitRemoteConfig",
+      "identityName" : "New Key",
+      "remoteName" : "collab",
+      "remoteUrl" : "git@github.com:jeremykh/jhuangrepo.git"
+    },
     "repoBaseDir" : "C:\\soterre-git\\QlikNode-26-GitBackingStore"
   },
   "credential" : {
@@ -70,7 +76,7 @@
     "activeVersioningEnabled" : false,
     "activeVersioningRegistrationInterval" : 10,
     "centralPort" : 443,
-    "clientCertPass" : "encrypted:u+ojNI1MCctS+/buZO1di7xlIb8TBnFf",
+    "clientCertPass" : "encrypted:jT4Zl0mwMnsuhqYLQaQrZ41oqHqv8BlU",
     "clientCertificate" : "c:\\newcerts\\support-qlik1\\client.pfx",
     "deploymentServerName" : "",
     "enginePort" : 4747,
